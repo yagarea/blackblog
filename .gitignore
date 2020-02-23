@@ -1,0 +1,8 @@
+
+.DS_Store
+
+_site/scripts/login_info.txt
+
+_graphics/
+
+scripts/__pycache__/
