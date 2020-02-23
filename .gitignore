@@ -6,3 +6,5 @@ _site/scripts/login_info.txt
 _graphics/
 
 scripts/__pycache__/
+
+scripts/login_info.txt
