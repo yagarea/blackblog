@@ -1,5 +1,7 @@
 ---
 title:  "Markdown examples"
+category: "Development"
+language: "EN"
 layout: post
 ---
 

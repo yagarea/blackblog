@@ -1,5 +1,7 @@
 ---
 title:  "Advanced examples"
+category: "Development"
+language: "EN"
 mathjax: true
 layout: post
 ---
