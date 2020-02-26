@@ -1,16 +1,9 @@
-@media (prefers-color-scheme: light)
-  html
-    background: $light
-    color: $dark
-
-@media (prefers-color-scheme: dark)
-  html
-    background: $dark
-    color: $light
 
 html
   font-size: 16px
   font-size: $font-size
+  background: $dark
+  color: $light
 
 body
   font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif
@@ -61,7 +54,7 @@ img, li
   margin: .5em 0
 
 lu, li, p
-  line-height: 110%
+  line-height: 105%
 
 img
   border-radius: 2px
@@ -96,3 +89,6 @@ pre
   border-radius: 2px
   margin: 0 .1em
   padding: .2em .4em
+
+ignore-css
+  all: unset;
