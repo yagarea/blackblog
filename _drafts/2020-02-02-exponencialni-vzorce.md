@@ -1,5 +1,7 @@
 ---
 title:  "Exponenciální vzorce"
+category: "Mathematics"
+language: "CZ"
 mathjax: true
 layout: post
 ---
