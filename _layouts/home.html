@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{{ content }}
+
 {% if site.show_excerpts %}
   {%- assign posts = paginator.posts | default: site.posts -%}
   {% for post in posts %}
@@ -9,6 +12,7 @@ layout: default
 {% else %}
   {% include archive.html title="Posts" %}
 {% endif %}
+
 
 {% if paginator.total_pages > 1 %}
   <footer>
