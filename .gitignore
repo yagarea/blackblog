@@ -17,3 +17,5 @@ __pycache__/
 *.swo
 
 scripts/login_info.txt
+
+_graphics/
