@@ -1,10 +1,18 @@
+# Jekyll export files
+_site
+.sass-cache
+.jekyll-metadata
 
-.DS_Store
+# Binary files
+*.xcf
 
-_site/scripts/login_info.txt
+# Python export files
+__pycache__/
 
-_graphics/
-
-scripts/__pycache__/
+# Other
+\.DS_Store
+*.swp
+*.un~
+*.swo
 
 scripts/login_info.txt
