@@ -8,32 +8,36 @@ def remove_content():
     permanent_files = ["info.php", ".gitkeep"]
     permanent_folders = ["subdom", "domains"]
 
+    
     # for all subdirectories of the current directory
     for content in ftp.nlst():
-        # if it's a file
-        if "." in content:
-            # and the content isn't permanent
-            if content not in permanent_files:
-                # if it's a file, delete it
-                ftp.delete(content)
+        try:
+            # if it's a file
+            if "." in content:
+                # and the content isn't permanent
+                if content not in permanent_files:
+                    # if it's a file, delete it
+                    ftp.delete(content)
 
-                print("DELETED FILE:\t\t" + ftp.pwd() + "/" + content)
-        else:
-            # move down to the directory and recursively call remove_content
-            ftp.cwd(content)
-            remove_content()
+                    print("DELETED FILE:\t\t" + ftp.pwd() + "/" + content)
+            else:
+                # move down to the directory and recursively call remove_content
+                ftp.cwd(content)
+                remove_content()
 
-            # move up a directory and delete the folder, if it doesn't already exist
-            ftp.cwd("..")
-            if content not in permanent_folders:
-                ftp.rmd(content)
+                # move up a directory and delete the folder, if it doesn't already exist
+                ftp.cwd("..")
+                if content not in permanent_folders:
+                    ftp.rmd(content)
 
-            print("DELETED DIRECTORY:\t" + ftp.pwd() + "/" + content)
+                print("DELETED DIRECTORY:\t" + ftp.pwd() + "/" + content)
+        except Exception as e:
+            print(str(e))
 
 
 def add_content():
     """Recursively adds the content from the _site folder to the website."""
-    ignore = ["scripts", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "Rakefile"]
+    ignore = ["scripts", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "Rakefile", ".xfc"]
     # move to the _site
     os.chdir(os.path.join("..", "_site"))
 
@@ -43,11 +47,16 @@ def add_content():
         if directory[2:] != "" and directory[2:] not in ignore:
             directories.append(directory[2:].replace("\\", "/"))
 
+    
     # upload (create) all directories
     for directory in sorted(directories):
-        if directory not in ftp.nlst():
-            ftp.mkd(directory)
-            print("CREATED DIRECTORY:\t" + directory)
+        try:
+            if directory not in ftp.nlst():
+                ftp.mkd(directory)
+                print("CREATED DIRECTORY:\t" + directory)
+        except Exception as e:
+            print(str(e))
+
 
     # get all files
     files = [
@@ -65,8 +74,12 @@ def add_content():
 
     # upload all files
     for file in files:
-        ftp.storbinary("STOR " + file, open(file, "rb"))
-        print("CREATED FILE:\t\t" + file)
+        try:
+            ftp.storbinary("STOR " + file, open(file, "rb"))
+            print("CREATED FILE:\t\t" + file)
+        except Exception as e:
+             print(str(e))
+
 
 try:
     print("searching for login file")
@@ -88,7 +101,7 @@ while True:
             print("Connected!")
             print(ftp.cwd("www"))
 
-            # remove all content that isn't permanent
+            #remove all content that isn't permanent
             remove_content()
 
             # add all content from _site folder which is not ignored
