@@ -1,5 +1,7 @@
 ---
 title:  "Hnutí nového věku"
+category: "Theology"
+language: "CZ"
 layout: post
 ---
 
@@ -23,7 +25,7 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 
 ### Podobenství o hladu ve městě
 
-> Ve městě je hlad, lidé v něm jsou hladoví. Hlad mají v nějaké míře všichni. Někdo má velký, někdo skoro žádný, ale i ten ví, že ve městě je hlad. Jednotliví lidé hledají potravu. Když se podíváte z okna, tak vidíte lidi dobývat se do zavřených obchodů a nebo jiným způsobem si získávat potravu. (Jev - paralelní chování). Objeví se nová zpráva, že na starém předměstí je nový obchod, který je plný chleba. Hromada lidí vtrhne do obchodu a vyrabuje ho (jev - kolektivní chování). Ostatní lidé toto chování považují za neakceptovatelné a snaží se donutit magistrát města, aby s tím něco dělal. Uspořádají demonstraci, všichni budou mít transparenty, stejnou čepici s nápisem "jídlo pro všechny". S těmito hesly vzniká ideologie. Nakonec lidé donutí magistrát reagovat. Vznikne nový odbor distribuce potravin. Začne mít velké pravomoce, velký politický vliv i vliv na náboženství. Nakonec se odbor distancuje od lidí, politiky i náboženství a stává se samostatnou institucí.
+> Ve městě je hlad, lidé v něm jsou hladoví. Hlad mají v nějaké míře všichni. Někdo má velký, někdo skoro žádný, ale i ten ví, že ve městě hlad je. Jednotliví lidé hledají potravu. Když se podíváte z okna, tak vidíte lidi dobývat se do zavřených obchodů a nebo jiným způsobem si získávat potravu. (Jev - paralelní chování). Objeví se nová zpráva, že na starém předměstí je nový obchod, který je plný chleba. Hromada lidí vtrhne do obchodu a vyrabuje ho (jev - kolektivní chování). Ostatní lidé toto chování považují za neakceptovatelné a snaží se donutit magistrát města, aby s tím něco dělal. Uspořádají demonstraci, všichni budou mít transparenty, stejnou čepici s nápisem "jídlo pro všechny". S těmito hesly vzniká ideologie. Nakonec lidé donutí magistrát reagovat. Vznikne nový odbor distribuce potravin. Začne mít velké pravomoce, velký politický vliv i vliv na náboženství. Nakonec se odbor distancuje od lidí, politiky i náboženství a stává se samostatnou institucí.
 >
 > To všechno jsou hnutí nového věku.
 
