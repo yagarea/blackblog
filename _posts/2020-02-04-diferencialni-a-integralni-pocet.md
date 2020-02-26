@@ -1,5 +1,7 @@
 ---
 title:  "Diferenciální a integrální počet"
+category: "Mathematics"
+language: "CZ"
 mathjax: true
 layout: post
 ---
@@ -165,17 +167,34 @@ Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
 - neklesající 	$$\iff$$ $$\forall x \in (A;B); f'(x) \geq 0$$
 - neroustoucí 	$$\iff$$ $$\forall x \in (A;B); f'(x) \leq 0$$
 
-### Inflexe
+### Inflexe ❓
 
-???
+- konvexnost
+- konkávnost
+
+- Inflexe
+	- Pro bod podezřelý z inflexe platí: $$f''(x) = 0$$
+	- Pro inflexní bod platí $$x_i$$ platí
 
 ---
-## Integrál
+## Integrál ❓
 
-| $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$ | $$ a \neq -1 $$ |
-| $$ \int e^x dx = e^x + C $$ |
-| $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$ |
-| $$ \int a^x dx = \frac{a^x}{\ln a} + C $$ |
-| $$ \int \sin x dx = -\cos x + C $$ |
-| $$ \int \cos x dx = \sin x + C $$ |
-| $$ \int $$ |
+### Primitivní funkce ❓
+
+### Neurčitý integrál ❓
+
+### Reimanovské integrály ❓
+
+### Newton Leibniz ❓
+
+| $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$ 	| $$ a \neq -1 $$ |
+| $$ \int e^x dx = e^x + C $$ 						|
+| $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$ 			|
+| $$ \int a^x dx = \frac{a^x}{\ln a} + C $$ 		|
+| $$ \int \sin x dx = -\cos x + C $$ 				|
+| $$ \int \cos x dx = \sin x + C $$ 				|
+
+### 
+
+
+
