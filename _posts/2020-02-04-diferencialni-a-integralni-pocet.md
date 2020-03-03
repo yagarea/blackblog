@@ -16,33 +16,37 @@ Malý tahák k diferenciálním a integrálním počtům
 Diferenciálními a integrálními počty se zabývá obor [Matematická analýza](https://cs.wikipedia.org/wiki/Matematick%C3%A1_anal%C3%BDza).
 
 ## Funkce
-**Definice funkce**: Zobrazení, které každému prvku z definičního oboru přiřadí nejvýše jeden prvek z oboru hodnot.
+**Definice funkce**: Funkce je relace $$R$$ mezi dvěma množinami $$X$$ a $$Y$$ splňující, že pro každé $$x \in X$$ existuje nevýše jedno $$y \in Y$$ tak, že $$(x,y) \in R$$
+
+značení funkce z množiny $$X$$ do množiny $$Y$$:  
+
+<h2> $$ f: X \to Y$$ </h2>
 
 ### Definiční obor
 Definiční obor funkce je množia všech přípustných hodnot, které můžeme ve funkci $$f(x)$$ dosadit za argument x tak, aby daná funkce měla smysl.
 
-$$ D_f = \{ x \in X |( \exists Y \in X)(f(x) = y)\} $$
+<h2> $$ D_f = \{ x \in X |( \exists Y \in X)(f(x) = y)\} $$ </h2>
 
 ### Obor hodnot
 Obor hodnot je množina všech hodnot, kterých může $$ f(x) $$ nabýt.
 
-$$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$
+<h2> $$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$ </h2>
 
 ### Druhy zobrazení
-- **Bijekce** - ke každému X připadá jedno Y  
+- **Bijekce** - ke každému $$x$$ připadá právě jedno $$y$$  
 ![Bijekce](/assets/img/bijekce.png)
-- **Injekce** - ke každému X připadá jedno Y, ale k některým Y nemusí být přiřazeno  
+- **Injekce** - Ke každému $$y$$ připadá nejvýše jedno $$x$$  
 ![Injekce](/assets/img/injekce.png)  
-- **Surjekce** - Ke každému Y existuje alespoň jedno X  
+- **Surjekce** - Ke každému $$y$$ existuje alespoň jedno $$x$$  
 ![Surjekce](/assets/img/surjekce.png)
 
 ### Interval monotónosti
 Funkce $$f$$ je na intervalu $$ (a;b) $$: 
 
-- rostoucí $$ \iff \forall x_1, x_2 \in (a;b) \land x_1 < x_2 ; f(x_1) < f(x_2)$$
-- neklesající $$ \iff \forall x_1, x_2 \in (a;b) \land x_1 < x_2 ; f(x_1) \leq f(x_2)$$
-- klesající $$ \iff \forall x_1, x_2 \in (a;b) \land x_1 < x_2 ; f(x_1) > f(x_2)$$ 
-- neklesající $$ \iff \forall x_1, x_2 \in (a;b) \land x_1 < x_2 ; f(x_1) \geq f(x_2)$$ 
+- rostoucí $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) < f(x_2)$$
+- neklesající $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \leq f(x_2)$$
+- klesající $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) > f(x_2)$$ 
+- nerostoucí $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \geq f(x_2)$$ 
 
 ### Sudost/Lichost
 - Funkce $$f$$ je lichá $$ \iff f(x) = -f(x) $$ 
@@ -50,7 +54,7 @@ Funkce $$f$$ je na intervalu $$ (a;b) $$:
 - Funkce není sudá ani lichá pokud neplatí ani jedna z předchozích vlastností
 
 ### Průsečíky s osami
-Průsečík P s náleží průniku množiny bodů osy a oboru hodnot funkce: $$ P \in Osa \cap H_f $$
+Průsečík $$P$$ náleží průniku množiny bodů osy a oboru hodnot funkce: $$ P \in$$ osa $$ \cap H_f $$
 
 #### Průsečík s osou Y
 - Existuje nejvýše jeden průsečík s osou Y. (Vychází z definice funkce)
@@ -60,22 +64,21 @@ Průsečík P s náleží průniku množiny bodů osy a oboru hodnot funkce: $$ 
 - pro průsečík $$P_X$$ platí $$ P_X = [x; 0] ; f(x) = 0 $$
 
 ### Limita
-Limita je hodnota, ke které funkce $$f(x)$$ konverguje. V jednom bodě může být nejvýše jedna limita.
 
 
-#### Limita vlastní
-
-Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in H_f$$
-
-$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in O_{\delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \delta; a + \delta); f(x) \in (L - \epsilon; L + \epsilon)$$  
-
-#### Limita nevlastní
-
-Limita je nevlastní $$ \iff \lim_{x \to a} f(x) \not\in H_f$$                  
+$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in O_{\delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \delta; a + \delta); f(x) \in (L - \epsilon; L + \epsilon)$$
 
 $$ \lim_{x \to \infty} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists x_0 \in D_f \forall  x > x_0 ; | f(x) -L | < \epsilon $$
 
 $$ \lim_{x \to -\infty} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists x_0 \in D_f \forall x < x_0 ; | f(x) - L | < \epsilon $$
+
+#### Limita vlastní
+
+Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in \mathbb{R}$$
+
+#### Limita nevlastní
+
+Limita je nevlastní $$ \iff \lim_{x \to a} f(x) \in \{-\infty;\infty\}$$
 
 #### Limita ve vlastním bodě
 
@@ -89,18 +92,30 @@ $$ \lim_{x \to \infty} \frac{a}{x^n} = 0 $$
 
 $$ \lim_{x \to \infty} \sqrt[a]{x} = \infty $$
 
-$$ \lim_{x \to \infty} a^x = \infty $$
+$$ \lim_{x \to \infty} a^x = \infty  \iff a > 1$$
 
 ### Spojitost
-Funkce $$f(x)$$ je spojitá v bodě A $$ \iff \lim_{x \to a}f(x) \in H_f$$
+Funkce $$f(x)$$ je spojitá v bodě $$ a  \iff \lim_{x \to a}f(x) = f(a)$$
 
-Funkce $$f(x)$$ je v bodě A spojitá $$ \iff A \in D_f \land \forall \epsilon > 0 \, \exists \delta > 0 ; \forall x \in O_{\epsilon}(A); f(x) \in O_{\epsilon}(f(a)) $$
+Funkce $$f(x)$$ je v bodě a spojitá $$ \iff a \in D_f \land \forall \epsilon > 0 \, \exists \delta > 0 ; \forall x \in O_{\epsilon}(a); f(x) \in O_{\epsilon}(f(a)) $$
 
 Funkce $$f(x)$$ je spojitá z prava v bodě $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in <a;a + \delta); f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
 Funkce $$f(x)$$ je spojitá z leva $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in  (a + \delta;a> ; f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
 Funkce $$f(x)$$ je spojitá na intervalu <c; d> $$\iff f(x)$$ je spojitá na $$(c; d) \land f(x)$$ je v $$c$$ spojitá z prava $$\land f(x)$$ je v $$d$$ spojitá z leva
+
+### Asymptoty 
+
+Asymptota je přímka, ke které funkce f konverguje.
+
+#### Bez směrnice
+
+- Je kolmá na osu X a rovnoběžná s osou Y
+- je jí předpis je $$X = k$$
+
+#### Se směrnicí
+- Její předpis je $$y = kx + q$$ kdy $$ k = \lim_{x \to \infty} = \frac{f(x)}{x} $$ a $$q = \lim_{x \to \infty} = f(x) - kx $$
 
 
 ---
@@ -110,7 +125,7 @@ Derivace funkce se značí přidáním `'` za označení funkce.
 
 ### Formální definice
 
-$$ f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} $$
+<h2> $$ f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} $$ </h2>
 
 #### Vzorce pro derivování funkcí
 
@@ -167,16 +182,54 @@ Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
 - neklesající 	$$\iff$$ $$\forall x \in (A;B); f'(x) \geq 0$$
 - neroustoucí 	$$\iff$$ $$\forall x \in (A;B); f'(x) \leq 0$$
 
-### Inflexe ❓
+### Tečna ke grafu funkce
 
-- konvexnost
-- konkávnost
+Tečna ke grafu funkce $$f$$ v bodě $$T = [x_0, y_0]$$; $$y_0 = f(x_0)$$:
 
-- Inflexe
-	- Pro bod podezřelý z inflexe platí: $$f''(x) = 0$$
-	- Pro inflexní bod platí $$x_i$$ platí
+<h2> $$ y -y_0 = f'(x).(x - x_0) $$ </H2>
+
+
+### Inflexe
+
+ - Pro bod podezřelý z inflexe platí: $$f''(x) = 0$$
+
+Nechť $$J$$ je interval, $$f$$ je funkce a $$J \subset D_f$$. Řekneme, že $$f$$ je:
+- **Konvexní** na $$ J \iff \forall x,y \in J \forall \lambda \in [0,1]: f(\lambda x + ( 1 - \lambda )y) \leq \lambda f(x) + (1 - \lambda)f(y)$$
+- **Konkávní** na $$ J \iff \forall x,y \in J \forall \lambda \in [0,1]: f(\lambda x + ( 1 - \lambda )y) \geq \lambda f(x) + (1 - \lambda)f(y)$$ 
+
+- funkce $$f$$ je v bodě $$A$$ konvexní $$ \iff f''(A_X) > 0 $$
+- funkce $$f$$ je v bodě $$A$$ konkávní $$ \iff f''(A_X) < 0 $$
+
+## L' Hospitalovo pravidlo
+
+ Nechť $$ a \in \mathbb{R} \cup \{-\infty\}, f,g$$ jsou funkce $$\lim_{x \to a^+} \frac{f'(x)}{g'(x)}$$.
+ Předpokládejme, že buď $$\lim_{x \to a^+} f(x) = \lim_{x \to a^+} g(x) = 0$$ , nebo $$\lim_{x \to a^+} |g(x)| = \infty$$. Potom $$\lim_{x \to a^+} \frac{f(x)}{g(x)} = \lim_{x \to a^+} \frac{f'(x)}{g'(x)} $$.
+
+
 
 ---
+
+
+## Vyšetření průběhu funkce
+
+> 1. **Spojitost**
+> 2. **Sudost/lichost**
+> 3. **Průsečíky s osami**
+> 4. **První derivace**
+>	- Stacionární body
+>	- Monotónost funkce
+>	- Lokální extrémy
+> 5. **Druhá derivace**
+>	- Inflexní body
+>	- Konkávnost/konvexnost
+> 6. **Asymptoty**
+>	- Asymptoty se bez směrnice
+>	- Asymptoty se směrnicí
+> 7. **Periodicita**
+> 8. **Funkční hodnoty ve význačných bodech**
+> 9. **Náčrt grafu**
+> 10. **Obor funkčních hodnot**
+
 ## Integrál ❓
 
 ### Primitivní funkce ❓
@@ -188,13 +241,15 @@ Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
 ### Newton Leibniz ❓
 
 | $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$ 	| $$ a \neq -1 $$ |
-| $$ \int e^x dx = e^x + C $$ 						|
+| $$ \int e^x dx = e^x + C $$ 						| 
 | $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$ 			|
 | $$ \int a^x dx = \frac{a^x}{\ln a} + C $$ 		|
 | $$ \int \sin x dx = -\cos x + C $$ 				|
 | $$ \int \cos x dx = \sin x + C $$ 				|
 
-### 
+### Určitý integrál ❓
 
+### Obsah pod grafem ❓
 
+### Objem rotačního tělesa ❓
 
