@@ -14,7 +14,7 @@
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
 {% if site.sidebar %}
-  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}" media="screen and (min-width: 70em)">
+  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}" media="screen and (min-width: {{ site.sidebar_limit }})">
 {% endif %}
 {% if site.plugins contains "jekyll-feed" %}
   <link rel="alternate" href="{{ site.feed.path | default: '/feed.xml' | relative_url }}" type="application/atom+xml" title="{{ site.title }}">
