@@ -16,7 +16,7 @@ Main purpose of this blog is my own effort to learn how to write and give others
 
 # About me
 
-I am a Czech highschool student. My interests are software development, Mathematics, Theology and philosophy. In my free time I try to write lyrical stuf, but I am not self-confident enought to publish anything yet. I also love to attend metal or hardcore concerts, ski and travel. 
+I am a Czech highschool student. My interests are software development, Mathematics, Theology and Philosophy. In my free time I try to write lyrical stuff, but I am not self-confident enought to publish anything yet. I also love to attend metal or hardcore concerts, ski and travel. 
 
 **- Jan Černý**
 # Moto 
@@ -28,5 +28,5 @@ I am a Czech highschool student. My interests are software development, Mathemat
 
 ### EN
 
-> <h2> „Best ideas are the ones, which let always small slit for posibility, that everything can be totaly different.“</h2>
+> <h2> „Best idea is the one, which lets always small slit for posibility, that everything can be totaly different.“</h2>
 > \- Václav Havel
