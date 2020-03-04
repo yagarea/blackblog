@@ -32,7 +32,7 @@ def remove_content():
 
                 print("DELETED DIRECTORY:\t" + ftp.pwd() + "/" + content)
         except Exception as e:
-            print(str(e))
+            print("ERROR: \t\t" + str(e) + " (" + str(content) + ")")
 
 
 def add_content():
@@ -55,7 +55,7 @@ def add_content():
                 ftp.mkd(directory)
                 print("CREATED DIRECTORY:\t" + directory)
         except Exception as e:
-            print(str(e))
+            print("ERROR: \t\t" + str(e) + " (" + str(directory) + ")")
 
 
     # get all files
@@ -78,7 +78,7 @@ def add_content():
             ftp.storbinary("STOR " + file, open(file, "rb"))
             print("CREATED FILE:\t\t" + file)
         except Exception as e:
-             print(str(e))
+             print("ERROR: \t\t" + str(e) + " (" + str(file) + ")")
 
 
 try:
