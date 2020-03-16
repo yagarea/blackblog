@@ -29,6 +29,7 @@ navigation:
 
 external:                    # see http://fontawesome.com/icons
   - {title: References, icon: envelope, url: "/ref"}
+  - {title: Meziklasí, icon: seedling, url: "http://www.meziklasi.cz/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
