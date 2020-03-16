@@ -20,17 +20,17 @@ Diferenciálními a integrálními počty se zabývá obor [Matematická analýz
 
 značení funkce z množiny $$X$$ do množiny $$Y$$:  
 
-<h2> $$ f: X \to Y$$ </h2>
+$$ f: X \to Y$$
 
 ### Definiční obor
 Definiční obor funkce je množia všech přípustných hodnot, které můžeme ve funkci $$f(x)$$ dosadit za argument x tak, aby daná funkce měla smysl.
 
-<h2> $$ D_f = \{ x \in X |( \exists Y \in X)(f(x) = y)\} $$ </h2>
+$$ D_f = \{ x \in X |( \exists Y \in X)(f(x) = y)\} $$
 
 ### Obor hodnot
 Obor hodnot je množina všech hodnot, kterých může $$ f(x) $$ nabýt.
 
-<h2> $$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$ </h2>
+$$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$
 
 ### Druhy zobrazení
 - **Bijekce** - ke každému $$x$$ připadá právě jedno $$y$$  
@@ -63,8 +63,21 @@ Průsečík $$P$$ náleží průniku množiny bodů osy a oboru hodnot funkce: $
 #### Průsečík s osou X
 - pro průsečík $$P_X$$ platí $$ P_X = [x; 0] ; f(x) = 0 $$
 
-### Limita
 
+### Příklady základních funkcí
+
+| Funkce 																		 | Příklad grafu |
+|:------------------------------------------------------------------------------:|:-:|
+| **Konstanttní funkce:**<br> $$f: y = c $$ <br>  $$ D_f = \mathbb{R} $$ <br> $$ H_f = \{c\}$$ <br> Křivka: Rovnoběžka s osou X | ![const](/assets/img/func/const.png){:.table-img} |
+| **Lineární funkce:** <br> $$f: y = ax + b$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Přímka| ![Linear](/assets/img/func/linear.png){:.table-img} |
+| **Kvadratická funkce:** <br> $$ f: y = ax^2 + bx + c $$ <br> $$ D_f = \mathbb{R} $$ <br> Křivka: Parabola |  ![quadratic](/assets/img/func/parabola.png){:.table-img} |
+| **Kubická funkce:** <br> $$ f: y = ax^3 + bx^2 +cx + d $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Kubická parabola | ![cubic](/assets/img/func/cubic.png){:.table-img} |
+| **Exponenciální funkce:** <br> $$f: y = c^x $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ $$ <br> Křivka: Exponenciála | ![expo](/assets/img/func/expo.png){:.table-img} |
+| **Logaritmická funkce:** <br> $$f: y = \log_a x $$ <br> $$ D_f = \mathbb{R}^+ $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Logaritmická křivka | ![log](/assets/img/func/log.png){:.table-img} |
+| **Absolutní hodnota:** <br> $$f: y = \|x\|$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ \cup \{0\} $$ <br> Křivka: Lomená přímka | ![abs](/assets/img/func/absolute.png){:.table-img} |
+
+
+### Limita
 
 $$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in O_{\delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \delta; a + \delta); f(x) \in (L - \epsilon; L + \epsilon)$$
 
@@ -72,17 +85,12 @@ $$ \lim_{x \to \infty} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists x
 
 $$ \lim_{x \to -\infty} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists x_0 \in D_f \forall x < x_0 ; | f(x) - L | < \epsilon $$
 
-#### Limita vlastní
-
-Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in \mathbb{R}$$
-
-#### Limita nevlastní
-
-Limita je nevlastní $$ \iff \lim_{x \to a} f(x) \in \{-\infty;\infty\}$$
-
-#### Limita ve vlastním bodě
-
-Funkce $$f$$ má v bodě x limitu ve vlastním bodě $$\iff x \in D_f$$
+- Limita vlastní
+	- Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in \mathbb{R}$$
+- Limita nevlastní
+	- Limita je nevlastní $$ \iff \lim_{x \to a} f(x) \in \{-\infty;\infty\}$$
+- Limita ve vlastním bodě
+	- Funkce $$f$$ má v bodě x limitu ve vlastním bodě $$\iff x \in D_f$$
 
 #### Limity v nekonečnu
 
@@ -125,7 +133,7 @@ Derivace funkce se značí přidáním `'` za označení funkce.
 
 ### Formální definice
 
-<h2> $$ f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} $$ </h2>
+$$ f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} $$
 
 #### Vzorce pro derivování funkcí
 
@@ -173,6 +181,12 @@ $$ ([f(x)]^{g(x)})' = [f(x)]^{g(x)} \bigg( g'(x)\ln (f(x)) + g(x)\frac{f'(x)}{f'
 - Funkce $$f$$ má v bodě $$M \in D_f$$ lokální maximum $$\iff \exists U; U = (M - \epsilon,M + \epsilon); \epsilon > 0 \land \forall x \in U \cap D_f$$ platí $$ f(x) \leq f(M)$$ 
 - Funkce $$f$$ má v bodě $$M \in D_f$$ lokální minimum $$\iff \exists U; U = (M - \epsilon,M + \epsilon); \epsilon > 0 \land \forall x \in U \cap D_f$$ platí $$ f(x) \geq f(M)$$ 
 
+![Local extremes](/assets/img/local-ex.png)
+
+Legenda:
+- $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$ $$
+- $$ g: f'(x) $$ $$ $$
+
 ### Monotónost
 
 Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
@@ -186,7 +200,7 @@ Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
 
 Tečna ke grafu funkce $$f$$ v bodě $$T = [x_0, y_0]$$; $$y_0 = f(x_0)$$:
 
-<h2> $$ y -y_0 = f'(x).(x - x_0) $$ </H2>
+$$ y -y_0 = f'(x).(x - x_0) $$
 
 
 ### Inflexe
@@ -200,15 +214,21 @@ Nechť $$J$$ je interval, $$f$$ je funkce a $$J \subset D_f$$. Řekneme, že $$f
 - funkce $$f$$ je v bodě $$A$$ konvexní $$ \iff f''(A_X) > 0 $$
 - funkce $$f$$ je v bodě $$A$$ konkávní $$ \iff f''(A_X) < 0 $$
 
+![Local extremes](/assets/img/inflex.png)
+
+Legenda:
+- $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$ $$
+- $$ g: f''(x) $$ $$ $$
+- V bodě $$A$$ je funkce konkávní
+- V bodě $$B$$ je funkce konvexní
+
+
 ## L' Hospitalovo pravidlo
 
  Nechť $$ a \in \mathbb{R} \cup \{-\infty\}, f,g$$ jsou funkce $$\lim_{x \to a^+} \frac{f'(x)}{g'(x)}$$.
  Předpokládejme, že buď $$\lim_{x \to a^+} f(x) = \lim_{x \to a^+} g(x) = 0$$ , nebo $$\lim_{x \to a^+} |g(x)| = \infty$$. Potom $$\lim_{x \to a^+} \frac{f(x)}{g(x)} = \lim_{x \to a^+} \frac{f'(x)}{g'(x)} $$.
 
-
-
 ---
-
 
 ## Vyšetření průběhu funkce
 
@@ -220,7 +240,7 @@ Nechť $$J$$ je interval, $$f$$ je funkce a $$J \subset D_f$$. Řekneme, že $$f
 >	- Monotónost funkce
 >	- Lokální extrémy
 > 5. **Druhá derivace**
->	- Inflexní body
+>	- Inflexní body 
 >	- Konkávnost/konvexnost
 > 6. **Asymptoty**
 >	- Asymptoty se bez směrnice
@@ -230,26 +250,36 @@ Nechť $$J$$ je interval, $$f$$ je funkce a $$J \subset D_f$$. Řekneme, že $$f
 > 9. **Náčrt grafu**
 > 10. **Obor funkčních hodnot**
 
-## Integrál ❓
+## Integrál
 
-### Primitivní funkce ❓
+### Primitivní funkce
 
-### Neurčitý integrál ❓
+Primitivní funkce se značí velkým písmenem. První derivace primitivní funkkce je funkce zadaná
 
-### Reimanovské integrály ❓
+$$ F'(x) = f(x) $$
 
-### Newton Leibniz ❓
+### Neurčitý integrál
 
-| $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$ 	| $$ a \neq -1 $$ |
-| $$ \int e^x dx = e^x + C $$ 						| 
-| $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$ 			|
-| $$ \int a^x dx = \frac{a^x}{\ln a} + C $$ 		|
-| $$ \int \sin x dx = -\cos x + C $$ 				|
-| $$ \int \cos x dx = \sin x + C $$ 				|
+Pro neurčitý integrál platí:
 
-### Určitý integrál ❓
+| $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$   | $$ a \neq -1 $$ |
+| $$ \int e^x dx = e^x + C $$                       |
+| $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$           |
+| $$ \int a^x dx = \frac{a^x}{\ln a} + C $$         |
+| $$ \int \sin x dx = -\cos x + C $$                |
+| $$ \int \cos x dx = \sin x + C $$                 |
 
-### Obsah pod grafem ❓
+### Newton Leibnizova věta
 
-### Objem rotačního tělesa ❓
+$$ \int_a^b f(x) dx = [F(x)]_a^b = F(b) - F(a) $$
+
+#### Obsah pod grafem
+
+Obsah útvaru ohraničeného grafem, osou X a dvěmi rovnoběžkami procházející hranicemi intervalu na které je útvar určen se rovná $$ \int_a^b f(x) dx$$
+
+#### Objem rotačního tělesa
+
+Objem rotačního tělesa lze vyjárřit jako
+
+$$ V = \pi \int_a^b f(x)^2 dx $$
 
