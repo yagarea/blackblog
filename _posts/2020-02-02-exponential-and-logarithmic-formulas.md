@@ -1,14 +1,14 @@
 ---
-title:  "Exponenciální vzorce"
+title:  "Exponential and logarithmic formula"
 category: "Mathematics"
-language: "CZ"
+language: "EN"
 mathjax: true
 layout: post
 ---
 
-## Mocniny
+## Exponential formulas
 
-| Vzorec									 | Definiční obor							  					 		 |
+| Formula									 | Function domain							  					 		 |
 |:------------------------------------------:|:---------------------------------------------------------------------:|
 | $$ a^r . a^s = a^{r + s} $$ 			  	 | $$ a \in \mathbb{R} ; r,s \in \mathbb{N} $$ 					 	  	 |
 | $$ (a^r)^s = a^{rs} $$	  			  	 | $$ a \in \mathbb{R} ; r,s \in \mathbb{N} $$ 					 		 |
@@ -24,10 +24,10 @@ layout: post
 | $$ (\sqrt{a})^r = \sqrt{a^r} $$	 		 | $$ a \ge 0 ; r,s \in \mathbb{R} $$									 |
 
 
-## Logaritmy
+## Logaritmic formulas
 
-| Vzorec			                		 		| Definiční obor |
-|:-------------------------------------------------:|:--------------:|
+| Formula			                		 		| Function domain											  |
+|:-------------------------------------------------:|:-----------------------------------------------------------:|
 | $$ \log_{a}a = 1 $$								| $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
 | $$ \log_{a}1 = 0 $$ 								| $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
 | $$ \log_{a}a^r = r $$ 							| $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
@@ -35,6 +35,4 @@ layout: post
 | $$ \log_{a}{\frac{x}y} = \log_{a}x - \log_{a}y$$  | $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
 | $$ \log_{a}x = \frac{log_{b}x}{\log_{b}a} $$	    | $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
 | $$ \log_{a}b = \frac{1}{\log_{b}a} $$ 			| $$ a \in \mathbb{R}^{+} - {1} ;b \in \mathbb{R}^{+} - {1}$$ |
-
-
 
