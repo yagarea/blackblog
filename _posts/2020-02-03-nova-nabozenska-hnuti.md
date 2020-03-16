@@ -65,7 +65,7 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
 #### Test poslušnosti autoritě
 - Autor: Stenley Milgram
 - Nejednoznačná etičnost testu
-- **Průběh:** Testovaný subjekt měl za úkol dávat přes telefon otázky studentovi(najatý herec). Subjekt měl za úkol za každou špatnou odpověď měl subjekt studenta trestat elektrickým proudem, který ovládal. Byl přítomen i výskumník, který na subjekt vyvíjel nátlak aby pokračoval.
+- **Průběh:** Testovaný subjekt měl za úkol dávat přes telefon otázky studentovi(najatý herec). Subjekt měl za úkol za každou špatnou odpověď studenta trestat elektrickým proudem, který ovládal. Byl přítomen i výzkumník, který na subjekt vyvíjel nátlak aby pokračoval.
 - Stupně nátlaku:
 	- 1. stupeň `Prosím pokračujte` (výzkumníkova osoba)
 	- 2. stupeň `Experiment vyžaduje abyste pokračoval` (nátlak vyšším cílem)
