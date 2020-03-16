@@ -11,6 +11,13 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 
 **Doporučená literatura:** <br> Zdeněk Vojtíšek - Encyklopedie náboženských směrů v České republice - 2004 Portál<br/>Časopis Dingir
 
+\21. Března - Evolution
+\24. Března - Astrološka Zaurak
+\2. Dubna - Automatická kresba
+\14. Dubna - 
+\31. Března - Mantrovníci
+\24. Dubna - Spontální bubnování, tanec a zpěv
+\úterý po velikonocích - Rekonektivní léčení
 
 - .
 {:toc}
@@ -49,23 +56,23 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 - Odvozuje se od Japonce Usui Mikao (1865 - 1926), který měl v roce 1914 náboženský prožitek
 - Legenda a informace o vzniku jsou velmi chatrné a pofidérní
 - `Čakra` - energetické místo, které se otáčí a distribuuje kosmickou energii po těle
-- Předpodlady:
+- Předpoklady:
 	- _zasvěcení_ = otevření tří spodních čaker
 	- _právo zasvěcovat_ má člověk až po otevření všech 7 čaker
 - Člověk neuzdravuje, ale dokáže usměrňovat kosmickou energii na nemocná místa, kde energie léčí a harmonizuje
 - **Plausibilní teorie**
 	> Ve vesmíru je kosmická harmonická energie, pokud něco nefunguje nebo je někdo nemocný, je to důsledek disharmonie nebo nesprávného množství energie. Uzdravovat a opravovat se tedy dá usměrňováním kosmické energie.
 - Cílem je pomoci světu
-- **Nevědomé reiki** - reiki působí všude, i když o tom nevíte, takže lidé, co jsou uzdraveni třeba modlidbou, byli uzdraveni reiki nevědomě. Popis podobné energie je i v jiných směrech z _New age_ hnutí (Indie - brány; Čína - chi; Homeopatika - vitális)
+- **Nevědomé reiki** - reiki působí všude, i když o tom nevíte, takže lidé, co jsou uzdraveni třeba modlitbou, byli uzdraveni reiki nevědomě. Popis podobné energie je i v jiných směrech z _New age_ hnutí (Indie - brány; Čína - chi; Homeopatika - vitális)
 - Reiki je i kultura - velké množství knih, videí, filmů
 - Kurzy reiki - kolektivní chování - velký byznys
 - Reiki je i pohledem na svět a osobní filosofie
-- `Aura` = nehmotná energie kolem člověka. Je možné ji cítit a uzdravovat.
+- `Aura` = jemnohmotná/nehmotná energie kolem člověka. Je možné ji cítit a uzdravovat.
 - `Tělo` = hrubohmotná část člověka
 - Cílem reiki není uzdravit přímo tělo, ale auru a tím i tělo
 - Reiki jako instituce - REIKI ASSOCIATION INTERNATIONAL (vydává časopis `Srdce rodiny`), REIKI ALIANS
 - Silný placebo efekt
-- Je známo nezanedbatelné množství lídí, kteří z reiki učinili jedinou léčbu svých nemocí, kterým nakonec podlehli nebo je dostaly do velmi vážných stavů
+- Je známo nezanedbatelné množství lidí, kteří z reiki učinili jedinou léčbu svých nemocí, kterým nakonec podlehli nebo je dostaly do velmi vážných stavů
 
 ---
 
@@ -74,18 +81,18 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 Pozorování - 13.3. 11:3O
 
  - Vychází z předpokladu, že existují dvě podoby náboženství:                            
-	- exoterní - okolní svět určený pro obyčené lidi                                                     
+	- exoterní - okolní svět určený pro obyčejné lidi                                                     
 	- esoterní - vnitřní svět určený pro vybrané jedince
 - Podoba světa jsou sféry obsahující různé objekty
 - Gnostický obraz světa (starší než křesťanský)
 - Svět prvotní Boží emanace:
 	- svět stvořený - svět praforem, archetypů, idejí
-	- svět utvářený	- 
-	- svět činný	- 
+	- svět utvářený	- astrál - hutnější, hmotnější forma
+	- svět činný	- oblast hmotného světa
 
 - Astrál
 	- spiritismus, channeling, kontaktérství
-	- aura, aurická fotografie, aurický vampyrismus, manipulace s astrálními silami
+	- aura, aurická fotografie, aurický vampirismus, manipulace s astrálními silami
 	- automatické psaní, automatická kresba, věštba, parapsychologie (ESP), transpersonální zážitky
 	- astrální cestování, zážitky mimo tělo (OBE), životní síla
 	- reinkarnace (duchovní evoluce)
@@ -111,7 +118,7 @@ Pozorování - 13.3. 11:3O
 	- **Esoterika** = hanlivé označení komerční podoby esoterické tradice
 	- **Okultismus** = byl ekvivalentní esoterismu. Během 20. století slovo nabylo lidovosti a pejorativnosti. Dnes je tím myšlena lidová podoba okultismu 
 - Prvorepublikový esoterismus - rozkvět esoterismu v Česku
-- Esoterismus byl velmi častá odpověď na znepokující zjištění společnosti, že existuje mnoho náboženství.
+- Esoterismus byl velmi častá odpověď na znepokojující zjištění společnosti, že existuje mnoho náboženství.
 - Znovuobjevení v renesanci
 - Překlad Herméských desek - Marsilio Ficino (1433 - 1499)
 - V renesanci se pohanské motivy dostaly mezi intelektuály (včetně papežů), kteří nebrali esoterismus jako protikřesťanský, ale jako doplnění křesťanství.
@@ -129,7 +136,7 @@ Pozorování - 13.3. 11:3O
 		- Spisy:
 			- Fama Fraternitatis
 			- Confessio Fratnitas
-			- Chymická svatba Christiana Rozekreuze
+			- Chymická svatba Christiana Rosenkreuze
 		- Údajné počátky: bratrstvo na dvoře faraona Echnatona
 - **18. století**
 	- Svobodní zednáři 
@@ -141,10 +148,10 @@ Pozorování - 13.3. 11:3O
 - **19. století**
 	- Esoterické léčitelství - Mesmerismus
 	- Samual Hahneman - homeopatika
-	- Nové myšlení - "pozitvní myšlení se promítá do nového světa"
+	- Nové myšlení - "pozitivní myšlení se promítá do nového světa"
 	- Spiritismus
-	- Theosofická společnost (1875) - zanikla, protože je tak úspěšná. Všechny koncepty new age pocházejí z theosofické společnosti., vycházejí z ní i indeické směry 
-	- Hermetické obrození a okolutní společnosti (od poslední třetiny 19. stol)
+	- Theosofická společnost (1875) - zanikla, protože je tak úspěšná. Všechny koncepty new age pocházejí z theosofické společnosti., vycházejí z ní i indické směry 
+	- Hermetické obrození a okultní společnosti (od poslední třetiny 19. stol)
 - **20. století**
 	- parapsychologie (parapsychotronika) - od první třetiny 20. století
 		- v USSR - velmi rozšířené k vojenským účelům (špionáž, ovládání, ovlivňování) 
@@ -157,3 +164,138 @@ Pozorování - 13.3. 11:3O
 		- hlásání, že člověk má potenciál být bůh
 		- např. Scientologové
 	- Hnutí nového věku
+
+---
+
+## Theosofická společnost
+- Využívá myšlenku evoluce
+- Seznámení s jinými kulturami
+- Evoluce + reinkarnace = myšlenka theosofie 19. století
+- Reakce na nedostatečnou reflexi nové situace u majoritních církvích
+- "Hermetické obrození"
+- Odpověď na zájem o spiritualismus
+- Nemá dogmatické náboženství
+- Katolická církev se opevnila dogmatismem
+- Kompromis mezi dogmatickým náboženstvím a materialismem
+- Velký zájem o indická náboženství
+- Obnova indických tradic po Britském kolonialismu
+- Moto:
+	> „Není náboženství, které by stálo výše než pravda.“
+
+- ### Jelena Petrovna Blavatskaja (1831 - 1891)
+	- zvala si třikrát staršího muže; utekla od něj a žádala o rozvod
+	- spiritismus
+	- živila se jako médium
+	- údajně byla sedm let v Tibetu (Pravděpodobně není pravda)
+	- 1875 - zúčastnila s kongresem spiritistů
+	- přestal ji spiritismus bavit - založila Theosofickou společnost
+	- V třetí čtvrtině 19. století stanovila:
+		- Duchovní evoluce k bratrství lidstava - lidstvo se vyvíjí pozitivně
+		- Srovnávací studium náboženství a filosofie - způsob jak proniknou k náboženství prazákladu
+		- Studium sil v člověku - člověk má božskou podstatu, která může být rozvíjena. Projevují se v jasnovidectví, kontaktem s nelidskými bytostmi, zázraky (prostě nadpřirozené vnitřní schopnosti)
+	- Dílo:
+		- Odhalení Isis (1877) - nadiktováno vyšší bytostí
+		- Tajné učení (1888) - nadiktovali Mistr moria a Mistr Kutumi (Tibetští esoteričtí učitelé, nehmotní)
+		- Klíč k theosofii (1889) - to samé...
+	- Její knihy jsou spíš kompilace o ostatních náboženství než vlastní myšlenky
+	- 1883 - velká plagiátorská aféra
+	- 1885  -zkoumání Americkou společností pro výzkum psychiky - odhalení jejich podvodů
+
+> „Naším prvním cílem je vytvořit jádro celosvětového Bratrství a Lidství bez rozlišování rasy, 
+> barvy pleti a vyznání; naším druhým cílem je podpořit studium árijských a jinýchspisů stejně
+> jako náboženství a věd celého světa a ukázat důležitost starobylé asijské literatury, a zejména bráhmanistické, 
+> buddhistické a zoroastrické filosofie; naším třetím cílem je do hloubky a ze všech možných stran prozkoumat 
+> skrytá tajemství Přírody, a zvláště pak psychické a spirituální síly skrytév člověku.“
+>
+> \- J. P. B., Klíč k theosofii, 1889
+
+- ### Henry Steel Olcott (1832 - 1907)
+	- propagoval Budhismus na Ceylonu, Thajsku a dalších
+	- napsal knihu Budhistický katechismus - velmi úspěšný v buddhistických zemí
+
+- ### William James (1842 - 1910)
+	- Zakladatel psychologie náboženství
+	- významný filosof
+
+- ### Annie Wood Besentová (1847 - 1933)
+	- přezdívka militantní Anička
+	- cíle vědomá
+	- velmi vzdělaná
+	- organizovala stávky
+	- zakládala theosofická centra
+	- Po smrti Jeleny nahradila její místo
+	- navzájem se exkomunikovali s Henrym Steel Olcottem - oba zneužívali falešné výpovědi nehmotných bytostí k moci
+
+- ### Charles Websetr Leadbeater (1847 - 1933) 
+	- Uznaný pedofil
+	- organizačně schopný
+
+- Hledání pranáboženství (šamanismus byl před pohanstvím)
+- zasvěcení do skryté moudrosti
+- velmi málo semických náboženství
+- Avatar - sestoupení božstva - druhý příchod Krista
+	- jako avatar byl určen **Džíddu Krišnamurtí**
+		- velmi vzdělaný
+		- Indický původ
+		- v mladém věku přednášel
+		- rozhádal se s teosofickou společností - odmítal post mesiáše
+		- sepsal spoustu knih
+		- podle něj instituce a církve duchovnu brání
+
+- ### Rudolf Steiner (1861 - 1925)
+	- udělal skandál tím, že se chtěl vrátit k západnímu esoterismu a křesťanství
+	- odloučil se s německou církví po určení mesiáše
+	- založil Antroposofie
+	- FUNFACT: zakladatel drogerie DM je antroposof
+
+- ### Alice Beileová (1880 - 1949)
+	- významná theosofka
+	- sama začala kontaktovat mahátmy
+	- dostala se do konfliktu s Anne Wood Besentovou
+	- odloučila se pod jménem Argánská škola
+	- v padesátých letech 20. soletí vzniká Nová Akropolis - obnova theosofické společnosti (misijní strategie je nabídka studia a pak nenápadně konvertovat)
+	- prosazovala ideu skupin světla:
+		> Jsou tady jedinci co jsou duchovně pokročilí, ale tito jedinci zůstavají jednotlivci. Ale tito jednotlivci mohou vytvořit "skupiny světla". Malé ostrůvky, které se budou zvětšovat až pohltí celý svět.
+	- Její myšlenky jsou velmi významné pro hnutí nového věku
+	- Dílo:
+		- Invokace:
+> Nechť z bodu Světla v Mysli Boží<br/>
+> proudí Světlo v Mysl lidí. <br/>
+> Kéž Světlo sestoupí na Zem!<br/>
+>
+> Nechť z bodu Lásky v Srdci Božím<br/>
+>  proudí Láska v srdce lidí.<br/>
+> Kéž se Kristus vrátí na Zem!<br/>
+>
+> Ze středu, v němž je Vůle Boží známa,<br/>
+> kéž účel malé lidské vůle vede,<br/>
+> ten účel, který Mistři znají a jemuž slouží.<br/>
+> Ze středu, jejž lidské plémě zveme,<br/>
+> nechť plán Lásky a Světla vzejde<br/>
+> a zapečetí bránu, za níž sídlí zlo.<br/>
+>
+> Kéž Světlo, Láska a Síla obnoví tento plán na Zemi!
+
+- ### Carl Gustav Jung (1875 - 1961)
+	- Reagoval na změnu zvěrokruhu:
+		> „... je to mé lékařské svědomí, které mne nabádá,
+		> jedné velké historické epochy – konci jednoho eónu. 
+		> Jak víme už ze staroegyptských dějin, jsou to
+		> pokaždé na konci jednoho a na začátku následujícího platónského měsíce. 
+		> Jsou to, jak se zdá, změny v konstelaci psychických dominant, archetypů, ’bohů‘, 
+		> které způsobují anebo doprovázejí sekulární proměny kolektivní psýché. 
+		> Tato proměna již v průběhu historické tradice započala a zanechala své stopy nejdříve
+		> v přechodu z věku Býka (Taurus) do věku Berana (Aries) a pak při přechodu z věku Berana do věku Ryb (Pisces), 
+		> jehož začátek koinciduje se vznikem křesťanství. Nyní se blížíme k velké změně, 
+		> kterou lze očekávat se vstupem jarního bodu do souhvězdí Vodnáře (Aquarius). 
+		> Současná světová situace je jako dosud nikdy vhodná k tomu, aby vzbuzovala očekávání nějaké rozhodující, 
+		> nadpozemské a nadpřirozené události.“
+		>
+		> \- C. G. Jung, Tajemno na obzoru
+
+- Benjamin Creme
+	- 1945 - Maitréja ohlásil příchod svůj a Nového věku
+	- 1959 - zprávy od Maitréji
+	- 1977 - proroctví – očekávání 21. června 1982, žije nenápadně dostatek potravin, obydlí, zdravotní péče, vzdělání
+
+
