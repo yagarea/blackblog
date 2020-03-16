@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Advanced examples of anotation"
 category: "Development"
 language: "EN"
 mathjax: true
