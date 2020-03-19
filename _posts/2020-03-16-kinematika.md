@@ -11,7 +11,6 @@ layout: post
 	- Zakreslujeme pouze těžiště
 	- Rozměry jsou zanedbatelné
 	- Hmotnost zanedbatelná není
-
 - Klid i pohyb tělesa jsou vždy relativní. Absolutní klid neexistuje.
 - Těleso k němuž vztahujeme pohyb zkoumaného tělesa, je vztažné **těleso** (přesnější je vztažný bod)
 - Spojením vztažného tělesa se soustavou souřadnic a určením měření času dostáváme **vztažnou soustavu**
@@ -27,14 +26,14 @@ $$ V_p = \frac{s}{t} [m.s^{-1}] $$
 $$ V_p = \frac{\delta s}{\delta t} [m.s^{-1}] $$
 
 - Velikost okamžité rychlosti je definována jako průměrná rychlost ve velmi malém časovém intervalu na velmi malém úseku trajektorie (vektor). **Okamžitá rychlost** má vždy směr **tečny trajektorii**.
-- Velikost rychlosti se nemění = rovnoběžný pohyb
+- Velikost rychlosti se nemění = rovnoměrný pohyb
 - velikost rychlosti se mění = nerovnoměrný pohyb
 
 | Graf závislosti dráhy na čase pro rovnoměrného pohybu | Graf velikosti rychlosti rovnoměrného pohybu na čase |
 |-------------------------------------------------------|------------------------------------------------------|
 | ![Graf závislosti dráhy na čase pro rovnoměrného pohybu](/assets/img/kinem/graf-draha-na-case.png) | ![Velikosti rychlosti rovnoměrného pohybu na čase](/assets/img/kinem/graf-rychlost-na-case.png) |
 
-- Velikost okamžitě rychlosti je u rovnoměrného pohybu rovna průměrné rychlosti.
+- Velikost okamžité rychlosti je u rovnoměrného pohybu rovna průměrné rychlosti.
 
 $$ s = v.t $$
 
@@ -82,53 +81,4 @@ $$ s = v_0.t + \frac{1}{2}a.t^2 $$
 
 | Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí | Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí |
 |----------------------|--------------------------------|
-| ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí](/assets/img/kinem/graf-draha-zrychleny-nul.png) | ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí](/assets/img/kinem/graf-draha-zrychleny-nenul.png) |
-
-- Rovnoměrně zpomalený pohyb
-
-$$ s = v_0.t - \frac{1}{2}a.t^2 $$
-
-$$ s = s_0 + v_0.t - \frac{1}{2}a.t^2 $$
-
-| Graf dráhy rovnoměrného pohybu |
-|--------------------------------|
-| ![Graf dráhy rovnoměrného pohybu](/assets/img/kinem/graf-draha-zpomaleny.png) |
-
-- **Volný pád** 
-	- Rovnoměrně zrychlený se zrychlením **g** a nulovou počáteční rychlostí
-	- Tíhové zrychlení $$ g = 9,81 m.s^-2 $$
-	- Tíhové zrychlení je pro všechna tělesa padající ve vakuu stejné
-
-	$$ v = g.t $$
-
-	$$ s = \frac{1}{2} g.t^2 $$
-
-- Při skládání pohybů platí princip nezávislosti pohybů: 
-	> Koná-li hmotný bod současně dva nebo více pohybů, je jeho výsledná poloha taková, jako by konal pohyby po sobě v libovolném pořadí.
-
-- Rovnoměrný pohyb po kružnici (periodický pohyb)
-	- rychlost má směr tečny ke kružnici
-	- **průvodič hmotného bodu** - spojnice středu
-	- Úhlová dráha 
-
-		$$ \phi = \frac{s}{r} rad $$
-
-	- Úhlová rychlost
-
-		$$ \omega = \frac{\delta \phi}{\delta t} rad.s^{-1} $$
-
-		$$ \omega = \frac{2 \pi}{T} = 2 . \pi . f $$
-
-		$$ \phi = \omega . t $$
-
-		$$ v = \omega . r = 2.\pi.r.f = \frac{2\pi r}{T} $$
-
-	- dostředivé zrychlení (směr do středu kružnice)
-
-	$$ a = \frac{v^2}{r} = \omega^2 .r $$
-
-	- zrychlení - rozložení na složky 
-		- **tečné zrychlení**  - změna velikosti rychlosti - tečna
-		- **normálové zrychlení** - změna směru rychlosti - do středu)
-
-		$$ \vec{a} = \vec{a_t} + \vec{a_n} $$
+| ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí](/assets/img/kinem/graf-draha-zrychleny-nul.png) | ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí](/assets/img/kinem/gra
