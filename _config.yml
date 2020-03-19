@@ -30,6 +30,7 @@ navigation:
 external:                    # see http://fontawesome.com/icons
   - {title: References, icon: envelope, url: "/ref"}
   - {title: Meziklasí, icon: seedling, url: "http://www.meziklasi.cz/"}
+  - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
