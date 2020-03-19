@@ -157,7 +157,7 @@ Pozorování - 13.3. 11:3O
 		- v USSR - velmi rozšířené k vojenským účelům (špionáž, ovládání, ovlivňování) 
 		- film "Můži, kteří zírají na kozy"
 		- v Československu - světová špička. Vznik terorie Mentionů
-		- [ČEPES][http://www.cepes.cz/] - Česká psychoenergetická společnost
+		- [ČEPES](http://www.cepes.cz/) - Česká psychoenergetická společnost
 	- Ufologie (1947)
 		- Náboženská víra v mimozemšťany
 	- Hnutí lidského potenciálu
