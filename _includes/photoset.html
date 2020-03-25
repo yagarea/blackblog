@@ -1,0 +1,6 @@
+<div class="photoset -portrait">
+	<!--  -square -->
+	{% for photo in include.photos %}
+		<a href="{{ photo.url }}" target="_blank" class="photo" style="background-image:url({{ photo.url }})"></a>
+	{% endfor %}
+</div>
