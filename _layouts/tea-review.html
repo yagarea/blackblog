@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<article>
+	{% include post.html post=page %}
+
+	<hr/>
+
+	<h2>{% if page.language == "CZ" %}Fotky{% else %}Photos{% endif %}</h2>
+	{% include photoset.html photos = page.photos%}
+
+	<hr/>
+
+	<div style= "margin-left: auto; margin-right: auto;">
+		<div class="container">
+			<h2>{% if page.language == "CZ" %}Informace{% else %}Tea info{% endif %}</h2>
+			<lu>
+				{% for item in page.info %}
+					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
+				{% endfor %}
+			</lu>
+		</div>
+		<div class="container">
+			<h2>{% if page.language == "CZ" %}Původ{% else %}Origin{% endif %}</h2>
+			<lu>
+				{% for item in page.origin %}
+					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
+				{% endfor %}
+			</lu>
+		</div>
+		<div class="container">
+			<h2>{% if page.language == "CZ" %}Louhování{% else %}Brewing{% endif %}</h2>
+			<lu>
+				{% for item in page.brewing %}
+					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
+				{% endfor %}
+			</lu>
+		</div>
+	</div>
+
+	<br/>
+	<h2 style="clear: both;">{% if page.language == "CZ" %}Pozorování{% else %}Sensation{% endif %}</h2>
+	{% include teatable.html language=page.language %}
+
+	<h2>{% if page.language == "CZ" %}Závěr{% else %}Conclusion{% endif %}</h2>
+		{{ page.conclusion }}
+
+		<br/>
+		<br/>
+		<b>{% if page.language == "CZ" %}Hodnocení{% else %}Rating{% endif %}:</b>
+		<p class = "rating"><b>{{ page.rating }}</b></p>
+
+		{% if page.RedditLink != "" %}
+			<a href="{{ page.RedditLink }}" class="big-button">
+				<div style="text-align: right;">
+					{% if page.language == "CZ" %}Diskuze toho čaje{% else %}Discussion thread of this tea{% endif %}
+				</div>
+			</a>
+		{% endif %}
+</article>
+
+{% if site.show_related %}
+	<footer class="related">
+		<div class="previous">
+			{% if page.previous.url %}
+				<span>Previous Post</span>
+				<a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+				<span>{{ page.previous.category }}</span>
+			{% endif %}
+		</div>
+		<div class="next">
+			{% if page.next.url %}
+				<span>Next Post</span>
+				<a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+				<span>{{ page.next.category }}</span>
+			{% endif %}
+		</div>
+		</footer>
+{% endif %}
