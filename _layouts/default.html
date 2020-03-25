@@ -7,6 +7,11 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+{% if page.layout == "tea-review" %}
+  <link rel="stylesheet" href="{{ '/assets/css/tea.css' | relative_url }}">
+{% endif %}
+
 {% if site.minimal %}
   <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
 {% else %}
