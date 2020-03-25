@@ -1,0 +1,89 @@
+<table class="tea-table">
+  <tr>
+    <td rowspan="4" class="tea-primary-group">
+      <p><span><b>{% if page.language == "CZ" %}Zrak{% else %}Eye{% endif %}</b></span></p>
+    </td>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Suché lístky{% else %}Dry leaf{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+    	{{ page.EyeDryLeaf }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Zalité lístky{% else %}Wet leaf{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.EyeWetLeaf }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Nálev{% else %}Liquor{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.EyeLiquor }}
+    </td>
+  </tr>
+
+
+  <tr class="tea-spacer"></tr>
+    <tr>
+    <td rowspan="4" class="tea-primary-group">
+      <p><span><b>{% if page.language == "CZ" %}Čich{% else %}Nose{% endif %}</b></span></p>
+    </td>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Suché lístky{% else %}Dry leaf{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+     {{ page.NoseDryLeaf }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Zalité lístky{% else %}Wet leaf{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.NoseWetLeaf }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Aromakalíšek{% else %}Empty cup{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.NoseEmptyCup }}
+    </td>
+  </tr>
+
+
+  <tr class="tea-spacer"></tr>
+  <tr>
+    <td rowspan="3" class="tea-primary-group">
+      <p><span><b>{% if page.language == "CZ" %}Chuť{% else %}Mouth{% endif %}</b></span></p>
+    </td>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Textura{% else %}Texture{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.MouthTexture }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Chuť{% else %}Taste{% endif %}</span></p>
+  	</td>
+    <td class="tea-content-cell">
+      {{ page.MouthTaste }}
+    </td>
+  </tr>
+  <tr>
+    <td class="tea-secondary-group">
+      <p><span>{% if page.language == "CZ" %}Konec{% else %}Finish{% endif %}</span></p>
+    </td>
+    <td class="tea-content-cell">
+      {{ page.MouthFinish }}
+    </td>
+  </tr>
+</table>
