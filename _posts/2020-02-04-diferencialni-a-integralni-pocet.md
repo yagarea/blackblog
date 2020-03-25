@@ -34,11 +34,11 @@ $$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$
 
 ### Druhy zobrazení
 - **Bijekce** - ke každému $$x$$ připadá právě jedno $$y$$  
-![Bijekce](/assets/img/bijekce.png)
+![Bijekce](/assets/img/dip/bijekce.png)
 - **Injekce** - Ke každému $$y$$ připadá nejvýše jedno $$x$$  
-![Injekce](/assets/img/injekce.png)  
+![Injekce](/assets/img/dip/injekce.png)  
 - **Surjekce** - Ke každému $$y$$ existuje alespoň jedno $$x$$  
-![Surjekce](/assets/img/surjekce.png)
+![Surjekce](/assets/img/dip/surjekce.png)
 
 ### Interval monotónosti
 Funkce $$f$$ je na intervalu $$ (a;b) $$: 
@@ -68,13 +68,13 @@ Průsečík $$P$$ náleží průniku množiny bodů osy a oboru hodnot funkce: $
 
 | Funkce 																		 | Příklad grafu |
 |:------------------------------------------------------------------------------:|:-:|
-| **Konstanttní funkce:**<br> $$f: y = c $$ <br>  $$ D_f = \mathbb{R} $$ <br> $$ H_f = \{c\}$$ <br> Křivka: Rovnoběžka s osou X | ![const](/assets/img/func/const.png){:.table-img} |
-| **Lineární funkce:** <br> $$f: y = ax + b$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Přímka| ![Linear](/assets/img/func/linear.png){:.table-img} |
-| **Kvadratická funkce:** <br> $$ f: y = ax^2 + bx + c $$ <br> $$ D_f = \mathbb{R} $$ <br> Křivka: Parabola |  ![quadratic](/assets/img/func/parabola.png){:.table-img} |
-| **Kubická funkce:** <br> $$ f: y = ax^3 + bx^2 +cx + d $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Kubická parabola | ![cubic](/assets/img/func/cubic.png){:.table-img} |
-| **Exponenciální funkce:** <br> $$f: y = c^x $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ $$ <br> Křivka: Exponenciála | ![expo](/assets/img/func/expo.png){:.table-img} |
-| **Logaritmická funkce:** <br> $$f: y = \log_a x $$ <br> $$ D_f = \mathbb{R}^+ $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Logaritmická křivka | ![log](/assets/img/func/log.png){:.table-img} |
-| **Absolutní hodnota:** <br> $$f: y = \|x\|$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ \cup \{0\} $$ <br> Křivka: Lomená přímka | ![abs](/assets/img/func/absolute.png){:.table-img} |
+| **Konstanttní funkce:**<br> $$f: y = c $$ <br>  $$ D_f = \mathbb{R} $$ <br> $$ H_f = \{c\}$$ <br> Křivka: Rovnoběžka s osou X | ![const](/assets/img/dip/const.png){:.table-img} |
+| **Lineární funkce:** <br> $$f: y = ax + b$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Přímka| ![Linear](/assets/img/dip/linear.png){:.table-img} |
+| **Kvadratická funkce:** <br> $$ f: y = ax^2 + bx + c $$ <br> $$ D_f = \mathbb{R} $$ <br> Křivka: Parabola |  ![quadratic](/assets/img/dip/parabola.png){:.table-img} |
+| **Kubická funkce:** <br> $$ f: y = ax^3 + bx^2 +cx + d $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Kubická parabola | ![cubic](/assets/img/dip/cubic.png){:.table-img} |
+| **Exponenciální funkce:** <br> $$f: y = c^x $$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ $$ <br> Křivka: Exponenciála | ![expo](/assets/img/dip/expo.png){:.table-img} |
+| **Logaritmická funkce:** <br> $$f: y = \log_a x $$ <br> $$ D_f = \mathbb{R}^+ $$ <br> $$ H_f = \mathbb{R} $$ <br> Křivka: Logaritmická křivka | ![log](/assets/img/dip/log.png){:.table-img} |
+| **Absolutní hodnota:** <br> $$f: y = \|x\|$$ <br> $$ D_f = \mathbb{R} $$ <br> $$ H_f = \mathbb{R}^+ \cup \{0\} $$ <br> Křivka: Lomená přímka | ![abs](/assets/img/dip/absolute.png){:.table-img} |
 
 
 ### Limita
@@ -181,7 +181,7 @@ $$ ([f(x)]^{g(x)})' = [f(x)]^{g(x)} \bigg( g'(x)\ln (f(x)) + g(x)\frac{f'(x)}{f'
 - Funkce $$f$$ má v bodě $$M \in D_f$$ lokální maximum $$\iff \exists U; U = (M - \epsilon,M + \epsilon); \epsilon > 0 \land \forall x \in U \cap D_f$$ platí $$ f(x) \leq f(M)$$ 
 - Funkce $$f$$ má v bodě $$M \in D_f$$ lokální minimum $$\iff \exists U; U = (M - \epsilon,M + \epsilon); \epsilon > 0 \land \forall x \in U \cap D_f$$ platí $$ f(x) \geq f(M)$$ 
 
-![Local extremes](/assets/img/local-ex.png)
+![Local extremes](/assets/img/dip/local-ex.png)
 
 Legenda:
 - $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$ $$
@@ -214,7 +214,7 @@ Nechť $$J$$ je interval, $$f$$ je funkce a $$J \subset D_f$$. Řekneme, že $$f
 - funkce $$f$$ je v bodě $$A$$ konvexní $$ \iff f''(A_X) > 0 $$
 - funkce $$f$$ je v bodě $$A$$ konkávní $$ \iff f''(A_X) < 0 $$
 
-![Local extremes](/assets/img/inflex.png)
+![Local extremes](/assets/img/dip/inflex.png)
 
 Legenda:
 - $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$ $$
