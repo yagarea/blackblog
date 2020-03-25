@@ -79,7 +79,7 @@ Průsečík $$P$$ náleží průniku množiny bodů osy a oboru hodnot funkce: $
 
 ### Limita
 
-$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in O_{\delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \delta; a + \delta); f(x) \in (L - \epsilon; L + \epsilon)$$
+$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists \Delta \in \mathbb{R}^+ \forall x \in O_{\Delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \Delta; a + \Delta); f(x) \in (L - \epsilon; L + \epsilon)$$
 
 $$ \lim_{x \to \infty} f(x) = L \iff \forall \epsilon \in \mathbb{R}^+ \exists x_0 \in D_f \forall  x > x_0 ; | f(x) -L | < \epsilon $$
 
@@ -105,11 +105,11 @@ $$ \lim_{x \to \infty} a^x = \infty  \iff a > 1$$
 ### Spojitost
 Funkce $$f(x)$$ je spojitá v bodě $$ a  \iff \lim_{x \to a}f(x) = f(a)$$
 
-Funkce $$f(x)$$ je v bodě a spojitá $$ \iff a \in D_f \land \forall \epsilon > 0 \, \exists \delta > 0 ; \forall x \in O_{\epsilon}(a); f(x) \in O_{\epsilon}(f(a)) $$
+Funkce $$f(x)$$ je v bodě a spojitá $$ \iff a \in D_f \land \forall \epsilon > 0 \, \exists \Delta > 0 ; \forall x \in O_{\epsilon}(a); f(x) \in O_{\epsilon}(f(a)) $$
 
-Funkce $$f(x)$$ je spojitá z prava v bodě $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in <a;a + \delta); f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
+Funkce $$f(x)$$ je spojitá z prava v bodě $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \Delta \in \mathbb{R}^+ \forall x \in <a;a + \Delta); f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
-Funkce $$f(x)$$ je spojitá z leva $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \delta \in \mathbb{R}^+ \forall x \in  (a + \delta;a> ; f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
+Funkce $$f(x)$$ je spojitá z leva $$ a \iff a \in D_f \land \forall \epsilon \in \mathbb{R}^+ \exists \Delta \in \mathbb{R}^+ \forall x \in  (a + \Delta;a> ; f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
 Funkce $$f(x)$$ je spojitá na intervalu <c; d> $$\iff f(x)$$ je spojitá na $$(c; d) \land f(x)$$ je v $$c$$ spojitá z prava $$\land f(x)$$ je v $$d$$ spojitá z leva
 
@@ -141,7 +141,7 @@ $$ (k . f(x))' = k . f'(x) $$
 
 $$ (f(x) \pm g(x))' = f'(x) \pm g'(x) $$
 
-$$ (f(x).g(x))' = f'(x)g(x) + f(x)g'(X) $$
+$$ (f(x).g(x))' = f'(x)g(x) + f(x)g'(x) $$
 
 $$ \bigg( \frac{f(x)}{g(x)}\bigg) ' = \frac{f'(x)g(x) - f(x)g'(x)}{g^2(x)} $$
 
