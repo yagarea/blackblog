@@ -1,0 +1,123 @@
+---
+---
+
+$line-spacing: 20px;
+
+.tea-table
+	border-spacing: 0 $line-spacing;
+	border-collapse: separate;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	
+	border-collapse: separate;
+	background-color: #17181c; 
+
+	border-spacing: $line-spacing / 2 $line-spacing / 3;
+	.katex {border-spacing: 0;}
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: $line-spacing;
+
+	td
+		padding: 0 10px;
+	th
+		border-bottom: 1px solid white;
+
+	tr:hover, tr:nth-child(odd) td
+  		background: #17181c; 
+
+.tea-spacer
+	padding: $line-spacing;
+
+
+.tea-primary-group
+	width: $line-spacing + 16px;
+	font-size: 150%;
+	border-right: 3px solid white;
+
+.tea-secondary-group
+	width: $line-spacing + 4px;
+	border-right: 1px solid white;
+
+.tea-content-cell
+	pedding: 0 0 0 0;
+	margin-bottom: 0;
+
+
+.tea-primary-group, .tea-secondary-group
+	text-align: center;
+	vertical-align: middle;
+	
+	span
+		transform: rotate(180deg);
+		writing-mode: vertical-rl;
+
+		white-space: nowrap;
+
+
+//https://codepen.io/z-/pen/QmXOOR
+div.photoset
+   padding: 2px;
+   background-color: #17181c;
+   max-width: 600px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+	
+   .photo
+      position: relative;
+      flex-grow: 1; //They will fill space but actually want to take up the smallest space possible doing it, so you just need to stop it getting too small with min-width (otherwise they all bunch on the same line)
+      min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
+      background-size: cover;
+      background-position: center;
+      
+      @media screen and (max-width: 700px)
+         min-width: calc(100% / 2); //As simple as this for responsiveness without a delay you would get with JavaScript
+     
+      @media screen and (max-width: 460px)
+         min-width: 100%;
+      
+      &:after
+         //Aspect Ratio
+         padding-top: 83.33333%; //For 5:6 height to width ratio
+         display: block;
+         content: "";
+      
+      &:before
+         //Gaps
+         z-index: 2;
+         position: absolute;
+         content: "";
+         top: 0px;
+         right: 0px;
+         bottom: 0px;
+         left: 0px;
+         box-shadow: inset 0 0 0 2px #ffffff; //Cheaty way to make it look like there are gaps
+      
+      &:nth-child(1) 
+         //Make first image big
+         width: 100%;
+     
+
+   &.square .photo:after
+      padding-top: 100%;
+   
+   &.portrait .photo:after
+      padding-top: 120%;
+
+
+.rating
+   font-size: 300%
+   text-align: center;
+
+.container
+    float: left;
+    margin: 25px;
+    display: block;
+    h2
+    	margin-bottom: 10px;
+
