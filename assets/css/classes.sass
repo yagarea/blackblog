@@ -70,7 +70,7 @@
 
 .archive time
   display: inline-block
-  min-width: 10ch
+  min-width: 8ch
   margin: 0 .2em
 
 {% endunless %}
@@ -112,3 +112,27 @@
     width: 100%
 
 {% endunless %}
+
+
+.big-button
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  
+  //background: url("/assets/meta/reddit-icon.png") no-repeat left center;
+  background-position: 10px 20px;
+  background-size: 10%;
+  padding: 20px 64px;
+  background-color: #17181c;
+  text-align: right;
+  display: inline-block;
+  border: solid white;
+  width: fit-content;
+  margin: 1em auto;
+  display: table;
+  font-size: 150%;
+  color: white;
+
+.big-button:hover
+  font-weight: bold;
+  text-decoration: none;
