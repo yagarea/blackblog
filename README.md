@@ -4,6 +4,8 @@ permalink: "/about/"
 layout: page
 ---
 
+<h1><a href="http://blackblog.cz/" >BlackBlog.cz</a></h1>
+
 This is my personal blog where I will publish mainly: 
 
 - Universiry lecture notes
