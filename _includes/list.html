@@ -1,0 +1,9 @@
+<lu>
+	{% for item in include.list %}
+		{% if item.title == null %}
+			<li>{{ item }}</li>
+		{% else %}
+			<li><b>{{ item.title }}:</b> {{ item.text }}</li>
+		{% endif %}
+	{% endfor %}
+</lu>
