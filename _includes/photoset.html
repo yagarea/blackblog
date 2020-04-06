@@ -1,5 +1,4 @@
-<div class="photoset -portrait">
-	<!--  -square -->
+<div class="photoset {% if include.portrait %}-portrait{% endif %} {% if include.square %}-square{% endif %}">
 	{% for photo in include.photos %}
 		<a href="{{ photo.url }}" target="_blank" class="photo" style="background-image:url({{ photo.url }})"></a>
 	{% endfor %}
