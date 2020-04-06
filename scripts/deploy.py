@@ -11,9 +11,9 @@ print("Starting Deployment")
 # clean and build website
 os.chdir("..")
 print(os.getcwd())
-os.system("tree -C -d")
 os.system("jekyll clean --trace")
 os.system("jekyll build --trace")
+os.system("tree -C -d _site")
 os.chdir("scripts")
 
 # clean cashes and log files
