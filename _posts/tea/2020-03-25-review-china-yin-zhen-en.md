@@ -53,6 +53,4 @@ rating: "60%"
 RedditLink: ""
 ---
 
-I bought this tea when I was in Heidelberg. There was a small tea shop right next to the magnificent building of the famous university. Of course I had to visit him. One of the teas I bought there is this one.
-
-**This review is not sponsored**
+I bought this tea when I was in Heidelberg. There was a small tea shop right next to the magnificent building of the famous university. Of course I had to visit it. One of the teas I bought there is this one.

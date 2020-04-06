@@ -54,5 +54,3 @@ RedditLink: ""
 ---
 
 Tento čaj jsem si koupil když jsem byl na stáži v Heidelbergu. Přímo u nádherné budovy slavné univerzity byl malý obchůdek s čajem. Samozřejmě jsem ho musel navštívit. Jeden z těch čajů co jsem si tam pořídil je právě tento.
-
-**Tato recenze není sponzorovaná**

@@ -30,8 +30,8 @@ origin:
 brewing:
 - { title: "Brewing style", text: "Gong Fu" }
 - { title: "Water temperature", text: "90°C" }
-- { title: "Amount", text: "4g" }
-- { title: "Water", text: "cca 200ml" }
+- { title: "Tea amount", text: "4g" }
+- { title: "Water amount", text: "cca 200ml" }
 - { title: "Infusion time", text: "15 s" }
 - { title: "Number of infusions", text: "4" }
 - { title: "Water", text: "filtered" }
@@ -45,10 +45,10 @@ NoseWetLeaf: "Aroma is very highlighted. Pouring through rowans, maple syrup, re
 NoseEmptyCup: "Cane sugar. Light cigar. Freshly baked honey cake."
 
 MouthTexture: "Pleasantly rough. Heavily milky."
-MouthTaste: "Powerful rich flavor. Very warm and bright. The taste of fine tobacco and quality old wisky matured in wooden barrels. There are also tones of smoke from burning fresh wood. The flavor of freshly roasted coffee and unobtrusive minerality is also increasing."
+MouthTaste: "Powerful rich flavor. Very warm and bright. The taste of fine tobacco and quality old wisky matured in wooden barrels. There are also tones of smoke from burning fresh wood. The flavor of freshly roasted coffee and decent minerality are also showing themself."
 MouthFinish: "Wooden tannin with coffee taste. Pleasant and long lasting."
 
-conclusion: "I was very pleased with this tea. Very rich taste and beautiful aroma. It is very similar to teas from northern Darjeeling but the higher altitude has increased its intensity. Gold tips have a great share in the taste and refreshes tea very much. It is obvious that it is result of high quality and gentle processing. It's the best black tea I've tried in some time."
+conclusion: "I am very pleased with this tea. Very rich taste and beautiful aroma. It is very similar to teas from northern Darjeeling but the higher altitude has increased its intensity. Gold tips have a great share in the taste which refreshes tea very much. It is obvious that it is result of high quality and gentle processing. It is the best black tea I've tried in some time."
 
 rating: "90%"
 
