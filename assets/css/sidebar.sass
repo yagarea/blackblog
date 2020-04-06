@@ -17,7 +17,7 @@ body > article, body > footer
 body > header
   display: block
   position: fixed
-  background: darken($dark, 2%)
+  background: darken($dark, 4%)
   color: #fff
   border: none
   box-shadow: none
@@ -37,8 +37,12 @@ nav a
   margin: 0
   padding: .5em 2em
 
-nav a:hover, nav a.selected
-  background: lighten($dark, 2%)
+nav a.selected
+  background: lighten($dark, 4%)
+  text-decoration: inherit
+
+nav a:hover
+  background: lighten($dark, 8%)
   text-decoration: inherit
 
 article header h1
