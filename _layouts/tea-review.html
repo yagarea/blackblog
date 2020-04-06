@@ -11,32 +11,20 @@ layout: default
 	</div>
 	<hr/>
 	<h2>{% if page.language == "CZ" %}Fotky{% else %}Photos{% endif %}</h2>
-	{% include photoset.html photos = page.photos%}
+	{% include photoset.html photos = page.photos portrait=true square=true %}
 	<hr/>
 	<div style= "margin-left: auto; margin-right: auto;">
 		<div class="container">
 			<h2>{% if page.language == "CZ" %}Informace{% else %}Tea info{% endif %}</h2>
-			<lu>
-				{% for item in page.info %}
-					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
-				{% endfor %}
-			</lu>
+			{% include list.html list=page.info %}
 		</div>
 		<div class="container">
 			<h2>{% if page.language == "CZ" %}Původ{% else %}Origin{% endif %}</h2>
-			<lu>
-				{% for item in page.origin %}
-					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
-				{% endfor %}
-			</lu>
+			{% include list.html list=page.origin %}
 		</div>
 		<div class="container">
 			<h2>{% if page.language == "CZ" %}Příprava{% else %}Brewing{% endif %}</h2>
-			<lu>
-				{% for item in page.brewing %}
-					<li><b>{{ item.title }}:</b> {{ item.text }}</li>
-				{% endfor %}
-			</lu>
+			{% include list.html list=page.brewing %}
 		</div>
 	</div>
 	<br/>
