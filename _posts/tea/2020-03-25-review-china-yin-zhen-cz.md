@@ -23,7 +23,7 @@ origin:
 - { title: "Místo původu", text: "čína" }
 - { title: "Ročník", text: "2018" }
 - { title: "Prodejce", text: "TeaGschwendner" }
-- { title: "Odkaz", text: "<a href='https://www.teegschwendner.de/en/teashop/white-tea/2762/china-yin-zhen-organic'>Link</a>"}
+- { title: "Odkaz", text: "Link", link: "https://www.teegschwendner.de/en/teashop/white-tea/2762/china-yin-zhen-organic" }
 # - { title: "Manufacturer", text: "" }
 
 brewing:

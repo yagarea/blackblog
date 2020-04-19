@@ -26,7 +26,7 @@ origin:
 - { title: "Sklizeň", text: "První - čtvrtý týden března až do konec dubna" }
 - { title: "Nadmořská výška", text: "1500+ m" }
 - { title: "Prodejce", text: "Čajový krámek" }
-- { title: "Odkaz", text: "<a href='http://www.cajovykramek.cz/'>Link</a>" }
+- { title: "Odkaz", text: "Link", link: "http://www.cajovykramek.cz/" }
 
 brewing:
 - { title: "Styl louhování", text: "Gong Fu" }

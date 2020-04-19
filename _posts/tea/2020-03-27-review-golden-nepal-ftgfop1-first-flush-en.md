@@ -25,7 +25,7 @@ origin:
 - { title: "Flush", text: "First - the fourth week of March until the end of April" }
 - { title: "Altitude", text: "1500+ m" }
 - { title: "Seller", text: "Čajový krámek" }
-- { title: "Link", text: "<a href='http://www.cajovykramek.cz/'>Here</a>" }
+- { title: "Link", text: "Here", link: "http://www.cajovykramek.cz/" }
 
 brewing:
 - { title: "Brewing style", text: "Gong Fu" }
