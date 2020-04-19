@@ -262,12 +262,25 @@ $$ F'(x) = f(x) $$
 
 Pro neurčitý integrál platí:
 
+| $$ \int k dx = kx + C $$							|
 | $$ \int x^a dx = \frac{x^{a + 1}}{a + 1} + C $$   | $$ a \neq -1 $$ |
 | $$ \int e^x dx = e^x + C $$                       |
 | $$ \int \frac{1}{x} dx = \ln ∣x∣ + C $$           |
 | $$ \int a^x dx = \frac{a^x}{\ln a} + C $$         |
 | $$ \int \sin x dx = -\cos x + C $$                |
 | $$ \int \cos x dx = \sin x + C $$                 |
+
+### Integrace _per partes_
+
+$$ \int u.v' = u.v - \int u'.v $$
+
+### Integrace _substitucí_
+
+$$ \int f(\phi (t)) \cdot \phi^{\prime}(t) dt = F(\phi(t)) $$
+
+$$sub: x = \phi(t)$$
+
+$$ \int f(\phi(t))\cdot\phi^{\prime}(t) dt = \int f(x) \cdot x^{\prime} dx = F(x)$$
 
 ### Newton Leibnizova věta
 
@@ -281,5 +294,5 @@ Obsah útvaru ohraničeného grafem, osou X a dvěmi rovnoběžkami procházejí
 
 Objem rotačního tělesa lze vyjárřit jako
 
-$$ V = \pi \int_a^b f(x)^2 dx $$
+$$ V = \pi \int_a^b (f(x))^2 dx $$
 
