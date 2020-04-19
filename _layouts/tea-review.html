@@ -6,12 +6,12 @@ layout: default
 	{% include post.html post=page %}
 	<div style="text-align: center;">
 		<b>
-			{% if page.language == "CZ" %}Tato recenze není sponzorovaná{% else %}This review is not sponsored{% endif %}
+			{% if page.language == "CZ" %}Tato recenze není sponzorována{% else %}This review is not sponsored{% endif %}
 		</b>
 	</div>
 	<hr/>
 	<h2>{% if page.language == "CZ" %}Fotky{% else %}Photos{% endif %}</h2>
-	{% include photoset.html photos = page.photos portrait=true square=true %}
+	{% include showcase.html photos = page.photos portrait=true square=true %}
 	<hr/>
 	<div style= "margin-left: auto; margin-right: auto;">
 		<div class="container">
@@ -35,7 +35,7 @@ layout: default
 	<br/>
 	<br/>
 	<b>{% if page.language == "CZ" %}Hodnocení{% else %}Rating{% endif %}:</b>
-	<p class = "rating"><b>{{ page.rating }}</b></p>
+	<p class="rating"><b>{{ page.rating }}</b></p>
 	{% if page.RedditLink != "" %}
 		<a href="{{ page.RedditLink }}" class="big-button">
 			<div style="text-align: right;">
