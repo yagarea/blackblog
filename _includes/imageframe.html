@@ -1,0 +1,16 @@
+<div class="wrapper">
+<div class="photogrid">
+    {% for photo in include.photos %}
+        <div class="photogrid-item">
+            <figure>
+                <a href="{{ photo.url }}" target="_blank">
+                    <img src="{{ photo.url }}" alt="{{ photo.text }}">
+                </a>
+                {% if photo.text != null and photo.text != "" %}
+                    <figcaption>{{ photo.text }}</figcaption>
+                {% endif %}
+            </figure>
+        </div>
+    {% endfor %}
+</div>
+</div>
