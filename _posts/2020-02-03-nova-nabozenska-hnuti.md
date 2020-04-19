@@ -3,13 +3,53 @@ title:  "Nová náboženská hnutí"
 category: "Theology"
 language: "CZ"
 layout: post
+
+lit:
+- "Douglas E. Cowan, David G. Bromley - Sekty a nová nábožentsví"
+- "Zdeněk Vojtíšek - Nová náboženství a násilí"
+
+mormon:
+- { url: "/assets/img/nnh/joseph-smith.png", text: "Portrét Josepha Smithe"}
+- { url: "/assets/img/nnh/mormon-zjeveni1.png", text: "První zjevení"}
+- { url: "/assets/img/nn h/mormon-zjeveni2.png", text: "Druhé zjevení"}
+- { url: "/assets/img/nnh/zlate-desky.jpg", text: "Nález zlatých desek"}
+- { url: "/assets/img/nnh/preklad.jpg", text: "Překlad zlatých desek"}
+
 ---
 
 **UPOZORNĚNÍ:** poznámky jsou ve vývoji. To co čtete není finální verze. Neručím za správnost faktickou ani gramatickou.
 
+**Doporučená literatura:**
+
+{% include list.html list=page.lit %}
+
 - .
 {:toc}
 ---
+
+## Úvod
+V semináři se zabýváme duchovními společenstvími, tedy skupinami, které existují na základě společně sdíleních přesvědčení, společných ritů, společných mravních norem apod.
+
+### Ideální typy postavení duchovního společenství ve většinové společnosti
+- __Typ A__ - _církev_
+	- duchovní společenství tvoří společnost a udržuje ji, splývá s ní
+	- má ve společnosti "náboženský monopol"
+- __Typ B__ - _denominace_
+	- společnost a duchovní společenství jsou vzájemně nezávislé, společenství akceptuje společnost a společnost akceptuje společenství
+	- duchovní společenství je jedním z více společenství ve stejném postavení, „náboženská konkurence“
+- __Typ C__ - _nové náboženské hnutí_
+	- duchovní společenství protestuje proti společnosti a jejímu náboženskému životu, inovuje náboženský život, společnost vnímá tento protest negativně a jako nebezpečí.
+	- výlučnost, „proti všem“
+- __Typ D__ - _kult_
+	- duchovní společenství a společnost jsou si v podstatě lhostejné, pro společnost je duchovní společenství jednou z mnoha aktivit (volnočasových, komerčních apod.), duchovní společenství nemá ambice měnit společnost ani nemá touhu ji podporovat
+	- konkurence i spolupráce
+
+### Nové náboženské hnutí
+- pojem, který vystihuje postavení duchovního společenství ve většinové společnosti
+- toto postavení je charakterizováno vysokou mírou napětí ve vztahu s většinovou společností
+- napětí je způsobeno protestním naladěním hnutí a odporem většinové společnosti vůči němu
+- navazuje na určitou duchovní tradici, ale zároveň ji zásadním způsobem inovuje
+- zniká v důsledku snahy o inovaci duchovního života. Inovace vlastně znamená protest proti stávajícímu duchovnímu životu společnosti.
 
 ## Teorie konverze
 
@@ -215,6 +255,40 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
 - Hromadná sebevražda Svatyně lidu - [Wiki link](https://cs.wikipedia.org/wiki/Chr%C3%A1m_lidu)
 
 ---
+
+## Mormoni
+- Založil __Joseph Smith__ 
+	- 1820 - první zjevení
+	- 1823 - zjevení anděla Moroniho
+	- 1827 - nález zlatých desek
+	- 1829 - překlad dokončen, obnovení kněžství
+	- 1830 - vydání __Knihy Mormonovy__
+	- 1830 - vznik církve: Církev Ježíše Krista (dnes: Církev Ježíše Krista Svatých posledních dnů)
+
+{% include imageframe.html photos=page.mormon %}
+
+- Doba Josepha Smithe
+	- Náboženské vzrušení
+	- pociťovaná absence kultury a historie
+	- hledání pokladů, Egypt jako tajemná země
+
+- Kniha Mormonova
+	- formálně podobná Bibli (rozčlenění, jazyk)
+	- obsahově do určité míry nahrazuje Bibli
+	- historie podle knihy Mormonovy
+		- kolonizace Ameriky: hlavní vlna - po pádu Jeruzaléma Lehi a jeho synové Nefi a Laman
+		- Lamanité potrestáni hnědou kůží - Indiáni Ježíš v Americe
+		- Nefité vyhubeni Lamanity
+		- poslední Nefi: Moroni, syn historika Mormona
+
+- Církev Ježíše Krista
+	- rychlý růst
+	- duchovní dary
+		- proroctví
+		- uzdravování
+	- svatosti
+		- smíření krví
+		- tabák, alkohol, horké nápoje => káva / čaj (drogy) - Slovo moudrosti (1833, Kniha nauky a smluv 89)
 
 ## Munisté
 - Okrajová skupina
