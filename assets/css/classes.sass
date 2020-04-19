@@ -113,26 +113,63 @@
 
 {% endunless %}
 
+.small img
+  max-height: 200px
+  margin: 10px
 
 .big-button
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  -webkit-appearance: button
+  -moz-appearance: button
+  appearance: button
   
-  //background: url("/assets/meta/reddit-icon.png") no-repeat left center;
-  background-position: 10px 20px;
-  background-size: 10%;
-  padding: 20px 64px;
-  background-color: #17181c;
-  text-align: right;
-  display: inline-block;
-  border: solid white;
-  width: fit-content;
-  margin: 1em auto;
-  display: table;
-  font-size: 150%;
-  color: white;
+  //background: url("/assets/meta/reddit-icon.png") no-repeat left center
+  background-position: 10px 20px
+  background-size: 10%
+  padding: 20px 64px
+  background-color: #17181c
+  text-align: right
+  display: inline-block
+  border: solid white
+  width: fit-content
+  margin: 1em auto
+  display: table
+  font-size: 150%
+  color: white
 
 .big-button:hover
-  font-weight: bold;
-  text-decoration: none;
+  font-weight: bold
+  text-decoration: none
+
+.photogrid
+  margin: 0 auto
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+
+.wrapper
+  padding: 1rem 0
+  background: rgba(109, 109, 112, 0.15);
+  color: #e4e4e8
+  text-align: center
+
+.photogrid-item figure
+  background: #17181c
+  padding: 10px
+  margin: 10px
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1)
+
+
+.photogrid-item figure img
+  display: block
+  max-width: 200px
+  heigth: auto
+
+.photogrid-item figcaption
+  display: block
+  padding: 15px
+  background: #474952
