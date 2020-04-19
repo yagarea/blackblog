@@ -25,7 +25,7 @@ origin:
 - { title: "Sklizeň", text: "Ranné jaro" }
 - { title: "Nadmořská výška", text: " 2,100 m" }
 - { title: "Prodejce", text: "Oxalis" }
-- { title: "Odkaz", text: "<a href='https://oxalis.cz/cs/phoenix-eyes-70-g-8595218031141-326.htm/'>Link</a>" }
+- { title: "Odkaz", text: "Link", link: "https://oxalis.cz/cs/phoenix-eyes-70-g-8595218031141-326.htm/" }
 
 brewing:
 - { title: "Styl louhování", text: "Gong Fu" }
@@ -36,9 +36,9 @@ brewing:
 - { title: "Počet nálevů", text: "3" }
 - { title: "Voda", text: "filtered" }
 
-EyeDryLeaf: "Lístky jsou srolovány do šišatých perel o velikosti třešňové pecky. Jsou tmavě zelené s prameny béžových chloupků. Přechody mezi barvami působí jako batikované. I přesto, že lístky byly srolovány pečlivě, jsou perly dost hrbolaté. Celkově je tento čaj velmi esteticky zajímavý."
+EyeDryLeaf: "Lístky jsou srolovány do šišatých perel o velikosti třešňové pecky. Jsou viditelné tmavě zelené s prameny béžových chloupků. Přechody mezi barvami působí jako batikované. I přesto, že lístky byly srolovány pečlivě, jsou perly dost hrbolaté. Celkově je tento čaj velmi esteticky zajímavý."
 EyeWetLeaf: "Velké matně zelené listy. Jsou pořád v celku. Řapík je světlejší než zbytek listu. Některé listy mají pořád srulované okraje. Občas je viditelná jemná nažloutlá žilnatina."
-EyeLiquor: "Světlá žlutá až bledě béžová barva. Nálev je uplně čirý."
+EyeLiquor: "Světle žlutá až bledě béžová barva. Nálev je uplně čirý."
 
 NoseDryLeaf: "Svěží vůně rozkvetlé louky. Také jasmín a čerstvá jablečná šťáva. Velmi lehce je i přítomno aroma citronové trávy a právě dopečeného piškotu."
 NoseWetLeaf: "Vůně je po zalití mnohem svěžejší a rostlinnější. Posekaná tráva a peprmintová zubní pasta. V pozadí se schová i aroma salátové okurky. Pořád ale velmi sladká vůně. Jako když v létě vyjdete ven po pořádném slejváku."
@@ -48,7 +48,7 @@ MouthTexture: "Velmi silná a tuhá. Nese mnoho chuti."
 MouthTaste: "Dominuje chuť jasmínu a sladkých kaštanů. Celkově je nálev velmi rostlinný. V chuti najdeme i sedmikrásky a slunečnicová semínka. Chuť je příjemně svěží. Ideální čaj na dlouhé letní dny."
 MouthFinish: "Tento čaj se rozhodl zakončit pampeliškovou hořkostí."
 
-conclusion: "Tento čaj je chuťově jednoduchý a osvěží v horkém letním dni. Sám jsem si ho docela oblíbil. Jeho příjemná jednoduchost ho činí ocenitelným i pro čajové neznalce. Myslím si, že rozhodně stojí za ochutnání."
+conclusion: "Tento čaj je chuťově jednoduchý a osvěží o horkém letním večeru. Sám jsem si ho docela oblíbil. Jeho příjemná jednoduchost ho činí ocenitelným i pro čajové neznalce. Myslím si, že rozhodně stojí za ochutnání."
 
 rating: "70%"
 
