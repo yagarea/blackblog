@@ -6,7 +6,6 @@ lang: "en"
 date_format: "%B %d, %Y"
 
 # Layout
-
 sidebar: true                # show a sidebar instead of the usual header
 show_excerpts: false         # show article excerpts on the home page
 show_related: true           # show the previous and next links after every post
@@ -15,31 +14,37 @@ show_logo: true              # always keep the site title visible
 show_title: false
 
 # Styling
-
 minimal: false               # use simpler style
-sidebar_limit: "60em"       # css limit of showing side bar
+sidebar_limit: "55em"        # css limit of showing side bar
 
 # Menu
-
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "README.md", icon: address-card}
+  - {file: "README.md", icon: info-circle}
 
-external:    # see http://fontawesome.com/icons
-  - {title: References, icon: envelope, url: "/ref"}
+external:                   # see http://fontawesome.com/icons
+  - {title: References, icon: address-card, url: "/ref"}
   - {title: Meziklasí, icon: seedling, url: "http://www.meziklasi.cz/"}
   - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 references:
-  - {title: Github, icon: github, url: "https://github.com/yagarea/"}
-  - {title: StackOverflow, icon: stack-overflow, url: "https://stackoverflow.com/users/7274239/"}
-  - {title: Reddit, icon: reddit, url: "https://www.reddit.com/user/yagarea"}
-  - {title: Steam, icon: steam, url: "/ref"}
+  - {title: Github, icon: "github-icon.png", url: "https://github.com/yagarea/"}
+  - {title: StackOverflow, icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
+  - {title: Bandcamp, icon: "bandcamp-icon.png", url: "https://bandcamp.com/yagarea"}
+  - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
+  - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
+  - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
 
 comments:
-#  disqus: ""                # see https://disqus.com/
-#  isso: ""                  # see https://posativ.org/isso/
+#  disqus: ""               # see https://disqus.com/
+#  isso: ""                 # see https://posativ.org/isso/
 
 plugins:
  - jekyll-feed
+
+#Render optins 
+disable_disk_cache: false
+exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_grafics"]
+include: [".htaccess"]
+timezone: "Europe/Prague"
