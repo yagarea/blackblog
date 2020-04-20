@@ -5,6 +5,7 @@ import os
 
 # move to the directory of this script, so it can execute system commands in appropriate
 # directories
+gzip_compress = False
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 print("Starting Deployment")
 
@@ -12,11 +13,14 @@ print("Starting Deployment")
 os.chdir("..")
 print(os.getcwd())
 os.system("jekyll clean --trace")
-os.system("jekyll build --trace")
+if gzip_compress:
+	os.system("JEKYLL_ENV=production jekyll build --trace")
+else:
+	os.system("jekyll build --trace")
 os.system("tree -C -d _site")
 os.chdir("scripts")
 
 # clean cashes and log files
 import clean
 # upload the website
-import upload
+#import upload
