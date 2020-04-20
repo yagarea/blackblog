@@ -42,9 +42,25 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-gzip
 
 #Render optins 
 disable_disk_cache: false
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_grafics"]
 include: [".htaccess"]
 timezone: "Europe/Prague"
+JEKYLL_ENV: development
+
+gzip:
+  replace_files: true
+  extensions:
+    - ".html"
+    - ".css"
+    - ".js"
+    - ".txt"
+    - ".ttf"
+    - ".atom"
+    - ".stl"
+    - ".xml"
+    - ".svg"
+    - ".eot"
