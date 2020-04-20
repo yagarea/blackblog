@@ -2,7 +2,7 @@
 title:  "Kinematika"
 category: "Physics"
 language: "CZ"
-mathjax: true
+latex: true
 layout: post
 ---
 

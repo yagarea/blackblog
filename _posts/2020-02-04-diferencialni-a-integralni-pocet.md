@@ -2,7 +2,7 @@
 title:  "Diferenciální a integrální počet"
 category: "Mathematics"
 language: "CZ"
-mathjax: true
+latex: true
 layout: post
 ---
 
@@ -184,8 +184,8 @@ $$ ([f(x)]^{g(x)})' = [f(x)]^{g(x)} \bigg( g'(x)\ln (f(x)) + g(x)\frac{f'(x)}{f'
 ![Local extremes](/assets/img/dip/local-ex.png)
 
 Legenda:
-- $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$ $$
-- $$ g: f'(x) $$ $$ $$
+- $$ f: y = \bigg(\frac{x - 10}{3}\bigg)^3 - (x - 10) + 5 $$ $$$$
+- $$ g: f'(x) $$ $$$$
 
 ### Monotónost
 

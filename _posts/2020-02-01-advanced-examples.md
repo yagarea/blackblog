@@ -2,13 +2,13 @@
 title:  "Advanced examples of anotation"
 category: "Development"
 language: "EN"
-mathjax: true
+latex: true
 layout: post
 ---
 
 ## MathJax
 
-You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
+You can enable MathJax by setting `latex: true` on a page or globally in the `_config.yml`. Some examples:
 
 [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
 

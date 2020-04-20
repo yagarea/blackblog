@@ -2,7 +2,7 @@
 title:  "Exponential and logarithmic formula"
 category: "Mathematics"
 language: "EN"
-mathjax: true
+latex: true
 layout: post
 ---
 
