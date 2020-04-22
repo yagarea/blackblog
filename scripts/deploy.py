@@ -23,4 +23,4 @@ os.chdir("scripts")
 # clean cashes and log files
 import clean
 # upload the website
-#import upload
+import upload
