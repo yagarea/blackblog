@@ -14,7 +14,7 @@ photos:
 
 info:
 - { title: "Jméno", text: "Lapsang Souchong" }
-- { title: "Význam", text: "Hrubé čajové lístky z vzpřímených hor" }
+- { title: "Význam", text: "Hrubé čajové lístky z vysokých hor" }
 - { title: "Typ", text: "Uzený černý čaj" }
 - { title: "Blend", text: "Ne" }
 - { title: "Forma", text: "Sypaný" }
