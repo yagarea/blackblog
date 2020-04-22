@@ -7,6 +7,9 @@ count = 0
 Jekyll::Hooks.register :documents, :post_render do |doc, payload |
 	if doc.data["latex"]
 		rendered_content = doc.output
+		rendered_content = rendered_content.gsub("% <![CDATA[\n", "")
+		rendered_content = rendered_content.gsub("%]]>", "")
+
 
 		display_latex = rendered_content.scan(Regexp.new(/<script type="math\/tex; mode=display">(.*?)<\/script>/)).flatten
 		count += display_latex.size
