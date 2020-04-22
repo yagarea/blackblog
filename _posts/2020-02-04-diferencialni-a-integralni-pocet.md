@@ -41,12 +41,12 @@ $$ H_f = \{ y \in Y |( \exists x \in X)(f(x) = y)\} $$
 ![Surjekce](/assets/img/dip/surjekce.png)
 
 ### Interval monotónosti
-Funkce $$f$$ je na intervalu $$ (a;b) $$: 
+Funkce $$f$$ je na intervalu $$(a;b)$$: 
 
-- rostoucí $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) < f(x_2)$$
-- neklesající $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \leq f(x_2)$$
-- klesající $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) > f(x_2)$$ 
-- nerostoucí $$ \iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \geq f(x_2)$$ 
+- rostoucí $$\iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) < f(x_2)$$
+- neklesající $$\iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \leq f(x_2)$$
+- klesající $$\iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) > f(x_2)$$ 
+- nerostoucí $$\iff \forall x_1, x_2 \in (a;b) , x_1 < x_2 : f(x_1) \geq f(x_2)$$ 
 
 ### Sudost/Lichost
 - Funkce $$f$$ je lichá $$ \iff f(x) = -f(x) $$ 
