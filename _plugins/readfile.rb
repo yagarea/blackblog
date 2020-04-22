@@ -4,6 +4,7 @@ module Jekyll
 		def initialize(tag_name, path, tokens)
 			super
 			@path = path.gsub(/\s/, "")
+			print("         Read file: " + @path + "\n")
 		end
 
 		def render(context)
@@ -11,9 +12,8 @@ module Jekyll
 				full_path = @path
 			else
 				full_path = File.join(File.expand_path("../../", __FILE__), @path)
-				print(full_path)
 			end
-			return File.read(full_path).gsub("\t", "")
+			return File.read(full_path).gsub("\t", "  ")
 		end
 	end
 end
