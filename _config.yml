@@ -46,7 +46,7 @@ plugins:
 
 #Render optins 
 disable_disk_cache: false
-exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_grafics"]
+exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_grafics", "katex.min.js"]
 include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
