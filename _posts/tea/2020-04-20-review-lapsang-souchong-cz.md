@@ -39,11 +39,11 @@ brewing:
 - { title: "Voda", text: "filtrovaná" }
 
 EyeDryLeaf: "Ebenově hnědá je dominována sametovou černou. Lístky jsou velmi tenké a svraštělé. Celá směs se skládá asi z 5 milimetrových kousků. Jejich velikosti mají velmi malé rozdíly. Vzácně můžeme najít i malé karamelově hnědé větvičky. "
-EyeWetLeaf: "Lístky se rozbalily a nabyly objem. Ustoupila temná černá a udělala prostor dřevěně hnědé. Lístky jsou na pohled velmi hebké a lesknou se jako by byly glazurované. Celkově povrch připomíná povrch drahého, dobře udržovaného piána."
+EyeWetLeaf: "Lístky se rozbalily a nabyly objem. Ustoupila temná černá a dala prostor dřevěně hnědé. Lístky jsou na pohled velmi hebké a lesknou se jako by byly glazurované. Celkově povrch připomíná povrch drahého, dobře udržovaného piána."
 EyeLiquor: "Velmi tmavá hnědo-černá barva. Jako tmavý med nebo zralá whisky."
 
 NoseDryLeaf: "Velmi intenzivní vůně, které Vás praští ihned po otevření nádobky s čajem. Aroma obsahuje uzený sýr, spálený papír a cigaretový kouř v baru. Není divu, že jeho velkým fanouškem byl Winston Churchill. I tak je to ale zajímavé a příjemné aroma."
-NoseWetLeaf: "Po zalití pronikavé aroma vyplnilo celou místnost. Můžete cítit vůni pálení čerstvého mokrého dřeva, hutné doutníky a připečený perník. Když jsem dvě hodiny poté vstoupil do místnosti, kde jsem čaj vařil, měl jsem pocit, jako když jsem v létě u táboráku."
+NoseWetLeaf: "Po zalití pronikavé aroma vyplnilo celou místnost. Můžete cítit vůni pálení čerstvého mokrého dřeva, hutné doutníky a připečený perník. Ještě když jsem dvě hodiny poté vstoupil do místnosti, kde jsem čaj vařil, měl jsem pocit, jako když jsem v létě u táboráku."
 NoseEmptyCup: "Vůně lékořice a čerstvě pořezaného jehličnatého dřeva. Nezanedbatelná je i vůně ostružinového listí."
 
 MouthTexture: "Silná a tvrdá textura. Až nepřehlédnutelně drsná."
