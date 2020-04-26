@@ -22,12 +22,14 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: info-circle}
 
+# Menu external
 external:                   # see http://fontawesome.com/icons
   - {title: References, icon: address-card, url: "/ref"}
   - {title: Meziklasí, icon: seedling, url: "http://www.meziklasi.cz/"}
   - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
+# References items
 references:
   - {title: Github, icon: "github-icon.png", url: "https://github.com/yagarea/"}
   - {title: StackOverflow, icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
@@ -35,6 +37,10 @@ references:
   - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
   - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
   - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
+
+# Latex macros
+latex-macros:
+  - ["\\RR", "\\mathbb{R}"]
 
 comments:
 #  disqus: ""               # see https://disqus.com/
@@ -44,7 +50,7 @@ plugins:
  - jekyll-feed
  - jekyll-gzip
 
-#Render optins 
+#Render options 
 disable_disk_cache: false
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_grafics", "katex.min.js"]
 include: [".htaccess"]
