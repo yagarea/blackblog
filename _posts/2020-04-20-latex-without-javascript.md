@@ -6,18 +6,21 @@ latex: true
 layout: post
 ---
 
-Existuje nepřeberné množství možností, jak implementovat deriváty $$\TeX$$u na Vaši webovou stránku. Vyzkoušel jsem jich mnoho, ale bohužel žádná z možností nevyhovovala mím požadavkům:
+Existuje nepřeberné množství možností, jak implementovat deriváty $$\TeX$$u na Vaši webovou stránku. Vyzkoušel jsem jich mnoho, ale bohužel žádná z nich nesplňovala mých 10 požadavků:
 
-- Implementovatelné do __Jekyllu__
-- __Nevyužívá JavaScript__ na straně klienta
-- Nenačítá __žádné__ externí zdroje
-- Využívá pouze __OpenSource__ software
-- Je možné ho používat pomocí `$$` notace
-- Rozlišuje __Inline__ a __Display__ režimy
-- Pokud post neobsahuje žádné matematické výroky, tak stránka __zbytečně nenačítá__ k tomu potřebné zdroje
+1. __Podporuje $$\LaTeX$$__
+2. Implementovatelné do __Jekyllu__
+3. __Nevyužívá JavaScript__ na straně klienta
+4. Nenačítá __žádné__ externí zdroje
+5. Využívá pouze __OpenSource__ software
+6. Je možné ho používat pomocí __`$$` notace__
+7. Rozlišuje __Inline__ a __Display__ režimy
+8. Pokud post neobsahuje žádné matematické výroky, tak stránka __zbytečně nenačítá__ k tomu potřebné __zdroje__
+9. __Nahlásí chyby__ v latexovém výroku už při renderování
+10. Možnost nastavit a používat __globální macra__
 
 <h2 class="no_toc">Řešení</h2>
-Napsat vlastní Jekyll plug-in, který pomocí [KaTeXu](https://katex.org/), vyrenderuje $$\LaTeX$$ové výrazy na matematické výroky. Využitím [Jekyllovských hook eventů](https://jekyllrb.com/docs/plugins/hooks/) mohu upravit vyrenderované HTML před jeho uložením. Ve vyrenderovaném HTML pomocí [regexů](https://en.wikipedia.org/wiki/Regular_expression) najdu $$\LaTeX$$ové výroky a nahradím je vyrederovanými.
+Napsat vlastní Jekyll plug-in, který pomocí [KaTeXu](https://katex.org/), vyrenderuje LaTeXové výrazy na matematické výroky. Využitím [Jekyllovských hook eventů](https://jekyllrb.com/docs/plugins/hooks/) mohu upravit vyrenderované HTML před jeho uložením. Ve vyrenderovaném HTML pomocí [regexů](https://en.wikipedia.org/wiki/Regular_expression) najdu LaTeXové výroky a nahradím je vyrederovanými.
 
 ---
 
@@ -28,7 +31,7 @@ Napsat vlastní Jekyll plug-in, který pomocí [KaTeXu](https://katex.org/), vyr
 
 
 ### 1) Reference
-Stáhněte si nejnovější verzi [KaTeXu](https://katex.org/). Jediné soubory co budete potřebovat jsou `katex.min.css` a `katex.min.js`. `katex.min.js` ale stačí jen lokálně, a nemusí být na serveru vůbec nahraný). Proto doporučuji přidat to `_config.yml` exclude pravidlo:
+Stáhněte si nejnovější verzi [KaTeXu](https://katex.org/). Jediné soubory co budete potřebovat jsou `katex.min.css` a `katex.min.js`. `katex.min.js` ale stačí jen lokálně, a nemusí být na serveru vůbec nahraný). Proto doporučuji přidat do `_config.yml` exclude pravidlo:
 
 {% highlight yml %}
 exclude: ["katex.min.js"]
@@ -42,21 +45,22 @@ Každý post obsahující $$\LaTeX$$ové výroky, musí ve svém headru obsahova
 {{ "{% endif " }}%}
 {% endhighlight %}
 
-Pokud chcete $$\LaTeX$$ použít ve vašem postu, stačí nastavit `latex: true` nebo globálně v `_config.yml`
+Pokud chcete LaTeX použít ve vašem postu, stačí nastavit v front matter postu: {% highlight yml %}
 
-{% highlight yml %}
 ---
 latex: true
 ---
 {% endhighlight %}
 
+nebo globálně v `_config.yml`. Globální nastevení ale nedoporučuji pokud Vaše stránka neobsahuje matematické výrazy v každém postu, protože by zbytečně načítala k tomu potřebné zdroje.
+
 ### 2) Instalace execjs gemu
 
 #### Lokální instalace
-Pokud je Váše Jekyllová stránka sestavená jako Ruby Gem, stačí Vám přidat závislost `gem 'execjs'` do Vašeho `Gemfile`. Pak už jen stačí spustit `bundle update` v kořenové složce naší Jekyllové stránky.
+Pokud je Váše Jekyllová stránka sestavená jako Ruby Gem, stačí Vám přidat závislost `gem 'execjs'` do Vašeho `Gemfile`. Pak už jen stačí spustit `bundle update` v kořenové složce Vaší Jekyllové stránky.
 
 #### Globální instalace
-Ta je poněkud jednošší. Stačí nainstalovat gem execjs následujícím příkazem:
+Ta je poněkud jednodušší. Stačí nainstalovat gem `execjs` následujícím příkazem:
 {% highlight bash %}
 gem install execjs
 {% endhighlight %}
@@ -74,10 +78,11 @@ Jediné co musíte udělat je nastavit proměnou `PATH_TO_JS` na cestu k souboru
 ---
 
 <h2 class="no_toc">Příklady použití</h2>
-Oba režimy mají stejnou notaci. O tom který se použije rozhoduje Kramdown.
+Oba režimy mají stejnou notaci. O tom který se použije rozhoduje Kramdown. Latexový výraz, který bude na samostatném řádku se vyrenderuje v _Display_ režimu a všechny ostatní v _inline_ režimu.
+
+Pokud Kramdown narazí na samostatný breakline znak uprostřed textu, smaže ho a celý text slije do jednoho odstavce. Proto pokud chcete opravdu zalomit řádek, musíte použít dva breakline znaky. 
 
 <h3 class="no_toc">Inline režim</h3>
-
 {% highlight latex %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam. 
 {% endhighlight %}
@@ -85,7 +90,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Su
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam. 
 
 <h3 class="no_toc">Display režim</h3>
-
 {% highlight latex %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
@@ -104,11 +108,19 @@ Suspendisse et molestie quam.
 >
 > Suspendisse et molestie quam. 
 
+<h3 class="no_toc">Macra</h3>
+Pro nastavení globálních maker, stačí v `_config.yml` vytvořit list definic:
+
+{% highlight yml %}
+latex-macros:
+  - ["\\RR", "\\mathbb{R}"]
+{% endhighlight %}
+
 ---
 
 <h2 class="no_toc">Známé chyby</h2>
-- Regex občas nedetekuje všechny výroky - **SOLVED** - kramdown občas přidal do výroku `CDATA` tag, který obsahoval _break line_ znak. Opraveno odstraněním `CDATA` tagu před renderováním.
+- Regex nedetekuje všechny výroky - **SOLVED** - Kramdown občas přidal do výroku `CDATA` tag, který obsahoval _break line_ znak. Opraveno odstraněním `CDATA` tagu před renderováním.
 - Latexový výrok musí být na jeden řádek, aby byl regexem detekován
 - Exejs je velmi pomalý (cca 300 výroků za minutu)
-- Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, kramdown ho vytvoří list
+- Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, Kramdown vytvoří list
 
