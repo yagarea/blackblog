@@ -57,16 +57,7 @@ include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
 
+#Compression settings
 gzip:
   replace_files: true
-  extensions:
-    - ".html"
-    - ".css"
-    - ".js"
-    - ".txt"
-    - ".ttf"
-    - ".atom"
-    - ".stl"
-    - ".xml"
-    - ".svg"
-    - ".eot"
+  extensions: [".html", ".css", ".js", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
