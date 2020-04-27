@@ -4,11 +4,21 @@
 		<div id="{{ category | first | downcase }}">
   			<h2>{{ category | first }}</h2>
 		</div>
-		<ul>
-  			{% assign sorted_posts = category.last | sort: "date" | reverse %}
-			{% for post in sorted_posts %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a> [{{ post.language }}] ({{ post.date | date: "%-d. %-m. %Y" }}) </li>
-  			{% endfor %}
-  		</ul>
+	<ul>
+  		{% assign sorted_posts = category.last | sort: "date" | reverse %}
+		{% for post in sorted_posts %}
+			{% if post.bilingual != null and post.bilingual != "" %}
+				{% if post.language == "EN" %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }} </a>[<a href="{{ post.url }}">EN</a>/<a href="{{ post.bilingual }}">CZ</a>] ({{ post.date | date: "%-d. %-m. %Y" }})
+					</li>
+				{% endif %}
+			{% else %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }} </a> [{{ post.language }}] ({{ post.date | date: "%-d. %-m. %Y" }})
+				</li>
+			{% endif %}
+  		{% endfor %}
+  	</ul>
 	{% endfor %}
 </article>
