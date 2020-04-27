@@ -13,7 +13,7 @@ Existuje nepřeberné množství možností, jak implementovat deriváty $$\TeX$
 3. __Nevyužívá JavaScript__ na straně klienta
 4. Nenačítá __žádné__ externí zdroje
 5. Využívá pouze __OpenSource__ software
-6. Je možné ho používat pomocí __`$$` notace__
+6. Je možné používat __`$$` notaci__
 7. Rozlišuje __Inline__ a __Display__ režimy
 8. Pokud post neobsahuje žádné matematické výroky, tak stránka __zbytečně nenačítá__ k tomu potřebné __zdroje__
 9. __Nahlásí chyby__ v latexovém výroku už při renderování
@@ -37,7 +37,7 @@ Stáhněte si nejnovější verzi [KaTeXu](https://katex.org/). Jediné soubory 
 exclude: ["katex.min.js"]
 {% endhighlight %}
 
-Každý post obsahující $$\LaTeX$$ové výroky, musí ve svém headru obsahovat následující kód:
+Každý post obsahující LaTeXové výroky, musí ve svém headru obsahovat následující kód:
 
 {% highlight html %}
 {{ "{% if page.latex or site.latex " }}%}
@@ -45,8 +45,9 @@ Každý post obsahující $$\LaTeX$$ové výroky, musí ve svém headru obsahova
 {{ "{% endif " }}%}
 {% endhighlight %}
 
-Pokud chcete LaTeX použít ve vašem postu, stačí nastavit v front matter postu: {% highlight yml %}
+Pokud chcete LaTeX použít ve vašem postu, stačí nastavit v front matter postu: 
 
+{% highlight yml %}
 ---
 latex: true
 ---
@@ -67,7 +68,7 @@ gem install execjs
 
 ### 3) Jekyll plug-in
 
-Ve složce `_plugins/` vytvořte soubor `.rb` soubor do ve kterém napíšeme náš plugin. Můj se jmenuje `katex.rb`. Samotný kód pluginu je:
+Ve složce `_plugins/` vytvořte `.rb` soubor do ve kterém napíšeme náš plugin. Můj se jmenuje `katex.rb`. Samotný kód pluginu je:
 
 {% highlight ruby %}
 {% readfile _plugins/katex.rb %}
@@ -109,18 +110,26 @@ Suspendisse et molestie quam.
 > Suspendisse et molestie quam. 
 
 <h3 class="no_toc">Macra</h3>
-Pro nastavení globálních maker, stačí v `_config.yml` vytvořit list definic:
+Pro nastavení globálních macer, stačí v `_config.yml` vytvořit list definic:
 
 {% highlight yml %}
 latex-macros:
   - ["\\RR", "\\mathbb{R}"]
+  - ["\\NN", "\\mathbb{N}"]
+  - ["\\ZZ", "\\mathbb{Z}"]
 {% endhighlight %}
+
+V tomto příkladě jsme nastavili:
+
+-  `\RR` na $$\RR$$
+-  `\NN` na $$\NN$$
+-  `\ZZ` na $$\ZZ$$
 
 ---
 
 <h2 class="no_toc">Známé chyby</h2>
 - Regex nedetekuje všechny výroky - **SOLVED** - Kramdown občas přidal do výroku `CDATA` tag, který obsahoval _break line_ znak. Opraveno odstraněním `CDATA` tagu před renderováním.
+- Načítání macer ignoruje `--config` option. - **SOLVED** - Místo přímého načítání ze souboru (`Jekyll.configuration({})["latex-macros"]`) načítám z Jekyllovké cache (`site.config["latex-macros"]`).
 - Latexový výrok musí být na jeden řádek, aby byl regexem detekován
 - Exejs je velmi pomalý (cca 300 výroků za minutu)
 - Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, Kramdown vytvoří list
-
