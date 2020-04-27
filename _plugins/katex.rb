@@ -2,15 +2,18 @@ require 'execjs'
 
 PATH_TO_JS = "./assets/katex/katex.min.js"
 katex_modul = ExecJS.compile(open(PATH_TO_JS).read)
-count = 0
 
+count = 0
 global_macros = Hash.new
 
-for macro_definition in Jekyll.configuration({})['latex-macros']
-	global_macros[macro_definition[0]] = macro_definition[1]
+Jekyll::Hooks.register :site, :after_init do |site|
+	for macro_definition in site.config["latex-macros"]
+		global_macros[macro_definition[0]] = macro_definition[1]
+	end
+	print("             LaTeX: " + global_macros.size.to_s + " macros loaded\n")
 end
 
-Jekyll::Hooks.register :documents, :post_render do |doc, payload |
+Jekyll::Hooks.register :documents, :post_render do |doc, payload|
 	if doc.data["latex"]
 		rendered_content = doc.output
 		rendered_content = rendered_content.gsub("% <![CDATA[\n", "")
@@ -43,5 +46,5 @@ Jekyll::Hooks.register :site, :after_reset do
 end
 
 Jekyll::Hooks.register :site, :post_write do
-	print("    Rendered LaTex: " + count.to_s + "\n")
+	print("             LaTeX: " + count.to_s + " expressions rendered\n")
 end
