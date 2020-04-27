@@ -1,14 +1,15 @@
 ---
-title:  "Exponential and logarithmic formula"
+title: "Exponenciální a logaritmické vzorce"
 category: "Mathematics"
-language: "EN"
+bilingual: "/exponential-and-logarithmic-formulas-en/"
+language: "CZ"
 latex: true
 layout: post
 ---
 
-## Exponential formulas
+## Exponenciální vzorce
 
-| Formula									 | Function domain							  	    |
+| Vzorec									 | Definiční obor							  	    |
 |:------------------------------------------:|:------------------------------------------------:|
 | $$ a^r . a^s = a^{r + s} $$ 			  	 | $$ a \in \RR ; r,s \in \NN $$ 					|
 | $$ (a^r)^s = a^{rs} $$	  			  	 | $$ a \in \RR ; r,s \in \NN $$ 					|
@@ -24,9 +25,9 @@ layout: post
 | $$ (\sqrt{a})^r = \sqrt{a^r} $$	 		 | $$ a \ge 0 ; r,s \in \RR $$						|
 
 
-## Logaritmic formulas
+## Logaritmické vzorce
 
-| Formula			                		 		| Function domain								|
+| Vzorec									 | Definiční obor							  	    |
 |:-------------------------------------------------:|:---------------------------------------------:|
 | $$ \log_{a}a = 1 $$								| $$ a \in \RR^{+} - {1} ;b \in \RR^{+} - {1}$$ |
 | $$ \log_{a}1 = 0 $$ 								| $$ a \in \RR^{+} - {1} ;b \in \RR^{+} - {1}$$ |
