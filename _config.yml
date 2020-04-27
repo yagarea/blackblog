@@ -41,7 +41,8 @@ references:
 # Latex macros
 latex-macros:
   - ["\\RR", "\\mathbb{R}"]
-
+  - ["\\NN", "\\mathbb{N}"]
+  - ["\\ZZ", "\\mathbb{Z}"]
 comments:
 #  disqus: ""               # see https://disqus.com/
 #  isso: ""                 # see https://posativ.org/isso/
