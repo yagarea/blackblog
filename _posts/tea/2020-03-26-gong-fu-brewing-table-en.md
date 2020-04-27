@@ -1,6 +1,7 @@
 ---
 title:  "Gong Fu brewing"
 category: "Tea"
+bilingual: "/gong-fu-brewing-table-cz/"
 language: "EN"
 layout: post
 ---
