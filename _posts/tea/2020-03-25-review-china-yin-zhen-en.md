@@ -1,6 +1,7 @@
 ---
 title:  "China Yin Zhen"
 category: "Tea"
+bilingual: "/review-china-yin-zhen-cz/"
 language: "EN"
 layout: tea-review
 

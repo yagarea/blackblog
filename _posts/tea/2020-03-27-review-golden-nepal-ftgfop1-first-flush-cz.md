@@ -1,6 +1,7 @@
 ---
 title:  "Golden Nepal FTGFOP1 first flush"
 category: "Tea"
+bilingual: "/review-phoenix-eyes-cz/"
 language: "CZ"
 layout: tea-review
 

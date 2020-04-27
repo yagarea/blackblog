@@ -1,6 +1,7 @@
 ---
 title: "Phoenix Eyes"
 category: "Tea"
+bilingual: "/review-phoenix-eyes-en/"
 language: "CZ"
 layout: tea-review
 
