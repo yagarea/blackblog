@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples of anotation"
+title:  "Advanced examples of notation"
 category: "Development"
 language: "EN"
 latex: true
