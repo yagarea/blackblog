@@ -13,9 +13,10 @@ photos:
 - url: "/tea/phoenix-eyes/wet-leaf.jpg"
 
 info:
-- { title: "Name", text: "Fenix eyes" }
-#- { title: "Meaning", text: "Fenix eyes" }
+- { title: "Name", text: "Feng Yan" }
+- { title: "Meaning", text: "Fenix eyes" }
 - { title: "Type", text: "Green tea" }
+- { title: "Cultivar", text: "Da Bai" }
 - { title: "Blend", text: "No" }
 - { title: "Form", text: "Hand packed pearls" }
 - { title: "Price", text: "20 USD/100g" }

@@ -16,6 +16,7 @@ info:
 - { title: "Name", text: "China Yin Zhen" }
 - { title: "Meaning of mane", text: "Silver needles" }
 - { title: "Type", text: "White tea" }
+- { title: "Cultivar", text: "Da Bai" }
 - { title: "Blend", text: "No" }
 - { title: "Form", text: "Loose leave" }
 - { title: "Price", text: "30€/100g"}

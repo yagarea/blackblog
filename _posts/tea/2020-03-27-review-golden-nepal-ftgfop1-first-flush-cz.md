@@ -33,7 +33,7 @@ brewing:
 - { title: "Styl louhování", text: "Gong Fu" }
 - { title: "Teplota vody", text: "90°C" }
 - { title: "Množství čaje", text: "4g" }
-- { title: "Množství vody", text: "cca 200ml" }
+- { title: "Množství vody", text: "cca 150ml" }
 - { title: "Doba louhování", text: "15 s" }
 - { title: "Počet nálevů", text: "4" }
 - { title: "Voda", text: "Filtrovaná"}

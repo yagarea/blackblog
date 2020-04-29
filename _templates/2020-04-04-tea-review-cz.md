@@ -1,8 +1,8 @@
 ---
 title: "Lapsang Souchong"
 category: "Tea"
-language: "CZ"
 bilingual: ""
+language: "CZ"
 layout: tea-review
 
 
@@ -13,9 +13,11 @@ photos:
 - url: "/tea/phoenix-eyes/wet-leaf.jpg"
 
 info:
-- { title: "Jméno", text: "" }
+- { title: "Název", text: "" }
 - { title: "Význam", text: "" }
 - { title: "Typ", text: "" }
+- { title: "Kultivar", text: "" }
+- { title: "Kvalita", text: ""}
 - { title: "Blend", text: "Ne" }
 - { title: "Forma", text: "" }
 - { title: "Míra oxidace", text ""}
