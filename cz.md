@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Home"
-permalink: "cz"
+title: "Úvodní stránka"
+permalink: "/cz/"
 main_lang: "CZ"
 ---
 
