@@ -13,9 +13,10 @@ photos:
 - url: "/tea/lapsang-souchong/wet-leaf.jpg"
 
 info:
-- { title: "Jméno", text: "Lapsang Souchong" }
+- { title: "Název", text: "Lapsang Souchong" }
 - { title: "Význam", text: "Hrubé čajové lístky z vysokých hor" }
 - { title: "Typ", text: "Uzený černý čaj" }
+- { title: "Kultivar", text: "Xiaozhong" }
 - { title: "Blend", text: "Ne" }
 - { title: "Forma", text: "Sypaný" }
 #- { title: "Míra oxidace", text ""}

@@ -1,6 +1,7 @@
 ---
 title:  ""
 category: "Tea"
+bilingual: ""
 language: ""
 layout: tea-review
 
@@ -13,7 +14,9 @@ photos:
 
 info:
 - { title: "Name", text: "" }
+- { title: "Meaning", text: "" }
 - { title: "Type", text: "" }
+- { title: "Cultivar", text: "" }
 - { title: "Quality", text: "" }
 - { title: "Blend", text: "" }
 - { title: "Form", text: "" }
@@ -25,13 +28,13 @@ origin:
 - { title: "Flush", text: "" }
 - { title: "Altitude", text: "" }
 - { title: "Seller", text: "" }
-- { title: "Link", text: "<a href=''>Here</a>" }
+- { title: "Link", text: "Here", link: "" }
 
 brewing:
-- { title: "Brewing style", text: "" }
+- { title: "Brewing style", text: "Gong Fu" }
 - { title: "Water temperature", text: "°C" }
 - { title: "Amount", text: "g" }
-- { title: "Water", text: "cca ml" }
+- { title: "Water", text: cca 150 ml" }
 - { title: "Infusion time", text: " s" }
 - { title: "Number of infusions", text: "" }
 - { title: "Water", text: "filtered" }

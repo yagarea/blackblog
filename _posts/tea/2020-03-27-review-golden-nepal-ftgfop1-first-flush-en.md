@@ -15,6 +15,7 @@ photos:
 info:
 - { title: "Name", text: "Golden Nepal" }
 - { title: "Type", text: "Black tea" }
+# - { title: "Cultivar", text: "" }
 - { title: "Quality", text: "FTGFOP1" }
 - { title: "Blend", text: "No" }
 - { title: "Form", text: "Loose leave" }

@@ -85,29 +85,29 @@ Pokud Kramdown narazí na samostatný breakline znak uprostřed textu, smaže ho
 
 <h3 class="no_toc">Inline režim</h3>
 {% highlight latex %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam.
 {% endhighlight %}
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam. 
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. $$e^{i\pi} + 1 = 0$$ Suspendisse et molestie quam.
 
 <h3 class="no_toc">Display režim</h3>
 {% highlight latex %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 $$
 i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)
 $$
 
-Suspendisse et molestie quam. 
+Suspendisse et molestie quam.
 {% endhighlight %}
 
->Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 >
 > $$ 
 > i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) 
 > $$
 >
-> Suspendisse et molestie quam. 
+> Suspendisse et molestie quam.
 
 <h3 class="no_toc">Macra</h3>
 Pro nastavení globálních macer, stačí v `_config.yml` vytvořit list definic:
@@ -133,3 +133,9 @@ V tomto příkladě jsme nastavili:
 - Latexový výrok musí být na jeden řádek, aby byl regexem detekován
 - Exejs je velmi pomalý (cca 300 výroků za minutu)
 - Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, Kramdown vytvoří list
+
+---
+
+<h2 class="no_toc">Poděkování</h2>
+
+Chtěl bych poděkovat mému dobrému kamarádovi [Tomáši Slámovi](https://slama.dev/) zalomíte článek [Typesetting math with LaTeX in Jekyll](https://slama.dev/typesetting-math-with-latex-in-jekyll/), který byl pro ten můj důležitým zdrojem.

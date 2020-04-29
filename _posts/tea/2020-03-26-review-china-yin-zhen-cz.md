@@ -16,8 +16,9 @@ info:
 - { title: "Název", text: "China Yin Zhen" }
 - { title: "Význam", text: "Stříbrné jehly" }
 - { title: "Typ", text: "Bílý čaj" }
+- { title: "Kultivar", text: "Da Bai" }
 - { title: "Blend", text: "Ne" }
-- { title: "Forma", text: "Sypaný" }
+#- { title: "Forma", text: "Sypaný" }
 - { title: "Cena", text: "30€/100g"}
 
 origin:

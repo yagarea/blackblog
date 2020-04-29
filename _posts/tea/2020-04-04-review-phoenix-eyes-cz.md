@@ -13,9 +13,10 @@ photos:
 - url: "/tea/phoenix-eyes/wet-leaf.jpg"
 
 info:
-- { title: "Jméno", text: "Phoenix Eyes" }
+- { title: "Název", text: "Phoenix Eyes" }
 - { title: "Význam", text: "Fénixovi oči" }
 - { title: "Typ", text: "Zelený čaj" }
+- { title: "Kultivar", text: "Da Bai" }
 - { title: "Blend", text: "Ne" }
 - { title: "Forma", text: "Ručně balené perly" }
 - { title: "Cena", text: "510 Kč/100g"}
