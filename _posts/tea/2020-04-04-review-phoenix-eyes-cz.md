@@ -57,4 +57,4 @@ rating: "70%"
 RedditLink: ""
 ---
 
-Ještě před karanténou, jsem se se svými přáteli pravidelně scházel na kalíškem čaje. Říkali jsme tomu "Philosophy session". Byly to dlouhé noci strávené vášnivými debatami na rozličná témata. Vždy jsem se na ně těšil jako malé dítě. Miloval jsem konfrontaci vlastních názorů s názory jiných, argumentovat a slyšet argumenty ostatních. Vždy jsem si poté připadal lepším člověkem. Pokaždé jsem vařil jiný čaj. Když jsem narazil na tento, tak sklidil velký úspech. Proto jsem se rozhodl na něj napsat tuto rezenci.
+Ještě před karanténou, jsem se se svými přáteli pravidelně scházel na kalíškem čaje. Říkali jsme tomu "Philosophy session". Byly to dlouhé noci strávené vášnivými debatami na rozličná témata. Vždy jsem se na ně těšil jako malé dítě. Miloval jsem konfrontaci vlastních názorů s názory jiných, argumentovat a slyšet argumenty ostatních. Vždy jsem si poté připadal lepším člověkem. Pokaždé jsem vařil jiný čaj. Když jsem narazil na tento, tak sklidil velký úspěch. Proto jsem se rozhodl na něj napsat tuto rezenci.
