@@ -1,4 +1,6 @@
-RewriteEngine On 
+RewriteEngine On
+
+# HTTPS settings
 RewriteCond %{HTTPS} off 
 RewriteRule (.*) https://%{SERVER_NAME}/$1 [R=301] 
 Header set Content-Security-Policy "upgrade-insecure-requests;"
