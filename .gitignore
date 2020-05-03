@@ -16,16 +16,14 @@ __pycache__/
 *.un~
 *.swo
 
-scripts/login_info.txt
-
+# workig directories
+assets/vid/
 _graphics/
-
 _materials/
-
-contact.md
-
 tea/*/*-raw.jpg
 
-assets/vid/
-
+# Metafiles
+contact.md
 tea.md
+todo.md
+scripts/login_info.txt
