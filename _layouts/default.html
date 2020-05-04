@@ -9,6 +9,7 @@
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 	<script async defer data-domain="blackblog.cz" src="https://stats.blackblog.cz/js/index.js"></script>
+	<link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
 
 	{% if page.layout == "tea-review" %}
 		<link rel="stylesheet" href="{{ '/assets/css/tea.css' | relative_url }}">
@@ -18,7 +19,6 @@
 	{% else %}
 		<link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
 	{% endif %}
-	<link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
 	{% if site.sidebar %}
 		<link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}" media="screen and (min-width: {{ site.sidebar_limit }})">
 	{% endif %}
