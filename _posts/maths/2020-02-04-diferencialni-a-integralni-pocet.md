@@ -288,11 +288,13 @@ $$ \int_a^b f(x) dx = [F(x)]_a^b = F(b) - F(a) $$
 
 #### Obsah pod grafem
 
-Obsah útvaru ohraničeného grafem, osou X a dvěmi rovnoběžkami procházející hranicemi intervalu na které je útvar určen se rovná $$ \int_a^b f(x) dx$$
+Obsah útvaru ohraničeného grafem, osou X a dvěmi rovnoběžkami procházející hranicemi intervalu na které je útvar určen se rovná 
+
+$$ \int_a^b f(x) dx$$
 
 #### Objem rotačního tělesa
 
 Objem rotačního tělesa lze vyjárřit jako
 
-$$ V = \pi \int_a^b (f(x))^2 dx $$
+$$ V = \pi \int_a^b f^2(x) dx $$
 
