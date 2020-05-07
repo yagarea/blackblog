@@ -22,7 +22,6 @@ The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equat
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
-
 ## Code
 
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it.
@@ -39,11 +38,13 @@ static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocato
 
 {% endhighlight %}
 
-## Gists
+## Gists (WARNING: this method is not currently javascript free)
 
 With the `jekyll-gist` plugin, which is preinstalled on Github Pages, you can embed gists simply by using the `gist` command:
 
+```html
 <script src="https://gist.github.com/5555251.js?file=gist.md"></script>
+```
 
 ## Images
 
@@ -64,7 +65,9 @@ The `.large` wrapper can be used to increase the width of an image or iframe.
 ## Embedded content
 
 You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
-
+ 
+```html
 <div class="large">
 {% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
 </div>
+```
