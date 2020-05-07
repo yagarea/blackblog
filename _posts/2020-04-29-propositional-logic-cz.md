@@ -1,7 +1,7 @@
 ---
 title:  "Logické výrazy"
 category: "Mathematics"
-bilingual: "/logical-expressions-en/"
+bilingual: "/propositional-logic-en/"
 language: "CZ"
 latex: true
 layout: post
@@ -24,5 +24,5 @@ layout: post
 | 1	| 1	|	  0		|		1		|		1	   |		  1		     |		 	  1			   |
 | 1	| 0	|	  0		|		0		|		1	   |		  0		     |		 	  0			   |
 | 0	| 1	|	  1		|		0		|		1	   |		  1		     |		 	  0			   |
-| 0	| 0	|	  1		|		0		|		0	   |		  1		     |		 	  0			   |
+| 0	| 0	|	  1		|		0		|		0	   |		  1		     |		 	  1			   |
 ||| ![Negation](/assets/img/logex/negation.jpg) | ![Conjuncion](/assets/img/logex/conjuncion.jpg) | ![Disjunction](/assets/img/logex/disjunction.jpg) | ![Implication](/assets/img/logex/implication.jpg) | ![Equivalence](/assets/img/logex/equivalence.jpg) |
