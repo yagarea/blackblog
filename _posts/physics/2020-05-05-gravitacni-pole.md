@@ -6,6 +6,10 @@ latex: true
 layout: post
 ---
 
+- .
+{:toc}
+---
+
 Gravitační pole mají všechny hmotné objekty. Gravitační silové působení mezi tělesy je vždy vzájemné.
 
 # Newtonův gravitační zákon
@@ -89,7 +93,7 @@ $$ V_{pZ} = \sqrt{\frac{2GM_Z}{R_Z}} = V_{kZ}\sqrt2 $$
 - $$1 AU \approx 149,6.10^9m$$ $$$$
 - Velikost (ze zemského povrchu) $$16,7.10^9m$$
 
-## Keplerovi zákony
+## Keplerovy zákony
 > ### První Keplerův zákon
 > Planety se pohybují kolem Slunce po elipsách málo odlišných od kružnic, v jejichž společném ohnisku je Slunce
 
@@ -117,7 +121,7 @@ Gravitační pole, ve kterém uděluje gravitační síla ve všech místech ste
 
 [obrázek]
 
-## Svisllý vrh vzhůru
+## Svislý vrh vzhůru
 - Koná těleso vržené počáteční rychlostí $$v_0$$ ve směru opačném než je směr tíhového zrychlení $$a_g$$
 - V nejvyšším bodě je okamžitá rychlo $$v$$ nulová
 - Je to pohyb rovnoměrně zpomalený
@@ -132,7 +136,7 @@ Gravitační pole, ve kterém uděluje gravitační síla ve všech místech ste
 - Koná těleso, jemuž udělíme počáteční rychlost $$v_0$$ ve vodorovném směru
 - Vržené těleseo urazí horizontálně dráhu $$x$$, kdy $$x = v_0t$$
 - Vržené těleseo urazí vertikálně dráhu $$y$$, kdy $$y = h - \frac{1}{2}gt^2$$
-- Pro délku vrhu $$d$$ platí $$d = v_0 \sqwrt{\frac{2h}{g}}$$
+- Pro délku vrhu $$d$$ platí $$d = v_0 \sqrt{\frac{2h}{g}}$$
 - Pro dobu vrhu $$t_d$$ platí $$t_d = \sqrt{\frac{2h}{g}}$$
 
 [obrázek]
