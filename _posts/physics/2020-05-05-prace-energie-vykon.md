@@ -6,6 +6,10 @@ latex: true
 layout: post
 ---
 
+- .
+{:toc}
+---
+
 # Mechanická práce
 Jestliže těleso urazí působením konstantních síly o velikosti $$F$$ dráhu $$s$$, přičemž síla svírá s trajektorií tělesa stálý úhel $$\alpha$$, vykoná síla mechanickou práci danou vztahem
 
@@ -90,7 +94,7 @@ Okamžitý výkon $$P$$ se rovná součinu velikostí síly působící na těle
 
 $$ P = \frac{\Delta W}{\Delta t} = \frac{Fv\Delta t}{\Delta t} = Fv $$
 
-# Příkon
+## Příkon
 Podíl energie $$\Delta E$$ dodané stroji za dobu $$\Delta t$$ je příkon $$P_0$$
 
 $$ P_0 = \frac{\Delta E}{\Delta t} $$
@@ -99,7 +103,7 @@ $$ P_0 = \frac{\Delta E}{\Delta t} $$
 - $$E$$ - energie
 - $$t$$ - čas
 
-# Účinnost
+## Účinnost
 Podíl býkonu $$P$$ a příkonu $$P_0$$ je účinnost $$\eta$$
 
 $$ \eta = \frac{P}{P_0} $$
