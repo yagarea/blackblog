@@ -18,7 +18,7 @@ layout: post
 - Difuze - samovolné pronikání částic jedné látky mezi částice druhé látky
 - Tlak plynu - narážení molekul plynu na okolní tělesa
 
-![hmota](/assets/img/molekfyzterm/hmota.png)
+![hmota](/assets/img/molekfyzterm/hmota.jpg)
 
 ## Plynné látky
 - tepelný pohyb - různé směry, různé rychlosti
