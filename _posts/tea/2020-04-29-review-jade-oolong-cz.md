@@ -35,9 +35,9 @@ brewing:
 - { title: "Teplota vody", text: "85 °C" }
 - { title: "Množství čaje", text: "3.5 g" }
 - { title: "Množství vody", text: "cca 150 ml" }
-- { title: "Doba louhování", text: "60 s" }
-- { title: "Počet nálevů", text: "" }
-- { title: "Voda", text: "filtered" }
+- { title: "Doba louhování", text: "70 s" }
+- { title: "Počet nálevů", text: "5" }
+- { title: "Voda", text: "Filtrovaná" }
 
 EyeDryLeaf: "Lístky jsou srolovány do tvaru a velikosti kuliček nového koření. Většina jejich povrchu je tmavá močálově zelená se světle zelenými flíčky. Občas z kuliček trčí kousek světle hnědého řapíku. Vakuování způsobilo zvrásnění. Kuličky skoro vypadají jako uhnětené."
 EyeWetLeaf: "Lístky se rozbalily a vyplnily konvičku až po okraj."
@@ -51,10 +51,11 @@ MouthTexture: "Lehká až vodová. Velmi osvěžující."
 MouthTaste: "Nejvíce ženšen. Velmi zemitá a minerální, ale stále rostlinná chuť. Také umami a stopy kopru. Velmi plná chuť."
 MouthFinish: "Opět ženšen, tentokrá v doprovodu sedmikrásek."
 
-conclusion: ""
+conclusion: "Skvělý čaj na celodenní popíjení. Rozhodně si zaslouží vyzkoušet. Tento čaj doporučuji každému, kdo ocení plnou chuť bez trpkosti."
 
 rating: "85%"
 
 RedditLink: ""
 ---
 
+Tento čaj je zajímavý hlavně svým původem. Byl totiž vypěstován stylem *Natural Farming* v souladu s okolní přírodou bez použití chemických hnojiv či pesticidů. A to je velké plus.
