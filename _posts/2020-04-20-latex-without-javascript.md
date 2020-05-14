@@ -130,7 +130,7 @@ V tomto příkladě jsme nastavili:
 <h2 class="no_toc">Známé chyby</h2>
 - Regex nedetekuje všechny výroky - **SOLVED** - Kramdown občas přidal do výroku `CDATA` tag, který obsahoval _break line_ znak. Opraveno odstraněním `CDATA` tagu před renderováním.
 - Načítání macer ignoruje `--config` option - **SOLVED** - Místo přímého načítání ze souboru (`Jekyll.configuration({})["latex-macros"]`) načítám z Jekyllovké cache (`site.config["latex-macros"]`).
-- Latexový výrok musí být na jeden řádek, aby byl regexem detekován
+- Latexový výrok musí být na jeden řádek, aby byl regexem detekován - **SOLVED** - opraveno multilina flagem (`/m`)
 - Exejs je velmi pomalý (cca 350 výroků za minutu)
 - Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, Kramdown vytvoří list
 
