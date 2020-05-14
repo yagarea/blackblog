@@ -58,8 +58,8 @@ Dostředivá síla $$F_d$$
 $$F_d = \frac{mv^2_k}{R_Z + h}$$
 
 - Při malé počáteční rychlosti $$v_0$$ se těleso pohybuje po trajektorii, která je částí elipsy.
-- Při větší $$v_0$$ může dojít k situaci, kdy těleso jižna zemský povrch nespadne a opíše celou elipsu.
-- Při určité hodnotě v0 nastává případ, kdy těleso opíše kružnici se středem ve středu Země – tuto rychlost nazýváme kruhová $$v_k$$
+- Při větší $$v_0$$ může dojít k situaci, kdy těleso již na zemský povrch nespadne a opíše celou elipsu.
+- Při určité hodnotě $$v_0$$ nastává případ, kdy těleso opíše kružnici se středem ve středu Země – tuto rychlost nazýváme kruhová $$v_k$$
 
 [obrázek]
 
