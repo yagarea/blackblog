@@ -71,6 +71,42 @@ $$ p = \frac{1}{3}N_vm_0v_k^2 $$
 
 ### První termodinamický zákon
 
+> Přírůstek vnitřní energie $$\Delta U$$ soustavy se rovná součtu práce $$W$$ vykonané okolními tělesy působící na soustavu silami a tepla $$Q$$ odevzdaného okolními tělesy soustavě:
+>
+> $$\Delta U = W + Q $$
+
+### Stavové veličiny
+1. Tlak
+2. Teplota
+3. Objem
+
+Každá soustava se snaží dojít do rovnovážného stavu.
+
+#### Stavová rovnice plynu
+
+$$ pV = nRT $$
+
+- $$p$$ = tlak
+- $$V$$ = objem
+- $$n$$ = látkové množství plynu
+- $$R$$ = molární plynová konstanta
+- $$T$$ = termodynamická teplota plynu
+
+### Izolované soustavy
+
+- **Isotermický děj**
+	- Teplota je konstantní
+	- $$pV = konst$$ $$$$
+- **Isochorický děj**
+	- Objem se nemění
+	- $$\frac{p}{T} = konst$$ $$$$
+- **Isobarický děj**
+	- Tlak se nemění
+	- $$\frac{V}{T} = konst$$ $$$$
+- **Adiabatický děj**
+	- soustava si nepředává žádné teplo s okolím
+	- $$Q = 0$$ $$$$
+
 ## Kapalné látky
 - vzdálenost mezi částicemi je 0,2 nm
 - molekuly nejsou vázány do stejné rovnovážné polohy - časem se mění
@@ -79,7 +115,7 @@ $$ p = \frac{1}{3}N_vm_0v_k^2 $$
 
 ## Pevné látky
 - struktura je krystalická nebo amorfní 
-- vzdálenost mezi částicemi je 0,2 . 0,3 nm
+- vzdálenost mezi částicemi je 0,2 až 0,3 nm
 - přitažlivé síly způsobují určitý tvar a objem pevné látky
 - působí-li vnější síly nebo se nemění teplota - tvar i objem se nemění
 - vibrační chaotický pohyb v mřížce - s teplotou se výchylky zvětšují
@@ -128,3 +164,72 @@ $$ p = \frac{1}{3}N_vm_0v_k^2 $$
 
 ![Elementární buňky](/assets/img/molekfyzterm/sil-pus-castic.png)
 
+# Přenos vnitřní energie
+Přenos vnitřní energie z míst s vyšší teplotou do míst s nižší teplotou může uskutečnit vedením nebo zářením. Vnitřní energii může přenášet take proudící tekutina, v tom případě mluvíme o proudění
+
+## Tepelná výměna vedením
+- Probíhá uvnitř tělesa
+- Tepelná energie přechází z míst z míst s vyšší teplotou do studenějších
+- **V izolantech:** částice v zahřívaném místě se rozkmitají a tím rozkmitají i částice ve svém okolí
+- **Ve vodičích:** Tepelná výměna je hlavně zprostředkována volnými elektrony
+- Různé materiály mají různou tepelnou vodivost
+- Voda je velmi špatný tepelný vodič
+- Plyny mají nejmenší tepelnou vodivost (duté cihly, textil, pěna)
+
+## Tepelná výměna zářením
+- Spočívá v vyzařování a přijimání elektromagnetického záření
+- Vzniká pohybem uvnitř atomů a molekul 
+- Při vyzáření energie, látka ztratí energii rovanající se energii záření
+- Při dopadu na těleso se záření z části:
+	- Odrazí
+	- Projde
+	- Pohltí
+- Infra zářiče - zdroje tepelného záření
+- Ohřívání země sluncem
+
+## Tepelná výměna prouděním
+- Vzniká zahříváním kapaliny nebo plynu v tíhovém poli
+- Chladnější kapalina má větší hustotu než teplejší
+- Při zahřívání kapaliny ze spodu, ohřátá kapalina proudí nahoru a chladná dolů (Vaření vody v hrnci, rychlovarná konvice, gejzíry)
+- Pro zrychlení procesu se používá tzv. nucené proudění (chladič v autě, ventilátory, klimatizace)
+
+# Měrná tepelná kapacita
+- značí se $$C$$
+- jednotka je $$J.KG^{-1}.K^{-1}$$
+- Jedná se o množství energie kterou musíme dodat tělesu aby se jeho teplota zvýšila o 1 stupeň Celsia/Kelvina
+- platí:
+
+$$ C = Q/\Delta t$$
+
+# Tepelná kapacita
+- značí se $$c$$
+- jednotka je $$J.K^{-1}$$
+- Jedná se o množství energie kterou musíme dodat jednomu kilogramu dané látky aby se jeho teplota zvýšila o 1 stupeň Celsia/Kelvina
+- platí:
+
+$$c = \frac{C}{m} = \frac{C}{m \Delta t}$$
+
+## Kalorimetrická rovnice
+
+$$
+\begin{aligned}
+	Q_1 &= Q_2 \\ 
+	c_1m_1(t-t_1) &= c_2m_2(t_2-t) \\
+	m_kc_k(t -t_1) + c_1m_1(t-t_1)&= c_2m_2(t_2-t)
+\end{aligned}
+$$
+
+- $$m_1$$ =  hmotnost kapaliny
+- $$c_1$$ = měrná tepelná kapacita kapaliny
+- $$t_1$$ = počáteční teplota vody
+- $$t$$  = výsledná teplota
+
+
+- $$m_k$$ = hmotnost kalorimetru 
+- $$c_k$$ = měrná tepelná kapacita kalorimetru
+
+
+- $$m_2$$ = hmotnost tělesa
+- $$c_2$$ = měrná tepelná kapacita tělesa
+- $$t_2$$ = počáteční teplota  tělesa
+- $$t$$  = výsledná teplota
