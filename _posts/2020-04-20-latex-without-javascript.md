@@ -1,10 +1,12 @@
 ---
-title:  "Latex na jekyll blogu bez javascriptu"
+title:  "LaTeX na jekyll blogu bez javascriptu"
 category: "Development"
 language: "CZ"
 latex: true
 layout: post
 ---
+
+
 
 Existuje nepřeberné množství možností, jak implementovat deriváty $$\TeX$$u na Vaši webovou stránku. Vyzkoušel jsem jich mnoho, ale bohužel žádná z nich nesplňovala mých 10 požadavků:
 
@@ -71,7 +73,58 @@ gem install execjs
 Ve složce `_plugins/` vytvořte `.rb` soubor do ve kterém napíšeme náš plugin. Můj se jmenuje `katex.rb`. Samotný kód pluginu je:
 
 {% highlight ruby %}
-{% readfile _plugins/katex.rb %}
+require 'execjs'
+
+PATH_TO_JS = "./assets/katex/katex.min.js"
+katex_modul = ExecJS.compile(open(PATH_TO_JS).read)
+
+count = 0
+global_macros = Hash.new
+
+Jekyll::Hooks.register :site, :after_init do |site|
+  if site.config["latex-macros"] != nil
+    for macro_definition in site.config["latex-macros"]
+      global_macros[macro_definition[0]] = macro_definition[1]
+    end
+  end
+  print("             LaTeX: " + global_macros.size.to_s + " macros loaded\n")
+end
+
+Jekyll::Hooks.register :documents, :post_render do |doc, payload|
+  if doc.data["latex"]
+    rendered_content = doc.output
+    rendered_content = rendered_content.gsub("% <![CDATA[\n", "")
+    rendered_content = rendered_content.gsub("%]]>", "")
+
+    display_latex = rendered_content.scan(Regexp.new(/<script type="math\/tex; mode=display">(.*?)<\/script>/m)).flatten
+    count += display_latex.size
+    for dl in display_latex
+      rendered_content = rendered_content.gsub('<script type="math/tex; mode=display">' + dl + '</script>',
+        '<div class="equation" style="font-size: 130%">' +
+        katex_modul.call("katex.renderToString", dl, {displayMode: true, macros: global_macros}) +
+        '</div>')
+    end
+
+    inline_latex = rendered_content.scan(Regexp.new(/<script type="math\/tex">(.*?)<\/script>/m)).flatten
+    count += inline_latex.size
+    for il in inline_latex
+      rendered_content = rendered_content.gsub('<script type="math/tex">' + il + '</script>',
+      '<span class="inline-equation">' +
+      katex_modul.call("katex.renderToString", il, {displayMode: false, macros: global_macros}) +
+      '</span>')
+    end
+
+    doc.output = rendered_content
+  end
+end
+
+Jekyll::Hooks.register :site, :after_reset do
+  count = 0
+end
+
+Jekyll::Hooks.register :site, :post_write do
+  print("             LaTeX: " + count.to_s + " expressions rendered\n")
+end
 {% endhighlight %}
 
 Jediné co musíte udělat je nastavit proměnou `PATH_TO_JS` na cestu k souboru `katex.min.js`.
@@ -121,16 +174,16 @@ latex-macros:
 
 V tomto příkladě jsme nastavili:
 
--  `\RR` na $$\RR$$
--  `\NN` na $$\NN$$
--  `\ZZ` na $$\ZZ$$
+-  `\RR` na $$\R$$
+-  `\NN` na $$\N$$
+-  `\ZZ` na $$\Z$$
 
 ---
 
 <h2 class="no_toc">Známé chyby</h2>
 - Regex nedetekuje všechny výroky - **SOLVED** - Kramdown občas přidal do výroku `CDATA` tag, který obsahoval _break line_ znak. Opraveno odstraněním `CDATA` tagu před renderováním.
 - Načítání macer ignoruje `--config` option - **SOLVED** - Místo přímého načítání ze souboru (`Jekyll.configuration({})["latex-macros"]`) načítám z Jekyllovké cache (`site.config["latex-macros"]`).
-- Latexový výrok musí být na jeden řádek, aby byl regexem detekován - **SOLVED** - opraveno multilina flagem (`/m`)
+- Latexový výrok musí být na jeden řádek, aby byl regexem detekován - **SOLVED** - opraveno multiline flagem (`/m`)
 - Exejs je velmi pomalý (cca 350 výroků za minutu)
 - Pokud Latexový výrok zalomíte tak aby jako první znak na řádku bylo `+` nebo `-`, Kramdown vytvoří list
 
@@ -138,4 +191,4 @@ V tomto příkladě jsme nastavili:
 
 <h2 class="no_toc">Poděkování</h2>
 
-Chtěl bych poděkovat mému dobrému kamarádovi [Tomáši Slámovi](https://slama.dev/) zalomíte článek [Typesetting math with LaTeX in Jekyll](https://slama.dev/typesetting-math-with-latex-in-jekyll/), který byl pro ten můj důležitým zdrojem.
+Chtěl bych poděkovat mému dobrému kamarádovi [Tomáši Slámovi](https://slama.dev/) za článek [Typesetting math with LaTeX in Jekyll](https://slama.dev/typesetting-math-with-latex-in-jekyll/), který byl pro ten můj důležitým zdrojem.
