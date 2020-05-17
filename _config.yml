@@ -38,11 +38,8 @@ references:
   - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
   - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
 
-# Latex macros
-latex-macros:
-  - ["\\RR", "\\mathbb{R}"]
-  - ["\\NN", "\\mathbb{N}"]
-  - ["\\ZZ", "\\mathbb{Z}"]
+kramdown:
+  math_engine: katex
 
 comments:
 #  disqus: ""               # see https://disqus.com/
