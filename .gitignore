@@ -26,4 +26,4 @@ tea/*/*-raw.jpg
 contact.md
 tea.md
 todo.md
-scripts/login_info.txt
+scripts/login.py
