@@ -27,3 +27,9 @@ RewriteRule ^subdom/[^/]+/(.+[^/])$ /$1/ [R]
 
 # 404 handling
 ErrorDocument 404 /404.html
+
+# make certain files inaccessible
+<Files "checksum.json">  
+  Order Allow,Deny
+  Deny from all
+</Files>
