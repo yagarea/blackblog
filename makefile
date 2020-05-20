@@ -9,7 +9,7 @@ clean:
 
 build:
 	jekyll build --trace
-	tree -C -d | sed 's/^/                    /'
+	tree _site -C -d | sed 's/^/                    /'
 
 upload:
 	scripts/upload
