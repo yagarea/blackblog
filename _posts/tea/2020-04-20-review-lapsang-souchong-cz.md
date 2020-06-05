@@ -2,7 +2,7 @@
 title: "Lapsang Souchong"
 category: "Tea"
 language: "CZ"
-bilingual: ""
+bilingual: "/review-lapsang-souchong-en/"
 layout: tea-review
 
 
@@ -25,8 +25,7 @@ info:
 origin:
 - { title: "Místo původu", text: "Čína, provincie Fujian" }
 - { title: "Ročník", text: "2018" }
-#- { title: "Sklizeň", text: "" }
-#- { title: "Nadmořská výška", text: "1800 m" }
+- { title: "Nadmořská výška", text: "1800 m" }
 - { title: "Prodejce", text: "Oxalis" }
 - { title: "Odkaz", text: "Link", link: "https://oxalis.cz/cs/lapsang-souchong-uzeny-caj-1-kg-8594045066500-209.htm/" }
 
