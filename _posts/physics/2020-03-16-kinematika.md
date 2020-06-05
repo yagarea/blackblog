@@ -35,7 +35,7 @@ $$ V_p = \frac{\delta s}{\delta t} [m.s^{-1}] $$
 
 | Graf závislosti dráhy na čase pro rovnoměrného pohybu | Graf velikosti rychlosti rovnoměrného pohybu na čase |
 |-------------------------------------------------------|------------------------------------------------------|
-| ![Graf závislosti dráhy na čase pro rovnoměrného pohybu](/assets/img/kinem/graf-draha-na-case.png) | ![Velikosti rychlosti rovnoměrného pohybu na čase](/assets/img/kinem/graf-rychlost-na-case.png) |
+| ![Graf závislosti dráhy na čase pro rovnoměrného pohybu](/assets/img/physics/kinematika/graf-draha-na-case.png) | ![Velikosti rychlosti rovnoměrného pohybu na čase](/assets/img/physics/kinematika/graf-rychlost-na-case.png) |
 
 - Velikost okamžité rychlosti je u rovnoměrného pohybu rovna průměrné rychlosti.
 
@@ -47,7 +47,7 @@ $$ s = v.(t-t_0) $$
 
 | Graf dráhy rovnoměrného pohybu při počáteční dráze $$ s_0 $$ | Graf rovnoměrného pohybu začínajícím v čase $$t_0$$ |
 |--------------------------------------------------------------|-----------------------------------------------------|
-| ![Graf dráhy rovnoměrného pohybu při počáteční dráze](/assets/img/kinem/graf-draha-s0.png) | ![Graf rovnoměrného pohybu začínajícím v čase](/assets/img/kinem/graf-draha-t0.png) |
+| ![Graf dráhy rovnoměrného pohybu při počáteční dráze](/assets/img/physics/kinematika/graf-draha-s0.png) | ![Graf rovnoměrného pohybu začínajícím v čase](/assets/img/physics/kinematika/graf-draha-t0.png) |
 
 
 - **Zrychlení a $$[m.s^{-2}]$$**
@@ -69,7 +69,7 @@ $$ s = v.(t-t_0) $$
 
 | Graf rovnoměrně zrychleného pohybu | Graf rovnoměrně zpomaleného pohybu |
 |------------------------------------|------------------------------------|
-| ![Graf rovnoměrně zrychleného pohybu](/assets/img/kinem/graf-rovnomerne-zrychleny.png) | ![Graf rovnoměrně zpomaleného pohybu](/assets/img/kinem/graf-rovnomerne-zpomaleny.png) |
+| ![Graf rovnoměrně zrychleného pohybu](/assets/img/physics/kinematika/graf-rovnomerne-zrychleny.png) | ![Graf rovnoměrně zpomaleného pohybu](/assets/img/physics/kinematika/graf-rovnomerne-zpomaleny.png) |
 
 - Dráha rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí
 
@@ -77,7 +77,7 @@ $$ s = \frac{1}{2}a.t^2 $$
 
 | Graf dráhy rovnoměrně zrychleného pohybu |
 |------------------------------------------|
-| ![Graf dráhy rovnoměrně zrychleného pohybu](/assets/img/kinem/graf-draha-zrychleny.png)
+| ![Graf dráhy rovnoměrně zrychleného pohybu](/assets/img/physics/kinematika/graf-draha-zrychleny.png)
 
 - Dráha rovnoměrně zrychleného pohybu s počáteční rychlostí $$ v_0 $$ 
 
@@ -85,4 +85,4 @@ $$ s = v_0.t + \frac{1}{2}a.t^2 $$
 
 | Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí | Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí |
 |----------------------|--------------------------------|
-| ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí](/assets/img/kinem/graf-draha-zrychleny-nul.png) | ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí](/assets/img/kinem/gra
+| ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nulovou počáteční rychlostí](/assets/img/physics/kinematika/graf-draha-zrychleny-nul.png) | ![Graf znázornění dráhy rovnoměrně zrychleného pohybu s nenulovou počáteční rychlostí](/assets/img/physics/kinematika/graf-draha-zrychleny-nenul.png) |
