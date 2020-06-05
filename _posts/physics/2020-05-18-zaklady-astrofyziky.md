@@ -48,13 +48,13 @@ Zkoumá fyzikální a chemické vlastnosti kosmických těles a mezihvězdného 
 - Uvnitř Slunce probíhají termojaderné reakce (slučování jader vodíku za vysoké teploty a tlaku, zvniká hélium) při této reakci se uvolňuje veliké množství energie, které ze Slunce vyzařuje, jako teplo a světlo
 - **protuberace** - obrovské výtrysky plazmy až do korony
 
-![Průřez Slunce](/assets/img/astrofyz/sun.jpg)
+![Průřez Slunce](/assets/img/physics/astrofyzika/sun.jpg)
 
 ### Planety Sluneční soustavy
 - **Planety zemského typu** - menší velikost a hmotnost, vysoká hustota, blíže ke Slunci, planety jsou tvořeny pevnými horninami (Merkur, Venuše, Země, Mars)
 - **Obří planety** (plynní obři)- větší velikost a hmotnost, nízká hustota, vzdálenější planety od Slunce, velký počet měsíců, tvořeny plyny (Jupiter, Saturn, Uran, Neptun)	
 
-![Průřez Slunce](/assets/img/astrofyz/ss.jpg)
+![Průřez Slunce](/assets/img/physics/astrofyzika/ss.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Zkoumá fyzikální a chemické vlastnosti kosmických těles a mezihvězdného 
 - Světelný rok ($$LY$$) - dráha, kterou urazí světelný paprsek za 1 rok (9,5 bilionu km)
 - Parsek ($$pc$$) - vzdálenost, z které vidíme jednu astronomickou jednotku pod úhlem jedné obloukové vteřiny
 
-![Parsek](/assets/img/astrofyz/parsek.png)
+![Parsek](/assets/img/physics/astrofyzika/parsek.png)
 
 ---
 

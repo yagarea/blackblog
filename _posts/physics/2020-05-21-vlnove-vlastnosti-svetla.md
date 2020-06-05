@@ -16,14 +16,14 @@ layout: post
 # Koherentní světelná vlnění
 - Vlnění stejné frekvence s fázovým rozdílem
 
-![Koherentní vlnění](/assets/img/vlnove-vlastnosti-svetla/koherentni-vlneni.png)
+![Koherentní vlnění](/assets/img/physics/vlnove-vlastnosti-svetla/koherentni-vlneni.png)
 
 ---
 
 # Interference světla
 Vzájemné ovlivňování, střetávání, prolínání a sčítání světelných vln. Při skládání vlnění, zároveň se skládá elektrické i magnetické vlnění (navzájem kolmá vlnění).
 
-| ![Interference světla](/assets/img/vlnove-vlastnosti-svetla/interference1.png) | ![Interference světla](/assets/img/vlnove-vlastnosti-svetla/interference2.png) |
+| ![Interference světla](/assets/img/physics/vlnove-vlastnosti-svetla/interference1.png) | ![Interference světla](/assets/img/physics/vlnove-vlastnosti-svetla/interference2.png) |
 
 ## Interferenční maximum
 
@@ -42,7 +42,7 @@ $$ \Delta s = (2k-1).\frac{\lambda}{2} $$
 ## Youngův pokus
 Na základě ohybu světla se štěrbina chová jako bodový zdroj světla a je možné pozorovat interferenci světla a kde dosahuje svých maxim a minim (interferenční obrazec).
 
-![Youngův pokus](/assets/img/vlnove-vlastnosti-svetla/younguv-pokus.png)
+![Youngův pokus](/assets/img/physics/vlnove-vlastnosti-svetla/younguv-pokus.png)
 
 Vzdálenost dvou sousedních interferenčních maxim $$\Delta y$$
 
@@ -63,7 +63,7 @@ $$\Delta y = \frac{l}{d}.\lambda$$
 # Difraktace
 Na hraně tělesa se světelný paprsek ohýbá. Difrakci lze pozorovat na stínu překážky, která je osvícena koherentním světlem
 
-| ![Difrakce](/assets/img/vlnove-vlastnosti-svetla/difrakce1.png) | ![Difrakce](/assets/img/vlnove-vlastnosti-svetla/difrakce2.png) |
+| ![Difrakce](/assets/img/physics/vlnove-vlastnosti-svetla/difrakce1.png) | ![Difrakce](/assets/img/physics/vlnove-vlastnosti-svetla/difrakce2.png) |
 
 Paprsky vycházející z obou štěrbin pod úhlem $$\alpha$$ se na stínítku setkávají s dráhovým rozdílem 
 
@@ -92,17 +92,17 @@ $$b\sin\alpha = k\lambda$$
 - U nepolarizovaného světla se směr vektoru E náhodně mění (obr. a.)
 - Polarizovaný paprsek je takový, jehož vektor má leží vždy na jedné přímce (obr. b.)
 
-![Polarizace](/assets/img/vlnove-vlastnosti-svetla/polarizace.png)
+![Polarizace](/assets/img/physics/vlnove-vlastnosti-svetla/polarizace.png)
 
 ## Polarizace odrazem a lomem
 Jestliže nepolarizované světlo dopadá pod určitým úhlem na skleněnou desku, polarizuje se tak, že po odrazu vektor E kmitá kolmo k rovině dopadu (tzn. rovnoběžně s rovinou rozhraní).
 
-![Polarizace odrazem a lomem](/assets/img/vlnove-vlastnosti-svetla/polarizace-odrazem-a-lomem.png)
+![Polarizace odrazem a lomem](/assets/img/physics/vlnove-vlastnosti-svetla/polarizace-odrazem-a-lomem.png)
 
 ## Polarizace dvojlomem
 Látky, které jsou z hlediska světla anizotropní (např. islandský vápenec) rozdělí paprsek na rozhraní s tímto krystalem na dva (řádný a mimořádný), které jsou lineárně polarizovány, ale jejich vektory E kmitají v rovinách, které jsou na sebe navzájem kolmé.
 
-![Polarizace dvojlomem](/assets/img/vlnove-vlastnosti-svetla/polarizace-dvojlomem.png)
+![Polarizace dvojlomem](/assets/img/physics/vlnove-vlastnosti-svetla/polarizace-dvojlomem.png)
 
 ## Polarizace absorpcí
 - Polaroid - speciální látky, které mají podlouhlé molekuly, které jsou orientované tak, že propouští jen takové vlny, které kmitají v jednom směru.

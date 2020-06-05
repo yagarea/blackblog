@@ -47,7 +47,7 @@ layout: post
 ## Pascalův zákon
 > Tlak vyvolaný vnější silou, působící na kapalinu v uzavřené nádobě je ve všech místech stejný.
 >
-> | ![Tlak v nádobě](/assets/img/hydrostatika/tlak1.png) | ![Tlak a písty](/assets/img/hydrostatika/tlak2.png) |
+> | ![Tlak v nádobě](/assets/img/physics/hydrostatika/tlak1.png) | ![Tlak a písty](/assets/img/physics/hydrostatika/tlak2.png) |
 
 - Uplatnění pascalova zákona je především v hydraulických a pneumatických zařízeních (lisy, brzdy, zvedáky)
 - Velikosti sil jsou ve stejném poměru jako obsahy ploch pístů
@@ -86,12 +86,12 @@ $$  F_h = Sh\rho g $$
 
 > Hydrostatická tlaková síla závisí na hloubce, hustotě kapaliny, gravitační konstantě a na ploše na kterou kapalina působí. Nezávisí na tvaru nebo objemu , proto je ve všech nádobách o různém objemu hydrostatická síla konstantní. 
 >
-> ![Hydrostatický paradox](/assets/img/hydrostatika/hyparadox.png)
+> ![Hydrostatický paradox](/assets/img/physics/hydrostatika/hyparadox.png)
 
 ## Spojené nádoby
 Protože platí **Pascalův zákon**, je tlak ve všech místech kapaliny stejný, což dokazuje ta skutečnost, že ve spojených nádobách je kapalina v jedné výškové úrovni
 
-![spojene nadoby](/assets/img/hydrostatika/spojnab.png)
+![spojene nadoby](/assets/img/physics/hydrostatika/spojnab.png)
 
 Kapaliny o různých hustotách mají na svém rozhraní stejný hydrostatický tlak
 
@@ -159,4 +159,4 @@ $$ F_vz = Sh\rho g = V\rho g $$
 	- hustoty se rovnají
 	- $$\rho_t = \rho \implies F_G = F_vz$$ $$$$
 
-![Kapaliny v tekutinách](/assets/img/hydrostatika/telesovkapaline.png)
+![Kapaliny v tekutinách](/assets/img/physics/hydrostatika/telesovkapaline.png)

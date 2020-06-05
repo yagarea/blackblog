@@ -75,7 +75,7 @@ $$
 \end{aligned}
 $$
 
-![Izotermní děj](/assets/img/tepdejplyn/izotermni.png)
+![Izotermní děj](/assets/img/physics/tepelne-deje-v-plynech/izotermni.png)
 
 
 ## Izochorický děj
@@ -99,7 +99,7 @@ $$ W' = 0 $$
 
 - $$c_v$$ - měrná tepelná kapacita plynu při stálém objemu
 
-![Izochorický děj](/assets/img/tepdejplyn/izochoricky.png)
+![Izochorický děj](/assets/img/physics/tepelne-deje-v-plynech/izochoricky.png)
 
 ## Izobarický děj
 - **Tlak je konstantní**
@@ -121,7 +121,7 @@ $$ c_p = c_v + \frac{R}{M_m} $$
 
 - $$c_p$$ - měrná tepelná kapacita plynu při stálém tlaku
 
-![Izobarický děj](/assets/img/tepdejplyn/izobaricky.png)
+![Izobarický děj](/assets/img/physics/tepelne-deje-v-plynech/izobaricky.png)
 
 ## Adiabatický děj
 - **Neprobíhá tepelná výměna s okolím**, což znamená, že $$Q=0$$
@@ -152,7 +152,7 @@ $$
 \end{aligned}
 $$
 
-![Adiabatický děj](/assets/img/tepdejplyn/adiabaticky.png)
+![Adiabatický děj](/assets/img/physics/tepelne-deje-v-plynech/adiabaticky.png)
 
 ---
 
@@ -162,13 +162,13 @@ $$
 
 $$ W' = \int_{v_1}^{v_2} pdV = nRT \ln {\frac{V_2}{V_1}} $$
 
-![Práce pro proměnlivý tlak](/assets/img/tepdejplyn/prace-tlak.png)
+![Práce pro proměnlivý tlak](/assets/img/physics/tepelne-deje-v-plynech/prace-tlak.png)
 
 
 ## Izobarický děj
 $$ W' = p\Delta V $$
 
-![Práce pro izobarický děj](/assets/img/tepdejplyn/prace-izobar.png)
+![Práce pro izobarický děj](/assets/img/physics/tepelne-deje-v-plynech/prace-izobar.png)
 
 ## Kruhový děj
 - konečný stav soustavy je roven prvotnímu stavu
@@ -186,7 +186,7 @@ $$ W' = Q $$
 - ohřívač ($$Q_1$$) = těleso, od něhož přijme plyn teplo
 - chladič ($$Q'_2$$) = těleso, jemuž odevzdá teplo
 
-![Kruhový děj](/assets/img/tepdejplyn/kruhovy-dej.png)
+![Kruhový děj](/assets/img/physics/tepelne-deje-v-plynech/kruhovy-dej.png)
 
 - účinost:
 

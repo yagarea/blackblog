@@ -28,7 +28,7 @@ $$ Q_V = \frac{V}{t} = S.v $$
 - $$S$$ - plocha průřezu
 - $$v$$ - rychlost
 
-![Objemový průtok](/assets/img/hydrodynamika/objemovy-prutok.png)
+![Objemový průtok](/assets/img/physics/hydrodynamika/objemovy-prutok.png)
 
 ## Rovnice kontinuity
 
@@ -36,7 +36,7 @@ Vztah $$Sv=konst$$ vyjadřuje rovnici spojitosti neboli kontinuity. Ta říká �
 
 $$ S_1v_1 = S_2v_2 $$
 
-![Objemový průtok](/assets/img/hydrodynamika/continuita.png)
+![Objemový průtok](/assets/img/physics/hydrodynamika/continuita.png)
 
 # Bernoulliho rovnice
 Sledujeme proudění kapaliny z hlediska energetiky. První člen na levé straně představuje kinetickou energii, a druhý člen tlak v proudící kapalině. Důsledkem rovnice je fakt ,že pokud se ve zúženém místě trubice  zvyšuje rychlost proudění, tak se snižuje tlak
@@ -47,7 +47,7 @@ $$ \frac{1}{2}\rho v^2 + p = konst $$
 - $$v$$ - rychlost
 - $$p$$ - tlak
 
-![Objemový průtok](/assets/img/hydrodynamika/bermulli.png)
+![Objemový průtok](/assets/img/physics/hydrodynamika/bermulli.png)
 
 ## Hydrodynamický paradox
 - Při značném zúžení trubice a zvětšení rychlosti, může tlak poklesnout pod hodnotu atmosférického tlaku. Vznikne tedy podtlak a do úzké trubice se nasávají okolní látky. 
@@ -69,17 +69,17 @@ $$ v = \sqrt{2gh} $$
 
 vektory rychloti částic při prooudění reálné kapaliny
 
-![Proudění reálné kapaliny](/assets/img/hydrodynamika/proudeni-realne-kapaliny.png)
+![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/proudeni-realne-kapaliny.png)
 
 ## Obtékání těles reálnou kapalinou
 - Proudění reálné kapaliny okolo překážky způsobuje odporové síly
 - Při nižší rychlosti je odporová síla malá a přímo úměrná rychlosti, tento děj nazýváme **laminární proudění**.
 
-![Proudění reálné kapaliny](/assets/img/hydrodynamika/laminalni-proudeni.png)
+![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/laminalni-proudeni.png)
 
 - Při vyšších rychlostech proudění reálné kapaliny vznikají tzv. víry. Takové proudění nazýváme **turbulentní**.
 
-![Proudění reálné kapaliny](/assets/img/hydrodynamika/turbulentni-proudeni.png)
+![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/turbulentni-proudeni.png)
 
 # Odporová síla
 Práce vykonaná k přesunu tělesa v proudu se rovná kinetické energii:
@@ -103,5 +103,5 @@ $$ F = \frac{1}{2}cS\rho v^2$$
 - Tento tvar lze hojně pozorovat v praxi, např. křídlo letadla, ryba, kapka vody
 - Například u křídla letadla vzduch obtéká rychleji na horní části křídla, čímž způsobuje podtlak nad křídlem a přetlak pod křídlem takže výslednice sil působí vzhůru 
 
-![Křídlo letadla](/assets/img/hydrodynamika/kridlo.png)
+![Křídlo letadla](/assets/img/physics/hydrodynamika/kridlo.png)
 

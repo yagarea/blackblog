@@ -29,14 +29,14 @@ Pevné látky jsou látky, které si zachovávají svůj tvar = odlišnost od ka
 
 | Struktura monokrystalu | Struktura polykrystalu | Krystalická forma SiO$$_2$$ |
 |:----------------------:|:----------------------:|:---------------------------:|
-| ![struktura monokrystalu](/assets/img/struktura-pevnych-latek/monokrystal.png)| ![struktura monokrystalu](/assets/img/struktura-pevnych-latek/polykrystal.png)| ![Krystalická forma SiO2](/assets/img/struktura-pevnych-latek/krystal-SiO2.png) |
+| ![struktura monokrystalu](/assets/img/physics/struktura-pevnych-latek/monokrystal.png)| ![struktura monokrystalu](/assets/img/physics/struktura-pevnych-latek/polykrystal.png)| ![Krystalická forma SiO2](/assets/img/physics/struktura-pevnych-latek/krystal-SiO2.png) |
 
 
 ## Ideální krystalová mřížka
 - Je hmotný útvar, který vznikne, když je prostorová pravoúhlá geometrická mřížka obsazena pravidelně rozloženými částicemi
 - Obsahuje základní (elementární) buňku = základní krychle obsazená určitým způsobem částicemi, patří do krychlové soustavy → posouváním této základní krychle podél jejích prodloužených hran vznká ideální krystalická mřížka 
  
-![Ideální krystalová mřážka](/assets/img/struktura-pevnych-latek/idealni-mrizka.png)
+![Ideální krystalová mřážka](/assets/img/physics/struktura-pevnych-latek/idealni-mrizka.png)
 
 - $$a$$ - mřížkový parametr (mřížková konstanta) = Délka hrany základní buňky
 
@@ -56,7 +56,7 @@ Pevné látky jsou látky, které si zachovávají svůj tvar = odlišnost od ka
 
 | Prostá buňka | Plošně centrovaná buňka | Prostorově centrovaná buňka |
 |:------------:|:-----------------------:|:---------------------------:|
-| ![Prostá buňka](/assets/img/struktura-pevnych-latek/prosta.png) | ![Prostá buňka](/assets/img/struktura-pevnych-latek/plsne-centrovana.png) | ![Prostorově centrovaná buňka](/assets/img/struktura-pevnych-latek/prostorove-centrovana.png) |
+| ![Prostá buňka](/assets/img/physics/struktura-pevnych-latek/prosta.png) | ![Prostá buňka](/assets/img/physics/struktura-pevnych-latek/plsne-centrovana.png) | ![Prostorově centrovaná buňka](/assets/img/physics/struktura-pevnych-latek/prostorove-centrovana.png) |
 
 ## Poruchy krystalové mřížky
 Vyskytují u všech krystalů – každý reálný krystal má poruchy (defekty) – nejjednodušší jsou bodové poruchy
@@ -76,7 +76,7 @@ Vyskytují u všech krystalů – každý reálný krystal má poruchy (defekty)
 
 | Vakance | Intersticiální poloha částice | Příměsi |
 |:-------:|:-----------------------------:|:-------:|
-| ![Vakance](/assets/img/struktura-pevnych-latek/vakance.png) | ![Intersticiální poloha částice](/assets/img/struktura-pevnych-latek/intercastice.png) | ![Příměsi](/assets/img/struktura-pevnych-latek/primes.png) |
+| ![Vakance](/assets/img/physics/struktura-pevnych-latek/vakance.png) | ![Intersticiální poloha částice](/assets/img/physics/struktura-pevnych-latek/intercastice.png) | ![Příměsi](/assets/img/physics/struktura-pevnych-latek/primes.png) |
 
 ---
 
@@ -90,7 +90,7 @@ Vyskytují u všech krystalů – každý reálný krystal má poruchy (defekty)
 
 | Amorfní forma SiO$$_2$$ |
 |:-----------------------:|
-| ![amorfní forma SiO2](/assets/img/struktura-pevnych-latek/amorf-SiO2.png) |
+| ![amorfní forma SiO2](/assets/img/physics/struktura-pevnych-latek/amorf-SiO2.png) |
 
 ---
 
@@ -146,27 +146,27 @@ Tomu brání síly vzájemného působení mezi částicemi pevného tělesa. P�
 ### Deformace tahem 
 Na těleso působí dvě stejně velké síly ve směru ven z tělesa, které leží na téže vektorové přímce. Tato vektorová přímka u pravidelných těles většinou splývá s osou souměrnosti. Například zavěšené lano jeřábu, výtahu,...
 
-![Deformace tahem](/assets/img/struktura-pevnych-latek/deformace-tahem.png)
+![Deformace tahem](/assets/img/physics/struktura-pevnych-latek/deformace-tahem.png)
 
 ### Deformace tlakem
 Od deformace tahem se liší pouze tím, že působící síly míří dovnitř tělesa. Například pilíře mostu, nosníky konstrukce domů, ...
 
-![Deformace tlakem](/assets/img/struktura-pevnych-latek/deformace-tlakem.png)
+![Deformace tlakem](/assets/img/physics/struktura-pevnych-latek/deformace-tlakem.png)
 
 ### Deformace ohybem
 U těles, na něž působí síla kolmo k jejich podélné ose. Dolní vrstvy tělesa jsou deformovány tahem, horní vrstvy tlakem a střední vrstva zachovává svou délku. Např. tyč podepřená na obou koncích, ...
 
-![Deformace ohybem](/assets/img/struktura-pevnych-latek/deformace-ohybem.png)
+![Deformace ohybem](/assets/img/physics/struktura-pevnych-latek/deformace-ohybem.png)
 
 ### Deformace smykem
 Na horní a dolní podstavu těles působí tečné opačně orientované síly v rovinách těchto podstav. Síly způsobují vzájemné posunutí jednotlivých vrstev tělesa, přičemž se nemění jejich vzdálenost. Např. šroub, nýt,...
 
-![Deformace smykem](/assets/img/struktura-pevnych-latek/deformace-smykem.png)
+![Deformace smykem](/assets/img/physics/struktura-pevnych-latek/deformace-smykem.png)
 
 ### Deformace kroucením
 Je způsobena dvěma silovými dvojicemi, jejichž momenty jsou stejné velké, ale mají opačný směr. Např. hřídele strojů, vrtáky při vrtání, šrouby během utahování, ...
 
-![Deformace kroucením](/assets/img/struktura-pevnych-latek/deformace-kroucenim.png)
+![Deformace kroucením](/assets/img/physics/struktura-pevnych-latek/deformace-kroucenim.png)
 
 ---
 
@@ -185,7 +185,7 @@ $$\sigma_n = \frac{F_p}{S} $$
 ## Křivka deformace
 Graf závislosti normálového napětí na relativním prodloužení
 
-![Síla pružnosti](/assets/img/struktura-pevnych-latek/krivka-deformace.png)
+![Síla pružnosti](/assets/img/physics/struktura-pevnych-latek/krivka-deformace.png)
 
 - $$0A$$ - průžná deformace (když přestaneme působit silou, těleso se vrátí do původního stavu) $$\rightarrow$$ platí Hookův zákon
 - $$\sigma_u$$ - mez úměrnosti
@@ -200,7 +200,7 @@ Graf závislosti normálového napětí na relativním prodloužení
 ## Hookův zákon pro pružnou deformaci tahem
 Při dehormaci tahem se těleso prodlužuje 
 
-![Hookův zákon](/assets/img/struktura-pevnych-latek/hookuv-zakon.png)
+![Hookův zákon](/assets/img/physics/struktura-pevnych-latek/hookuv-zakon.png)
 
 $$\Delta l = l - l_0 $$
 
@@ -260,7 +260,7 @@ $$ l_t = \frac{L_t}{m} $$
 - Po dosažení krystalizační teploty vznikají krystalizační jádra (zárodky). Postupně vytvářejí zrna (vznik polykrystalické látky
 - Vytvoří-li se pouze jeden zárodek = vznik monokrystalu
 
-![Krystalizace](/assets/img/struktura-pevnych-latek/krystalizace.png)
+![Krystalizace](/assets/img/physics/struktura-pevnych-latek/krystalizace.png)
 
 ## Sublimace
 - Přeměna látky z pevného skupenství přímo na skupenství plynné (led, sníh, jod)

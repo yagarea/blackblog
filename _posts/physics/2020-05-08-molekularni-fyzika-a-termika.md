@@ -18,7 +18,7 @@ layout: post
 - Difuze - samovolné pronikání částic jedné látky mezi částice druhé látky
 - Tlak plynu - narážení molekul plynu na okolní tělesa
 
-![hmota](/assets/img/molekfyzterm/hmota.jpg)
+![hmota](/assets/img/physics/molekulova-fyzika-a-termika/hmota.jpg)
 
 ## Plynné látky
 - tepelný pohyb - různé směry, různé rychlosti
@@ -40,7 +40,7 @@ V normálních podmínkách je možné většinu plynů považovat za ideální
 ### Rychlost molekul plynu
 Molekuly plynu, který je v rovnovážném stavu, nemají v určitém okamžiku stejnou rychlost. Rozdělení molekul ideálního plynu tabulkou nebo grafem.
 
-![Rychlost molekul plynu](/assets/img/molekfyzterm/rychlost-molekul-plynu.jpg)
+![Rychlost molekul plynu](/assets/img/physics/molekulova-fyzika-a-termika/rychlost-molekul-plynu.jpg)
 
 #### Střední kvadratická rychlost molekul
 Definujeme jako rychlost posuvného pohybu molekul, kterou by musely mít všechny molekuly plynu, aby jejich celková kinetická energie byla rovna skutečné kinetické energii molekul. Střední kvadratická rychlost je určena vztahem:
@@ -125,7 +125,7 @@ $$ pV = nRT $$
 
 | Krystalická | Amorfní |
 |:-----------:|:-------:|
-| ![Krystalická struktura](/assets/img/molekfyzterm/krystalicka.png) | ![Krystalická struktura](/assets/img/molekfyzterm/amorfni.png) |
+| ![Krystalická struktura](/assets/img/physics/molekulova-fyzika-a-termika/krystalicka.png) | ![Krystalická struktura](/assets/img/physics/molekulova-fyzika-a-termika/amorfni.png) |
 
 ### Krystalická struktura pevných látek
 - všechny částice jsou v jedné krystalické struktuře, která není přerušená, rozložení částic se periodicky opakuje v celém krystalu.
@@ -148,7 +148,7 @@ $$ pV = nRT $$
 - Délka hrany základní buňky je mřížkový parametr a (nebo mřížková konstanta).
 - Částice v krystalu kmitají kolem bodů krystalové mřížky.
 
-![Elementární buňky](/assets/img/molekfyzterm/el-bunky.jpg)
+![Elementární buňky](/assets/img/physics/molekulova-fyzika-a-termika/el-bunky.jpg)
 
 ### Amorfní struktura pevných látek
 - Periodické uspořádání těchto částic je velmi omezeno
@@ -162,7 +162,7 @@ $$ pV = nRT $$
 # Silové působení částic
 Částice na sebe navzájem působí silami. Tyto síly jsou při malých vzdálenostech odpudivé a při větších vzdálenostech přitažlivé
 
-![Elementární buňky](/assets/img/molekfyzterm/sil-pus-castic.png)
+![Elementární buňky](/assets/img/physics/molekulova-fyzika-a-termika/sil-pus-castic.png)
 
 # Přenos vnitřní energie
 Přenos vnitřní energie z míst s vyšší teplotou do míst s nižší teplotou může uskutečnit vedením nebo zářením. Vnitřní energii může přenášet take proudící tekutina, v tom případě mluvíme o proudění
