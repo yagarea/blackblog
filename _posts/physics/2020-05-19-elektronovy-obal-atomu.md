@@ -69,7 +69,7 @@ tato rovnice nám určí energii pro n-tou energetickou hladinu
 
 	$$ E = \frac{1}{2}mv^2 $$
 
-![Energetické hladiny vodíku](/assets/img/elektronovy-obal/vodik.png)
+![Energetické hladiny vodíku](/assets/img/physics/elektronovy-obal/vodik.png)
 
 ---
 
@@ -80,7 +80,7 @@ tato rovnice nám určí energii pro n-tou energetickou hladinu
 - 1906 představil punikový model
 - elektrony jsou v atomu rozmístěny náhodně
 
-![Pudinkový model](/assets/img/elektronovy-obal/pudink.png)
+![Pudinkový model](/assets/img/physics/elektronovy-obal/pudink.png)
 
 ## Ruthenfordův model
 - novozélandský fyzik Ernest Ruthenford
@@ -155,7 +155,7 @@ stav elektronu je popsán čtyřmi kvantovými čísly:
 
 
 ## Orbitaly
-![Orbitaly atomu](/assets/img/elektronovy-obal/orbitaly.png)
+![Orbitaly atomu](/assets/img/physics/elektronovy-obal/orbitaly.png)
 
 
 
@@ -174,11 +174,11 @@ Každý atom vyzáří foton o energii $$E$$ při přechodu z vyššího (excito
 - **Nekoherentní záření** - probíhá samovolně, dříve či později vyzáří foton (zahřáté těleso)
 - **Stimulace emisí** - foton dopadá na elektron v excitovaném stavu, ten vyzáří další foton, fotony poté letí společně 
 
-![Emise](/assets/img/elektronovy-obal/emise.png)
+![Emise](/assets/img/physics/elektronovy-obal/emise.png)
 
 pokud mezi aktivní prostředí umístíme dvě zrcadla, tak se fotony budou odrážet a kumulovat 
 
-![Emise](/assets/img/elektronovy-obal/laser.png)
+![Emise](/assets/img/physics/elektronovy-obal/laser.png)
 
 - **Využití:**
 	- medicína (laserový skalpel)

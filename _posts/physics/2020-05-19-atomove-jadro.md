@@ -31,7 +31,7 @@ $$ A=N+Z $$
 - $$N$$ – Neutronové číslo (udává počet neutronů v jádře)
 - $$A$$ – Nukleonové číslo (udává počet nukleonů v jádře)
 
-![Atomová čísla](/assets/img/atomove-jadro/element-identity.png)
+![Atomová čísla](/assets/img/physics/atomove-jadro/element-identity.png)
 
 ## Jaderné síly
 - Typ sil, které drží jádro pohromadě
@@ -70,7 +70,7 @@ Prvky také dělíme na lehčí a těžší než $${^{56}_{26}Fe}_{1,8}$$
 - Jádra s těmito počty protonů a neutronů jsou extrémně stabilní
 - Například 2,8,28,50 ...
 	
-![Magická čísla](/assets/img/atomove-jadro/magicka-cisla.png)
+![Magická čísla](/assets/img/physics/atomove-jadro/magicka-cisla.png)
 
 - V přírodě se vyskytuje 264 nuklidů, které jsou stabilní, a 50 nuklidů, které jsou nestabilní
 
@@ -157,7 +157,7 @@ $$ N_{t} = N_{0}.e^{-\lambda t} $$
 - $$N_{0}$$ - počet nepřeměněných jader
 - $$N_{t}$$ - počet přeměněných jader v čase $$t$$
 
-![Magická čísla](/assets/img/atomove-jadro/rozpad.png)
+![Magická čísla](/assets/img/physics/atomove-jadro/rozpad.png)
 
 ## Rozpadové řady
 Dělíme na:
@@ -203,7 +203,7 @@ Dělíme na:
 	- Dukovany (4 reaktory)
 	- Temelín (2 reaktory)
 
-![Atomová elektrárna](/assets/img/atomove-jadro/atomova-elektrarna.jpg)
+![Atomová elektrárna](/assets/img/physics/atomove-jadro/atomova-elektrarna.jpg)
 
 ## Využití radioaktivity
 - Léčení zhoubných nádorů

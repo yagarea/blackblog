@@ -42,13 +42,13 @@ Máme dvě soustavy $$S'$$ (kosmonaut, uvnitř rakety) a $$S$$ (pozorovatel, mim
 
 **Pro kosmonauta platí**, že paprsek ve světelných hodinách (dvě zrcadla $$Z_1$$ a $$Z_2$$, mezi kterými se periodicky odráží paprsek světla) opíše jednu periodu (jeden tik) za $$t’ = \frac{2l}{c}$$.
 
-![Dilatace času](/assets/img/specialni-teorie-relativity/dilatace-casu-1.png)
+![Dilatace času](/assets/img/physics/specialni-teorie-relativity/dilatace-casu-1.png)
 
 **Pro pozorovatele mimo raketu platí**, že zatímco je vyslán paprsek od jednoho zrcadla ke druhému, tak dojde k posunutí zrcadel o $$\lvert AD \rvert = v\frac{\Delta t}{2}$$ a paprsek urazí dráhu $$\lvert AB \rvert = c\frac{\Delta t}{2}$$, kde $$\Delta t$$ je jedna perioda (jeden tik). Vzniká zde pravoúhlý trojúhelník, kde platí: 
 
 $$ \lvert AB \rvert ^{2} = \lvert AD \rvert ^{2} + \lvert BD \rvert^{2} $$
 
-![Dilatace času](/assets/img/specialni-teorie-relativity/dilatace-casu-2.png)
+![Dilatace času](/assets/img/physics/specialni-teorie-relativity/dilatace-casu-2.png)
 
 Po dosazení do vzorce dostáváme:
 

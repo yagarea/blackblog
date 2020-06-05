@@ -24,7 +24,7 @@ layout: post
 - označí se $$M$$
 - jednotka $$N.m$$
 
-![Moment síly](/assets/img/mechtute/moment.png)
+![Moment síly](/assets/img/mechanika-tuheho-telesa/moment.png)
 
 ## Momentová věta
 
@@ -40,17 +40,17 @@ Směr momentu síly určíme podle pravidla pravé ruky:
 
 Síly nejdříve přeneseme do společného bodu, kterým je průsečík jejich vektorových přímek, pak síly složíme doplněním na vektorový rovnoběžník a výslednou sílu $$\vec F$$ můžeme umístit do libovolného bodu její vektorové přímky síly.
 
-![Skládání sil](/assets/img/mechtute/skladani-sil.png)
+![Skládání sil](/assets/img/mechanika-tuheho-telesa/skladani-sil.png)
 
 Zaměníme působiště obou sil a u jedné z nich změníme orientaci. Působiště výslednice je průsečíkem úsečky $$AB$$ se spojnicí koncových bodů přenesených sil. Výslednice sil má stejný směr jako dílčí síly a její velikost je dána součtem velikostí dílčích sil.
 
-![Skládání sil](/assets/img/mechtute/vysledny-moment.png)
+![Skládání sil](/assets/img/mechanika-tuheho-telesa/vysledny-moment.png)
 
 # Těžiště tuhého tělesa
 - Tuhé těleso je složeno z velkého počtu hmotných bod, jejichž vzájemná poloha se nemění. Na jednotlivé body působí tíhové síly $$\vec F_{G1}$$, $$\vec F_{G2}$$,…,$$\vec F_{Gn}$$, které jsou navzájem rovnoběžné. Jejich složením dostaneme výslednou tíhovou sílu $$F_G$$, která má působiště v bodě $$T$$, který nazýváme těžiště tělesa.
 - Těžiště tuhého tělesa je působiště tíhové síly působící na těleso v homogenním tíhovém poli.
 
-![Skládání sil](/assets/img/mechtute/teziste.jpg)
+![Skládání sil](/assets/img/mechanika-tuheho-telesa/teziste.jpg)
 
 ## Urční polohy tělesa
 - U stejnorodého geometrického pravidelného tělesa leží těžiště v jeho geometrickém středu (geometrickém těžišti)

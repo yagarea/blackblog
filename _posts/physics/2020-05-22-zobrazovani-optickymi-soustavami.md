@@ -37,7 +37,7 @@ layout: post
 - **Vzniká obraz:** zdánlivý, vzpřímený, stejně velký, stranově převrácený
 - Využití: zrcadlo v domácnosti, součást zobrazovací soustavy
 
-![Rovinné zrcadlo](/assets/img/zobrazeni-optickymi-soustavami/rovinna-zrcadla.png)
+![Rovinné zrcadlo](/assets/img/physics/zobrazeni-optickymi-soustavami/rovinna-zrcadla.png)
 
 ## Kulové zrcadlo
 - Jejich plocha je část kulové plochy
@@ -51,7 +51,7 @@ layout: post
 		- **obraz je:** zdánlivý, vzpřímený 
 		- **využití:** zmenšovací zrcadlo na křižovatce, součást zobrazovací soustavy 
 
-![Kulové zrcadlo](/assets/img/zobrazeni-optickymi-soustavami/kulova-zrcadla.png)
+![Kulové zrcadlo](/assets/img/physics/zobrazeni-optickymi-soustavami/kulova-zrcadla.png)
 
 - $$S$$ - střed křivosti zrcadla
 - $$V$$ - vrchol
@@ -68,7 +68,7 @@ $$r$$ a $$f$$ mají před zrcadlem (u dutého zrcadla) hodnotu kladnou, za zrcad
 2. Paprsek procházející ohniskem je po odrazu rovnoběžný s optickou osou
 3. Paprsek rovnoběžný s optickou osou míří do ohniska
 
-![Kulové zrcadlo](/assets/img/zobrazeni-optickymi-soustavami/vyznamne-paprsky.png)
+![Kulové zrcadlo](/assets/img/physics/zobrazeni-optickymi-soustavami/vyznamne-paprsky.png)
 
 ## Zvětšení optického zobrazení - $$Z$$
 - Bezjednotková veličina [1]
@@ -102,9 +102,9 @@ $$ \frac{1}{a} + \frac{1}{a’} = \frac{1}{f} $$
 **Tentá čočka** = tloušťka čočky (vzdálenost bodů $$V_1$$ a $$V_2$$) je velmi malá, můžeme tedy říct, že tyto body splývají v optický střed čočky $$O$$	
 
 
-![Čočky](/assets/img/zobrazeni-optickymi-soustavami/cocky1.png)
+![Čočky](/assets/img/physics/zobrazeni-optickymi-soustavami/cocky1.png)
 
-![Čočky](/assets/img/zobrazeni-optickymi-soustavami/cocky2.png)
+![Čočky](/assets/img/physics/zobrazeni-optickymi-soustavami/cocky2.png)
 
 
 ## Spojky
@@ -114,7 +114,7 @@ $$ \frac{1}{a} + \frac{1}{a’} = \frac{1}{f} $$
 	- Paprsek procházející optickým středem čočky prochází beze změny
 	- Paprsek procházející předmětovým ohniskem se láme a pokračuje rovnoběžně s optickou osou
 
-![Spojka](/assets/img/zobrazeni-optickymi-soustavami/spojka.png)
+![Spojka](/assets/img/physics/zobrazeni-optickymi-soustavami/spojka.png)
 
 ## Rozptylky
 - Svazek paprsků je po průchodu rozbíhavý
@@ -123,7 +123,7 @@ $$ \frac{1}{a} + \frac{1}{a’} = \frac{1}{f} $$
 	- Paprsek procházející optickým středem čočky prochází beze změny
 	- Paprsek procházející předmětovým ohniskem se láme a pokračuje rovnoběžně s optickou osou
 
-![Rozptylka](/assets/img/zobrazeni-optickymi-soustavami/rozptylka.png)
+![Rozptylka](/assets/img/physics/zobrazeni-optickymi-soustavami/rozptylka.png)
 
 
 ## Optická mohutnost čočky $$\phi$$
@@ -159,12 +159,12 @@ Vzdálenost $$a$$ je kladná pře čočkou a záporná za čočkou. U $$a'$$ je 
 ### Vady lidského oka
 **Krátkozrakost** (Léčí se rozptylkami)
 
-![Kratkozrakost](/assets/img/zobrazeni-optickymi-soustavami/kratkozrakost.png)
+![Kratkozrakost](/assets/img/physics/zobrazeni-optickymi-soustavami/kratkozrakost.png)
 
 
 **Dalekozrakost** (Léčí se spojkami)
 
-![Dalekozrakost](/assets/img/zobrazeni-optickymi-soustavami/dalekozrakost.png)
+![Dalekozrakost](/assets/img/physics/zobrazeni-optickymi-soustavami/dalekozrakost.png)
 
 ## Lupa
 - Nejjednodušší optický přístroj, tvořen jednou spojnou čočkou, jejíž ohnisková vzdálenost je menší, než vzdálenost od předmětu

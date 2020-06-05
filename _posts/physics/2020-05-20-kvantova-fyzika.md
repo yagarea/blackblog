@@ -25,11 +25,11 @@ layout: post
 # Záření černého tělesa
 **Černé těleso** je fyzikální model ideálního tělesa, které neodráží ani nerozptyluje dopadající elektromagnetické záření, veškeré záření pohlcuje. Modelem černého tělesa je dutina, do které proniká záření, ale nevystupuje ven.
 
-![Černé těleso](/assets/img/kvantova-fyzika/cerne-teleso.png)
+![Černé těleso](/assets/img/physics/kvantova-fyzika/cerne-teleso.png)
 
 Při určité teplotě vyzařuje černé těleso do prostoru elektromagnetické záření o různé intenzitě.
 
-![Černé těleso](/assets/img/kvantova-fyzika/cerne-teleso-zareni.png)
+![Černé těleso](/assets/img/physics/kvantova-fyzika/cerne-teleso-zareni.png)
 
 
 Z grafu je vidět různá intenzita elektromagnetického záření v závislosti na vlnové délce.
@@ -76,7 +76,7 @@ $$E = h.f$$
 - Zákonitosti tohoto jevu vysvětlil **Albert Einstein**, který za to dostal **Nobelovu cenu**
 - Část energie se spotřebuje na uvolnění tohoto elektronu z obalu a část se přemění na kinetickou energii elektronu, který vylétne z látky.
 
-![Fotoelektrický jev](/assets/img/kvantova-fyzika/fotoelektricky-jev.png)
+![Fotoelektrický jev](/assets/img/physics/kvantova-fyzika/fotoelektricky-jev.png)
 
 - Platí zde zákon zachování energie
 - Einsteinova rovnice fotoelektrického jevu:
@@ -111,7 +111,7 @@ $$ f_{mez} = \frac{W_{v}}{h} $$
 - Po strážce se mění vlnová délka záření
 
 
-![Comptonův jev](/assets/img/kvantova-fyzika/coptonuv-jev.png)
+![Comptonův jev](/assets/img/physics/kvantova-fyzika/coptonuv-jev.png)
 
 ---
 

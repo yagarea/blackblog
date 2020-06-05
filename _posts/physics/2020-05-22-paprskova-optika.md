@@ -37,12 +37,12 @@ layout: post
 - Jeho vlnoplochy mají tvar soustředných kružnic
 - Ve velké vzdálenosti od bodového zdroje světla můžeme vlnoplochy považovat za rovinné
 
-![Paprsky](/assets/img/paprskova-optika/paprsky.png)
+![Paprsky](/assets/img/physics/paprskova-optika/paprsky.png)
 
 # Odraz a lom světla
 Paprsek dopadající na rozhraní dvou prostředí s odlišnými optickými vlastnostmi se z části odrazí a z části zlomí do druhého prostředí. Úhel dopadu je stejný jako úhel odrazu. Měří se od kolmice na rozhraní prostředí
 
-![Odraz a lom](/assets/img/paprskova-optika/odraz-a-lom.png)
+![Odraz a lom](/assets/img/physics/paprskova-optika/odraz-a-lom.png)
 
 ## Lom světla - Snellův zákon
 - **Lom ke kolmici** - nastává při lomu paprsku do opticky hustšího prostředí (větší index lomu)
@@ -54,7 +54,7 @@ $$\frac{\sin\alpha}{\sin\beta} = \frac{v_{1}}{v_{2}} = \frac{n_{2}}{n_{1}}$$
 
 - $$n$$ - Index lomu - bezrozměrná veličina popisující šíření světla v daném prostředí (pro vakuum a vzduch $$n = 1$$)
 
-![Lomy](/assets/img/paprskova-optika/lomy.png)
+![Lomy](/assets/img/physics/paprskova-optika/lomy.png)
 
 ## Úplný odraz světla
 K úplnému odrazu světla dojde v situaci kdy paprsek se odrazí pod větším úhlem, než je takzvaný mezní úhel a paprsek prochází opticky hustším prostředím. Paprsek lomu se láme do přechodu prostředí - úhel lomu je tedy 90°.
@@ -64,12 +64,12 @@ $$\alpha_{m} = \sin^{-1}\frac{n_{2}}{n_{1}}$$
 - $$\alpha_{m}$$ - mezní úhel
 - $$n$$ - Index lomu
 
-![Odrazy](/assets/img/paprskova-optika/odrazy.png)
+![Odrazy](/assets/img/physics/paprskova-optika/odrazy.png)
 
 ## Disperze světla
 Rychlost světla v prostředí, kde $$n>1$$, závisí na frekvenci světla. Vlivem disperze se bílé světlo při lomu rozkládá na barevné složky. Jedním lomem vzniká monofrekvenční světlo určité barvy. Pro vícenásobný lom světla se používá optický hranol. Rovinné plochy hranolu, na kterých dochází k lomu světla svírají **lámavý úhel - $$\varphi$$**.
 
-![Disperze](/assets/img/paprskova-optika/disperze.png)
+![Disperze](/assets/img/physics/paprskova-optika/disperze.png)
 
 Optický hranol rozloží bílé světlo na spektrum všech barev monofrekvenčních světel. Tyto barvy jsou seřazeny od nejmenší hodnoty indexu lomu po největší (červená až fialová). Příkladem disperze světla z praxe je například duha. Při průchodu rozhraním optických prostředí se frekvence světla nemění a platí tedy:
 
