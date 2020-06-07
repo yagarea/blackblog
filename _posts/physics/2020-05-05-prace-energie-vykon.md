@@ -104,7 +104,7 @@ $$ P_0 = \frac{\Delta E}{\Delta t} $$
 - $$t$$ - čas
 
 ## Účinnost
-Podíl býkonu $$P$$ a příkonu $$P_0$$ je účinnost $$\eta$$
+Podíl výkonu $$P$$ a příkonu $$P_0$$ je účinnost $$\eta$$
 
 $$ \eta = \frac{P}{P_0} $$
 

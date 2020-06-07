@@ -68,25 +68,25 @@ Průsečík $$P$$ náleží průniku množiny bodů osy a oboru hodnot funkce: $
 
 | Funkce 																		 | Příklad grafu |
 |:------------------------------------------------------------------------------:|:-:|
-| **Konstanttní funkce:**<br> $$f: y = c $$ <br>  $$ D_f = \RR $$ <br> $$ H_f = \{c\}$$ <br> Křivka: Rovnoběžka s osou X | ![const](/assets/img/dip/const.png){:.table-img} |
-| **Lineární funkce:** <br> $$f: y = ax + b$$ <br> $$ D_f = \RR $$ <br> $$ H_f = \RR $$ <br> Křivka: Přímka| ![Linear](/assets/img/dip/linear.png){:.table-img} |
-| **Kvadratická funkce:** <br> $$ f: y = ax^2 + bx + c $$ <br> $$ D_f = \RR $$ <br> Křivka: Parabola |  ![quadratic](/assets/img/dip/parabola.png){:.table-img} |
-| **Kubická funkce:** <br> $$ f: y = ax^3 + bx^2 +cx + d $$ <br> $$ D_f = \RR $$ <br> $$ H_f = \RR $$ <br> Křivka: Kubická parabola | ![cubic](/assets/img/dip/cubic.png){:.table-img} |
-| **Exponenciální funkce:** <br> $$f: y = c^x $$ <br> $$ D_f = \RR $$ <br> $$ H_f = \RR^+ $$ <br> Křivka: Exponenciála | ![expo](/assets/img/dip/expo.png){:.table-img} |
-| **Logaritmická funkce:** <br> $$f: y = \log_a x $$ <br> $$ D_f = \RR^+ $$ <br> $$ H_f = \RR $$ <br> Křivka: Logaritmická křivka | ![log](/assets/img/dip/log.png){:.table-img} |
-| **Absolutní hodnota:** <br> $$f: y = \|x\|$$ <br> $$ D_f = \RR $$ <br> $$ H_f = \RR^+ \cup \{0\} $$ <br> Křivka: Lomená přímka | ![abs](/assets/img/dip/absolute.png){:.table-img} |
+| **Konstanttní funkce:**<br> $$f: y = c $$ <br>  $$ D_f = \R $$ <br> $$ H_f = \{c\}$$ <br> Křivka: Rovnoběžka s osou X | ![const](/assets/img/dip/const.png){:.table-img} |
+| **Lineární funkce:** <br> $$f: y = ax + b$$ <br> $$ D_f = \R $$ <br> $$ H_f = \R $$ <br> Křivka: Přímka| ![Linear](/assets/img/dip/linear.png){:.table-img} |
+| **Kvadratická funkce:** <br> $$ f: y = ax^2 + bx + c $$ <br> $$ D_f = \R $$ <br> Křivka: Parabola |  ![quadratic](/assets/img/dip/parabola.png){:.table-img} |
+| **Kubická funkce:** <br> $$ f: y = ax^3 + bx^2 +cx + d $$ <br> $$ D_f = \R $$ <br> $$ H_f = \R $$ <br> Křivka: Kubická parabola | ![cubic](/assets/img/dip/cubic.png){:.table-img} |
+| **Exponenciální funkce:** <br> $$f: y = c^x $$ <br> $$ D_f = \R $$ <br> $$ H_f = \R^+ $$ <br> Křivka: Exponenciála | ![expo](/assets/img/dip/expo.png){:.table-img} |
+| **Logaritmická funkce:** <br> $$f: y = \log_a x $$ <br> $$ D_f = \R^+ $$ <br> $$ H_f = \R $$ <br> Křivka: Logaritmická křivka | ![log](/assets/img/dip/log.png){:.table-img} |
+| **Absolutní hodnota:** <br> $$f: y = \|x\|$$ <br> $$ D_f = \R $$ <br> $$ H_f = \R^+ \cup \{0\} $$ <br> Křivka: Lomená přímka | ![abs](/assets/img/dip/absolute.png){:.table-img} |
 
 
 ### Limita
 
-$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \RR^+ \exists \Delta \in \RR^+ \forall x \in O_{\Delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \Delta; a + \Delta); f(x) \in (L - \epsilon; L + \epsilon)$$
+$$\lim_{x \to a} f(x) = L \iff \forall \epsilon \in \R^+ \exists \Delta \in \R^+ \forall x \in O_{\Delta}(a) \land x \neq a; f(x) \in O_{\epsilon}(L);$$ $$ x \in (a - \Delta; a + \Delta); f(x) \in (L - \epsilon; L + \epsilon)$$
 
-$$ \lim_{x \to \infty} f(x) = L \iff \forall \epsilon \in \RR^+ \exists x_0 \in D_f \forall  x > x_0 ; | f(x) -L | < \epsilon $$
+$$ \lim_{x \to \infty} f(x) = L \iff \forall \epsilon \in \R^+ \exists x_0 \in D_f \forall  x > x_0 ; | f(x) -L | < \epsilon $$
 
-$$ \lim_{x \to -\infty} f(x) = L \iff \forall \epsilon \in \RR^+ \exists x_0 \in D_f \forall x < x_0 ; | f(x) - L | < \epsilon $$
+$$ \lim_{x \to -\infty} f(x) = L \iff \forall \epsilon \in \R^+ \exists x_0 \in D_f \forall x < x_0 ; | f(x) - L | < \epsilon $$
 
 - Limita vlastní
-	- Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in \RR$$
+	- Limita je vlastní $$ \iff \lim_{x \to a} f(x) \in \R$$
 - Limita nevlastní
 	- Limita je nevlastní $$ \iff \lim_{x \to a} f(x) \in \{-\infty;\infty\}$$
 - Limita ve vlastním bodě
@@ -107,9 +107,9 @@ Funkce $$f(x)$$ je spojitá v bodě $$ a  \iff \lim_{x \to a}f(x) = f(a)$$
 
 Funkce $$f(x)$$ je v bodě a spojitá $$\iff a \in D_f \land \forall \epsilon > 0 \, \exists \Delta > 0 ; \forall x \in O_{\epsilon}(a); f(x) \in O_{\epsilon}(f(a))$$
 
-Funkce $$f(x)$$ je spojitá z prava v bodě $$ a \iff a \in D_f \land \forall \epsilon \in \RR^+ \exists \Delta \in \RR^+ \forall x \in <a;a + \Delta); f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
+Funkce $$f(x)$$ je spojitá z prava v bodě $$ a \iff a \in D_f \land \forall \epsilon \in \R^+ \exists \Delta \in \R^+ \forall x \in <a;a + \Delta); f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
-Funkce $$f(x)$$ je spojitá z leva $$ a \iff a \in D_f \land \forall \epsilon \in \RR^+ \exists \Delta \in \RR^+ \forall x \in  (a + \Delta;a> ; f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
+Funkce $$f(x)$$ je spojitá z leva $$ a \iff a \in D_f \land \forall \epsilon \in \R^+ \exists \Delta \in \R^+ \forall x \in  (a + \Delta;a> ; f(x) \in (f(a) - \epsilon; f(a) + \epsilon) $$
 
 Funkce $$f(x)$$ je spojitá na intervalu <c; d> $$\iff f(x)$$ je spojitá na $$(c; d) \land f(x)$$ je v $$c$$ spojitá z prava $$\land f(x)$$ je v $$d$$ spojitá z leva
 
@@ -153,26 +153,26 @@ $$ ([f(x)]^{g(x)})' = [f(x)]^{g(x)} \bigg( g'(x)\ln (f(x)) + g(x)\frac{f'(x)}{f'
 
 ### Derivace elementárních funkcí
 
-| $$ c' = 0 $$							| $$ c \in \RR $$												|
-| $$ (x^m)' = mx^{m-1} $$				| $$ x \neq 0 \land m \in \ZZ $$								|
-| $$ (a^x)' = a^x\ln a $$				| $$ x \in (0; \infty) \land a \in \RR^+ $$						|
-| $$ (e^x)' = e^x $$ 					| $$ x \in \RR $$												|
-| $$ (\ln x)' = \frac{1}{x} $$ 			| $$ x \in \RR^+ $$												|
-| $$ (\log_a x)' = \frac{1}{x\ln a} $$ 	| $$ x \in \RR^+ $$												|
-| $$ (\sin x)' = \cos(x) $$				| $$ x \in \RR $$												|
-| $$ (\cos x)' = -\sin(x) $$			| $$ x \in \RR $$ 												|
-| $$ (\tg x)' = \frac{1}{\cos^2 x} $$	| $$ x \in \RR - \{ \frac{\pi}{2} + k\pi \} \land k \in \ZZ $$ 	|
-| $$ (\cot x)' = -\frac{1}{\sin^2 x} $$| $$ x \in \RR - \{ k\pi \} \land k \in \ZZ $$ 					|
+| $$ c' = 0 $$							| $$ c \in \R $$												|
+| $$ (x^m)' = mx^{m-1} $$				| $$ x \neq 0 \land m \in \Z $$								|
+| $$ (a^x)' = a^x\ln a $$				| $$ x \in (0; \infty) \land a \in \R^+ $$						|
+| $$ (e^x)' = e^x $$ 					| $$ x \in \R $$												|
+| $$ (\ln x)' = \frac{1}{x} $$ 			| $$ x \in \R^+ $$												|
+| $$ (\log_a x)' = \frac{1}{x\ln a} $$ 	| $$ x \in \R^+ $$												|
+| $$ (\sin x)' = \cos(x) $$				| $$ x \in \R $$												|
+| $$ (\cos x)' = -\sin(x) $$			| $$ x \in \R $$ 												|
+| $$ (\tg x)' = \frac{1}{\cos^2 x} $$	| $$ x \in \R - \{ \frac{\pi}{2} + k\pi \} \land k \in \Z $$ 	|
+| $$ (\cot x)' = -\frac{1}{\sin^2 x} $$| $$ x \in \R - \{ k\pi \} \land k \in \Z $$ 					|
 
 <br/>
 
-| $$ (\sinh x)' = \cosh x $$						| $$ x \in \RR $$ 			|
-| $$ (\cosh x)' = \sinh x $$						| $$ x \in \RR $$ 			|
-| $$ (\tanh x)' = \frac{1}{\cosh^2 x} $$			| $$ x \in \RR $$ 			|
-| $$ (\coth x)' = - \frac{1}{\sinh^2 x} $$			| $$ x \in \RR - \{0\} $$ 	|
+| $$ (\sinh x)' = \cosh x $$						| $$ x \in \R $$ 			|
+| $$ (\cosh x)' = \sinh x $$						| $$ x \in \R $$ 			|
+| $$ (\tanh x)' = \frac{1}{\cosh^2 x} $$			| $$ x \in \R $$ 			|
+| $$ (\coth x)' = - \frac{1}{\sinh^2 x} $$			| $$ x \in \R - \{0\} $$ 	|
 | $$ (\arcsin x)' = \frac{1}{\sqrt {1 + x^2}} $$	| $$ x \in (-1;1) $$ 		|
 | $$ (\arccos x)' = - \frac{1}{\sqrt {1 - x^2}} $$	| $$ x \in (-1;1) $$ 		|
-| $$ (\arctan x)' = -\frac{1}{1 + x^2} $$			| $$ x \in \RR - \{ \frac{\pi}{2} + k\pi \} \land k \in \ZZ $$ |
+| $$ (\arctan x)' = -\frac{1}{1 + x^2} $$			| $$ x \in \R - \{ \frac{\pi}{2} + k\pi \} \land k \in \Z $$ |
 
 ### Stacionární body
 
@@ -225,7 +225,7 @@ Legenda:
 
 ## L' Hospitalovo pravidlo
 
- Nechť $$ a \in \RR \cup \{-\infty\}, f,g$$ jsou funkce $$\lim_{x \to a^+} \frac{f'(x)}{g'(x)}$$.
+ Nechť $$ a \in \R \cup \{-\infty\}, f,g$$ jsou funkce $$\lim_{x \to a^+} \frac{f'(x)}{g'(x)}$$.
  Předpokládejme, že buď $$\lim_{x \to a^+} f(x) = \lim_{x \to a^+} g(x) = 0$$ , nebo $$\lim_{x \to a^+} |g(x)| = \infty$$. Potom $$\lim_{x \to a^+} \frac{f(x)}{g(x)} = \lim_{x \to a^+} \frac{f'(x)}{g'(x)} $$.
 
 ---
