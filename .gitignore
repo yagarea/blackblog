@@ -16,17 +16,19 @@ __pycache__/
 *.un~
 *.swo
 
-# workig directories
+# Workig directories and files
 assets/vid/
-_graphics/
-_materials/
 tea/*/*-raw.jpg
 
 # Metafiles
-contact.md
-tea.md
-todo.md
+_meta/
 
 # Verification files
 scripts/login.py
 google*.html
+
+# Non-public files
+contact.md
+xkcd.md
+tea.md
+todo.md
