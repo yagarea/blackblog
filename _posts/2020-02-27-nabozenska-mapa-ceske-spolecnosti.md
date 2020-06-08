@@ -8,9 +8,9 @@ meta: "Doplnit autory knih"
 
 Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univerzity. 
 
-**UPOZORNĚNÍ:** poznámky jsou ve vývoji. To co čtete není finální verze. Neručím za správnost faktickou ani gramatickou.
+**UPOZORNĚNÍ:** Poznámky jsou ve vývoji. To co čtete není finální verze.
 
-**Doporučená literatura:**<br/>- **Hošek** - A bohové se vracejí<br/>- **Nešpor, Zdeněk R.** - Příliš slabí ve víře<br/>- **Dana Hamplová** - Náboženství v české společnosti na prahu 3. tisíciletí
+**Doporučená literatura:**<br/>- **Hošek Pavel** - A bohové se vracejí<br/>- **Nešpor Zdeněk R.** - Příliš slabí ve víře<br/>- **Hamplová Dana** - Náboženství v české společnosti na prahu 3. tisíciletí
 
 11.3. 2020 - Přednáška Purim - největší židovský svátek
 <br/>23.3. 2020 - Focolare
@@ -127,7 +127,7 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 - Příležitostní víra - nepravidelná zbožnost v závislosti na příležitostech
 - Nenáboženská spiritualita
 - **Bezbolestný altruismus** - posílání dárcovských SMS; typické pro ČR
-- Promítání vlastní hodnoty a představy do symbolů a lidí (charismatizace Dalailamy na západě)
+- Promítání vlastní hodnoty a představy do symbolů a lidí (charismatizace Dalajlamy na západě)
 - I přesto, že nemá rád instituce, tak je vytváří
 
 ## Škála náboženských institucí
@@ -141,10 +141,10 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 	- Ježíš se stává kamarádem, se kterým mám blízký vztah
 	- společné aktivity mezi členy
 	- vztah s transcendetními bytostmi i skutečnými lidmi
-	- Ježíš je jako strašní bratr, Marie je jako matka
+	- Ježíš je jako starší bratr, Marie je jako matka
 - **Společenství moci**
 	- pentekostalisté, BDC, JDŽ
-	- cílem je vzít kontrolu nad svým životem a nenechat se ovládat okolním světem
+	- cílem je převzít kontrolu nad svým životem a nenechat se ovládat okolním světem
 	- lidé v korporátech hledající klid a motivaci
 	- jednoduché bohoslužby zdůrazňující moc a "boj s démony"
 	- Boží síla je obměna "energie" z reiki

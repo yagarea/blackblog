@@ -47,7 +47,7 @@ $$ \sigma = \frac{\vec F}{l} $$
 |:-----:|:-------:|:----:|
 | ![Smáčí](/assets/img/physics/vlastnosti-kapalin/smaci.png) | ![Nesmáčí](/assets/img/physics/vlastnosti-kapalin/nesmaci.png) | ![Klid](/assets/img/physics/vlastnosti-kapalin/nereaguje.png) |
 | ![Smáčí](/assets/img/physics/vlastnosti-kapalin/kapka-smaci.png) | ![Nesmáčí](/assets/img/physics/vlastnosti-kapalin/kapka-nesmaci.png) | ![Klid](/assets/img/physics/vlastnosti-kapalin/kapka-nic.png)|  
-| Vona ve skle | Rtuť ve skle | |
+| Voda ve skle | Rtuť ve skle | |
 
 ## Stykový úhel
 Úhel $$\Theta$$ se nazývá stykový úhel (pokud $$\Theta$$ = 0; kapalina dokonale smáčí stěnu)
@@ -67,8 +67,7 @@ $$ p_k =\frac{4\sigma}{R} $$
 
 ## Kapilární elevace a deprese
 Trubičky s poloměrem okolo 1 mm se nazývají kapiláry. Povrch smáčející kapaliny je výše, než je hladině této kapaliny v široké nádobě, a to o výšku $$h$$. Jev při kterém se voda dostává vzhůru se 
-nazývá vzlínání. P
-ro $$h$$ platí:
+nazývá vzlínání. Pro $$h$$ platí:
 
 $$ h = \frac{2\sigma}{r\rho g} $$
 
