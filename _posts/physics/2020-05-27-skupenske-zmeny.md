@@ -21,6 +21,8 @@ táž látka se může vyskytovat jako plynný kapalná nebo pevná
 K tání dochází při zahřívání krystalické látky. Pokud teplota látky dosáhne teploty tání, pevná krystalická látka se mění na kapalinu. 
 Různé krystalické látky mají také různou teplotu tání, pro danou látku závisí teplota tání na vnějším tlaku, při kterém tání probíhá.
 
+Teplota tání krystalické látky závisí na tlaku okolního prostředí. U látek, u nichž je tání doprovázeno zvětšením objemu, roste při zvýšení tlaku také teplota tání. Je-li tání doprovázeno zmenšením objemu, pak se při zvýšení vnějšího tlaku sníží teplota tání látky.
+
 ![Tání](/assets/img/physics/skupenske-zmeny/tani.png)
 
 Amorfní látky – u těchto látek nedochází ke klasickému tání, tyto látky postupně měknou, až se přemění na kapalinu.
@@ -44,10 +46,7 @@ $$l_t = \frac{L_t}{m} $$
 Fyzikální děj, při kterém se mění skupenství látky z kapalného na pevné.
 Skupenské teplo tuhnutí je stejné jako skupenské teplo tání, pouze se jedná o teplo, které látka odevzdá svému okolí.
 Při tuhnutí nevzniká pevné skupenství okamžitě. Když dosáhne kapalina teploty tuhnutí, tak se v kapalině začnou vlivem vazebných sil vytvářet krystalizační jádra = zárodky.
-Pokud se vytvoří pouze jeden zárode a částice látky se k němu postupně připojuje, tak vznikne monokrystal.
-
-
-Teplota tání krystalické látky závisí na tlaku okolního prostředí. U látek, u nichž je tání doprovázeno zvětšením objemu, roste při zvýšení tlaku také teplota tání. Je-li tání doprovázeno zmenšením objemu, pak se při zvýšení vnějšího tlaku sníží teplota tání látky.
+Pokud se vytvoří pouze jeden zárodek a částice látky se k němu postupně připojují, tak vznikne monokrystal.
 
 ---
 
