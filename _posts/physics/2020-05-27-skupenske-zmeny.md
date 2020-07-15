@@ -108,7 +108,7 @@ Existují rovnovážní stavy mezi skupenstvími téže látky a tyto všechny r
 
 ---
 
-# Vodní pára v atmisféře
+# Vodní pára v atmosféře
 Vodní pára je vždy v dolních vrstvách zemské atmosféry. Charakteristickou vlastností vzduchu je jeho vlhkost, tj. kolik vodní páry obsahuje.
 
 ## Absolutní vlhkost vzduchu

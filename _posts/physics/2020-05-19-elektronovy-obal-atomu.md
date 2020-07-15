@@ -98,7 +98,7 @@ definován pomocí tří postulátů:
 
 > **2. postulát**
 >
-> Atom se může nacházet pouze v kvantových stavech s určitouhodnotou energie. V takovém stavu atom nevydává ani nepřijímá energii a rozložení elektronů v obalu je neproměnné.
+> Atom se může nacházet pouze v kvantových stavech s určitou hodnotou energie. V takovém stavu atom nevydává ani nepřijímá energii a rozložení elektronů v obalu je neproměnné.
 
 > **3. postulát**
 >
