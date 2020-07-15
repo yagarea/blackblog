@@ -11,7 +11,7 @@ layout: post
 ---
 
 # Úvod
-Elektrostatika​se zabývá elektrickými jevy, které souvisí s časově neměnným vzájemným silovým působením elektricky nabitých částic a těles. (např. můžeme zkoumat, zda je kovová tyč nabitá kladně, záporně či nikoliv)
+Elektrostatika​ se zabývá elektrickými jevy, které souvisí s časově neměnným vzájemným silovým působením elektricky nabitých částic a těles. (např. můžeme zkoumat, zda je kovová tyč nabitá kladně, záporně či nikoliv)
 
 ---	
 
@@ -20,7 +20,7 @@ Atomy látek obsahují elektricky nabité částice (protony **+**, elektrony **
 
 $$ e = 1,6 .10^{-19}C $$
 
-Pokud je počet elektronů a protonů v látce stejný a tyto náboje jsou rozloženy rovnoměrně, těleso je elektricky neutrální a nemůžeme okolo tohoto tělesa pozorovat žádné elektrické síly. Volné elektrony atomů se mohou přenášet z těleso na jiné těleso např. třením - tím vznikají elektricky nabitá tělesa. Pokud jsme z neutrálně nabitého tělesa odebrali elektrony, stává se kladně nabité, pokud jsme naopak elektrony přidali, je nabité záporně. (tření nafouklého balonku o svetr)
+Pokud je počet elektronů a protonů v látce stejný a tyto náboje jsou rozloženy rovnoměrně, těleso je elektricky neutrální a nemůžeme okolo tohoto tělesa pozorovat žádné elektrické síly. Volné elektrony atomů se mohou přenášet z tělesa na jiné těleso např. třením - tím vznikají elektricky nabitá tělesa. Pokud jsme z neutrálně nabitého tělesa odebrali elektrony, stává se kladně nabitým, pokud jsme naopak elektrony přidali, je nabité záporně. (tření nafouklého balonku o svetr)
 
 Pro určení nabitých těles se používá elektroskop. Je to jednoduchý přístroj s kovovou tyčkou, na kterou je připevněný hliníkový proužek, který se po elektrickém nabití vychýlí. Čím větší náboj na elektroskop přeneseme, tím větší bude výchylka proužku.
 
@@ -68,7 +68,7 @@ Elektrická síla, působící na jednotkový náboj (vektorová veličina)
 
 $$ \vec E = \frac{\vec F_e}{q} $$
 
-Velikost intenzity el. pole ve vzdálenosti r od osamoceného bodového náboje Q určíme na základě Coulombova zákona:
+Velikost intenzity el. pole ve vzdálenosti $$r$$ od osamoceného bodového náboje $$Q$$ určíme na základě Coulombova zákona:
 
 $$ \vec E = k\frac{\lvert Q \rvert}{r^2} $$
 
@@ -103,7 +103,7 @@ Pokud vložíme do el. pole (mezi dvě nabité desky) ​vodič,​ volné elekt
 
 ## Izolant v elektrickém poli
 
-###Atomová polarizace​
+### Atomová polarizace​
 Jádro atomu, které má kladný náboj, je přitahováno k zápornému pólu, elektrony naopak ke kladnému. Bude docházet k deformaci a atomy molekul vytvoří tzv.​el. dipóly.
 
 | ![Atom](/assets/img/physics/elektrostatika/atom.png) | ![Atom v elektrickém poli](/assets/img/physics/elektrostatika/atom-v-elektrickem-poli.png) |

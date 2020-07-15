@@ -133,7 +133,7 @@ $$ \frac{p_1}{p_2} = \frac{h_1}{h_2} $$
 
 	$$ F_{vz} = F_2 - F_1 = Sh_2\rho g - Sh_1\rho g = S(h_1 - h_2)\rho g $$
 
-\5. A jelikož $$h_2 - h_1 = \Delta h = h$$, kdy $$h$$ je výška tělesa, platí:
+<div><lu><li>5\. A jelikož $$h_2 - h_1 = \Delta h = h$$, kdy $$h$$ je výška tělesa, platí:</li></lu></div>
 
 $$ F_vz = Sh\rho g = V\rho g $$
 

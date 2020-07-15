@@ -63,7 +63,7 @@ $$ \epsilon_{v} = \frac{E_{v}}{A} $$
 ## Dělení atomů podle hmotnosti
 Prvky také dělíme na lehčí a těžší než $${^{56}_{26}Fe}_{1,8}$$
 
-- **Prvky lehčí** - syntézou dvou lehčích jader vzniká jádro těžší, které je stabilnější, čímž dochází k uvolnění energie (vznik prvků uvnitř hvězd)
+- **Prvky lehčí** - syntézou dvou lehčích jader vzniká jádro těžší a stabilnější, čímž dochází k uvolnění energie (vznik prvků uvnitř hvězd)
 - **Prvky těžší** - štěpením těžkých jader vznikají lehčí a stabilní jádra za uvolnění energie (výbuch supernov)
 
 ## Magická čísla
