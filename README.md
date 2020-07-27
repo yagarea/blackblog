@@ -19,7 +19,7 @@ Main purpose of this blog is my own effort to learn how to write and give others
 ## Page technical philosophy
 This Blog (and every other web project I've done) is made with this principles in mind:
 - __No JavaScript__ - This page is javascript free. Feel free to disable it entirely.
-- __No Exteranl Sources__ - Everything this page loads is from its own server.
+- __No External Sources__ - Everything this page loads is from its own server.
 - __100% Static__ - Page does not have any backend.
 - __No Analytics__ - All I have is anonymous trafic information from my hosting provider (entries per day).
 - __Public Repository__ - Source code is public under __OpenSource__ license.
