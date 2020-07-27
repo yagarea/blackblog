@@ -52,7 +52,7 @@ MouthFinish: "Těžkopádná kombinace cigaretového kouře, skořice a pomeran�
 
 conclusion: "Tento čaj si mě získal svojí excentričností a odvahou. Silná chuť a aroma, které po uvaření budete cítit zbytek dne. Celkově to je pro mě osvěžující změna. Jsem si jistý, že se k němu mnohokrát vrátím. Na druhou stranu chápu, že nebude sedět každému. I tak se jedná o vynikající čaj na dlouhé zimní noci."
 
-rating: "82%"
+rating: "8.5"
 
 RedditLink: ""
 ---

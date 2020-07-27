@@ -50,7 +50,7 @@ MouthFinish: "Astrigent and bitter aftertaste."
 
 conclusion: "Definitely a very interesting tea. I appreciate its very strong and pleasant aroma which filled the whole room. The taste was very light and refreshing. The bitterly astrigent end was a little disturbing. It is a pity, because otherwise it is an excellent tea. The imperfections are small, but they should not be in this price range."
 
-rating: "60%"
+rating: "4"
 
 RedditLink: ""
 ---

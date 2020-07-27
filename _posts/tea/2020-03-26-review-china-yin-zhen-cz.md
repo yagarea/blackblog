@@ -50,7 +50,7 @@ MouthFinish: "Trpký a hořký dozvuk. Velmi výrazný."
 
 conclusion: "Rozhodně velmi zajímavý čaj. Oceňuji jeho velmi výrazné a příjemné aroma, které zaplnilo celou místnost. Chuť byla velmi lehká a osvěžující. Trpce hořký konec byl trochu rušivý. Je to škoda, protože jinak se jedná o vynikající čaj. Nedostatky jsou malé, ale u čaje v této cenové kategorii by být neměly."
 
-rating: "60%"
+rating: "4"
 
 RedditLink: ""
 ---

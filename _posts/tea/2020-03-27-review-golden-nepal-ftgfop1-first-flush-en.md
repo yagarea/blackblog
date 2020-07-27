@@ -52,7 +52,7 @@ MouthFinish: "Wooden tannin with coffee taste. Pleasant and long lasting."
 
 conclusion: "I am very pleased with this tea. Very rich taste and beautiful aroma. It is very similar to teas from northern Darjeeling but the higher altitude has increased its intensity. Gold tips have a great share in the taste which refreshes tea very much. It is obvious that it is result of high quality and gentle processing. It is the best black tea I've tried in some time."
 
-rating: "90%"
+rating: "9"
 
 RedditLink: ""
 ---

@@ -56,7 +56,7 @@ conclusion: "Jako první věc chci čtenáři doporučit začít s menší než 
 
 Jinak co se týká čaje samotného, hrdě oznamuji, že jsem nalezl čajový skvost. Velmi vyvážený a plný čaj, který kraluje všem oolongům v mé čajové skříňce."
 
-rating: "95%"
+rating: "9.5"
 
 RedditLink: ""
 ---
