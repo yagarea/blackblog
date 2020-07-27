@@ -53,7 +53,7 @@ MouthFinish: "Opět ženšen, tentokrá v doprovodu sedmikrásek."
 
 conclusion: "Skvělý čaj na celodenní popíjení. Rozhodně si zaslouží vyzkoušet. Tento čaj doporučuji každému, kdo ocení plnou chuť bez trpkosti."
 
-rating: "85%"
+rating: "8.5"
 
 RedditLink: ""
 ---

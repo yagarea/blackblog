@@ -52,7 +52,7 @@ MouthFinish: "This tea has decided to end the bitterness of dandelion."
 
 conclusion: "This tea has simple taste and refreshes on a hot summer evening. I quite liked it myself. Its pleasant simplicity makes it valuable even for non-tea professionals. I think it is definitely worth a try."
 
-rating: "70%"
+rating: "7"
 
 RedditLink: ""
 ---

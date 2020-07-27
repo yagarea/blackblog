@@ -52,7 +52,7 @@ MouthFinish: "Dřevěná tříslovina s kávovou chutí. Příjemná a dlouhotrv
 
 conclusion: "Tento čaj mě moc potěšil. Velmi bohatá chuť a krásné aroma. Je velmi podobný čajům ze severu Darjeelingu, ale vyšší nadmořská výška mu přidala na intenzitě. Velký podíl na chuti mají zlaté tipsy, které ho velmi osvěžují. Je vidět, že je i velmi kvalitně a šetrně zpracovaný. Je to nejlepší černý čaj, se kterým jsem se v poslední době setkal."
 
-rating: "90%"
+rating: "9"
 
 RedditLink: ""
 ---

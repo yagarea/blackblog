@@ -52,7 +52,7 @@ MouthFinish: "Tento čaj se rozhodl zakončit pampeliškovou hořkostí."
 
 conclusion: "Tento čaj je chuťově jednoduchý a osvěží o horkém letním večeru. Sám jsem si ho docela oblíbil. Jeho příjemná jednoduchost ho činí ocenitelným i pro čajové neznalce. Myslím si, že rozhodně stojí za ochutnání."
 
-rating: "70%"
+rating: "7"
 
 RedditLink: ""
 ---

@@ -51,7 +51,7 @@ MouthFinish: "A cumbersome combination of cigarette smoke, cinnamon and oranges 
 
 conclusion: "This tea won me over with its eccentricity and courage. Strong taste and aroma that after steeping you will smell the rest of the day. Overall, it's a refreshing change for me. I'm sure I'll comeback to this tea many times. On the other hand, I understand that it will not fit everyone. Even so, it is an excellent tea for a long winter night."
 
-rating: "82%"
+rating: "8.5"
 
 RedditLink: ""
 ---
