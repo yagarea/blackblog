@@ -254,7 +254,7 @@ layout: post
 - Záliba v historickém prostředí a prvcích
 
 ## Dadaismus
-- “dada“ = hračka 
+- `“dada“` = hračka 
 - hnutí, r.1916, dadaisté nalezli azyl ve švýcarském Zurichu
 - reakce na válku, protest proti válečnému mrzačení
 - protest proti umění, morálce, rozumu, kultuře
