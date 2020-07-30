@@ -41,7 +41,7 @@ brewing:
 - { title: "Voda", text: "filtered" }
 
 EyeDryLeaf: "Disk má průměr 13 cm a 1 cm na výšku. Barvy se na něm míchají, jako na obrazu Vincenta van Gogha. Mísí se zde spousta odstínů hnědé barvy. Nejtmavší odstín připomíná barvu typickou pro staré ztmavlé obrazy v kostelech a nejsvětlejší tmavý karamel."
-EyeWetLeaf: "Lístky i po několika zalitích stále zůstavají zkrabacené jako krepák. Konvička vypadá jako plná vlhkého havraního peří."
+EyeWetLeaf: "Lístky i po několika zalitích stále zůstávají zkrabacené jako krepák. Konvička vypadá jako plná vlhkého havraního peří."
 EyeLiquor: "Pohledná barva tmavého medu. Napohled skoro k nerozeznání od karibských rumů."
 
 NoseDryLeaf: "Nádherná vůně. Dominuje sladké aroma čerstvě rozkrojených peckovic. Také je cítit svařák s pomeranči z vánočního trhu na Staroměstském náměstí."
@@ -52,11 +52,11 @@ MouthTexture: "Jemná, ale výrazná."
 MouthTaste: "Lesní med a tmavý chléb s popraskanou kůrkou. Také se mi vybavily ořechy v cukrkandlu, které mi rodiče jako dítěti kupovali na pouti."
 MouthFinish: "Zakončuje čerstvou ovocnou kyselostí."
 
-conclusion: "Tento čaj je určitě jeden z těch, které člověk musí aspoň jednou za život zkusit."
+conclusion: "Tento čaj je určitě jeden z těch, které člověk musí alespoň jednou za život zkusit. Nejen kvůli jeho unikátnosti, ale i kvůli jeho jednoduché přípravě. Je to totiž jeden z mála čajů, které vůbec nehořknou, a to i při louhování dlouhou dobu. Moc ho doporučuji lidem, co ještě nemají mnoho zkušeností s přípravou čaje."
 
 rating: "8"
 
 RedditLink: ""
 ---
 
-Až do teď jsem na focení čaje k recenzím používal foťák zabudovaný v mém mobilním telefonu. Tento čaj mě ale donutil sáhnout už po zrcadlovce, protože kontrast tmavých lístků na bílém pozadí byl už pro můj ubohý iPhone příliš. Fotky měly rozbitou expozici tak moc, že byly pro recenzi nepoužitelné. <a href="/tea/gaba-oolong-cake/cake-raw.jpg">Přesvěčte se sami.</a> Zrcadlovka se mi osvědčila, tak jsem se rozhodl s ní fotit i budoucí recenze. Tato komplikace je i důvodem, proč na fotografii níže není disk celý.
+Až do teď jsem na focení čaje k recenzím používal foťák zabudovaný v mém mobilním telefonu. Tento čaj mě ale donutil sáhnout už po zrcadlovce, protože kontrast tmavých lístků na bílém pozadí byl už pro můj ubohý iPhone příliš. Fotky měly rozbitou expozici tak moc, že byly pro recenzi nepoužitelné. <a href="/tea/gaba-oolong-cake/cake-raw.jpg">Přesvědčte se sami.</a> Zrcadlovka se mi osvědčila, tak jsem se rozhodl s ní fotit i budoucí recenze. Tato komplikace je i důvodem, proč na fotografii níže není disk celý.
