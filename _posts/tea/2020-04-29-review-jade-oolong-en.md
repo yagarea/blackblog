@@ -1,5 +1,5 @@
 ---
-title:  "Jade oolong natural farming"
+title: "Jade Oolong natural farming"
 category: "Tea"
 language: "EN"
 bilingual: "/review-jade-oolong-cz/"

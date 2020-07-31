@@ -1,5 +1,5 @@
 ---
-title: "GABA oolong cake"
+title: "GABA Oolong cake"
 category: "Tea"
 bilingual: ""
 language: "CZ"
