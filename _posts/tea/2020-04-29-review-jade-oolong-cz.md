@@ -1,8 +1,8 @@
 ---
-title: "Jade oolong natural farming"
+title: "Jade Oolong natural farming"
 category: "Tea"
 language: "CZ"
-bilingual: ""
+bilingual: "/review-jade-oolong-en/"
 layout: tea-review
 
 
@@ -49,7 +49,7 @@ NoseEmptyCup: "Nad vůní pivoněk a rozkvetlé řepky převládá aroma čerstv
 
 MouthTexture: "Lehká až vodová. Velmi osvěžující."
 MouthTaste: "Nejvíce ženšen. Velmi zemitá a minerální, ale stále rostlinná chuť. Také umami a stopy kopru. Velmi plná chuť."
-MouthFinish: "Opět ženšen, tentokrá v doprovodu sedmikrásek."
+MouthFinish: "Opět ženšen, tentokrát v doprovodu sedmikrásek."
 
 conclusion: "Skvělý čaj na celodenní popíjení. Rozhodně si zaslouží vyzkoušet. Tento čaj doporučuji každému, kdo ocení plnou chuť bez trpkosti."
 
