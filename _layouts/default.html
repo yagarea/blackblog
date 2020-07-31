@@ -8,9 +8,11 @@
 	<meta name="author" content="{{ page.author | default: site.author | escape }}">
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
-	<script async defer data-domain="blackblog.cz" src="https://stats.blackblog.cz/js/index.js"></script>
 	<link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
 	<link rel = "stylesheet" type = "text/css" media = "print" href = "/assets/css/print.css">
+	{% if page.analytics != false %}
+		<script async defer data-domain="blackblog.cz" src="https://stats.blackblog.cz/js/index.js"></script>
+	{% endif %}
 	{% if page.nonindex %}
 		<meta name="robots" content="noindex">
 		<meta name="googlebot" content="noindex">
