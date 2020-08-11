@@ -15,7 +15,7 @@ This is list of my personal projects.
 
 {% include project-card.html
 	name="Meziklasí"
-	image=""
+	image="/assets/img/projects/meziklasi.jpg"
 	description="This is mainly a literary project. It is a chronicle of the village of Meziklasí."
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/xiaoxiae/meziklasi"
@@ -23,7 +23,7 @@ This is list of my personal projects.
 
 {% include project-card.html
 	name="Lyricall"
-	image=""
+	image="/assets/img/projects/lyricall.jpg"
 	description="Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing."
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/yagarea/lyricall"
