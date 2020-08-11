@@ -1,7 +1,10 @@
 <div style="overflow: hidden;">
 	<h2>{{include.name}}</h2>
 	{{include.description}}
+	<br/>
+	<b>Used technology: </b> {{include.used_tech}}
 	{% if include.repo %}
+		<br/>
 		<div style="display:inline-block;">
 			<a href="{{include.repo}}">
 				<!--
@@ -10,7 +13,6 @@
 				</svg>
 				-->
 				<span>Repository</span>
-				
 			</a>
 		</div>
 	{% endif %}
