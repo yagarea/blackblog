@@ -1,0 +1,21 @@
+<div style="overflow: hidden;">
+	<h2>{{include.name}}</h2>
+	{{include.description}}
+	{% if include.repo %}
+		<div style="display:inline-block;">
+			<a href="{{include.repo}}">
+				<!--
+				<svg style="width: 10vw">
+					<use xlink:href="/assets/fontawesome/icons.svg#github"></use>
+				</svg>
+				-->
+				<span>Repository</span>
+				
+			</a>
+		</div>
+	{% endif %}
+	<br/>
+	<br/>
+	<img src="{{include.image}}" alt="{{include.name}}">
+</div>
+<hr/>
