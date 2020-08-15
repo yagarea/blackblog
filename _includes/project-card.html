@@ -1,8 +1,9 @@
 <div style="overflow: hidden;">
+	<blockquote>
 	<h2>{{include.name}}</h2>
 	{{include.description}}
 	<br/>
-	<b>Used technology: </b> {{include.used_tech}}
+	<b>Used technology:  </b> {{include.used_tech}}
 	{% if include.repo %}
 		<br/>
 		<div style="display:inline-block;">
@@ -19,5 +20,7 @@
 	<br/>
 	<br/>
 	<img src="{{include.image}}" alt="{{include.name}}">
+	<br/>
+	</blockquote>
 </div>
 <hr/>
