@@ -1,7 +1,7 @@
 ---
 title: "Wuyi Hong Shoui Oolong"
 category: "Tea"
-bilingual: ""
+bilingual: "/review-wuyi-hong-shui-oolong-en/"
 language: "CZ"
 layout: tea-review
 

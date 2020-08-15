@@ -1,8 +1,8 @@
 ---
-title:  ""
+title: "GABA Oolong cake"
 category: "Tea"
-bilingual: ""
-language: ""
+bilingual: "/review-gaba-oolong-cake-cz/"
+language: "EN"
 layout: tea-review
 
 
