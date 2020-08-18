@@ -32,11 +32,49 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/mirrorlist
 ```
 
-Jako první programy jsem instaloval:
+Samozřejmě také nefungovalo audio. To ale vyřešila instalace balíču `pulseaudio`. Hned po tom jsem se vrhl na uživatelský software. Jako první programy jsem instaloval:
 - firefox
 - telegram
 - neovim
 
 Už dlouho je vim můj primární textový editor, ale tentokrát jsem ho zradil pro jeho modernějšího potomka neovim (nvim). Uvidím co nový pluginový systém přinese.
 
+Asi týden jsem se snažil přijít na to jak permanentně nastavit klávesnici na _ucw_. Nakonec jsem se musel snížit k dost nehezkEému řešení. Prostě jsem přidal příkaz co jsem používal k dočasné změně klávesnice jako `exec` v `~/.config/i3/config`:
 
+```bash
+exec setxkbmap us,cz -variant ,ucw -option grp:caps_switch
+```
+
+## Druhý nádech
+Pár dní po instaaci za mnou přišel kamarád, že potřebuje pomoci s jedním Arduino projektem. Tak jsem si hned nainstaloval Arduino IDE. To ale při spouštění hlásilo chybovou hlášku:
+
+```bash
+$ arduino
+Picked up JAVA_TOOL_OPTIONS:
+Set log4j store directory /home/john/.arduino15
+java.lang.NullPointerException
+	at processing.app.Base.rebuildProgrammerMenu(Base.java:1705)
+	at processing.app.Base.<init>(Base.java:286)
+	at processing.app.Base.main(Base.java:150)
+```
+
+Prvně jsem si myslel, že je to způsobeno špatnou verzí Javy. Ale vypadalo to, že je vše v pořádku:
+
+```bash
+$ java -version
+openjdk version "14.0.2" 2020-07-14
+OpenJDK Runtime Environment (build 14.0.2+12)
+OpenJDK 64-Bit Server VM (build 14.0.2+12, mixed mode)
+```
+Nakonec jsem po několika hodinách prodírání se fóry a moha neúspěšných posech chybu opravil instalací balíčku `arduino-avr-core`.
+
+# TODO
+- Najít lepší řešení pro nastavení klávesnice a invertování scrllování
+- odstranit firefoxu taby
+- udělat dotfiles repozitář
+- nainstalovat pluginy do vimu
+- nastavit ranger
+- zařídit abych nemusel po rebootování pouštět dhcpserver ručně
+- spell check ve vimu
+- přetáhnout projekty
+- rozchodit drivery na čtečku otisku prstu
