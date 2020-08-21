@@ -71,12 +71,12 @@ OpenJDK 64-Bit Server VM (build 14.0.2+12, mixed mode)
 Nakonec jsem po několika hodinách prodírání se fóry a moha neúspěšných posech chybu opravil instalací balíčku `arduino-avr-core`.
 
 # TODO
-- najít lepší řešení pro nastavení klávesnice a invertování scrllování
+- najít lepší řešení pro nastavení klávesnice a invertování scrollování
 - odstranit firefoxu taby
 - udělat dotfiles repozitář
 - nainstalovat pluginy do vimu
 - nastavit ranger
-- zařídit abych nemusel po rebootování pouštět dhcpserver ručně
+- zařídit abych nemusel po rebootování spouštět dhcp server ručně
 - spell check ve vimu
 - přetáhnout projekty
 - rozchodit drivery na čtečku otisku prstu
@@ -86,3 +86,4 @@ Nakonec jsem po několika hodinách prodírání se fóry a moha neúspěšných
 - upravit i3 bar (CPU, RAM, NET)
 - i3 lockscreen
 - nastavit copy, paste a cut přes mod button a ne ctrl
+
