@@ -1,4 +1,4 @@
- SHELL=/usr/local/bin/fish
+ SHELL=/usr/bin/fish
 
 .PHONY: clean build deploy upload
 
