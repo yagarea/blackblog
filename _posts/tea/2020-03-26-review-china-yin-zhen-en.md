@@ -36,8 +36,10 @@ brewing:
 - { title: "Infusion time", text: "20s" }
 - { title: "Number of infusions", text: "5"}
 
-EyeDryLeaf: "Canoe-shaped long narrow leaves. Velvet surface. Pale light green leaves. Light gray hairs from one side."
-EyeWetLeaf: "The leaves fot much larger. The hairs are no longer visible. The leaves opened and became hazy green." 
+EyeDryLeaf: "Canoe-shaped long narrow leaves. Velvet surface. Pale light green leaves. 
+Light gray hairs from one side."
+EyeWetLeaf: "The leaves fot much larger. The hairs are no longer visible. The leaves 
+opened and became hazy green." 
 EyeLiquor: "Very light beige."
 
 NoseDryLeaf: "Dry wood and hay. Like a walk through the mowed meadow in late summer."
@@ -45,14 +47,21 @@ NoseWetLeaf: "Dried apricots and dried flowers. Very strong and pleasant aroma."
 NoseEmptyCup: "Oily fruity aroma. Closest to the smell of freshly cut peaches."
 
 MouthTexture: "Creamy, slightly oily."
-MouthTaste: "Delicate grassy taste. Very light. Light wood and bitter tones. Also a little bit of taste of walnuts."
+MouthTaste: "Delicate grassy taste. Very light. Light wood and bitter tones. 
+Also a little bit of taste of walnuts."
 MouthFinish: "Astrigent and bitter aftertaste."
 
-conclusion: "Definitely a very interesting tea. I appreciate its very strong and pleasant aroma which filled the whole room. The taste was very light and refreshing. The bitterly astrigent end was a little disturbing. It is a pity, because otherwise it is an excellent tea. The imperfections are small, but they should not be in this price range."
+conclusion: "Definitely a very interesting tea. I appreciate its very strong and 
+pleasant aroma which filled the whole room. The taste was very light and refreshing. 
+The bitterly astrigent end was a little disturbing. It is a pity, because otherwise 
+it is an excellent tea. The imperfections are small, but they should not be in this 
+price range."
 
 rating: "4"
 
 RedditLink: ""
 ---
 
-I bought this tea when I was in Heidelberg. There was a small tea shop right next to the magnificent building of the famous university. Of course I had to visit it. One of the teas I bought there is this one.
+I bought this tea when I was in Heidelberg. There was a small tea shop right next to 
+the magnificent building of the famous university. Of course I had to visit it. 
+One of the teas I bought there is this one.
