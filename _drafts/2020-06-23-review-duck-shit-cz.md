@@ -1,5 +1,5 @@
 ---
-title: "Ya Shi Xiang Dan Cong"
+title: "Duck Shit Oolong"
 category: "Tea"
 bilingual: ""
 language: "CZ"
@@ -53,9 +53,16 @@ MouthFinish: ""
 
 conclusion: ""
 
-rating: "7"
+rating: "9"
 
 RedditLink: ""
 ---
 
-intro
+Tento čaj i přes svůj vlastní název jeden z nejchtěnějších yunnanských čajů. Svůj až 
+vulgární název mu dala lokalita jeho pěstování. Pravý duck shit oolong je pěstovaný 
+v údolí s velmi mazlavou tmavou hlínou, která místním asociovala kachní trus. Čaji se 
+v této hlíně velmi dařilo, díky její bohatosti na živiny i minerály. Čaj se začal být 
+velmi populární a začal být exporotován do zbytku světa. Protože je jeho pěstování 
+velmi limitované velikostí údolí, je obtížné tento čaj získat. Dva dny po uvedení do 
+prodeje byla jeho celá zásoba vyprodána. Jsem velmi vděčný, že jsem si stihl ulovit 
+svůj kousek.
