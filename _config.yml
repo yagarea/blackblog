@@ -6,8 +6,8 @@ lang: "en"
 date_format: "%B %d, %Y"
 
 # Layout
-sidebar: true                # show a sidebar instead of the usual header
-show_excerpts: false         # show article excerpts on the home page
+sidebar: true               # show a sidebar instead of the usual header
+show_excerpts: false          # show article excerpts on the home page
 show_related: true           # show the previous and next links after every post
 show_description: true       # show the site description in the sidebar
 show_logo: true              # always keep the site title visible
@@ -40,7 +40,7 @@ references:
   - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
 
 kramdown:
-  math_engine: katex
+    math_engine: katex
 
 comments:
 #  disqus: ""               # see https://disqus.com/
