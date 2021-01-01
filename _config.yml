@@ -43,14 +43,15 @@ kramdown:
     math_engine: katex
 
 comments:
-#  disqus: ""               # see https://disqus.com/
-#  isso: ""                 # see https://posativ.org/isso/
+    commentsapp-id: "Kh5zcvkB"
+    globally_enabled: false
+    limit: 5
 
 plugins:
  - jekyll-feed
  - jekyll-gzip
 
-#Render options 
+#Render options
 disable_disk_cache: false
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_meta", "katex.min.js"]
 include: [".htaccess"]
