@@ -18,7 +18,7 @@ layout: post
 	- magnetu
 
 ## Stacionární magnetické pole
-- Permanentní magnet - trvale zmagnetovaná magneticky tvrdá ocel (zachovává své magnetické pole)
+- Permanentní magnet - trvale zmagnetizovaná magneticky tvrdá ocel (zachovává své magnetické pole)
 - Permanentní magnet má 2 magnetické póly 
 	- Severní (_N_ - červená barva) 
 	- Jižní(_S_ - modrá barva)
@@ -27,7 +27,7 @@ layout: post
 
 ## Magnetické indukční čáry
 - Prostorově orientované křivky, jejichž tečny v daném bodě mají směr osy velmi malé magnetky umístěné v tomto bodě
-- Mgnetické indukční čáry jsou vždy uzavřené a nikde se neprotínají
+- Magnetické indukční čáry jsou vždy uzavřené a nikde se neprotínají
 - Vně magnetu směřují od severu k jihu (od _N_ k _S_)
 - Uvnitř směřují od jihu k severu (od _S_ k _N_)
 
@@ -35,11 +35,11 @@ layout: post
 
 # Magnetické pole elektrického proudu
 - Pohybující se částice s elektrickým nábojem, vytvářejí vlastní magnetické pole. Toto pole je tím silnější, čím silnější je proud. Přiblížíme-li magnet k pohybujícím se elektricky nabitým částicím, můžeme změnit jejich směr
-- Magnetické pole působí buď na trvale zmagnetovaná tělesa nebo na pohybující se částice s elektrickým nábojem
+- Magnetické pole působí buď na trvale zmagnetizovaná tělesa nebo na pohybující se částice s elektrickým nábojem
 - Magnetické pole kolem vodiče a kolem trvalého magnetu má stejné kvalitativní vlastnosti, proto se mohou navzájem jejich účinky zesilovat, nebo zeslabovat.
 
 ## Magnetické indukční čáry přímého vodiče
-Magnetické indukční čáry kolem vodiče s el. proudem mají tvar soustředných kružnic. Orientace závisí na směru proudu. K určení této orientace se používá Ampérovo pravidlo pravé ruky.
+Magnetické indukční čáry kolem vodiče s elektrickým proudem mají tvar soustředných kružnic. Orientace závisí na směru proudu. K určení této orientace se používá Ampérovo pravidlo pravé ruky.
 
 ![Magnetické indukční čáry přímého vodiče](/assets/img/physics/stacionarni-magneticke-pole/magneticke-indukcni-cary-primeho-vodice.png)
 
@@ -64,13 +64,13 @@ Položíme-li pravou ruku na cívku tak, že pokrčené prsty  ukazují dohodnut
 
 # Magnetická síla $$F_{m}$$
 - Vzniká přítomností vodiče v magnetickém poli
-- Směruje tam ,kde vzájemným rušením magnetických indukčních čar magnetu a vodiče, je místo snejmenší koncentrací magnetických indukčních čar
+- Směruje tam ,kde vzájemným rušením magnetických indukčních čar magnetu a vodiče, je místo s nejmenší koncentrací magnetických indukčních čar
 - Směr magnetické síly zjistíme pomocí
 **Flemingova pravidla levé ruky**
 
 ![Flemingovo pravidlo levé ruky](/assets/img/physics/stacionarni-magneticke-pole/flemingovo-pravidlo-leve-ruky.png)
 
-Položíme-li otevřenou levou ruku k přímému vodiči tak, aby prsty ukazovaly směr proudu a indukční čáry vstupovaly do dlaně, ukazuje odtažený palec směr síly, kterou působí mgnetické pole na vodič s proudem. 
+Položíme-li otevřenou levou ruku k přímému vodiči tak, aby prsty ukazovaly směr proudu a indukční čáry vstupovaly do dlaně, ukazuje odtažený palec směr síly, kterou působí magnetické pole na vodič s proudem. 
 
 $$ F_{m} = B.I.l.sin\alpha $$
 
@@ -139,8 +139,8 @@ Elektrony na orbitalech kolem atomů vytvářejí elementární magnetická pole
 
 **Podle těchto vlastností dělíme látky na:**
 
-- **Diamagnetické​** - mají relativní permeabilitu menší než 1 a mirně oslabují vliv magnetického pole (zlato, měď, rtuť)
-- **Paramagnetické​** - mírně zesilují magnetické pole - relativní permeabilita je o něco málo větší než 1 (hliník, sodík, draslík)
+- **Diamagnetické** - mají relativní permeabilitu menší než 1 a mirně oslabují vliv magnetického pole (zlato, měď, rtuť)
+- **Paramagnetické** - mírně zesilují magnetické pole - relativní permeabilita je o něco málo větší než 1 (hliník, sodík, draslík)
 - **Feromagnetické** - mají paramagnetické atomy, ale v uspořádání, že mnohonásobně zesilují magnetické pole (ocel, kobalt, nikl). U takové látky pak tyto atomy zůstávají v uspořádání zesilujícím magnetické pole a magnetické pole se zde uchovává (látka se zmagnetuje)
 
 Využití v jádrech cívek, permanentní magnety
