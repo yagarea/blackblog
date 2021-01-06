@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <article>
@@ -43,6 +44,10 @@ layout: default
 			</div>
 		</a>
 	{% endif %}
+{% if page.comments and site.comments.enabled != false %}
+    <hr>
+	{% include comments.html %}
+{% endif %}
 </article>
 {% if site.show_related %}
 	<footer class="related">
