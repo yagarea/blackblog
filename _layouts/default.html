@@ -7,7 +7,7 @@
 	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 	<meta name="author" content="{{ page.author | default: site.author | escape }}">
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-	<link rel="canonical" href="{{ page.url | absolute_url }}">
+	<link rel="canonical" href="{{ absolute_url }}">
 	<link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
 	<link rel = "stylesheet" type = "text/css" media = "print" href = "/assets/css/print.css">
 	{% if page.analytics != false %}
