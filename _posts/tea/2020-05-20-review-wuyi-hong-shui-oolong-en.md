@@ -60,8 +60,8 @@ NoseWetLeaf: "Scented with puffed rice. I also recognize butter biscuits."
 NoseEmptyCup: "Weaker version of dry leaver aroma."
 
 MouthTexture: "Silk fine texture. Incomparason with this texture is graphen ..."
-MouthTaste: ""
-MouthFinish: ""
+MouthTaste: "The taste of anise is accompanied by a fresh vegetal taste, typical of Taiwanese oolongs. The taste is very full and strong. At the same time, it does not contain any bitterness."
+MouthFinish: "Heavy going taste of spice. It goes grat with flavor of the brew."
 
 conclusion: "At first I would recommend to start with lower temperatures than is 
 recommended by distributor. It is best to start at 80°C and slightly increase 
