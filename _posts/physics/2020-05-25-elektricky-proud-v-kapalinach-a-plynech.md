@@ -27,7 +27,7 @@ layout: post
 |:-------------------:|
 | ![Příklad elektrolýzy](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/priklad-elektrolyzy.png) |
 
-- Elektrolýza $$CuSO_{4}$$ síranu měďnatého (modré skalice)
+- Elektrolýza $$CuSO_{4} * 5H_{2}O$$ síranu měďnatého (modré skalice)
 	- **Katoda** (uhlíková) – Kationty $$Cu^{2+}$$ přijímají dva elektrony, a vylučují se jako čistá (neutrální) měď
 	- **Anoda** (měděná) – anionty $$SO_{4}^{2-}$$ reagují s materiálem anody (mědí) a vytvářejí nové molekuly $$CuSO_{4}$$. Z anody přechází do roztoku právě tolik atomů mědi, kolik se jich vylučuje na katodě a koncentrace roztoku se nemění
 
@@ -44,7 +44,7 @@ Při elektrolýze se na katodě vždy vylučuje vodík nebo kov. Na anodě se ta
 > - $$A$$ [kg.C$$^{-1}$$] - Elektrochemický ekvivalent látky, konstanta úměrnosti, která je pro danou látku charakteristická
 > - $$Q$$ - Náboj
 > - $$I$$ - Proud procházející elektrolytem
-> - $$t$$ - Čas, po který proud prcházel elektrolytem
+> - $$t$$ - Čas, po který proud procházel elektrolytem
 
 > ### 2. Faradayův zákon
 >
