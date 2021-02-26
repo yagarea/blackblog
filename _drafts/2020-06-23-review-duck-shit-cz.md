@@ -39,11 +39,13 @@ brewing:
 - { title: "Počet nálevů", text: "4" }
 - { title: "Voda", text: "filtered" }
 
-EyeDryLeaf: "Lístky jsou seschlé do hubených proužků. Mezi lístky nejsou žádné větvičky. Lístky jsou sametově černé s občasným tmavě hnědým žilkováním."
+EyeDryLeaf: "Lístky jsou seschlé do hubených proužků. Mezi lístky nejsou žádné větvičky.
+Lístky jsou sametově černé s občasným tmavě hnědým žilkováním."
 EyeWetLeaf: ""
 EyeLiquor: "Bronzová až mosazná barva."
 
-NoseDryLeaf: "Milá sladká vůně, podobná vůni černého rybízu, lesních plodů, brusinek a cukrové vaty. "
+NoseDryLeaf: "Milá sladká vůně, podobná vůni černého rybízu, lesních plodů, brusinek a 
+cukrové vaty. "
 NoseWetLeaf: ""
 NoseEmptyCup: "Ovocná vůně asociuící hroznovou šťávu a vůni rozkvetlé pivoňky."
 
@@ -51,7 +53,11 @@ MouthTexture: ""
 MouthTaste: ""
 MouthFinish: ""
 
-conclusion: ""
+conclusion: "Jednuše skvělý. Naprosto chápu, proč je o něj takový zájem. Kachny by měli
+být hrdé, že je tento čaj pojmenovaný po nich. Po tomto čaji vždycky sánhu, když mám 
+hosta, který čaji nerozumí nebo nevěří, že sypaný čaj je takový rozdíl od čaje 
+pytlíkového. Vím, že je to jasná přesila z mé strany, ale pokud jde o čaj, využiji každé
+příležitosti."
 
 rating: "9"
 
