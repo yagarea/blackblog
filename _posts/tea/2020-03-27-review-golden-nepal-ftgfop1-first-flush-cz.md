@@ -3,6 +3,7 @@ title:  "Golden Nepal FTGFOP1 first flush"
 category: "Tea"
 bilingual: "/review-golden-nepal-ftgfop1-first-flush-en/"
 language: "CZ"
+comments: True
 layout: tea-review
 
 
