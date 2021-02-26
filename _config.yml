@@ -27,6 +27,7 @@ external:                   # see http://fontawesome.com/icons
   - {title: Projects, icon: project-diagram, url: "/projects"}
   - {title: References, icon: address-card, url: "/ref"}
   - {title: Meziklasí, icon: seedling, url: "http://www.meziklasi.cz/"}
+  - {title: Lyricall, icon: pen-fancy, url: "https://www.lyricall.cz/"}
   - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
@@ -44,7 +45,7 @@ kramdown:
 
 comments:
     commentsapp-id: "Kh5zcvkB"
-    globally_enabled: false
+    enabled: true
     limit: 5
 
 plugins:
@@ -62,3 +63,4 @@ JEKYLL_ENV: development
 gzip:
   replace_files: true
   extensions: [".html", ".css", ".js", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
+
