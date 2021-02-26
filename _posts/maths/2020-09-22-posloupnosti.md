@@ -6,7 +6,7 @@ latex: true
 layout: post
 ---
 
-Tento článek je přepisem zápisem  [Posloupnosti](https://www.youtube.com/watch?v=KEOaBi5-Ya0&list=PLpiLOsNLsfmaZmudeSqAP9HquVTpwiyNC&index=3) pana [Dalibora Šmída PhD.](https://www2.karlin.mff.cuni.cz/~smid/).
+Tento článek je zápisem přednášky o [Posloupnostech](https://www.youtube.com/watch?v=KEOaBi5-Ya0&list=PLpiLOsNLsfmaZmudeSqAP9HquVTpwiyNC&index=3) pana [Dalibora Šmída PhD.](https://www2.karlin.mff.cuni.cz/~smid/).
 
 - .
 {:toc}
