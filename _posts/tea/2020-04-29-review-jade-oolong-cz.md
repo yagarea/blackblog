@@ -3,6 +3,7 @@ title: "Jade Oolong natural farming"
 category: "Tea"
 language: "CZ"
 bilingual: "/review-jade-oolong-en/"
+comments: True
 layout: tea-review
 
 
