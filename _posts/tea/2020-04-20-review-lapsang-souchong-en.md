@@ -3,6 +3,7 @@ title: "Lapsang Souchong"
 category: "Tea"
 bilingual: "/review-lapsang-souchong-cz/"
 language: "EN"
+comments: True
 layout: tea-review
 
 

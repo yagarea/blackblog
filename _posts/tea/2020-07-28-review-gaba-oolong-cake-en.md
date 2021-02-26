@@ -3,6 +3,7 @@ title: "GABA Oolong cake"
 category: "Tea"
 bilingual: "/review-gaba-oolong-cake-cz/"
 language: "EN"
+comments: true
 layout: tea-review
 
 
