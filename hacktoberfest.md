@@ -7,7 +7,7 @@ nonindex: True
 ---
 
 This is a list of a few projects you can contribute to during [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
-Feel free to add your own projects [here]().
+Feel free to add your own projects [here](https://github.com/yagarea/blackblog/blob/master/hacktoberfest.md).
 
 | Project | Description |
 |:-------:|:-----------:|
