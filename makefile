@@ -12,4 +12,4 @@ build:
 	tree _site -C -d | sed 's/^/                    /'
 
 upload:
-	scripts/upload
+	scripts/do-upload

@@ -8,8 +8,8 @@ layout: post
 
 ## Jednotky
 - **pt** - Tiskařský bod = 1/72.27 palce ~ 1/3 mm (V poscriptu 1/72 palce)
-- **cm**
-- **em**
+- **cm** - centimetr
+- **em** - ?
 
 ---
 
@@ -19,7 +19,7 @@ Dělí se na **zabudované** a **uživatelské**. Typ má registry 0 až 255.
 ### Typy:
 - `\count` - 31-bitové číslo se znaménkem
 - `\dimen` - sign + 30 bitů ve sp=$$2^{-16}$$pt [14bitů]+[16bitů] 16383.9999pt
-- `\skip` - 
+- `\skip` - roztažnost 13+16 bitů
 - `\muskup` -
 - `\task` -
 - `\box` -
@@ -60,9 +60,9 @@ ale efektivní)
 ### Použití:
 - `\count74`[`=`]`32` - dosazení číselné hodnoty
 - `\parskip`[`=`]`10pt` - dosazení hodnoty s jednotkami
-- `\leftskip=0.1\hsize` = 
-- `\showthe\count5`
-- `\count\count5`
+- `\leftskip=0.1\hsize` - dosazení násobku jiného registru 
+- `\showthe\count5` - vypsat obsah registru do konzole
+- `\count\count5` - obsah reistru číslo hodnoty v registru 5
 
 ### Aritmetika
 - `\advanced` _registr_ `by` _hodnota_
