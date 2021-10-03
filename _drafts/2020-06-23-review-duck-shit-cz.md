@@ -45,7 +45,7 @@ EyeWetLeaf: ""
 EyeLiquor: "Bronzová až mosazná barva."
 
 NoseDryLeaf: "Milá sladká vůně, podobná vůni černého rybízu, lesních plodů, brusinek a 
-cukrové vaty. "
+cukrové vaty."
 NoseWetLeaf: ""
 NoseEmptyCup: "Ovocná vůně asociuící hroznovou šťávu a vůni rozkvetlé pivoňky."
 
