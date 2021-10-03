@@ -6,46 +6,55 @@ latex: false
 layout: post
 ---
 
-> ⌘ = mod button
+> <kbd>⌘</kbd> = mod button
 
-| Key combination 	| Action 							|
-|-------------------|-----------------------------------|
-| ⌘+Enter			| Open terminal						|
-| ⌘+q				| Kill current app					|
-| ⌘+space			| Open rofi menu					|
-| ⌘+h or ⌘+↓		| Move focus to the left			|
-| ⌘+j or ⌘+→		| Move focus to the down			|
-| ⌘+k or ⌘+↑		| Move focus to the up				|
-| ⌘+l or ⌘+←		| Move focus to the right			|
-| ⌘+Shift+h			| Move focused window to the left	|
-| ⌘+Shift+j			| Move focused window to the down	|
-| ⌘+Shift+k			| Move focused window to the up		|
-| ⌘+Shift+l			| Move focused window to the right	|
-| ⌘+f				| Toggle fullscreen					|
-| ⌘+s				| Set container layout to stacked	|
-| ⌘+w				| Set container layout to tabbed	|
-| ⌘+e				| Set container layout to split		|
-| ⌘+,				| Move workspace to left monitor	|
-| ⌘+.				| Move workspace to right monitor	|
-| ⌘+\`				| Go to workspace 0					|
-| ⌘+number			| Go to workspace number			|
-| ⌘+-				| Go to workspace 11				|
-| ⌘+=				| Go to workspace 12				|
-| ⌘+Backspace		| Go to workspace 13				|
-| ⌘+z				| Go to workspace reserved fot Zoom	|
-| ⌘+t				| Go to workspace reserved for Messenger|
-| ⌘+d				| Go to workspace reserved for Discord	|
-| ⌘+Shift+\`		| Move current window to workspace 0	|
-| ⌘+Shift+_number_	| Move workspace _number_				|
-| ⌘+Shift+-			| Move workspace 11					|
-| ⌘+Shift+=			| Move workspace 12					|
-| ⌘+Shift+Backspace	| Move workspace 13					|
-| ⌘+Shift+c			| Reload i3wm config file			|
-| ⌘+Shift+r			| Restart i3wm						|
-| ⌘+Shift+e			| Exit i3wm							|
+| Key combination 	                                        | Action 							|
+|-----------------------------------------------------------|-----------------------------------|
+| <kbd>⌘</kbd>+<kbd>Enter</kbd>			                    | Open terminal						|
+| <kbd>⌘</kbd>+<kbd>q</kbd>				                    | Kill current app					|
+| <kbd>⌘</kbd>+<kbd>space</kbd>			                    | Open rofi menu					|
+| <kbd>⌘</kbd>+<kbd>h</kbd> or <kbd>⌘</kbd>+<kbd>↓</kbd>	| Move focus to the left			|
+| <kbd>⌘</kbd>+<kbd>j</kbd> or <kbd>⌘</kbd>+<kbd>→</kbd>	| Move focus to the down			|
+| <kbd>⌘</kbd>+<kbd>k</kbd> or <kbd>⌘</kbd>+<kbd>↑</kbd>	| Move focus to the up				|
+| <kbd>⌘</kbd>+<kbd>l</kbd> or <kbd>⌘</kbd>+<kbd>←</kbd>	| Move focus to the right			|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>h</kbd>			    | Move focused window to the left	|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>j</kbd>			    | Move focused window to the down	|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>k</kbd>			    | Move focused window to the up		|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>l</kbd>			    | Move focused window to the right	|
+| <kbd>⌘</kbd>+<kbd>f</kbd>				                    | Toggle fullscreen					|
+| <kbd>⌘</kbd>+<kbd>s</kbd>				                    | Set container layout to stacked	|
+| <kbd>⌘</kbd>+<kbd>w</kbd>			                    	| Set container layout to tabbed	|
+| <kbd>⌘</kbd>+<kbd>e</kbd>			                    	| Set container layout to split		|
+| <kbd>⌘</kbd>+<kbd>,</kbd>			                    	| Move workspace to left monitor	|
+| <kbd>⌘</kbd>+<kbd>.</kbd>			                    	| Move workspace to right monitor	|
+| <kbd>⌘</kbd>+<kbd>`</kbd>		                    		| Go to workspace 0					|
+| <kbd>⌘</kbd>+<kbd>number</kbd>	                        | Go to workspace number			|
+| <kbd>⌘</kbd>+<kbd>-</kbd>			                    	| Go to workspace 11				|
+| <kbd>⌘</kbd>+<kbd>=</kbd>			                    	| Go to workspace 12				|
+| <kbd>⌘</kbd>+<kbd>Backspace</kbd>	                    	| Go to workspace 13				|
+| <kbd>⌘</kbd>+<kbd>z</kbd>			                    	| Go to workspace reserved fot Zoom	|
+| <kbd>⌘</kbd>+<kbd>t</kbd>			                    	| Go to workspace reserved for Messenger|
+| <kbd>⌘</kbd>+<kbd>d</kbd>			                    	| Go to workspace reserved for Discord	|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>`</kbd>		        | Move current window to workspace 0	|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd><i>number</i></kbd>    | Move workspace _number_				|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>-</kbd>			    | Move workspace 11					|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>=</kbd>			    | Move workspace 12					|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>Backspace</kbd>	    | Move workspace 13					|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>c</kbd>			    | Reload i3wm config file			|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd>			    | Restart i3wm						|
+| <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>e</kbd>			    | Exit i3wm							|
 
-### Note
+### Useful command for key binding
+
 Get key code of any keyboard button with this command:
-```
+```bash
 xbindkeys --key
 ```
+
+To find out `WM_CLASS` of Xserver window run this command:
+```bash
+xprop | grep WM_CLASS | awk '{print $4}'
+```
+and click on window in question. The `WM_CLASS` will be output as string into your 
+terminal.
+

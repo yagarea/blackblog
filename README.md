@@ -4,6 +4,8 @@ permalink: "/about/"
 layout: default
 ---
 
+<article markdown="1">
+
 <h1>About <a href="http://blackblog.cz/">BlackBlog.cz</a></h1>
 
 This is my personal blog where I will publish mainly: 
@@ -40,3 +42,4 @@ I am a Czech highschool student. My interests are software development, Mathemat
 > <h2> „Best idea is the one, which lets always small slit for posibility, that everything can be totaly different.“</h2>
 > \- Václav Havel
 
+</article>

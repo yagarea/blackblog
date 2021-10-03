@@ -32,9 +32,9 @@ Because I use TreeTab extension to manage my tabs the default tab bar is just wa
 ```
 Full effect will take after restart.
 
-### Extensions
+## Extensions
 
-## TreeTab
+### TreeTab
 
 I have been using this extension as main tab manager for one year. 
 During that time I developed visual configuration which is best for my needs. 
@@ -83,5 +83,13 @@ There is config file (with added white spaces to make it easier to read):
 	"theme_version":4
 }
 ```
+
+### uBlock
+
+### uMatrix
+
+### KeepassXC
+
+### Dark reader
 
 

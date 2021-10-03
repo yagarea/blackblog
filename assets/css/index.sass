@@ -6,12 +6,24 @@
 body > header, body > article, body > footer
   padding: 1.5em
 
+
+@media (max-width: 1100px)
+  .archive-list
+    width: 100%
+
+
+@media (max-width: 550px)
+  .archive-date
+    display: none
+
 @media (min-width: 32em)
   body > header, body > article, body > footer
     padding: 1.5em calc(38% - 12em)
+
 
 body > header
   background: darken($dark, 4%)
   color: #fff
   border-bottom: 1px solid rgba($light, 0.05)
+
 
