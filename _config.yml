@@ -3,7 +3,7 @@ author: "Jan Černý"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
-date_format: "%B %d, %Y"
+date_format: "%B %d %Y"
 
 # Layout
 sidebar: true               # show a sidebar instead of the usual header
