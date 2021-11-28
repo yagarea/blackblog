@@ -6,8 +6,15 @@ layout: page
 
 This is list of my personal projects. 
 
-<div class="project-wrapper">
+<div class="project-wrapper" markdown="1">
 
+{% include project-card.html
+	name="GGU Homepage"
+	image="/assets/img/projects/ggu-website.png"
+	description="Homepage for student group I belong to. Visit [ggu.cz](ggu.cz) for more information about group."
+	used_tech="Jekyll, Ruby, Shell, CSS, HTML"
+	repo="https://github.com/yagarea/ggu.cz/"
+%}
 
 {% include project-card.html
 	name="Slimulator"
@@ -28,16 +35,13 @@ This is list of my personal projects.
 {% include project-card.html
 	name="Javachat" 
 	image=""
-	description="
-	RSA encrypted chatting service writen in java. Project provides sever with administration and client softare.
-	<br/>
-	Security features:	
-    <ul>
-	<li>Communication between server and client is encrypted by RSA.</li>
-    <li>Passwords are saved as SHA hashes.</li>
-    <li>Password are hashed with randomized salt</li>
-	</ul>
-	"
+description="RSA encrypted chatting service writen in java. Project provides sever with administration and client softare.
+
+Security features:	
+
+- Communication between server and client is encrypted by RSA.
+- Passwords are saved as SHA hashes.
+- Passwords are hashed with randomized salt"
 	used_tech="Java"
 	repo="https://github.com/yagarea/java-chat"
 %}
