@@ -2,7 +2,7 @@
 	<h2>{{include.name}}</h2>
 	<hr/>
 	<p>
-		{{include.description}}
+		{{include.description | markdownify | liquify | remove: "<p>" | remove: "</p>" }}
 	</p>
 	<b>Used technology:  </b> {{include.used_tech}}
 	{% if include.repo %}
