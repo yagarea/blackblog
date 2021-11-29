@@ -126,8 +126,8 @@ $$ \frac{p_1}{p_2} = \frac{h_1}{h_2} $$
 	- vzducholodě nebo balónky
 
 ## Odvození vztlakové síly
-1. Na horní podstavu kvádru v hloubce h1 působí hydrostatická tlaková síla $$F_1 = Sh_1\rho g$$
-2. Na dolní podstavu kvádru v hloubce h2 působí hydrostatická tlaková síla $$F_2 = Sh_2\rho g$$
+1. Na horní podstavu kvádru v hloubce $$h_1$$ působí hydrostatická tlaková síla $$F_1 = Sh_1\rho g$$
+2. Na dolní podstavu kvádru v hloubce $$h_2$$ působí hydrostatická tlaková síla $$F_2 = Sh_2\rho g$$
 3. Výslednice sil $$F_1$$ a $$F_2$$ je vztlaková síla
 4. Z toho vyplývá:
 
