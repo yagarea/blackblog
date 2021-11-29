@@ -193,8 +193,6 @@ Fundamental symbols
 
 ### Fundamentální značení
 
-| Značení	 			| Anglicky 				| Význam 			|
-|:---------------------:|:---------------------:|:-----------------:|
 | $$\|$$ 				| is parallel to		| je paralelní s 	|
 | $$\perp$$				| is perpendicular to	| je kolmá na		|
 | $$\triangle$$			| a triangle			| trojúhelník		|
