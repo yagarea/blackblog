@@ -105,7 +105,8 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 
 ### Citát
 
-> <h1> „Češi nejsou národ ateistů, ale náboženských ignorantů.‟</h1>
+> # „Češi nejsou národ ateistů, ale náboženských ignorantů.‟
+> {:.no_toc}
 > \- Doc. PhDr. Zdeněk Vojtíšek Th.D. 2020
 
 
