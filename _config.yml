@@ -6,8 +6,8 @@ lang: "en"
 date_format: "%B %d %Y"
 
 # Layout
-sidebar: true               # show a sidebar instead of the usual header
-show_excerpts: false          # show article excerpts on the home page
+sidebar: true                # show a sidebar instead of the usual header
+show_excerpts: false         # show article excerpts on the home page
 show_related: true           # show the previous and next links after every post
 show_description: true       # show the site description in the sidebar
 show_logo: true              # always keep the site title visible
@@ -26,7 +26,7 @@ navigation:
 
 
 # Menu external
-external:                   # see http://fontawesome.com/icons
+external:                    # see http://fontawesome.com/icons
   - {title: Meziklasí, icon: seedling, url: "https://meziklasi.cz/"}
   - {title: Lyricall, icon: pen-fancy, url: "https://lyricall.cz/"}
   - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
@@ -41,9 +41,6 @@ references:
   - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
   - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
 
-kramdown:
-    math_engine: katex
-
 comments:
     commentsapp-id: "Kh5zcvkB"
     enabled: true
@@ -54,19 +51,26 @@ plugins:
   - jekyll-gzip
   - jekyll-tidy
 
-#Render options
+# Render options
 disable_disk_cache: false
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_meta", "katex.min.js"]
 include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
 
-#Compression settings
+# Compression settings
 gzip:
   replace_files: true
   extensions: [".html", ".css", ".js", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
 
+# Clean rendered html
 jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
+
+# Katex macros
+latex-macros:
+  - ["\\Q", "\\mathbb{Q}"]
+  - ["\\C", "\\mathbb{C}"]
+
