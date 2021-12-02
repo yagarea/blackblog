@@ -10,15 +10,15 @@ $global_macros = Hash.new
 $count_newly_generated_expressions = 0
 $count_cached_expressions = 0
 
-def convert(post)
+def convert(doc)
   # Convert HTML enetities back to characters
-  post = HTMLEntities.new.decode(post)
-  post = post.gsub(/(\\\()((.|\n)*?)(?<!\\)\\\)/) { |m| escape_method($1, $2) }
-  post = post.gsub(/(\\\[)((.|\n)*?)(?<!\\)\\\]/) { |m| escape_method($1, $2) }
+  post = HTMLEntities.new.decode(doc.to_s)
+  post = post.gsub(/(\\\()((.|\n)*?)(?<!\\)\\\)/) { |m| escape_method($1, $2, doc.path) }
+  post = post.gsub(/(\\\[)((.|\n)*?)(?<!\\)\\\]/) { |m| escape_method($1, $2, doc.path) }
   return post
 end
 
-def escape_method( type, string )
+def escape_method( type, string, doc_path )
   @display = false
 
   # Detect if expression is display view
@@ -50,8 +50,8 @@ def escape_method( type, string )
                           {displayMode: @display,  macros: $global_macros})
     rescue Exception => e
       # Catch parse error
-      puts "\e[31m" + e.message + "\e[0m"
-      @result = PARSE_ERROR_PLACEHOLDER
+      puts "\e[31m " + e.message.gsub("ParseError: ", "") + "\n\t"  + doc_path + "\e[0m"
+      return PARSE_ERROR_PLACEHOLDER
     end
     # save to cache
     File.open(@cache_path, 'w') { |file| file.write(@result) }
@@ -62,7 +62,7 @@ def escape_method( type, string )
 end
 
 Jekyll::Hooks.register :documents, :post_render do |doc|
-  doc.output = convert(doc.to_s)
+  doc.output = convert(doc)
 end
 
 Jekyll::Hooks.register :site, :after_init do |site|
