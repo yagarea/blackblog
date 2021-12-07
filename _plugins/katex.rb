@@ -70,7 +70,7 @@ def print_stats
   print "             LaTeX: " + 
         ($count_newly_generated_expressions + $count_cached_expressions).to_s + 
         " expressions rendered (" + $count_cached_expressions.to_s + 
-        " already cached)        \r"
+        " already cached)\r"
   $stdout.flush
 end
 
