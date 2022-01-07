@@ -3,12 +3,12 @@ require 'digest'
 require 'htmlentities'
 
 PATH_TO_JS = "./_plugins/katex.min.js"
-PATH_TO_CACHE_DIR = "./.jekyll-cache/katex-cache/"
+PATH_TO_CACHE = "./.jekyll-cache/katex-cache.marshal"
 KATEX = ExecJS.compile(open(PATH_TO_JS).read)
 PARSE_ERROR_PLACEHOLDER = "<b style='color: red;'>PARSE ERROR</b>"
 $global_macros = Hash.new
 $count_newly_generated_expressions = 0
-$count_cached_expressions = 0
+$cache = nil
 
 def convert(doc)
   # convert HTML enetities back to characters
@@ -30,35 +30,33 @@ def escape_method( type, string, doc_path )
   end
 
   # generate a hash from the math expression
-  @hash = Digest::SHA2.hexdigest string
-  @cache_path = PATH_TO_CACHE_DIR + @hash + @display.to_s
+  @expression_hash = Digest::SHA2.hexdigest(string) + @display.to_s
 
   # use it if it exists
-  if(File.exist?(@cache_path))
-    $count_cached_expressions += 1
+  if($cache.has_key?(@expression_hash))
+    $count_newly_generated_expressions += 1
     print_stats
-    return File.read(@cache_path)
+    return $cache[@expression_hash]
 
   # else generate one and store it
   else
     # create the cache directory, if it doesn't exist
-    @cache_dir_path = File.dirname(@cache_path)
-    Dir.mkdir(@cache_dir_path) unless Dir.exist?(@cache_dir_path)
-
     begin
       # render using ExecJS
       @result =  KATEX.call("katex.renderToString", string, 
                           {displayMode: @display,  macros: $global_macros})
     rescue SystemExit, Interrupt
+      # save cache to disk
+      File.open(PATH_TO_CACHE, "w"){|to_file| Marshal.dump($cache, to_file)}
       # this stops jekyll being immune to interupts and kill command
       raise
     rescue Exception => e
-      # Catch parse error
+      # catch parse error
       puts "\e[31m " + e.message.gsub("ParseError: ", "") + "\n\t"  + doc_path + "\e[0m"
       return PARSE_ERROR_PLACEHOLDER
     end
     # save to cache
-    File.open(@cache_path, 'w') { |file| file.write(@result) }
+    $cache[@expression_hash] = @result
     # update count of newly generated expressions
     $count_newly_generated_expressions += 1
     print_stats
@@ -68,9 +66,9 @@ end
 
 def print_stats
   print "             LaTeX: " + 
-        ($count_newly_generated_expressions + $count_cached_expressions).to_s + 
-        " expressions rendered (" + $count_cached_expressions.to_s + 
-        " already cached)\r"
+        ($count_newly_generated_expressions).to_s + 
+        " expressions rendered (" + $cache.size.to_s + 
+        " already cached)        \r"
   $stdout.flush
 end
 
@@ -92,16 +90,24 @@ Jekyll::Hooks.register :site, :after_init do |site|
     puts "             LaTeX: " + $global_macros.size.to_s + " macro" + 
           ($global_macros.size == 1 ? "" : "s") + " loaded"
   end
+
+  # load content of cache file if it exists
+  if(File.exist?(PATH_TO_CACHE))
+    $cache = File.open(PATH_TO_CACHE, "r"){|from_file| Marshal.load(from_file)}
+  else
+    $cache = Hash.new
+  end
 end
 
 Jekyll::Hooks.register :site, :after_reset do
-  # reset counts after reset
+  # reset count after reset
   $count_newly_generated_expressions = 0
-  $count_cached_expressions = 0
 end
 
 Jekyll::Hooks.register :site, :post_write do
   # print new line to prevent overwriting previous output
   print "\n"
+  # save cache to disk
+  File.open(PATH_TO_CACHE, "w"){|to_file| Marshal.dump($cache, to_file)}
 end
 
