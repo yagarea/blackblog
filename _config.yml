@@ -50,6 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-gzip
   - jekyll-tidy
+  - jektex
 
 # Render options
 disable_disk_cache: false
@@ -57,6 +58,14 @@ exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.
 include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
+
+# Latex rendering settings
+jektex:
+  cache_dir: ".jekyll-cache/test1/test2"
+  ignore: ["*.xml"]
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
 
 # Compression settings
 gzip:
@@ -69,8 +78,4 @@ jekyll_tidy:
   ignore_env: "testing"
   compress_html: false
 
-# Katex macros
-latex-macros:
-  - ["\\Q", "\\mathbb{Q}"]
-  - ["\\C", "\\mathbb{C}"]
 
