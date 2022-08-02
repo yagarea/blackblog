@@ -1,6 +1,6 @@
 ---
 title: "Teorie grafů"
-category: "MatFyz"
+category: "Matfyz"
 language: "CZ"
 latex: true
 layout: post
