@@ -62,7 +62,7 @@ JEKYLL_ENV: development
 # Latex rendering settings
 jektex:
   cache_dir: ".jekyll-cache/test1/test2"
-  ignore: ["*.xml"]
+  ignore: ["*.xml", "*.css", "*.sass", "*.svg", "*.js", "*.map"]
   macros:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
