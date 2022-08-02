@@ -1,6 +1,6 @@
 ---
 title:  "Relace a uspořádání"
-category: "MatFyz"
+category: "Matfyz"
 language: "CZ"
 latex: true
 layout: post

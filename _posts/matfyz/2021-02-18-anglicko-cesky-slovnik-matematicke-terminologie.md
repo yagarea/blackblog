@@ -1,6 +1,6 @@
 ---
 title:  "Anglicko-český slovník matematické terminologie"
-category: "MatFyz"
+category: "Matfyz"
 language: "CZ"
 latex: true
 layout: post
