@@ -3,7 +3,7 @@ html
   font-size: 16px
   font-size: $font-size
   background: $dark
-  color: $light
+  color: #FAFAFA
 
 body
   font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif
@@ -36,15 +36,22 @@ a
   &:hover
     text-decoration: underline
 
+body > header, body > article, body > footer
+  padding: 1.5em
+
 header a, footer a
   color: inherit
 
 header time
   color: reduce(100)
 
+body > header
+  border-bottom: 3px solid rgba($light, 0.05)
+
 hr
   border: 1px solid reduce(30)
   margin: 2em 0
+
 
 article:not(:last-child)
   border-bottom: 1px solid reduce(20)
@@ -127,7 +134,3 @@ kbd
 ignore-css
   all: unset;
 
-.table-img
-  width: 150
-  height: auto
-  align: center
