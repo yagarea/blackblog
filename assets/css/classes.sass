@@ -58,13 +58,18 @@
 
 {% if site.sidebar or site.external %}
 
-.icons svg
-  height: 1em
-  width: 1em
-  fill: currentColor
-  transition: .2s color
-  vertical-align: middle
-  margin-bottom: .15em
+.icons
+  background-color: #000
+  a:hover svg
+    color: reduce(100)
+
+  svg
+    height: 1em
+    width: 1em
+    fill: currentColor
+    transition: .2s color
+    vertical-align: middle
+    margin-bottom: .15em
 
 {% endif %}
 
@@ -78,6 +83,11 @@
   border: 1.5px solid $link-color
   padding: .4em .8em
   transition: .2s
+
+.table-img
+  width: 150
+  height: auto
+  align: center
 
 .more a:hover
   color: #fff
@@ -123,9 +133,6 @@
 {% endif %}
 
 {% unless site.sidebar %}
-
-.icons a:hover svg
-  color: reduce(100)
 
 @media (min-width: 70em)
   .large
