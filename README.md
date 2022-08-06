@@ -9,12 +9,13 @@ layout: default
 # About me
 I am student studying of [Charles University, Faculty of Mathematics and Physics](https://www.mff.cuni.cz/).
 I am specializing in Artificial Intelligence and theoretical computer science. My
-interests are Computer science, Mathematics, Theology and Philosophy. I am also
-huge tea enthusiastic. My favorite sports are climbing and skiing.
+interests beside Computer science and Mathematics are Theology and Philosophy. I am also
+huge tea enthusiastic. My favorite sports are climbing and skiing. I am member of
+[GGU](https://ggu.cz/).
 
 **- Jan Černý**
 
-## Moto 
+## Moto
 
 > ## „Nejlepší myšlenka je ta, která ponechává vždy určitou skulinu pro možnost, že všechno je současně úplně jinak.“
 > \- Václav Havel
