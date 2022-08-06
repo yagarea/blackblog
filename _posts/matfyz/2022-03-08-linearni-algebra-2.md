@@ -13,7 +13,7 @@ layout: post
 {% def %}
 Standardní skalární součin $$x,y \in \R$$ je definován jako
 
-$$ X^{T}Y = \sum_{i=1}^{n} x_{i}Y_{i}$$
+$$ x^{T}y = \sum_{i=1}^{n} x_{i}y_{i}$$
 
 {% enddef %}
 
@@ -73,7 +73,7 @@ Značíme $$x \perp y$$
 {% enddef %}
 
 {% theorem %}
-## Pythagorova věta
+### Pythagorova věta
 Pokud $$x,y \in V$$ jsou kolmé, tak
 
 $$ \left\| x + y \right\|^2 = \left\| x \right\| ^2 = \left\| y \right\| ^2 $$
@@ -205,7 +205,7 @@ $$\langle\sum_{i=1}^{n} \alpha_{i} z_{i}, z_{k}\rangle = \sum_{i=1}^{n} \alpha_{
 {% theorem %}
 Buď $$z_{1}, \cdots, z_{n}$$ ortonormální báze prostoru $$V$$. Pak pro každé $$x \in V$$ platí:
 
-$$ \underbrace{x = \sum^{n}_{i=1} \overbrace{\langle x, z_{i} \rangle z_{i}}^{\text{Fourierovy koeficienty}}}_{Fourierův rozvoj}$$
+$$ \underbrace{x = \sum^{n}_{i=1} \overbrace{\langle x, z_{i} \rangle z_{i}}^{\text{Fourierovy koeficienty}}}_{Fourierův~rozvoj}$$
 
 ---
 
@@ -217,90 +217,500 @@ Představuje projekci na bazické vektory
 
 ### Gramova-Schmitzova ortogonalizace
 **Algoritmus:**\\
-Vstup: lineárně nezávislé vektory $$x_{1}, \cdots, x_{n} \in V$$
+Vstup: lineárně nezávislé vektory $$x_{1}, \ldots, x_{n} \in V$$
 
 1. for $$k:=1$$ to $$n$$
 2. &nbsp;&nbsp;&nbsp;&nbsp;$$y_{k} := \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
 3. &nbsp;&nbsp;&nbsp;&nbsp;$$ z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$$$$$
 4. end for
 
-Výstup: $$z_{1},\cdots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\cdots,x_{n}\}$$
+Výstup: $$z_{1},\ldots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\ldots,x_{n}\}$$
+
+{% proof %}
+Matematickou indukcí:
+
+1. $$n=1$$$$$$
+2. Indukční předpoklad: $$z_{1}, \ldots, z_{n-1}$$ je ortonormální bází $$span\{x_{1},\ldots,x_{n-1}\}$$,
+$$y_{n}$$ je nenulové z lineární nezávislosti, je dobře definovaná a má jednotkovou délku
+pak už jen dokážeme, že je kolmý a že tvoří bázi.
+{% endproof %}
+
+{% claim %}
+
+#### Důsledek: Existence ortonormální báze
+Každý konečně generovaný prostor se skalárním součinem má ortogonální bázi.
+
+---
+
+Každý má bázi a tu můžeme Gram-Schmitzem ortogonalizovat.
+{% endclaim %}
+
+{% claim %}
+#### Důsledek: Rozšíření ortonormálních systémů na ortonormální bázi
+Každý ortonormální systém vektorů v konečně generovaném prostoru lze rozšířit na ortonormální bázi.
+{% endclaim %}
+
+{% claim %}
+Buď $$B=\{z_{1},\ldots,z_{n}\}$$ báze prostoru $$V$$. Pak
+
+$$\langle x,y \rangle := [x]^{T}_{B} \overline{[y]}_{B}$$
+
+Je skalárním součinem a báze $$B$$ je v něm ortonormální bází:
+
+---
+
+Stačí ověřit z definic:
+
+1. $$\langle x,x \rangle = [x]^{T}_{B}\overline{[x]}_{B} \geq 0$$$$$$
+2. linearita v první složce vyplývá z linearity souřadnic
+3. symetrie také ze symetrie souřadnic
+
+Příklad:\\
+$$A := _{B}[id]_{kan}$$$$$$\\
+$$\langle x,y \rangle = [x]^{T}_{B}[y]_{B} = [x]^{T}_{kan} {\text{}}_{B}[id]^{T} {}_{B}[id] [y]_{kan} = x^{T}A^{T}A_{y}$$
+
+{% endclaim %}
 
 
+{% def %}
+### Definice ortogonální báze
+Projekce vektoru $$x \in V$$ do podprostoru $$U \Subset V$$ je takový vektor $$x_{_{U}} \in U$$,
+který splňuje
 
+$$ \| x - x_{_{U}} \| = \min_{y \in U} \| x - y \|$$
 
+{% enddef %}
 
+{% claim %}
+### Tvrzení o kolmici
+Buď $$U \Subset V$$, buď $$x \in V$$ a $$y \in U$$ takové, že $$x-y \in U^{\perp}$$. Pak
 
-<!--
+$$ \| x - y \| < \| x - z \| \forall z \in U \setminus \{y\}$$
 
+Tedy vektor $$y$$ je jednoznačnou projekcí vektoru $$x$$ do $$U$$.
 
+---
 
+z předpokladu $$(x-y)\perp(y-z)$$\\
+využitím Pythagorovy věty $$ \| x-z \|^{2} = \| x - y \|^{2} + \| y-z \|^{2} \geq \| x - y \|^{2}$$\\
+rovnost nastane jen pro $$y=z$$ protože $$0$$ je norma jen pro nulový vektor.
+{% endclaim %}
 
+{% theorem %}
+Buď $$U \Subset V$$. Pak pro každé $$x \in V $$ existuje právě jedna projekce $$X_{_{U}} \in U$$
+do podprostoru $$U$$.
 
+Navíc jeli $$z_{1}, \ldots, z_{n}$$ ortonormální báze $$U$$ pak
 
+$$ x_{_U} = \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i}
 
+---
 
+Rozšíříme bázi $$U$$ na bázi $$V$$ $$z_{1},\ldots, z_{m}, z_{m-1},\ldots, z_{n}$$\\
+Definujeme $$y = \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i} \in U$$ a ukážeme, že
+je projekcí
 
+$$ x - y =
+\sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i} - \sum^{m}_{i=1} \langle x,z_i \rangle z_i =
+\sum^{n}_{i=n+1} \left\langle x,z_{i} \right\rangle z_{i} \in U^{\perp}$$
 
-Matematickon induka -
+Poznámka: Ortogonální projekce je lineární zobrazení
+{% endtheorem %}
 
-$1, m=1$ zjuni
+#### Důsledek
+Vektor $$y \in U$$ je projekcí vektoru $$x \in V$$ do podprostoru $$U$$ právě tehdy,
+když $$x-y \in U^{\perp}$$
 
-![](https://cdn.mathpix.com/cropped/2022_08_02_0573749d80423e2f8eeag-10.jpg?height=79&width=1254&top_left_y=2180&top_left_x=511)
+#### Příklad projekce na přímku při standardním skalárním součinu
+- $$a \in \R^{n}$$ je nenulový vektor a uvažujeme projekci $$x$$ na přímku se směrnicí $$a$$
+($$\implies$$ do $$span\{a\}$$)
+- Ortogonální báze $$U = z = \frac{1}{\|a\|}a$$
 
-![](https://cdn.mathpix.com/cropped/2022_08_02_0573749d80423e2f8eeag-10.jpg?height=90&width=1285&top_left_y=2254&top_left_x=566)
-pak uijen dokázene, je je holer a $\bar{x}$ twori bázi Dasledel: (Existence atonormálü bāu)
+$$x_{u} = \langle x,z \rangle z = \frac{1}{\| a \|^{2}} \langle x,a \rangle a = \frac{x^{T}a}{a^{T}a}a$$
 
-Każdy koneóne genevovany prostor se shalárnim soubinem imá ortonormáhi tāzi. $D k:$
+{% claim %}
+Buď $$B$$ ortonormální báze prostoru $$V$$ se skalárním součinem. Pak
 
-Kaidý má báli a tu míreve Gram-Schmitm zortonormalizovat
+$$\langle x,y \rangle = [x]^{T}_{B}\overline{[y]}_{B} \forall x,y \in V$$
 
-Duisledek (Rozšireni ortonormáluich systémer ma ortonormáni bazzi)
+---
 
-Každý ortonormálni syském vehetori v koncöne generovanim prostons lae
-
-rozšririt ma ortonormálni bázi.
-
-$D_{k}$
-
-Trrzení
-
-Bud $B=\left\{z_{1}, \ldots, z_{n}\right\}$ báze prostorn V. Pak
+Buď $$B = \{ z_{1}, \ldots, z_{n}\}$$. Pak $$[x]_{B} = (\langle x, z_{1} \rangle, \ldots, \langle x, z_{n} \rangle)^{T}$$
 
 $$
-\langle x, y\rangle:=[x]_{B}^{\top}[y]_{B}
+\langle x,y \rangle =
+\left\langle \sum^{n}_{j=1} \left\langle x,z_{j} \right\rangle z_{j}, y \right\rangle =
+\sum^{n}_{j=1} \langle x,z_{j} \rangle \overline{\langle y,z_j \rangle} =
+[x]^{T}_{B}\overline{[y]}_{B}
 $$
 
-je skalárním soucanem a báze B je v mím ortonormálni bází
+{% endclaim %}
 
-Dk:
 
-stačí overit axiony a definice
+{% def %}
+**Ortogonální doplněk** množiny vektorů je $$M \subseteq V$$ je
 
-1, $\langle x, x\rangle=[x]_{B}^{\top}[x]_{B} \geq 0 \mathrm{~V}$
+$$M^{\perp} := \{x \in V; \langle x,y \rangle = 0 \forall y \in M \}$$
+{% enddef %}
 
-2) linearita v proni sloza upplinā linearity soüradnic
+{% claim %}
+Buď $$V$$ vektorový prostor a $$M,N \subseteq V$$. Pak
 
-2) symetrie tahi 2 symetrie sounadnic
+1. $$M^{\perp}$$ je podprostor $$V$$
+2. je-li $$M \subseteq N$$ pak $$M^{\perp} \subseteq N^{\perp}$$
+3. $$M^{\perp} = span(M)^{\perp}$$$$$$
 
-Pr.: :
+---
 
-$A:=B[i d]_{\text {llan }}$
+1. Ověřením vlastností podprostoru
+2. Buď $$x \in N^{\perp}$$, tedy $$\langle x,y \rangle = 0 \forall y \in N \langle x,y \rangle = 0 \forall y \in M \subseteq N$$ a proto $$x \in M^{\perp}$$
+3. $$M \subseteq span(M)$$ a dle 2. $$M^{\perp} \subseteq span(M)^{\perp}$$$$$$
+{% endclaim %}
 
-$\langle x, y\rangle=[x]_{B}^{\top}[y]_{B}=[x]_{\text {kan }}^{\top} \cdot \dot{B}\left[i^{\top}\right]_{\tan }^{\top} B^{\top}[i d]_{\text {kan }} \cdot[y]_{\text {kan }}=x^{\top} \cdot A^{\top} A y$
+{% theorem %}
+### Vlastnosti ortogonálního doplňku podprostoru
 
-Tyrzeni:
+Buď $$U \Subset V$$, buď $$z_{1},\ldots,z_{n}$$ ortogonnální báze $$V$$, a buď 
+$$z_{1},\ldots, z_{n}, z_{n+1},\ldots, z_{m}$$ její rozšíření na ortonormální bázi $$V$$.
+Pak $$z_{n + 1}, \ldots, z_{m}$$ je ortonormální báze $$U^{\perp}$$
 
-Bud' B ortonomálni báze prostoru V se skalárnim součinem. Pak
+---
+
+Stačí dokázat $$span\{z_{n+1},\ldots,z_m\} = U^{\perp}$$.\\
+Inkluze "$$\supseteq$$" vezmeme Fourierův rozvoj - prvních $$m$$ členů vypadne a zbude:
+
+$$ x = \sum^{m}_{i=n+1} \langle x,z \rangle z_{i} \in span\{z_{n + 1}, \ldots, z_{m}\}$$
+
+Inkluze "$$\subseteq$$" Buď $$x \in span\{z_{n+1},\ldots,z_{m}\}$$
 
 $$
-\langle x, y\rangle=[x]_{B}^{\top} \frac{1}{[y]_{B}} \quad \forall x, y \in V
+x = \sum^{m}_{i=n+1} \langle x,z \rangle z_{i} =
+\sum^{n}_{i=1} 0z_{i} + \sum^{m}_{i=n+1} \langle x,z_i \rangle z_{i}
 $$
 
-$D k:$
+{% endtheorem %}
 
-Bud $\quad B=\left\{z_{1}, \ldots, z_{n}\right\}$. Pak $[x]_{B}=\left(\left\langle x_{1} z_{1}\right\rangle_{1} \ldots,\left\langle x, z_{n}\right\rangle\right)_{a}^{\top}$
+#### Důsledek: Vlastnosti ortogonálního doplňku podprostoru
+Buď $$U \Subset V$$. Potom platí
 
-$\left.\langle x, y\rangle=\left\langle\sum_{j=1}^{m}\left\langle x, z_{j}\right\rangle z_{j}, y\right\rangle=\sum_{j=1}^{m}\left\langle x, z_{j}\right\rangle \overline{\left\langle y, z_{j}\right.}\right\rangle=[x]_{B}^{T} \overline{[y]_{B}}$ Disledek:
+1. $$\dim V = \dim U + \dim U^{\perp}$$$$$$
+2. $$V = U + U^{\perp}$$$$$$
+3. $$U \cap U^{\perp} = \{0\}$$$$$$
+4. $$U = (U^{\perp})^{\perp}$$$$$$
 
--->
+{% theorem %}
+Buď $$A \in \R^{m \times n}$$. Pak $$R(A)^{\perp} = Ker(A)$$
+
+---
+
+$$R(A)^{\perp} = \left\{ \left( A_{1~*} \right)^{T}, \ldots \left( A_{m~*} \right)^{T}\right\}$$\\
+Tedy $$x \in R(A)^{\perp} \equiv x \perp$$ na řádky $$A$$
+
+{% endtheorem %}
+
+#### Důsledek
+Buď $$A \in \R^{mxn}$$. Pak $$R(A) \oplus Ker(A) = \R^{n}$$
+
+{% theorem %}
+### Větička o vlastnostech matice $$A$$ versus $$A^{T}A$$
+Buď $$A \in \R^{m \times n}$$. Pak
+
+1. $$Ker(A^{T}A) = Ker(A)$$$$$$
+2. $$R(A^{T}A) = R(A)$$$$$$
+3. $$rank(A^{T}A) = rank(A)$$$$$$
+
+---
+
+**1.** Je-li $$x \in Ker(A)$$, pak $$Ax = 0$$ a tedy
+
+$$ A^{T}Ax = A^{T}0 = 0 \text{čímž} x \in Ker(A^{T}A)$$
+
+obráceně
+
+$$x \in Ker(A^{T}A) \rightarrow x^{T}A^{T}Ax = 0 \rightarrow (Ax)^{T}Ax = 0 \rightarrow (Ax)^{2} = 0$$
+
+**2.** vyřešíme $$R(A) = ker(A)^{\perp}$$\\
+**3.** Když jsou stejné řádky, potom mají stejnou dimenzi a i hodnost
+{% endtheorem %}
+
+{% claim %}
+### Maticové prostory a lineární zobrazení
+Uvažujme lineární zobrazení $$f(x)=Ax$$, kde $$A \in \R^{m \times n}$$. Pokud definiční
+obor $$f(x)$$ omezíme pouze na prostor $$R(A)$$, dostaneme isomorfismus mezi $$R(A)$$ a
+$$f(\R^{n})$$.
+
+---
+
+Buď $$x \in \R^{n}, R(A) \oplus Ker(A) = \R^{n}$$, rozložíme na $$x=x_{r}+x_{k}$$, kde 
+$$x_{r} \in R(A)$$ a $$x_{k} \in Ker(A)$$. Pak 
+
+$$f(x) = Ax = A(x_{r} + x_{k}) = Ax_r + \overbrace{Ax_{k}}^{0} = Ax_{r}$$
+
+
+{% endclaim %}
+
+{% theorem %}
+Buď $$A \in \R^{m \times n}$$ hodností $$n$$. Pak je projekce vektoru $$x \in \R^{m}$$ do
+sloupcového prostoru $$S(A)$$
+
+$$x' = A(A^{T}A)^{-1}A^{T}x$$
+
+---
+
+Nejdříve dokážeme, že je dobře definován, pak $$x' \in S(A)$$ a $$x - x' \in S(A)^{\perp}$$\\
+$$x' \in S(A)$$, $$x' = Az$$ pro $$z = \left(A^{T}A\right)^{-1}A^{T}x$$\\
+$$x-x' \in S(A)^{\perp} = R(A^{T})^{\perp} = Ker(A^{T}) \rightarrow$$ vynásobíme s 
+$$A^{T}(x - x') = 0$$ (po úpravě)
+
+{% endtheorem %}
+
+{% def %}
+### Matice projekce do $$S(A)$$
+$$P := A(A^{T}A)^{-1}A^{T} ( = AA^{T} \text{ pro ortonormální bázi})$$
+
+- $$P$$ je symetrická
+- platí $$P^2 = P$$
+- $$S(P) = S(A) \rightarrow rank(P) = rank(A)$$$$$$
+{% enddef %}
+
+{% claim %}
+Matice $$P \in \R^{n \times n}$$ je maticí projekce právě tehdy když je symetrická
+a $$P = P^2$$.
+
+Příklad:\\
+Matice projekce $$P = a(a^{T}a)^{-1}a^{T}$$
+
+$$Px = a(a^{T}a)^{-1}a^{T}x = \frac{a^{T}x}{a^{T}a}a$$
+
+pokud $$a$$ znormujeme, tak $$P = aa^{T}$$.
+
+
+{% endclaim %}
+
+{% theorem %}
+### Ortogonální projekce do doplňku
+Buď $$P \in \R^{n \times n}$$ matice projekce do podprostoru $$V \Subset \R^{n}$$.
+Pak $$I - P$$ je maticí projekce do $$V^{\perp}$$
+
+---
+
+$$\forall x \in \R^{n}$$ platí $$x = y + z$$ kde $$y \in V$$ a $$z \in V^{\perp}$$.\\
+Zde $$y$$ je projekce $$x$$ do $$V$$ a $$z$$ projekce $$x$$ do $$V^{\perp}$$
+{% endtheorem %}
+
+### Metoda nejmenších čtverců
+
+$$\min_{x \in \R^{n}} \left\| Ax - b \right\|^{2}_{2} = 
+\min_{x \in \R^{n}} \sum^{n}_{i=1} \left( A_{i~*}x - b_{i} \right)^{2}$$
+
+přenásobíme $$A^{T}$$
+
+$$A^{T}Ax = A^{T}b$$
+
+
+{% theorem %}
+Množina přibližných řešení soustavy $$Ax=b$$ metodou nejmenších čtverců je neprázdná
+a rovna množině řešení normálních rovnic.
+
+---
+
+Hledáme projekci $$b$$ do podprostoru $$S(A)$$.\\
+Projekce je tvaru $$Ax$$, kde $$x \in \R^{n}$$.\\
+Víme, že $$Ax$$ je projekcí $$\equiv Ax-b \in S(A)^{T} - Ker(A)^{T}$$\\
+$$\implies A^{T}(Ax - b) = 0 \implies A^{T}Ax = A^{T}b$$.
+{% endtheorem %}
+
+#### Důsledek
+Buď $$A \in R^{m \times n}$$ hodnosti $$n$$. Pak přibližné řešení soustavy $$Ax=b$$
+metodou nejmenších čtverců je jednoznačné a tvaru
+
+$$x^{*} = (A^{T}A)^{-1}A^{T}b$$
+
+{% def %}
+Matice $$Q \in \R^{n}$$ je **ortogonální** pokud $$Q^{T}Q = I_{n}$$ ($$Q^{-1} = Q^{T})$$\\
+Matice $$Q \in \R^{n}$$ je **unitární**, pokud $$\overline{Q^{T}}Q = I_{n}$$
+{% enddef %}
+
+{% claim %}
+### Charakterizace ortogonálních matic
+Matice $$Q \in \R^{n \times n}$$ je ortogonální právě tehdy když sloupce $$Q$$ tvoří
+ortonormální bázi $$\R^{n}$$.
+
+---
+
+$$
+(Q^{T}Q)_{ij} = \langle Q_{*i}, Q_{*j} \rangle = 
+\begin{cases}
+    1 & i = j\\
+    0 & i \neq j
+\end{cases}
+$$
+
+{% endclaim %}
+
+
+{% claim %}
+Buď $$Q \in \R^{n \times n}$$ ortogonální. Pak
+
+1. $$Q^{T}$$ je ortogonální
+2. $$Q^{-1}$$ existuje a je ortogonální
+{% endclaim %}
+
+{% claim %}
+### Součin ortogonálních matic
+Jsou-li $$Q_{1},Q_{2} \in \R^{n \times n}$$ ortogonální, pak $$Q_{1}Q_{2}$$ je taky 
+ortogonální.
+
+---
+
+$$(Q_{1}Q_{2})^{T}(Q_{1}Q_{2}) = Q^{T}_{2}Q^{T}_{1}Q_{1}Q_{2} = Q^{T}_{2}Q_{2} = I_{n}$$
+
+{% endclaim%}
+
+#### Příklady ortogonálních matic
+- $$I_{n}$$ a k ní opačná $$-I_{n}$$
+- **Housenholderova matice**: $$H(a) := I_{n} - \frac{2}{a^{T}a}$$, kde $$0 \neq a \in \R^{n}$$ (zrcadlení dle nadroviny)
+- **Givensova matice**: matice otáčení v rovině dvou os
+- Matice otáčení kolem osy $$2\frac{aa^{T}}{a^{T}a} - I_{n}$$
+
+Poznámka:\\
+každou ortogonální matici řádu $$n$$ lze vyjádřit jako součin maximálně $$n$$ Hesenholderových matic
+
+
+#### Givensova matice
+
+pro $$n=2$$
+
+$$
+\begin{pmatrix}
+    \cos \phi & -\sin \phi \\
+    \sin \phi & cos \phi
+\end{pmatrix}
+$$
+
+otočí $$\phi$$ protisměru hodinových ručiček, kde $$\cos^{2} \phi + \sin^{2} \phi = 1$$.
+Pro větší $$n$$ doplňujeme jednotkovými maticemi.
+
+Poznámka:\\
+Každou ortogonální matici řádu $$n$$ lze vyjádřit jako součin max $$\binom{n}{2}$$ Givensových matic.
+
+{% theorem %}
+Buď $$Q \in \R^{n \times n}$$ ortogonální. Pak
+
+1. $$\langle Qx,Qy \rangle = \langle x,y \rangle$$ pro každé $$x,y \in \R^{n}$$
+2. $$\| Qx \| = \| x \|$$ pro každé $$x \in \R^{n}$$ (kdy i rozšířená matice o 1 řád je ortogonální)
+
+---
+
+1. $$\langle Qx Qy \rangle = \left( Qx \right)^{T} Qy - x^{T}Q^{T}Qy = x^{T}I_{n}y = x^{T} = \langle x,y \rangle$$$$$$
+2. $$\| Q_{x} \| = \sqrt{\left\langle Qx, Qx \right\rangle} - \sqrt{\left\langle x,x \right\rangle} = \|x\| $$$$$$
+
+$$\implies$$ zobrazení $$x \rightarrow Qx$$ zachová úhly a délky jen pro ortogonální matice
+{% endtheorem %}
+
+{% theorem %}
+Buď $$Q \in \R^{n \times n}$$ ortogonální. Pak
+1. $$\lvert Q_{ij} \rvert \leq 1$$ a $$\lvert Q^{-1}_{ij} \rvert \leq 1$$ pro každé $$i,j=1,\ldots,n$$
+2. $$\begin{pmatrix}
+    1 & 0 \\
+    0 & Q
+    \end{pmatrix}^{T}$$ je ortogonální amtice
+
+---
+
+Buď $$z_{1},\ldots,z_{n}$$ báze $$\R^{n}$$, buď $$v \in \R^{n}$$ a chceme $$v=\sum^{n}_{i=1} x_{i}z_{i}$$
+{% endtheorem %}
+
+
+## Determinant
+
+{% def %}
+**Determinant** zobrazení $$\lvert A \rvert$$
+
+$$ \det(A) = \sum_{\Pi \in S_{n}} sgn(\Pi) \prod^{n}_{i=1} a_{i~\Pi_{\left( i \right)}}$$
+
+Celkový počet permutací je $$n!$$
+{% enddef %}
+
+### Determinant horní trojúhelníkové matice
+
+$$ A \in \Pi^{n \times n}$$ je horní trojúhelníková matice. Pak
+
+$$\det(A) = a_{1~1} \cdot a_{2~2} \cdot \ldots \cdot a_{n~n}$$
+
+### Determinant transpozice
+
+$$
+\det(A^T) = 
+\sum_{\Pi \in S_{n}} sgn(\Pi) \prod^{n}_{i=1} a_{i~\Pi_{\left( i \right)}} =
+\det(A)
+$$
+
+### Vlastnosti determinantů
+- $$ \det(A \cdot B) = \det(A) \cdot \det(B)$$$$$$
+- $$ \det(A^{-1}) = det(A)^{-1}$$$$$$
+
+### Determinantská složitost
+{% theorem %}
+
+Řádková linearita determinantu $$A \in \Pi^{n \times n}, b \in \Pi^{n}$$. Potom pro
+každé $$i \leq n$$ platí, že
+
+$$\det(A + eb^{T}) = \det(A) + \det(A + e \cdot (b^{T} - A_{i~*}))$$
+
+{% endtheorem %}
+
+{% theorem %}
+### Výpočet determinantu pomocí Gaussovy eliminace
+- Vynásobení $$i$$-tého řádku $$\alpha \in \Pi$$
+
+$$\det(A') = \alpha\det(A)$$
+
+- Výměna $$i$$-tého a $$j$$-tého řádku
+
+$$\det(A') = -\det(A)$$
+
+- Přičtení $$\alpha$$ násobku $$j$$-tého řádku
+
+$$\det(A') = \det(A)$$
+
+**Důsledek:**\\
+Matice $$A$$ je regulární právě tehdy když $$\det(A) \neq 0$$
+{% endtheorem %}
+
+{% theorem %}
+Laplacův rozvoj podle $$i$$-tého řádku $$A \in \Pi^{n \times n}$$ $$n \geq 2$$, pro
+každé $$i=1,\ldots,n$$
+
+$$\det(A) = \sum^{n}_{j=1} (-1)^{i+j}a_{i~j} \det(A^{ij})$$
+{% endtheorem %}
+
+{% theorem %}
+$$A \in \Pi^{n \times n}$$ regulární, $$b \in \Pi^{n}$$
+
+$$x_{i} = \frac{\det(A + ( b - A_{*~i})e_{i}}{\det(A)}~;~i=1,\ldots,n$$
+
+{% endtheorem %}
+
+#### Důsledek
+Zobrazení $$(A,b) \rightarrow A^{-1}b$$ je spojité na definičním oboru regulárních matic.
+
+{% theorem %}
+Gaussovu eliminaci lze provádět tak, že k zápisu každé matice během výpočtu stačí pouze polynomiální počet bitů (v $$k$$).
+{% endtheorem %}
+
+{% def %}
+### Adjungovaná matice
+Nechť $$A \in \Pi^{n \times n}, n \geq 2$$.
+
+$$adj(A)_{i~j} =  (-1)^{i = j}\det(A^{j~i})~;~i,j = 1,\ldots,n$$
+
+kde $$A^{ji}$$ vznikne z $$A$$ vynecháním $$j$$-tého řádku a $$i$$-tého sloupce.
+{% enddef %}
+
+{% theorem %}
+$$A \Subset \Pi^{n \times n} \implies A adj(A) = \det(AI_{n})$$
+
+#### Důsledek:
+$$A \in \Pi^{n \times n}$$ je regulární. Potom $$A^{-1} = \frac{1}{\det(A)}adj(A)$$
+{% endtheorem %}
