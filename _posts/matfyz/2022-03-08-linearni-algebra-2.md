@@ -16,11 +16,16 @@ Standardní skalární součin $$x,y \in \R$$ je definován jako
 
 $$ x^{T}y = \sum_{i=1}^{n} x_{i}y_{i}$$
 
-{% enddef %}
 
 Geometrické vyjádření:
 
-$$ X^{T}Y = \vert x \vert . \vert y \vert . \cos(\phi)$$
+$$ X^{T}Y = \| x \| . \| y \| . \cos(\phi)$$
+
+Kdy $$\phi$$ je úhel svírající vektory $$x$$ a $$y$$.
+
+![Geometrická reprezentace skalárního součinu](/assets/img/matfyz/lingebra-II/geometricka-reprezentace-skalarniho-soucinu.png)
+
+{% enddef %}
 
 **Vlastnosti:**
 - $$X^TX = \sum_{i=1}^n \geq 0$$$$$$
@@ -35,6 +40,17 @@ $$\langle A,B \rangle = \sum_{i = 1}^{m} \sum_{j = 1}^{n} a_{ij}b_{ij} = \text{t
 ### Komplexně sdružené číslo
 Komplexně sdružené číslo k číslo $$a+bi$$ je $$\overline{a+bi} = a - bi$$
 
+
+### Skalární součin nad $$\R$$
+Buď $$V$$ je vektorový prostor nad $$\R$$. Pak skalární součin je zobrazení 
+$$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \R$$, splňující pro všechna $$x,y,z \in V$$ a $$\alpha \in \R$$:
+- $$\langle x,x \rangle \geq 0$$ a rovnost nastane pouze pro $$x = 0$$
+- $$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$$$$$
+- $$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$$$$$
+- $$\langle x,y \rangle = \langle y,x \rangle$$$$$$
+    - $$\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$$$$$$
+
+
 ### Skalární součin nad $$\C$$
 Buď $$V$$ je vektorový prostor nad $$\C$$. Pak skalární součin je zobrazení 
 $$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \C$$, splňující pro všechna $$x,y,z \in V$$ a $$\alpha \in \C$$:
@@ -44,9 +60,11 @@ $$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \C$$, splňující pro všech
 - $$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$$$$$
 - $$\langle x,y \rangle = \overline{\langle y,x \rangle}$$$$$$
 
+Není lineární ve druhé složce.
+
 ### Jednoznačnost obrazů báze vzhledem ke skalárnímu součinu
-$$B = \{ z_1, z_2, ... , z_n \}$$ báze prostoru $$V$$ nad $$\R$$.  
-$$x,y \in V$$: $$x = \sum_{i=1}^{n} \alpha_i z_i$$ a $$y = \sum_{j=1}^{n} \beta_j z_j$$ pro 
+$$B = \{ z_1, z_2, ... , z_n \}$$ báze prostoru $$V$$ nad $$\R$$.\\
+$$x,y \in V$$: $$x = \sum_{i=1}^{n} \alpha_i z_i$$ a $$y = \sum_{j=1}^{n} \beta_j z_j$$ pro
 určité $$\{ \alpha_1,\alpha_2,...,\alpha_n \} \cup \{ \beta_1, \beta_2, ..., \beta_n \} \in \R$$  
 
 $$\langle x,y \rangle = \left\langle \sum_{i=1}^{n} \alpha_i z_i , \sum_{j=1}^{n} \beta_j z_j \right\rangle =
@@ -93,7 +111,7 @@ $$$$$$
 
 {% theorem %}
 
-## Couchiho-Schwartzova nerovnost
+## Couchyho-Schwartzova nerovnost
 Pro každé $$x,y \in V$$ platí
 
 $$\| \langle x,y \rangle \leq \left\| x \right\| . \left\| x \right\|$$
@@ -102,22 +120,33 @@ $$\| \langle x,y \rangle \leq \left\| x \right\| . \left\| x \right\|$$
 
 (reálná verze)
 
-Pro $$y=0$$ platí zřejmě. Předpokládejme, že $$y \neq 0$$ a funkci $$f$$, kdy $$f(t) = \langle x + ty,x+ ty \rangle \geq 0$$.
+Pro $$y=0$$ platí zřejmě.\\
+Předpokládejme, že $$y \neq 0$$ a funkci $$f$$, kdy $$f(t) = \langle x + ty,x+ ty \rangle \geq 0$$.
 
-Pak:
+Pak
+
 $$f(t) =
-\langle x,x \rangle + t\langle x,y \rangle + t\langle y,x \rangle + t^2\langle y,y \rangle =
+\langle x,x \rangle + t\langle x,y \rangle + t\langle y,x \rangle + t^2\langle y,y \rangle = \\
 \langle x,x \rangle + 2t\langle x,y \rangle + t^2\langle y,y \rangle$$
 
-funkce $$f$$ je všude nezáporná $$\implies$$ nemůže mít dva kořeny $$\implies$$ diskriminant je nekladný
+Funkce $$f$$ je všude nezáporná $$\implies$$ nemůže mít dva kořeny $$\implies$$ diskriminant je nekladný
 
 $$D = 4t^2\langle x,y \rangle - 4t^2\langle x,x \rangle\langle y,y \rangle \leq
-\angle x,y^2 \rangle \langle x,x \rangle\langle y,y \rangle \leq 0 \implies $$
+\langle x,y^2 \rangle \langle x,x \rangle\langle y,y \rangle \leq 0$$
+
+$$\Downarrow$$
+
+$$
+\begin{align}
+    \langle x,y \rangle^{2} & \leq \langle x,x \rangle \langle y,y \rangle \\
+    \lvert x,y \rvert &\leq \| x \| \cdot \| y \|
+\end{align}
+$$
 
 {% endtheorem %}
 
 {% theorem %}
-### Důsledek: Trojúhelníková nerovnost
+### Trojúhelníková nerovnost
 Pro každé $$x,y \in V$$ platí:
 
 $$ \lVert x + y \rVert \leq \lVert x \rVert + \lVert y \rVert $$
@@ -146,8 +175,7 @@ Buď $$V$$ vektorový prostor nad $$\R$$ nebo $$\C$$. Pak norma je zobrazeni $$\
 {% enddef%}
 
 
-{% lemma %}
-Tvrzení:\\
+{% claim %}
 Norma indukovaná skalárním součinem je normou.
 
 ---
@@ -159,14 +187,31 @@ Norma indukovaná skalárním součinem je normou.
 \sqrt{ \alpha \overline{\alpha}} \sqrt{\langle x, x\rangle} = 
 |\alpha| \cdot \|x\|$$$$$$
 3. vyplývá z trojúhelníkové nerovnosti
-{% endlemma %}
+{% endclaim %}
+
+{% lemma %}
+### Rovnoběžné pravidlo
+Pro normu indukovanou skalárním součinem platí:
+
+$$ \| x - y \|^{2} + \| x + y \|^{2} = 2\| x \|^{2} + 2\| y \|^{2} $$
+
+{% endlemma%}
+
+{% def %}
+### Metrika
+Metriku na množině $$M$$ definujeme jako zobrazení $$d: M^{2} \rightarrow \R$$ splňující:
+
+1. $$d(x,y) \leq 0$$, rovnost pouze pro $$x=y$$
+2. $$d(x,y) = d(y,x)$$$$$$
+3. $$d(x,y) \leq d(x,y) + d(y,x)$$$$$$
+{% enddef %}
 
 #### Poznámka
-Každá norma určuje metriku (vzdálenost) předpisem .
+Každá norma určuje metriku předpisem:
 
 $$ d(x, y) := \left\| x-y \right\| $$
 
-Tedy vzdálenost vektorů $x,y$ se zavádí jáko velikost jejich rozdílů. 
+Tedy vzdálenost vektorů $x,y$ se zavádí jako velikost jejich rozdílů.
 
 {% def %}
 Pro $$p=1,2,\ldots$$ definujeme $$p$$-normu vektoru $$x \in \R^{n}$$ jako 
@@ -186,10 +231,15 @@ $$\left\| x \right\|_{p} = \left(\sum_{i=1}^{n} \lvert x_{i} \rvert^p \right)^{\
 {% def %}
 Systém vektorů $$z_{1}, \cdots, z_{n}$$ je
 
-- ortogonální pokud je $$\langle z_{i},z_{j} \rangle = 0$$ pro všechna $$i$$ a $$j$$
-- ortonormálni pokud je ortogonální a $$\left\| z_{i} \right\| = 1$$ pro $$\forall i$$
+- **Ortogonální** pokud je $$\forall i,j: \langle z_{i},z_{j} \rangle = 0$$
+- **Ortonormální** pokud je ortogonální a $$\forall i: \left\| z_{i} \right\| = 1$$
 
 {% enddef %}
+
+- Je-li $$z_{1},\ldots,z_{n}$$ nenulové a ortogonální, pak $$\frac{1}{\| z_{1} \|}z_{1},
+\ldots, \frac{1}{\| z_{n} \|}z_{n}$$ je ortonormální.
+- Je-li systém ortogonální a neobsahuje nulový vektor, potom je také lineárně nezávislý.
+
 
 {% claim%}
 Je-li systém $$z_{1}, \cdots, z_{n}$$ ortonormální, pake je lineárně nezávislý.
@@ -206,7 +256,12 @@ $$\langle\sum_{i=1}^{n} \alpha_{i} z_{i}, z_{k}\rangle = \sum_{i=1}^{n} \alpha_{
 {% theorem %}
 Buď $$z_{1}, \cdots, z_{n}$$ ortonormální báze prostoru $$V$$. Pak pro každé $$x \in V$$ platí:
 
-$$ \underbrace{x = \sum^{n}_{i=1} \overbrace{\langle x, z_{i} \rangle z_{i}}^{\text{Fourierovy koeficienty}}}_{Fourierův~rozvoj}$$
+$$ \underbrace{
+    x = \sum^{n}_{i=1}
+    \overbrace{\langle x, z_{i} \rangle}^{\text{Fourierovy koeficienty}}
+    z_{i}
+}_{Fourierův~rozvoj}
+$$
 
 ---
 
@@ -220,10 +275,10 @@ Představuje projekci na bazické vektory
 **Algoritmus:**\\
 Vstup: lineárně nezávislé vektory $$x_{1}, \ldots, x_{n} \in V$$
 
-1. for $$k:=1$$ to $$n$$
-2. &nbsp;&nbsp;&nbsp;&nbsp;$$y_{k} := \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
-3. &nbsp;&nbsp;&nbsp;&nbsp;$$ z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$$$$$
-4. end for
+> 1. for $$k:=1$$ to $$n$$
+> 2. &nbsp;&nbsp;&nbsp;&nbsp;$$y_{k} := \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
+> 3. &nbsp;&nbsp;&nbsp;&nbsp;$$ z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$$$$$
+> 4. end for
 
 Výstup: $$z_{1},\ldots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\ldots,x_{n}\}$$
 
@@ -237,7 +292,6 @@ pak už jen dokážeme, že je kolmý a že tvoří bázi.
 {% endproof %}
 
 {% claim %}
-
 #### Důsledek: Existence ortonormální báze
 Každý konečně generovaný prostor se skalárním součinem má ortogonální bázi.
 
@@ -250,6 +304,20 @@ Každý má bázi a tu můžeme Gram-Schmitzem ortogonalizovat.
 #### Důsledek: Rozšíření ortonormálních systémů na ortonormální bázi
 Každý ortonormální systém vektorů v konečně generovaném prostoru lze rozšířit na ortonormální bázi.
 {% endclaim %}
+
+{% theorem %}
+Buď $$z_{1},\ldots,z_{n}$$ ortonormální systém ve $$V$$ a buď $$x \in V$$.
+
+**Besselova nerovnost**:
+
+$$ \| x \|^{2} \geq \sum^{n}_{j} \lvert \langle x_{j},z_{j} \rangle \rvert $$
+
+**Parsevalova rovnost**:
+
+$$ \| x \|^{2} = \sum^{n}_{j} \lvert \langle x_{j},z_{j} \rangle \rvert \iff x \in span\{z_{1},\ldots, z_{n}\}$$
+
+{% endtheorem %}
+
 
 {% claim %}
 Buď $$B=\{z_{1},\ldots,z_{n}\}$$ báze prostoru $$V$$. Pak
@@ -269,8 +337,14 @@ Stačí ověřit z definic:
 Příklad:\\
 $$A := _{B}[id]_{kan}$$$$$$\\
 $$\langle x,y \rangle = [x]^{T}_{B}[y]_{B} = [x]^{T}_{kan} {\text{}}_{B}[id]^{T} {}_{B}[id] [y]_{kan} = x^{T}A^{T}A_{y}$$
-
 {% endclaim %}
+
+- $$\langle \cdot , \cdot \rangle$$ je skalární součin $$\equiv$$ je tvaru $$\langle x,y \rangle = [x]^{T}_{B} \overline{[y]}_{B}$$
+pro nějakou ortogonální bázi $$B$$
+- Každý skalární součin je standardní skalární součin při pohledu z libovolné ortonormální báze
+- Analogicky pro normu:
+
+$$\| x \| = \left\| [x]_{B} \right\|_{2} = \sqrt{[x]^{T}_{B}\overline{[x]}_{B}}$$
 
 
 {% def %}
