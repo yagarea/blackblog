@@ -3,6 +3,7 @@ title:  "Lineární algebra II (WIP)"
 category: "Matfyz"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-03-08-linearni-algebra-2.md?plain=1"
 layout: post
 ---
 
@@ -713,4 +714,489 @@ $$A \Subset \Pi^{n \times n} \implies A adj(A) = \det(AI_{n})$$
 
 #### Důsledek:
 $$A \in \Pi^{n \times n}$$ je regulární. Potom $$A^{-1} = \frac{1}{\det(A)}adj(A)$$
+{% endtheorem %}
+
+## Vlastní čísla
+
+{% def %}
+### Vlastní čísla a vlastní vektory
+Buď $$A \in \C^{n \times n}$$. Pak $$\lambda \in \C$$ je **vlastní číslo** matice $$A$$
+a $$x \in \C^{n}$$ jemu příslušný **vlastní vektor$$ pokud
+
+$$Ax = \lambda x \land x \neq 0$$
+{% enddef %}
+
+{% theorem %}
+Buď $$A \in \C^{n \times n}$$. Pak
+
+**1.** $$\lambda \in \C$$ je vlastním číslem $$A$$ právě tehdy když
+
+$$\det(A - \lambda I_{n}) = 0$$
+
+**2.** $$x \in \C^{n}$$ je příslušným vlastním vektorem právě tehdy, když
+
+$$0 \neq x \in Ker(A -\lambda I_{n})$$
+
+{% endtheorem %}
+
+{% claim %}
+#### Vlastní čísla trojúhelníkové matice
+Nechť $$A \in \C^{n \times n}$$ je trojúhelníková matice. Pak její vlastní čísla jsou prvky
+na diagonále.
+{% endclaim %}
+
+
+{% def %}
+Charakteristický polynom matice $$A \in \C^{n \times n} proměnné $$\lambda$$ je 
+
+$$ P_{A} = \det(A -\lambda I)$$
+{% enddef %}
+
+{% theorem %}
+Vlastní čísla matice $$A \in \C^{n \times n}$$ jsou právě kořeny jejího charakteristického
+polynomu $$P_{A}(\lambda)$$ a je jich $$n$$ včetně násobností.
+{% endtheorem %}
+
+{% def %}
+Buď $$\lambda \in \C$$ vlastní číslo matice $$A \in \C^{n \times n}$$.
+
+1. **Algebraická násobnost** $$\lambda$$ je rovna
+2. **Geometrická násobnost** $$\lambda$$ je rovna $$n - rank(A-\lambda I_{n})$$, to je
+počtu lineárně nezávislých vlastních vektorů, které odpovídají $$\lambda$$.
+{% enddef %}
+
+{% claim %}
+#### Součin a součet vlastních čísel:
+
+1. $$\det(A) = \lambda_{1} \cdot \ldots \cdot \lambda_{n}$$$$$$
+2. $$trace(A) = \lambda_{1} + \ldots + \lambda_{n}$$$$$$
+{% endclaim %}
+
+A je regulární právě tehdy když $$0$$ není její vlastní číslo.
+
+{% claim %}
+Nechť $$A \in \C^{n \times n}$$ má vlastní čísla $$\lambda_{1}, \ldots, \lambda$$ a jim
+odpovídající vlastní vektory $$x_{1}, \ldots, x_{n}$$. Pak
+
+1. je-li $$A$$ regulární, pak A^{-1} má vlastní čísla $$\lambda^{-1}_{1}, \ldots \lambda^{-1}_{n}$$ a vlastní vektory $$x_{1}, \ldots, x_{n}$$
+2. $$A^{2}$$ má vlastní čísla $$\lambda^{2}_{1}, \ldots, \lambda^{2}_{n} a vlastní vektory $$x_{1}, \ldots, x_{n}$$
+3. $$\alpha A$$ má vlastní čísla $$\alpha \lambda, \ldots, \alpha \lambda_{n}$$ a vlastní vektory $$x_{1}, \ldots, x_{n}$$
+4. $$A + \alpha I_{n}$$ má vlastní čísla $$\lambda_{1} + \alpha, \ldots, \lambda_{n}+ \alpha$$ a $$x_{1}, \ldots, x_{n}$$
+5. $$A^{T}$$ má vlastní čísla $$\lambda_{1}, \ldots, \ldots_{n}$$, ale vlastní vektory obecně jiné.
+{% endclaim %}
+
+Je-li $$\lambda \in \C$$ vlastní číslo matice $$A \in \R^{n \times n}$$ pak i 
+komplexně sdružené $$\overline{\lambda}$$ je vlastním číslem $$A$$
+
+
+{% claim  %}
+Buď $$A \in \C^{n \times n}$$. Je-li $$A$$ regulární, pak
+
+$$A^{-1} \in span\{I_{n}, A, \ldots, A^{n-1}\}$$
+
+Tedy $$A^{-1}$$ je lineární kombinací matic $$I_{n}, A, \ldots, A^{n-1}$$.
+
+---
+
+Víme, že $$A^{-1} = 
+(-1)^{n}A^{n} + \alpha_{n-1}A^{n-1} + \ldots + \alpha_{1}A + \alpha_{0} I_{n} = 0$$\\
+Také víme, že $$\alpha_{0} = \det(A) \neq 0$$.
+
+$$
+I =
+-\frac{(-1)^{n}}{\alpha_{0}}A^{n} - \frac{\alpha_{n}-1}{\alpha_{0}}A^{n-1} + \ldots + -\frac{\alpha_{1}}{\alpha_{0}}A =\\
+A\left(-\frac{(-1)^{n}}{\alpha_{0}}A^{n-1} - \frac{\alpha_{n}-1}{\alpha_{0}}A^{n-2} + \ldots + -\frac{\alpha_{1}}{\alpha_{0}}I_{n}\right)
+$$
+
+Vynásobíme $$A^{-1}$$
+
+$$A^{-1} = 
+-\frac{(-1)^{n}}{\alpha_{0}}A^{n-1} - \frac{\alpha_{n-1}}{\alpha_{0}}A^{n-2}-\ldots - \frac{\alpha_{1}}{\alpha_{0}}I_{n}
+$$
+
+Dá se díky tomu částečně dobře spočítat výsledek s nízkým počtem matic.
+
+{% endclaim %}
+
+{% def %}
+Matice $$A,B \in \C^{n \times n}$$ jsou podobné, pokud existují regulární $$S \in \C^{n \times n}$$
+tak, že 
+
+$$A = SBS^{-1} \equiv AS=SB$$
+{% enddef %}
+
+{% theorem %}
+Podobné matice mají stejná vlastní čísla
+
+---
+
+$$A = SBS^{-1}\\
+\\
+P_{A}(\lambda) = \\
+\det(A - \lambda I_{n}) = \\
+\det(SBS^{-1} - \lambda SIS^{-1}) = \\
+\det\left( S \left( B - \lambda I_{n} \right) S^{-1} \right) = \\
+\det(S) \cdot \det(B - \lambda I_{n}) \cdot \det(S^{-1}) = \\
+\det(B - \lambda I_{n}) = P_{B}(\lambda)$$$$$$
+
+{% endtheorem %}
+
+{% claim %}
+Nechť $$A,B,C \in \C^{n \times n}$$ jsou podobné a $$\lambda$$ je jejich vlastní číslo.
+Pak počet vlastních vektorů pro $$\lambda$$ je stejný u obou matic.
+
+---
+
+$$A = SBS^{-1}$$\\
+$$dim(Ker(A-\lambda I_{n})) = n - rank(A- \lambda I_{n})$$\\
+$$rank(A - \lambda I_{n}) =
+rank(SBS^{-1} - \lambda I_{n}) =
+rank(S(B-\lambda I_{n})S^{-1}) =
+rank(B - \lambda I_{n})$$
+
+{% endclaim %}
+
+{% def %}
+### Spektrum a spektrální poloměr
+Nechť $$A \in \C^{n \times n}$$ má vlastní čísla $$\lambda_{1}, \ldots, \lambda_{n}$$.
+Pak
+
+- **Spektrum matice** a je množina vlastních čísel $$\{\lambda_{1}, \ldots, \lambda_{n}\}$$
+- **Spektrální poloměr** je $$p(A) = \max_{i= 1, \dots, n} \lvert \lambda_{i} \rvert$$
+{% enddef %}
+
+{% def %}
+### Matice společnice
+Buď $$p(x) = x^{n} + a_{n-1}x{n-1}+ \ldots + a_{1}x + a_{0}$$. Pak **matice společnice**
+polynomu $$p(x)$$ je čtvercová matice řádu $$n$$ definovaná
+
+$$ C(p) :=
+
+\left( {\begin{array}{ccccc}
+    0      & 0      & \cdots & 0      & -a_{0} \\
+    1      & 0      & \cdots & 0      & -a_{1} \\
+    0      & 1      & \cdots & 0      & -a_{2} \\
+    \vdots & \vdots & \ddots & \vdots & \vdots \\
+    0      & 0      & \cdots & 1      & -a_{n-1}
+\end{array} } \right)
+
+$$
+
+{% enddef %}
+
+{% theorem %}
+#### Věta o matici společnici
+Platí $$P_{c_{(p)}}(\lambda) = (-1)^{n}p(\lambda)$$.\\
+Tedy vlastní čísla matice $$C(p)$$ odpovídají kořenům polynomu $$P(\lambda)$$.
+{% endtheorem %}
+
+
+## Diagonalizovatelnost
+{% def %}
+Matice $$A \in \C^{n \times n}$$ je diagonalizovatelná, pokud její podobná nějaká
+diagonální matici.
+{% enddef %}
+
+{% theorem %}
+### Charakterizace diagonalizovatelnosti
+Matice $$\in \C^{n \times n}$$ je diagonalizovatelná právě tehdy, když má $$n$$
+lineárně nezávislých vlastních vektorů.
+
+---
+
+$$A = S\Lambda S^{-1} \implies AS = S\Alpha$$$$$$
+
+$$AS_{*~j} = (AS)_{*~j} = SA_{*~j}=SA_{j~j}e_{j} = \Lambda_{j~j}S_{*~j}$$
+{% endtheorem %}
+
+### Vlastnosti diagonalizovatelných matic
+- Algebraická a geometrická násobnost vlastních čísel je stejná
+- Hodnost matice $$A$$ je rovna počtu nenulových vlastních čísel $$A$$
+
+{% claim %}
+Je-li $$A-S\Lambda S^{-1}$$ spektrální rozklad matice $$A$$, pak
+
+$$A^{T} = S{-T}\Lambda S^{T}$$
+{% endclaim %}
+
+{% claim %}
+Buďte $$\lambda_{1}, \ldots, \lambda_{n}$$ navzájem různá čísla matice $$A \in \C^{n \times n}$$.
+Pak odpovídající vlastní vektory $$x_{1},\ldots,x_{n}$$ jsou lineárně nezávislé.
+
+---
+
+Matematickou indukcí.
+{% endclaim %}
+
+#### Důsledek
+Pokud matice $$A \in \C^{n \times n}$$ má $$n$$ navzájem různých vlastních čísel, pak 
+je diagonalizovatelná.
+
+{% def  %}
+### Jordanova buňka
+Buď $$\lambda \in \C, k \in \N$$. Jordánova buňka $$J_{k}(\lambda)$$ je čtvercová matice
+řádu $$k$$ definovaná jako
+
+
+$$ J_{k}(\lambda) :=
+
+\left( {\begin{array}{ccccc}
+    \lambda & 1       & 0      & \cdots  & 0 \\
+    0       & \lambda & 1      & \cdots  & 0 \\
+    \vdots  & \vdots  & \ddots & \ddots  & \vdots \\
+    0       & 0       & 0      & \lambda & 1 \\
+    0       & 0       & 0      & 0       & \lambda
+\end{array} } \right)
+$$
+
+Jordánova buňka má vlastní číslo $$\lambda$$, které je $$k$$-násobné a přísluší mu 
+pouze jednotkový vektor $$e=(1,0,\ldots,0)^{T}$$
+{% enddef %}
+
+{% def %}
+### Jordánova normální forma
+Matice $$J \in \C^{n \times n}$$ je v Jordánově normální formě, pokud je v blokově
+diagonálním tvaru.
+
+$$ J =
+
+\left( {\begin{array}{ccccc}
+    J_{k_{1}}(\lambda_{1})  & 0                      & \cdots & 0 \\
+    0                       & J_{k_{2}}(\lambda_{2}) & \ddots & \vdots \\
+    \vdots                  & 0                      & \ddots & 0 \\
+    \vdots                  & \vdots                 & \ddots & 0 \\
+    0                       & 0                      & \cdots & J_{k_{n}}(\lambda_{n})
+\end{array} } \right)
+$$
+
+a na diagonále jsou Jordánovy buňky $$J_{k_{1}}(\lambda_{1}),J_{k_{2}}(\lambda_{2}),
+\ldots, J_{k_{n}}(\lambda_{n})$$. Pokud všechny Jordanovy buňky mají velikost 1, matice
+je diagonální.
+{% enddef %}
+
+{% theorem %}
+Každá matice $$A \in \C^{n \times n}$$ je podobná matici v Jordánově normální formě.
+Tato matice je až na pořadí buněk určena přesně.
+{% endtheorem %}
+
+#### Důsledek
+Počet všech Jordánových buněk odpovídajících $$\lambda$$ je roven počtu vlastních
+vektorů pro $$\lambda$$.
+
+Násobnost vlastního čísla je větší nebo rovna počtu vlastních vektorů,
+které mu přísluší.
+
+#### Poznámka
+Počet buněk $$J_{k}(\lambda)$$ matice $$A \in \C^{n \times n}$$ ve výsledné Jordánově
+normální formě je roven $$rank(\widetilde{A}^{k-1}) -2rank(\widetilde{A}^{k}) +
+rank(\widetilde{A}^{k+1})$$ kde $$\widetilde{A} = A - \lambda I_{n}$$
+
+#### Příklad matice v Jordanově normální formě
+Buď $$A \in \R{5 \times 5}$$ a nechť $$rank(A-BI_{5}) = 3$$\\
+Jordanova buňka pro vlastní číslo $$8$$ je $$5-3=2$$\\
+$$rank((A -BI_{5})^{2}) = rank((A-BI_{5})^{3})=2$$
+$$\implies$$ jedna buňka velikosti $$1$$ a jedna velikost $$2$$
+
+{% def %}
+Polynomiální matice a maticový polynom
+
+$$
+\begin{pmatrix}
+\lambda^{2}-\lambda & 2\lambda-3 \\
+7                   & 5\lambda^{2}-4
+\end{pmatrix}
+
+=
+
+\lambda^{2} 
+\begin{pmatrix}
+1 & 0 \\
+0 & 5
+\end{pmatrix}
+
++
+
+\lambda
+\begin{pmatrix}
+-1 & 2 \\
+0 & 0
+\end{pmatrix}
+
++
+
+\begin{pmatrix}
+0 & -3 \\
+7 & -4
+\end{pmatrix}$$
+{% enddef %}
+
+
+#### Příklad mocninné matice
+Buď $$A=SJS^{-1}$$ Jordánůva normální forma matice $$A \in \C^{n \times n}$$. Pak
+
+$$A^{k} = SJ^{k}S^{-1}$$
+
+$$J$$ je blokově diagonální $$\implies$$ stačí mocnit Jordanovy buňky.
+
+$$\lim_{k \rightarrow \infty} A^{k} =
+\begin{cases}
+    0 & p(A) < 1 \\
+    \text{diverguje} & p(A) > 1 \\
+    \text{konverguje} & p(A) = 1
+\end{cases}
+$$
+
+{% def %}
+### Hermitovská matice a transpozice
+Hermitovská transpozice matice $$A \in \C^{n \times n}$$ je matice $$A^{*} := A^{-T}$$.
+Matice $$A \in \C^{n \times n}$$ se nazývá hermitovská, pokud $$A^{*} = A$$
+
+Pokud je $$A$$ reálná $$\implies A^{*}=A^{T}$$.(Chová se stejně jako normální transpozice)
+{% enddef %}
+
+{% theorem %}
+Vlastní čísla reálných symetrických matic jsou reálná.
+
+---
+
+Buď $$A \in \C^{n \times n}$$ hermiovské, $$\lambda \in \C$$ její vlastní čísla a 
+$$x 'in \C^{n}$$ přísluší vlastnosti vektor.
+
+$$\begin{align}
+    Ax &= \lambda x / x^{*} \\
+    x^{*} &= \lambda x^{*}x = \lambda \\
+    \lambda^{2} = x^{*}Ax &= x^{*}A^{*}x = \lambda^{*} \\
+    \lambda &= \overline{\lambda}
+\end{align}
+$$
+
+A to platí jen pro $$\lambda \in \R$$
+{% endtheorem %}
+
+{% theorem %}
+Buď $$A \in \C^{n \times n}$$ a
+
+$$P_{A}(\lambda) =
+\det(A -\lambda I_{n}) =
+(-1)^{n}\lambda^{n} + \alpha_{n-1}\lambda^{n-1}+\ldots+\alpha_{1}\lambda + \alpha_{0}
+$$
+
+Pak
+
+$$(-1)^{n}A^{n} + \alpha_{n-1}A^{n-1}+\ldots+\alpha_{1}A + \alpha_{0}I_{n}
+\implies
+P_{A}(A) = 0
+$$
+
+---
+
+Víme, že $$(A -\lambda I_{n}) adj(A-\lambda I_{n}) = \det(A-\lambda I_{n})I_{n}$$ a 
+$$adj(A - \lambda I_{n}) = \lambda^{n-1}B_{n-1} + \ldots + \lambda B_{1} + B_{0}$$ pro
+určité $$B_{i}$$.
+
+Dosazením
+
+$$
+(A - \lambda I_{n})(\lambda^{n-1}B_{n-1} + \ldots + \lambda B_{1} + B_{0}) =\\
+(-1)^{n}\lambda^{n} + \alpha_{n-1}\lambda^{n-1} + \ldots + \alpha_{1}\lambda + \alpha_{0})I_{n}
+$$
+
+vznikne
+
+$$
+-B_{n-1}\lambda^{n} + (AB_{n-1} - B_{n-2})\lambda^{n-1} + \ldots + (AB_{1} - B_{0})\lambda + AB_{0} = \\
+(-1)^{n}\lambda^{n}I_{n}+a_{n-1}\lambda^{n}I_{n} + \alpha_{n-1}\lambda{n-1} + \ldots + \alpha_{1}\lambda I_{n} + \alpha_{0}I_{n}
+$$
+
+Porovnáme koeficient
+
+$$
+\begin{align}
+    -B_{n-1} &= (-1)^{n}I_{n} \\
+    AB_{j}-B &= \alpha_{j}I_{n} \text{ pro } j=1,\ldots,n \\
+    AB_{0}   &= \alpha_{0}I_{n}
+\end{align}
+$$
+
+Vynásobíme postupně rovnice prvním $$A^{n}$$ poslední $$A^{0}$$. Sečteme a vyjde nám
+
+$$0 = (-1)^{n}A^{n} + \alpha_{n-1}A^{n-1}+\ldots+\alpha_{1}A+\alpha_{0}I_{n}$$
+{% endtheorem %}
+
+{% claim %}
+#### Důsledek
+Buď $$A \in \C^{n \times n}$$. Pak pro každé $$k \in \N$$ je
+
+$$A^{k} \in span\{I_{n}, A, \ldots, A^{n+1}\}$$
+
+tedy je jejich lineární kombinací.
+
+---
+
+Stačí uvažovat $$k \geq n$$\\
+Vydělíme $$\lambda^{k}$$ polynomem $$P_{A}(\lambda)$$\\
+$$\lambda^{k} = r(\lambda) P_{A}(\lambda)+S(\lambda)$$\\
+kde $$S(\lambda)$$ je zbytek $$b_{n-1}\lambda^{n-1}+\ldots+b_{1}\lambda+b_{0}$$
+s dosazením matic
+
+$$ A^{k} = \underbrace{r(A)P_{A}(A)}_{=0}+ S(A) = S(A)$$
+
+{% endclaim %}
+
+## Positivně (semi-)definitní matice
+
+{% def %}
+Buď $$A \in \R^{n \times n}$$ symetrická/ Pak $$A$$ je positivně semi-definitní, pokud
+$$x^{T}Ax \geq 0$$ pro všechna $$x \in \R^{n}$$ a je positivně defitní pokud 
+$$x^{T}A > 0$$ pro všechna $$x \neq 0$$
+
+Definice se dá zobecnit i pro nesymetrické matice.
+
+$$ x^{T}\frac{1}{2}(A + A^{T})x= \frac{1}{2}x^{t}(A+A^{T})x = 
+\frac{1}{2}x^{T}Ax + (\frac{1}{2}x^{T}Ax)^{T} = x^{T}Ax$$
+{% enddef %}
+
+### Pozorování
+Pozitivně semidefinitní matice má nezápornou diagonálu,
+pozitivně definitní matice má kladnou diagonálu.
+
+{% claim %}
+1. Jsou-li $$A,B \in \R^{n \times n}$$ positivně definitní, pak i $$A+B$$ je positivně definitní.
+2. Je-li $$A \in \R^{n \times n}$$ positivně definitní a $$\alpha > 0$$, pak i $$\alpha A$$ je positivně definitní
+3. Je-li $$A \in \R^{n \times n}$$ positivně definitní, pak je regulární a $$A^{-1}$$ je positivně definitní.
+{% endclaim %}
+
+Poznámka:\\
+Semi-definitivní matice nemusí být regulární
+
+{% theorem %}
+Buď $$A \in \R^{n \times n}$$ symetrická. Pak následující podmínky jsou ekvivalentní.
+
+1. $$A$$ je positivně definitivní
+2. vlastní čísla $$A$$ jsou kladná
+3. existuje matice $$U \in \R^{m \times n}$$ hodnosti $$n$$ taková, že $$A=U^{T}U$$
+{% endtheorem %}
+
+{% theorem %}
+#### Charakterizace semi-definitní
+1. $$A$$ je semidefitní
+2. vlastní čísla $$A$$ jsou nezáporná
+3. existuje matice $$U \in \R^{m \times n}$$ taková, že $$A = U^{T}U$$
+{% endtheorem %}
+
+{% theorem %}
+Nechť $$A \in \R^{n \times n}$$ je symetrická. Řekněme, že $$A'$$ je hlavní
+podmatice $$A$$ jestliže $$A'$$ vznikne z $$A$$ odstraněním podmnožiny řádků a sloupců
+se stejnými indexy.
+{% endtheorem %}
+
+{% lemma %}
+$$A$$ je positivně definitní právě tehdy když každá hlavní podmatice $$A$$ je
+positivně definitní.
+{% endlemma %}
+
+{% theorem %}
+### Cholevského rozklad
+Pro každou positivně definitní matici $$A \in \R^{n \times n}$$ existuje jediná dolní
+trojúhelníková matice $$L \in \R^{n \times n}$$ s kladnou diagonálou taková, že $$A=LL^{T}$$.
 {% endtheorem %}
