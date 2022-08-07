@@ -37,7 +37,7 @@ Komplexně sdružené číslo k číslo $$a+bi$$ je $$\overline{a+bi} = a - bi$$
 
 ### Skalární součin nad $$\C$$
 Buď $$V$$ je vektorový prostor nad $$\C$$. Pak skalární součin je zobrazení 
-$$\langle\ . , .\rangle : V^2 \rightarrow \C$$, splňující pro všechna $$x,y,z \in V a \alpha \in \C$$:
+$$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \C$$, splňující pro všechna $$x,y,z \in V$$ a $$\alpha \in \C$$:
 
 - $$\langle x,x \rangle \geq 0$$ a rovnost nastane pouze pro $$x = 0$$
 - $$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$$$$$
