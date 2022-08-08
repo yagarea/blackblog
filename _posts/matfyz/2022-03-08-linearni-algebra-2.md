@@ -7,6 +7,10 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-03-08
 layout: post
 ---
 
+Tento článek je stále nedokončený ~~může obsahovat~~ obsahuje spoustu chyb. Pokud naleznete
+nějakou chybu, můžete jí opravit pomocí tlačítka edit.
+
+
 {:toc}
 - .
 
@@ -391,9 +395,44 @@ $$ x - y =
 Poznámka: Ortogonální projekce je lineární zobrazení
 {% endtheorem %}
 
+{% def %}
+Buď $$V$$ vektorový prostor a $$U$$ jeho podprostor. Pak **projekcí** $$x \in U$$ rozumíme
+takový $$x_{U} \in U$$, který splňuje
+
+$$ \| x - x_{U} \| = \min_{y \in U} \| x -y \|$$
+
+![Ortogonální projekce](/assets/img/matfyz/lingebra-II/ortogonalni-projekce.png)
+
+{% enddef %}
+
 #### Důsledek
 Vektor $$y \in U$$ je projekcí vektoru $$x \in V$$ do podprostoru $$U$$ právě tehdy,
 když $$x-y \in U^{\perp}$$
+
+{% theorem %}
+### Věta o ortogonální projekci
+Buď $$U$$ podprostor $$V$$. Pak pro $$\forall x in V$$ existuje právě jedna projekce
+$$x_{0} \in U$$ do $$U$$.
+
+Navíc, je-li $$z_{1},\ldots, z_{m}$$ ortonormální báze $$U$$, pak
+
+$$ x_{_{U}} = \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i}$$
+
+---
+
+$$x-x_{_{U}} =
+\sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i} - \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i} \in U^{\perp}$$
+
+- $$y \in U$$$$$$
+- $$x-x_{_{U}} \in U^{\perp}$$$$$$
+- $$x_{_{U}} - y \in U$$$$$$
+
+Tudíž $$(x - x_{_{0}}) \perp (x_{_{U}} - y)$$. Použijeme pythagorovu větu:
+
+$$\| x + y \|^{2} = \|(x - x_{_{U}}) + (x_{_{U}} - y) \|^{2} =
+\| x - x_{_{U}} \|^{2} + \| x_{_{U}} - y \| \geq \| x_{_{u}} \|^{2}$$
+
+{% endtheorem %}
 
 #### Příklad projekce na přímku při standardním skalárním součinu
 - $$a \in \R^{n}$$ je nenulový vektor a uvažujeme projekci $$x$$ na přímku se směrnicí $$a$$
@@ -414,7 +453,7 @@ Buď $$B = \{ z_{1}, \ldots, z_{n}\}$$. Pak $$[x]_{B} = (\langle x, z_{1} \rangl
 $$
 \langle x,y \rangle =
 \left\langle \sum^{n}_{j=1} \left\langle x,z_{j} \right\rangle z_{j}, y \right\rangle =
-\sum^{n}_{j=1} \langle x,z_{j} \rangle \overline{\langle y,z_j \rangle} =
+\sum^{n}_{j=1} \langle x,z_{j} \rangle \overline{\langle y,z_{j} \rangle} =
 [x]^{T}_{B}\overline{[y]}_{B}
 $$
 
@@ -422,9 +461,11 @@ $$
 
 
 {% def %}
-**Ortogonální doplněk** množiny vektorů je $$M \subseteq V$$ je
+Buď $$V$$ vektorový prostor a $$M \subseteq V$$. **Ortogonální doplněk** množiny $$M$$ je
 
 $$M^{\perp} := \{x \in V; \langle x,y \rangle = 0 \quad \forall y \in M \}$$
+
+Ortogonální doplněk prostoru = ortogonální doplněk báze
 {% enddef %}
 
 {% claim %}
@@ -464,6 +505,7 @@ $$
 
 {% endtheorem %}
 
+{% theorem %}
 #### Důsledek: Vlastnosti ortogonálního doplňku podprostoru
 Buď $$U \Subset V$$. Potom platí
 
@@ -471,6 +513,23 @@ Buď $$U \Subset V$$. Potom platí
 2. $$V = U + U^{\perp}$$$$$$
 3. $$U \cap U^{\perp} = \{0\}$$$$$$
 4. $$U = (U^{\perp})^{\perp}$$$$$$
+5. Je-li $$z_{1},\ldots,z_{m}$$ ortonormální báze $$U$$, a je-li $$z_{1},\ldots,z_{m},
+z_{m+1},\ldots, z_{n}$$ její rozšíření na ortonormální bází $$V$$, pak $$z_{m+1},\ldots,z_{n}$$
+je ortonormální báze $$U^{\perp}$$.
+
+---
+
+**2.** $$dim V = n$$,$$dim U = m$$, $$dim U^{\perp} = n - m$$\\
+**5.** $$z_{m+1},\ldots,z_{n}$$ je ortonormální systém. Chceme dokázat, že
+$$span\{z_{m+1},\ldots,z_{n}\} = U^{\perp}$$A
+
+$$\forall x \in V: x = \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i}$$
+
+Je-li $$x \in U^{\perp}$$, pak $$\langle x,z_{i} \rangle = 0, \; i = 1 \ldots m$$ a tudíž
+
+$$x = \sum^{n}_{i=m+1} \langle x,z_{i} \rangle z_{i} \in span\{z_{m+1},\ldots,z_{n}\}$$
+
+{% endtheorem %}
 
 {% theorem %}
 Buď $$A \in \R^{m \times n}$$. Pak $$R(A)^{\perp} = Ker(A)$$
@@ -497,7 +556,7 @@ Buď $$A \in \R^{m \times n}$$. Pak
 
 **1.** Je-li $$x \in Ker(A)$$, pak $$Ax = 0$$ a tedy
 
-$$ A^{T}Ax = A^{T}0 = 0 \text{čímž} x \in Ker(A^{T}A)$$
+$$ A^{T}Ax = A^{T}0 = 0 \implies x \in Ker(A^{T}A)$$
 
 obráceně
 
@@ -540,6 +599,7 @@ $$A^{T}(x - x') = 0$$ (po úpravě)
 
 {% def %}
 ### Matice projekce do $$S(A)$$
+
 $$P := A(A^{T}A)^{-1}A^{T} ( = AA^{T} \text{ pro ortonormální bázi})$$
 
 - $$P$$ je symetrická
@@ -573,7 +633,6 @@ Zde $$y$$ je projekce $$x$$ do $$V$$ a $$z$$ projekce $$x$$ do $$V^{\perp}$$
 {% endtheorem %}
 
 ### Metoda nejmenších čtverců
-
 $$\min_{x \in \R^{n}} \left\| Ax - b \right\|^{2}_{2} = 
 \min_{x \in \R^{n}} \sum^{n}_{i=1} \left( A_{i~*}x - b_{i} \right)^{2}$$
 
@@ -649,7 +708,6 @@ $$(Q_{1}Q_{2})^{T}(Q_{1}Q_{2}) = Q^{T}_{2}Q^{T}_{1}Q_{1}Q_{2} = Q^{T}_{2}Q_{2} =
 
 Poznámka:\\
 každou ortogonální matici řádu $$n$$ lze vyjádřit jako součin maximálně $$n$$ Hesenholderových matic
-
 
 #### Givensova matice
 
@@ -1132,7 +1190,7 @@ Vlastní čísla reálných symetrických matic jsou reálná.
 
 ---
 
-Buď $$A \in \C^{n \times n}$$ hermiovské, $$\lambda \in \C$$ její vlastní čísla a 
+Buď $$A \in \C^{n \times n}$$ hermitovské, $$\lambda \in \C$$ její vlastní čísla a 
 $$x 'in \C^{n}$$ přísluší vlastnosti vektor.
 
 $$\begin{align}
