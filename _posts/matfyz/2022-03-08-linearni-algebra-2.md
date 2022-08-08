@@ -242,7 +242,7 @@ Systém vektorů $$z_{1}, \cdots, z_{n}$$ je
 
 
 {% claim%}
-Je-li systém $$z_{1}, \cdots, z_{n}$$ ortonormální, pake je lineárně nezávislý.
+Je-li systém $$z_{1}, \cdots, z_{n}$$ ortonormální, pak je lineárně nezávislý.
 
 ---
 
@@ -257,10 +257,9 @@ $$\langle\sum_{i=1}^{n} \alpha_{i} z_{i}, z_{k}\rangle = \sum_{i=1}^{n} \alpha_{
 Buď $$z_{1}, \cdots, z_{n}$$ ortonormální báze prostoru $$V$$. Pak pro každé $$x \in V$$ platí:
 
 $$ \underbrace{
-    x = \sum^{n}_{i=1}
-    \overbrace{\langle x, z_{i} \rangle}^{\text{Fourierovy koeficienty}}
-    z_{i}
-}_{Fourierův~rozvoj}
+    x = \sum^{n}_{i=1}\hspace{-2em}
+    \overbrace{\langle x, z_{i} \rangle}^{\text{Fourierovy~koeficienty\\}}\hspace{-2em} z_{i}
+}_{\text{Fourierův~rozvoj}}
 $$
 
 ---
@@ -310,11 +309,11 @@ Buď $$z_{1},\ldots,z_{n}$$ ortonormální systém ve $$V$$ a buď $$x \in V$$.
 
 **Besselova nerovnost**:
 
-$$ \| x \|^{2} \geq \sum^{n}_{j} \lvert \langle x_{j},z_{j} \rangle \rvert $$
+$$ \| x \|^{2} \geq \sum^{n}_{j=1} \lvert \langle x_{j},z_{j} \rangle \rvert $$
 
 **Parsevalova rovnost**:
 
-$$ \| x \|^{2} = \sum^{n}_{j} \lvert \langle x_{j},z_{j} \rangle \rvert \iff x \in span\{z_{1},\ldots, z_{n}\}$$
+$$ \| x \|^{2} = \sum^{n}_{j=1} \lvert \langle x_{j},z_{j} \rangle \rvert \iff x \in span\{z_{1},\ldots, z_{n}\}$$
 
 {% endtheorem %}
 
@@ -360,7 +359,7 @@ $$ \| x - x_{_{U}} \| = \min_{y \in U} \| x - y \|$$
 ### Tvrzení o kolmici
 Buď $$U \Subset V$$, buď $$x \in V$$ a $$y \in U$$ takové, že $$x-y \in U^{\perp}$$. Pak
 
-$$ \| x - y \| < \| x - z \| \forall z \in U \setminus \{y\}$$
+$$ \| x - y \| < \| x - z \| \quad \forall z \in U \setminus \{y\}$$
 
 Tedy vektor $$y$$ je jednoznačnou projekcí vektoru $$x$$ do $$U$$.
 
@@ -372,16 +371,16 @@ rovnost nastane jen pro $$y=z$$ protože $$0$$ je norma jen pro nulový vektor.
 {% endclaim %}
 
 {% theorem %}
-Buď $$U \Subset V$$. Pak pro každé $$x \in V $$ existuje právě jedna projekce $$X_{_{U}} \in U$$
+Buď $$U \Subset V$$. Pak pro každé $$x \in V $$ existuje právě jedna projekce $$x_{_{U}} \in U$$
 do podprostoru $$U$$.
 
 Navíc jeli $$z_{1}, \ldots, z_{n}$$ ortonormální báze $$U$$ pak
 
-$$ x_{_U} = \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i}
+$$ x_{_U} = \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i}$$
 
 ---
 
-Rozšíříme bázi $$U$$ na bázi $$V$$ $$z_{1},\ldots, z_{m}, z_{m-1},\ldots, z_{n}$$\\
+Rozšíříme bázi $$U$$ na bázi $$V$$ $$z_{1},\ldots, z_{m}, z_{m+1},\ldots, z_{n}$$\\
 Definujeme $$y = \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i} \in U$$ a ukážeme, že
 je projekcí
 
@@ -406,7 +405,7 @@ $$x_{u} = \langle x,z \rangle z = \frac{1}{\| a \|^{2}} \langle x,a \rangle a = 
 {% claim %}
 Buď $$B$$ ortonormální báze prostoru $$V$$ se skalárním součinem. Pak
 
-$$\langle x,y \rangle = [x]^{T}_{B}\overline{[y]}_{B} \forall x,y \in V$$
+$$\langle x,y \rangle = [x]^{T}_{B}\overline{[y]}_{B} \quad \forall x,y \in V$$
 
 ---
 
@@ -425,7 +424,7 @@ $$
 {% def %}
 **Ortogonální doplněk** množiny vektorů je $$M \subseteq V$$ je
 
-$$M^{\perp} := \{x \in V; \langle x,y \rangle = 0 \forall y \in M \}$$
+$$M^{\perp} := \{x \in V; \langle x,y \rangle = 0 \quad \forall y \in M \}$$
 {% enddef %}
 
 {% claim %}
@@ -438,7 +437,7 @@ Buď $$V$$ vektorový prostor a $$M,N \subseteq V$$. Pak
 ---
 
 1. Ověřením vlastností podprostoru
-2. Buď $$x \in N^{\perp}$$, tedy $$\langle x,y \rangle = 0 \forall y \in N \langle x,y \rangle = 0 \forall y \in M \subseteq N$$ a proto $$x \in M^{\perp}$$
+2. Buď $$x \in N^{\perp}$$, tedy $$\langle x,y \rangle = 0 \; \forall y \in N \langle x,y \rangle = 0 \; \forall y \in M \subseteq N$$ a proto $$x \in M^{\perp}$$
 3. $$M \subseteq span(M)$$ a dle 2. $$M^{\perp} \subseteq span(M)^{\perp}$$$$$$
 {% endclaim %}
 
