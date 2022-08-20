@@ -5,6 +5,7 @@ layout: default
 <article>
 {{ content }}
 </article>
+
 {% if site.show_excerpts %}
   {%- assign posts = paginator.posts | default: site.posts -%}
   {% for post in posts %}
