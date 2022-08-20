@@ -42,8 +42,7 @@ V prostoru $$\R^{m \times n}$$ :
 $$\langle A,B \rangle = \sum_{i = 1}^{m} \sum_{j = 1}^{n} a_{ij}b_{ij} = \text{trace}(AB^T)$$
 
 ### Komplexně sdružené číslo
-Komplexně sdružené číslo k číslo $$a+bi$$ je $$\overline{a+bi} = a - bi$$
-
+Komplexně sdružené číslo k číslu $$a+bi$$ je $$\overline{a+bi} = a - bi$$
 
 ### Skalární součin nad $$\R$$
 Buď $$V$$ je vektorový prostor nad $$\R$$. Pak skalární součin je zobrazení 
@@ -53,7 +52,6 @@ $$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \R$$, splňující pro všech
 - $$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$$$$$
 - $$\langle x,y \rangle = \langle y,x \rangle$$$$$$
     - $$\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$$$$$$
-
 
 ### Skalární součin nad $$\C$$
 Buď $$V$$ je vektorový prostor nad $$\C$$. Pak skalární součin je zobrazení 
@@ -210,6 +208,7 @@ Metriku na množině $$M$$ definujeme jako zobrazení $$d: M^{2} \rightarrow \R$
 3. $$d(x,y) \leq d(x,y) + d(y,x)$$$$$$
 {% enddef %}
 
+{:.no_toc}
 #### Poznámka
 Každá norma určuje metriku předpisem:
 
@@ -228,7 +227,6 @@ $$\left\| x \right\|_{p} = \left(\sum_{i=1}^{n} \lvert x_{i} \rvert^p \right)^{\
 | $$p=2$$      | Euklidovská norma | $$\left\| x \right\|_{2} = \sqrt{\sum^{n}_{i=1} x_{i}^{2}}$$    | ![p=2 norma](/assets/img/matfyz/lingebra-II/p2-norma.png) |
 | $$p=\infty$$ | Maximorá norma    | $$\left\| x \right\|_{\infty} = \max_{i=1,...,n} \lvert x_{i} \rvert$$  | ![p=inf norma](/assets/img/matfyz/lingebra-II/pinf-norma.png) |
 
-
 ---
 
 ## Ortogonální a ortonormální systémy
@@ -244,7 +242,6 @@ Systém vektorů $$z_{1}, \cdots, z_{n}$$ je
 \ldots, \frac{1}{\| z_{n} \|}z_{n}$$ je ortonormální.
 - Je-li systém ortogonální a neobsahuje nulový vektor, potom je také lineárně nezávislý.
 
-
 {% claim%}
 Je-li systém $$z_{1}, \cdots, z_{n}$$ ortonormální, pak je lineárně nezávislý.
 
@@ -254,7 +251,6 @@ $$\langle\sum_{i=1}^{n} \alpha_{i} z_{i}, z_{k}\rangle = \langle 0, z_{k}\rangle
 $$\langle\sum_{i=1}^{n} \alpha_{i} z_{i}, z_{k}\rangle = \sum_{i=1}^{n} \alpha_{i} \langle z_{i}, z_{k} \rangle = 0$$
 
 {% endclaim %}
-
 
 ### Fourierovy koeficienty
 {% theorem %}
@@ -321,7 +317,6 @@ $$ \| x \|^{2} = \sum^{n}_{j=1} \lvert \langle x_{j},z_{j} \rangle \rvert \iff x
 
 {% endtheorem %}
 
-
 {% claim %}
 Buď $$B=\{z_{1},\ldots,z_{n}\}$$ báze prostoru $$V$$. Pak
 
@@ -348,7 +343,6 @@ pro nějakou ortogonální bázi $$B$$
 - Analogicky pro normu:
 
 $$\| x \| = \left\| [x]_{B} \right\|_{2} = \sqrt{[x]^{T}_{B}\overline{[x]}_{B}}$$
-
 
 {% def %}
 ### Definice ortogonální báze
@@ -392,7 +386,7 @@ $$ x - y =
 \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i} - \sum^{m}_{i=1} \langle x,z_i \rangle z_i =
 \sum^{n}_{i=n+1} \left\langle x,z_{i} \right\rangle z_{i} \in U^{\perp}$$
 
-Poznámka: Ortogonální projekce je lineární zobrazení
+**Poznámka:** Ortogonální projekce je lineární zobrazení
 {% endtheorem %}
 
 {% def %}
@@ -405,6 +399,7 @@ $$ \| x - x_{U} \| = \min_{y \in U} \| x -y \|$$
 
 {% enddef %}
 
+{:.no_toc}
 #### Důsledek
 Vektor $$y \in U$$ je projekcí vektoru $$x \in V$$ do podprostoru $$U$$ právě tehdy,
 když $$x-y \in U^{\perp}$$
@@ -541,6 +536,7 @@ Tedy $$x \in R(A)^{\perp} \equiv x \perp$$ na řádky $$A$$
 
 {% endtheorem %}
 
+{:.no_toc}
 #### Důsledek
 Buď $$A \in \R^{m \times n}$$. Pak $$R(A) \oplus Ker(A) = \R^{n}$$
 
@@ -578,7 +574,6 @@ Buď $$x \in \R^{n}, R(A) \oplus Ker(A) = \R^{n}$$, rozložíme na $$x=x_{r}+x_{
 $$x_{r} \in R(A)$$ a $$x_{k} \in Ker(A)$$. Pak 
 
 $$f(x) = Ax = A(x_{r} + x_{k}) = Ax_r + \overbrace{Ax_{k}}^{0} = Ax_{r}$$
-
 
 {% endclaim %}
 
@@ -653,6 +648,7 @@ Víme, že $$Ax$$ je projekcí $$\equiv Ax-b \in S(A)^{T} - Ker(A)^{T}$$\\
 $$\implies A^{T}(Ax - b) = 0 \implies A^{T}Ax = A^{T}b$$.
 {% endtheorem %}
 
+{:.no_toc}
 #### Důsledek
 Buď $$A \in R^{m \times n}$$ hodnosti $$n$$. Pak přibližné řešení soustavy $$Ax=b$$
 metodou nejmenších čtverců je jednoznačné a tvaru
@@ -706,11 +702,11 @@ $$(Q_{1}Q_{2})^{T}(Q_{1}Q_{2}) = Q^{T}_{2}Q^{T}_{1}Q_{1}Q_{2} = Q^{T}_{2}Q_{2} =
 - **Givensova matice**: matice otáčení v rovině dvou os
 - Matice otáčení kolem osy $$2\frac{aa^{T}}{a^{T}a} - I_{n}$$
 
-Poznámka:\\
+{:.no_toc}
+#### Poznámka
 každou ortogonální matici řádu $$n$$ lze vyjádřit jako součin maximálně $$n$$ Hesenholderových matic
 
 #### Givensova matice
-
 pro $$n=2$$
 
 $$
@@ -723,7 +719,8 @@ $$
 otočí $$\phi$$ protisměru hodinových ručiček, kde $$\cos^{2} \phi + \sin^{2} \phi = 1$$.
 Pro větší $$n$$ doplňujeme jednotkovými maticemi.
 
-Poznámka:\\
+{:.no_toc}
+#### Poznámka
 Každou ortogonální matici řádu $$n$$ lze vyjádřit jako součin max $$\binom{n}{2}$$ Givensových matic.
 
 {% theorem %}
@@ -824,6 +821,7 @@ $$x_{i} = \frac{\det(A + ( b - A_{*~i})e_{i}}{\det(A)}~;~i=1,\ldots,n$$
 
 {% endtheorem %}
 
+{:.no_toc}
 #### Důsledek
 Zobrazení $$(A,b) \rightarrow A^{-1}b$$ je spojité na definičním oboru regulárních matic.
 
@@ -843,7 +841,8 @@ kde $$A^{ji}$$ vznikne z $$A$$ vynecháním $$j$$-tého řádku a $$i$$-tého sl
 {% theorem %}
 $$A \Subset \Pi^{n \times n} \implies A adj(A) = \det(AI_{n})$$
 
-#### Důsledek:
+{:.no_toc}
+#### Důsledek
 $$A \in \Pi^{n \times n}$$ je regulární. Potom $$A^{-1} = \frac{1}{\det(A)}adj(A)$$
 {% endtheorem %}
 
@@ -875,7 +874,6 @@ $$0 \neq x \in Ker(A -\lambda I_{n})$$
 Nechť $$A \in \C^{n \times n}$$ je trojúhelníková matice. Pak její vlastní čísla jsou prvky
 na diagonále.
 {% endclaim %}
-
 
 {% def %}
 Charakteristický polynom matice $$A \in \C^{n \times n}$$ proměnné $$\lambda$$ je 
@@ -918,7 +916,6 @@ odpovídající vlastní vektory $$x_{1}, \ldots, x_{n}$$. Pak
 
 Je-li $$\lambda \in \C$$ vlastní číslo matice $$A \in \R^{n \times n}$$ pak i 
 komplexně sdružené $$\overline{\lambda}$$ je vlastním číslem $$A$$
-
 
 {% claim  %}
 Buď $$A \in \C^{n \times n}$$. Je-li $$A$$ regulární, pak
@@ -1059,6 +1056,7 @@ Pak odpovídající vlastní vektory $$x_{1},\ldots,x_{n}$$ jsou lineárně nez�
 Matematickou indukcí.
 {% endclaim %}
 
+{:.no_toc}
 #### Důsledek
 Pokud matice $$A \in \C^{n \times n}$$ má $$n$$ navzájem různých vlastních čísel, pak 
 je diagonalizovatelná.
@@ -1110,6 +1108,7 @@ Každá matice $$A \in \C^{n \times n}$$ je podobná matici v Jordánově normá
 Tato matice je až na pořadí buněk určena přesně.
 {% endtheorem %}
 
+{:.no_toc}
 #### Důsledek
 Počet všech Jordánových buněk odpovídajících $$\lambda$$ je roven počtu vlastních
 vektorů pro $$\lambda$$.
@@ -1117,6 +1116,7 @@ vektorů pro $$\lambda$$.
 Násobnost vlastního čísla je větší nebo rovna počtu vlastních vektorů,
 které mu přísluší.
 
+{:.no_toc}
 #### Poznámka
 Počet buněk $$J_{k}(\lambda)$$ matice $$A \in \C^{n \times n}$$ ve výsledné Jordánově
 normální formě je roven $$rank(\widetilde{A}^{k-1}) -2rank(\widetilde{A}^{k}) +
@@ -1160,7 +1160,6 @@ $$
 7 & -4
 \end{pmatrix}$$
 {% enddef %}
-
 
 #### Příklad mocninné matice
 Buď $$A=SJS^{-1}$$ Jordánůva normální forma matice $$A \in \C^{n \times n}$$. Pak
@@ -1255,6 +1254,8 @@ $$0 = (-1)^{n}A^{n} + \alpha_{n-1}A^{n-1}+\ldots+\alpha_{1}A+\alpha_{0}I_{n}$$
 {% endtheorem %}
 
 {% claim %}
+
+{:.no_toc}
 #### Důsledek
 Buď $$A \in \C^{n \times n}$$. Pak pro každé $$k \in \N$$ je
 
@@ -1287,6 +1288,7 @@ $$ x^{T}\frac{1}{2}(A + A^{T})x= \frac{1}{2}x^{t}(A+A^{T})x =
 \frac{1}{2}x^{T}Ax + (\frac{1}{2}x^{T}Ax)^{T} = x^{T}Ax$$
 {% enddef %}
 
+{:.no_toc}
 ### Pozorování
 Pozitivně semidefinitní matice má nezápornou diagonálu,
 pozitivně definitní matice má kladnou diagonálu.
@@ -1297,7 +1299,8 @@ pozitivně definitní matice má kladnou diagonálu.
 3. Je-li $$A \in \R^{n \times n}$$ positivně definitní, pak je regulární a $$A^{-1}$$ je positivně definitní.
 {% endclaim %}
 
-Poznámka:\\
+{:.no_toc}
+#### Poznámka
 Semi-definitivní matice nemusí být regulární
 
 {% theorem %}
