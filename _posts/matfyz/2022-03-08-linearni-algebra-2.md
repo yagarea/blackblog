@@ -215,7 +215,7 @@ Každá norma určuje metriku předpisem:
 
 $$ d(x, y) := \left\| x-y \right\| $$
 
-Tedy vzdálenost vektorů $x,y$ se zavádí jako velikost jejich rozdílů.
+Tedy vzdálenost vektorů $$x,y$$ se zavádí jako velikost jejich rozdílů.
 
 {% def %}
 Pro $$p=1,2,\ldots$$ definujeme $$p$$-normu vektoru $$x \in \R^{n}$$ jako 
@@ -542,7 +542,7 @@ Tedy $$x \in R(A)^{\perp} \equiv x \perp$$ na řádky $$A$$
 {% endtheorem %}
 
 #### Důsledek
-Buď $$A \in \R^{mxn}$$. Pak $$R(A) \oplus Ker(A) = \R^{n}$$
+Buď $$A \in \R^{m \times n}$$. Pak $$R(A) \oplus Ker(A) = \R^{n}$$
 
 {% theorem %}
 ### Větička o vlastnostech matice $$A$$ versus $$A^{T}A$$
@@ -852,7 +852,7 @@ $$A \in \Pi^{n \times n}$$ je regulární. Potom $$A^{-1} = \frac{1}{\det(A)}adj
 {% def %}
 ### Vlastní čísla a vlastní vektory
 Buď $$A \in \C^{n \times n}$$. Pak $$\lambda \in \C$$ je **vlastní číslo** matice $$A$$
-a $$x \in \C^{n}$$ jemu příslušný **vlastní vektor$$ pokud
+a $$x \in \C^{n}$$ jemu příslušný **vlastní vektor** pokud
 
 $$Ax = \lambda x \land x \neq 0$$
 {% enddef %}
@@ -878,7 +878,7 @@ na diagonále.
 
 
 {% def %}
-Charakteristický polynom matice $$A \in \C^{n \times n} proměnné $$\lambda$$ je 
+Charakteristický polynom matice $$A \in \C^{n \times n}$$ proměnné $$\lambda$$ je 
 
 $$ P_{A} = \det(A -\lambda I)$$
 {% enddef %}
@@ -910,7 +910,7 @@ Nechť $$A \in \C^{n \times n}$$ má vlastní čísla $$\lambda_{1}, \ldots, \la
 odpovídající vlastní vektory $$x_{1}, \ldots, x_{n}$$. Pak
 
 1. je-li $$A$$ regulární, pak A^{-1} má vlastní čísla $$\lambda^{-1}_{1}, \ldots \lambda^{-1}_{n}$$ a vlastní vektory $$x_{1}, \ldots, x_{n}$$
-2. $$A^{2}$$ má vlastní čísla $$\lambda^{2}_{1}, \ldots, \lambda^{2}_{n} a vlastní vektory $$x_{1}, \ldots, x_{n}$$
+2. $$A^{2}$$ má vlastní čísla $$\lambda^{2}_{1}, \ldots, \lambda^{2}_{n}$$ a vlastní vektory $$x_{1}, \ldots, x_{n}$$
 3. $$\alpha A$$ má vlastní čísla $$\alpha \lambda, \ldots, \alpha \lambda_{n}$$ a vlastní vektory $$x_{1}, \ldots, x_{n}$$
 4. $$A + \alpha I_{n}$$ má vlastní čísla $$\lambda_{1} + \alpha, \ldots, \lambda_{n}+ \alpha$$ a $$x_{1}, \ldots, x_{n}$$
 5. $$A^{T}$$ má vlastní čísla $$\lambda_{1}, \ldots, \ldots_{n}$$, ale vlastní vektory obecně jiné.
@@ -1191,7 +1191,7 @@ Vlastní čísla reálných symetrických matic jsou reálná.
 ---
 
 Buď $$A \in \C^{n \times n}$$ hermitovské, $$\lambda \in \C$$ její vlastní čísla a 
-$$x 'in \C^{n}$$ přísluší vlastnosti vektor.
+$$x \in \C^{n}$$ přísluší vlastnosti vektor.
 
 $$\begin{align}
     Ax &= \lambda x / x^{*} \\
@@ -1221,7 +1221,7 @@ $$
 
 ---
 
-Víme, že $$(A -\lambda I_{n}) adj(A-\lambda I_{n}) = \det(A-\lambda I_{n})I_{n}$$ a 
+Víme, že $$(A -\lambda I_{n}) adj(A-\lambda I_{n}) = \det(A-\lambda I_{n})I_{n}$$ a
 $$adj(A - \lambda I_{n}) = \lambda^{n-1}B_{n-1} + \ldots + \lambda B_{1} + B_{0}$$ pro
 určité $$B_{i}$$.
 
