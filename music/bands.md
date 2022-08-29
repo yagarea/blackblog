@@ -20,13 +20,6 @@ Iron Maiden | Heavy metal                   | UK        | | ⛬
 Ghost       | Rock                          | Sweden    | |
 Gojira      | Progressive groove post-metal | France    | | ⛬
 
-
-Rammstein | NDH                           | Gernamy          | Fortuna aréna 16.7.2019 : Letiště Letňany 15.5.2022 | ♥ ★ ⛬
-Lindemann | Avant-garde industrial metal  | Germany + Sweden | O2 arena 10.2. 2020 |
-Jadu      | Psychedelic progressive rock  | Germany          | O2 arena 10.2. 2020 |
-
-
-
 Parkway drive       | Metalcore         | Australia | Forum karlín 29.3. 2017       | ♥★
 Asking Alexandria   | Metalcore         | UK        | Forum karlín 29.3. 2017       |
 Stick to your guns  | Metalcore         | USA       | Forum karlín 29.3. 2017       |
@@ -37,6 +30,10 @@ Polaris             | Metalcore         | Australia | Forum Karlín 31.1. 2019 :
 Void of vision      | Metalcore         | Australia | Palác Akropolis 14.12. 2019   |
 Architects          | Post-metalcore    | UK        | Forum Karlín 31.1. 2019       | ♥★
 Beartooth           | Metalcore         | USA       | Forum Karlín 31.1. 2019       |
+
+Rammstein | NDH                           | Gernamy          | Fortuna aréna 16.7.2019 : Letiště Letňany 15.5.2022 | ♥ ★ ⛬
+Lindemann | Avant-garde industrial metal  | Germany + Sweden | O2 arena 10.2. 2020 |
+Jadu      | Psychedelic progressive rock  | Germany          | O2 arena 10.2. 2020 |
 
 Slope           | Hardcore punk                 | Germany   | Brutal Assault 9.8. 2022 |
 Devournment     | Slamming brutal death metal   | USA       | Brutal Assault 9.8. 2022 | ⛬
