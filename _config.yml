@@ -61,7 +61,7 @@ JEKYLL_ENV: development
 
 # Latex rendering settings
 jektex:
-  cache_dir: ".jekyll-cache/test1/test2"
+  cache_dir: ".jekyll-cache"
   ignore: ["*.xml", "*.css", "*.sass", "*.svg", "*.js", "*.map"]
   macros:
     - ["\\Q", "\\mathbb{Q}"]
@@ -77,5 +77,3 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
-
-
