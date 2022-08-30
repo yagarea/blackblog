@@ -22,8 +22,8 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: info-circle}
   - {file: "projects.md", icon: project-diagram }
+  - {file: "music.md", icon: music }
   - {file: "references.md", icon: address-card}
-
 
 # Menu external
 external:                    # see http://fontawesome.com/icons
@@ -77,3 +77,5 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
+
+
