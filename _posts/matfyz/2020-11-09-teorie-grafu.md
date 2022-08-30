@@ -3,7 +3,7 @@ title: "Teorie grafů"
 category: "Matfyz"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2020-11-09-teorie-grafu.md?plain=1"
+edit: ""
 layout: post
 ---
 
@@ -35,34 +35,34 @@ layout: post
 ## Zoo grafů
 - **Úplný graf $$K_n$$**
 	- každé dva vrcholy mají mezi sebou hranu
-	- $$V(K_n) := \{1...n\}$$ $$$$
-	- $$E(K_n) := \binom{V(K_n)}{2}$$ $$$$
+	- \$$V(K_n) := \{1...n\}$$
+	- \$$E(K_n) := \binom{V(K_n)}{2}$$
 	
 	![Příklad úplného grafu](/assets/img/matfyz/teorie-grafu/priklad-uplny-graf.png)
 
 - **Prázdný graf $$E_n$$**
 	- žádné vrcholy nemají hranu
-	- $$V(E_n) := \{1...n\}$$ $$$$
-	- $$E(E_n) := \emptyset$$ $$$$
+	- \$$V(E_n) := \{1...n\}$$
+	- \$$E(E_n) := \emptyset$$
 
 	![Příklad prázdného grafu](/assets/img/matfyz/teorie-grafu/priklad-prazdny-graf.png)
 
 - **Cesta $$P_n$$**
 	- vrcholy jsou spojené do "čáry"
-	- $$V(P_n) := \{0...n\}$$ $$$$
-	- $$E(P_n) := \{\{i,i+1\} \mid 0 \leq i < n \}$$ $$$$
+	- \$$V(P_n) := \{0...n\}$$
+	- \$$E(P_n) := \{\{i,i+1\} \mid 0 \leq i < n \}$$
 
 	![Příklad cesty](/assets/img/matfyz/teorie-grafu/priklad-cesta.png)
 
 - **Kružnice $$C_i$$**
-	- $$V(C_i):= \{0...n-1\}$$ $$$$
-	- $$E(C_n):=\{\{i, (i+1) \mod n \} \mid o \leq i < n \}$$ $$$$
+	- \$$V(C_i):= \{0...n-1\}$$
+	- \$$E(C_n):=\{\{i, (i+1) \mod n \} \mid o \leq i < n \}$$
 
 	![Příklad kružnice](/assets/img/matfyz/teorie-grafu/priklad-kruznice.png)
 
 - **Úplný bipartitní graf $$K_{m,n}$$**
-	- $$V(K_{m,n}) := \{a_1 ... a_m\} \cup \{b_1 ... b_n \}$$ $$$$
-	- $$E(K_{m,n}) := \{\{a_i,b_j\} \mid 1 \leq i \leq m, 1 \leq j \leq n \}$$ $$$$
+	- \$$V(K_{m,n}) := \{a_1 ... a_m\} \cup \{b_1 ... b_n \}$$
+	- \$$E(K_{m,n}) := \{\{a_i,b_j\} \mid 1 \leq i \leq m, 1 \leq j \leq n \}$$
 
 	![Příklad bipartitního grafu](/assets/img/matfyz/teorie-grafu/priklad-bipartitni-graf.png)
 
@@ -217,7 +217,7 @@ Cesta v grafu $$G = (V,E)$$ je:
 2. $$(v_0,e_1,v_1,e_2,v_2,...,e_n,v_n)$$, kde:
 	- $$v_0 ... v_n$$, jsou navzájem různé 
 	- $$e_1 ... e_n$$ jsou hrany
-	- $$\forall i : e_i=\{v_{i-1},v_i\}$$ $$$$
+	- \$$\forall i : e_i=\{v_{i-1},v_i\}$$
 3. Posloupnost vrcholů spojených postupně hranami
 
 **NENÍ** posloupnost hran, kdy každá má s následující hranou společný vrchol.  
@@ -228,10 +228,10 @@ Protipříklad:
 
 ### Kružnice (cyklus) v grafu
 1. $$G' \subseteq G : G' \cong C_n$$ pro nějaké $$n$$
-2. $$(v_0, e_0, v_1, e_0, ...,v_{n-1} e_{n-1}, v_0)$$ $$$$
+2. \$$(v_0, e_0, v_1, e_0, ...,v_{n-1} e_{n-1}, v_0)$$
 	- $$v_0 ... v_{n-1}$$ jsou navzájem různé 
 	- $$e_0 ... e_{n-1}$$ hran
-	- $$\forall e_i = \{v_i, v_{(i+1)\mod n}\}$$ $$$$
+	- \$$\forall e_i = \{v_i, v_{(i+1)\mod n}\}$$
 
 
 ## Souvislý graf
@@ -284,7 +284,7 @@ Cesta je sled, kde se neopakují hrany ani vrcholy
 >> - kdyby se v $$S$$ neopakovaly vrcholy, je to cesta
 >> - pokud $$v_k = v_l$$ a $$k < l$$ tak:  
 >> $$v_0, e_1, v_1, ..., e_k, v_k, e_{k+1}, ...,e_l, v_l, e_{l+1}, ..., e_n,v_n$$  
->> $$\downarrow$$$$$$
+>> \$$\downarrow$$
 >> $$v_0, e_1, v_1, ..., e_k, v_k = v_l, e_{l+1}, ..., e_n,v_n$$  
 >> Postupným vystříháváním cyklů vznikne cesta
 
@@ -334,8 +334,8 @@ $$ = \#\text{sledů délky } 2 \text{ z } v_i \text{ do } v_j$$
 
 ### Počet trojúhelníků v grafu
 
-$$\#\text{podgrafů izomorfních s } k_3 = \#\text{uzavřených sledů délky } 3 \text{ z }
-v_i \text{ do } v_i = {\sum_i A^3_{ii} \over 6}$$$$$$
+\$$\#\text{podgrafů izomorfních s } k_3 = \#\text{uzavřených sledů délky } 3 \text{ z }
+v_i \text{ do } v_i = {\sum_i A^3_{ii} \over 6}$$
 
 ---
 
@@ -348,10 +348,10 @@ v_i \text{ do } v_i = {\sum_i A^3_{ii} \over 6}$$$$$$
 > $$d_G(u,v) :=$$ minimum z délek (počet hran) cest mezi $$u$$ a $$v$$
 >
 >> **Lemma:**
->> 1. $$d_G(u,v) \geq 0$$$$$$
->> 2. $$d_G(u,v) = \iff u = v$$$$$$
->> 3. $$d_G(u,v) = d_G(v,u)$$$$$$
->> 4. $$ \bigtriangleup$$nerovnost: $$d_G(u,v) \leq d_G(u,w) + d_G(w,v)$$$$$$
+>> 1. \$$d_G(u,v) \geq 0$$
+>> 2. \$$d_G(u,v) = \iff u = v$$
+>> 3. \$$d_G(u,v) = d_G(v,u)$$
+>> 4. \$$ \bigtriangleup$$nerovnost: $$d_G(u,v) \leq d_G(u,w) + d_G(w,v)$$
 
 ---
 
@@ -360,8 +360,8 @@ Nechť $$G=(V,E)$$
 - Přidání vrcholu či hrany: $$G-v$$, $$G-e$$
 - Smazání vrcholu či hrany: $$G-v=G[V(G) \setminus \{v\}]$$, $$G-e$$A
 - Dělení hrany: $$G \% e = G + x - e + \{u,x\} + \{v,x\}$$
-	- $$V' := V \cup\{x\}$$ pro $$x \notin V$$
-	- $$E' := E \setminus \{\{u,v\}\} \cup \{\{u,x\},\{v,x\}\}$$$$$$
+	- \$$V' := V \cup\{x\}$$ pro $$x \notin V$$
+	- $$E' := E \setminus \{\{u,v\}\} \cup \{\{u,x\},\{v,x\}\}$$
 - Kontrakce hrany: $$G.e = G - u - v + x + (e \setminus \{u,v\} \cup \{x\})$$
 
 Pozorování:  
@@ -506,12 +506,12 @@ Graf je $$G$$ je *strom* $$\equiv G$$ je souvislý $$\land$$ acyklický. Ve $$V(
 >> $$G-l$$ je také strom, má $$n-1$$ vrcholů $$\implies G - l$$ je jednoznačně souvislý.  
 >>
 >> Jednoznačná souvislost $$G$$: nechť $$u,v \in V \rightarrow $$
->> - $$u,v \neq l$$$$$$
+>> - \$$u,v \neq l$$
 >>    * Přidáním listu nevzniká nová cesta
 >> - bez újmy na obecnosti $$u = l, v \neq l$$
 >>    * cesta $$v..l$$ jde přes $$s$$ mezi $$v,s \exists!$$ cesta (z indukčního 
 >> 		předpokladu) a tujde rozšířit jedním způsobem a to přidáním hrany $$s,l$$
->> - $$ u,v = l$$$$$$
+>> - \$$ u,v = l$$
 >>    * existuje jen jedna cesta
 >>
 >> - 1. $$\implies$$ 3. (indukce)
@@ -629,9 +629,9 @@ Totéž jako rovina
 ### Eulerova formule
 > Jeli graf $$G$$ nakreslený do roviny:
 >
-> - $$v = \lvert v(G) \lvert$$$$$$
-> - $$e = \lvert E(G) \lvert$$$$$$
-> - $$f = \#\text{stěn nakreslení}$$$$$$
+> - \$$v = \lvert v(G) \lvert$$
+> - \$$e = \lvert E(G) \lvert$$
+> - \$$f = \#\text{stěn nakreslení}$$
 >
 > $$ v + f = e + 2 $$
 >
@@ -641,9 +641,9 @@ Totéž jako rovina
 >>
 >> 2. indukční krok:  
 >> Nechť $$e$$ je hrana na kružnici a $$G' := G - e$$ ... paramatry:
->> - $$v' = v$$$$$$
->> - $$e' = e - 1$$$$$$
->> - $$f' = f -1$$$$$$
+>> - \$$v' = v$$
+>> - \$$e' = e - 1$$
+>> - \$$f' = f -1$$
 >>
 >> $$\Downarrow$$
 >>
@@ -670,7 +670,7 @@ Stěny jsou vlastnost nakreslení. Všechna nakreslení téhož grafu mají stej
 > **Důkaz:**  
 > Nechť $$G$$ je maximální rovinný topologický graf s nakreslením.
 > 1. kdy $$G$$ nebyl souvislý (můžeme přidat hrany mezi komponentami)
-> 2. kdyby $$\exists$$ stěna ohraničeá $$C_n$$ pro $$n > 3$$ ($$u,v :=$$ nesousední 
+> 2. kdyby $$\exists$$ stěna ohraničená $$C_n$$ pro $$n > 3$$ ($$u,v :=$$ nesousední 
 > vrcholy stěny přidáme hranu $$\{ u, v\}$$ nakreslenou vnitřkem.)
 > 3. jinak jsou stěny ohraničené uzavřenými sledy co nejsou kružnice (opakuje se na něm
 > vrchol $$v$$) ($$s-v$$ má více komponent, $$u,w :=$$ vrcholy různých komponent, lze 
@@ -679,9 +679,9 @@ Stěny jsou vlastnost nakreslení. Všechna nakreslení téhož grafu mají stej
 ## Eulerova formule
 > Jeli graf $$G$$ nakreslený do roviny:
 >
-> - $$v = \lvert v(G) \lvert$$$$$$
-> - $$e = \lvert E(G) \lvert$$$$$$
-> - $$f = \#\text{stěn nakreslení}$$$$$$
+> - \$$v = \lvert v(G) \lvert$$
+> - \$$e = \lvert E(G) \lvert$$
+> - \$$f = \#\text{stěn nakreslení}$$
 >
 > $$ v + f = e + 2 $$
 >
@@ -690,10 +690,10 @@ Stěny jsou vlastnost nakreslení. Všechna nakreslení téhož grafu mají stej
 >> = e + 2$$
 >>
 >> 2. indukční krok:  
->> Nechť $$e$$ je hrana na kružnici a $$G' := G - e$$ ... paramatry:
->> - $$v' = v$$$$$$
->> - $$e' = e - 1$$$$$$
->> - $$f' = f -1$$$$$$
+>> Nechť $$e$$ je hrana na kružnici a $$G' := G - e$$ ... parametry:
+>> - \$$v' = v$$
+>> - \$$e' = e - 1$$
+>> - \$$f' = f -1$$
 >>
 >> $$\Downarrow$$
 >>
@@ -707,8 +707,8 @@ Stěny jsou vlastnost nakreslení. Všechna nakreslení téhož grafu mají stej
 
 
 Pro triangulace a Eulerovy formule: 
-- $$ 3f = 2e$$$$$$
-- $$ f = \frac{2}{3}e$$$$$$
+- \$$ 3f = 2e$$
+- \$$ f = \frac{2}{3}e$$
 
 $$
 \begin{aligned}
