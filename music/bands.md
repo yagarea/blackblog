@@ -7,33 +7,33 @@ layout: page
 This is a small list of bands I have seen play live. I did not list everything because
 not every band is worthy of being listed.
 
-| ♥ | Band is my personal favorite and has special place in my heart    |
-| ★ | Band's performance was incredible                                 |
-| ⛬ | This band has huge impact on music and deserve status of a legend |
+| **♥** | Band is my personal favorite and has special place in my heart    |
+| **★** | Band's performance was incredible                                 |
+| **⛬** | This band has huge impact on music and deserve status of a legend |
 
 ---
 
 {% bands %}
 
-Metallica   | Thrash metal                  | USA       | | ⛬
-Iron Maiden | Heavy metal                   | UK        | | ⛬
-Ghost       | Rock                          | Sweden    | |
-Gojira      | Progressive groove post-metal | France    | | ⛬
+Metallica   | Thrash metal                  | USA       | Eden arena 7.5. 2012  | ⛬
+Gojira      | Progressive groove post-metal | France    | Eden arena 7.5. 2012  | ⛬
+Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
+Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
-Parkway drive       | Metalcore         | Australia | Forum karlín 29.3. 2017       | ♥★
-Asking Alexandria   | Metalcore         | UK        | Forum karlín 29.3. 2017       |
-Stick to your guns  | Metalcore         | USA       | Forum karlín 29.3. 2017       |
-Chelsea grin        | Deathcore         | USA       | Forum Karlín 4.10. 2019       | ♥★
-Fit for a king      | Metalcore         | USA       | Forum Karlín 4.10. 2019       |
-Northlane           | Post-metalcore    | Australia | Palác Akropolis 14.12. 2019   | ★
+Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017                               | ♥ ★
+Asking Alexandria   | Metalcore         | UK        | Forum Karlín 29.3. 2017                               |
+Stick to your guns  | Metalcore         | USA       | Forum Karlín 29.3. 2017                               |
+Chelsea grin        | Deathcore         | USA       | Forum Karlín 4.10. 2019                               | ♥ ★
+Fit for a king      | Metalcore         | USA       | Forum Karlín 4.10. 2019                               |
 Polaris             | Metalcore         | Australia | Forum Karlín 31.1. 2019 : Palác Akropolis 14.12. 2019 |
-Void of vision      | Metalcore         | Australia | Palác Akropolis 14.12. 2019   |
-Architects          | Post-metalcore    | UK        | Forum Karlín 31.1. 2019       | ♥★
-Beartooth           | Metalcore         | USA       | Forum Karlín 31.1. 2019       |
+Northlane           | Post-metalcore    | Australia | Palác Akropolis 14.12. 2019                           | ★
+Void of vision      | Metalcore         | Australia | Palác Akropolis 14.12. 2019                           |
+Architects          | Post-metalcore    | UK        | Forum Karlín 31.1. 2019                               | ♥ ★
+Beartooth           | Metalcore         | USA       | Forum Karlín 31.1. 2019                               |
 
-Rammstein | NDH                           | Gernamy          | Fortuna aréna 16.7.2019 : Letiště Letňany 15.5.2022 | ♥ ★ ⛬
-Lindemann | Avant-garde industrial metal  | Germany + Sweden | O2 arena 10.2. 2020 |
-Jadu      | Psychedelic progressive rock  | Germany          | O2 arena 10.2. 2020 |
+Rammstein | NDH                           | Germany          | Eden Arena 28.05. 2017 : Fortuna aréna 16.7.2019 : Letiště Letňany 15.5.2022 | ♥ ★ ⛬
+Lindemann | Avant-garde industrial metal  | Germany + Sweden | O2 arena 10.2. 2020 | ♥ ★
+Jadu      | Psychedelic progressive rock  | Germany          | O2 arena 10.2. 2020 | ★
 
 Slope           | Hardcore punk                 | Germany   | Brutal Assault 9.8. 2022 |
 Devournment     | Slamming brutal death metal   | USA       | Brutal Assault 9.8. 2022 | ⛬
