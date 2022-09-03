@@ -9,6 +9,14 @@ This is list of my personal projects.
 <div class="project-wrapper" markdown="1">
 
 {% include project-card.html
+	name="StoPro"
+	image="/assets/img/projects/stopro.png"
+	description="Stopro is simple utility which will help you with self control and build work ethic. When you activate self control session all distracting pages will be blocked. List of distracting pages is fully configurable. This can help you focus and stop wasting time."
+	used_tech="Python, Shell"
+	repo="https://github.com/yagarea/Stopro"
+%}
+
+{% include project-card.html
 	name="GGU Homepage"
 	image="/assets/img/projects/ggu-website.png"
 	description="Homepage for student group I belong to. Visit [ggu.cz](ggu.cz) for more information about group."
@@ -57,7 +65,7 @@ Security features:
 {% include project-card.html
 	name="Lyricall"
 	image="/assets/img/projects/lyricall.jpg"
-	description="Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing."
+	description="Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing. You can take a look at <a href='www.meziklasi.cz'>lyricall.cz</a>"
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/yagarea/lyricall"
 %}
