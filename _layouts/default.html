@@ -4,7 +4,9 @@
 	<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 	<meta charset="{{ site.encoding }}"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--
 	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+	-->
 	<meta name="author" content="{{ page.author | default: site.author | escape }}"/>
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}"/>
 	<link rel="canonical" href="https://blackblog.cz{{ page.url }}"/>
@@ -46,7 +48,7 @@
 	<header class="icons">
 		{% unless site.show_logo != true and site.sidebar or site.navigation and site.external %}
 			<a href="/">
-				<img src="/assets/meta/logo.png" alt="Black block logo" class="logo"> 
+				<img src="/assets/meta/logo.png" alt="Black block logo" class="logo">
 			</a>
 		{% endunless %}
 		{% unless site.show_title != true and site.sidebar or site.navigation and site.external %}
@@ -60,7 +62,7 @@
 			{% include menu.html menu=pages %}
 		{% endif %}
 		{% if site.sidebar and site.show_description %}
-			<div class="hidden description">{{ site.description }}</div>
+			<div class="hidden description">{{ site.description | escape }}</div>
 		{% endif %}
 	</header>
 	{{ content }}
