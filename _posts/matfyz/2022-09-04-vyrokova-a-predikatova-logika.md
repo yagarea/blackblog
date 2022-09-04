@@ -3,6 +3,7 @@ title: "Výroková a predikátová logika (WIP)"
 category: "Matfyz"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-09-04-vyrokova-a-predikatova-logika.md?plain=1"
 layout: post
 ---
 
