@@ -72,16 +72,16 @@ Cradle of filth             | Extreme gothic metal      | England       | Brutal
 Fleshgod apocalypse         | Orchestral death metal    | Italy         | Brutal Assault 11.8. 2022 | ★
 Skepticism                  | Funeral doom metal        | Finland       | Brutal Assault 11.8. 2022 | ★
 
-Abbie falls             | Metalcore                     | Czech Republic    | Brutal Assault 12.8. 2022 | ★
-Humanity's last breath  | Experimental deathcore        | Sweden            | Brutal Assault 12.8. 2022 |
-Swallow the sun         | Doom metal                    | Finland           | Brutal Assault 12.8. 2022 | ★
-Z                       | Black noise / Drone           | Czech Republic    | Brutal Assault 12.8. 2022 |
-Somniate                | Black metal                   | Czech Republic    | Brutal Assault 12.8. 2022 |
-Abbath                  | Black metal                   | Norway            | Brutal Assault 12.8. 2022 | ⛬
-Suffocation             | Technical brutal death metal  | USA               | Brutal Assault 12.8. 2022 | ★ ⛬
-Venom                   | First wave black metal        | UK                | Brutal Assault 12.8. 2022 |
-Mysticum                | Industrial black metal        | Norway            | Brutal Assault 12.8. 2022 | ★ ⛬
-Hentai corporation      | Eccentric crossover metal     | Czech Republic    | Brutal Assault 12.8. 2022 | ★
+Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 | ★
+Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 |
+Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
+Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
+Somniate                | Black metal                   | Czechia    | Brutal Assault 12.8. 2022 |
+Abbath                  | Black metal                   | Norway     | Brutal Assault 12.8. 2022 | ⛬
+Suffocation             | Technical brutal death metal  | USA        | Brutal Assault 12.8. 2022 | ★ ⛬
+Venom                   | First wave black metal        | UK         | Brutal Assault 12.8. 2022 |
+Mysticum                | Industrial black metal        | Norway     | Brutal Assault 12.8. 2022 | ★ ⛬
+Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 | ★
 
 Gorod               | Progressive technical death metal | France    | Brutal Assault 13.8. 2022 | ★
 Haemorrhage         | Goregrind                         | Spain     | Brutal Assault 13.8. 2022 |
@@ -99,3 +99,6 @@ Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Ass
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
 {% endbands %}
 
+## Ostatní
+Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
+Agressive tyrans, Kolosus, Magua
