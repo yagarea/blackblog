@@ -426,7 +426,7 @@ Pokud do formule za volnou proměnnou dosadíme term $$t$$, požadujeme, aby nov
 
 ### Varianty
 Kvantifikované proměnné lze za určitých podmínek přejmenovat tak, že vznikne ekvivalentní formule.
-Nechť $$(Q x) \psi$$ je podformule ve $$\varphi$$, kde $$Q$$ značí $$\forall$$ čí $$\exists$$, a $$y$$ je proměnná, tž.
+Nechť $$(Q x) \psi$$ je podformule ve $$\varphi$$, kde $$Q$$ značí $$\forall$$ čí $$\exists$$, a $$y$$ je proměnná, tak že
 
 1. $$y$$ je substituovatelná za $$x$$ do $$\psi$$, a
 2. $$y$$ nemá volný výskyt $$\mathrm{v} \psi$$.
@@ -442,9 +442,7 @@ Nechť $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ je jazyk a $$A$$ je neprázd
 Struktura pro jazyk $$L$$ (L-struktura) je trojice $$\mathcal{A}=\left\langle A, \mathcal{R}^{A}, \mathcal{F}^{A}\right\rangle$$, kde
 
 - A je neprázdná množina, zvaná doména (universum) struktury $$\mathcal{A}$$,
-
 - $$\mathcal{R}^{A}=\left\langle R^{A} \mid R \in \mathcal{R}\right\rangle$$ je soubor realizací relačních symbolů (relací),
-
 - $$\mathcal{F}^{A}=\left\langle f^{A} \mid f \in \mathcal{F}\right\rangle$$ je soubor realizací funkčních symbolů (funkcí),
 
 Strukturu pro jazyk $$L$$ nazýváme také model jazyka $$L$$. Třída všech modelů se značí $$M(L)$$.
@@ -597,7 +595,6 @@ Položku, dle které tablo prodlužujeme, nebudeme na větev znovu zapisovat kro
 Vlastnosti tabla a tablo důkazu
 
 - Větev $$V$$ tabla $$\tau$$ je sporná, obsahuje-li položky $$T \varphi$$ a $$F \varphi$$ pro nějakou sentenci $$\varphi$$, jinak je bezesporná.
-
 - Tablo $$\tau$$ je sporné, pokud každá jeho větev je sporná.
 - Tablo důkaz sentence $$\varphi$$ z teorie $$T$$ je sporné tablo z $$T$$ s položkou $$F \varphi$$ v kořeni.
 - Sentence $$\varphi$$ je (tablo) dokazatelná z teorie $$T$$, píšeme $$T \vdash \varphi$$, má-li tablo důkaz z $$T$$.
@@ -619,15 +616,12 @@ Nechť $$R$$ je položka $$\tau$$ a $$T=\left\{\varphi_{0}, \varphi_{1}, \ldots\
 
 1. Za $$\tau_{0}$$ vezmi atomické tablo pro $$R$$. $$V$$ případě $$(*)$$ vezmi lib. $$c \in L_{C} \backslash L$$, v případě () za $$t$$ vezmi term $$t_{1}$$. Dokud to lze, aplikuj následující kroky.
 2. Nechť $$v$$ je nejlevější vrchol v co nejmenší úrovni již daného tabla $$\tau_{n}$$ obsahující výskyt položky $$P$$, který není redukovaný na nějaké bezesporné větvi skrze $$v$$. (Neexistuje-li $$v$$, vezmi $$\tau_{n}^{\prime}=\tau_{n}$$ a jdi na (4).)
-3.
-  a) Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V případě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.
-
-  b) Je-li $$P$$ tvaru (\#) a ve $$v$$ má $$i$$-tý výskyt, ta $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé z $$\tau_{n}$$ připojením atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$, přičemž za $$t$$ vezmi term $$t_{i}$$.
-
+3. <br>
+  **a.** Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V případě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.<br>
+  **b.** Je-li $$P$$ tvaru (\#) a ve $$v$$ má $$i$$-tý výskyt, ta $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé z $$\tau_{n}$$ připojením atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$, přičemž za $$t$$ vezmi term $$t_{i}$$.
 4. Za $$\tau_{n+1}$$ vezmi tablo vzniklé z $$\tau_{n}^{\prime}$$ přidáním $$T \varphi_{n}$$ na každou bezespornou větev neobsahující $$T \varphi_{n}$$. (Neexistuje-li $$\varphi_{n}$$, vezmi $$\tau_{n+1}=\tau_{n}^{\prime}$$.)
 
 Systematické tablo z $$T$$ pro $$R$$ je výsledkem uvedené konstrukce.
-
 
 ## Axiomy rovnosti
 Axiomy rovnosti pro jazyk $$L$$ s rovností jsou
@@ -664,10 +658,9 @@ Nechť $$V$$ je bezesporná větev dokončeného tabla teorie $$T$$ jazyka $$L=\
 - $$f^{A}\left(s_{1}, \ldots, s_{n}\right)=f\left(s_{1}, \ldots, s_{n}\right)$$ pro každý $$n$$-ární funkční symbol $$f \in \mathcal{F} \cup\left(L_{C} \backslash L\right)$$ a $$s_{1}, \ldots, s_{n} \in A$$
 - $$R^{A}\left(s_{1}, \ldots, s_{n}\right) \Leftrightarrow T R\left(s_{1}, \ldots, s_{n}\right)$$ je položka na $$V$$ pro každý $$n$$-ární relační symbol $$R \in$$ $$\mathcal{R}$$ čí rovnost a $$s_{1}, \ldots, s_{n} \in A$$.
 
-Poznámka: Výraz $$f\left(s_{1}, \ldots, s_{n}\right)$$ ve druhém bodě je konstantní term jazyka $$L_{C}$$, tedy prvek z $$A$$. 
+**Poznámka:** Výraz $$f\left(s_{1}, \ldots, s_{n}\right)$$ ve druhém bodě je konstantní term jazyka $$L_{C}$$, tedy prvek z $$A$$. 
 
 ### Kanonický model s rovností
-
 Je-li jazyk $$L$$ s rovností, $$T^{*}$$ označuje rozšíření $$T$$ o axiomy rovnosti pro $$L$$.
 
 Požadujeme-li, aby rovnost byla interpretována jako identita, kanonický model $$\mathcal{A}$$ z bezesporné větve $$V$$ dokončeného tabla $$T^{*}$$ musíme faktorizovat dle $$=^{A}$$.
