@@ -4,13 +4,13 @@ permalink: "/projects/"
 layout: page
 ---
 
-This is list of my personal projects. 
+This is list of my personal projects.
 
 <div class="project-wrapper" markdown="1">
 
 {% include project-card.html
 	name="StoPro"
-	image="/assets/img/projects/stopro.png"
+	image="/assets/img/projects/stopro.svg"
 	description="Stopro is simple utility which will help you with self control and build work ethic. When you activate self control session all distracting pages will be blocked. List of distracting pages is fully configurable. This can help you focus and stop wasting time."
 	used_tech="Python, Shell"
 	repo="https://github.com/yagarea/Stopro"
@@ -19,7 +19,7 @@ This is list of my personal projects.
 {% include project-card.html
 	name="GGU Homepage"
 	image="/assets/img/projects/ggu-website.png"
-	description="Homepage for student group I belong to. Visit [ggu.cz](ggu.cz) for more information about group."
+	description="Homepage for student group I belong to. Visit [ggu.cz](https://ggu.cz/) for more information about group."
 	used_tech="Jekyll, Ruby, Shell, CSS, HTML"
 	repo="https://github.com/yagarea/ggu.cz/"
 %}
@@ -57,7 +57,7 @@ Security features:
 {% include project-card.html
 	name="Meziklasí"
 	image="/assets/img/projects/meziklasi.jpg"
-	description="This is mainly a literary project. It is a chronicle of the village of Meziklasí.<br/> You can visit it on <a href='www.meziklasi.cz'>www.meziklasi.cz</a>"
+	description="This is mainly a literary project. It is a chronicle of the village of Meziklasí.<br/> You can visit it on [www.meziklasi.cz](www.meziklasi.cz)"
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/xiaoxiae/meziklasi"
 %}
@@ -65,7 +65,7 @@ Security features:
 {% include project-card.html
 	name="Lyricall"
 	image="/assets/img/projects/lyricall.jpg"
-	description="Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing. You can take a look at <a href='www.meziklasi.cz'>lyricall.cz</a>"
+	description="Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing. You can take a look at [lyricall.cz](https://lyricall.cz/)"
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/yagarea/lyricall"
 %}
