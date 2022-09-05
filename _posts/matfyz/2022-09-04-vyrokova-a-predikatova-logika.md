@@ -7,6 +7,9 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-09-04
 layout: post
 ---
 
+Tento článek je stále nedokončený ~~může obsahovat~~ obsahuje spoustu chyb. Pokud naleznete
+nějakou chybu, můžete jí opravit pomocí tlačítka edit.
+
 {:toc}
 - .
 
@@ -50,7 +53,7 @@ Booleovská funkce je $$n$$-ární funkce na $$2=\{0,1\}$$, tj. $$f:\{0,1\}^{n} 
 
 {% def %}
 ### Ohodnocení
-Ohodnocení prvovýrokỉ je funkce $$v: \P \rightarrow\{0,1\}$$, tj. $$v \in{ }^{\P} 2$$.
+Ohodnocení prvovýroků je funkce $$v: \P \rightarrow\{0,1\}$$, tj. $$v \in{ }^{\P} 2$$.
 {% enddef %}
 
 {% def %}
@@ -169,12 +172,11 @@ Nechť $$T$$ je teorie nad $$\P$$. Výrok $$\varphi$$ nad $$\P$$ je
 - splnitelný v $$T$$ (konzistentní s T), pokud platí v nějakém modelu $$T$$.
 
 Výroky $$\varphi$$ a $$\psi$$ jsou ekvivalentní v $$T$$ ( T-ekvivalentní), pokud každý model teorie $$T$$ je modelem $$\varphi$$ právě když je modelem $$\psi$$.
-{% enddef %}
 
-{% def %}
 ### Důsledek teorie
 Důsledek teorie $$T$$ je $$\theta^{\P}(T)=\left\{\varphi \in \operatorname{VF}_{\P} \mid T \models \varphi\right\}$$, tj. množina $$\theta^{\P}(T)$$ všech výroků pravdivých v $$T$$.
 {% enddef %}
+
 
 ### Vlastnosti teorií
 Nechť $$T$$ je teorie nad $$\P$$. Je-li $$\varphi$$ dokazatelná z $$T$$, řekneme, že $$\varphi$$ je věta (teorém) teorie $$T$$. Množinu vět teorie $$T$$ označme
@@ -218,6 +220,7 @@ Od formálního dokazovacího systému čekáme, že je
 - korektní, tj. každá formule $$\varphi$$ dokazatelná z $$T$$ je pravdivá,
 - úplný, tj. každá formule $$\varphi$$ pravdivá v $$T$$ je z $$T$$ dokazatelná.
 
+{% def %}
 ## Tablo metoda
 Předpokládáme pevný a spočetný jazyk (množina prvovýroků $$\P$$ je spočetná). Pak každá teorie nad $$\P$$ je spočetná.
 
@@ -228,8 +231,10 @@ Předpokládáme pevný a spočetný jazyk (množina prvovýroků $$\P$$ je spo�
 - pokud protipříklad existuje, v tablu bude větev, která ho poskytuje, tato větev může být nekonečná.
 
 Vrcholy tabla jsou označeny položkami. Položka je formule s příznakem $$T / F$$, který reprezentuje předpoklad, že formule v nějakém modelu platí/neplatí.
+{% enddef %}
 
 
+{% def %}
 ### Tablo
 Konečné tablo je binární, položkami značkovaný strom daný předpisem
 
@@ -238,6 +243,7 @@ Konečné tablo je binární, položkami značkovaný strom daný předpisem
 - každé konečné tablo vznikne konečným užitím předchozích pravidel.
 
 Tablo je posloupnost konečných tabel takových, že další tablo vznikne z předchozího pomocí pravidla číslo $$2 .$$
+{% enddef %}
 
 ### Tablo důkaz
 Nechť $$P$$ je položka na větvi $$V$$ tabla $$\tau$$. Řekneme, že
@@ -291,22 +297,29 @@ Hlavní rysy rezoluční metody
 - má jediné odvozovací pravidlo (rezoluční pravidlo),
 - zamítací procedura (snaží se ukázat nesplnitelnost dané formule).
 
+{% def %}
 ### Klauzule
 Klauzule $$C$$ je konečná množina literálů ("tvořících disjunkci"). Prázdná klauzule se značí $$\square$$, nikdy není splněna (neobsahuje splněný literál).
+{% enddef %}
 
+{% def %}
 ### Formule
 Formule $$S$$ je množina (i nekončená) klauzulí ("tvořících konjunkci"). Prázdná formule $$\emptyset$$ je vždy splněna (neobsahuje nesplněnou klauzuli). Nekonečné formule reprezentují nekonečné teorie. 
+{% enddef %}
 
 ### (Částečné) ohodnocení
 Částečné ohodnocení $$\mathcal{V}$$ je libovolná konzistentní množina literálů, tj. neobsahující dvojici opačných literálů. Ohodnocení $$\mathcal{V}$$ je totální, obsahuje-li pozitivní či negativní literál od každé výrokové proměnné.
 
+{% def %}
 ## Rezolventa
 Nechť $$C_{1}, C_{2}$$ jsou klauzule a $$l \in C_{1}, \bar{l} \in C_{2}$$ pro nějaký literál $$l$$. Pak z $$C_{1}$$ a $$C_{2}$$ odvod' pres literál $$l$$ klauzuli $$C$$, kterou nazveme rezolventa, kde
 
 $$
 C=\left(C_{1} \backslash\{l\}\right) \cup\left(C_{2} \backslash\{\bar{l}\}\right) .
 $$
+{% enddef %}
 
+{% def %}
 ### Rezoluční důkaz
 Formální popis rezolučního důkazu.
 
@@ -314,6 +327,7 @@ Formální popis rezolučního důkazu.
 - klauzule $$C$$ je (rezolucí) dokazatelná z $$S$$, psáno $$S \vdash_{R} C$$, pokud má rezoluční důkaz z $$S$$
 - zamítnutí formule $$S$$ je rezoluční důkaz $$\square$$ z $$S$$,
 - $$S$$ je (rezolucí) zamítnutelná, pokud $$S \vdash_{R} \square$$.
+{% enddef %}
 
 ### Rezoluční strom
 Rezoluční strom klauzule $$C$$ z formule $$S$$ je konečný binární strom s vrcholy označenými klauzulemi takový, že
@@ -328,7 +342,7 @@ Rezoluční uzávěr $$\mathcal{R}(s)$$ formule $$S$$ je nejmenší induktivní 
 - $$C \in \mathcal{R}(S)$$ pro každé $$C \in S$$,
 - jsou-li $$C_{1}, C_{2} \in \mathcal{R}(S)$$ a $$C$$ je rezolventa $$C_{1}, C_{2}$$, je zároveň $$C \in \mathcal{R}(S)$$. 
 
-### Lineární rezoluce.
+### Lineární rezoluce
 Rezoluce jako lineární důkaz.
 
 - Lineární důkaz (rezolucí) klauzule $$C$$ z formule $$S$$ je konečná posloupnost dvojic $$\left(C_{0}, B_{0}\right), \ldots,\left(C_{n}, B_{n}\right)$$ taková, že $$C_{0} \in S$$ a pro každé $$i \leq n$$
@@ -349,13 +363,15 @@ Pro Hornovy formule můžeme lineární rezoluci dál omezit.
 
 LI-rezoluce (linear input) z formule $$S$$ je lineární rezoluce z $$S$$, ve které je každá boční klauzule $$B_{i}$$ ze (vstupní) formule $$S$$. 
 
-## Definice - predikátová logika
+## Predikátová logika
 
+{% def %}
 ### Jazyk
 Jazyk prvního řádu obsahuje proměnné, množinu všech proměnných značíme Var, funkční symboly (včetně konstantních symbolů, což jsou nulární funkční symboly), relační symboly, případně symbol = jako speciální relační symbol, kvantifikátory, logické spojky, závorky. Každá funkční i relační symbol $$S$$ má danou aritu - $$\operatorname{ar}(S) \in \N$$.
+{% enddef %}
 
 ### Signatura jazyka
-Proměnné, kvantifikátory, logické spojky a závorky jsou logické symboly, funkční a relační symboly jsou mimologické symboly. Rovnost případně uvažujeme zvlášt.
+Proměnné, kvantifikátory, logické spojky a závorky jsou logické symboly, funkční a relační symboly jsou _mimologické_ symboly. Rovnost případně uvažujeme zvlášť.
 
 Signatura je dvojice $$\langle\mathcal{R}, \mathcal{F}\rangle$$ disjunktních relačních a funkčních symbolů s danými aritami, žádný z nich není rovnost. Signatura tedy určuje všechny mimologické symboly.
 
@@ -382,8 +398,7 @@ $$
 
 je-li $$\varphi$$ formule a $$x$$ proměnná, jsou výrazy $$((\forall x) \varphi)$$ a $$((\exists x) \varphi)$$ formule, každá formule vznikne konečným užitím předchozích pravidel.
 
-Množinu všech formulí jazyka $$L$$ značíme $$\mathrm{Fm}_{L}$$. 
-
+Množinu všech formulí jazyka $$L$$ značíme $$\mathrm{Fm}_{L}$$.
 
 ### Výskyt proměnné
 Nechť $$\varphi$$ je formule a $$x$$ proměnná.
@@ -434,12 +449,10 @@ Struktura pro jazyk $$L$$ (L-struktura) je trojice $$\mathcal{A}=\left\langle A,
 
 Strukturu pro jazyk $$L$$ nazýváme také model jazyka $$L$$. Třída všech modelů se značí $$M(L)$$.
 
-Hodnota termu.
-
+### Hodnota termu
 Nechť $$t$$ je term jazyka $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ a $$\mathcal{A}=\left\langle A, \mathcal{R}^{A}, \mathcal{F}^{A}\right\rangle$$ je struktura pro $$L$$.
 
 - Ohodnocení proměnných $$\mathrm{v}$$ množině $$A$$ je funkce $$e$$ : Var $$\rightarrow A$$.
-
 - Hodnota $$t^{\mathcal{A}}[e]$$ termu $$t$$ ve struktuře $$\mathcal{A}$$ při ohodnocení $$e$$ je dána induktivním předpisem
 
 $$
@@ -450,13 +463,10 @@ x^{\mathcal{A}}[e] &=e(x) \text { pro každé } x \in \text { Var, } \\
 $$
 
 - Speciálně, pro konstantní symbol $$c$$ je $$c^{\mathcal{A}}[e]=c^{A}$$.
-
 - Je-li $$t$$ konstantní term, jeho hodnota v $$A$$ nezávisí na ohodnocení $$e$$.
-
 - Hodnota termu v $$\mathcal{A}$$ závisí pouze na ohodnocených proměnných.
 
-Hodnota atomické formule.
-
+### Hodnota atomické formule
 Nechť $$\varphi$$ je atomická formule tvaru $$R\left(t_{0}, \ldots, t_{n-1}\right)$$ jazyka $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ a $$\mathcal{A}=\left\langle A, \mathcal{R}^{A}, \mathcal{F}^{A}\right\rangle$$ je struktura pro $$L$$.
 
 - Hodnota $$H_{a t}^{\mathcal{A}}(\varphi)[e]$$ formule $$\varphi$$ ve struktuře $$\mathcal{A}$$ při ohodnocení $$e$$ je
@@ -468,13 +478,10 @@ $$
 přičemž $$={ }^{\mathcal{A}}$$ je $$\operatorname{Id}_{A}$$, tj. $$H_{a t}^{\mathcal{A}}\left(t_{0}=t_{1}\right)[e]=1$$ pokud $$t_{0}^{\mathcal{A}}[e]=t_{1}^{\mathcal{A}}[e]$$, jinak 0 .
 
 - Je-li $$\varphi$$ sentence, tj. všechny její termy jsou konstantní, její hodnota v $$\mathcal{A}$$ nezávisí na ohodnocení $$e$$.
-
 - Hodnota $$\varphi \vee \mathcal{A}$$ závisí pouze na ohodnocení jejích (volných) proměnných.
 
-Platnost při ohodnocení.
-
+### Platnost při ohodnocení
 Formule $$\varphi$$ je pravdivá (platí) ve struktuře $$\mathcal{A}$$ při ohodnocení $$e$$, pokud $$H^{\mathcal{A}}(\varphi)[e]=1$$. Pak píseme $$\mathcal{A} \models \varphi[e]$$, v opačném případě $$\mathcal{A} \not \models \varphi[e]$$. 
-
 
 ### Platnost ve struktuře
 Nechť $$\varphi$$ je formule jazyka $$L$$ a $$\mathcal{A}$$ je struktura pro $$L$$.
@@ -482,12 +489,10 @@ Nechť $$\varphi$$ je formule jazyka $$L$$ a $$\mathcal{A}$$ je struktura pro $$
 - $$\varphi$$ je pravdivá (platí) ve struktuře $$\mathcal{A}$$, značeno $$\mathcal{A} \models \varphi$$, pokud $$\mathcal{A} \models \varphi[e]$$ pro každé ohodnocení $$e: \operatorname{Var} \rightarrow A$$. $$\mathrm{V}$$ opačném případě píšeme $$\mathcal{A} \not \models \varphi$$.
 - $$\varphi$$ je lživá $$\mathrm{v} \mathcal{A}$$, pokud $$\mathcal{A} \models \neg \varphi, \mathrm{tj} . \mathcal{A} \not \models \varphi[e]$$ pro každé $$e: \operatorname{Var} \rightarrow A$$.
 - Je-li $$\varphi$$ sentence, je $$\varphi$$ pravdivá či lživá v $$\mathcal{A}$$.
-
 - $$\mathcal{A} \models \varphi$$ právě když $$\mathcal{A} \models \psi$$, kde $$\psi$$ je generální uzávěr $$\varphi$$, tj. formule $$\left(\forall x_{1}\right) \cdots\left(\forall x_{n}\right) \varphi$$, v níž $$x_{1}, \ldots, x_{n}$$ jsou všechny volné proměnné $$\varphi$$.
 
 ### Platnost $$\mathbf{v}$$ teorii
-
-Teorie jazyka $$L$$ je libovolná množina $$T$$ formulí jazyka $$L$$ (tzv. axiomů). Model teorie $$T$$ je $$L$$-struktura $$\mathcal{A}$$ taková, že $$\mathcal{A} \models \varphi$$ pro každé $$\varphi \in T$$, značíme $$\mathcal{A} \models T$$. Třída modelỉ teorie $$T$$ je $$M(T)=\{\mathcal{A} \in M(L) \mid \mathcal{A} \models T\}$$.
+Teorie jazyka $$L$$ je libovolná množina $$T$$ formulí jazyka $$L$$ (tzv. axiomů). Model teorie $$T$$ je $$L$$-struktura $$\mathcal{A}$$ taková, že $$\mathcal{A} \models \varphi$$ pro každé $$\varphi \in T$$, značíme $$\mathcal{A} \models T$$. Třída modelů teorie $$T$$ je $$M(T)=\{\mathcal{A} \in M(L) \mid \mathcal{A} \models T\}$$.
 
 - Formule $$\varphi$$ je pravdivá $$\mathrm{v} T$$, značíme $$T \models \varphi$$, pokud $$\mathcal{A} \models \varphi$$ pro každý model $$\mathcal{A}$$ teorie $$T$$. V opačném prípadě píśeme $$T \not \models \varphi$$.
 - Formule $$\varphi$$ je lživá v $$T$$, pokud $$T \models \neg \varphi$$, tj. je lživá v každém modelu $$T$$.
@@ -554,7 +559,6 @@ $$
 
 
 ## Tablo metoda v predikátové logice.
-
 Předpoklady:
 
 1. Dokazovaná formule $$\varphi$$ je sentence. Není-li $$\varphi$$ sentence, můžeme ji nahradit za její generální uzávěr $$\varphi^{\prime}$$, nebot pro každou teorii $$T$$ platí
@@ -581,14 +585,13 @@ Nová atomická tabla, kde $$\varphi$$ je libovolná formule jazyka $$L_{C}$$ ve
 Konečné tablo z teorie $$T$$ je binární, položkami značkovaný strom daný předpisem
 
 - každé atomické tablo je konečné tablo z $$T$$, přičemž v případě $$(*)$$ lze použít libovolný konstantní symbol $$c \in L_{C} \subseteq L$$,
-- je-li $$P$$ položka na větvi $$V$$ konečného tabla z $$T$$, pak připojením atomického tabla pro $$P$$ na konec větve $$V$$, vznikne rovněž konečné tablo z $$T$$, přičemž v prípadě $$(*)$$ lze použít konstantní symbol $$c \in L_{C} \backslash L$$, který se dosud nevyskytuje na $$V$$,
+- je-li $$P$$ položka na větvi $$V$$ konečného tabla z $$T$$, pak připojením atomického tabla pro $$P$$ na konec větve $$V$$, vznikne rovněž konečné tablo z $$T$$, přičemž v případě $$(*)$$ lze použít konstantní symbol $$c \in L_{C} \backslash L$$, který se dosud nevyskytuje na $$V$$,
 - je-li $$V$$ větev konečného tabla (z $$T)$$ a $$\varphi \in \mathrm{T}$$, pak připojením $$T \varphi$$ na konec $$V$$ vznikne rovněž konečné tablo z $$T$$,
 - každé konečné tablo vznikne konečným užitím předchozích pravidel.
 
 Tablo z teorie $$T$$ je posloupnost konečných tabel z $$T$$ takových, že další tablo vznikne z předchozího pomocí pravidla číslo 2 nebo 3.
 
 Položku, dle které tablo prodlužujeme, nebudeme na větev znovu zapisovat kromě případů $$(\#)$$ 
-
 
 ### Tablo důkaz
 Vlastnosti tabla a tablo důkazu
@@ -604,7 +607,7 @@ Vlastnosti tabla a tablo důkazu
 ### Dokončené tablo
 Chceme, aby dokončená bezesporná větev poskytovala protipříklad.
 
-Výskyt položky $$P$$ ve vrcholu $$v$$ tabla $$\tau$$ je $$i$$-tý́, pokud $$v$$ má $$\mathrm{v} \tau$$ právě $$i-1$$ předků označených $$P$$ a je redukovaný na větvi $$V$$ skrze $$v$$, pokud
+Výskyt položky $$P$$ ve vrcholu $$v$$ tabla $$\tau$$ je $$i$$-tý, pokud $$v$$ má $$\mathrm{v} \tau$$ právě $$i-1$$ předků označených $$P$$ a je redukovaný na větvi $$V$$ skrze $$v$$, pokud
 
 - $$P$$ není tvaru (\#) a $$P$$ se vyskytuje na $$V$$ jako kořen atomického tabla, tj. při konstrukci $$\tau$$ již došlo $$\mathrm{k}$$ rozvoji $$P$$ na $$V$$, nebo
 - $$P$$ je tvaru (#), má $$(i+1)$$-ní výskyt na $$V$$ a zároveň se na $$V$$ vyskytuje $$T \varphi\left(x / t_{i}\right)$$ resp. $$F \varphi\left(x / t_{i}\right)$$, kde $$t_{i}$$ je $$i$$-tý konstantní term jazyka $$L_{C}$$.
@@ -614,10 +617,10 @@ Nechť $$V$$ je větev tabla $$\tau$$ z teorie $$T$$. Řekneme, že větev $$V$$
 ### Konstrukce systematického tabla
 Nechť $$R$$ je položka $$\tau$$ a $$T=\left\{\varphi_{0}, \varphi_{1}, \ldots\right\}$$ je (konečná i nekonečná) teorie.
 
-1. Za $$\tau_{0}$$ vezmi atomické tablo pro $$R$$. $$V$$ prípadě $$(*)$$ vezmi lib. $$c \in L_{C} \backslash L$$, v případě () za $$t$$ vezmi term $$t_{1}$$. Dokud to lze, aplikuj následující kroky.
+1. Za $$\tau_{0}$$ vezmi atomické tablo pro $$R$$. $$V$$ případě $$(*)$$ vezmi lib. $$c \in L_{C} \backslash L$$, v případě () za $$t$$ vezmi term $$t_{1}$$. Dokud to lze, aplikuj následující kroky.
 2. Nechť $$v$$ je nejlevější vrchol v co nejmenší úrovni již daného tabla $$\tau_{n}$$ obsahující výskyt položky $$P$$, který není redukovaný na nějaké bezesporné větvi skrze $$v$$. (Neexistuje-li $$v$$, vezmi $$\tau_{n}^{\prime}=\tau_{n}$$ a jdi na (4).)
 3.
-  a) Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V př́padě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.
+  a) Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V případě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.
 
   b) Je-li $$P$$ tvaru (\#) a ve $$v$$ má $$i$$-tý výskyt, ta $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé z $$\tau_{n}$$ připojením atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$, přičemž za $$t$$ vezmi term $$t_{i}$$.
 
@@ -635,8 +638,7 @@ Axiomy rovnosti pro jazyk $$L$$ s rovností jsou
 
 Tablo důkaz z teorie $$T$$ jazyka $$L$$ s rovností je tablo důkaz z teorie $$T^{*}$$, kde $$T^{*}$$ je rozšír̃ení teorie $$T$$ o axiomy rovnosti pro $$L$$ (resp. jejich generální uzávěry).
 
-Kongruence a faktostruktura.
-
+### Kongruence a faktostruktura
 Nechť $$\sim$$ je ekvivalence na $$A, f: A^{n} \rightarrow A$$ a $$R \subseteq A^{n}$$, kde $$n \in \N$$. Pak $$\sim$$ je
 
 - kongruence pro funkci $$f$$, pokud pro každé $$x_{1}, \ldots, x_{n}, y_{1}, \ldots, y_{n} \in A$$ platí
@@ -653,24 +655,20 @@ $$
 
 Nechť ekvivalence $$\sim$$ ma $$A$$ je kongruence pro každou funkci i relaci struktury $$\mathcal{A}=\left\langle A, \mathcal{F}^{A}, \mathcal{R}^{A}\right\rangle$$. Faktostruktura (podilová struktura) struktury $$\mathcal{A}$$ dle $$\sim$$ je struktura $$\mathcal{A} / \sim=\left\langle A / \sim, \mathcal{F}^{A / \sim}, \mathcal{R}^{A / \sim}\right\rangle$$, kde $$f^{A / \sim}\left(\left[x_{1}\right]_{\sim}, \ldots,\left[x_{n}\right]_{\sim}\right)=\left[f^{A}\left(x_{1}, \ldots, x_{n}\right)\right]_{\sim}$$ a $$R^{A / \sim}\left(\left[x_{1}\right]_{\sim}, \ldots,\left[x_{n}\right]_{\sim}\right) \Leftrightarrow R^{A}\left(x_{1}, \ldots, x_{n}\right)$$ pro každé $$f \in \mathcal{F}, R \in \mathcal{R}$$ a $$x_{1}, \ldots, x_{n} \in A$$, tj. funkce a relace jsou definované z $$\mathcal{A}$$ pomocí reprezentantů.
 
-## Kanonický model.
-
+## Kanonický model
 $$\mathrm{Z}$$ bezesporné větve $$V$$ dokončeného tabla vyrobíme model, který se shoduje s $$V$$. Vyjdeme z dostupných syntaktických objektů - konstantních termů.
 
 Nechť $$V$$ je bezesporná větev dokončeného tabla teorie $$T$$ jazyka $$L=\langle\mathcal{F}, \mathcal{R}\rangle$$. Kanonický model z větve $$V$$ je $$L_{C}$$-struktura $$\mathcal{A}=\left\langle A, \mathcal{F}^{A}, \mathcal{R}^{A}\right\rangle$$, kde
 
 - $$A$$ je množina všech konstantních termů jazyka $$L_{C}$$,
-
 - $$f^{A}\left(s_{1}, \ldots, s_{n}\right)=f\left(s_{1}, \ldots, s_{n}\right)$$ pro každý $$n$$-ární funkční symbol $$f \in \mathcal{F} \cup\left(L_{C} \backslash L\right)$$ a $$s_{1}, \ldots, s_{n} \in A$$
-
 - $$R^{A}\left(s_{1}, \ldots, s_{n}\right) \Leftrightarrow T R\left(s_{1}, \ldots, s_{n}\right)$$ je položka na $$V$$ pro každý $$n$$-ární relační symbol $$R \in$$ $$\mathcal{R}$$ čí rovnost a $$s_{1}, \ldots, s_{n} \in A$$.
 
 Poznámka: Výraz $$f\left(s_{1}, \ldots, s_{n}\right)$$ ve druhém bodě je konstantní term jazyka $$L_{C}$$, tedy prvek z $$A$$. 
 
+### Kanonický model s rovností
 
-Kanonický model s rovností.
-
-Je-li jazyk $$L$$ s rovností, $$T^{*}$$ označuje rozšírení $$T$$ o axiomy rovnosti pro $$L$$.
+Je-li jazyk $$L$$ s rovností, $$T^{*}$$ označuje rozšíření $$T$$ o axiomy rovnosti pro $$L$$.
 
 Požadujeme-li, aby rovnost byla interpretována jako identita, kanonický model $$\mathcal{A}$$ z bezesporné větve $$V$$ dokončeného tabla $$T^{*}$$ musíme faktorizovat dle $$=^{A}$$.
 
@@ -684,9 +682,8 @@ Jelikož je $$V$$ dokončená a obsahuje axiomy rovnosti, relace $$=^{A}$$ je ek
 
 Kanonický model s rovností z větve $$V$$ je faktostruktura $$\mathcal{A} /=^{A}$$.
 
-Extenze o definovaný relační symbol.
-
-Nechť $$T$$ je teorie jazyka $$L, \psi\left(x_{1}, \ldots, x_{n}\right)$$ je formule jazyka $$L$$ ve volných proměnných $$x_{1}, \ldots, x_{n}$$ a $$L^{\prime}$$ je rozšírení $$L$$ o nový $$n$$-ární relační symbol $$R$$.
+### Extenze o definovaný relační symbol
+Nechť $$T$$ je teorie jazyka $$L, \psi\left(x_{1}, \ldots, x_{n}\right)$$ je formule jazyka $$L$$ ve volných proměnných $$x_{1}, \ldots, x_{n}$$ a $$L^{\prime}$$ je rozšíření $$L$$ o nový $$n$$-ární relační symbol $$R$$.
 
 Extenze teorie $$T$$ o definici $$R$$ formulí $$\psi$$ je teorie $$T^{\prime}$$ vzniklá přidáním axiomu
 
@@ -696,8 +693,7 @@ $$
 
 Každý model teorie $$T$$ lze jednoznačně expandovat na model $$T^{\prime}, T^{\prime}$$ je potom konzervativní extenze $$T$$.
 
-Extenze o definovaný funkční symbol.
-
+### Extenze o definovaný funkční symbol
 Nechť $$T$$ je teorie jazyka $$L$$ a pro formuli $$\psi\left(x_{1}, \ldots, x_{n}, y\right)$$ jazyka $$L$$ ve volných proměnných $$x_{1}, \ldots, x_{n}, y$$ platí
 
 $$
@@ -717,31 +713,23 @@ $$
 
 Každý model teorie $$T$$ lze jednoznačně expandovat na model $$T^{\prime}, T^{\prime}$$ je potom konzervativní extenze $$T$$.
 
-Extenze o definice.
-
+### Extenze o definice
 Teorie $$T^{\prime}$$ jazyka $$L^{\prime}$$ je extenze teorie $$T$$ jazyka $$L$$ o definice, pokud vznikla z $$T$$ postupnou extenzí o definici relačního či funkčního symbolu. 
 
-
-Ekvisplnitelnost.
-
+### Ekvisplnitelnost
 Problém splnitelnosti lze redukovat na otevřené teorie.
 
 - Teorie $$T, T^{\prime}$$ jsou ekvisplnitelné, jestliže $$T$$ má model $$\Leftrightarrow T^{\prime}$$ má model.
-
 - Formule $$\varphi$$ je v prenexním (normálním) tvaru $$(P N F)$$, má-li tvar $$\left(Q_{1} x_{1}\right) \ldots\left(Q_{n} x_{n}\right) \varphi^{\prime}$$, kde $$Q_{i}$$ značí kvantifikátor, proměnné $$x_{1}, \ldots, x_{n}$$ jsou navzájem různé a $$\varphi^{\prime}$$ je otevřená formule, zvaná otevřené jádro. $$\left(Q_{1} x_{1}\right) \ldots\left(Q_{n} x_{n}\right)$$ je prefix.
-
 - Speciálně, jsou-li všechny kvantifikátory $$\forall$$, je $$\varphi$$ univerzální formule.
 
 K teorii $$T$$ nalezneme ekvisplnitelnou teorii následovně:
 
 1. Axiomy $$T$$ nahradíme za ekvivalentní formule v prenexním tvaru.
-
 2. Pomocí nových funkčních symbolů je převedeme na univerzální formule, tzv. Skolemovy varianty, čímž dostaneme ekvisplnitelnou teorii.
-
 3. Jejich otevřená jádra tvoří hledanou teorii.
 
-Vytýkání kvantifikátorů.
-
+### Vytýkání kvantifikátorů
 Pro každé formule $$\varphi, \psi$$ takové, že $$x$$ není volná ve formuli $$\psi$$,
 
 $$
@@ -754,29 +742,27 @@ $$
 \end{aligned}
 $$
 
-## Skolemova varianta.
+## Skolemova varianta
 Nechť $$\varphi$$ je sentence jazyka $$L$$ v prenexním normálním tvaru, $$y_{1}, \ldots, y_{n}$$ jsou existenčně kvantifikované proměnné ve $$\varphi$$ (v tomto pořadí) a pro každé $$i \leq n$$ nechť $$x_{1}, \ldots, x_{n_{i}}$$ jsou univerzálně kvantifikované proměnné před $$y_{i}$$. Označme $$L^{\prime}$$ rozšírení $$L$$ o nové $$n_{i}$$-ární symboly $$f_{i}$$ pro každé $$i \leq n .$$
 
 Nechť $$\varphi_{S}$$ je formule jazyka $$L^{\prime}$$, jež vznikne z formule $$\varphi$$ odstraněním $$\left(\exists y_{i}\right)$$ z jejího prefixu a nahrazením každého výskytu proměnné $$y_{i}$$ za term $$f_{i}\left(s_{1}, \ldots, x_{n_{i}}\right)$$. Pak formule $$\varphi_{S}$$ se nazývá Skolemova varianta formule $$\varphi$$.
 
-Redukce nesplnitelnosti na úroveň VL.
-
+### Redukce nesplnitelnosti na úroveň VL
 Je-li otevřená teorie nesplnitelná, lze to "doložit na konkrétních prvcích". Doložení má podobu nesplnitelných konjunkcí konečně mnoha instancí (některých) axiomů teorie $$T$$ v konstantních termech. 
 
 
 ### Herbrandův model
-Nechť' $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ je jazyk s alespoň jedním konstantním symbolem. (Pokud je třeba, co $$L$$ pridáme nový.)
+Nechť' $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ je jazyk s alespoň jedním konstantním symbolem. (Pokud je třeba, co $$L$$ přidáme nový.)
 
 - Herbrandovo universum pro $$L$$ je množina všech konstantních termů z $$L$$.
 - Struktura $$\mathcal{A}$$ pro $$L$$ je Herbrandova struktura, je-li doména $$A$$ Herbrandovo universum pro $$L$$ a pro každý $$n$$-ární funkční symbol $$f \in \mathcal{F}$$ a $$t_{1}, \ldots, t_{n} \in A, f^{A}\left(t_{1}, \ldots, t_{n}\right)=$$ $$f\left(t_{1}, \ldots, t_{n}\right)$$. (Na rozdíl od kanonické struktury nejsou předepsané relace.)
 - Herbrandův model teorie $$T$$ je Herbrandova struktura, jež je modelem $$T$$.
 
-Rezoluční metoda $$v$$ predikátové logice.
-
+### Rezoluční metoda $$v$$ predikátové logice
 Stručný popis RM v PL:
 
 - Zamítací procedura, cílem je ukázat, že daná formule je nesplnitelná.
-- Předpokládá otevřené formule v CNF (množinové reprezentaci).
+- Předpokládá otevřené formule v **CNF** (množinové reprezentaci).
 
 ### Substituce
 Vlastnosti substitucí:
