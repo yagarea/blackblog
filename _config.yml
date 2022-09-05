@@ -14,7 +14,6 @@ show_logo: true              # always keep the site title visible
 show_title: false
 
 # Styling
-minimal: false               # use simpler style
 sidebar_limit: "55em"        # css limit of showing side bar
 
 # Menu
@@ -40,11 +39,6 @@ references:
   - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
   - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
   - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
-
-comments:
-    commentsapp-id: "Kh5zcvkB"
-    enabled: true
-    limit: 5
 
 plugins:
   - jekyll-feed
