@@ -66,6 +66,7 @@ jektex:
   macros:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
+    - ["\\P", "\\mathbb{P}"]
 
 # Compression settings
 gzip:
@@ -77,5 +78,3 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
-
-
