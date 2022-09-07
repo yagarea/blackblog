@@ -116,7 +116,7 @@ $$
 ## Couchyho-Schwartzova nerovnost
 Pro každé $$x,y \in V$$ platí
 
-$$\| \langle x,y \rangle \leq \left\| x \right\| . \left\| x \right\|$$
+$$\left\| \langle x,y \rangle \right\| \leq \left\| x \right\| . \left\| y \right\|$$
 
 ---
 
