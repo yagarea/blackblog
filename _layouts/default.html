@@ -62,7 +62,7 @@
 			{% include menu.html menu=pages %}
 		{% endif %}
 		{% if site.sidebar and site.show_description %}
-			<div class="hidden description">{{ site.description | escape }}</div>
+			<div class="hidden description">{{ site.description }}</div>
 		{% endif %}
 	</header>
 	{{ content }}
