@@ -15,33 +15,33 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 
 ## Značení - výroková logika
 
-- $$\mathrm{VF}_{\P}$$ - množina všech výrokových formulí nad $$\P$$
-- $$\operatorname{var}(\varphi)$$ - množina všech výrokových proměnných (písmen) vyskytujících se ve $$\varphi$$
-- $$v(\varphi)$$ - ohodnocení výroku $$\varphi$$
-- $$\bar{v}(\varphi)$$ - hodnota výroku $$\varphi$$
-- $$v \models \varphi$$ - $$v$$ je splňující ohodnocení výroku $$\varphi$$, $$v$$ je model výroku $$\varphi$$
-- $$\models \varphi$$ - $$\varphi$$ je splněn při každém ohodnocení, tj. je tautologií, $$\varphi$$ je pravdivý v každém modelu
-- $$\varphi \sim \psi$$ - výroky $$\varphi$$ a $$\psi$$ jsou logicky ekvivalentní, výroky $$\varphi$$ a $$\psi$$ mají stejné modely
-- $$M(\P)$$ - třída všech modelů jazyka nad $$\P$$
-- $$M^{\P}(\varphi)=\{v \in M(\P) \mid v \models \varphi\}$$ - třída modelů $$\varphi$$
-- $$\top$$ - tautologie
-- $$\perp$$ - kontradikce
-- $$v \models T-v \in M(\P)$$ je ohodnocení, ve kterém platí všechny axiomy z $$T$$ 
-- $$M^{\mathrm{P}}(T)$$ - třída modelů $$T$$
-- $$M(T, \varphi)$$ - značí $$M(T \cup\{\varphi\})$$ 
-- $$T \models \varphi$$ - výrok $$\varphi$$ platí v každém modelu $$T$$ 
-- $$\varphi \sim_{T} \psi$$ - výroky $$\varphi$$ a $$\psi$$ jsou $$T$$-ekvivalentní 
-- $$\theta^{\P}(T)$$ - důsledek teorie $$T$$ nad $$\P$$, množina všech výroků pravdivých v $$T$$
-- $$\vdash \varphi$$ - formule $$\varphi$$ je dokazatelná
-- $$\vdash \neg \varphi$$ - formule $$\varphi$$ je zamítnutelná
-- $$T \vdash \varphi$$ - formule $$\varphi$$ je dokazatelná z $$T$$
-- $$T \vdash \neg \varphi$$ - formule $$\varphi$$ je zamítnutelná z $$T$$
-- $$\operatorname{Thm}^{\P}(T)$$ - množina vět teorie $$T$$
-- $$\mathcal{V} \models S$$ - (částečné) ohodnocení $$\mathcal{V}$$ splňuje $$S$$ (formule), pokud $$C \cap \mathcal{V} \neq \emptyset$$ pro každé $$C \in S$$, ( $$C$$ je klauzule)
-- $$\square$$ - prázdná klauzule
-- $$\emptyset$$ - prázdná formule
-- $$S \vdash_{R} C$$ - klauzule $$C$$ je rezolucí dokazatelná z formule $$S$$ 
-- $$S \vdash_{R} \square-S$$ je rezolucí zamítnutelná
+- $$\mathrm{VF}_{\P} \quad$$ - množina všech výrokových formulí nad $$\P$$
+- $$\operatorname{var}(\varphi) \quad$$ - množina všech výrokových proměnných (písmen) vyskytujících se ve $$\varphi$$
+- $$v(\varphi) \quad$$ - ohodnocení výroku  \quad$$\varphi$$
+- $$\bar{v}(\varphi) \quad$$ - hodnota výroku $$\varphi$$
+- $$v \models \varphi \quad$$ - $$v$$ je splňující ohodnocení výroku $$\varphi$$, $$v$$ je model výroku $$\varphi$$
+- $$\models \varphi \quad$$ - $$\varphi$$ je splněn při každém ohodnocení, tj. je tautologií, $$\varphi$$ je pravdivý v každém modelu
+- $$\varphi \sim \psi \quad$$ - výroky $$\varphi$$ a $$\psi$$ jsou logicky ekvivalentní, výroky $$\varphi$$ a $$\psi$$ mají stejné modely
+- $$M(\P) \quad$$ - třída všech modelů jazyka nad $$\P$$
+- $$M^{\P}(\varphi)=\{v \in M(\P) \mid v \models \varphi\} \quad$$ - třída modelů $$\varphi$$
+- $$\top \quad$$ - tautologie
+- $$\perp \quad$$ - kontradikce
+- $$v \models T \quad$$ - $$v \in M(\P)$$ je ohodnocení, ve kterém platí všechny axiomy z $$T$$ 
+- $$M^{\mathrm{P}}(T) \quad$$ - třída modelů $$T$$
+- $$M(T, \varphi) \quad$$ - značí $$M(T \cup\{\varphi\})$$ 
+- $$T \models \varphi \quad$$ - výrok $$\varphi$$ platí v každém modelu $$T$$ 
+- $$\varphi \sim_{T} \psi \quad$$ - výroky $$\varphi$$ a $$\psi$$ jsou $$T$$-ekvivalentní 
+- $$\theta^{\P}(T) \quad$$ - důsledek teorie $$T$$ nad $$\P$$, množina všech výroků pravdivých v $$T$$
+- $$\vdash \varphi \quad$$ - formule $$\varphi$$ je dokazatelná
+- $$\vdash \neg \varphi \quad$$ - formule $$\varphi$$ je zamítnutelná
+- $$T \vdash \varphi \quad$$ - formule $$\varphi$$ je dokazatelná z $$T$$
+- $$T \vdash \neg \varphi \quad$$ - formule $$\varphi$$ je zamítnutelná z $$T$$
+- $$\operatorname{Thm}^{\P}(T) \quad$$ - množina vět teorie $$T$$
+- $$\mathcal{V} \models S \quad$$ - (částečné) ohodnocení $$\mathcal{V}$$ splňuje $$S$$ (formule), pokud $$C \cap \mathcal{V} \neq \emptyset$$ pro každé $$C \in S$$, ( $$C$$ je klauzule)
+- $$\square \quad$$ - prázdná klauzule
+- $$\emptyset \quad$$ - prázdná formule
+- $$S \vdash_{R} C \quad$$ - klauzule $$C$$ je rezolucí dokazatelná z formule $$S$$ 
+- $$S \vdash_{R} \square \quad$$ - je rezolucí zamítnutelná
 
 
 ## Výroková logika
@@ -541,35 +541,31 @@ Množiny, které lze v dané struktuře definovat.
 
 1. Množina definovaná formulí $$\varphi\left(x_{1}, \ldots, x_{n}\right)$$ ve struktuře $$\mathcal{A}$$ je množina
 
-$$
-\varphi^{\mathcal{A}}\left(x_{1}, \ldots, x_{n}\right)=\left\{\left(a_{1}, \ldots, a_{n}\right) \in A^{n} \mid \mathcal{A} \models \varphi\left[e\left(x_{1} / a_{1}, \ldots, x_{n} / a_{n}\right)\right]\right\} .
-$$
+   $$
+   \varphi^{\mathcal{A}}\left(x_{1}, \ldots, x_{n}\right)=\left\{\left(a_{1}, \ldots, a_{n}\right) \in A^{n} \mid \mathcal{A} \models \varphi\left[e\left(x_{1} / a_{1}, \ldots, x_{n} / a_{n}\right)\right]\right\} .
+   $$
 
-Zkráceně se dá $$x_{1}, \ldots, x_{n}$$ zapsat jako $$\bar{x}$$, obdobně pro $$a$$. Číslo $$n$$ je potom $$\|\bar{x}\|$$.
+   Zkráceně se dá $$x_{1}, \ldots, x_{n}$$ zapsat jako $$\bar{x}$$, obdobně pro $$a$$. Číslo $$n$$ je potom $$\|\bar{x}\|$$.
 
 2. Množina definovaná formulí $$\varphi(\bar{x}, \bar{y})$$ s parametry $$\bar{b} \in A^{\|\bar{y}\|}$$ ve struktuře $$\mathcal{A}$$ je
 
-$$
-\varphi^{\mathcal{A}, \bar{b}}(\bar{x}, \bar{y})=\left\{\bar{a} \in A^{\|\bar{x}\|} \mid \mathcal{A} \models \varphi[e(\bar{x} / \bar{a}, \bar{y}, \bar{b})]\right\} .
-$$
+   $$
+   \varphi^{\mathcal{A}, \bar{b}}(\bar{x}, \bar{y})=\left\{\bar{a} \in A^{\|\bar{x}\|} \mid \mathcal{A} \models \varphi[e(\bar{x} / \bar{a}, \bar{y}, \bar{b})]\right\} .
+   $$
 
 3. Pro strukturu $$\mathcal{A}$$, množinu $$B \subseteq A$$ a $$n \in \N$$ označme $$\operatorname{Df}^{n}(\mathcal{A}, B)$$ třídu všech množin $$D \subseteq A^{n}$$ definovatelných ve struktuře $$\mathcal{A} \mathrm{s}$$ parametry z $$B$$. 
 
 
-## Tablo metoda v predikátové logice.
+## Tablo metoda v predikátové logice
 Předpoklady:
 
 1. Dokazovaná formule $$\varphi$$ je sentence. Není-li $$\varphi$$ sentence, můžeme ji nahradit za její generální uzávěr $$\varphi^{\prime}$$, nebot pro každou teorii $$T$$ platí
 
-$$
-T \models \varphi \Leftrightarrow T \models \varphi^{\prime} .
-$$
+   $$T \models \varphi \Leftrightarrow T \models \varphi^{\prime} .$$
 
 2. Dokazujeme z teorie v uzavřeném tvaru, tj. každý axiom je sentence. Nahrazením každého axiomu $$\psi$$ za jeho generální uzávér $$\psi^{\prime}$$ zíkáme ekvivalentní teorii, nebot pro každou strukturu $$\mathcal{A}$$ (daného jazyka $$L$$ ),
 
-$$
-\mathcal{A} \models \psi \Leftrightarrow \mathcal{A} \models \psi^{\prime} .
-$$
+   $$\mathcal{A} \models \psi \Leftrightarrow \mathcal{A} \models \psi^{\prime} .$$
 
 3. Jazyk $$L$$ je spočetný. Pak každá teorie nad $$L$$ je spočetná. Označme $$L_{C}$$ rozšíření jazyka $$L$$ o nové konstantní symboly $$c_{0}, c_{1}, \ldots$$ (početně nekonečně mnoho). Platí, že konstantních termů jazyka $$L_{C}$$ je spočetně. Nechť' $$t_{i}$$ označuje $$i$$-tý konstantní term (v pevně zvoleném očíslování).
 
@@ -616,9 +612,9 @@ Nechť $$R$$ je položka $$\tau$$ a $$T=\left\{\varphi_{0}, \varphi_{1}, \ldots\
 
 1. Za $$\tau_{0}$$ vezmi atomické tablo pro $$R$$. $$V$$ případě $$(*)$$ vezmi lib. $$c \in L_{C} \backslash L$$, v případě () za $$t$$ vezmi term $$t_{1}$$. Dokud to lze, aplikuj následující kroky.
 2. Nechť $$v$$ je nejlevější vrchol v co nejmenší úrovni již daného tabla $$\tau_{n}$$ obsahující výskyt položky $$P$$, který není redukovaný na nějaké bezesporné větvi skrze $$v$$. (Neexistuje-li $$v$$, vezmi $$\tau_{n}^{\prime}=\tau_{n}$$ a jdi na (4).)
-3. <br>
-  **a.** Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V případě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.<br>
-  **b.** Je-li $$P$$ tvaru (\#) a ve $$v$$ má $$i$$-tý výskyt, ta $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé z $$\tau_{n}$$ připojením atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$, přičemž za $$t$$ vezmi term $$t_{i}$$.
+3. \\
+   **a.** Není-li $$P$$ tvaru (\#), za $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé $$\mathrm{z} \tau_{n}$$ přidáním atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$. V případě $$\left({ }^{*}\right)$$ za $$c$$ vezmi $$c_{i}$$ pro co nejmenší možné $$i$$.<br>
+   **b.** Je-li $$P$$ tvaru (\#) a ve $$v$$ má $$i$$-tý výskyt, ta $$\tau_{n}^{\prime}$$ vezmi tablo vzniklé z $$\tau_{n}$$ připojením atomického tabla pro $$P$$ na každou bezespornou větev skrze $$v$$, přičemž za $$t$$ vezmi term $$t_{i}$$.
 4. Za $$\tau_{n+1}$$ vezmi tablo vzniklé z $$\tau_{n}^{\prime}$$ přidáním $$T \varphi_{n}$$ na každou bezespornou větev neobsahující $$T \varphi_{n}$$. (Neexistuje-li $$\varphi_{n}$$, vezmi $$\tau_{n+1}=\tau_{n}^{\prime}$$.)
 
 Systematické tablo z $$T$$ pro $$R$$ je výsledkem uvedené konstrukce.
