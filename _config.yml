@@ -19,7 +19,7 @@ sidebar_limit: "55em"        # css limit of showing side bar
 # Menu
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "README.md", icon: info-circle}
+  - {file: "about.md", icon: info-circle}
   - {file: "projects.md", icon: project-diagram }
   - {file: "music.md", icon: music }
   - {file: "references.md", icon: address-card}
@@ -33,12 +33,12 @@ external:                    # see http://fontawesome.com/icons
 
 # References items
 references:
+  - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
+  - {title: Telegram, icon: telegram-icon.png, url: "t.me/yagareas" }
+  - {title: Matrix, icon: matrix-icon.png, url: "@jc:matrix.ucw.cz" }
   - {title: Github, icon: "github-icon.png", url: "https://github.com/yagarea/"}
   - {title: StackOverflow, icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
   - {title: Bandcamp, icon: "bandcamp-icon.png", url: "https://bandcamp.com/yagarea"}
-  - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
-  - {title: Instagram, icon: "instagram-icon.png", url: "", note: "Soon"}
-  - {title: Facebook, icon: "facebook-icon.png", url: "", note: "Soon"}
 
 plugins:
   - jekyll-feed
@@ -72,3 +72,5 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
+
+
