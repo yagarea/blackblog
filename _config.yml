@@ -48,7 +48,7 @@ plugins:
 
 # Render options
 disable_disk_cache: false
-exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_meta", "katex.min.js"]
+exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_meta", "katex.min.js", "makefile"]
 include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
