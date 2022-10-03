@@ -15,9 +15,7 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 
 **- Jan Černý**
 
-<!--
 ![Me](/assets/meta/me.jpg)
--->
 
 ## Moto
 
