@@ -4,7 +4,8 @@ permalink: "/events/"
 layout: page
 ---
 
-Zde najdete seznam budoucích akcí na které můžeme se na nich domluvit.
+Zde najdete seznam budoucích akcí na které můžeme se na nich domluvit. Tuto stránku
+můžete editovat [zde](https://github.com/yagarea/blackblog/blob/master/single-pages/events.md?plain=1).
 
 Formát je:
 
