@@ -15,7 +15,6 @@ Formát je:
 
 ## Návrhy
 
-- 04\. 10\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - Cross    (Honza Č.)
 - 16\. 10\. \- **[Hexis, Drom, Tengri](https://www.crossclub.cz/cs/program/7043-mad-cross/)** - Cross
 - 24\. 10\. \- **Sarasota, Cake Talk** -  Na Slamniku
 - 25\. 10\. \- **[Author&Punisher a Perturbator](https://obscure.cz/cs/tickets/detail/id/398)** - Lucerna
@@ -26,7 +25,7 @@ Formát je:
 - 08\. 11\. \- **[Saturnus](https://obscure.cz/cs/tickets/detail/id/518)** - Futurum
 - 16\. 11\. \- **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
 - 18\. 11\. \- **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
-- 15\. 12\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa (hanspaulka)  (Honza Č.)
+- 15\. 12\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.)
 
 ## Povinné
 
@@ -36,4 +35,5 @@ Formát je:
 
 ## Proběhlé
 
-- 02\. 10\. \- **[The Ocean](https://guides.ticketmaster.cz/event/the-ocean/the-ocean-2021-underdogs/)** - Underdogs
+- 02\. 10\. \- **[The Ocean](https://guides.ticketmaster.cz/event/the-ocean/the-ocean-2021-underdogs/)** - Underdogs (Pavel S.)
+- 04\. 10\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - Cross    (Honza Č.)
