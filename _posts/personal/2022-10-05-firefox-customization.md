@@ -8,10 +8,12 @@ layout: post
 
 This article is about my journey to customize my firefox browser for maximal workflow and efficiency.
 
-![Firefox layout](/assets/img/other/firefox-layout.png)
 
 - .
 {:toc}
+
+![Firefox layout](/assets/img/other/firefox-layout.png)
+
 ---
 
 ## UserChrome styles
