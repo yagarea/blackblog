@@ -3,6 +3,7 @@ title:  "Mechanika tuhého tělesa"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-08-mechanika-tuheho-telesa.md?plain=1"
 layout: post
 ---
 
