@@ -1,7 +1,7 @@
 ---
 title:  "Firefox customization"
 category: "Personal"
-language: "CZ"
+language: "EN"
 latex: false
 layout: post
 ---
@@ -14,20 +14,26 @@ This article is about my journey to customize my firefox browser for maximal wor
 
 ## UserChrome styles
 
-At first you need to create chrome directory in your profile folder. 
-It is located in `~/.mozilla/firefox/6zw5phcp.default-release/chrome`. In this directory create plain text file `userChrome.css`. 
+At first you need to create chrome directory in your profile folder.
+It is located in `~/.mozilla/firefox/profile-name.default-release/chrome`. In this directory create plain text file `userChrome.css`. 
 
-Than you need to enable user profile styles. Type `about:config` in to firefox search bar. 
-Firefox will warn you to proceed with caution. Click accept button and search for `userprof`. 
-Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` preference to toggle the value from false to true. 
-This will take effect after restarting firefox. 
+Than you need to enable user profile styles. Type `about:config` in to firefox search bar.
+Firefox will warn you to proceed with caution. Click accept button and search for `userprof`.
+Double-click the `toolkit.legacyUserProfileCustomizations.stylesheets` preference to toggle the value from `false` to `true`.
+This will take effect after restarting firefox.
 
 ### Hide tab bar
 Because I use TreeTab extension to manage my tabs the default tab bar is just wasting space on my screen. So I decided to hide it. To hide Tab bar you need to add following code to your `userChrome.css` file:
 
 ```css
+/* Hide tabs */
 #TabsToolbar {
   visibility: collapse !important;
+}
+
+/*Hide sidebar menu */
+#sidebar-box > #sidebar-header {
+  display: none;
 }
 ```
 Full effect will take after restart.
@@ -84,12 +90,10 @@ There is config file (with added white spaces to make it easier to read):
 }
 ```
 
-### uBlock
+<!--
+### uBlock origin
 
 ### uMatrix
 
 ### KeepassXC
-
-### Dark reader
-
-
+-->
