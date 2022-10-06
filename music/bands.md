@@ -20,7 +20,7 @@ Gojira      | Progressive groove post-metal | France    | Eden arena 7.5. 2012  
 Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
 Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
-Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017                               | ♥ ★
+Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017 : Forum Karlín 10.9. 2022     | ♥ ★
 Asking Alexandria   | Metalcore         | UK        | Forum Karlín 29.3. 2017                               |
 Stick to your guns  | Metalcore         | USA       | Forum Karlín 29.3. 2017                               |
 Chelsea grin        | Deathcore         | USA       | Forum Karlín 4.10. 2019                               | ♥ ★
@@ -48,7 +48,7 @@ At the gates    | Melodic death metal           | Sweden    | Brutal Assault 9.8
 Evoken          | Funeral doom metal            | USA       | Brutal Assault 9.8. 2022 | ★
 
 Darkest hour    | Metalcore                             | USA       | Brutal Assault 10.8. 2022 |
-Lorna shore     | Blackned symphonic deathcore          | USA       | Brutal Assault 10.8. 2022 | ♥ ★
+Lorna shore     | Blackned symphonic deathcore          | USA       | Brutal Assault 10.8. 2022 : Forum Karlín 10.9. 2022 | ♥ ★
 Tesseract       | Djent                                 | UK        | Brutal Assault 10.8. 2022 | ★
 Alcest          | Blackgaze                             | France    | Brutal Assault 10.8. 2022 | ★
 Jinjer          | Progressive groove metal / Deathcore  | Ukraine   | Brutal Assault 10.8. 2022 | ♥ ★
@@ -97,8 +97,11 @@ Ahab                | Doom metal                        | Germany   | Brutal Ass
 Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 | ⛬
 Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Assault 13.8. 2022 |
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
+
+While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 |
+
 {% endbands %}
 
 ## Ostatní
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
-Agressive tyrans, Kolosus, Magua
+Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy
