@@ -4,7 +4,7 @@ permalink: "/events/"
 layout: page
 ---
 
-Zde najdete seznam budoucích akcí na které můžeme se na nich domluvit. Tuto stránku
+Zde najdete seznam budoucích akcí, na které se můžeme domluvit. Tuto stránku
 můžete editovat [zde](https://github.com/yagarea/blackblog/blob/master/single-pages/events.md?plain=1).
 
 Formát je:
@@ -16,9 +16,9 @@ Formát je:
 ## Návrhy
 
 - 16\. 10\. \- **[Hexis, Drom, Tengri](https://www.crossclub.cz/cs/program/7043-mad-cross/)** - Cross
-- 24\. 10\. \- **Sarasota, Cake Talk** -  Na Slamniku
+- 24\. 10\. \- **[Sarasota, Cake Talk](https://bandzone.cz/koncert/530334-praha-na-slamniku-koncert-na-slamniku)** -  Na Slamniku
 - 25\. 10\. \- **[Author&Punisher a Perturbator](https://obscure.cz/cs/tickets/detail/id/398)** - Lucerna
-- 26\. 10\. \- **Sarasota** - na Beanii     (Honza Č.)
+- 26\. 10\. \- **Sarasota** - na Beanii (Honza Č.)
 - 26\. 10\. \- **[I like trains](https://goout.net/cs/i-like-trains/szxahfr/)** - Underdogs
 - 28\. 10\. \- **[Laibach](https://obscure.cz/cs/tickets/detail/id/337)** - Akropolis (Davis S.)
 - 29\. 10\. \- **[Abbie Falls](https://goout.net/cs/abbie-falls+no-face-no-case+33-movement/szveedt/)** - Futurum
