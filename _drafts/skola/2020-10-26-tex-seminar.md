@@ -6,8 +6,85 @@ latex: true
 layout: post
 ---
 
+## Úvod
+- Text bere:
+    - texový zdroják (`.tex`)
+- Tex produkuje:
+    - log (`.log`)
+    - tfm (`.tfm`)
+    - dvi (`.dvi`)
+- dvi je syrový formát, který je potřeba převést na konrétní 
+    - DVIPS: dvi -> post script
+    - DVIPFS: dvi -> pdf
+    - XDVI: zobrazí dvi
+- dříve existoval initex (dnes už dohromady s texovou binárkou), který umí načítat šablony
+- pdftex - verze texu, která rovnou produkuje `.pdf` soubory
+
+## Primitiva
+- Všechny makra se skládají z jiných maker nebo primitiv.
+
+1. Primitiva - nejhlubší funkce texu
+2. plainTeX - sbírka základních maker
+3. Latex (pozor je potvora a předefinovává plaintex makra), Context, OPmac
+
+- zůstává po zlomení řádku
+    - box, písmenka, ligantury, null
+    - **discretionary break** - rozdělení slov na konci řádků
+        - skládá se z 
+            - *prebreak* - co má být před zalomeným místem
+            - *postbreak* - co má být po zalomeném místě
+            - *nobreak* - co tam má být, když to v tom místě není zlomené
+    - **whatsit** - věc, která není vidět v textu, ale je důležité jejich umístění
+    - **vertikální materiál**
+- Pokud se nachází za místem zlomu, tak zmizí
+    - **lepidlo** (`\glue`) - věc co má horizontální rozměr, roztažitelnost a stlačitelnost (používají se na leaders). Pružnost může být i nekonečná.
+    - **kern** (`\kern`) - to stejné co glue, akorát nepruží
+    - **penalta** - neviditelná a bezrozměrná věc. Ovlivňuje řádkový zlom tím, že dává pokuty za zlomy řádků. Používá se rozsah -10000 do 10000 s tím, že okraje intervalu se berou jako nekonečno.
+    - **math** on/off
+
+## Zalamování řádků
+
+### Kde se může lámat řádek
+- před lepidlem, za podmínky, že před nímž je `nondiscardeble` a není uvnitř matematiky
+- před kernem, je-li za ním lepidlo a není uvnitř matematiky
+- math off, je-li za ním lepidlo
+- discretionary breaky
+- penalta pokud je menší než 10000
+
+### Jak funguje zalamování řádků
+
+badness
+
+- `\leftship`
+- `\rightship`
+- `\pretolerance`
+- `\tolerance`
+
+- `\hyphenpenalty` - penalta za explicitní rozdělení (platím za běžná dělení slov)
+- `\exhyphenpenalty` - prebreak má prázdný
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Jednotky
-- **pt** - Tiskařský bod = 1/72.27 palce ~ 1/3 mm (V poscriptu 1/72 palce)
+- **pt** - Tiskařský bod = 1/72.27 palce ~ 1/3 mm (V postcriptu 1/72 palce)
 - **cm** - centimetr
 - **em** - ?
 
@@ -34,7 +111,7 @@ Dělí se na **zabudované** a **uživatelské**. Typ má registry 0 až 255.
 - `\countdef\pageno=0` - count def existuje pro všechny typy
 - `\newcount\pocitadlo` = interně `\countdef\pocitadlo=...`
 - `\newinsert` - ?
-- `\
+- 
 
 ### Boxové registry
  Mohu obsahovat:
