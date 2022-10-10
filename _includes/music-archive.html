@@ -1,0 +1,19 @@
+<div class="archive-list">
+	{% for music_post in site.music %}
+		{% if music_post.bilingual and music_post.bilingual != "" %}
+			{% if music_post.language == page.main_lang %}
+			<ul class="hfill">
+				<li><a href="{{ music_post.url }}">{{ music_post.title }}</a></li>
+				<li>
+					[<a href="{{ music_post.url }}">EN</a>/<a href="{{ music_post.bilingual }}">CZ</a>] <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
+				</li>
+			</ul>
+			{% endif %}
+		{% else %}
+		<ul class="hfill">
+			<li><a href="{{ music_post.url }}">{{ music_post.title }}</a></li>
+			<li>[<a href="{{ music_post.url }}">{{ music_post.venue }}</a>] <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div></li>
+		</ul>
+		{% endif %}
+	{% endfor %}
+</div>
