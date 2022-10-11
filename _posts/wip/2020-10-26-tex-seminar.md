@@ -4,6 +4,7 @@ category: "Matfyz"
 language: "CZ"
 latex: true
 wip: true
+edit: "https://github.com/yagarea/blackblog/blob/large-content-update/_posts/wip/2020-10-26-tex-seminar.md?plain=1"
 layout: post
 ---
 
