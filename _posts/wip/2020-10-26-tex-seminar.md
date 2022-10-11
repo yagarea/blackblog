@@ -82,7 +82,11 @@ badness
 
 
 
+---
 
+Staré poznámky
+
+---
 
 
 ## Jednotky
@@ -104,7 +108,7 @@ Dělí se na **zabudované** a **uživatelské**. Typ má registry 0 až 255.
 - `\box` -
 
 ### Alokace registrů
-- Vijimky
+- Vyjímky
 	- `\count0...9` - číslo stránky
 		- `\count0` - číslo stránky
 	- `\box255` - přenos obsahu strany do output rutiny
