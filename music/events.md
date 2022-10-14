@@ -20,6 +20,7 @@ Formát je:
 - 25\. 10\. \- **[Author&Punisher a Perturbator](https://obscure.cz/cs/tickets/detail/id/398)** - Lucerna
 - 26\. 10\. \- **Sarasota** - na Beanii (Honza Č.) [matfyzácká kapela]
 - 26\. 10\. \- **[I like trains](https://goout.net/cs/i-like-trains/szxahfr/)** - Underdogs
+- 27\. 10\. \- **[Trautenberk + Cocotte minute](https://www.ticketstream.cz/akce/trautenberk-v-lucerne-krest-noveho-alba-159283)** - velká Lucerna (Vítek S.)
 - 28\. 10\. \- **[Laibach](https://obscure.cz/cs/tickets/detail/id/337)** - Akropolis (Davis S.)
 - 29\. 10\. \- **[Abbie Falls](https://goout.net/cs/abbie-falls+no-face-no-case+33-movement/szveedt/)** - Futurum
 - 08\. 11\. \- **[Saturnus](https://obscure.cz/cs/tickets/detail/id/518)** - Futurum
