@@ -93,12 +93,9 @@ Doporučená literatura:
         - **Atharvavéd** - pro léčitele a zaříkavače, je magie
 - védské bohoslužby se účastní 4 brahmani
     - každý čte z jedné sbírky
-    - 
 
 
-
-
-- 4 zákldní varny
+- 4 základní varny
     - Brahmani
     - kšatrijové
     - vaišjové - řemeslníci, pracující lidé, c jsou samostatní
@@ -110,4 +107,28 @@ Doporučená literatura:
 - v roce 1947 byl kastovní systém zrušen ale stále přetrvává na vesnicích a odlehlých oblastech
     - už indie měla 2 prezidenty co byli dalité
     - sice se můžete stát prezidentem, ale nemůžeš se oženit jak by se oženit jak bys chtěl
-- 
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Brahmani - lidé co píšou brahmy
+
+Indická literatura se dělí:
+- šruti
+    - to co je slyšeno
+    - Védy - kanonické, zjevené
+- smriti
+    - to co bylo tradováno
+
+- bráhmany
+
+- trimurtý
+    - trojice hlavních bohů
+    - snížení pozice ostatních bohů
+
+- jsou dva druhy poznání
+    - **nižší**
+        - dělejte oběti, uctívejte bohy, bohové vás za odměnu inkarnují někam fajn
+    - **vyšší**
+        - cílem je uvědomit si, že "jsem brahma", což bohové ani brahmani nechtějí, protože nechtějí přijít o služebníka, uvědoměním přeruším reinkarnaci a znovu se nenarodím
+

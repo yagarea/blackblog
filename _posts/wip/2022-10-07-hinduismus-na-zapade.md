@@ -59,6 +59,8 @@ layout: post
 - unitáři
     - neuznávají svatou boží trojici
     - opak trinitarismu
+    - silně humanistické
+    - bůh je velmi neurčitý a abstraktní
     - říkali si univerzalisté a snažili se spojovat východní náboženství se západním
     - žena TGM byla unitářka, samotný Masarik tím byl ovlivněn
     - Norbert Fabián Čapek - zakladatel českého unitářství
@@ -86,8 +88,10 @@ layout: post
 - Jaroslav Vrchlický
     - 1884 příběh o Savitrí z Mahábháraty
 
-## Reformní hnutů v Indii
+## Reformní hnutí v Indii
 - reakce na zájem západu o indii
+- návrat k Védským a upanišadovým kořenům
+- posílení monoteistických tendencí
 - snaha o oproštění od zaostalých tradic
 - snaha o společenské reformy
 - Indové se často odvolávají univerzálně na Védy, ikdyž to v nich není
@@ -100,7 +104,68 @@ layout: post
 - Dájánand Sarasvátí (1824 - 1883), Árja-samádž
 - Rámakrišna paramahamsa (1834 - 1886)
     - jednoduchá, niterná a nenásilná zbožnost
+    - velká labuť
+        - labuť je jízdním zvířetem samotného Brahmy
+        - podle indické tradice má labuť schopnost od sebe oddělit mléko a vodu
+            - je to symbol oddělení pravdy od klamání
+    - "K bohu krišnovi přišel brahman a uctíval ho obřady a myslel si, že to ocení. Pak přišel nevzdělaný rolník, který ho také uctíval nějakým velmi neformálním způsobem. Krišna to ocenil stejně. Brahman se urazil. Krišna mu dá kalich s olejem a řekne mu aby obešel město a nic nerozlil. Brahman to splní. Krišna se ho zeptá kolikrát myslil na jeho svatost. a brahman, řekne, že ani jednou protože se soustředil na kalich."
+    - hlásá, že spásy může dojít každý kdo je zbožný, tak aby to neslo mravní ovoce, ale nemusí být ind a může být i křesťan, muslim, atd.
 - Vivékánanda svámí (1863 - 1902)
+    - člověk co donesl zvěst Ramakrišna paramahamsi na západ
+    - jeho učení velmi atraktivní pro intelektuály
+    - přinesl myšlenku, že i křesťanství je ok, stejně jako všechny náboženství a ne lpět jen na křesťanství
 
-| Vědecká orientalisika a indologie         | alternativní náboženství<br>spiritismus, unitářství, Theosofická společnost |
-| Snaha být věrný indii a jejich tradicím   | pozápadněno, uplně obrácené interpretace |
+
+| Vědecká orientalistika a indologie        | alternativní náboženství<br>spiritismus, unitářství, Theosofická společnost |
+| Snaha být věrný indii a jejich tradicím   | pozápadněno, úplně obrácené interpretace |
+
+## Guru Ošo
+- kontroverzní
+- dynamická meditace
+    - v 7:00 ráno cvičení - nedělají to ani jeho stoupenci
+
+## Orientální renesance
+- společnost 19. století je velmi ateistická
+- je touha po nové renesanci
+- v česku indické texty zaujali obrozence
+- 1893 - Parlament náboženství světa
+    - doprovodná akce výstavy techniky
+    - nečekaně velmi úspěšná akce
+    - nepřijel žádný muslim
+    - nepozval nikoho z Indiánů
+    - velmi optimistická atmosféra
+    - silně zdůrazňována myšlenka míru a rovnosti náboženství
+    - velký úspěch měl hinduismus a budhismus
+- 1896 - společnost védanty
+- 1897 - Rámakršnovy mise
+
+## Theosofická společnost
+- Zakladatelé:
+    - Jelena Petrova Blavatskaja (1831 - 1891)
+    - Henry Steel Olcott (1832 - 1907)
+- spostředkovali indické texty západu (předklad ale i výklad)
+- výklady byli přizpůsobeny západnímu esoterismu
+- dodnes západ rozumí indické tradici skrze výklad
+    - reinkarnace - západ: cool věc, indie: nejvyšší trest
+    - karma - západ: odplata za něco špatného, indie: skóre podle kterého se reinkarnuji
+- duchovní evoluce k bratrství lidstva
+    - snaha objevit "pranábožeství" co nás všechny spojuje
+- srovnávací studium náboženství a filosofie
+- studium sil v člověku
+- zakládali knihovny v indii a tím zachovali spoustu rukopisů
+    - indové neřeší stáří textů tak nemají ani tendenci archivovat/zachovávat
+- 1879 - Adjár (Čennaj)
+- 1907 - Annie Wood Besentová (1847 - 1933)
+    - velmi neúspěšné pokusy o konvertování lidí k hinduismu
+    - 1917 - předsedkyně Indického národního kongresu
+- nakonec theosofická společnost zahynula, kvůli jejím podvodům neseriózností
+- Charles Webster Leadbeater (1847 - 1933)
+    - homosexuál
+- 1911 - odhalení avatara (Kalkí), Maitréja, Kristus
+    - Džiddu Krišnamurtí (1895 - 1986)
+    - 1929 - rozchod s Theosofickou společností - veřejně prohlásil, že není avatar
+- Německá větev se oddělila a založila antroposofickou společnost
+- 
+
+
+
