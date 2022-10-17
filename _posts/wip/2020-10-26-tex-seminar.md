@@ -66,19 +66,100 @@ badness
 - `\exhyphenpenalty` - prebreak má prázdný
 
 
+///////////////////////////////////////////////////////////////////////////////////////
+
+- `\null` - prázdný `\hbox` o rozměrech 0x0
+- _baseline_ se česky řekne "účaří"
+- část stránky, do které se opravdu sází se jmenuje "zrcadlo"
+- `\hboxto100mm{...}` - roztáhni obsah hboxu na 100mm
+- `\hboxspread5mm{...}`- přičti k přirozené šířce 5mm
+- `\thinspace` - malá mezera, např mezi hodnotou a jednotkami (`5\thinspace kg`)
+- `\relax` - nedělej nic, používá se na oddělení parametrů od textu
 
 
+## Jednotky
+- **pt** - Tiskařský bod = 1/72.27 palce ~ 1/3 mm (V postcriptu 1/72 palce), reprezentuje prostorové rozlišení
+- **pb** - big point = 1/72 palce
+- **cm** - centimetr
+- **in** - palec
+- **sp** - scaled point (menší než vlnová délka viditelného světla)
+- **em**, **ex** - relativní vůči velikosti aktuálního fontu (_em_ = šířka velkého `M`, _ex_ = výška malého `x`)
+
+## Rozměry pružných věcí
+- nekonečno
+    - `\fil`
+    - `\fill`
+    - `\filll`
+- zapisuje se `10pt plus <...> minus <...> {}`
+- Vlastnosti
+    - základní rozměr - pokud nesedí, tak se roztahuje nebo smršťuje glue
+    - roztažitelnost - $$(f_0, f_1, f_2, f_3)$$
+    - smrštitelnost - $$(f_0, f_1, f_2, f_3)$$
+
+## Algoritmus na zarovnávání řádků
+
+> 1\. spočítáme rozměry a roztažnosti  
+> 2\. deformujeme glue  
+> 3\. určíme zbylé rozměry (výška řádku)  
+> 4\. spočítat badness  
+> &nbsp;&nbsp;&nbsp;&nbsp; $$\max\left(10000, \lceil 100 \cdot \left(\frac{\text{deformace}}{\text{pružnost}}\right)^3 \rceil\right)$$
 
 
+- `\vrule` - věc co má výšku a šířku a (bez parametrů vysoka 0.4pt)
+    - `\vrule width 0pt height 12pt depth 5pt`
+- `\strut` - podpěra
+- `\unhbox` - ?
+- `\raise 3pt \hbox {...}`
+- `\lower`
+
+## Vertikální zarovnávání
+- `\maxdepth`
+- `\boxmaxdepth`
+- `\vtop`
+- `\vcenter`
+
+## Vznik horizontálního seznamu
+- box-like
+    - písmenko (znak z fontu)
+    - ligatury (slitky) 
+        - např: fi, ff, fl, ffi, ffl
+        - `-` = $$\text{-}$$, `--` = $$\text{--}$$, `---` = $$\text{---}$$
+    - `\hbox`, `\vbox`
+    - akcenty
+- linky
+    - `\vrule`
+- discretionary break
+    - `\discretionary {} {} {}`
+    - nebo generuje algoritmus na dělení slov
+- kerny
+    - `\kern 10pt`
+    - automatické kerny (např: zvětšování mezer mezi kulatými znaky)
+    - `\/` - italická korekce (tex doplní kern podle informace naklonění fontu)
+- glue
+    - `\hskip rozměr roztažnost` - explicitní
+    - `\hfil` - glue s rozměrem 0 a roztažností nekonečno prvního řadu
+    - `\hfill` - glue s rozměrem 0 a roztažností nekonečno druhého řadu
+    - `\hss` - "horizontal stretch or shrink" - mezera co se umí libovolně zmáčknout nebo roztáhnout
+    - `\quad` - mezera velká 1em
+    - `\qquad` - ?
+- penalty
+    - `\nobreak` - penalta 10000
+    - `\break` - penalta -10000
+    - `\allowbreak` - penalta 0
+- vertikální materiál
+    - `\vjust {...}`
+    - věc co se přidá za řádkem
 
 
-
-
-
-
-
-
-
+### Užitečná makra
+- `\line{...}` = `\hbox to \hsize`
+- `\leftline{x}` = `\line{x\hss}`
+- `\rightline{x}` = `\line{\hss x}`
+- `\centerline{x}` = `\line{\hfill\hfill x \hfill}` - x se objeví ve 2/3 řádku
+- `\smash{...}` =
+- `\phantom{...}` = box o velikosti zadaného materiálu, ale je prázdný
+- `\hphantom` = nemá výšku
+- `\vphantom` = nemá šířku
 
 
 
@@ -89,10 +170,6 @@ Staré poznámky
 ---
 
 
-## Jednotky
-- **pt** - Tiskařský bod = 1/72.27 palce ~ 1/3 mm (V postcriptu 1/72 palce)
-- **cm** - centimetr
-- **em** - ?
 
 ---
 
@@ -108,7 +185,7 @@ Dělí se na **zabudované** a **uživatelské**. Typ má registry 0 až 255.
 - `\box` -
 
 ### Alokace registrů
-- Vyjímky
+- Výjimky
 	- `\count0...9` - číslo stránky
 		- `\count0` - číslo stránky
 	- `\box255` - přenos obsahu strany do output rutiny
