@@ -33,7 +33,7 @@ layout: post
 
 ### Operace s relacemi
 - **inverze** - Relace $$R^{-1} \subseteq X \times Y$$ je inverzní k relaci 
-$$R \subseteq X \times Y$$, pokud $$xR^{-1}y$$ právě tehdy když $$yRx$$.
+$$R \subseteq Y \times X$$, pokud $$xR^{-1}y$$ právě tehdy když $$yRx$$.
 - **skládání** - $$[a, c] \in (R \circ S) \Leftrightarrow \exists b \: [a, b] \in R 
 \land [b, c] \in S$$
 
