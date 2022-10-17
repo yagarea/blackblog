@@ -83,11 +83,11 @@ layout: post
 
 ## Důležité funkce vyššího řádu
 
-| **map** :: (a -> b) -> [a] -> [b]                | `map funkce seznam`               | vrátí seznam výstupů funkce `funkce` pro jednostlivé prvky v `seznam` |
-| **foldr** :: (a -> b -> b) -> b -> [a] -> b      | `foldr funkce akumulátor seznam`  |  |
+| **map** :: (a -> b) -> [a] -> [b]                | `map funkce seznam`               | vrátí seznam výstupů funkce `funkce` pro jednotlivé prvky v `seznam` |
+| **foldr** :: (a -> b -> b) -> b -> [a] -> b      | `foldr funkce akumulátor seznam`  | projde všechny prvky v seznamu `seznam` zleva do prava aplikuje na ně funkci `funkce` a vrátí výsledek |
 | **scanr** :: (a -> b -> b) -> b -> [a] -> [b]    | `?`                               | foldr, co vrací seznam všech mezivýsledků |
 | **filter** :: (a -> Bool) -> [a] -> [a]          | `filter funkcePodminka seznam`    | vrátí seznam obsahující prvky z `seznam` pro které `funkcepodmínka` vrátila `True` |
-| **foldl** :: (a -> b -> a) -> a -> [b] -> a      | `foldl funkce akumulátor seznam`  |  |
+| **foldl** :: (a -> b -> a) -> a -> [b] -> a      | `foldl funkce akumulátor seznam`  | projde všechny prvky v seznamu `seznam` zprava doleva aplikuje na ně funkci `funkce` a vrátí výsledek  |
 | **scanl** :: (b -> a -> b) -> b -> [a] -> [b]    | `?`                               | foldl, co vrací seznam všech mezivýsledků |
 
 </div>
