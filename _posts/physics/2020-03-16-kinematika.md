@@ -3,6 +3,7 @@ title:  "Kinematika"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-03-16-kinematika.md?plain=1"
 layout: post
 ---
 
