@@ -3,6 +3,7 @@ title:  "Hydrostatika"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-10-hydrostatika.md?plain=1"
 layout: post
 ---
 

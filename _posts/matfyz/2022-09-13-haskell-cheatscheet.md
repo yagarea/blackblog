@@ -25,7 +25,7 @@ layout: post
 | **product** :: (Num a) => [a] -> a    | `product seznam`  | produkt všech prvků v seznamu |
 | **maximum** :: (Ord a) => [a] -> a    | `maximum seznam`  | maximum ze seznamu            |
 | **minimum** :: (Ord a) => [a] -> a    | `minimum seznam`  | minimum ze seznamu            |
-| **and** :: [Bool] -> Bool             | `and seznam`      | vrátí `True` pokud všechny prvky seznamu jsou `True` |
+| **and** :: [Bool] -> Bool             | `and seznam`      | vrátí `True` pokud všechny prvky seznamu jsou `True`        |
 | **or** :: [Bool] -> Bool              | `or seznam`       | vrátí `True` pokud alespoň jeden prvek ze seznamu je `True` |
 
 ## Logika
@@ -45,8 +45,8 @@ layout: post
 
 | **fst** :: (a,b) -> a                    | `fst dvojice`               | vrátí první prvek z `dvojice` |
 | **snd** :: (a,b) -> a                    | `snd dvojice`               | vrátí druhý prvek z `dvojice` |
-| **all** :: (a -> Bool) -> [a] -> Bool    | `all funkcePodmínka seznam` | vrátí `True` pokud pro všechny prvky seznamu vrátí `funkcePodmínka` `True` | `all odd [1,3..100] = True` |
-| **any** :: (a -> Bool) -> [a] -> Bool    | `any funkcePodmínka seznam` | vrátí `True` pokud pro alespoň jeden prvek v seznamu vrátí `funkcePodmínka` `True` | `any even [1..100] = True` |
+| **all** :: (a -> Bool) -> [a] -> Bool    | `all funkcePodmínka seznam` | vrátí `True` pokud pro všechny prvky seznamu vrátí `funkcePodmínka` `True`         | `all odd [1,3..100] = True` |
+| **any** :: (a -> Bool) -> [a] -> Bool    | `any funkcePodmínka seznam` | vrátí `True` pokud pro alespoň jeden prvek v seznamu vrátí `funkcePodmínka` `True` | `any even [1..100] = True`  |
 
 ## Operace se seznamy
 
@@ -55,20 +55,20 @@ layout: post
 | **++** :: [a] -> [a] -> [a]       | `prvníSeznam ++ druhýSeznam`<br>`prvníString ++ druhýString` | připojí `druhýSeznam` za `prvníSeznam`     |
 | **!!** :: [a] -> Int -> a         | `seznam !! n`                                                | vrátí `n`-tý prvek seznamu                 |
 | **length** :: [a] -> Int          | `length seznam`                                              | vrátí počet prvků v seznamu                |
-| **head** :: [a] -> a              | `head seznam`                                                | vrátí první prvek seznamu (nefunguje na prázdných seznamech)                 |
-| **tail** :: [a] -> [a]            | `tail seznam`                                                | vrátí seznam bez prvního prvku (nefunguje na prázdných seznamech)            |
-| **init** :: [a] -> [a]            | `init seznam`                                                | vrátí seznam bez posledního prvku (nefunguje na prázdných seznamech)         |
-| **last** :: [a] -> a              | `last seznam`                                                | vrátí poslední prvek v seznamu (nefunguje na prázdných seznamech)            |
+| **head** :: [a] -> a              | `head seznam`                                                | vrátí první prvek seznamu (nefunguje na prázdných seznamech)           |
+| **tail** :: [a] -> [a]            | `tail seznam`                                                | vrátí seznam bez prvního prvku (nefunguje na prázdných seznamech)      |
+| **init** :: [a] -> [a]            | `init seznam`                                                | vrátí seznam bez posledního prvku (nefunguje na prázdných seznamech)   |
+| **last** :: [a] -> a              | `last seznam`                                                | vrátí poslední prvek v seznamu (nefunguje na prázdných seznamech)      |
 | **null** :: [a] -> Bool           | `null seznam`                                                | vrátí `True` pokud je seznam prázdný       |
 | **id** :: a -> a                  | `id a`                                                       | identita = vrátí to co dostane             |
 | **replicate** :: Int -> a -> [a]  | `replicate n prvek`                                          | vrátí seznam obsahující `prvek` `n`krát    |
 
 ## Řazení seznamů
 
-| **compare** | Ord a => a -> a -> Ordering         | `compare a b`                                                | vrátí výsledek porovnání `a` a `b`                      |
-| **sort**    | (Ord a) => [a] -> [a]               | `sort seznam`                                                | seřadí seznam                                           |
-| **sortBy**  | (a -> a -> Ordering) -> [a] -> [a]  | `sortBy funkceCoPorovnává seznam`                            | setřídí seznam podle `funkceCoPorovnává`                |
-| **sortOn**  | Ord b => (a -> b) -> [a] -> [a]     | `sortOn převodníFunkce seznam`                               | seřadí seznam podle porovnání výsledků `převodníFunkce` |
+| **compare** | Ord a => a -> a -> Ordering         | `compare a b`                      | vrátí výsledek porovnání `a` a `b`                      |
+| **sort**    | (Ord a) => [a] -> [a]               | `sort seznam`                      | seřadí seznam                                           |
+| **sortBy**  | (a -> a -> Ordering) -> [a] -> [a]  | `sortBy funkceCoPorovnává seznam`  | setřídí seznam podle `funkceCoPorovnává`                |
+| **sortOn**  | Ord b => (a -> b) -> [a] -> [a]     | `sortOn převodníFunkce seznam`     | seřadí seznam podle porovnání výsledků `převodníFunkce` |
 
 ## Další funkce
 
@@ -83,11 +83,11 @@ layout: post
 
 ## Důležité funkce vyššího řádu
 
-| **map** :: (a -> b) -> [a] -> [b]                | `map funkce seznam`               | vrátí seznam výstupů funkce `funkce` pro jednostlivé prvky v `seznam` |
-| **foldr** :: (a -> b -> b) -> b -> [a] -> b      | `foldr funkce akumulátor seznam`  |  |
+| **map** :: (a -> b) -> [a] -> [b]                | `map funkce seznam`               | vrátí seznam výstupů funkce `funkce` pro jednotlivé prvky v `seznam` |
+| **foldr** :: (a -> b -> b) -> b -> [a] -> b      | `foldr funkce akumulátor seznam`  | projde všechny prvky v seznamu `seznam` zleva do prava aplikuje na ně funkci `funkce` a vrátí výsledek |
 | **scanr** :: (a -> b -> b) -> b -> [a] -> [b]    | `?`                               | foldr, co vrací seznam všech mezivýsledků |
 | **filter** :: (a -> Bool) -> [a] -> [a]          | `filter funkcePodminka seznam`    | vrátí seznam obsahující prvky z `seznam` pro které `funkcepodmínka` vrátila `True` |
-| **foldl** :: (a -> b -> a) -> a -> [b] -> a      | `foldl funkce akumulátor seznam`  |  |
+| **foldl** :: (a -> b -> a) -> a -> [b] -> a      | `foldl funkce akumulátor seznam`  | projde všechny prvky v seznamu `seznam` zprava doleva aplikuje na ně funkci `funkce` a vrátí výsledek  |
 | **scanl** :: (b -> a -> b) -> b -> [a] -> [b]    | `?`                               | foldl, co vrací seznam všech mezivýsledků |
 
 </div>
