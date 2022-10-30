@@ -17,7 +17,7 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 
 - $$\mathrm{VF}_{\P} \quad$$ - množina všech výrokových formulí nad $$\P$$
 - $$\operatorname{var}(\varphi) \quad$$ - množina všech výrokových proměnných (písmen) vyskytujících se ve $$\varphi$$
-- $$v(\varphi) \quad$$ - ohodnocení výroku  \quad$$\varphi$$
+- $$v(\varphi) \quad$$ - ohodnocení výroku $$\varphi$$
 - $$\bar{v}(\varphi) \quad$$ - hodnota výroku $$\varphi$$
 - $$v \models \varphi \quad$$ - $$v$$ je splňující ohodnocení výroku $$\varphi$$, $$v$$ je model výroku $$\varphi$$
 - $$\models \varphi \quad$$ - $$\varphi$$ je splněn při každém ohodnocení, tj. je tautologií, $$\varphi$$ je pravdivý v každém modelu
@@ -99,7 +99,7 @@ Klauzule je disjunkce literálů. Prázdnou klauzulí rozumíme $$\perp$$.
 
 {% def %}
 ### CNF
-Výrok je v konjunktivně normálním tvaru (**C**onjunctive **N** **F**orm)$$, je-li konjunkcí klauzulí. Prázdným výrokem v **CNF** rozumíme $$T$$.
+Výrok je v konjunktivně normálním tvaru (**C**onjunctive **N**oarmal **F**orm), je-li konjunkcí klauzulí. Prázdným výrokem v **CNF** rozumíme $$\top$$.
 {% enddef %}
 
 {% def %}
@@ -163,7 +163,7 @@ Třída modelů $$T$$ je $$M^{\P}(T)=\{v \in M(\P) \mid v \models \varphi$$ pro 
 {% enddef %}
 
 {% def %}
-### Sémantika vzhledem $$\mathrm{k}$$ teorii
+### Sémantika vzhledem k teorii
 Nechť $$T$$ je teorie nad $$\P$$. Výrok $$\varphi$$ nad $$\P$$ je
 
 - pravdivý v $$T$$ ( platí $$v T$$ ), pokud platí v každém modelu $$T$$, značíme $$T \models \varphi$$. Ríkáme, že $$\varphi$$ je (sémantickým) důsledkem teorie $$T$$.
@@ -192,6 +192,7 @@ Výroková teorie $$T$$ nad $$\P$$ je
 - **kompletní**, jestliže není sporná a každý výrok (formule) je v ní pravdivý (dokazatelná) či lživý (zamítnutelná), tj. žádný výrok není nezávislý (tj. $$\forall \varphi \in V F_{\P}: T \vdash \varphi$$ neboT $$\neg \neg \varphi$$ ),
 - **extenze** teorie $$T^{\prime}$$ nad $$\P^{\prime}$$, jestliže $$\P^{\prime} \subseteq \P$$ a $$\theta^{\P}\left(T^{\prime}\right) \subseteq \theta^{\P}(T)\left(\operatorname{Thm}^{\P^{\prime}}\left(T^{\prime}\right) \subseteq \operatorname{Thm}^{\P}(T)\right)$$, o extenzi $$T$$ teorie $$T^{\prime}$$ řekneme, že je jednoduchá, pokud $$\P^{\prime}=\P$$, a konzervativní, pokud $$\theta^{\P^{\prime}}\left(T^{\prime}\right)=\theta^{\P}(T) \cap V_{\P^{\prime}}\left(\operatorname{Thm}^{\P^{\prime}}\left(T^{\prime}\right)=\operatorname{Thm}^{\P}(T) \cap V_{\P^{\prime}}\right)$$,
 - **ekvivalentní** s teorií $$T^{\prime}$$, jestliže $$T$$ je extenzí $$T^{\prime}$$ a $$T^{\prime}$$ je extenzí $$T$$.
+- **úplná**, pokud nemá žádné volné výroky. V takovém případě ma jen jeden model.
 
 Jinými slovy je teorie $$T$$ splnitelná (bezesporná), když má model, kompletní, právě když má jediný model, extenze $$T^{\prime}$$, právě když modely $$T$$ jsou podmnožinou modelů $$T^{\prime}$$, ekvivalentní s $$T^{\prime}$$, pokud mají stejné modely.
 
