@@ -132,3 +132,43 @@ Indická literatura se dělí:
     - **vyšší**
         - cílem je uvědomit si, že "jsem brahma", což bohové ani brahmani nechtějí, protože nechtějí přijít o služebníka, uvědoměním přeruším reinkarnaci a znovu se nenarodím
 
+
+## Klasické období
+- Brahma - zosobnění kosmického principu
+    - jinak známé jako: Íšvara, Pradžápati, Puruša a Virádž
+    - má ženu Sarasvatí
+    - má 4 tváře -  jeho žena byla tak cudná, že uhýbala jeho pohledům, tak mu narostli 4 tváře, aby se mu nemohla schovat
+    - často zpodobňován jako s konvicí vody z gangy
+    - společně s ženou stvořili život
+    - je garant času a jeho správného fungování
+        - Brahmův den = 4320 000 let = 1000 mahájug
+            - 4x 108 = 432 - 108 je v indii je oblíbené číslo,1x2x2x3x3x3, jejich růžence mají tolik kuliček
+        - věky:
+            - krtajuga/satajuga - zlatý věk - 1728 000 let - lidé jsou nejzpobožnější
+            - trétajuga - stříbrný věk - 1296 000 let
+            - dváparajuga - bronzový věk - 864 000 let
+            - kalijuga - železný věk - 432 000 let
+        - čas je cyklický
+        - Brahma jednou zahyne a znovu se zrodí
+    - guny - složky prkrti
+        - 3 základní složky hmoty
+            - **tamas** - temnota, tíže 
+            - **radžas** - vášeň, činorodost (např v česneku a cibuli)
+            - **sattva** - čistota, dobrotivost, světlo
+- Šiva
+    - křikloun, způsobuje zvraty (povodně, nemoci, pohromy)
+    - atributy: měsíc (pán čásu), kobra (zemřít na uštknutím hadem, je privilegium)(pánem smrti)
+    - král tance
+    - stvořil vesmír v tanci a stále ho udržuje tancem naživu
+    - ztvárněn jak tančí na démonovi, má v ruce buben (celý vesmír je stvořený tónem mantry Ohm)
+    - jízdní zvíře je tygr
+    - má třetí oko
+    - velmi asketický a plodný(zpodobňuje se sochou penisu)
+    - má trojzubec
+    - utrhl si penis
+    - jeho žena je Sati
+        - tak moc meditovala, až začala hořet. Šiva z toho byl smutný, a truchlí pod horou Kailáš. Bohové ho chtějí zpátky aby řídil svět. Tak se Satí inkarnuje do Parvátý aby šivu zbalila.
+- Višua
+    - druhořádé ve védách - sluneční božstvo - ranní, polední a večerní slunce
+    - ideální pro baktickou zbožnost - láskyplné uctívání, milující božstvo
+    - 
