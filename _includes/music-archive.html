@@ -3,7 +3,8 @@
 <div class="archive-list">
 	{% for music_group in music_groups %}
 	<h2>{{ music_group.name }}</h2>
-		{% for music_post in music_group.items %}
+		{%assign music_group_items = music_group.items | sort: "date" | reverse %}
+		{% for music_post in music_group_items %}
 			<ul class="hfill">
 				<li><a href="{{ music_post.url }}">{{ music_post.title }}</a></li>
 				<li>

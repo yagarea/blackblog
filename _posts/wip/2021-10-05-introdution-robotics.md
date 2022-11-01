@@ -4,6 +4,7 @@ category: "Matfyz"
 language: "EN"
 latex: true
 wip: true
+edit: 
 layout: post
 ---
 
@@ -68,6 +69,9 @@ There is book _Leonardos robots_. Japan had mechanic dolls.
 > with the first or second laws.
 
 by Isaac Asimov, 1942, Runaround
+
+---
+
 
 ## Kinematics
 - Motion and transformation
@@ -138,6 +142,9 @@ R & T \\ 0...0 & 1
 \end{bmatrix}
 $$
 
+## Homogenní souřadnice
+Bod $$p = (x,y,t)^{T}, x,y,z,w \in \R$$
+
 ### Forward kinematics (3D)
 
 $$P = f(q)$$
@@ -158,11 +165,12 @@ $$ q = [q_1,q_2,...,q_n]$$
 ////////////////////obrázek hodněosového manipulátoru
 
 
+
 ### Denavit-Hartengerg
 Fictive movements which connect two systems: _rotate, move, move, rotate_.
 That can be generalized to any sequence.
 
-### Tyical system composition
+### Typical system composition
 Chains composed of rotational and translatioal joints only:
 - joint $$k$$ connects links $$k_{i-1}$$ and $$k_i$$
 - link $$k$$ connects joints $$k_i$$ and $$k_{i+1}$$

@@ -161,6 +161,61 @@ badness
 - `\hphantom` = nemá výšku
 - `\vphantom` = nemá šířku
 
+## Fonty
+
+### Fontdimen
+
+1. sklon
+2. standardní mezera
+3. standardní roztažnost
+4. standardní stlačitelnost
+5. em
+6. ex
+7. extra mezera
+
+- `\sfcode <kódznaku> = přirozené číslo`
+- `\spacefactor`
+    - defualtně = 1000
+- znak:
+    - sf - sfcode
+    - ale pokud sf < 1000 < sfcode
+        - sf - 1000
+- box/linka
+    - sf - 1000
+- mezera
+    - velikost = fd2 + fd7 pokud fs $$\geq$$ 1000
+    - roztažnost = $$fd3 . \frac{sf}{1000}$$
+    - smrštitelnost = $$fd4 . \frac{sf}{1000}$$
+
+## Plainové sfcodes
+- `\nonfrenchspacing`
+- `A-Z`: 999
+- `a-z`: 1000
+- `.!?`: 3000
+- `,`  : 1250
+- `()` : 0
+- `:`  : 2000
+- `;`  : 1500
+
+- `\spaceskip` = glue
+
+1. `\discretionary`
+    - `\-` explicitní discretioanry - vkládá `\hyphenchar` - znak ve fontu na dělení slov
+2. `\hyphenation{nej-vět-ší}`
+3. patterns `.ne1`
+
+
+## Vertikální seznam
+
+- `\prevdepth` - odsazení ze shora
+- `\baselineskip plus minus` - pružnost mezi řádky
+- `\lineskip plus minus` - 
+- `lineskuplimit <dimen>` - 
+
+- box (rule)
+- 
+
+
 
 
 ---
@@ -178,7 +233,7 @@ Dělí se na **zabudované** a **uživatelské**. Typ má registry 0 až 255.
 
 ### Typy:
 - `\count` - 31-bitové číslo se znaménkem
-- `\dimen` - sign + 30 bitů ve sp=$$2^{-16}$$pt [14bitů]+[16bitů] 16383.9999pt
+- `\dimen` - sign + 30 bitů ve sp=$$2^{-16}$$ pt [14bitů]+[16bitů] 16383.9999pt
 - `\skip` - roztažnost 13+16 bitů
 - `\muskup` -
 - `\task` -
@@ -222,7 +277,7 @@ ale efektivní)
 - `\parskip`[`=`]`10pt` - dosazení hodnoty s jednotkami
 - `\leftskip=0.1\hsize` - dosazení násobku jiného registru 
 - `\showthe\count5` - vypsat obsah registru do konzole
-- `\count\count5` - obsah reistru číslo hodnoty v registru 5
+- `\count\count5` - obsah registru číslo hodnoty v registru 5
 
 ### Aritmetika
 - `\advanced` _registr_ `by` _hodnota_
