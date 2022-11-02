@@ -34,7 +34,7 @@ Vzhled lístků je ovlivněn hlavně druhem úpravy. V tomto kroku je velmi důl
 ### 2. Čich - suché lístky
 - **Vždy** Do Gaiwanu (nebo varné nádoby Vaší preference) nalijte vroucí vodu, nechte ohřát a vodu vylijte. Až poté vložte suché lístky a na pár sekund přikryjte pokličkou, abyste nechali teplotu uvolnit ze suchých lístků aroma. Poté otevřete a přičichněte přímo k lístkům. 
 - Při popisu se nebojte používat přirovnání k vůni nejedlých věcí. Například `kůže`, `dřevo`, atd.
-- Jako popis vůně můžete použít i místo, například `Hluboký less po dešti`.
+- Jako popis vůně můžete použít i místo, například `Hluboký les po dešti`.
 
 ### 3. Čich - vlhké lístky
 - Zalijte lístky vodou o správné teplotě. Nechte louhovat jen pár vteřin a vodu vylijte. Otevřete nádobu s lístky a **nechte uniknout páru**, abyste se nespálili. Poté přičichněte k lístkům.

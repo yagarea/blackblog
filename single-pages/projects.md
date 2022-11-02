@@ -57,7 +57,7 @@ Security features:
 {% include project-card.html
 	name="Meziklasí"
 	image="/assets/img/projects/meziklasi.jpg"
-	description="This is mainly a literary project. It is a chronicle of the village of Meziklasí.<br/> You can visit it on [www.meziklasi.cz](www.meziklasi.cz)"
+	description="This is mainly a literary project. It is a chronicle of the village of Meziklasí.<br/> You can visit it on [www.meziklasi.cz](https://meziklasi.cz)"
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/xiaoxiae/meziklasi"
 %}
