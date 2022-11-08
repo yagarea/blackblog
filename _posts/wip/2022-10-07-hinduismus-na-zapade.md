@@ -165,7 +165,19 @@ layout: post
     - Džiddu Krišnamurtí (1895 - 1986)
     - 1929 - rozchod s Theosofickou společností - veřejně prohlásil, že není avatar
 - Německá větev se oddělila a založila antroposofickou společnost
-- 
 
-
-
+## Bhagván Šri Radžníš - Osho
+- velmi inteligentní a vzdělaný
+- 1953 - osvícení
+- 1971 - duchovní učitel, nejblíže tantře
+- 1974 - ášram v Púně
+- 1981 - Oregon, Rajneeshpuram
+- 1985 - Osho, opět Púna
+- Pocházel z Jinistické hodiny
+    - Jinismus - extrémně asketické náboženství
+- Velmi kritizoval kněží
+- Měl názor, že je cílem se sexem přesytit a pak s ním dát pokoj a věnovat se duchovnu
+- Vyhodili ho z univerzity, na které učil
+- začal se živit jako duchovní vůdce
+- Na západě velmi populární
+- byl na něj pokus o atentát, který přežil a uchýlil se do mlčení

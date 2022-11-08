@@ -172,3 +172,58 @@ Indická literatura se dělí:
     - druhořádé ve védách - sluneční božstvo - ranní, polední a večerní slunce
     - ideální pro baktickou zbožnost - láskyplné uctívání, milující božstvo
     - 
+
+- Višuismus (čítanka 17 - 26)
+    - klasické období
+    - eposy jsou klasickým vyjádřením indické zbožnosti
+    - Višnu
+        - Avatára = sesoupení
+        - 1. želva (kúrma)
+            - Ztratili užitečné nástroje (krávu hojnosti, atd). Bylo jim to líto, tak see rozhodli stlouct oceán mléka. Ztlučením získají zpět své věci. Také vzniká _amrita_ = požehnaný nápoj. O amritu se pak poprali bohové s démony a démoni ji získali. Višua se proto proměnil v ženu a démoni z něj nemohli spustit oči a bohové ji ukradli. Při přenášení jim ukápli 4 kapky amrity na indii.
+            - Kumbaméla - svátek
+        - 2. avatar je ryba Matsja
+        - 3. avatar je kanec /////////////////////////////////
+        - 4. avatar je pololev-polomuž Narasinha
+            - Híranjakašipua byl démon pokročilí v józe, do takové míry, že ho nikdo kromě vušui nemohl usmrtit. Za to Višuu nenáviděl. Jeho bratr začal potají uctívat višnu. Jeho to štvalo, tak za ním přišel a řekl mu ať mu višnu ukáže. Jeho bratr mu řekl, že je ve všem. Híranjakašipua se zeptal, jestli je i tomto sloupu a kopl do sloupu. Sloup se zřítil a z něho vyskočil vyšua a roztrhal ho.
+            - Svátek - Hólí
+        - 5. avatar je trpaslík Vámana
+        - 6. avatar je Parašuráma
+        - 7. avatar je Ráma
+            - indický emos rámajána
+        - 8. vatar je Kršna
+            - je modrý
+        - 9. avatar je Buddha
+            - pokus o zahrnutí budhistů do višuismu
+        - 10. avatar je Kalkí
+            - budoucí avatar
+            - na konci tohoto obdbí Kalkí převede na bílém koni věrné věřící do nového období
+    - Události klasického období
+        - 483 př kr. - podle tradice smrt Siddhárty Gótamy
+        - 468 př. kr. - podle tradice smrt Mahávíry
+        - kolem 400 př. kr. - Pánini: gramatika, védangy
+        - asi 327-325 př kr. - vpád Alexandra Velikého do severozápadní Indie
+        - 324 př. kr. - Čanragupta Maurja, zakladatel dynastie Maurů 
+        - 273 - Ašóka, buddhista
+        - 273 - 232 př. kr. - Ašóka
+        //////////////////////////////////
+        - 20 - 178 - Kušánská říše
+        - 78 - 123 - Kaniška, buddhista
+        - 150 - 300 - nejstarší dharmašástry (Mánavadharmašástra)
+    - Šruti
+        - kakononické, vyslechnuté
+        - čtyři védské sahnity včetně brahman, áranjak a upanišad
+    - Smriti
+        - netexty
+        - véganga, eposy, šástry, purány, sútry
+    - Mahabharata
+        - 100 000 dvojverší
+        - na konci 1. tisíciletí před kristem
+        - Bhárátovce: kuruovci A Pánduovci
+        - Pět synů rále Pandua a Kunti
+        - Judhišthira, Aržuna, Bhíma, dvojčtata //////////////////////
+
+
+
+- Krišna
+    - je modrý
+
