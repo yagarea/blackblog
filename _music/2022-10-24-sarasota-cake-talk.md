@@ -8,13 +8,13 @@ layout: post
 
 ## Cake Talk
 
-{% include video.html src="/assets/vid/music-reports/2022-10-24-sarasota-cake-talk/cake-talk.mp4" %}
+{% include video.html src="/assets/music-reports/2022-10-24-sarasota-cake-talk/cake-talk.mp4" %}
 
 ## Sarasota
 
-{% include video.html src="/assets/vid/music-reports/2022-10-24-sarasota-cake-talk/sarasota1.mp4" %}
+{% include video.html src="/assets/music-reports/2022-10-24-sarasota-cake-talk/sarasota1.mp4" %}
 
-{% include video.html src="/assets/vid/music-reports/2022-10-24-sarasota-cake-talk/sarasota2.mp4" %}
+{% include video.html src="/assets/music-reports/2022-10-24-sarasota-cake-talk/sarasota2.mp4" %}
 
-{% include video.html src="/assets/vid/music-reports/2022-10-24-sarasota-cake-talk/sarasota3.mp4" %}
+{% include video.html src="/assets/music-reports/2022-10-24-sarasota-cake-talk/sarasota3.mp4" %}
 
