@@ -45,8 +45,6 @@ collections:
     output: true
     permalink: /music/:title/
 
-
-
 plugins:
   - jekyll-feed
   - jekyll-gzip
