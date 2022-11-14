@@ -217,13 +217,19 @@ Indická literatura se dělí:
         - véganga, eposy, šástry, purány, sútry
     - Mahabharata
         - 100 000 dvojverší
+        - mnoho příběhů, bajek, vyprávění, podobenství
         - na konci 1. tisíciletí před kristem
         - Bhárátovce: kuruovci A Pánduovci
-        - Pět synů rále Pandua a Kunti
+        - Pět synů krále Pandua a Kunti
         - Judhišthira, Aržuna, Bhíma, dvojčtata //////////////////////
-
-
 
 - Krišna
     - je modrý
 
+-----------------------------------
+
+## šástry
+    - spisy, příručky jak žít
+        - o utužení společenského života, preferuje brahmany
+        - pečování o osobní stav,
+        - káma - o naplňování tělesnych potřeb

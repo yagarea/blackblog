@@ -22,3 +22,14 @@ This is list of my favorite places on the internet for discovering new interesti
 - **[Youtube]()** - Untransparent a unfair recommendations, search and monetizations. Strong censorship
    full of double standards. Actively fights downloading content.
 - **[Spotify]()** - Same things as youtube and behind paywall. Only contains mainstream artists.
+
+## Real life sources
+These are in my experience best ways to find out about artists and music events.
+
+- **Posters** - The most conventional place to find out about concerts.
+- **Stickers** - Since late 90' and early 2000' underground scene uses stickers as
+   promotion. You can find them on backside of road signs, on wall of bathroom in clubs, etc.
+- **Word of mouth** - Best times are shared with friends. Invite them to events and be
+   grateful is someone invites you.
+
+
