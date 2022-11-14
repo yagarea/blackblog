@@ -47,9 +47,10 @@
 <body>
 	<header class="icons">
 		{% unless site.show_logo != true and site.sidebar or site.navigation and site.external %}
-			<a href="/">
-				<img src="/assets/meta/logo.png" alt="Black block logo" class="logo">
+			<a class="logo" href="/">
+				<img src="/assets/meta/logo.png" alt="Black block logo">
 			</a>
+			<br>
 		{% endunless %}
 		{% unless site.show_title != true and site.sidebar or site.navigation and site.external %}
 			<a href="{{ '/' | relative_url }}" class="title">{{ site.title | escape }}</a>
