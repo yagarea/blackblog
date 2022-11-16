@@ -14,9 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-
-- 08\. 11\. \- **[Saturnus](https://obscure.cz/cs/tickets/detail/id/518)** - Futurum
-- 14\. 11\. \- **[Bury tomorrow, August burns red, Novelists](https://obscure.cz/cs/tickets/detail/id/387)** - Meetfactory (Honza Č.)
 - 16\. 11\. \- **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
 - 18\. 11\. \- **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
 - 15\. 12\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
@@ -41,4 +38,5 @@ Formát je:
 - 27\. 10\. \- **[Trautenberk + Cocotte minute](https://www.ticketstream.cz/akce/trautenberk-v-lucerne-krest-noveho-alba-159283)** - velká Lucerna (Vítek S.)
 - 28\. 10\. \- **[Laibach](https://obscure.cz/cs/tickets/detail/id/337)** - Akropolis (Davis S.)
 - 29\. 10\. \- **[Abbie Falls](https://goout.net/cs/abbie-falls+no-face-no-case+33-movement/szveedt/)** - Futurum
-
+- 08\. 11\. \- **[Saturnus](https://obscure.cz/cs/tickets/detail/id/518)** - Futurum
+- 14\. 11\. \- **[Bury tomorrow, August burns red, Novelists](https://obscure.cz/cs/tickets/detail/id/387)** - Meetfactory (Honza Č.)
