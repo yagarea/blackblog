@@ -33,12 +33,13 @@ external:                    # see http://fontawesome.com/icons
 
 # References items
 references:
-  - {title: Email, icon: "email-icon.png", url: "mailto:j.cerny.zdar@gmail.com"}
-  - {title: Telegram, icon: telegram-icon.png, url: "t.me/yagareas" }
-  - {title: Matrix, icon: matrix-icon.png, url: "@jc:matrix.ucw.cz" }
-  - {title: Github, icon: "github-icon.png", url: "https://github.com/yagarea/"}
-  - {title: StackOverflow, icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
-  - {title: Bandcamp, icon: "bandcamp-icon.png", url: "https://bandcamp.com/yagarea"}
+  - {title: Email, nickname: "cerny@matfyz.cz", icon: "email-icon.png", url: "mailto:cerny@matfyz.cz"}
+  - {title: Telegram, nickname: "yagareas", icon: "telegram-icon.png", url: " https://t.me/yagareas"}
+  - {title: Matrix, nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png", url: "https://matrix.to/#/@jc:matrix.ucw.cz" }
+  - {title: Github, nickname: "yagarea", icon: "github-icon.png", url: "https://github.com/yagarea/"}
+  - {title: StackOverflow, nickname: "Jan Černý", icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
+  - {title: Bandcamp, nickname: "yagarea", icon: "bandcamp-icon.png", url: "https://bandcamp.com/yagarea"}
+
 
 collections:
   music:
