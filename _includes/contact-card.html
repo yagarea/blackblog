@@ -1,0 +1,17 @@
+<table>
+	{% for ref in include.contacts %}
+		<tr>
+			<td>
+				<a href="{{ ref.url }}">
+					<img src="/assets/icons/{{ ref.icon }}" alt="{{ ref.title }}" style="max-height: 100px; max-width: auto;" />
+				</a>
+			</td>
+			<td>
+				<h2>{{- ref.title -}}: <a href="{{- ref.url -}}">{{- ref.nickname -}}</a></h2>
+				{% if ref.note != null and ref.note != "" %}
+					{{ ref.note }}
+				{% endif %}
+			</td>
+		</tr>
+	{% endfor %}
+</table>
