@@ -1,6 +1,6 @@
 ---
 title: "Vim cheatsheet"
-category: "Personal"
+category: "Software"
 language: "CZ"
 latex: true
 layout: post

@@ -1,6 +1,6 @@
 ---
 title:  "Firefox customization"
-category: "Personal"
+category: "Software"
 language: "EN"
 latex: false
 layout: post

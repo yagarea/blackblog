@@ -1,6 +1,6 @@
 ---
 title:	  "Useful commands and utilities I use all the time"
-category: "Personal"
+category: "Software"
 language: "EN"
 latex:    true
 layout:   post

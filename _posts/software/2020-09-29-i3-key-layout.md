@@ -1,6 +1,6 @@
 ---
 title:  "My i3wm keyboard layout"
-category: "Personal"
+category: "Software"
 language: "EN"
 latex: false
 layout: post
