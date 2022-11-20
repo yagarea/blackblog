@@ -8,7 +8,7 @@ layout:   post
 ## Internet sources
 This is list of my favorite places on the internet for discovering new interesting artists.
 
-### Best sources
+### Good sources
  - **[Bandcamp](https://bandcamp.com/)** - my personal favorite site for music publishing.
     It has great user interface, artists has a lot of ways to communicate with fans
     and most importantly you can by and download music as file. I wish this would be the
