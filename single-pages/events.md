@@ -14,8 +14,7 @@ Formát je:
 ```
 
 ## Návrhy
-- 16\. 11\. \- **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
-- 18\. 11\. \- **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
+- 1\. 12\. \- **[Hand grenade, Stellaris, Define me, Bound to break](https://www.facebook.com/events/1194478941130518/)** - Futurum Music Bar
 - 15\. 12\. \- **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
 
 ## Povinné
@@ -40,3 +39,5 @@ Formát je:
 - 29\. 10\. \- **[Abbie Falls](https://goout.net/cs/abbie-falls+no-face-no-case+33-movement/szveedt/)** - Futurum
 - 08\. 11\. \- **[Saturnus](https://obscure.cz/cs/tickets/detail/id/518)** - Futurum
 - 14\. 11\. \- **[Bury tomorrow, August burns red, Novelists](https://obscure.cz/cs/tickets/detail/id/387)** - Meetfactory (Honza Č.)
+- 16\. 11\. \- **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
+- 18\. 11\. \- **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
