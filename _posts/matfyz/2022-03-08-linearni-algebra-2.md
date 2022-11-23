@@ -1090,11 +1090,11 @@ diagonálním tvaru.
 $$ J =
 
 \left( {\begin{array}{ccccc}
-    J_{k_{1}}(\lambda_{1})  & 0                      & \cdots & 0 \\
-    0                       & J_{k_{2}}(\lambda_{2}) & \ddots & \vdots \\
-    \vdots                  & 0                      & \ddots & 0 \\
-    \vdots                  & \vdots                 & \ddots & 0 \\
-    0                       & 0                      & \cdots & J_{k_{n}}(\lambda_{n})
+    J_{k_{1}}(\lambda_{1})  & 0                      & 0 & \cdots & 0 \\
+    0                       & J_{k_{2}}(\lambda_{2}) & \ddots & \ddots & \vdots \\
+    \vdots                  & 0                      & \ddots & \ddots & 0 \\
+    \vdots                  & \vdots                 & \ddots & \ddots & 0 \\
+    0                       & 0                      & \cdots & 0       & J_{k_{n}}(\lambda_{n})
 \end{array} } \right)
 $$
 
