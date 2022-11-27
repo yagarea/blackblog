@@ -1,6 +1,7 @@
 # [Blackblog.cz](https://blackblog.cz/)
-Source code of my personal blog.
+Source code and content of my personal blog.
 
 ---
 
-Code is licensed under **GPLv3**. Text and media are my intellectual property.
+Code is licensed under **GPLv3**. Text and media are my intellectual property unless
+stated otherwise.
