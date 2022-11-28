@@ -32,7 +32,7 @@ Kdy $$\phi$$ je úhel svírající vektory $$x$$ a $$y$$.
 {% enddef %}
 
 **Vlastnosti:**
-- \$$X^TX = \sum_{i=1}^n \geq 0$$
+- $$X^TX = \sum_{i=1}^n \geq 0$$$$$$
 - velikost vektoru $$\left\| \vec{x} \right\| = \sqrt{x^Tx}$$
 - symetrie $$x^Ty = y^Tx$$
 - lineární po složkách $$(x + x')^Ty = x^Ty + x'^Ty$$ a $$(\alpha x)^Ty = \alpha(x^Ty)$$ ale neplatí $$(x + x')^T(y+y') \neq x^Ty + x'^Ty'$$
@@ -48,19 +48,19 @@ Komplexně sdružené číslo k číslu $$a+bi$$ je $$\overline{a+bi} = a - bi$$
 Buď $$V$$ je vektorový prostor nad $$\R$$. Pak skalární součin je zobrazení 
 $$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \R$$, splňující pro všechna $$x,y,z \in V$$ a $$\alpha \in \R$$:
 - $$\langle x,x \rangle \geq 0$$ a rovnost nastane pouze pro $$x = 0$$
-- \$$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$
-- \$$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$
-- \$$\langle x,y \rangle = \langle y,x \rangle$$
-    - \$$\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$$
+- $$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$$$$$
+- $$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$$$$$
+- $$\langle x,y \rangle = \langle y,x \rangle$$$$$$
+    - $$\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$$$$$$
 
 ### Skalární součin nad $$\C$$
 Buď $$V$$ je vektorový prostor nad $$\C$$. Pak skalární součin je zobrazení 
 $$\langle\ \cdot , \cdot \rangle : V^2 \rightarrow \C$$, splňující pro všechna $$x,y,z \in V$$ a $$\alpha \in \C$$:
 
 - $$\langle x,x \rangle \geq 0$$ a rovnost nastane pouze pro $$x = 0$$
-- \$$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$
-- \$$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$
-- \$$\langle x,y \rangle = \overline{\langle y,x \rangle}$$
+- $$\langle x+y,z \rangle = \langle x,z \rangle + \langle y,z \rangle$$$$$$
+- $$\langle \alpha x,y \rangle = \alpha \langle x,y \rangle$$$$$$
+- $$\langle x,y \rangle = \overline{\langle y,x \rangle}$$$$$$
 
 Není lineární ve druhé složce.
 
@@ -101,13 +101,13 @@ $$ \left\| x + y \right\|^2 = \left\| x \right\| ^2 = \left\| y \right\| ^2 $$
 
 ---
 
-\$$
+\(
 \left\| x + y \right\|^2 = 
 \langle x+y,x+y \rangle = 
 \langle x,x \rangle + \overbrace{\langle x,y \rangle}^{0} + \overbrace{\langle x,y \rangle}^{0} + \langle y,y \rangle =
 \langle x,x \rangle + \langle y,y \rangle =
 \left\| x \right\|^2 + \left\| x \right\|^2
-$$
+\)
 
 {% endtheorem %}
 
@@ -172,7 +172,7 @@ Buď $$V$$ vektorový prostor nad $$\R$$ nebo $$\C$$. Pak norma je zobrazeni $$\
 
 1. $$\left\| x \right\| \geq 0$$ pro všechna $$x \in V$$, a rovnost pauze pro $$x \neq 0$$
 2. $$\left\|\alpha x\right\| = \left\| \alpha \right\| \cdot \left\|x\right\|$$ pro všechna $$x \in V$$ a pro všechna $$\alpha \in \R$$ resp. $$\alpha \in \C$$
-3. \$$\left\| x+y \right\| \leq \left\|x\right\| + \left\| y \right\|$$
+3. $$\left\| x+y \right\| \leq \left\|x\right\| + \left\| y \right\|$$$$$$
 
 {% enddef%}
 
@@ -183,11 +183,11 @@ Norma indukovaná skalárním součinem je normou.
 ---
 
 1. z definice
-2. \$$\left\| \alpha x \right\| =
+2. \(\left\| \alpha x \right\| =
 \sqrt{ \langle \alpha x, \alpha x \rangle} =
 \sqrt{ \alpha \overline{\alpha} \langle x,x \rangle} =
 \sqrt{ \alpha \overline{\alpha}} \sqrt{\langle x, x\rangle} = 
-|\alpha| \cdot \|x\|$$
+|\alpha| \cdot \|x\|\)
 3. vyplývá z trojúhelníkové nerovnosti
 {% endclaim %}
 
@@ -204,8 +204,8 @@ $$ \| x - y \|^{2} + \| x + y \|^{2} = 2\| x \|^{2} + 2\| y \|^{2} $$
 Metriku na množině $$M$$ definujeme jako zobrazení $$d: M^{2} \rightarrow \R$$ splňující:
 
 1. $$d(x,y) \leq 0$$, rovnost pouze pro $$x=y$$
-2. \$$d(x,y) = d(y,x)$$
-3. \$$d(x,y) \leq d(x,y) + d(y,x)$$
+2. \(d(x,y) = d(y,x)\)
+3. \(d(x,y) \leq d(x,y) + d(y,x)\)
 {% enddef %}
 
 {:.no_toc}
@@ -265,7 +265,7 @@ $$
 ---
 
 $$ x = \sum^{n}_{i=1} \alpha_{i}z_{i} \rightarrow$$ lineární kombinace\\
-\$$ \langle x, z_{k} \rangle = \sum^{n}_{i=1} \langle x, z_{i} \rangle z_{k} = \alpha_{k} \langle z_{k}, z_{k} \rangle = \alpha_{k}$$
+$$ \langle x, z_{k} \rangle = \sum^{n}_{i=1} \langle x, z_{i} \rangle z_{k} = \alpha_{k} \langle z_{k}, z_{k} \rangle = \alpha_{k}$$$$$$
 
 Představuje projekci na bazické vektory
 {% endtheorem %}
@@ -276,7 +276,7 @@ Vstup: lineárně nezávislé vektory $$x_{1}, \ldots, x_{n} \in V$$
 
 > 1. for $$k:=1$$ to $$n$$
 > 2. &nbsp;&nbsp;&nbsp;&nbsp;$$y_{k} := \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
-> 3. &nbsp;&nbsp;&nbsp;&nbsp;\$$ z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$
+> 3. &nbsp;&nbsp;&nbsp;&nbsp;$$ z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$$$$$
 > 4. end for
 
 Výstup: $$z_{1},\ldots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\ldots,x_{n}\}$$
@@ -284,7 +284,7 @@ Výstup: $$z_{1},\ldots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\ld
 {% proof %}
 Matematickou indukcí:
 
-1. \$$n=1$$
+1. $$n=1$$$$$$
 2. Indukční předpoklad: $$z_{1}, \ldots, z_{n-1}$$ je ortonormální bází $$span\{x_{1},\ldots,x_{n-1}\}$$,
 $$y_{n}$$ je nenulové z lineární nezávislosti, je dobře definovaná a má jednotkovou délku
 pak už jen dokážeme, že je kolmý a že tvoří bázi.
@@ -328,7 +328,7 @@ Je skalárním součinem a báze $$B$$ je v něm ortonormální bází:
 
 Stačí ověřit z definic:
 
-1. \$$\langle x,x \rangle = [x]^{T}_{B}\overline{[x]}_{B} \geq 0$$
+1. $$\langle x,x \rangle = [x]^{T}_{B}\overline{[x]}_{B} \geq 0$$$$$$
 2. linearita v první složce vyplývá z linearity souřadnic
 3. symetrie také ze symetrie souřadnic
 
@@ -418,9 +418,9 @@ $$ x_{_{U}} = \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i}$$
 $$x-x_{_{U}} =
 \sum^{n}_{i=1} \langle x,z_{i} \rangle z_{i} - \sum^{m}_{i=1} \langle x,z_{i} \rangle z_{i} \in U^{\perp}$$
 
-- \$$y \in U$$
-- \$$x-x_{_{U}} \in U^{\perp}$$
-- \$$x_{_{U}} - y \in U$$
+- $$y \in U$$$$$$
+- $$x-x_{_{U}} \in U^{\perp}$$$$$$
+- $$x_{_{U}} - y \in U$$$$$$
 
 Tudíž $$(x - x_{_{0}}) \perp (x_{_{U}} - y)$$. Použijeme pythagorovu větu:
 
@@ -468,13 +468,13 @@ Buď $$V$$ vektorový prostor a $$M,N \subseteq V$$. Pak
 
 1. $$M^{\perp}$$ je podprostor $$V$$
 2. je-li $$M \subseteq N$$ pak $$M^{\perp} \subseteq N^{\perp}$$
-3. \$$M^{\perp} = span(M)^{\perp}$$
+3. $$M^{\perp} = span(M)^{\perp}$$$$$$
 
 ---
 
 1. Ověřením vlastností podprostoru
 2. Buď $$x \in N^{\perp}$$, tedy $$\langle x,y \rangle = 0 \; \forall y \in N \langle x,y \rangle = 0 \; \forall y \in M \subseteq N$$ a proto $$x \in M^{\perp}$$
-3. \$$M \subseteq span(M)$$ a dle 2. $$M^{\perp} \subseteq span(M)^{\perp}$$
+3. $$M \subseteq span(M)$$ a dle 2. $$M^{\perp} \subseteq span(M)^{\perp}$$$$$$
 {% endclaim %}
 
 {% theorem %}
@@ -504,10 +504,10 @@ $$
 #### Důsledek: Vlastnosti ortogonálního doplňku podprostoru
 Buď $$U \Subset V$$. Potom platí
 
-1. \$$\dim V = \dim U + \dim U^{\perp}$$
-2. \$$V = U + U^{\perp}$$
-3. \$$U \cap U^{\perp} = \{0\}$$
-4. \$$U = (U^{\perp})^{\perp}$$
+1. $$\dim V = \dim U + \dim U^{\perp}$$$$$$
+2. $$V = U + U^{\perp}$$$$$$
+3. $$U \cap U^{\perp} = \{0\}$$$$$$
+4. $$U = (U^{\perp})^{\perp}$$$$$$
 5. Je-li $$z_{1},\ldots,z_{m}$$ ortonormální báze $$U$$, a je-li $$z_{1},\ldots,z_{m},
 z_{m+1},\ldots, z_{n}$$ její rozšíření na ortonormální bází $$V$$, pak $$z_{m+1},\ldots,z_{n}$$
 je ortonormální báze $$U^{\perp}$$.
@@ -544,9 +544,9 @@ Buď $$A \in \R^{m \times n}$$. Pak $$R(A) \oplus Ker(A) = \R^{n}$$
 ### Větička o vlastnostech matice $$A$$ versus $$A^{T}A$$
 Buď $$A \in \R^{m \times n}$$. Pak
 
-1. \$$Ker(A^{T}A) = Ker(A)$$
-2. \$$R(A^{T}A) = R(A)$$
-3. \$$rank(A^{T}A) = rank(A)$$
+1. $$Ker(A^{T}A) = Ker(A)$$$$$$
+2. $$R(A^{T}A) = R(A)$$$$$$
+3. $$rank(A^{T}A) = rank(A)$$$$$$
 
 ---
 
@@ -599,7 +599,7 @@ $$P := A(A^{T}A)^{-1}A^{T} ( = AA^{T} \text{ pro ortonormální bázi})$$
 
 - $$P$$ je symetrická
 - platí $$P^2 = P$$
-- \$$S(P) = S(A) \rightarrow rank(P) = rank(A)$$
+- $$S(P) = S(A) \rightarrow rank(P) = rank(A)$$$$$$
 {% enddef %}
 
 {% claim %}
@@ -731,8 +731,8 @@ Buď $$Q \in \R^{n \times n}$$ ortogonální. Pak
 
 ---
 
-1. \$$\langle Qx Qy \rangle = \left( Qx \right)^{T} Qy - x^{T}Q^{T}Qy = x^{T}I_{n}y = x^{T} = \langle x,y \rangle$$
-2. \$$\| Q_{x} \| = \sqrt{\left\langle Qx, Qx \right\rangle} - \sqrt{\left\langle x,x \right\rangle} = \|x\| $$
+1. $$\langle Qx Qy \rangle = \left( Qx \right)^{T} Qy - x^{T}Q^{T}Qy = x^{T}I_{n}y = x^{T} = \langle x,y \rangle$$$$$$
+2. $$\| Q_{x} \| = \sqrt{\left\langle Qx, Qx \right\rangle} - \sqrt{\left\langle x,x \right\rangle} = \|x\| $$$$$$
 
 $$\implies$$ zobrazení $$x \rightarrow Qx$$ zachová úhly a délky jen pro ortogonální matice
 {% endtheorem %}
@@ -776,8 +776,8 @@ $$
 $$
 
 ### Vlastnosti determinantů
-- \$$ \det(A \cdot B) = \det(A) \cdot \det(B)$$
-- \$$ \det(A^{-1}) = det(A)^{-1}$$
+- $$ \det(A \cdot B) = \det(A) \cdot \det(B)$$$$$$
+- $$ \det(A^{-1}) = det(A)^{-1}$$$$$$
 
 ### Determinantská složitost
 {% theorem %}
@@ -897,8 +897,8 @@ počtu lineárně nezávislých vlastních vektorů, které odpovídají $$\lamb
 {% claim %}
 #### Součin a součet vlastních čísel:
 
-1. \$$\det(A) = \lambda_{1} \cdot \ldots \cdot \lambda_{n}$$
-2. \$$trace(A) = \lambda_{1} + \ldots + \lambda_{n}$$
+1. $$\det(A) = \lambda_{1} \cdot \ldots \cdot \lambda_{n}$$$$$$
+2. $$trace(A) = \lambda_{1} + \ldots + \lambda_{n}$$$$$$
 {% endclaim %}
 
 A je regulární právě tehdy když $$0$$ není její vlastní číslo.
@@ -958,14 +958,14 @@ Podobné matice mají stejná vlastní čísla
 
 ---
 
-\$$A = SBS^{-1}\\
+$$A = SBS^{-1}\\
 \\
 P_{A}(\lambda) = \\
 \det(A - \lambda I_{n}) = \\
 \det(SBS^{-1} - \lambda SIS^{-1}) = \\
 \det\left( S \left( B - \lambda I_{n} \right) S^{-1} \right) = \\
 \det(S) \cdot \det(B - \lambda I_{n}) \cdot \det(S^{-1}) = \\
-\det(B - \lambda I_{n}) = P_{B}(\lambda)$$
+\det(B - \lambda I_{n}) = P_{B}(\lambda)$$$$$$
 
 {% endtheorem %}
 
@@ -1032,7 +1032,7 @@ lineárně nezávislých vlastních vektorů.
 
 ---
 
-\$$A = S\Lambda S^{-1} \implies AS = S\Alpha$$
+$$A = S\Lambda S^{-1} \implies AS = S\Alpha$$$$$$
 
 $$AS_{*~j} = (AS)_{*~j} = SA_{*~j}=SA_{j~j}e_{j} = \Lambda_{j~j}S_{*~j}$$
 {% endtheorem %}
