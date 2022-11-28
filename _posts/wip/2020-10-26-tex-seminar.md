@@ -325,4 +325,8 @@ $$ b = 10000 \text{(underfull)} \land \text{ostatní konečné jako v 2}$$
 $$ \text{Vše ostatní: } c:= \infty $$
 
 
+---
 
+## Tabulky
+
+- `\halign[tosize]{ # & # \cr`
