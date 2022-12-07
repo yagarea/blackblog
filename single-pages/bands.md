@@ -100,9 +100,13 @@ Nekrogoblikon       | Melodic death metal               | USA       | Brutal Ass
 
 While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 |
 
+Bound to break  | Metalcore         | Czechia | Futurum 1.12. 2022 | ♥
+Define me       | Alternative rock  | Czechia | Futurum 1.12. 2022 |
+Hand grenade    | Modern metal      | Czechia | Futurum 1.12. 2022 |
+
 {% endbands %}
 
 ## Ostatní
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
-Cake talk,The Røss, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed
+Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed
