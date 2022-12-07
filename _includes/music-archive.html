@@ -8,7 +8,7 @@
 			<ul class="hfill">
 				<li><a href="{{ music_post.url }}">{{ music_post.title }}</a></li>
 				<li>
-					{% if music_post.venue %}[<a href="{{ music_post.url }}">{{ music_post.venue }}</a>]{% endif %} <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
+					{% if music_post.venue %}[<a href="{{ music_post.url }}">{{ music_post.venue | replace: " ","&nbsp;"}}</a>]{% endif %} <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
 				</li>
 			</ul>
 		{% endfor %}
