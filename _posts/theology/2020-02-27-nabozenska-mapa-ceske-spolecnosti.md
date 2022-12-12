@@ -122,7 +122,7 @@ Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univ
 - Shiela Larsová - odpověděla na otázku, co je její náboženství "Sheilaism. Just my little voice"
 - Autorita - uvnitř (prožívání, emoce, svědomí)
 - Správné je to, co cítíš
-- [moje pravdy][mojepravdy.cz] - ukázka "Sheilaismu"
+- [moje-pravdy.cz](moje-pravdy.cz)- ukázka "Sheilaismu"
 - Islámská společnost - dříve měli autoritu Imánové, dnes ji ale mají radikální nováčci, kteří umí dobře zacházet se sociálními sítěmi
 - Fragmentární víra - z kousků náboženství, které do sebe ani nemusí zapadat
 - Příležitostní víra - nepravidelná zbožnost v závislosti na příležitostech
