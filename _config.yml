@@ -34,7 +34,7 @@ external:                    # see http://fontawesome.com/icons
 # References items
 references:
   - {title: Email, nickname: "cerny@matfyz.cz", icon: "email-icon.png", url: "mailto:cerny@matfyz.cz"}
-  - {title: Telegram, nickname: "yagareas", icon: "telegram-icon.png", url: " https://t.me/yagareas"}
+  - {title: Telegram, nickname: "yagareas", icon: "telegram-icon.png", url: "https://t.me/yagareas"}
   - {title: Matrix, nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png", url: "https://matrix.to/#/@jc:matrix.ucw.cz" }
   - {title: Github, nickname: "yagarea", icon: "github-icon.png", url: "https://github.com/yagarea/"}
   - {title: StackOverflow, nickname: "Jan Černý", icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
