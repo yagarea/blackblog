@@ -37,7 +37,7 @@ layout: post
 | **==** :: Ord a => a -> a -> Bool     | <code class="code-display">a == b</code><br><code class="code-display">(==) a b</code>                                    | rovná se      |
 | **/=** :: Ord a => a -> a -> Bool     | <code class="code-display">a /= b</code><br><code class="code-display">(/=) a b</code>                                    | nerovná se    |
 | **&&** :: Bool -> Bool -> Bool        | <code class="code-display">a && b</code><br><code class="code-display">(&&) a b</code>                                    | logické a     |
-| **\|\|** :: Bool -> Bool -> Bool      | <code class="code-display">a \|\| b</code><br><code class="code-display">(\|\|) a b</code>                                    | logické nebo  |
+| **\|\|** :: Bool -> Bool -> Bool      | <code class="code-display">a &vert;&vert; b</code><br><code class="code-display">(&vert;&vert;) a b</code>                                    | logické nebo  |
 | **even** :: Integral a => a -> Bool   | <code class="code-display">even číslo</code>                                            | je sudé       |
 | **odd** :: Integral a => a -> Bool    | <code class="code-display">odd číslo</code>                                             | je liché      |
 
