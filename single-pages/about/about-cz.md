@@ -1,6 +1,6 @@
 ---
 title: "O mně"
-permalink: "/about/cz"
+permalink: "/about/cz/"
 layout: default
 ---
 
