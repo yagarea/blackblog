@@ -5,12 +5,6 @@ layout: default
 {% include post.html post=page %}
 </article>
 
-
-{% if page.comments and site.comments.enabled %}
-    <hr>
-	{% include comments.html %}
-{% endif %}
-
 {% if site.show_related %}
   <footer class="related">
     <div class="previous">{% if page.previous.url %}<span>Previous Post</span><a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a><span>{{ page.previous.category }}</span>{% endif %}</div>
