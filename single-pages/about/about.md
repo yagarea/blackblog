@@ -5,8 +5,10 @@ layout: default
 ---
 
 <article markdown="1">
-
 # About me
+
+[<b>EN</b>/<a href="/about/cz" class="categories">CZ</a>]
+
 I am student studying of [Charles University, Faculty of Mathematics and Physics](https://www.mff.cuni.cz/).
 I am specializing in Artificial Intelligence and theoretical computer science. My
 interests beside Computer science and Mathematics are Theology and Philosophy. I am also
@@ -16,6 +18,16 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 **- Jan Černý**
 
 ![Me](/assets/meta/me.jpg)
+
+## I actively participate in these organisations
+- [KSP](https://ksp.mff.cuni.cz/) - Correspondence seminar of programming
+- [Protab](https://protab.cz/) - Programming camp
+- [GGU](https://ggu.cz/) - Geek aliance
+- [Matfyzák](https://matfyzak.cz/) - Student community of Matfyz
+- [Matsliz](http://slimoco.ning.com/group/matsliz) - Slime and mold research group
+
+### Organisations I am not active in anymore
+- [GDG](https://gug.cz) - Google developer group
 
 ## Moto
 

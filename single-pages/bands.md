@@ -109,4 +109,5 @@ Hand grenade    | Modern metal      | Czechia | Futurum 1.12. 2022 |
 ## Ostatní
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
-Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed
+Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
+Klec
