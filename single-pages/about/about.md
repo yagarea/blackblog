@@ -19,7 +19,7 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 
 ![Me](/assets/meta/me.jpg)
 
-## I actively participate in these organisations
+## I am active member in these organisations
 - [KSP](https://ksp.mff.cuni.cz/) - Correspondence seminar of programming
 - [Protab](https://protab.cz/) - Programming camp
 - [GGU](https://ggu.cz/) - Geek aliance
@@ -30,9 +30,6 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 - [GDG](https://gug.cz) - Google developer group
 
 ## Moto
-
-> ## „Nejlepší myšlenka je ta, která ponechává vždy určitou skulinu pro možnost, že všechno je současně úplně jinak.“
-> \- Václav Havel
 
 > ## „Best idea is the one, which lets always small slit for possibility, that everything can be totally different.“
 > \- Václav Havel

@@ -19,7 +19,7 @@ Mezi mé oblíbené sporty patří lezení na umělé stěně a běžkové lyžo
 
 ![Me](/assets/meta/me.jpg)
 
-## Aktivně organizuji
+## Aktivně se podílím nebo organizuji
 - [KSP](https://ksp.mff.cuni.cz/) - Korespondenční seminář z programování
 - [Protab](https://protab.cz/) - Programátorský tábor
 - [GGU](https://ggu.cz/) - Geek aliance
