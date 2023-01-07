@@ -15,6 +15,8 @@ Formát je:
 
 ## Návrhy
 
+- 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
+
 ## Povinné
 
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov
