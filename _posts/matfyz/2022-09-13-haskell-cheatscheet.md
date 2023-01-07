@@ -65,10 +65,10 @@ layout: post
 
 ## Řazení seznamů
 
-| **compare** | Ord a &rArr; a &rarr; a &rarr; Ordering         | <code class="code-display">compare a b</code>                     | vrátí výsledek porovnání `a` a `b`                      |
-| **sort**    | (Ord a) &rArr; [a] &rarr; [a]               | <code class="code-display">sort seznam</code>                     | seřadí seznam                                           |
-| **sortBy**  | (a &rarr; a &rarr; Ordering) &rarr; [a] &rarr; [a]  | <code class="code-display">sortBy funkceCoPorovnává seznam</code> | setřídí seznam podle `funkceCoPorovnává`                |
-| **sortOn**  | Ord b &rArr; (a &rarr; b) &rarr; [a] &rarr; [a]     | <code class="code-display">sortOn převodníFunkce seznam</code>    | seřadí seznam podle porovnání výsledků `převodníFunkce` |
+| **compare** :: Ord a &rArr; a &rarr; a &rarr; Ordering         | <code class="code-display">compare a b</code>                     | vrátí výsledek porovnání `a` a `b`                      |
+| **sort**    :: (Ord a) &rArr; [a] &rarr; [a]               | <code class="code-display">sort seznam</code>                     | seřadí seznam                                           |
+| **sortBy**  :: (a &rarr; a &rarr; Ordering) &rarr; [a] &rarr; [a]  | <code class="code-display">sortBy funkceCoPorovnává seznam</code> | setřídí seznam podle `funkceCoPorovnává`                |
+| **sortOn**  :: Ord b &rArr; (a &rarr; b) &rarr; [a] &rarr; [a]     | <code class="code-display">sortOn převodníFunkce seznam</code>    | seřadí seznam podle porovnání výsledků `převodníFunkce` |
 
 ## Další funkce
 
