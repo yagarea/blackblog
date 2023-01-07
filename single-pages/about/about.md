@@ -9,7 +9,7 @@ layout: default
 
 [<b>EN</b>/<a href="/about/cz" class="categories">CZ</a>]
 
-I am student studying of [Charles University, Faculty of Mathematics and Physics](https://www.mff.cuni.cz/).
+I am student studying of [Charles University](https://cuni.cz/), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/).
 I am specializing in Artificial Intelligence and theoretical computer science. My
 interests beside Computer science and Mathematics are Theology and Philosophy. I am also
 huge tea enthusiastic. My favorite sports are climbing and skiing. I am member of
