@@ -14,7 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
 
 ## Povinné
 
@@ -24,6 +23,7 @@ Formát je:
 
 ## Proběhlé
 
+- 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
 - 01\. 12\. 2022 - **[Hand grenade, Stellaris, Define me, Bound to break](https://www.facebook.com/events/1194478941130518/)** - Futurum Music Bar
 - 18\. 11\. 2022 - **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
 - 16\. 11\. 2022 - **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
