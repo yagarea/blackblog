@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if page.language == "CZ" -%}
+<html lang="cs">
+{%- else -%}
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- endif %}
 	{% include head.html %}
 	<body>
 		<header class="icons">
@@ -23,6 +27,6 @@
 				<div class="hidden description">{{ site.description }}</div>
 			{% endif %}
 		</header>
-		{{ content }}
+		{{ content  | replace: "<br />", "<br>" }}
 	</body>
 </html>
