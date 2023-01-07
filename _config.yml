@@ -18,7 +18,7 @@ sidebar_limit: "55em"        # css limit of showing side bar
 
 # Menu
 navigation:
-  - {file: "index.html", icon: home}
+  - {file: "index.md", icon: home}
   - {file: "about.md", icon: info-circle}
   - {file: "projects.md", icon: project-diagram }
   - {file: "music.md", icon: music }
@@ -26,20 +26,19 @@ navigation:
 
 # Menu external
 external:                    # see http://fontawesome.com/icons
-  - {title: Meziklasí, icon: seedling, url: "https://meziklasi.cz/"}
-  - {title: Lyricall, icon: pen-fancy, url: "https://lyricall.cz/"}
-  - {title: Repository, icon: github, url: "https://github.com/yagarea/blackblog"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Meziklasí,  icon: seedling,  url: "https://meziklasi.cz/"}
+  - {title: Lyricall,   icon: pen-fancy, url: "https://lyricall.cz/"}
+  - {title: Repository, icon: github,    url: "https://github.com/yagarea/blackblog"}
+  - {title: Subscribe,  icon: rss,       url: "/feed.xml"}
 
 # References items
 references:
-  - {title: Email, nickname: "cerny@matfyz.cz", icon: "email-icon.png", url: "mailto:cerny@matfyz.cz"}
-  - {title: Telegram, nickname: "yagareas", icon: "telegram-icon.png", url: "https://t.me/yagareas"}
-  - {title: Matrix, nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png", url: "https://matrix.to/#/@jc:matrix.ucw.cz" }
-  - {title: Github, nickname: "yagarea", icon: "github-icon.png", url: "https://github.com/yagarea/"}
-  - {title: StackOverflow, nickname: "Jan Černý", icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
-  - {title: Bandcamp, nickname: "yagarea", icon: "bandcamp-icon.png", url: "https://bandcamp.com/yagarea"}
-
+  - {title: Email,      nickname: "cerny@matfyz.cz",   icon: "email-icon.png",         url: "mailto:cerny@matfyz.cz"}
+  - {title: Telegram,   nickname: "yagareas",          icon: "telegram-icon.png",      url: "https://t.me/yagareas"}
+  - {title: Matrix,     nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png",        url: "https://matrix.to/#/@jc:matrix.ucw.cz" }
+  - {title: Github,     nickname: "yagarea",           icon: "github-icon.png",        url: "https://github.com/yagarea/"}
+  - {title: StackOverflow, nickname: "Jan Černý",      icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
+  - {title: Bandcamp,   nickname: "yagarea",           icon: "bandcamp-icon.png",      url: "https://bandcamp.com/yagarea"}
 
 collections:
   music:
@@ -78,5 +77,4 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
-
 
