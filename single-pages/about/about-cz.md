@@ -1,6 +1,7 @@
 ---
 title: "O mně"
 permalink: "/about/cz/"
+language: "CZ"
 layout: default
 ---
 
@@ -9,7 +10,7 @@ layout: default
 [<a href="/about/" class="categories">EN</a>/<b>CZ</b>]
 
 
-Jsem student [Matematicko-fyzikální fakulty Karlovy univerzity](https://www.mff.cuni.cz/).
+Jsem student [Matematicko-fyzikální fakulty](https://www.mff.cuni.cz/) [Karlovy univerzity](https://cuni.cz/).
 Mojí specializací je umělá inteligence a teoretická informatika.
 Mezi mé koníčky mimo informatiku patří matematika, religionistika a filosofie.
 Jsem také velký nadšenec do [čaje](https://blackblog.cz/#tea).
