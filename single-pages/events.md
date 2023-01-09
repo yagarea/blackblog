@@ -15,7 +15,15 @@ Formát je:
 
 ## Návrhy
 
+- 28\. 01\. 2023 - **[Katatonia, Soltafir](https://obscure.cz/cs/tickets/detail/id/415)** - Roxy
 - 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
+- 08\. 03\. 2023 - **[Leprous, Monuments](https://obscure.cz/cs/tickets/detail/id/508)** - Acropolis (Jana?)
+- 08\. 03\. 2023 - **[Russkaja](www.oeticket.com/event/russkaja-turbopolkaparty-posthof-16091347)** - Linz (Jana? :D)
+- 10\. 03\. 2023 - **[Plini](https://obscure.cz/cs/tickets/detail/id/529)** - Rock Café (Jana?)
+- 23\. 03\. 2023 - **[Ottone Pesante](https://obscure.cz/cs/tickets/detail/id/537)** - Plzeň [nebo 25. Ostrava a 26. Brno]
+- 29\. 03\. 2023 - **[Cult of Luna, Russian Circles](https://obscure.cz/cs/tickets/detail/id/502)** - Roxy
+- 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
+- 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 
 ## Povinné
 
