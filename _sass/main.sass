@@ -7,4 +7,4 @@ $dark: #1c1d22 !default
 $light: #BDBDBD
 
 @function reduce ($percent)
-  @return rgba(mix($dark, $light), $percent / 100)
+  @return rgba(mix($dark, $light), calc($percent / 100))
