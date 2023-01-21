@@ -3,6 +3,7 @@ title: "Struktura a vlastnosti pevných látek"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-21-struktura-a-vlastnosti-pevnych-latek.md?plain=1"
 layout: post
 ---
 

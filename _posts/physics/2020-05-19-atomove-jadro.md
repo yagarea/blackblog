@@ -3,6 +3,7 @@ title: "Atomové jádro, jaderné reakce a radioaktivita"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-19-atomove-jadro.md?plain=1"
 layout: post
 ---
 

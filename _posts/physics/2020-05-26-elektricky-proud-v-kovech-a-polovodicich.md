@@ -3,6 +3,7 @@ title:  "Elektrický proud v kovech a polovodičích"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-26-elektricky-proud-v-kovech-a-polovodicich.md?plain=1"
 layout: post
 ---
 

@@ -3,6 +3,7 @@ title: "Vlnové vlastnosti světla"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-21-vlnove-vlastnosti-svetla.md?plain=1"
 layout: post
 ---
 

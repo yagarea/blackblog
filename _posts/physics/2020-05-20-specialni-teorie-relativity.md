@@ -3,6 +3,7 @@ title: "Základní principy speciální teorie relativity"
 category: "Physics"
 language: "CZ"
 latex: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-20-specialni-teorie-relativity.md?plain=1"
 layout: post
 ---
 
