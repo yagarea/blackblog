@@ -226,8 +226,8 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - **vyhledávací modul**
     - Sloužil pro automatické vyhledávání ohýbaných slov v textu na základě parametrů
     - Vstup: výrazy (složené z podst. a příd. jm.) v základním tvaru doplněné o sadu operátorů
-        - (! vyskloňovat, -1- obě slova musí být bezprostředně za sebou, obecně -n-)
-        - př. vzdálenost!, rodinný! -1- domek!, vzdálenost!, odstup! -3-rodinný! -1- domek!
+        - (`!` vyskloňovat, `-1-` obě slova musí být bezprostředně za sebou, obecně `-n-`)
+        - př. `vzdálenost!`, `rodinný! -1- domek!`, `vzdálenost!`, `odstup! -3-rodinný! -1- domek!`
     - neřeší, jestli vyhledává slova v gramaticky správném tvaru
     - předpokládá členění textu na slova, věty, odstavce
 - **jazykový modul**
@@ -240,17 +240,17 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
             - výjimky je možné uložit do zvláštního slovníku výjimek (jsou jich řádově pouze stovky, při důkladnějším zpracování max. tisíce)
         - slovník nevyužívá přímo, ale na jeho základě byl vytvořen klíč pro určování vzorů slov (seznam pravidel dle konců slov)
     - **Algoritmus**
-        - Porovnávají se jednotlivé znaky zákl. tvaru slova odzadu (háček a čárka jsou zvláštní znaky), dokud není možné (až na výjimky) určit, jak slovo skloňovat. Poté slovnímu základu (event. základům v případě změn v kmeni) přidáme všechny vhodné pádové koncovky.
+        - Porovnávají se jednotlivé znaky záklqdním tvaru slova odzadu (háček a čárka jsou zvláštní znaky), dokud není možné (až na výjimky) určit, jak slovo skloňovat. Poté slovnímu základu (event. základům v případě změn v kmeni) přidáme všechny vhodné pádové koncovky.
         - Umí i základní alternace
 - v té době bylo obtížné zachytit češtinu - spec. kódování háčků a čárek a kroužků
 - nebyl vyžadován velký slovník, jen slovník výjimek
 - množina koncovek zahrnuje životné i neživotné - vznikají patvary - po vybudování rozsáhlých topologických slovníků už se nepoužívá - slovníky fungují lépe
 
 #### Problémy
-- ne vždy Ize jednoznačně určit vzor (právník i trávník mají stejnou koncovku, ale liší se v životnosti)
-- problém přegenerování (systém vygeneruje i neexistující tvary) - přiliš hrubá klasifikace, pádové koncovky mají varianty
+- ne vždy lze jednoznačně určit vzor (právník i trávník mají stejnou koncovku, ale liší se v životnosti)
+- problém přegenerování (systém vygeneruje i neexistující tvary) - příliš hrubá klasifikace, pádové koncovky mají varianty
 - malý rozsah retrográdního slovníku (je tedy nutno přidávat výjimky)
-- pro slovesa už nefunguje tak spolehlivě (přílis velká víceznačnost koncových segmentů zákl. slovesných tvarů)
+- pro slovesa už nefunguje tak spolehlivě (příliš velká víceznačnost koncových segmentů základních slovesných tvarů)
 
 ### Další pojmy
 - Negativní slovník
@@ -267,13 +267,13 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - Standardní přístup k indexaci - slovníky klíčových slov, dokumenty indexovány těmito slovy, v úvahu se bere četnost výskytu
 - Využívá toho, že řada přípon a koncovek nese význam (Aj: -er/-or konatel děje, -tion činnost, -ity/-ness vlastnosti; Čj: -ič/-ač/-čka/-ér/-or/-dlo/-metr/-graf/-fon/-skop přístroje a nástroje, -ace/-kce/-áž/-ní/-za procesy nebo činnosti, -ost/-ita/-nce vlastnosti, -anýl-ený jsou výsledky procesů, -acíl-ecí účel, atd.)
     - založeno na lexikální sémantice přípon a koncovek
-- Pro pokrytí tématické oblasti elektrických obvodů stačilo 800 prrípon, technickou terminologii by pokrylo cca 2000 prípon.
+- Pro pokrytí tématické oblasti elektrických obvodů stačilo 800 přípon, technickou terminologii by pokrylo cca 2000 přípon.
 - Testován na elektrotechnických textech
 - Syntaktická analýza - Chceme dostat k sobě víceslovné výrazy, hledání víceslovných termínů
     - Algoritmus indexování textu:
         - Na vstupu je čistý (nijak nepředzpracovaný) text se zachovaných typografickým členěním.
         - Lematizace a morfologická analýza $$\rightarrow$$ získáme lemata a morfologické značky.
-        - nalezená lemmata jsou profiltrována a jsou odstraněna ta, jejichž kmen nemá vztah k dané tematické oblasti ( k tomu se využívá malý negativní slovník - řádově desítky slov), či jsou přiliš krátká nebo obsahují nevhodné kombinace hlásek.
+        - nalezená lemmata jsou profiltrována a jsou odstraněna ta, jejichž kmen nemá vztah k dané tematické oblasti ( k tomu se využívá malý negativní slovník - řádově desítky slov), či jsou příliš krátká nebo obsahují nevhodné kombinace hlásek.
         - Syntaktická analýza jmenných skupin pomocí jednoduché gramatiky v jazyce Systémů $$Q$$ pomůže odhalit tématicky významné několikaslovné termíny (zesilovač obsah textu charakterizuje mnohem méně než termín operační zesilovač TESLA KC 415), u nich se započítávaly i termíny v nich obsažené. - Vážené ohodnocení termínů podle důležitosti. Záleží na tom, v jak důležité části textu jsou (nadpis, první/poslední odstavec, první/poslední věta). Váhy jsou exponenciální.
         - Normalizace vah vzhledem k délce dokumentu. (Nejčastější termín získá 100 bodů, zbytek poměrně.) Umožňuje porovnávat relevanci různě dlouhých dokumentů.
         - Výstupem je 10 nejvýznamnějších termínů, seřazených podle četnosti výskytu.
@@ -318,18 +318,13 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
     - Parenze (vsuvka)
     - věta či větný člen, který syntakticky nesouvisí s okolím, ale upřesňuje, o čem se v okolí mluví
     - Mohl bych, prosím, zavřit okno?
-- Složkový strom
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-08.jpg?height=414&width=1302&top_left_y=1963&top_left_x=503)
 
-odpovídá derivačnímu stromu bezkontextové gramatiky
-
+- Složkový strom odpovídá derivačnímu stromu bezkontextové gramatiky
 - tedy větu rozdělí do částí, které se zase rozdělí do částí, atd.
-
-slova věty (tokeny) odpovídají listům stromu
-
-je méně přehledný, obsahuje mnohdy velké množství nadbytečných uzlů přirozené jazyky nebývají bezkontextové
-
+- slova věty (tokeny) odpovídají listům stromu
+- je méně přehledný, obsahuje mnohdy velké množství nadbytečných uzlů přirozené jazyky nebývají bezkontextové
 - neprojektivní konstrukce mu činí problém - dá se znázornit pouhým uzávorkováním věty, kde uvnitř závorky jsou vždy právě dva prvky, kde prvek je bud' jiný uzávorkovaný výraz, či samotné slovo vidíme terminály a neterminály
 - hlavně anglo-americká tradice
 - bezprostředně související slova jsou daleko od sebe (např. chlapec a psal)
@@ -337,7 +332,7 @@ je méně přehledný, obsahuje mnohdy velké množství nadbytečných uzlů p�
 ### Neprojektivní konstrukce
 - závislost mezi dvěma slovy ve větě oddělenými slovem třetím, které (ani nepřímo) nezávisí na žádném z nich
 - např. Soubor se nepodařilo otevřít. Vánoční nadešel čas. Která děvčata chtěla dostat ovoce? Tuto knihu jsem se mu rozhodl dát k narozeninám.
-- Závislostní strom s tím nemá problém (jen hrany se v něm jakoby kř̌iží). Složkový ano.
+- Závislostní strom s tím nemá problém (jen hrany se v něm jakoby kříží). Složkový ano.
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-09.jpg?height=286&width=417&top_left_y=731&top_left_x=500)
 - V češtině jsou běžné, ale jsou i v jiných jazycích.
@@ -376,15 +371,16 @@ je méně přehledný, obsahuje mnohdy velké množství nadbytečných uzlů p�
 
 $$
 \mathbf{V P}>\quad\left\{\begin{array}{cc}
-\mathrm{V}_{\mathrm{intr}}^{\mathrm{sg}} & \mathrm{AdV} \\
-\mathrm{V}_{\mathrm{tr}}^{\mathrm{sg}} & \mathrm{NP}
-\end{array}\right\} / \mathrm{NP}^{s g}
+V}_{\mathrm{intr}}^{\mathrm{sg}} & \mathrm{AdV \\
+V}_{\mathrm{tr}}^{\mathrm{sg}} & \mathrm{NP
+\end{array}\right\} / NP}^{s g
 $$
 
 - Generativní metoda není schopna zachytit vztahy mezi variantami vět, např. mezi větou tázací a oznamovací.
 - Transformace ( $$v$$ transformační komponentě) jsou definovány strukturním indexem řetězců (řez stromem, výraz se matchuje na množinu vrcholů) a strukturní změnou (co se má s namatchovanými vrcholy provést).
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-10.jpg?height=491&width=685&top_left_y=1125&top_left_x=614)
+
 - Pravidla mohou být bezkontextová. Pak má tato složka sílu Turingova stroje, což je moc. V dalších verzích byla tato složka oslabena.
 - Vývoj transformační gramatiky:
 - 1965 Aspects of the Theory of Syntax (N. Chomsky) - Standard Theory
@@ -402,10 +398,10 @@ $$
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-11.jpg?height=340&width=419&top_left_y=247&top_left_x=547)
 
-Formalismus pro popis gramatik
+## Formalismus pro popis gramatik
 
 - Drží se myšlenky přepisování kompletních stromů (ne řetězců)
-- např. X miluje $$Y=E m i l$, tak za $$X$$ se dá dosadit „Milan“, ale i strom „Milan, Ferda a Dežo“)
+- např. `X miluje Y` = `E m i l`, tak za $$X$$ se dá dosadit „Milan“, ale i strom „Milan, Ferda a Dežo“)
 - Při substituci se musí oba neterminály (kořen, list stromu) shodovat
 - Pořadí substitucí nehraje roli
 - Proces končí, když už nelze žádný neterminál nahradit
@@ -426,23 +422,89 @@ Formalismus pro popis gramatik
 - Reprezentuje funkční vztahy ve větě (např. vazby sloves)
 - Používá datový typ matice atribut-hodnota
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-11.jpg?height=245&width=676&top_left_y=1745&top_left_x=633)
+$$
+\begin{bmatrix}
+    \text{PRED} && \text{'DAVID'} \\
+    \text{NUM} && \text{SG}
+\end{bmatrix}
+
+\quad
+
+\begin{bmatrix}
+ \text{PRED} && \text{'spát <SUBJ>'} \\
+ \text{TENSE} && \text{PAST} \\
+ \text{SUBJ} && \begin{bmatrix}
+       \text{PRED} && \text{'DAVID'} \\
+       \text{NUM} && \text{SG}
+    \end{bmatrix} \\
+\end{bmatrix}
+$$
+
 - Hodnotami atributů mohou být i množiny
 - Každá c-struktura se spojuje pouze s jednou f-strukturou. Opačně jich může být i více.
 
 ### Kategoriální gramatiky
+- **Combinatorial Categorial Grammar** - Mark Steedman
 - Každému vstupnímu slovnímu tvaru je přiřazena kategorie, která fakticky reprezentuje popis syntaktických vlastností dané slovní formy (je to vlastně množina syntaktických vlastností daného slova)
-- Naprr. sloveso likes dostane kategorii (SINP)/NP
-- Kategorie mají obecný formát $$\alpha / \beta$$ nebo $$\alpha \backslash \beta$, kde lomítko určuje pozici argumentu $$\beta$, tedy zda je vpravo (/) nebo vlevo (\) od $$\alpha$$ (používají se ale i jiné notace)
+- Např. sloveso likes dostane kategorii (SINP)/NP
+- Kategorie mají obecný formát $$\alpha / \beta$$ nebo $$\alpha \backslash \beta$$, kde lomítko určuje pozici argumentu $$\beta$$, tedy zda je vpravo (/) nebo vlevo (\) od $$\alpha$$ (používají se ale i jiné notace)
 - V “čisté” kategoriální gramatice pouhá 2 pravidla:
-- $$X / Y Y \rightarrow X$
 
-$-\quad Y X I Y \rightarrow X$$ 
+$$X / Y Y \rightarrow X$$
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-12.jpg?height=1185&width=1434&top_left_y=247&top_left_x=491)
+$$ Y X \backslash Y \rightarrow X$$
+
+![Příklad kombinační gramatiky](/assets/img/matfyz/pc-ling/priklad-kombinacni-gramatiky.png)
+
+## Unifikační gramatiky
+- navazují na f-structure z LFG
+
+### Popis vlastností objektů
+- Objekt je reprezentován množinou vlastností (jednoduchých rysů)
+- Popis každé vlastnosti je dvojice **<nazev\_vlastnosti>:<hodnota\_vlastnosti>**
+- Neuspořádaná množina vlastností = **sestava rysů (feature structure)**
+- Vlastnosti mohou být např. grafémický zápis, slovní druh, rod, číslo, pád, atd.
+
+$$
+\left[\begin{array}{l}
+    \text{ graphematic\_form : books} \\
+    \text{ POS : noun} \\
+    \text{ gender : neutral} \\
+    \text{ number : plural} \\
+\end{array}\right]
+$$
+
+### Unifikace
+- Spojování dvou sestav rysů popisujících stejný objekt
+
+$$
+\left[\begin{array}{l}
+    \text{POS : verb} \\
+    \text{person : third} \\
+    \text{number : plural}
+\end{array}\right]
+
+\cup
+
+\left[\begin{array}{l}
+    \text{gender : masc animate} \\
+    \text{number: plural} \\
+\end{array}\right]
+
+=
+
+\left[\begin{array}{l}
+    \text{POS : verb} \\
+    \text{person : third} \\
+    \text{gender : masc animate} \\
+    \text{number : plural}
+\end{array}\right]
+$$
+
 - Povolena pouze tehdy, pokud hodnoty všech rysů z určité sestavy neodporují nějaké hodnotě stejného rysu z jiné sestavy
-- Pokud dvě sestavy rysů obsahují rozporné informace, potom je výsledkem unifikace vnitřně rozporná sestava rysů obvykle označovaná jako $$\perp$
-- Sestavy rysů
+- Pokud dvě sestavy rysů obsahují rozporné informace, potom je výsledkem unifikace vnitřně rozporná sestava rysů obvykle označovaná jako $$\perp$$
+
+### Sestavy rysů
 - Základní datová struktura unifikačních gramatik
 - Obsahují kombinaci rysů, která popisuje určitý jev (např. shodu apod.)
 - Hodnotou vlastnosti (rysu) může být také sestava rysů nebo proměnná.
@@ -467,7 +529,7 @@ $$
 $$
 
 - Problém:
-- Lzze unifikovat i vlastnosti, které spolu nijak nesouvisejí (třeba pád podmětu a způsob prísudku)
+- Lze unifikovat i vlastnosti, které spolu nijak nesouvisejí (třeba pád podmětu a způsob přísudku)
 
 $$
 [\text { case : acc }] \cup[\text { mode }: \text { ind }]=\left[\begin{array}{l}
@@ -476,9 +538,9 @@ $$
 \end{array}\right]
 $$
 
-- Typované sestavy rysů
-- Nakonec prrevládly, to jediné, co dávalo smysl
-- Typ sestavy určuje její vlastnosti 
+### Typované sestavy rysů
+- Nakonec převládly, to jediné, co dávalo smysl
+- Typ sestavy určuje její vlastnosti
 
 $$
 \left[\begin{array}{l}
@@ -506,44 +568,75 @@ $$
 - [SYNSEM] (syntaktické a sémantické informace)
 - tyto rysy jsou dále děleny.
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-13.jpg?height=553&width=937&top_left_y=1731&top_left_x=611)
+$$
+\left[\kern-0.5em\begin{array}{ll}
+    word & \\
+    \text{PHON} & \langle \text{'walks'}\rangle \\
+    \text{SYNSEM} & \left[\kern-0.5em\begin{array}{ll}
+        synsem & \\
+        \text{CAT} & \left[\kern-0.5em\begin{array}{ll}
+            category & \\
+            \text{HEAD} & verb \\
+            \text{VALENCE} & \left[\kern-0.5em\begin{array}{ll}
+                \text{SUBJ} & \left\langle
+                    \left[\kern-0.5em\begin{array}{l}
+                        synsem \\
+                        \text{CAT } \vert \text{ HEAD } noun \\
+                        \text{CONT } \fbox{1} \left[\kern-0.5em\begin{array}{ll}
+                        ref-index & \\
+                        \text{PER} & 3rd \\
+                        \text{NUM} & sing \\
+                        \end{array}\kern-0.5em\right]
+                    \end{array}\kern-0.5em\right]
+                \right\rangle \\
+                \text{COMP} & \langle\rangle
+            \end{array}\kern-0.5em\right] \\
+        \end{array}\kern-0.5em\right] \\
+        \text{CONT} & \left[\kern-0.5em\begin{array}{l}
+            content \\
+            \text{WALKER } \fbox{1} \\
+        \end{array}\right]
+    \end{array}\kern-0.5em\right]
+\end{array}\kern-0.5em\right]
+$$$$$$
+
 - Umožňuje kompletně popsat každé jednotlivé slovo
 - Někdy dlouhé čekání - dřive velmi neefektivní
-- dalši implementace už trochu lepší
-- Functional Unification Grammar (FUG)
-- Funkční unifikační gramatika
-- Martin Kay
-- Generalized Phrase Structure Grammar (GPSG)
-- Gerald Gazdar, Geoffrey Pullum, Ivan Sag, Ewan Klein (1985) - Dnes už je ale převálcovaly statistické metody.
-- Nástroje pro syntaktickou analýzu
-- Augmented Transition Networks (Woods, 1970)
+- další implementace už trochu lepší
+
+### Functional Unification Grammar (FUG)
+- Funkční unifikační gramatika - Martin Kay
+
+### Generalized Phrase Structure Grammar (GPSG)
+- Gerald Gazdar, Geoffrey Pullum, Ivan Sag, Ewan Klein (1985) 
+- Dnes už je ale převálcovaly statistické metody.
+
+
+## Nástroje pro syntaktickou analýzu
+
+### Augmented Transition Networks (Woods, 1970)
 - primitivní, ale úspěšnější než další systém
-- Rozšiřené přechodové systémy.
+- Rozšířené přechodové systémy.
 - tři typy hran:
-- CAT (přechod do stavu, nalezne-li příslušnou kategorii)
-- JUMP (přechod do stavu bez hledání kategorie)
-- SEEK (přechod k podsíti)
+    - **CAT** (přechod do stavu, nalezne-li příslušnou kategorii)
+    - **JUMP** (přechod do stavu bez hledání kategorie)
+    - **SEEK** (přechod k podsíti)
 
-S $$\rightarrow$$ NP VP
 
-$\mathrm{NP} \rightarrow$$ Det NP
+| $$S \rightarrow NP VP \\ NP \rightarrow Det NP \\ VP \rightarrow V [NP]$$ | ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=206&width=630&top_left_y=688&top_left_x=998) |
 
-$\mathrm{VP} \rightarrow \mathrm{V}[\mathrm{NP}]$
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=206&width=630&top_left_y=688&top_left_x=998)
+> The girl saw a boy.
 
-CAT N
+$$\left(NP}_{1\right.$$
 
-- The girl saw a boy.
-
-$\left(\mathrm{NP}_{1}\right.$
-
-$\left(\mathrm{NP}_{2}\right.$
+$$\left(NP}_{2\right.$$
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=75&width=209&top_left_y=922&top_left_x=1055)
 
-$\left(\mathrm{VP}_{1}\right.$$ SEEK NP $$\mathrm{VP}_{3}$
+$$\left(VP}_{1}\right.$$ SEEK NP $$\mathrm{VP}_{3$$
 
-- Q-systémy (Alain Colmerauer - otec prologu, 1969)
+## Q-systémy
+- (Alain Colmerauer - otec prologu, 1969)
 - Formalismus pro tansformaci grafů
 - Grafy (stromy) jsou linearizovány
 
@@ -551,28 +644,39 @@ $\left(\mathrm{VP}_{1}\right.$$ SEEK NP $$\mathrm{VP}_{3}$
 - Grafový analyzátor (chart parser)
 - Linearizace ne řezem, jako u Chomského
 - Vada - cesta zpátky není jednoznačná - pořadí uzlů není zachováno
-- řešení: dodat pomocné uzly - např. \# na pozici kořenového uzlu
+    - řešení: dodat pomocné uzly - např. \# na pozici kořenového uzlu
 - 3 typy objektů (+ implicitní typy proměnných v původní verzi)
-- atomy (konstanty) - písmena z počátku abecedy A-J
-- stromy - střed abecedy, písmena L-N
-- seznamy stromů - konec abecedy, písmena U-Z operátory -DANS- -HORS- -ET- -NON- -OU- =
+    - atomy (konstanty) - písmena z počátku abecedy A-J
+    - stromy - střed abecedy, písmena L-N
+    - seznamy stromů - konec abecedy, písmena U-Z operátory `-DANS-` `-HORS-` `-ET-` `-NON-` `-OU-` =
 
-$\mathrm{S}(\mathrm{NP}, \mathrm{VP}(\mathrm{V}, \mathrm{NP}))$$ mì̌̌e být popsáno jako:
+> $$S(NP,VP(V,NP))$$
+>
+> múže být popsáno jako:
+>
+> $$A^{*}(U^{*})$$
+>
+> nebo
+>
+> $$S(NP, L^{*})$$ 
+>
+> či
+>
+> $$M^{*}$$
+>
+> $$^*$$ signalizuje, že se jedná o proměnnou
 
-$\mathrm{A}^{*}\left(\mathrm{U}^{*}\right)$$ nebo $$\mathrm{S}\left(\mathrm{NP}, L^{*}\right)$$ či M*
-
-- pr. (* signalizuje, že se jedná o promĕnnou)
-- vstupní graf:
+vstupní graf:
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=308&width=616&top_left_y=1996&top_left_x=800)
 
-$\operatorname{Adj}+\mathrm{N}==>\mathrm{NP}(\operatorname{Adj}, \mathrm{N})$
+$\operatorname{Adj}+N}==>\mathrm{NP}(\operatorname{Adj}, \mathrm{N)$
 
-$\mathrm{V}+\mathrm{NP}\left(\mathrm{U}^{*}\right)=>\operatorname{VP}\left(\mathrm{V}, \mathrm{NP}\left(\mathrm{U}^{*}\right)\right)$
+$V}+\mathrm{NP}\left(\mathrm{U}^{*}\right)=>\operatorname{VP}\left(\mathrm{V}, \mathrm{NP}\left(\mathrm{U}^{*\right)\right)$
 
-- pravidla:
+Pravidla:
 
-$\mathrm{NP}\left(\mathrm{U}^{*}\right)+\mathrm{VP}\left(\mathrm{V}^{*}\right)==>\mathrm{S}\left(\mathrm{NP}\left(\mathrm{U}^{*}\right), \mathrm{VP}\left(\mathrm{V}^{*}\right)\right)$
+$NP}\left(\mathrm{U}^{*}\right)+\mathrm{VP}\left(\mathrm{V}^{*}\right)==>\mathrm{S}\left(\mathrm{NP}\left(\mathrm{U}^{*}\right), \mathrm{VP}\left(\mathrm{V}^{*\right)\right)$
 
 - u pravidel záleží na pořadí
 - hrany na levé straně úspěšně použitého pravidla se zapamatují
@@ -785,10 +889,10 @@ Opět je každá věta reprezentována stromem. Nicméně jeho uzly už nemusí 
 ## Pravděpodobnostní a statistické metody
 
 - Motivace: víme, že existují 3 překlady pro dané slovo. Je těžké určit, který je pro danou situaci vhodný. Nicméně mohl by nám k tomu pomoci kontext okolních slov. Statistické překladové metody v podstatě zkoumají, jakou mají různé kombinace slov v daném jazyce pravděpodobnost - a dle toho se rozhodují o překladu.
-- Potřebujeme $$\mathrm{k}$$ tomu velké množství událostí - při dostatečně dlouhé sérii pokusů se relativní četnost jednotlivých výsledků začne blížit jejich pravděpodobnosti.
+- Potřebujeme $$k$$ tomu velké množství událostí - při dostatečně dlouhé sérii pokusů se relativní četnost jednotlivých výsledků začne blížit jejich pravděpodobnosti.
 - Můžeme zkoumat (paralelní) korpus
 - Četnost výskytu "in" $$v$$ anglickém a tří možností ve francouzském
-- Pravděpodobnost výskytu slova $$w$$ v textu $$T$$ je $$P(w)=$$ počet výskytů slova $$S$$ v textu $$T /$$ počet slov textu $$\mathrm{T}$.
+- Pravděpodobnost výskytu slova $$w$$ v textu $$T$$ je $$P(w)=$$ počet výskytů slova $$S$$ v textu $$T /$$ počet slov textu $$T$.
 - Základní vzorce:
 - $$\quad P(A, B)=P(A) P(B)$$ (A, $$B$$ nezávislé)
 - Bayesův: $$P(A \mid B)=P(B \mid A) P(A) / P(B)$
@@ -857,7 +961,7 @@ Opět je každá věta reprezentována stromem. Nicméně jeho uzly už nemusí 
 - tendence favorizovat krátké věty, jejichž všechny n-gramy by existovaly $$v$$ referenčních příkladech, přestože by ref. překlady byly výrazně delší
 - celkové skóre:
 - $$\quad B L E U=B P *\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$
-- penalizace za stručnost vynásobená geometrickým průměrem n-gramové přesnosti pro $$\mathrm{n}=1 . .4$
+- penalizace za stručnost vynásobená geometrickým průměrem n-gramové přesnosti pro $$n=1 . .4$
 - výsledkem je vždy číslo mezi 0 a 1 ("přesnost překladu v \%")
 - určené pro použití během vývoje systémů - měl by porovnávat ten samý systém
 - potrreba více ref. prekladů a více testovacích vět ( 1000)
@@ -988,7 +1092,7 @@ $\forall x \operatorname{student}(x) \rightarrow \exists y$$ petition $$(y) \& \
 $\exists y$$ petition $$(y) \& \forall x \operatorname{student}(x) \rightarrow \operatorname{sign}(x, y)$
 
 - modalita, čas a postoj - kvůli nim jsou potřeba nové operátory, které mají jako argumenty formule
-- possible $$(\mathrm{F})$, necessary $$(\mathrm{F})$, believe $$(\mathrm{x}, \mathrm{F})$, true_at_some_time_in_the_future $$(\mathrm{F})$
+- possible $$(F})$, necessary $$(\mathrm{F})$, believe $$(\mathrm{x}, \mathrm{F})$, true_at_some_time_in_the_future $$(\mathrm{F)$
 - presupozice - předpoklad, který musí být pravdivý, aby celá věta vůbec měla pravdivostní hodnotu
 - Jupiterův měsíc ma oranžové pruhy. - Jupiter musí mít právě jeden měsíc.
 - neurčitost (fuzziness) - nevystačíme s T/F hodnotami, potřebujeme jemnější dělení
@@ -1052,7 +1156,7 @@ je založen na modifikaci typovaného lambda kalkulu nemá vlastní logické spo
 - TIL aplikována na analýzu přirozeného jazyka se stává sémantikou založenou na pojmu možných světů
 - univerzum je v TIL chápáno jako množina společná všem možným světům, kromě možných světů se neuvažuje o tzv. možných individuích
 - v příkladu - nálepka individua (Alena), individuální koncept (ministr zahraničí)
-- $$\quad \tau \omega .$. reference $$\mathrm{k}$$ danému času a světu $$-\Lambda \tau \ldots$$ možný čas, $$\Lambda \omega \ldots$$ možný svět populární v Brně - pomocí TIL se tam snaží propojit syntaktickou a sémantickou analýzu - Pochopení smyslu textu je ještě těžší než smyslu věty. Problém je, že věty v textu na sebe navazují a odkazují se (např. nevyjádřeným podmětem).
+- $$\quad \tau \omega .$. reference $$k$$ danému času a světu $$-\Lambda \tau \ldots$$ možný čas, $$\Lambda \omega \ldots$$ možný svět populární v Brně - pomocí TIL se tam snaží propojit syntaktickou a sémantickou analýzu - Pochopení smyslu textu je ještě těžší než smyslu věty. Problém je, že věty v textu na sebe navazují a odkazují se (např. nevyjádřeným podmětem).
 - Anafora
 - (slovo anafora má dva různé významy, třeba rozlišovat)
 - výraz, jehož interpretace závisí na kontextu
@@ -1064,7 +1168,7 @@ je založen na modifikaci typovaného lambda kalkulu nemá vlastní logické spo
 - Petr se seznámil se sympatickou dívkou. Pozval ji do kina.
 - Petr vyzradil tajemství. To neměl dělat.
 - Katafora - dopředu
-- nepřiliš časté, $$v$$ románech $$\mathrm{k}$$ vybudování napětí
+- nepřiliš časté, $$v$$ románech $$k$$ vybudování napětí
 - K Když se zlobí, není s Petrem žádná řeč.
 - Věřte tomu nebo ne, máme schodkový rozpočet.
 - Vyšel jsem z domu. Věděl jsem, že jsem sledován. Když jsem se zastavil, zastavil se $$i$$ on. Když jsem se ohlédl, dělal, že lelkuje. Měl na sobě stejný šedý kabát jako vždycky. Už ho důvěrně znám, estébáka Jiřiho.
