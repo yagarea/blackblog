@@ -2,6 +2,7 @@
 title:  "Nová náboženská hnutí"
 category: "Theology"
 language: "CZ"
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/theology/2020-02-03-nova-nabozenska-hnuti.md?plain=1"
 layout: post
 
 mormon:
@@ -15,8 +16,8 @@ mormon:
 
 **Doporučená literatura:**
 
-- "Douglas E. Cowan, David G. Bromley - Sekty a nová náboženství"
-- "Zdeněk Vojtíšek - Nová náboženství a násilí"
+- **Douglas E. Cowan, David G. Bromley** - Sekty a nová náboženství
+- **Zdeněk Vojtíšek** - Nová náboženství a násilí
 
 ---
 

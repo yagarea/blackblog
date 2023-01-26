@@ -2,13 +2,14 @@
 title:  "Hnutí nového věku"
 category: "Theology"
 language: "CZ"
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/theology/2020-02-21-hnuti-noveho-veku.md?plain=1"
 layout: post
 ---
 
-Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univerzity. 
+Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univerzity.
 
 **Doporučená literatura:**
-- Zdeněk Vojtíšek - Encyklopedie náboženských směrů v České republice - 2004 Portál
+- **Zdeněk Vojtíšek** - Encyklopedie náboženských směrů v České republice - 2004 Portál
 - Časopis Dingir
 
 ---
