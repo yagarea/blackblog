@@ -17,15 +17,15 @@ Tento článek je zápisem přednášky o [Posloupnostech](https://www.youtube.c
 **Posloupnost** je v matematice soubor prvků nějaké množiny, který je lineárně 
 uspořádán a prvky v něm se mohou opakovat. Příklady:
 
-- $$(1,1,2,3,5,8,13)$$ je sedmičlenná posloupnost prvkůmnožiny přirozených čísel
+- $$(1,1,2,3,5,8,13)$$ je sedmičlenná posloupnost prvků množiny přirozených čísel
 - $$($$Příliš, žluťoučký, kůň, úpěl, ďábelské, ódy$$)$$ je šestičlenná posloupnost 
 českých slov
-- $$((−1,1),(0,3),(π,e))$$, je tříčlenná posloupnostdvoučlenných posloupností reálných 
+- $$((−1,1),(0,3),(π,e))$$, je tříčlenná posloupnost dvoučlenných posloupností reálných 
 čísel
 
 Posloupnost může být i nekonečná, například $$(2,4,8,16,...)$$, což můžeme zapsat 
 jako $$\left(2n\right)^{\infty}_{n=1}$$, případně $$\left(2n\right)_{n \in \N}$$. 
-Obecnouposloupnost prvků nějaké množiny $$X$$ indexovanou přirozenými čísly zapisujeme 
+Obecnou posloupnost prvků nějaké množiny $$X$$ indexovanou přirozenými čísly zapisujeme 
 jako:
 
 $$ \left( a_1, a_2, a_3, ... \right)  \equiv (a_n)^{\infty}_1 , \text{ kde } 
@@ -54,7 +54,7 @@ $$
 \end{aligned}
 $$
 
-Operace definované člen po členu jsou v souladu sestandardním zavedením operací na 
+Operace definované člen po členu jsou v souladu se standardním zavedením operací na 
 reálných funkcích, např. pro $$f$$, $$g:\N \rightarrow \R$$:
 
 $$ (f + g)(n) := f(n) + g(n) $$
@@ -88,7 +88,7 @@ Pro $$q=1$$ je to opět konstantní posloupnost, pro ostatní $$q$$ limitu nemá
 - Harmonická posloupnost má limitu $$0$$, posloupnost částečných součtů harmonické řady 
 limitu nemá.
 
-Limita posloupnosti částečných součtů nekonečné řady senazývá součtem řady. Základní 
+Limita posloupnosti částečných součtů nekonečné řady se nazývá součtem řady. Základní 
 příklad je geometrická řada s kvocientem $$q \in (−1,1)$$:
 
 $$ \sum^\infty_{n=1} bq^{n-1} := \lim_{N \rightarrow \infty}\sum^N_{n=1} bg^{n-1} = 
@@ -100,7 +100,7 @@ $$ (1 + q + q_2 + ... +q^{N−1})(q−1) = q^{N−1} ,$$
 
 který se dá ověřit roznásobením levé strany.
 
-Vlastnosti limity, přesná definice, její rozšíření na nevlastnípřípad („$$L=\infty$$“),
+Vlastnosti limity, přesná definice, její rozšíření na nevlastní případ („$$L=\infty$$“),
 sčítání řad a další aplikace a zobecnění limity tvoří klíčový obsah matematické 
 analýzy v prvním ročníku.
 
@@ -120,15 +120,15 @@ vzorec s rekurencí souhlasí. Předpokládejme, že souhlasí pro $$n \in \N$$.
 $$ a_{n+1} = {n + 1 \choose 2} + (n + 1) = (n + 1)\left( \frac{n}{2} + 1 \right) =
 {n + 2 \choose 2}$$
 
-Tedy vzorec je pravdivý i pro $$n+1$$. Musí tudíž platit provšechna přirozená čísla.
+Tedy vzorec je pravdivý i pro $$n+1$$. Musí tudíž platit pro všechna přirozená čísla.
 
 ---
 ## Demonstrace 
 
 Hlavolam [Hanoiské věže](https://en.wikipedia.org/wiki/Tower_of_Hanoi) spočívá 
-v přesunutí disků navlečenýchna jedné ze tří tyček na jinou tyčku. Jedním tahem je 
-možnévzít jen jeden disk a přesunout jej buď na prázdnou tyčku, nebona věž z disků 
-navlečenou na jiné tyčce, jejíž vrchní disk mávětší průměr než disk, který přesouváme.
+v přesunutí disků navlečených na jedné ze tří tyček na jinou tyčku. Jedním tahem je 
+možné vzít jen jeden disk a přesunout jej buď na prázdnou tyčku, nebo na věž z disků 
+navlečenou na jiné tyčce, jejíž vrchní disk má větší průměr než disk, který přesouváme.
 
 ![Tower of Hanoi](/assets/img/math/sequences/hanoi-towers.png)
 
@@ -153,3 +153,4 @@ Vzorec tedy platí i pro $$n+1$$ a tudíž musí platit pro všechna $$n \in \N$
 jsme tedy úlohu tak, že jsme nejprve sestavili rekurentní vztah, pak jsme odhadli 
 explicitní vzorec, a následně použili matematickou indukci pro důkaz, že vzorec 
 rekurenci vyhovuje.
+
