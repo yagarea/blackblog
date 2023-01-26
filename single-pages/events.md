@@ -15,7 +15,6 @@ Formát je:
 
 ## Návrhy
 
-- 19\. 01\. 2023 - **[Ahmed ma hlad, Klec](https://na-slamniku.cz/koncerty/)** - Na slamníku
 - 28\. 01\. 2023 - **[Katatonia, Solstafir](https://obscure.cz/cs/tickets/detail/id/415)** - Roxy
 - 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
 - 11\. 02\. 2023 - **[Neptunian Maximalism](https://goout.net/cs/neptunian-maximalism/szbjawu/)** - Underdogs (Jana)
@@ -35,6 +34,7 @@ Formát je:
 
 ## Proběhlé
 
+- 19\. 01\. 2023 - **[Ahmed ma hlad, Klec](https://na-slamniku.cz/koncerty/)** - Na slamníku
 - 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
 - 01\. 12\. 2022 - **[Hand grenade, Stellaris, Define me, Bound to break](https://www.facebook.com/events/1194478941130518/)** - Futurum Music Bar
 - 18\. 11\. 2022 - **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
