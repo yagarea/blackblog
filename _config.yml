@@ -47,7 +47,6 @@ collections:
 
 plugins:
   - jekyll-feed
-  - jekyll-gzip
   - jekyll-tidy
   - jektex
 
