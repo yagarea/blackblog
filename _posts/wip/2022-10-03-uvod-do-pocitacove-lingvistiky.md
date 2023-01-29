@@ -36,7 +36,7 @@ Obor, zabývající se formálním popisem vlastností přirozených jazyků a j
 - Strojový (automatický) překlad
 - Formalismy (syntaktické)
 - Korpusová lingvistika
-- Statistická lingvistika (dřive kvantitativní, nyní modeluje užívání jazyka)
+- Statistická lingvistika (dříve kvantitativní, nyní modeluje užívání jazyka)
 - ...
 
 ### Funkce přirozených jazyků
@@ -370,10 +370,11 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
 - Jde v podstatě o bezkontextovou nebo kontextovou gramatiku:
 
 $$
-\mathbf{V P}>\quad\left\{\begin{array}{cc}
-V}_{\mathrm{intr}}^{\mathrm{sg}} & \mathrm{AdV \\
-V}_{\mathrm{tr}}^{\mathrm{sg}} & \mathrm{NP
-\end{array}\right\} / NP}^{s g
+VP \rightarrow \quad
+\left\{\begin{array}{cc}
+    V_{intr}^{sg} & AdV \\
+    V_{tr}^{sg} & NP
+\end{array}\right\} \, / \, NP^{sg}
 $$
 
 - Generativní metoda není schopna zachytit vztahy mezi variantami vět, např. mezi větou tázací a oznamovací.
@@ -623,24 +624,18 @@ $$$$$$
     - **SEEK** (přechod k podsíti)
 
 
-| $$S \rightarrow NP VP \\ NP \rightarrow Det NP \\ VP \rightarrow V [NP]$$ | ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=206&width=630&top_left_y=688&top_left_x=998) |
+| $${S \rightarrow NP VP} \\ {NP \rightarrow Det NP} \\ {VP \rightarrow V [NP]}$$ | ![](/assets/img/matfyz/pc-ling/augmented-transition-networks.png) |
 
 > The girl saw a boy.
 
-$$\left(NP}_{1\right.$$
-
-$$\left(NP}_{2\right.$$
-
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=75&width=209&top_left_y=922&top_left_x=1055)
-
-$$\left(VP}_{1}\right.$$ SEEK NP $$\mathrm{VP}_{3$$
 
 ## Q-systémy
 - (Alain Colmerauer - otec prologu, 1969)
 - Formalismus pro tansformaci grafů
 - Grafy (stromy) jsou linearizovány
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=195&width=585&top_left_y=1196&top_left_x=627)
+![](/assets/img/matfyz/pc-ling/q-systemy.jpg)
+
 - Grafový analyzátor (chart parser)
 - Linearizace ne řezem, jako u Chomského
 - Vada - cesta zpátky není jednoznačná - pořadí uzlů není zachováno
@@ -652,7 +647,7 @@ $$\left(VP}_{1}\right.$$ SEEK NP $$\mathrm{VP}_{3$$
 
 > $$S(NP,VP(V,NP))$$
 >
-> múže být popsáno jako:
+> může být popsáno jako:
 >
 > $$A^{*}(U^{*})$$
 >
@@ -670,135 +665,156 @@ vstupní graf:
 
 ![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=308&width=616&top_left_y=1996&top_left_x=800)
 
-$\operatorname{Adj}+N}==>\mathrm{NP}(\operatorname{Adj}, \mathrm{N)$
 
-$V}+\mathrm{NP}\left(\mathrm{U}^{*}\right)=>\operatorname{VP}\left(\mathrm{V}, \mathrm{NP}\left(\mathrm{U}^{*\right)\right)$
+$$
+\begin{align}
+    Adj+N &\Rightarrow NP(Adj,N) \\
+    V+NP(U^{*}) &\Rightarrow VP(V, NP(U^{*})) \\
+    NP(U^{*})+VP(V^{*}) &\Rightarrow S(NP(U^{*}),VP(V^{*}))
+\end{align}
+$$
 
-Pravidla:
-
-$NP}\left(\mathrm{U}^{*}\right)+\mathrm{VP}\left(\mathrm{V}^{*}\right)==>\mathrm{S}\left(\mathrm{NP}\left(\mathrm{U}^{*}\right), \mathrm{VP}\left(\mathrm{V}^{*\right)\right)$
-
+### Pravidla
 - u pravidel záleží na pořadí
 - hrany na levé straně úspěšně použitého pravidla se zapamatují
-- na konci se smažou, byly překlenuty novou hranou - systém smaže také hrany, které na konci nejsou součástí cesty ze začátku do konce
+    - na konci se smažou, byly překlenuty novou hranou
+    - systém smaže také hrany, které na konci nejsou součástí cesty ze začátku do konce
 - jednotlivé malé gramatiky Ize řetězit za sebe
-- každá může dělat jen část
-- v mezifázi se graf vždy vyčistí
+    - každá může dělat jen část
+    - v mezifázi se graf vždy vyčistí
+
 - nevýhoda - reálná pravidla dost nečitelná
 - nesmírně efektivní ve srovnání s ostatními v 80. letech, běželo rychle
 - dobrý mechanismus, ale neuchytil se, protože se o něm psalo jen francouzsky (muselo se)
 - Používal je např. RUSLAN, ale jinak byly oblíbené téměř jen ve francouzštině (jinde byly oblíbenější rozšírené přechodové systémy)
-- Funkční generativní popis (Sgall, 1967)
+
+
+## Funkční generativní popis (Sgall, 1967)
 - později E. Hajičová, J. Panevová
 - projekt z MFF
 - teorie použitelná na jazyky jako čeština (volný slovosled, vysoká flexe)
 - navazuje na Pražskou lingvistickou školu
 - kniha: The Meaning of the Sentence in its Pragmatic Aspects, 1986
 - Stratifikační teorie - chápe popis jazyka jako popis 5 rovin (každá má nějakou funkci):
-- fonetická
-- fonologická
-- morfématická
-- povrchová
-- tektogramatická - sémantika slov
-- předpoklad, že roviny jsou nějak spojené
+    - fonetická
+    - fonologická
+    - morfématická
+    - povrchová
+    - tektogramatická - sémantika slov
+    - předpoklad, že roviny jsou nějak spojené
 - Formy a funkce - jednotka na vyšší rovině reprezentuje funkci jednotky na rovině nižší (TG je nejvyšší)
 - Na vyšších úrovních (povrchová a tektogramatická) se jazyk popisuje závislostní reprezentací, typicky závislostními stromy
-- Teorie valence (vazby, vyžadované nebo povolené řídicími slovy, zejména slovesy)
+
+
+### Teorie valence
+- vazby, vyžadované nebo povolené řídicími slovy, zejména slovesy
 - existuje již od 60 . let
-- základy vytvořili J.Kuryłowicz (1949) a L. Tesnière (1959), rozpracoval ji Charles Fillmore $$(1968,1977)$$ ve své „Case Grammar,“ ve které studoval sémantické role jednotlivých slovesných aktantů
+- základy vytvořili J.Kuryłowicz (1949) a L. Tesnière (1959), rozpracoval ji Charles Fillmore (1968,1977) ve své „Case Grammar,“ ve které studoval sémantické role jednotlivých slovesných aktantů
 - schopnost některých slov (především sloves) „vyžadovat“ jiné větné členy a tvořit s nimi věty
 - v rámci FGP:
-- slovesa - Panevová (1974-1975), Hajičová (1979), Panevová (1980) a $$(1994)$
-- substantiva - Novotný (1980), Panevová (2000)
-- adjektiva - Pitha (1982), Panevová (1998).
-- Vallex - Lopatková, Žabokrtský 2007
+    - **slovesa** - Panevová (1974-1975), Hajičová (1979), Panevová (1980) a (1994)
+    - **substantiva** - Novotný (1980), Panevová (2000)
+    - **adjektiva** - Pitha (1982), Panevová (1998).
+- **Vallex** - Lopatková, Žabokrtský 2007
 - 2 základní druhy závislých členů na TG rovině:
-- aktanty
-- Konatel (aktor, agens)
-- Patient
-- Adresát
-- Origo
-- Efekt
-- každý z nich může být ve větě zastoupen pouze jednou (i když je samozřejmě Ize koordinovat)
-- volná doplnění
-- mohou se vyskytovat vícekrát
-- další dělení: - obligatorní - obligatorní aktant nesmí ve větě chybět (může ovšem chybět na povrchové rovině, pokud ho známe např. z kontextu)
+    - aktanty
+        - Konatel (aktor, agens)
+        - Patient
+        - Adresát
+        - Origo
+        - Efekt
+        - každý z nich může být ve větě zastoupen pouze jednou (i když je samozřejmě Ize koordinovat)
+- **volná doplnění**
+    - mohou se vyskytovat vícekrát
+
+#### další dělení
+- obligatorní 
+    - obligatorní aktant nesmí ve větě chybět (může ovšem chybět na povrchové rovině, pokud ho známe např. z kontextu)
 - fakultativní
 - (na TG rovině)
 - dialogový test pro rozlišení obligatorních a fakultativních
 
-Dialogový test
 
-Moji přátelé přijeli. Moji přátelé odjeli.
+#### Dialogový test
 
-Kam? Odkud? Odkud? Proč?
+| Moji přátelé přijeli.           | Moji přátelé odjeli. |
+| Kam? ~~Nevím~~<br> Odkud? Nevím | Odkud? ~~Nevím~~<br>Proč? Nevím |
 
-*Nevím Nevím. *Nevím Nevím.
+- **valenční rámec**
+    - seznam aktantů (i fakultativních) a obligatorních volných doplnění
 
-- valenční rámec
-- Kontrola gramatické správnosti
-- seznam aktantů (i fakultativních) a obligatorních volných doplnění
+
+## Kontrola gramatické správnosti
 - problémy specifické pro češtinu:
-- shoda podmětu s prrísudkem
-- interpunkce
-- neprojektivní konstrukce
-- zájmena (mě/mně)
+    - shoda podmětu s přísudkem
+    - interpunkce
+    - neprojektivní konstrukce
+    - zájmena (mě/mně)
 
-Jak kontrolovat?
+### Jak kontrolovat?
+- **Chybové vzorky**
+    - vhodné hlavně pro jazyky s pevným slovosledem, kde se chybné konstrukce spíš vyskytují v lokálním kontextu (nerozlézají se daleko po větě)
+- **Gramatika**
+    - nelze ale rozeznat, kdy je konstrukce chybná pouze vzhledem k (neúplné) gramatice a kdy je opravdu špatně
 
-- Chybové vzorky
-- vhodné hlavně pro jazyky s pevným slovosledem, kde se chybné konstrukce spíš vyskytují v lokálním kontextu (nerozlézají se daleko po větě)
-- Gramatika
-- nelze ale rozeznat, kdy je konstrukce chybná pouze vzhledem k (neúplné) gramatice a kdy je opravdu špatně
-- RFODG
+### RFODG
 - Robust Free-Order Dependency Grammar
 - jedno pravidlo gramatiky může popisovat správnou i chybnou konstrukci zároveň
 - výpočet probíhá ve fázích, interpret gramatiky rozhoduje, jak se bude stejné gramatické pravidlo používat
 - 3 fáze:
-- pozitivní projektivní
-- negativní projektivní nebo pozitivní neprojektivní
-- umožnilo se něco porušit - povolila se jen 1 věc
-- negativní neprojektivní
-- povolí se vše - chyby i neprojektivity
-- velmi pomalé $$\rightarrow$$ metoda není velmi použitelná
+    - pozitivní projektivní
+    - negativní projektivní nebo pozitivní neprojektivní
+        - umožnilo se něco porušit - povolila se jen 1 věc
+    - negativní neprojektivní
+        - povolí se vše - chyby i neprojektivity
+        - velmi pomalé $$\rightarrow$$ metoda není velmi použitelná
 - snaha o co nejplynulejší fázování výpočtu
-- zlepšil Tom Holan, 2001 (disertační práce)
+    - zlepšil Tom Holan, 2001 (disertační práce)
 - gramatika ručně psaná $$\rightarrow$$ nekompletní
-- to, co nebylo v gramatice, se hlásilo jako chyba
-- neúspěšný experiment
-- LanGR
+    - to, co nebylo v gramatice, se hlásilo jako chyba
+    - neúspěšný experiment
+
+### LanGR
 - P. Květoň 2003
 - primárně vyvíjen pro desambiguaci české morfologie
 - pracuje s pozitivními a negativními desambiguačními pravidly
 - pravidla mohou mít neomezený kontext
-- redukční metoda - snaha udržet $$100 $$ přesnost
+- redukční metoda - snaha udržet 100 přesnost
 - pravidla jsou psána ručně, avšak na základě dat z korpusu
 - pravidla jsou vzájemně nezávislá, neuspořádaná a jsou uplatňována v cyklech
 - každé pravidlo má 4 části: kontext, desambiguační část, report a akce
 - pravidla tvořena speciálně pro češtinu (pro jiný jazyk by byla téměř úplně jiná)
 - používá desambiguaci na to, že když se odstraní všechny tagy, tak víme, že je něco špatně, $$v$$ tu chvíli se ale musí určit, co je špatně a jak to opravit (a toto samozřejmě neopraví všechny chyby) - Neřeší to ten problém, že věta může být správně, ale až v dalekém kontextu přes jiné věty. (Tatínek šly do práce.)
-- Obecně používá tuto prrípravu (klasický postup při zpracování psaného textu): segmentace (rozseká na věty) $$\rightarrow$$ tokenizace (rozseká na slova) $$\rightarrow$$ morfologická analýza (každému tokenu dá seznam dvojic lemma - tag) $$\rightarrow$$ morfologická desambiguace (každému tokenu vybere ideálně jeden token) $$\rightarrow$$ syntaktická analýza (větný rozbor) $$\rightarrow$$ sémantická analýza (rozbor významu věty).
-- používá MS Word 
+- Obecně používá tuto přípravu (klasický postup při zpracování psaného textu): segmentace (rozseká na věty) $$\rightarrow$$ tokenizace (rozseká na slova) $$\rightarrow$$ morfologická analýza (každému tokenu dá seznam dvojic lemma - tag) $$\rightarrow$$ morfologická desambiguace (každému tokenu vybere ideálně jeden token) $$\rightarrow$$ syntaktická analýza (větný rozbor) $$\rightarrow$$ sémantická analýza (rozbor významu věty).
+- používá MS Word
 
-## KORPUSOVÁ LINGVISTIKA
+---
 
+## Korpusová lingvistika
 - Zabývá se metodami, jak popisovat velké množství nasbíraných dat, studuje data v korpusech.
-- Korpus je rozsáhlý soubor textů (v digitální podobě, el. databáze) v daném jazyce, většinou anotovaný (označkovaný) na základě přechozí morfologické a někdy i syntaktické analýzy. Je to cenný soubor dat, ale někdy se chybně považuje za reprezentativní vzorek či rovnou celý jazyk.
-- V současné době obsahují mnoho milionů slov běžného textu, jehož vlastnosti mohou být analyzovány pomocí značek (tagů) (doplněných informací identifikující a klasifikující slova nebo jiné útvary) a konkordačních programů.
+
+{% def %}
+**Korpus** je rozsáhlý soubor textů (v digitální podobě, el. databáze) v daném jazyce, většinou anotovaný (označkovaný) na základě přechozí morfologické a někdy i syntaktické analýzy. Je to cenný soubor dat, ale někdy se chybně považuje za reprezentativní vzorek či rovnou celý jazyk.
+
+
+- V současné době korpusy obsahují mnoho milionů slov běžného textu, jehož vlastnosti mohou být analyzovány pomocí značek (tagů) (doplněných informací identifikující a klasifikující slova nebo jiné útvary) a konkordačních programů.
 - Nejsou čisté - obsahují cizí slova, gramaticky nesprávné věty, ...
 - V korpusech musí být značky, abychom mohli pokládat dotazy typu: najdi 3 předložky za sebou
-- Charakteristika moderních korpusů
-- Výběr vzorků a reprezentativnost
-- jazyk je nekonečný - korpus konečný...
-- reprezentativnost je důležitá, ale jde stranou
-- (knihy chráněné autorskými právy, nelze použít moc literatury)
-- Konečná velikost
-- s výjimkou tzv. monitorovacích korpusů (data jsou stále přidávána)
-- umožňuje kvantitativní výzkum
-- Strojem čitelná forma
-- snadné prohledávání, rychlá manipulace, snadno doplnitelné
-- Standardní reference
-- aby korpus mohl sloužit širšímu publiku, musí dodržovat určité standardy
+
+{% enddef %}
+
+###  Charakteristika moderních korpusů
+- **Výběr vzorků a reprezentativnost**
+    - jazyk je nekonečný - korpus konečný...
+    - reprezentativnost je důležitá, ale jde stranou
+        - (knihy chráněné autorskými právy, nelze použít moc literatury)
+- **Konečná velikost**
+    - s výjimkou tzv. monitorovacích korpusů (data jsou stále přidávána)
+    - umožňuje kvantitativní výzkum
+- **Strojem čitelná forma**
+    - snadné prohledávání, rychlá manipulace, snadno doplnitelné
+- **Standardní reference**
+    - aby korpus mohl sloužit širšímu publiku, musí dodržovat určité standardy
 
 ### Brown Corpus of Standard American English
 - první moderní elektronický korpus
@@ -806,186 +822,245 @@ Jak kontrolovat?
 - 1 milion slov textů $$v$$ amer. angličtině z roku 1961
 - 15 druhů textu (novinové reportáže, humor, krásná literatura, ...), dohromady 500 textů, každý cca 2000 slov
 - Texty byly vybírány schválně náhodně. Celé to bylo pečlivé, ale milion slov není moc. A texty nebyly anotované.
-- Penn Treebank
+
+### Penn Treebank
 - první a nejznámější syntakticky anotovaný korpus
 - 1990's Univerzita v Pensylvánii
 - cca1 milion slov
 - 2499 článků ze souboru článků Wall Street Journal (WSJ) v průběhu 3 let (burzovní angličtina)
-- dosti omezující
-- články různě dlouhé
-
-autoři: Mitchell P. Marcus, Beatrice Santorini, Mary Ann Marcinkiewicz a Ann Taylor
-
-syntaktická analýza využívala složkové systémy, tedy anotace pomocí uzávorkování a různých značek
-
+    - dosti omezující
+    - články různě dlouhé
+- autoři: Mitchell P. Marcus, Beatrice Santorini, Mary Ann Marcinkiewicz a Ann Taylor
+- syntaktická analýza využívala složkové systémy, tedy anotace pomocí uzávorkování a různých značek
 - snaha ho přeložit do češtiny (PCEDT), což se podařilo, ale s obtížemi
-- vyžadovalo to lidi, kteří by uměli dobře česky i anlglicky a vyznali se v prostředí burzovních textů z 90's. (Nejen překladatel, ale i ten, kdo to reviduje.)
-- motivace pro překlad včetně podobného značkování byla taková, aby se nějaký statistický program mohl učit rozdíly.
-- další anglické: British National Corpus, American National Corpus, Corpus of Contemporary American English, Oxford English Corpus
-- Český národní korpus (CNC)
+    - vyžadovalo to lidi, kteří by uměli dobře česky i anglicky a vyznali se v prostředí burzovních textů z 90's. (Nejen překladatel, ale i ten, kdo to reviduje.)
+    - motivace pro překlad včetně podobného značkování byla taková, aby se nějaký statistický program mohl učit rozdíly.
+
+### Další anglické kopusy
+- British National Corpus
+- American National Corpus
+- Corpus of Contemporary American English
+- Oxford English Corpus
+
+### Český národní korpus (CNC)
 - Od 1994 společně UK, MU a Ústav pro jazyk český
-- Morfologicky označkovaný („otaggovaný“)
-- tedy na morfologické úrovni
-- ne ručně, ale automatickými nástroji pro morfologickou analýzu
-- Současně obsahuje asi 600 miliónů slov a je složený z převážné části z novinových článků, dále z literatury a odborných textů. - část (100 milionů slov) uvolněno pro veřejnost - SYN2000
-- $$15 $$ literatury, $$60 $$ novinové texty, $$25 $$ technické a odborné texty (čísla už dnes neplatí...)
+- Morfologicky označkovaný („otagovaný“)
+    - tedy na morfologické úrovni
+    - ne ručně, ale automatickými nástroji pro morfologickou analýzu
+- Současně obsahuje asi 600 miliónů slov a je složený z převážné části z novinových článků, dále z literatury a odborných textů. 
+- část (100 milionů slov) uvolněno pro veřejnost - SYN2000
+    - 15% literatury, 60% novinové texty, 25% technické a odborné texty (čísla už dnes neplatí...)
+- Morfologická analýza používá 15-ti poziční značky. V korpusu je rozeznáno 700000 lemat, 15 miliónů slovních forem a po stochastické desambiguaci zůstane u každého slova průměrně 4,29 tagů. Používá statistické metody. Na učení se využívá ručně označkovaný korpus s 1,2 milióny tokenů (slov). K automatickému učení používá kontextová pravidla (asi 11000 pravidel). Automaticky určuje váhy. Dosahuje rychlosti 200 tokenů za sekundu a výsledná úspěšnost je přes 94%.
 
-Morfologická analýza používá 15-ti poziční značky. V korpusu je rozeznáno 700000 lemat, 15 miliónú slovních forem a po stochastické desambiguaci zůstane u každého slova průměrně 4,29 tagů. Používá statistické metody. Na učení se využivá ručně označkovaný korpus s 1,2 milióny tokenů (slov). K automatickému učení používá kontextová pravidla (asi 11000 pravidel). Automaticky určuje váhy. Dosahuje rychlosti 200 tokenů za sekundu a výsledná úspěšnost je přes $$94 \%$.
-- Pražský závislostní korpus (Prague Dependency Treebank)
+### Pražský závislostní korpus (Prague Dependency Treebank)
 - Propracované anotační schéma aplikovatelné na jazyky různých typů
-- Anotovaný automatickou metodou (přesnost asi $$70 $$ )
-- Pak se stromečky opravovaly ručně
+- Anotovaný automatickou metodou (přesnost asi 70% )
+    - Pak se stromečky opravovaly ručně
 - Data jsou podmnožinou ČNK
-- Založené na teorii Funkčního generativního popisu prof. P. Sgalla 100000 vět, $$1.25$$ milionu běžných slov úrovně anotace:
-- morfologie
-- analytická rovina (povrchově syntaktická)
-- přiřazují se funkce - podmět, přísudek, ...
-- tektogramatická rovina (4 poroviny):
-- závislostní struktura, (detailní) funktory
-- jádro/ohnisko (topic/focus) a hloubkový pořádek slov
-- koreference (většinou pouze gramatická)
-- vše ostatní (gramatémy):
-- detailní funktory
-- hloubkový rok, číslo, ...
+- Založené na teorii Funkčního generativního popisu prof. P. Sgalla
+- 100000 vět, 1.25 milionu běžných slov
+- **úrovně anotace:**
+    - morfologie
+    - analytická rovina (povrchově syntaktická)
+        - přiřazují se funkce - podmět, přísudek, ...
+    - tektogramatická rovina (4 podroviny):
+        - závislostní struktura, (detailní) funktory
+        - jádro/ohnisko (topic/focus) a hloubkový pořádek slov
+        - koreference (většinou pouze gramatická)
+        - vše ostatní (gramatémy):
+            - detailní funktory
+            - hloubkový rok, číslo, ...
 - Vznikl anotační manuál - některé jevy složité, bylo potřeba anotovat jednotně
-- 1500 stránek
+    - 1500 stránek
+- díky ručnímu zanotování (po atom. metodě) - lepší než většina treebanků, 
+- spolehlivější projekt na 10 let
+- grant až 300 mil. Kč
+- Je anotovaný (opět automaticky) na několika rovinách (na některých rovinách jsou anotovány jen jeho části): 
+    - **Slovní rovina** (w-rovina)
+        - Pouze surový text bez anotace, ovšem včetně členění.
+    - **Morfologická rovina** (m-rovina)
+        - Každému slovu ve větě přiřadí několik atributů (lemma, tag (15-ti poziční značka), jednoznačné id využité při propojování rovin, odkaz do slovní roviny, atd.).
+    - Anotace probíhala dvoufázově: nejdříve anotoval automatický morfologický analyzátor $$\rightarrow$$ a pak dva lidští anotátoři na sobě nezávisle vybírali správná lemmata a tagy z výsledkủ automatického $$\rightarrow$$ nakonec třetí lidský anotátor vybral nejlepší možnost z předchozích dvou.
+    - **Analytická rovina** (a-rovina)
+        - Každá věta je reprezentována stromem orientovaným do kořene s ohodnocenými hranami mezi uzly. Uzly jsou právě prvky morfologické roviny, hrany jsou ohodnoceny podle závislostních vztahů uzlů, či určují další jevy (koordinace - s předchozí větou, apozice, interpunkce). Každý uzel si i pamatuje své pořadí ve větě kvưli grafickému znázornění.
+        - Byl použit automatický parser na předzpracování textu a dále automatický nástroj, který na základě pravidel určoval ohodnocení hran, ale výstup byl často chybný či neúplný, tedy museli nastoupit ruční anotátoři. Následně byly provedeny automatické kontrolní testy (např. slovesnký jmenný predikát závisí na být) a porušení byla ručně opravena.
+        - Nakonec byla provedena společná revize morfologické a analytické roviny (např. shoda v pádě, rodu a čísle závislého a nadřízeného uzlu, atd.).
+    - **Tektogramatická rovina** (t-rovina)
+        - Opět je každá věta reprezentována stromem. Nicméně jeho uzly už nemusí být právě prvky morfologické analýzy (některé prvky zde nejsou (např. předložky) a některé uzly tu jsou navíc (např. nevyjádřený podmět)). Zachycuje hloubkovou strukturu věty. K některým uzlům jsou připojeny gramatémy poskytující o uzlu informaci, kterou nelze jinak odvodit. K uzlům reprezentujícím sloveso či některé typy podstatným jmen je přiřazen valenční rámec (odkaz do vallexu). Dále nějaké koreference.
 
-díky ručnímu zanotování (po atom. metodě) - lepší než většina treebanků, spolehlivější projekt na 10 let
+### Anotační a vyhledávací nástroje
+- **Netgraph**
+    - prohledávání stromů
+    - víceuživatelská internetová aplikace cleint-server
+- **TrEd**
+    - tree editor
+    - původně anotační nástroj
+    - postupně přibyly i vyhledávací funkce a další
+- **Universal Dependencies**
+    - společný formát korpusů
+    - výsledek mezinárodní standardizace
+    - dá se např. vyhledávat ve více korpusech najednou - Ize porovnávat jazyky
+        - např. v našem repozitáři LINDAT 
 
-grant až 300 mil. Kč
-
-Je anotovaný (opět automaticky) na několika rovinách (na některých rovinách jsou anotovány jen jeho části): Slovní rovina (w-rovina). Pouze surový text bez anotace, ovšem včetně členění.
-
-Morfologická rovina (m-rovina).
-
-Každému slovu ve větě přiřadí několik atributů (lemma, tag (15-ti poziční značka), jednoznačné id využité při propojování rovin, odkaz do slovní roviny, atd.).
-
-Anotace probihala dvoufázově: nejdřive anotoval automatický morfologický analyzátor $$\rightarrow$$ a pak dva lidští anotátoři na sobě nezávisle vybírali správná lemmata a tagy z výsledkủ automatického $$\rightarrow$$ nakonec třetí lidský anotátor vybral nejlepši možnost z předchozích dvou.
-
-Analytická rovina (a-rovina).
-
-Každá věta je reprezentována stromem orientovaným do kořene s ohodnocenými hranami mezi uzly. Uzly jsou právě prvky morfologické roviny, hrany jsou ohodnoceny podle závislostních vztahů uzlů, či určují další jevy (koordinace - s předchozí větou, apozice, interpunkce). Každý uzel si i pamatuje své pořadí ve větě kvưli grafickému znázornění.
-- Byl použit automatický parser na předzpracování textu a dále automatický nástroj, který na základě pravidel určoval ohodnocení hran, ale výstup byl často chybný či neúplný, tedy museli nastoupit ruční anotátoři. Následně byly provedeny automatické kontrolní testy (např. slovesnký jmenný predikát závisí na být) a porušení byla ručně opravena.
-
-Nakonec byla provedena společná revize morfologické a analytické roviny (např. shoda v pádě, rodu a čísle závislého a nadřízeného uzlu, atd.).
-
-Tektogramatická rovina (t-rovina).
-
-Opět je každá věta reprezentována stromem. Nicméně jeho uzly už nemusí být právě prvky morfologické analýzy (některé prvky zde nejsou (např. předložky) a některé uzly tu jsou navíc (např. nevyjádřený podmět)). Zachycuje hloubkovou strukturu věty. K některým uzlům jsou připojeny gramatémy poskytujíci o uzlu informaci, kterou nelze jinak odvodit. K uzlům reprezentujícím sloveso či některé typy podstatným jmen je prǐrazen valenční rámec (odkaz do vallexu). Dále nějaké koreference.
-
-- Anotační a vyhledávací nástroje
-- Netgraph
-- prohledávání stromů
-- víceuživatelská internetová aplikace cleint-server
-- TrEd - tree editor
-- původně anotační nástroj
-- postupně přibyly i vyhledávací funkce a další
-- Universal Dependencies
-- společný formát korpusů
-- výsledek mezinárodní standardizace
-- dá se např. vyhledávat ve více korpusech najednou - Ize porovnávat jazyky
-- např. v našem repozitáři LINDAT 
+---
 
 ## Pravděpodobnostní a statistické metody
 
-- Motivace: víme, že existují 3 překlady pro dané slovo. Je těžké určit, který je pro danou situaci vhodný. Nicméně mohl by nám k tomu pomoci kontext okolních slov. Statistické překladové metody v podstatě zkoumají, jakou mají různé kombinace slov v daném jazyce pravděpodobnost - a dle toho se rozhodují o překladu.
-- Potřebujeme $$k$$ tomu velké množství událostí - při dostatečně dlouhé sérii pokusů se relativní četnost jednotlivých výsledků začne blížit jejich pravděpodobnosti.
+- **Motivace:** víme, že existují 3 překlady pro dané slovo. Je těžké určit, který je pro danou situaci vhodný. Nicméně mohl by nám k tomu pomoci kontext okolních slov. Statistické překladové metody v podstatě zkoumají, jakou mají různé kombinace slov v daném jazyce pravděpodobnost - a dle toho se rozhodují o překladu.
+- Potřebujeme k tomu velké množství událostí - při dostatečně dlouhé sérii pokusů se relativní četnost jednotlivých výsledků začne blížit jejich pravděpodobnosti.
 - Můžeme zkoumat (paralelní) korpus
-- Četnost výskytu "in" $$v$$ anglickém a tří možností ve francouzském
-- Pravděpodobnost výskytu slova $$w$$ v textu $$T$$ je $$P(w)=$$ počet výskytů slova $$S$$ v textu $$T /$$ počet slov textu $$T$.
-- Základní vzorce:
-- $$\quad P(A, B)=P(A) P(B)$$ (A, $$B$$ nezávislé)
-- Bayesův: $$P(A \mid B)=P(B \mid A) P(A) / P(B)$
-- $$\quad p(A, B)=p(A \mid B) p(B)=p(B, A)$
-- $$\quad p(A, B, C)=p(A \mid B, C) p(B \mid C) p(C)$
-- $$\quad p(A \mid B)=p(A)$$ a tedy $$p(A, B)=p(A) p(B)$
+- Četnost výskytu "in" v anglickém a tří možností ve francouzském
+- Pravděpodobnost výskytu slova $$w$$ v textu $$T$$ je $$P(w)=$$ počet výskytů slova $$S$$ v textu $$T / \text{počet slov textu } T$$.
 
-(A, B nezávislé)
+### Základní vzorce
 
-- Modelování jazyka (rozpoznávání) je technika, která se snaží předpovídat, co bude následující slovo na základě předchozího kontextu (historie).
+$$\begin{align}
+    P(A, B)=P(A) P(B) &\quad\; \text{(A, B nezávislé)} \\
+    P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)} &\quad\;\text{(Bayesova věta)} \\
+    P(A, B)=P(A \mid B) P(B)=P(B, A) & \\
+    P(A, B, C)=P(A \mid B, C) P(B \mid C) P(C) & \\
+    P(A \mid B)=P(A) &\quad\; \text{(A, B nezávislé)} \\
+    P(A, B)=P(A)P(B) &\quad\; \text{(A, B nezávislé)} \\
+\end{align}
+$$
+
+### Modelování jazyka
+{% def %}
+**Rozpoznávání** je technika, která se snaží předpovídat, co bude následující slovo na základě předchozího kontextu (historie).
+{% enddef%}
+
 - Dříve čistě akusticky, později (v 90. letech) se přidala statistika - zlepšení
 - Předpovídání - násl. morfologické značky, násl. slova, apod.
-- např. v angličtině po členu nebude sloveso...
+    - např. v angličtině po členu nebude sloveso...
 - Pomocí podmíněné pravděpodobnosti
-- Necht' jsme před slovem w. Označme h dosavadní historii (text před slovem w). Pak nás zajímá $$P(w \mid h)$. Což z Bayesovy věty spočítáme jako $$P(w \mid h)=P(h \mid w)^{\star} P(w) / P(h)$. Díky větě o úplné pravděpodobnosti pak můžeme počítat pravděpodobnost celé věty $$W$$ jako:
-- $$p(W)=p\left(\left\langle w_{i}\right\rangle_{i=1 . n}\right)=p\left(w_{n}\left|<w_{i}\right\rangle_{i=1 . n-1}\right) * p\left(w_{n-1} \mid\left\langle w_{i}\right\rangle_{i=1 . n-2}\right) * p\left(w_{n-2}\left|<w_{i}\right\rangle_{i=1 . . n-3}\right) * \ldots$$ $${ }^{*} p\left(w_{2} \mid w_{1}\right){ }^{*} p\left(w_{1}\right)$
-- pravděpodobnost n-tého slova v kontextu předchozích
-- Jelikož přiliš dlouhá historie by byla výpočetně náročná a zároveň by mnohé pravděpodobnosti byly přiliš malé (kombinace dlouhých sousloví nejsou přiliš pravděpodobné), tak se historie omezuje - v reálném případě počítáme s úseky délky 3 (trigram) nebo 4 (kvadrigram)
-- trigramový model:
-- $$p(W)=p(w 3 \mid w 2 w 1)^{*} p(w 2 \mid w 1)^{*} p(w 1)$
-- Termín n-gram znamená n-tice slov za sebou (lépe by však bylo upřesnit „slovní n-gram“, jindy se n-gramem totiž myslí n-tice písmen).
-- Vyhlazovaní. Ve velkém slovníku je přiliš mnoho nulových pravděpodobností (kombinací trigramů je hodně, ale $$v$$ daných textech se jich vyskytne jen malá část). To se řeší tak, že nulové pravděpodobnosti se nahradí nějakými malými hodnotami.
+
+{% theorem %}
+Nechť jsme před slovem $$w$$. Označme $$h$$ dosavadní historii (text před slovem $$w$$).
+Pak nás zajímá $$P(w \mid h)$$.
+Což z Bayesovy věty spočítáme jako $$P(w \mid h)={P(h \mid w)^{*} P(w) / P(h)}$$.
+Díky větě o úplné pravděpodobnosti pak můžeme počítat pravděpodobnost celé věty $$W$$ jako:
+
+$$
+\begin{align}
+    &P(W) = \\
+    &P\left(\left\langle w_{i}\right\rangle_{i=1 \ldots n}\right). \\
+    &P\left(w_{n}   \mid \left\langle w_{i} \right\rangle_{i=1 \ldots n-1}\right). \\
+    &P\left(w_{n-1} \mid \left\langle w_{i} \right\rangle_{i=1 \ldots n-2}\right). \\
+    &P\left(w_{n-2} \mid \left\langle w_{i} \right\rangle_{i=1 \ldots n-3}\right). \\
+    \ldots \\
+    &P\left(w_{2} \mid w_{1}\right). \\
+    &P\left(w_{1}\right)
+\end{align}
+$$
+
+{% endtheorem %}
+
+- pravděpodobnost $$n$$-tého slova v kontextu předchozích
+- Jelikož příliš dlouhá historie by byla výpočetně náročná a zároveň by mnohé pravděpodobnosti byly příliš malé (kombinace dlouhých sousloví nejsou příliš pravděpodobné), tak se historie omezuje - v reálném případě počítáme s úseky délky 3 (trigram) nebo 4 (kvadrigram)
+
+{% def %}
+**Trigramový model**
+
+$$p(W)=p(w_{3} \mid w_{2} w_{1}) p(w_{2} \mid w_{1}) p(w_{1})$$
+
+{% enddef %}
+
+- Termín $$n$$-gram znamená $$n$$-tice slov za sebou (lépe by však bylo upřesnit „slovní $$n$$-gram“, jindy se $$n$$-gramem totiž myslí $$n$$-tice písmen).
+
+### Vyhlazovaní
+- Ve velkém slovníku je příliš mnoho nulových pravděpodobností (kombinací trigramů je hodně, ale $$v$$ daných textech se jich vyskytne jen malá část). To se řeší tak, že nulové pravděpodobnosti se nahradí nějakými malými hodnotami.
 - Zkoumání by jinak přestalo být opřené o reálná data
 - Bohužel ale setře rozdíl mezi nesmyslnými kombinacemi a těmi málo pravděpodobnými
-- Statistický překlad
-- Použije se se paralelní překladový korpus jako trénovací množina př́kladů dobrého překladu
-- Paralelní korpusy
-- existují jak pro dvojice jazyků, tak i pro větší množiny (korpus dokumentů EU)
-- musí být spárované - po větách, větných členech, atd. (oproti práci překladatelů)
-- takový korpus bude většinou velmi malý (oproti dříve probraným jednojazyčným)
-- V posledním desetiletí převládající metoda
-- Fázový překlad
-- skládat překlady pouze z paralelních dat
-- zavedl Google
-- kolem r. 2000 pracovali s frázemi až do délky 9 - bez ohledu na lingvistiku, na pravidla - čistě mechanické
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-23.jpg?height=157&width=248&top_left_y=247&top_left_x=1418)
-- spoustu různých variant
-- Metoda zašuměného kanálu
-- Chceme prrekládat z $$F$$ do $$A$. Hledáme pravděpodobnostní model $$P(A \mid F)$, který vyjádří pravděpodobnost libovolné anglické věty a, máme-li francouzskou větu f. Parametry se nastaví podle tréninkového korpusu.
-- Bayesův vzorec: $$P(a \mid f)=P(f \mid a) P(a) / P(f)$
-- tím se vlastně otočil směr překladu
-- hledáme 2 modely:
-- překladový model $$P(f \mid a)$
-- jazykový model cílového jazyka P(a)
-- $$\quad P(f)$$ není podstatné, nějaká konstanta, větu máme
+### Statistický překlad
+- Použije se se paralelní překladový korpus jako trénovací množina příkladů dobrého překladu
+- **Paralelní korpusy**
+    - existují jak pro dvojice jazyků, tak i pro větší množiny (korpus dokumentů EU)
+    - musí být spárované - po větách, větných členech, atd. (oproti práci překladatelů)
+    - takový korpus bude většinou velmi malý (oproti dříve probraným jednojazyčným)
+- V posledním desetiletí převládající metoda
+- **Fázový překlad**
+    - skládat překlady pouze z paralelních dat
+    - zavedl Google
+    - kolem r. 2000 pracovali s frázemi až do délky 9 - bez ohledu na lingvistiku, na pravidla - čistě mechanické
+        - spoustu různých variant
+
+![Fázový překlad](/assets/img/matfyz/pc-ling/fazovy-preklad.jpg)
+
+### Metoda zašuměného kanálu
+- Chceme překládat z $$F$$ do $$A$$. Hledáme pravděpodobnostní model $$P(A \mid F)$$, který vyjádří pravděpodobnost libovolné anglické věty a, máme-li francouzskou větu $$F$$. Parametry se nastaví podle tréninkového korpusu.
+- Bayesův vzorec: $$P(A \mid F)=\frac{P(F \mid A)P(A)}{P(F)}$$
+    - tím se vlastně otočil směr překladu
+    - hledáme 2 modely:
+        - překladový model $$P(F \mid A)$$
+        - jazykový model cílového jazyka $$P(A)$$
+    - $$P(F)$$ není podstatné, nějaká konstanta, větu máme
 - Předstíráme, že francouzská věta je výsledkem nedokonalého přenosu přes zašuměný (nespolehlivý) kanál a hledáme její správný originál.
 - Zkoumáme dobrou metodu překladu (akorát opačným směrem) a současně se díváme, jak dobrou (správnou, hezkou) větou $$v$$ angličtině je hypotéza
 - Jazykový model $$P(A)$$ - kvalitní, větší korpus
-- může být trigramový model založený na mnohem rozsáhlejším korpusu cílového jazyka, řádově stamiliony slov
-- Prekladový model $$P(F \mid A)$$ je založen na mnohem menším paralelním korpusu (miliony slov)
+    - může být trigramový model založený na mnohem rozsáhlejším korpusu cílového jazyka, řádově stamiliony slov
+- Překladový model $$P(F \mid A)$$ je založen na mnohem menším paralelním korpusu (miliony slov)
 - Překlad probíhá obráceně
 - Jazykový model odfiltruje nepodařené překlady, vyrovná chyby překladového modelu
-- problém: často se jim po cestě ztratí negace, to jazykový model nespraví (původní i negace jsou stejně přijatelné)
+    - problém: často se jim po cestě ztratí negace, to jazykový model nespraví (původní i negace jsou stejně přijatelné)
 - Jazykový model vybírá pouze "hezké" věty, nemá vztah k originálu
 - Hledání překladových hypotéz (dekódování) je obtížným problémem samo o sobě
-- Evaluace systémů automatického překladu
+
+### Evaluace systémů automatického překladu
 - Potřebujeme zpětnou vazbu, jestli se po změně systém zlepšuje, nebo ne
-- Jak mě̌̌it kvalitu překladu? To je obtížná záležitost i ručně, natož automaticky. V roce 2002 vznikla míra Bleu.
-- BLEU
+- Jak měřit kvalitu překladu? To je obtížná záležitost i ručně, natož automaticky. V roce 2002 vznikla míra Bleu.
+
+
+#### BLEU
 - metrika, standard
 - máme sadu referenčních překladů (daný text kvalitně přeložený, nejlépe několik variant)
-- skóre - vezmou se unigramy až kvadrigramy a porovnává se s referenčními větami (jestli se v některém z ref. překladů vyskytují)
-- je jedno, v jakém ref. překladu se vyskytuje, hlavně že v nějakém
+- **skóre** - vezmou se unigramy až kvadrigramy a porovnává se s referenčními větami (jestli se v některém z ref. překladů vyskytují)
+    - je jedno, v jakém ref. překladu se vyskytuje, hlavně že v nějakém
 - penalizace za stručnost (např. pokud systém přeloží jen prvních pár slov věty ale kvalitně)
-- tendence favorizovat krátké věty, jejichž všechny n-gramy by existovaly $$v$$ referenčních příkladech, přestože by ref. překlady byly výrazně delší
+    - tendence favorizovat krátké věty, jejichž všechny n-gramy by existovaly $$v$$ referenčních příkladech, přestože by ref. překlady byly výrazně delší
 - celkové skóre:
-- $$\quad B L E U=B P *\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$
-- penalizace za stručnost vynásobená geometrickým průměrem n-gramové přesnosti pro $$n=1 . .4$
-- výsledkem je vždy číslo mezi 0 a 1 ("přesnost překladu v \%")
+
+$$\text{BLEU} =BP .\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$$
+
+- $$BP$$ = Brevity penalty
+
+- penalizace za stručnost vynásobená geometrickým průměrem $$n$$-gramové přesnosti pro $$n=1\ldots 4$$
+- výsledkem je vždy číslo mezi 0 a 1 ("přesnost překladu v %")
 - určené pro použití během vývoje systémů - měl by porovnávat ten samý systém
-- potrreba více ref. prekladů a více testovacích vět ( 1000)
+- potřeba více ref. překladů a více testovacích vět ( 1000)
 - problémy:
-- vysoce flektivní jazyky - jen u špatného pádu velmi nízké skóre
-- jiný slovosled může způsobit velmi špatné výsledky v této metrice - nebere $$v$$ úvahu morfologii, tedy pouze chybná koncovka (ale správný význam) pokazí skóre stejně jako úplně špatný překlad
-- hodně náročné na velikost trénovacích dat, proto se lépe překládá mezi „velkými jazyky“, kde se data lehko shání
+    - vysoce flektivní jazyky - jen u špatného pádu velmi nízké skóre
+    - jiný slovosled může způsobit velmi špatné výsledky v této metrice
+    - nebere $$v$$ úvahu morfologii, tedy pouze chybná koncovka (ale správný význam) pokazí skóre stejně jako úplně špatný překlad
+    - hodně náročné na velikost trénovacích dat, proto se lépe překládá mezi „velkými jazyky“, kde se data lehko shání
 - pro nepatrné zlepšení potřeba výrazně větší trénovací data
-- Google - pro o 0,05 lepší BLEU skóre potřebuje 2x větší data - Sémantika přirozeného jazyka
+    - Google - pro o 0,05 lepší BLEU skóre potřebuje 2x větší data - Sémantika přirozeného jazyka
 
-## SÉMANTIKA
+---
 
+## Sémantika
+
+### Sémantika přirozeného jazyka
 - Pomocí syntaxe můžeme rozlišovat gramaticky správně a nesprávně utvořené věty. Nicméně nic to neříká o jejich pravdivosti.
 - Je nutno rozlišovat mezi významem a pravdivostí věty.
-- Pravdivost je dána kontextem, není obsažena $$v$$ jazyce. Jsou k ní potřeba různá pravidla a předpoklady světa, ze kterého vycházíme.
+- Pravdivost je dána kontextem, není obsažena v jazyce. Jsou k ní potřeba různá pravidla a předpoklady světa, ze kterého vycházíme.
 - I nepravdivá sdělení mohou mít svůj význam.
 - U některých sdělení zase není možno ověřit pravdivost.
 - Je těžké obecně říct o větách, jestli mají stejný význam. (Pozorovali ho dobrovolně. X Byl jimi pozorován dobrovolně.)
-- Vyplývání
-- z pravdivé věty často vyplývají různé další skutečnosti (na základě obecných pravidel a zákonitostí), nicméně tyto zákonitosti nejsou stoprocentní, mohou mít výjimky, které nás předem nenapadnou. (Tučnáci jsou ptáci. => Tučňáci mají křídla a létají.)
+
+#### Vyplývání
+- z pravdivé věty často vyplývají různé další skutečnosti (na základě obecných pravidel a zákonitostí), nicméně tyto zákonitosti nejsou stoprocentní, mohou mít výjimky, které nás předem nenapadnou. 
+
+> Tučňáci jsou ptáci. $$\Rightarrow$$ Tučňáci mají křídla a létají.
+
 - to, že je věta pravdivá, mívá důsledky - věta nese víc informací
-- př. Kare prodal auto sousedovi. => Karel měl auto, už ho nemá, soused je od něj koupil a ted' ho má.
+
+> Kare prodal auto sousedovi. $$\Rightarrow$$ Karel měl auto, už ho nemá, soused je od něj koupil a ted' ho má.
+
 - Sémantika formálních jazyků často spojuje pravdivost s významem, pro přirozené jazyky je nutné zvolit jiné teorie.
-- Fregeho princip kompozicionality (Gottlob Frege, 1848-1925).
+
+#### Fregeho princip kompozicionality
+- (Gottlob Frege, 1848-1925).
 - Význam složeného výrazu je jednoznačně určen významy jeho částí a způsobem jejich kombinace.
 - Tedy např. význam textu je určen významy jednotlivých vět a jejich poskládáním. Obdobně význam vět je určen významem jejich slov, atd.
 - Buduje se odspoda - význam slov a spojek (vztah mezi klauzulemi/slovy)
@@ -1132,7 +1207,7 @@ X Myslím, že cena Big Macu je 20 Kč.
 - založena na formální logice, zvláště na lambda kalkulu a teorii množin
 - používá pojmy intenzionální logiky a teorie typů
 - vychází z předpokladu, že neexistuje žádný zvláštní rozdíl mezi sémantikou přirozených a formálních jazyků (článek “The Proper Treatment of Quantification on Ordinary English” (1973)) první rozsáhlý pokus systematicky popsat sémantiku přirozeného jazyka
-- logici před Montaguem považovali přirozený jazyk za př́liš mnohoznačný a nestrukturovaný pro formání logickou analýzu, zatímco lingvisté měli pocit, že formální jazyky nejsou schopny zachytit strukturu jazyků přirozených
+- logici před Montaguem považovali přirozený jazyk za příliš mnohoznačný a nestrukturovaný pro formání logickou analýzu, zatímco lingvisté měli pocit, že formální jazyky nejsou schopny zachytit strukturu jazyků přirozených
 
 sémantická pravidla úzce svázaná se syntaktickými (ale je to sémantická teorie, ne syntaktická (i když má v názvu slovo gramatika))
 
