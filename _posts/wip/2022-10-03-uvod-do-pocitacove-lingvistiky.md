@@ -457,10 +457,10 @@ $$ Y X \backslash Y \rightarrow X$$
 
 ![Příklad kombinační gramatiky](/assets/img/matfyz/pc-ling/priklad-kombinacni-gramatiky.png)
 
-## Unifikační gramatiky
+### Unifikační gramatiky
 - navazují na f-structure z LFG
 
-### Popis vlastností objektů
+#### Popis vlastností objektů
 - Objekt je reprezentován množinou vlastností (jednoduchých rysů)
 - Popis každé vlastnosti je dvojice **<nazev\_vlastnosti>:<hodnota\_vlastnosti>**
 - Neuspořádaná množina vlastností = **sestava rysů (feature structure)**
@@ -475,7 +475,7 @@ $$
 \end{array}\right]
 $$
 
-### Unifikace
+#### Unifikace
 - Spojování dvou sestav rysů popisujících stejný objekt
 
 $$
@@ -505,7 +505,7 @@ $$
 - Povolena pouze tehdy, pokud hodnoty všech rysů z určité sestavy neodporují nějaké hodnotě stejného rysu z jiné sestavy
 - Pokud dvě sestavy rysů obsahují rozporné informace, potom je výsledkem unifikace vnitřně rozporná sestava rysů obvykle označovaná jako $$\perp$$
 
-### Sestavy rysů
+#### Sestavy rysů
 - Základní datová struktura unifikačních gramatik
 - Obsahují kombinaci rysů, která popisuje určitý jev (např. shodu apod.)
 - Hodnotou vlastnosti (rysu) může být také sestava rysů nebo proměnná.
@@ -539,7 +539,7 @@ $$
 \end{array}\right]
 $$
 
-### Typované sestavy rysů
+#### Typované sestavy rysů
 - Nakonec převládly, to jediné, co dávalo smysl
 - Typ sestavy určuje její vlastnosti
 
@@ -605,17 +605,17 @@ $$$$$$
 - Někdy dlouhé čekání - dřive velmi neefektivní
 - další implementace už trochu lepší
 
-### Functional Unification Grammar (FUG)
+#### Functional Unification Grammar (FUG)
 - Funkční unifikační gramatika - Martin Kay
 
-### Generalized Phrase Structure Grammar (GPSG)
+#### Generalized Phrase Structure Grammar (GPSG)
 - Gerald Gazdar, Geoffrey Pullum, Ivan Sag, Ewan Klein (1985) 
 - Dnes už je ale převálcovaly statistické metody.
 
 
-## Nástroje pro syntaktickou analýzu
+### Nástroje pro syntaktickou analýzu
 
-### Augmented Transition Networks (Woods, 1970)
+#### Augmented Transition Networks (Woods, 1970)
 - primitivní, ale úspěšnější než další systém
 - Rozšířené přechodové systémy.
 - tři typy hran:
@@ -629,7 +629,7 @@ $$$$$$
 > The girl saw a boy.
 
 
-## Q-systémy
+### Q-systémy
 - (Alain Colmerauer - otec prologu, 1969)
 - Formalismus pro tansformaci grafů
 - Grafy (stromy) jsou linearizovány
@@ -674,12 +674,12 @@ $$
 \end{align}
 $$
 
-### Pravidla
+#### Pravidla
 - u pravidel záleží na pořadí
 - hrany na levé straně úspěšně použitého pravidla se zapamatují
     - na konci se smažou, byly překlenuty novou hranou
     - systém smaže také hrany, které na konci nejsou součástí cesty ze začátku do konce
-- jednotlivé malé gramatiky Ize řetězit za sebe
+- jednotlivé malé gramatiky lze řetězit za sebe
     - každá může dělat jen část
     - v mezifázi se graf vždy vyčistí
 
@@ -1073,9 +1073,9 @@ $$\text{BLEU} =BP .\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$$
 - nebo se dá pro popis $$v$$ reálném světě využít kombinace jazyka a situace (předmětu)
 - Toto je křída.
 - Problémy:
-- Význam slova závisí i na kontextu okolních slov a vět (např. Střílení poslanců ohrožuje naši demokracii).
-- Význam slov není jednoznačný (oko, list, kohoutek, štěně, hlava...).
-- Význam slov můžeme nezávisle na kontextu popisovat pomocí významových (sémantických) tříd (rysů)
+    - Význam slova závisí i na kontextu okolních slov a vět (např. Střílení poslanců ohrožuje naši demokracii).
+    - Význam slov není jednoznačný (oko, list, kohoutek, štěně, hlava...).
+    - Význam slov můžeme nezávisle na kontextu popisovat pomocí významových (sémantických) tříd (rysů)
 - Ontologie je množina tříd objektů, která představuje klasifikaci objektů universa U, např.:
 - fyzické objekty,
 - kvantity,
