@@ -297,7 +297,7 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
     - složkový strom
 - Závislostní strom
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-08.jpg?height=280&width=1172&top_left_y=582&top_left_x=503)
+![syntax tree](/assets/img/matfyz/pc-ling/syntax-tree.jpg)
 
 - velmi dobře a přehledně zachycuje vztahy mezi jednotlivými větnými členy
 - nedává návod, jak strom získat (tj. strom nezachycuje postup výpočtu)
@@ -319,7 +319,7 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
     - věta či větný člen, který syntakticky nesouvisí s okolím, ale upřesňuje, o čem se v okolí mluví
     - Mohl bych, prosím, zavřit okno?
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-08.jpg?height=414&width=1302&top_left_y=1963&top_left_x=503)
+![složkový tree](/assets/img/matfyz/pc-ling/slozkovy-strom.jpg)
 
 - Složkový strom odpovídá derivačnímu stromu bezkontextové gramatiky
 - tedy větu rozdělí do částí, které se zase rozdělí do částí, atd.
@@ -334,7 +334,8 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
 - např. Soubor se nepodařilo otevřít. Vánoční nadešel čas. Která děvčata chtěla dostat ovoce? Tuto knihu jsem se mu rozhodl dát k narozeninám.
 - Závislostní strom s tím nemá problém (jen hrany se v něm jakoby kříží). Složkový ano.
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-09.jpg?height=286&width=417&top_left_y=731&top_left_x=500)
+![neprojektivní konstrukce](/assets/img/matfyz/pc-ling/neprojektivni-konstrukce.jpg)
+
 - V češtině jsou běžné, ale jsou i v jiných jazycích.
 - v jedné české větě může být teoreticky nekonečně neprojektivit
 - prakticky od zhruba 4 není větě rozumět
@@ -380,7 +381,7 @@ $$
 - Generativní metoda není schopna zachytit vztahy mezi variantami vět, např. mezi větou tázací a oznamovací.
 - Transformace ( $$v$$ transformační komponentě) jsou definovány strukturním indexem řetězců (řez stromem, výraz se matchuje na množinu vrcholů) a strukturní změnou (co se má s namatchovanými vrcholy provést).
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-10.jpg?height=491&width=685&top_left_y=1125&top_left_x=614)
+![Transformační komponenta](/assets/img/matfyz/pc-ling/transformacni-komponenta.jpg)
 
 - Pravidla mohou být bezkontextová. Pak má tato složka sílu Turingova stroje, což je moc. V dalších verzích byla tato složka oslabena.
 - Vývoj transformační gramatiky:
@@ -397,7 +398,7 @@ $$
 - Pracuje se složkovými stromy
 - Šipka $$\downarrow$$ označuje, který uzel je možné substituovat 
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-11.jpg?height=340&width=419&top_left_y=247&top_left_x=547)
+![Fonologická komponenta](/assets/img/matfyz/pc-ling/fonologicka-komponenta.jpg)
 
 ## Formalismus pro popis gramatik
 
@@ -557,10 +558,10 @@ $$
 - Typy jsou obvykle organizovány hierarchicky
 - Slova se dělí na ohebné a neohebné druhy. Ohebné zase na časované a skloňované. Atd.
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-13.jpg?height=477&width=1200&top_left_y=761&top_left_x=742)
+![tsr](/assets/img/matfyz/pc-ling/tsr.jpg)
 - Head Driven Phrase Structure Grammar (HPSG)
 - Pollard a Sag (1985)
-- Zahrnuje principy, gramatická pravidla a slovníkové položky (třiděné, dle různých kategorii).
+- Zahrnuje principy, gramatická pravidla a slovníkové položky (tříděné, dle různých kategorii).
 - Slovník je bohatě strukturován, položky nesou řadu informací.
 - Základním typem je znak (sign).
 - Slova a fráze jsou dva různé podtypy znaku.
@@ -663,8 +664,7 @@ $$$$$$
 
 vstupní graf:
 
-![](https://cdn.mathpix.com/cropped/2022_12_29_bb1fb42eb64b01863345g-14.jpg?height=308&width=616&top_left_y=1996&top_left_x=800)
-
+![vstupní graf](/assets/img/matfyz/pc-ling/q-system-input-graph.jpg)
 
 $$
 \begin{align}
