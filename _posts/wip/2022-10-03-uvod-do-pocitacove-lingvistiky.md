@@ -1066,289 +1066,308 @@ $$\text{BLEU} =BP .\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$$
 - Buduje se odspoda - význam slov a spojek (vztah mezi klauzulemi/slovy)
 
 ### Lexikální sémantika
-- Význam slov můžeme popisovat zase pouze pomocí nějakého (meta)jazyka, ten může být:
-- formální - např. vycházející z něčeho již vystavěného
-- vhodný matematický nebo logický kalkul (predikátová logika) či soustava sémantických rysů, sémů
-- přirozený (ten stejný nebo jiný)
+
+#### Význam slov
+- **Význam slov** můžeme popisovat zase pouze pomocí nějakého (meta)jazyka, ten může být:
+    - formální - např. vycházející z něčeho již vystavěného
+        - vhodný matematický nebo logický kalkul (predikátová logika) či soustava sémantických rysů, sémů
+    - přirozený (ten stejný nebo jiný)
 - nebo se dá pro popis $$v$$ reálném světě využít kombinace jazyka a situace (předmětu)
-- Toto je křída.
+
+> Toto je křída.
+
 - Problémy:
     - Význam slova závisí i na kontextu okolních slov a vět (např. Střílení poslanců ohrožuje naši demokracii).
     - Význam slov není jednoznačný (oko, list, kohoutek, štěně, hlava...).
-    - Význam slov můžeme nezávisle na kontextu popisovat pomocí významových (sémantických) tříd (rysů)
+- Význam slov můžeme nezávisle na kontextu popisovat pomocí významových (sémantických) tříd (rysů)
+
+
+#### Ontologie
 - Ontologie je množina tříd objektů, která představuje klasifikaci objektů universa U, např.:
-- fyzické objekty,
-- kvantity,
-- vztahy,
-- vlastnosti,
-- akce (činnosti),
-- živé bytosti, atd.
-- třídy Ize dále zjemňovat: slovesa pohybu, péče o tělo, změny, komunikace apod.
+    - fyzické objekty,
+    - kvantity,
+    - vztahy,
+    - vlastnosti,
+    - akce (činnosti),
+    - živé bytosti, atd.
+-    třídy Ize dále zjemňovat: slovesa pohybu, péče o tělo, změny, komunikace apod.
 - Dané slovo (objekt) pak popíšeme pomocí příznaků ke každé třídě: + (patří do ní), - (nepatří do ní), 0 (nezávisí na ní).
 - Ontologie jsou bud' doménové (domain) (někde jsem našla, že zpracovává jen jednu doménu obor; jinde že to je množina názvů oborů) či vrcholové (upper) (Top Ontology - prý množina nejzákladnějších výrazů, nezávislých na jazyku).
-- Popis významu slov - ve slovnících
-- pomocí synonym,
-- pomocí definic,
-- pomocí množiny vybraných primitivních výrazů daného přirozeného jazyka
-- výkladový slovník - omezená množina slov, odpovídá zhruba charakteristickým rysům
-- pomocí speciálního metajazyka: sémantických rysů
-- význam slova se snažíme popsat posloupností charakteristik (+ operátory)
-- muž = HUM, MASK, ADU
-- dívka = HUM, FEM, -ADU
-- pomocí sémantické sítě
-- forma sémantické sítě lépe zachycuje víceznačnosti
-- je možné pracovat s hierarchií pojmů
-- výhodnější pro počítačové zpracování
-- umožňují určit různé vztahy a směry vztahů mezi pojmy, tj. nejen hierarchii sémantických tříd, ale i vztahy napřič nimi
-- zabývají se vztahy jako hyperonimie (slovo nadřazené) a hyponimie (slovo podřazené), synonymie (ekvivalentní význam ale jiná forma) a antonymie (slova protikladná), meronymie (býti částí) a holonymie (obsahovat)
-- osvědčily se - jednoduché, přirozené a do určité míry to funguje
-- jen do určité míry, protože evropské vznikly překladem anglické
-- synonymita ale není stejná v různých jazycích...
-- WordNet
+
+
+#### Popis významu slov
+
+- **ve slovnících**
+    - pomocí synonym,
+    - pomocí definic,
+    - pomocí množiny vybraných primitivních výrazů daného přirozeného jazyka
+        - výkladový slovník - omezená množina slov, odpovídá zhruba charakteristickým rysům
+    - pomocí speciálního metajazyka: sémantických rysů
+        - význam slova se snažíme popsat posloupností charakteristik (+ operátory)
+        - muž = HUM, MASK, ADU
+        - dívka = HUM, FEM, -ADU
+- **pomocí sémantické sítě**
+    - forma sémantické sítě lépe zachycuje víceznačnosti
+    - je možné pracovat s hierarchií pojmů
+    - výhodnější pro počítačové zpracování
+    - umožňují určit různé vztahy a směry vztahů mezi pojmy, tj. nejen hierarchii sémantických tříd, ale i vztahy napříč nimi
+    - zabývají se vztahy jako hyperonimie (slovo nadřazené) a hyponimie (slovo podřazené), synonymie (ekvivalentní význam ale jiná forma) a antonymie (slova protikladná), meronymie (býti částí) a holonymie (obsahovat)
+    - osvědčily se - jednoduché, přirozené a do určité míry to funguje
+        - jen do určité míry, protože evropské vznikly překladem anglické
+            - synonymita ale není stejná v různých jazycích...
+
+### WordNet
 - 1993, George A. Miller z Princetonu
-
-rozsáhlá lexikální databáze anglických slov
-
-obsahuje podstatná a př́davná jména, slovesa a příslovce
-
-- seskupená do množin synonym, tzv. synonymických řad neboli synsetů
+- rozsáhlá lexikální databáze anglických slov
+- obsahuje podstatná a přídavná jména, slovesa a příslovce
+    - seskupená do množin synonym, tzv. synonymických řad nebIoli synsetů
 - každý synset vyjadřuje určitý koncept (všechna slova v synsetu mají stejný význam)
-- mezi sebou jsou navzájem propojeny sémantickými a lexikálními relacemi sítí je možno procházet v prohlížeči, nicméně vznikala hlavně ručně veřejný, možné stáhnout dnes ještě víc hesel, než j uvedeno na slidu
-- na slidu - ve verzi $$3.0$$ - téméř 155000 hesel a 117000 synsetů
+    - mezi sebou jsou navzájem propojeny sémantickými a lexikálními relacemi
+    - sítí je možno procházet v prohlížeči, nicméně vznikala hlavně ručně veřejný, možné stáhnout dnes ještě víc hesel, než j uvedeno na slidu
+- ve verzi $$3.0$$ - téměř 155000 hesel a 117000 synsetů
 
-Z příkladu mi přijde, že to vypadá jako takový výkladový slovník - k danému slovu to vypisuje určité jeho významy. Pro dané významy to vypíše slovní popis, příklad a seznam synonym. Co z toho dělá sémantickou sit' je asi to, že to tvoří vniť̌ní strukturu (ostatní pojmy fungují jako odkazy), kterou Ize procházet a jsou tam zaznamenány i různé relace nadřazenosti/ podřazenosti/ býti částí apod.
-- EuroWordNet
+Z příkladu mi přijde, že to vypadá jako takový výkladový slovník - k danému slovu to vypisuje určité jeho významy. Pro dané významy to vypíše slovní popis, příklad a seznam synonym. Co z toho dělá sémantickou sit' je asi to, že to tvoří vnitřní strukturu (ostatní pojmy fungují jako odkazy), kterou lze procházet a jsou tam zaznamenány i různé relace nadřazenosti/ podřazenosti/ býti částí apod.
+
+#### EuroWordNet
 - 1997, prof. Vossen z Amsterdamu
 - rozšíření WordNetu do více jazyků
-- nejdříve přidány holandština, italština a španělština
-- později francouzština, němčina, čeština a estonština)
+    - nejdříve přidány holandština, italština a španělština
+    - později francouzština, němčina, čeština a estonština)
+- oproti původnímu WordNetu zavedeny změny:
+    - byla zavedena vrcholová ontologie (množina 63 nejzákladnějších výrazů (konceptů), nezávislých na jazyku)
+        - protože tam bylo více jazyků
+    - ke každému jazyku pak bylo vybráno 1000 základních konceptů tvořících jádra sítí slov, jazykově závislé
+    - v Aj WordNetu získal každý synset jednoznačný identifikátor, díky kterému vznikl mezi-jazykový index (Inter-Lingual Index, ILI), jazykově nezávislý soubor indexů. Pak byly na sebe různojazyčné WordNety navázány a vznikly vztahy ekvivalence (`EQ-relations`)
 
-oproti původnímu WordNetu zavedeny změny:
-
-- byla zavedena vrcholová ontologie (množina 63 nejzákladnějších výrazů (konceptů), nezávislých na jazyku)
-- protože tam bylo více jazyků
-- ke každému jazyku pak bylo vybráno 1000 základních konceptů tvořících jádra sítí slov, jazykově závislé
-- v Aj WordNetu získal každý synset jednoznačný identifikátor, díky kterému vznikl mezi-jazykový index (Inter-Lingual Index, ILI), jazykově nezávislý soubor indexů. Pak byly na sebe různojazyčné WordNety navázány a vznikly vztahy ekvivalence (EQ-relations)
-- Aplikace WordNetu
-- Automatický překlad - může fungovat jako slovník - Jednak může pomáhat v počítačem asistovaném překladu (Computer Aided Translation). Překladatel si v něm může hledat významy slov, jejich synonyma, antonyma, příklady použití, slova odvozená apod.
-- Jednak společně s morfologickou a syntaktickou analýzou může díky tomu, že ukládá valenční rámce pro slovesa, sloužit k automatickému strojovému překladu (2 paralelní WordNety)
+#### Aplikace WordNetu
+- Automatický překlad - může fungovat jako slovník
+    - Jednak může pomáhat v počítačem asistovaném překladu (Computer Aided Translation). Překladatel si v něm může hledat významy slov, jejich synonyma, antonyma, příklady použití, slova odvozená apod.
+    - Jednak společně s morfologickou a syntaktickou analýzou může díky tomu, že ukládá valenční rámce pro slovesa, sloužit k automatickému strojovému překladu (2 paralelní WordNety)
 - IE - Extrakce informací
-- umožňuje pracovat se sémantickými vztahy (zejména synonymie)
-- může sloužit při vícejazyčném vyhledávání
+    - umožňuje pracovat se sémantickými vztahy (zejména synonymie)
+    - může sloužit při vícejazyčném vyhledávání
 - Určování významů slov (Word Sense Disambiguation)
-- zachycuje více významů slov - zdroj dat pro rozpoznávání jednotlivých významů
-- Ize zavést klasifikační funkci pro rozhodnutí, o který jde, nebo podle příkladů rozhodnout
+    - zachycuje více významů slov - zdroj dat pro rozpoznávání jednotlivých významů
+    - lze zavést klasifikační funkci pro rozhodnutí, o který jde, nebo podle příkladů rozhodnout
 - Reprezentace znalostí, odvozování využívající významů slov, vztah k sémantickému Webu
 - Vyhodnocování kvality překladu (zlepšení automatických metrik typu BLEU)
-- BLEU selhává u použití synonym, která nejsou v referenčním překladu
-- Problémy sémantických sítí
+    - BLEU selhává u použití synonym, která nejsou v referenčním překladu
+
+
+#### Problémy sémantických sítí
 - cizojazyčné WordNety vznikaly především jako překlad toho anglického, tedy nezachycují typické vlastnosti jazyků
 - také vzniklo mnoho chyb a nekonzistencí
 - projekty přestaly být financovány a přestaly se rozvíjet
-- podobných výsledků (a lepších, rychlejších, s méně usilím) Ize dnes dosahovat pomocí statistických metod
+- podobných výsledků (a lepších, rychlejších, s méně úsilím) Ize dnes dosahovat pomocí statistických metod
+- obecně v době Googlu apod. některé projekty jako je WordNet už nemají tak dobrý smysl
 
-obecně v době Googlu apod. některé projekty jako je WordNet už nemají tak dobrý smysI
-
-- Reprezentace významu věty
-- predikátová logika 1. řádu
-- + se prridávají nové vlastnosti
+#### Reprezentace významu věty
+- **predikátová logika 1. řádu**
+- + se přidávají nové vlastnosti
 - konstruuje logické formule z jednotlivých výrazů věty na základě principu kompozicionality
-- jednotlivým složkám věty náleží odpovídající části sémantického zápisu
-- Alík skáče
-- Všichni psi skáčou.
-- Každý student podepsal petici.
-- Petici podepsal každý student.
-- problémy: jump(Alík), $$\exists x x=A l i ́ k \& j u m p(A l i ́ k)$
+    - jednotlivým složkám věty náleží odpovídající části sémantického zápisu
 
-$\forall x \operatorname{dog}(x) \rightarrow j u m p(x)$
+| Alík skáče.                       | $$\exists x: x=Alík \land jump(Alík)$$   |
+| Všichni psi skáčou.               | $$\forall x: dog(x) \rightarrow jump(x)$$                       |
+| Každý student podepsal petici.    | $$\forall x: student(x) \rightarrow \exists y: petition(y) \land sign(x, y)$$ |
+| Petici podepsal každý student.    | $$\exists y: petition(y) \land \forall x \rightarrow student(x) \land sign(x, y)$$ |
 
-$\forall x \operatorname{student}(x) \rightarrow \exists y$$ petition $$(y) \& \operatorname{sign}(x, y)$
 
-$\exists y$$ petition $$(y) \& \forall x \operatorname{student}(x) \rightarrow \operatorname{sign}(x, y)$
+- **problémy:**
+    - modalita, čas a postoj - kvůli nim jsou potřeba nové operátory, které mají jako argumenty formule
+        - $$possible(F)$$, $$necessary(F)$$, $$believe(x, F)$$, $$true\_at\_some\_time\_in\_the\_future(F)$$
+    - presupozice - předpoklad, který musí být pravdivý, aby celá věta vůbec měla pravdivostní hodnotu
+        - Jupiterův měsíc ma oranžové pruhy. - Jupiter musí mít právě jeden měsíc.
+    - neurčitost (fuzziness) - nevystačíme s T/F hodnotami, potřebujeme jemnější dělení
+        - Pavel je mladý. Většina špičkových sportovců dopuje.
+- dobře popsaný systém, umíme s ním pracovat, ale neadekvátní
+- popíše dobře jen jednoduché věty
 
-- modalita, čas a postoj - kvůli nim jsou potřeba nové operátory, které mají jako argumenty formule
-- possible $$(F})$, necessary $$(\mathrm{F})$, believe $$(\mathrm{x}, \mathrm{F})$, true_at_some_time_in_the_future $$(\mathrm{F)$
-- presupozice - předpoklad, který musí být pravdivý, aby celá věta vůbec měla pravdivostní hodnotu
-- Jupiterův měsíc ma oranžové pruhy. - Jupiter musí mít právě jeden měsíc.
-- neurčitost (fuzziness) - nevystačíme s T/F hodnotami, potřebujeme jemnější dělení
-- Pavel je mladý. Většina špičkových sportovců dopuje.
 
-dobře popsaný systém, umíme s ním pracovat, ale neadekvátní
 
-popíše dobře jen jednoduché věty
 
-- jakmile začneme predikátovou logiku rozšiřovat, musíme rozlišovat mazi funkcí a její hodnotou
-- Cena Big Macu je 20 Kč.
+- jakmile začneme predikátovou logiku rozšiřovat, musíme rozlišovat mezi funkcí a její hodnotou
 
-X Myslím, že cena Big Macu je 20 Kč.
+> Cena Big Macu je 20 Kč. vs Myslím, že cena Big Macu je 20 Kč.
 
-- Vlevo můžeme nahradit výraz "Cena Big Macu" jeho hodnotou 90 Kč, dostaneme FALSE, ale vpravo nelze nahrazení provést (není to ekvivalentní tvrzení).
-- intenze výrazu
+Vlevo můžeme nahradit výraz "Cena Big Macu" jeho hodnotou 90 Kč, dostaneme FALSE, ale vpravo nelze nahrazení provést (není to ekvivalentní tvrzení).
+
+#### Intenze výrazu
 - samotný popis, charakteristika
 - intenzí pojmu čtverec je pravoúhlost a stejná délka stran
 - je to výraz sám o sobě
-- extenze výrazu
-- souhrn věcí, které pod pojem spadají - Základní přístupy k sémantice
-- Modelově-teoretická sémantika
-- pracuje s pravdivostními podmínkami vztaženými k určitému modelu.
-- reprezentantem je montagueovská gramatika:
-- syntaktické kategorie odpovídají sémantickým typům.
-- obsahuje základní (lexikální) výrazy a jejich interpretaci, syntaktická a sémantická pravidla.
-- Kompozicionální sémantika
-- vychází z principu kompozicionality.
-- používá různé reprezentace
-- sémantické rysy a jejich skládání
-- koncepty a převod (překlad) ze syntaktické reprezentace
-- logickou reprezentaci a zjišt'ování pravdivosti
-- Montagueovská gramatika
-- původně Universal Grammar
-- americký logik Richard Montague (1930-1971), srozumitelně vyložená Barbarou H. Partee
-- teorie sémantiky přirozeného jazyka
-- založena na formální logice, zvláště na lambda kalkulu a teorii množin
-- používá pojmy intenzionální logiky a teorie typů
-- vychází z předpokladu, že neexistuje žádný zvláštní rozdíl mezi sémantikou přirozených a formálních jazyků (článek “The Proper Treatment of Quantification on Ordinary English” (1973)) první rozsáhlý pokus systematicky popsat sémantiku přirozeného jazyka
-- logici před Montaguem považovali přirozený jazyk za příliš mnohoznačný a nestrukturovaný pro formání logickou analýzu, zatímco lingvisté měli pocit, že formální jazyky nejsou schopny zachytit strukturu jazyků přirozených
 
-sémantická pravidla úzce svázaná se syntaktickými (ale je to sémantická teorie, ne syntaktická (i když má v názvu slovo gramatika))
+##### Extenze výrazu
+- souhrn věcí, které pod pojem spadají
+- Základní přístupy k sémantice
 
-obsahuje sadu syntaktických kategorií
+##### Základní přístupy k sémantice
+- **Modelově-teoretická sémantika**
+    - pracuje s pravdivostními podmínkami vztaženými k určitému modelu.
+    - reprezentantem je montagueovská gramatika:
+        - syntaktické kategorie odpovídají sémantickým typům.
+        - obsahuje základní (lexikální) výrazy a jejich interpretaci, syntaktická a sémantická pravidla.
+- **Kompozicionální sémantika**
+    - vychází z principu kompozicionality.
+    - používá různé reprezentace
+        - sémantické rysy a jejich skládání
+        - koncepty a převod (překlad) ze syntaktické reprezentace
+        - logickou reprezentaci a zjišťování pravdivosti
+- **Montagueovská gramatika**
+    - původně Universal Grammar americký logik Richard Montague (1930-1971), srozumitelně vyložená Barbarou H. Partee
+    - teorie sémantiky přirozeného jazyka
+    - založena na formální logice, zvláště na lambda kalkulu a teorii množin
+    - používá pojmy intenzionální logiky a teorie typů
+    - vychází z předpokladu, že neexistuje žádný zvláštní rozdíl mezi sémantikou přirozených a formálních jazyků (článek “The Proper Treatment of Quantification on Ordinary English” (1973))
+    - první rozsáhlý pokus systematicky popsat sémantiku přirozeného jazyka
+        - logici před Montaguem považovali přirozený jazyk za příliš mnohoznačný a nestrukturovaný pro formání logickou analýzu, zatímco lingvisté měli pocit, že formální jazyky nejsou schopny zachytit strukturu jazyků přirozených
+    - sémantická pravidla úzce svázaná se syntaktickými (ale je to sémantická teorie, ne syntaktická (i když má v názvu slovo gramatika))
+    - obsahuje sadu syntaktických kategorií
+        - kategorie tvaru X/Y
+        - postupným budováním kategorií lze použít i na velmi složité věty
+            - nekonečně mnoho možných kategorií - Ize použít libovolný počet lomítek pro nové kategorie
+    - pro každou kategorii má množinu konkrétních slov
+    - dále obsahuje syntaktická pravidla pro slova z těchto kategorií. podobné teorii valenčních rámců
 
-- kategorie tvaru X/Y
-- postupným budováním kategorií Ize použít i na velmi složité věty
-- nekonečně mnoho možných kategorií - Ize použít libovolný počet lomítek pro nové kategorie
-- pro každou kategorii má množinu konkrétních slov
-- dále obsahuje syntaktická pravidla pro slova z těchto kategorií. podobné teorii valenčních rámců
-- TIL
 
-## Transparentní intenzionální logika
-
-reaguje na fakt, že predikátový kalkul 1. řádu, který stále mnoho teorií používá k popisu významu jazykových výrazů, nedostačuje - intenzionální logika je vhodnější
-
-je založen na modifikaci typovaného lambda kalkulu nemá vlastní logické spojky, kvantifikátory apod.
-
+#### TIL (Transparentní intenzionální logika)
+- reaguje na fakt, že predikátový kalkul 1. řádu, který stále mnoho teorií používá k popisu významu jazykových výrazů, nedostačuje - intenzionální logika je vhodnější
+- je založen na modifikaci typovaného lambda kalkulu nemá vlastní logické spojky, kvantifikátory apod.
 - je transparentní systém - formální aparát reprezentující způsoby, jakými jsou konstruovány objekty, nejsou pro TIL předmětem studia, pouze prostředkem ke studiu těchto konstrukcí
-- nepreferuje jistá vybraná slova jako tzv. Iogická slova (logické spojky, kvantifikátory apod.), jež by určovala charakter logiky
-- TIL aplikována na analýzu přirozeného jazyka se stává sémantikou založenou na pojmu možných světů
+- nepreferuje jistá vybraná slova jako tzv. logická slova (logické spojky, kvantifikátory apod.), jež by určovala charakter logiky
+- TIL aplikována na analýzu přirozeného jazyka se stává sémantikou založenou na pojmu **možných světů**
 - univerzum je v TIL chápáno jako množina společná všem možným světům, kromě možných světů se neuvažuje o tzv. možných individuích
 - v příkladu - nálepka individua (Alena), individuální koncept (ministr zahraničí)
-- $$\quad \tau \omega .$. reference $$k$$ danému času a světu $$-\Lambda \tau \ldots$$ možný čas, $$\Lambda \omega \ldots$$ možný svět populární v Brně - pomocí TIL se tam snaží propojit syntaktickou a sémantickou analýzu - Pochopení smyslu textu je ještě těžší než smyslu věty. Problém je, že věty v textu na sebe navazují a odkazují se (např. nevyjádřeným podmětem).
-- Anafora
-- (slovo anafora má dva různé významy, třeba rozlišovat)
-- výraz, jehož interpretace závisí na kontextu
-- nemůžeme pracovat se samostatnými slovy, ale i s celou větou
-- Exofora - odkazování mimo text, zájmeno poukazuje k mimotextové situaci či skutečnostem
-- Vidíš ho? Dejte mi, prosím, tyhle tři.
-- Endofora - odkazování v rámci textu
-- Anafora - zpětně
-- Petr se seznámil se sympatickou dívkou. Pozval ji do kina.
-- Petr vyzradil tajemství. To neměl dělat.
-- Katafora - dopředu
-- nepřiliš časté, $$v$$ románech $$k$$ vybudování napětí
-- K Když se zlobí, není s Petrem žádná řeč.
-- Věřte tomu nebo ne, máme schodkový rozpočet.
-- Vyšel jsem z domu. Věděl jsem, že jsem sledován. Když jsem se zastavil, zastavil se $$i$$ on. Když jsem se ohlédl, dělal, že lelkuje. Měl na sobě stejný šedý kabát jako vždycky. Už ho důvěrně znám, estébáka Jiřiho.
-- anaforický vztah předchůdce - následník
-- typy anaforických vztahů:
-- zájmena a "nulové výrazy"
-- nevyjádřený podmět nebo jiný větný člen
-- s těmi se paradoxně pracuje lépe
-- ze syntaktického stromu poznáme, že chybí podmět $$\rightarrow$$ sáhneme do předchozí věty
-- Petr si koupil vstupenku. Vsunul ji do kapsy. Byla děravá. určité jmenné skupiny
-- Elektronický zesilovač Tesla vs. Toto zařizení...
-- v systému MOSAIC nejsou tyto vztahy zachyceny
-- museli bychom vědět, že zesilovač je zařízení
-- elipsa
-- vypuštěné části výrazů na základě paralelismu s předchůdcem
-- vynechání části věty obsahující informaci, která je příjemci známa a bez níž větu dokáže pochopit
-- jmenná vs. slovesná
-- Včera jsem šel pěšky. Kam? Domů.
-- Petr přinesl dva stoly. Dřevěný a kovový.
-- Petra půjde do kina. Jirka taky.
-- textové spojovací výrazy
-- výrazy vyjadřující mezivětné souvislosti v textu
-- souřadicí a podrradicí spojky, výrazy jako napřiklad, na jedné straně - na druhé straně, jednak - jednak, nejdřive - potom apod.
-- je třeba závorkovat, odkud kam to patří k výrazu
-- důležitost pro aplikace:
+
+
+$$\tau$$, $$\omega$$ - reference k danému času a světu
+$$\Lambda \tau \ldots$$ - možný čas
+$$\Lambda \omega \ldots$$ - možný svět
+
+- populární v Brně - pomocí TIL se tam snaží propojit syntaktickou a sémantickou analýzu 
+
+##### Rozpoznávání vztahů v textu
+- Pochopení smyslu textu je ještě těžší než smyslu věty. Problém je, že věty v textu na sebe navazují a odkazují se (např. nevyjádřeným podmětem).
+- **Anafora**
+    - (slovo anafora má dva různé významy, třeba rozlišovat)
+    - výraz, jehož interpretace závisí na kontextu
+    - nemůžeme pracovat se samostatnými slovy, ale i s celou větou
+    - **Exofora** - odkazování mimo text, zájmeno poukazuje k mimotextové situaci či skutečnostem
+    > Vidíš ho? Dejte mi, prosím, tyhle tři.
+    - **Endofora** - odkazování v rámci textu
+        - Anafora - zpětně
+        > Petr se seznámil se sympatickou dívkou. Pozval ji do kina.\\
+        > Petr vyzradil tajemství. To neměl dělat.
+    - **Katafora** - dopředu
+        - nepříliš časté, $$v$$ románech $$k$$ vybudování napětí
+        > Když se zlobí, není s Petrem žádná řeč.  
+        >
+        > Věřte tomu nebo ne, máme schodkový rozpočet.  
+        >
+        > Vyšel jsem z domu. Věděl jsem, že jsem sledován. Když jsem se zastavil, zastavil se $$i$$ on. Když jsem se ohlédl, dělal, že lelkuje. Měl na sobě stejný šedý kabát jako vždycky. Už ho důvěrně znám, estébáka Jiřího.
+- anaforický vztah: **předchůdce - následník**
+
+#### typy anaforických vztahů:
+- **zájmena** a **"nulové výrazy"**
+    - nevyjádřený podmět nebo jiný větný člen
+    - s těmi se paradoxně pracuje lépe
+        - ze syntaktického stromu poznáme, že chybí podmět $$\rightarrow$$ sáhneme do předchozí věty
+    > Petr si koupil vstupenku. Vsunul ji do kapsy. Byla děravá. 
+- určité **jmenné skupiny**
+    - Elektronický zesilovač Tesla vs. Toto zařízení...
+    - v systému MOSAIC nejsou tyto vztahy zachyceny
+    - museli bychom vědět, že zesilovač je zařízení
+- **elipsa**
+    - vypuštěné části výrazů na základě paralelismu s předchůdcem
+    - vynechání části věty obsahující informaci, která je příjemci známa a bez níž větu dokáže pochopit
+    - jmenná vs. slovesná
+    > Včera jsem šel pěšky. Kam? Domů.  
+    > Petr přinesl dva stoly. Dřevěný a kovový.  
+    > Petra půjde do kina. Jirka taky.
+- textové **spojovací výrazy**
+    - výrazy vyjadřující mezivětné souvislosti v textu
+    - souřadicí a podřadící spojky, výrazy jako například, na jedné straně - na druhé straně, jednak - jednak, nejdříve - potom apod.
+    - je třeba závorkovat, odkud kam to patří k výrazu
+#### důležitost pro aplikace:
 - získávání informací z textu
-- Škoda predstavila nový model Octavie. Jde o pětidvéřové kombi, které má ...
+> Škoda představila nový model Octavie. Jde o pětidvéřové kombi, které má ...
 - automatický překlad
-- Otevřenou tabulku upravte podle potřeby. Uložte ji pomocí ikony v panelu nástrojü.
-- dialogové systémy - Kdy jede nejbližší vlak do Ostravy? Má jídelní vůz?
-- rrešení anafory:
-- je nutné využít celou řadu informací:
-- morfologické značky
-- naprr. u zájmen musí být shoda v rodě
-- syntaktická struktura věty
-- pomůže určit vhodné kandidáty na předchůdce
-- valenční informace umožní doplnit elipsu
-- statistické prístupy
-- pravděpodobnost výběru některého z určených kandidátů aktuální členění
-- témata zmíněna v základu a v ohnisku věty (na začátku a uprostřed) jsou odkazována různými způsoby - využito v algoritmu Zásoby sdílených znalostí
-- rozsáhlé pomocné znalosti
-- ontologie, sémantické sítě, tezaury apod.
-- Zásoba sdílených znalostí
+> Otevřenou tabulku upravte podle potřeby. Uložte ji pomocí ikony v panelu nástrojů.
+- dialogové systémy
+> Kdy jede nejbližší vlak do Ostravy? Má jídelní vůz?
+- **řešení anafory:**
+    - je nutné využít celou řadu informací:
+        - morfologické značky
+            - např. u zájmen musí být shoda v rodě
+        - syntaktická struktura věty
+            - pomůže určit vhodné kandidáty na předchůdce
+            - valenční informace umožní doplnit elipsu
+        - statistické přístupy
+            - pravděpodobnost výběru některého z určených kandidátů
+        - aktuální členění
+            - témata zmíněna v základu a v ohnisku věty (na začátku a uprostřed) jsou odkazována různými způsoby - využito v algoritmu Zásoby sdílených znalostí
+        - rozsáhlé pomocné znalosti
+            - ontologie, sémantické sítě, tezaury apod.
+
+#### Zásoba sdílených znalostí
 - od 80. let
-- prof. hajičová a prof. Vrbová (?)
+- prof. Hajičová a prof. Vrbová (?)
 - Stock of Shared Knowledge
 - modeluje zásobu znalostí, o které mluvčí předpokládá, že ji sdílí s posluchačem
-- tato zásoba se mění v souladu s tím, co je "v centru pozornosti" $$v$$ daném časovém okamžiku
-- každá věta má vliv na tuto "hierarchii sdílení", avšak ne každý zmíněný objekt má stejný účinek několik jednoduchých pravidel pro určení stupně sdílení čím nižšś číslo, tím aktivovanější
-- v ohnisku - dostane 0
-- v jádru - 1
+    - tato zásoba se mění v souladu s tím, co je "v centru pozornosti" $$v$$ daném časovém okamžiku
+- každá věta má vliv na tuto "hierarchii sdílení", avšak ne každý zmíněný objekt má stejný účinek několik jednoduchých pravidel pro určení stupně sdílení čím nižší číslo, tím aktivovanější
+    - v ohnisku - dostane 0
+    - v jádru - 1
 - pokud není slovo zmíněno ani asociováno v další větě, postupně zapomínáme (+2) až úplně zapomeneme
 - pr. The school garden was full of children. ...
-- parents asociováno s children, dostane $$0+2=2$$ ( 0 za chiildren) slabiny
-- množina asociovaných termínů
-- vybrané jen některé, může jich být více
-- nikdy nevíme dopředu, jaké termíny se objeví
-- nevíme, jestli zrovna +2 je správné (proč ne třeba +1, +3?) dalo práci vymyslet příklad, na kterém vše dobře sedělo dobrá myšlenka, ale špatné automatické zpracování
-- nějakou dobu na tom pracoval Tom Holan 
+    - parents asociováno s children, dostane $$0+2=2$$ ( 0 za children)
+- slabiny
+    - množina asociovaných termínů
+        - vybrané jen některé, může jich být více
+        - nikdy nevíme dopředu, jaké termíny se objeví
+    - nevíme, jestli zrovna +2 je správné (proč ne třeba +1, +3?)
+- dalo práci vymyslet příklad, na kterém vše dobře sedělo
+- dobrá myšlenka, ale špatné automatické zpracování
+    - nějakou dobu na tom pracoval Tom Holan
 
-## SKRYTÉ MARKOVSKÉ MODELY
-
-- Hidden Markov Model - HMM
+## Skryté markovské modely
+- **Hidden Markov Model** - HMM
 - aplikace
-
-analýza řečových signálů - 1. využití
-
-morfologické značkování
-
-rozpoznávání značek aut
-
-máme přirozenou sekvenci - znaků, slov, ...
-- závislé, nějak uspořádané
+    - analýza řečových signálů - 1. využití
+    - morfologické značkování
+    - rozpoznávání značek aut
+- máme přirozenou sekvenci - znaků, slov, ...
+    - závislé, nějak uspořádané
 - Markovova hypotéza
-- pracuje jen s omezeným kontextem - stačí pro dostatečně dobré výsledky
-- max. bigramy nebo trigramy
-- ve skutečnosti mohou být související slova od sebe libovolně daleko
+    - pracuje jen s omezeným kontextem - stačí pro dostatečně dobré výsledky
+        - max. bigramy nebo trigramy
+    - ve skutečnosti mohou být související slova od sebe libovolně daleko
 - proč skryté? Snažíme se používat na jevy, které nevíme...
 - jednoduchá realizace
-- pravděpodobnostní konečné automaty
+    - pravděpodobnostní konečné automaty
 - pravděpodobnosti přechodu mezi stavy
-- součet čísel vycházející z jednoho vrcholu $$=1$
+    - součet čísel vycházející z jednoho vrcholu $$=1$
 - 3 úkoly:
-
-určení s jakou pravd. mohla být pozorována nějaká značka
-
-dekódování - hádání nejpravd. posloupnosti skrytých stavů
-- př. hádání nejpravděpodobnější posloupnosti morfologických značek nad slovy ve větě
-- nejprve učení (máme daný model, který ho naučíme)
-- naučení se statistického modelu
+    - určení s jakou pravd. mohla být pozorována nějaká značka
+    - dekódování - hádání nejpravd. posloupnosti skrytých stavů
+        - př. hádání nejpravděpodobnější posloupnosti morfologických značek nad slovy ve větě
+            - nejprve učení (máme daný model, který ho naučíme)
+    - naučení se statistického modelu
 - učení - \# skrytých stavů - všechny možné stavy
-- trénovací množina
-- např. slova + konkrétní morfologické značky
-- počet možných stavů dán počtem všech možných značek
-- najde pravděpodobnosti přechodů a jednotlivých stavů
+    - trénovací množina
+        - např. slova + konkrétní morfologické značky
+            - počet možných stavů dán počtem všech možných značek
+    - najde pravděpodobnosti přechodů a jednotlivých stavů
 
-dekódování
-
-- graf - hledání nejpravd. posloupnosti je vlastně hledání nejkratší cesty v grafu (pravd. jsou ohodnocení hran)
-- matice - \# stavů * \# pozorování
-- se všemi možnými přechody a jejich pravd. (někde může být i pravd. 0)
+- dekódování
+    - graf - hledání nejpravd. posloupnosti je vlastně hledání nejkratší cesty v grafu (pravd. jsou ohodnocení hran)
+    - matice - \# stavů * \# pozorování
+        - se všemi možnými přechody a jejich pravd. (někde může být i pravd. 0)
 - angličtina vhodnější než čeština - méně morfologických značek
-- u př. značky z PennTreebank - stavy jsou značky, pozorování jsou slova
-- (pro češtinu se u korpusu využívá něco přes 1000 různých značek)
+    - u př. značky z PennTreebank - stavy jsou značky, pozorování jsou slova
+    - (pro češtinu se u korpusu využívá něco přes 1000 různých značek)
 - Viterbiho alg. - pro bigramy - $$v$$ kvadr. čase $$v$$ závislosti na velikosti vstupu
-- poměrně efektivní
-- pomocí něj se hledá nejpravděpodobnější posloupnost
+    - poměrně efektivní
+    - pomocí něj se hledá nejpravděpodobnější posloupnost
+
 
