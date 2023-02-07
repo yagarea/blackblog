@@ -13,37 +13,6 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 {:toc}
 - .
 
-## Značení - výroková logika
-
-- $$\mathrm{VF}_{\P} \quad$$ - množina všech výrokových formulí nad $$\P$$
-- $$\operatorname{var}(\varphi) \quad$$ - množina všech výrokových proměnných (písmen) vyskytujících se ve $$\varphi$$
-- $$v(\varphi) \quad$$ - ohodnocení výroku $$\varphi$$
-- $$\bar{v}(\varphi) \quad$$ - hodnota výroku $$\varphi$$
-- $$v \models \varphi \quad$$ - $$v$$ je splňující ohodnocení výroku $$\varphi$$, $$v$$ je model výroku $$\varphi$$
-- $$\models \varphi \quad$$ - $$\varphi$$ je splněn při každém ohodnocení, tj. je tautologií, $$\varphi$$ je pravdivý v každém modelu
-- $$\varphi \sim \psi \quad$$ - výroky $$\varphi$$ a $$\psi$$ jsou logicky ekvivalentní, výroky $$\varphi$$ a $$\psi$$ mají stejné modely
-- $$M(\P) \quad$$ - třída všech modelů jazyka nad $$\P$$
-- $$M^{\P}(\varphi)=\{v \in M(\P) \mid v \models \varphi\} \quad$$ - třída modelů $$\varphi$$
-- $$\top \quad$$ - tautologie
-- $$\perp \quad$$ - kontradikce
-- $$v \models T \quad$$ - $$v \in M(\P)$$ je ohodnocení, ve kterém platí všechny axiomy z $$T$$ 
-- $$M^{\mathrm{P}}(T) \quad$$ - třída modelů $$T$$
-- $$M(T, \varphi) \quad$$ - značí $$M(T \cup\{\varphi\})$$ 
-- $$T \models \varphi \quad$$ - výrok $$\varphi$$ platí v každém modelu $$T$$ 
-- $$\varphi \sim_{T} \psi \quad$$ - výroky $$\varphi$$ a $$\psi$$ jsou $$T$$-ekvivalentní 
-- $$\theta^{\P}(T) \quad$$ - důsledek teorie $$T$$ nad $$\P$$, množina všech výroků pravdivých v $$T$$
-- $$\vdash \varphi \quad$$ - formule $$\varphi$$ je dokazatelná
-- $$\vdash \neg \varphi \quad$$ - formule $$\varphi$$ je zamítnutelná
-- $$T \vdash \varphi \quad$$ - formule $$\varphi$$ je dokazatelná z $$T$$
-- $$T \vdash \neg \varphi \quad$$ - formule $$\varphi$$ je zamítnutelná z $$T$$
-- $$\operatorname{Thm}^{\P}(T) \quad$$ - množina vět teorie $$T$$
-- $$\mathcal{V} \models S \quad$$ - (částečné) ohodnocení $$\mathcal{V}$$ splňuje $$S$$ (formule), pokud $$C \cap \mathcal{V} \neq \emptyset$$ pro každé $$C \in S$$, ( $$C$$ je klauzule)
-- $$\square \quad$$ - prázdná klauzule
-- $$\emptyset \quad$$ - prázdná formule
-- $$S \vdash_{R} C \quad$$ - klauzule $$C$$ je rezolucí dokazatelná z formule $$S$$ 
-- $$S \vdash_{R} \square \quad$$ - je rezolucí zamítnutelná
-
-
 ## Výroková logika
 
 {% def %}
@@ -693,7 +662,7 @@ $$
 \end{aligned}
 $$
 
-Označíme $$L^{\prime}$$ rozšírení $$L$$ o nový $$n$$-ární funkční symbol $$f$$.
+Označíme $$L^{\prime}$$ rozšíření $$L$$ o nový $$n$$-ární funkční symbol $$f$$.
 
 Extenze teorie $$T$$ o definici $$f$$ formulí $$\psi$$ je teorie $$T^{\prime}$$ vzniklá přidáním axiomu
 
