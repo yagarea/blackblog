@@ -8,8 +8,8 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-09-04
 layout: post
 ---
 
-| prvovýrok                         | nedělitelná část výrazu |
-| jazyk $$\P$$                      | množina znaků |
+| prvovýrok                         | boolovská proměnná nebo boolovská konstanta  |
+| jazyk $$\P$$ ve výrokové logice   | množina znaků |
 | axiom                             | logický výraz platný v teorii |
 | teorie                            | množina axiomů |
 | literál                           | prvovýrok nebo jeho negace |
