@@ -46,7 +46,6 @@ collections:
     permalink: /music/:title-:year-:month-:day/
 
 plugins:
-  - jekyll-feed
   - jekyll-tidy
   - jektex
 
