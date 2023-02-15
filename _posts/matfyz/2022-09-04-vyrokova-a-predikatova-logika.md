@@ -16,6 +16,31 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 ## Výroková logika
 
 {% def %}
+### Prvovýrok / atomický výrok
+Boolovská proměnná nebo boolovská konstanta.
+{% enddef %}
+
+{% def %}
+### Jazyk
+Jazyk výrokové logiky je určený neprázdnou množinou výrokových prvovýroků a logické symboly
+(symboly pro logické spojky $$\neg$$, $$\land$$, $$\lor$$, $$\rightarrow$$, $$\leftrightarrow$$ a závorky $$($$, $$)$$).
+Množina prvovýroků může být konečná nebo i nekonečná, obvykle ale bude spočetná (pokud neřekneme jinak), a bude mít dané uspořádání.
+{% enddef %}
+
+
+{% def %}
+### Výrok (výroková formule)
+v jazyce P je prvek množiny $$\mathrm{VF}_{\P}$$ definované následovně:
+
+$$\mathrm{VF}_{P}$$ je nejmenší množina splňující:
+
+- pro každý prvovýrok $$p \in \P$$ platí $$p \in \mathrm{VF}_{\P}$$
+- pro každý výrok $$\varphi \in \mathrm{VF}_{\P}$$ je ($$\neg \varphi$$) také prvek $$\mathrm{VF}_{\P}$$
+- pro každé $$\varphi, \psi \in \mathrm{VF}_{\P}$$ jsou ($$\varphi \land \psi$$), ($$\varphi \lor \psi$$), ($$\varphi \rightarrow \psi$$), a ($$\varphi \leftrightarrow \psi$$) také prvky $$\mathrm{VF}_{\P}$$.
+
+{% enddef %}
+
+{% def %}
 ### Booleovská funkce
 Booleovská funkce je $$n$$-ární funkce na $$2=\{0,1\}$$, tj. $$f:\{0,1\}^{n} \rightarrow\{0,1\}$$.
 {% enddef %}
@@ -27,28 +52,36 @@ Ohodnocení prvovýroků je funkce $$v: \P \rightarrow\{0,1\}$$, tj. $$v \in{ }^
 
 {% def %}
 ### Sémantické pojmy
-Výrok $$\varphi \operatorname{nad} \P$$ je
+Výrok $$\varphi$$ je v jazyce $$\P$$ (v teorii $$T$$):
+- **pravdivý** (tautologie, platí), pokud platí v každém modelu jazyka $$\P$$ (teorie $$T$$), píšeme $$\models \varphi$$
+- **lživý** (sporný), pokud nemá žádný model
+- **nezávislý**, pokud platí v nějakém modelu a neplatí v nějakém jiném modelu
+- **splnitelný**, pokud platí v nějakém modelu (tedy pokud není lživý)
 
-- splněn (platí) při ohodnocení $$v \in{ }^{\P} 2$$, pokud $$\bar{v}(\varphi)=1$$. Pak $$v$$ je splňující ohodnocení výroku $$\varphi$$, značíme $$v \models \varphi$$.
-- pravdivý (tautologie), pokud $$\bar{v}(\varphi)=1$$ pro každé $$v \in{ }^{P} 2$$, tj. $$\varphi$$ je splněn při každém ohodnocení, značíme $$\models \varphi$$.
-- lživý (sporný, kontradikce), pokud $$\bar{v}(\varphi)=0$$ pro každé $$v \in{ }^{\P} 2$$, tj. $$\neg \varphi$$ je pravdivý.
-- nezávislý, pokud $$\overline{v_{1}}(\varphi)=0$$ a $$\overline{v_{2}}(\varphi)=1$$ pro nějaká $$v_{1}, v_{2} \in{ }^{\P} 2$$, tj. $$\varphi$$ není ani pravdivý ani lživý.
-- splnitelný, pokud $$\bar{v}=1$$ pro nějaké $$v \in{ }^{\P} 2, \mathrm{tj} . \varphi$$ není lživý.
+{% enddef %}
 
-Výroky $$\varphi$$ a $$\psi$$ jsou logicky ekvivalentní, pokud $$\bar{v}(\varphi)=\bar{v}(\psi)$$ pro každé $$v \in{ }^{\P} 2$$, tj. výrok $$\varphi \leftrightarrow \psi$$ je pravdivý.
+{% def %}
+### Ekvivalence výroků (teorií), T-ekvivalence
+- Výroky $$\varphi$$, $$\psi$$ jsou ekvivalentní (píšeme $$\varphi \sim \psi$$), pokud mají stejné modely. Totéž pro teorie
+- Výroky $$\varphi$$, $$\psi$$ jsou $$\mathrm{T}$$-ekvivalentní (píšeme $$\varphi \sim_{T} \psi$$), pokud mají stejné modely v teorii $$T$$.
 {% enddef %}
 
 {% def %}
 ### Model jazyka
-Model jazyka nad $$\P$$ je ohodnocení z $${ }^{\P}$$ 2. Třída všech modelů jazyka nad $$\P$$ se značí $$M(\P)$$, tedy $$M(\P)={ }^{P_{2}}$$. Výrok $$\varphi$$ nad $$\P($$ je $$)$$
+Model ve výrokové logice je libovolné ohodnocení $$v:\P\rightarrow \{0,1\}$$, které výrokovým proměnným přiřadí hodnotu _TRUE_ nebo _FALSE_.
+{% enddef %}
 
-- platí $$v$$ modelu $$v \in M(\P)$$, pokud $$\bar{v}(\varphi)=1$$. Pak $$v$$ je model výroku $$\varphi$$, značíme $$v \models \varphi$$ a $$M^{\P}(\varphi)=\{v \in M(\P) \mid v \models \varphi\}$$ je třída modelů $$\varphi$$.
-- pravdivý (tautologie), pokud platí v každém modelu (jazyka), značíme $$\models \varphi$$.
-- lživý (sporný, kontradikce), pokud nemá model.
-- nezávislý, pokud platí v nějakém modelu a neplatí v jiném.
-- splnitelný, pokud má model.
-
-Výroky $$\varphi$$ a $$\psi$$ jsou logicky ekvivalentní, pokud mají stejné modely.
+{% def %}
+### Pravdivostní funkce výroku
+Pravdivostní funkce výroku $$\varphi$$ je funkce $$f_{\varphi, \P}:\{0,1\}^{\lvert\P\rvert}\rightarrow \{0,1\}$$ definovaná takto:
+- je-li $$\varphi$$ prvovýrok $$x_{i}$$ z $$\P$$, pak $$f_{\varphi, \P}\left(x_{0},\ldots,x_{n-1}\right)=x_{i}$$
+- je-li $$\varphi = \left(\neg\varphi'\right)$$, potom 
+  $$f_{\varphi, \P}\left(x_{0},\ldots,x_{n-1}\right)=f_{\neg}\left(f_{\varphi', \P}\left(x_{0},\ldots,x_{n-1}\right)\right)$$
+- je-li $$\varphi=\left(\varphi'\square\varphi''\right)$$ kde
+  $$\square \in \{ \land , \lor , \rightarrow, \leftrightarrow\}$$, potom
+  $$f_{\varphi, \P}\left(x_{0},\ldots,x_{n-1}\right)=
+  f_{\square}\left(f_{\varphi', \P}\left(x_{0},\ldots,x_{n-1}\right),
+  f_{\varphi'', \P}\left(x_{0},\ldots,x_{n-1}\right)\right)$$
 {% enddef %}
 
 {% def %}
@@ -63,7 +96,7 @@ Literál je prvovýrok nebo jeho negace. Je-li $$p$$ prvovýrok, označíme $$p^
 
 {% def %}
 ### Klauzule
-Klauzule je disjunkce literálů. Prázdnou klauzulí rozumíme $$\perp$$. 
+Klauzule je disjunkce literálů. Prázdnou klauzulí rozumíme $$\perp$$.
 {% enddef %}
 
 {% def %}
