@@ -134,7 +134,7 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 ### Česká morfologie
 - vyvíjena od r. 1989 zejména prof. Hajičem
 - využívá poziční značky, každá pozice má svůj jednoznačně určený význam
-    - značky jsou 15 místné, ovšem rozeznává se pouze 13 kategorií (2 jsou rezervní)
+    - značky jsou patnáctimístné, ovšem rozeznává se pouze 13 kategorií (2 jsou rezervní)
     - každá kategorie má své pořadí ve výsledné značce
     - některé kategorie se vzájemně vylučují (např. příslovce nemá osobu) - pak se píše "_"
     - kromě značky se každému slovu ještě přiřadí jednoznačné lemma, což je základní tvar slova
@@ -218,9 +218,9 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - Automatická Selekce Informací Metodou Úplného Textu
 - Vznikl 1990 Králíková, Panevová
 - Ještě v době, kdy neexistovaly slovníky
-- Metoda uměla vyskloňovat podst. jm a příd. jm., u sloves nefungovala tak dobře
-- Nekontrolovalo se, zda jsou přid. jm. a podst. jm v ustáleném spojení ve stejném pádu
-- Text předzpracovaný - vytáhly se příd. jm. a podst. jm. a k jejich seznamu se dodalo, kde se vyskytují (paragraf, věta, ...)
+- Metoda uměla vyskloňovat podstatná jména a přídavná jména, u sloves nefungovala tak dobře
+- Nekontrolovalo se, zda jsou přídavná jména a podstatná jména v ustáleném spojení ve stejném pádu
+- Text předzpracovaný - vytáhly se přídavná jména a podstatná jména a k jejich seznamu se dodalo, kde se vyskytují (paragraf, věta, ...)
 
 #### 2 základní moduly
 - **vyhledávací modul**
@@ -240,7 +240,7 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
             - výjimky je možné uložit do zvláštního slovníku výjimek (jsou jich řádově pouze stovky, při důkladnějším zpracování max. tisíce)
         - slovník nevyužívá přímo, ale na jeho základě byl vytvořen klíč pro určování vzorů slov (seznam pravidel dle konců slov)
     - **Algoritmus**
-        - Porovnávají se jednotlivé znaky záklqdním tvaru slova odzadu (háček a čárka jsou zvláštní znaky), dokud není možné (až na výjimky) určit, jak slovo skloňovat. Poté slovnímu základu (event. základům v případě změn v kmeni) přidáme všechny vhodné pádové koncovky.
+        - Porovnávají se jednotlivé znaky základním tvaru slova odzadu (háček a čárka jsou zvláštní znaky), dokud není možné (až na výjimky) určit, jak slovo skloňovat. Poté slovnímu základu (event. základům v případě změn v kmeni) přidáme všechny vhodné pádové koncovky.
         - Umí i základní alternace
 - v té době bylo obtížné zachytit češtinu - spec. kódování háčků a čárek a kroužků
 - nebyl vyžadován velký slovník, jen slovník výjimek
@@ -265,8 +265,22 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - Vyvinut pro automatické indexování a kondenzaci textu
 - Podobně jako ASIMUT nepoužívá rozsáhlé slovníky klíčových slov, ale lingvistické poznatky.
 - Standardní přístup k indexaci - slovníky klíčových slov, dokumenty indexovány těmito slovy, v úvahu se bere četnost výskytu
-- Využívá toho, že řada přípon a koncovek nese význam (Aj: -er/-or konatel děje, -tion činnost, -ity/-ness vlastnosti; Čj: -ič/-ač/-čka/-ér/-or/-dlo/-metr/-graf/-fon/-skop přístroje a nástroje, -ace/-kce/-áž/-ní/-za procesy nebo činnosti, -ost/-ita/-nce vlastnosti, -anýl-ený jsou výsledky procesů, -acíl-ecí účel, atd.)
+- Využívá toho, že řada přípon a koncovek nese význam 
     - založeno na lexikální sémantice přípon a koncovek
+  > Angličtina:  
+  > - `-er`/`-or` konatel děje
+  > - `-tion` činnost
+  > - `-ity`/`-ness` vlastnosti
+  > - atd.
+  >
+  > Čeština:  
+  > - `-ič`/`-ač`/`-čka`/`-ér`/`-or`/`-dlo`/`-metr`/`-graf`/`-fon`/`-skop` přístroje a nástroje
+  > - `-ace`/`-kce`/`-áž`/`-ní`/`-za` procesy nebo činnosti
+  > - `-ost/-ita/-nce` vlastnosti
+  > - `-anýl`/`-ený` jsou výsledky procesů
+  > - `-acíl`/`-ecí` účel, 
+  > - atd.
+
 - Pro pokrytí tématické oblasti elektrických obvodů stačilo 800 přípon, technickou terminologii by pokrylo cca 2000 přípon.
 - Testován na elektrotechnických textech
 - Syntaktická analýza - Chceme dostat k sobě víceslovné výrazy, hledání víceslovných termínů
@@ -309,15 +323,14 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
 - šipkování od závislého k řídicímu
 - mají další možnosti pro zaznamenávání následujících jevů:
     - Koordinace
-    - různé větné členy se stejnou sémantickou rolí
-    - např. Jan a Marie; černý nebo bílý
+        - různé větné členy se stejnou sémantickou rolí
+        - např. Jan a Marie; černý nebo bílý
     - Apozice
-    - různé větné členy se stejnou syntaktickou rolí, shodnou gramatickou kategorií (tzn. gramaticky kongruentní)
-    - např. Matematicko-fyzikální fakulta (MFF); Ivo Truchlivý, učitel
-    - matematiky
+        - různé větné členy se stejnou syntaktickou rolí, shodnou gramatickou kategorií (tzn. gramaticky kongruentní)
+          > Matematicko-fyzikální fakulta (MFF); Ivo Truchlivý, učitel matematiky
     - Parenze (vsuvka)
-    - věta či větný člen, který syntakticky nesouvisí s okolím, ale upřesňuje, o čem se v okolí mluví
-    - Mohl bych, prosím, zavřit okno?
+        - věta či větný člen, který syntakticky nesouvisí s okolím, ale upřesňuje, o čem se v okolí mluví
+          > Mohl bych, prosím, zavřít okno?
 
 ![složkový tree](/assets/img/matfyz/pc-ling/slozkovy-strom.jpg)
 
@@ -426,17 +439,17 @@ $$
 
 $$
 \begin{bmatrix}
-    \text{PRED} && \text{'DAVID'} \\
+    \text{PRED} && \text{``DAVID"} \\
     \text{NUM} && \text{SG}
 \end{bmatrix}
 
 \quad
 
 \begin{bmatrix}
- \text{PRED} && \text{'spát <SUBJ>'} \\
+ \text{PRED} && \text{``spát <SUBJ>"} \\
  \text{TENSE} && \text{PAST} \\
  \text{SUBJ} && \begin{bmatrix}
-       \text{PRED} && \text{'DAVID'} \\
+       \text{PRED} && \text{``DAVID"} \\
        \text{NUM} && \text{SG}
     \end{bmatrix} \\
 \end{bmatrix}
@@ -558,7 +571,8 @@ $$
 - Typy jsou obvykle organizovány hierarchicky
 - Slova se dělí na ohebné a neohebné druhy. Ohebné zase na časované a skloňované. Atd.
 
-![tsr](/assets/img/matfyz/pc-ling/tsr.jpg)
+![tsr](/assets/img/matfyz/pc-ling/tsr.png)
+
 - Head Driven Phrase Structure Grammar (HPSG)
 - Pollard a Sag (1985)
 - Zahrnuje principy, gramatická pravidla a slovníkové položky (tříděné, dle různých kategorii).
@@ -1090,7 +1104,7 @@ $$\text{BLEU} =BP .\left(p_{1} p_{2} p_{3} p_{4}\right)^{1 / 4}$$
     - vlastnosti,
     - akce (činnosti),
     - živé bytosti, atd.
--    třídy Ize dále zjemňovat: slovesa pohybu, péče o tělo, změny, komunikace apod.
+- třídy lze dále zjemňovat: slovesa pohybu, péče o tělo, změny, komunikace apod.
 - Dané slovo (objekt) pak popíšeme pomocí příznaků ke každé třídě: + (patří do ní), - (nepatří do ní), 0 (nezávisí na ní).
 - Ontologie jsou bud' doménové (domain) (někde jsem našla, že zpracovává jen jednu doménu obor; jinde že to je množina názvů oborů) či vrcholové (upper) (Top Ontology - prý množina nejzákladnějších výrazů, nezávislých na jazyku).
 
@@ -1346,9 +1360,9 @@ $$\Lambda \omega \ldots$$ - možný svět
 - jednoduchá realizace
     - pravděpodobnostní konečné automaty
 - pravděpodobnosti přechodu mezi stavy
-    - součet čísel vycházející z jednoho vrcholu $$=1$
+    - součet čísel vycházející z jednoho vrcholu $$= 1$$
 - 3 úkoly:
-    - určení s jakou pravd. mohla být pozorována nějaká značka
+    - určení s jakou pravděpodobností mohla být pozorována nějaká značka
     - dekódování - hádání nejpravd. posloupnosti skrytých stavů
         - př. hádání nejpravděpodobnější posloupnosti morfologických značek nad slovy ve větě
             - nejprve učení (máme daný model, který ho naučíme)
