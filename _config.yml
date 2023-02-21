@@ -6,15 +6,12 @@ lang: "en"
 date_format: "%B %d %Y"
 
 # Layout
-sidebar: true                # show a sidebar instead of the usual header
-show_excerpts: false         # show article excerpts on the home page
-show_related: true           # show the previous and next links after every post
-show_description: true       # show the site description in the sidebar
-show_logo: true              # always keep the site title visible
+show_excerpts: false      # show article excerpts on the home page
+show_related: true        # show the previous and next links after every post
+show_description: true    # show the site description in the sidebar
+show_logo: true           # always keep the site title visible
 show_title: false
-
-# Styling
-sidebar_limit: "55em"        # css limit of showing side bar
+sidebar_limit: "55em"     # css limit of showing side bar
 
 # Menu
 navigation:
@@ -33,12 +30,12 @@ external:                    # see http://fontawesome.com/icons
 
 # References items
 references:
-  - {title: Email,      nickname: "cerny@matfyz.cz",   icon: "email-icon.png",         url: "mailto:cerny@matfyz.cz"}
-  - {title: Telegram,   nickname: "yagareas",          icon: "telegram-icon.png",      url: "https://t.me/yagareas"}
-  - {title: Matrix,     nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png",        url: "https://matrix.to/#/@jc:matrix.ucw.cz" }
-  - {title: Github,     nickname: "yagarea",           icon: "github-icon.png",        url: "https://github.com/yagarea/"}
-  - {title: StackOverflow, nickname: "Jan Černý",      icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
-  - {title: Bandcamp,   nickname: "yagarea",           icon: "bandcamp-icon.png",      url: "https://bandcamp.com/yagarea"}
+  - {title: Email,        nickname: "cerny@matfyz.cz",   icon: "email-icon.png",         url: "mailto:cerny@matfyz.cz"}
+  - {title: Telegram,     nickname: "yagareas",          icon: "telegram-icon.png",      url: "https://t.me/yagareas"}
+  - {title: Matrix,       nickname: "@jc:matrix.ucw.cz", icon: "matrix-icon.png",        url: "https://matrix.to/#/@jc:matrix.ucw.cz"}
+  - {title: Github,       nickname: "yagarea",           icon: "github-icon.png",        url: "https://github.com/yagarea/"}
+  - {title: StackOverflow,nickname: "Jan Černý",         icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
+  - {title: Bandcamp,     nickname: "yagarea",           icon: "bandcamp-icon.png",      url: "https://bandcamp.com/yagarea"}
 
 collections:
   music:
@@ -46,8 +43,8 @@ collections:
     permalink: /music/:title-:year-:month-:day/
 
 plugins:
-  - jekyll-tidy
   - jektex
+  #  - jekyll-tidy
 
 # Render options
 disable_disk_cache: false
@@ -55,6 +52,10 @@ exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.
 include: [".htaccess"]
 timezone: "Europe/Prague"
 JEKYLL_ENV: development
+toc:
+  min_level: 1 # default: 1
+  max_level: 3 # default: 6
+
 
 # Latex rendering settings
 jektex:
@@ -75,4 +76,3 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
-
