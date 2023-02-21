@@ -1,5 +1,5 @@
 ---
-title:  "Lineární algebra II (WIP)"
+title:  "Lineární algebra II"
 category: "Matfyz"
 language: "CZ"
 latex: true
@@ -7,9 +7,7 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-03-08
 layout: post
 ---
 
-Tento článek je stále nedokončený ~~může obsahovat~~ obsahuje spoustu chyb. Pokud naleznete
-nějakou chybu, můžete jí opravit pomocí tlačítka edit.
-
+Pokud naleznete nějakou chybu, můžete jí opravit pomocí tlačítka *edit*.
 
 {:toc}
 - .
