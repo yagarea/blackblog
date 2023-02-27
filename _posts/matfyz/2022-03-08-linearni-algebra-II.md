@@ -626,8 +626,11 @@ Zde $$y$$ je projekce $$x$$ do $$V$$ a $$z$$ projekce $$x$$ do $$V^{\perp}$$
 {% endtheorem %}
 
 ### Metoda nejmenších čtverců
-$$\min_{x \in \R^{n}} \left\| Ax - b \right\|^{2}_{2} = 
-\min_{x \in \R^{n}} \sum^{n}_{i=1} \left( A_{i~*}x - b_{i} \right)^{2}$$
+
+$$
+\min_{x \in \R^{n}} \left\| Ax - b \right\|^{2}_{2} =
+\min_{x \in \R^{n}} \sum^{n}_{i=1} \left( A_{i~*}x - b_{i} \right)^{2}
+$$
 
 přenásobíme $$A^{T}$$
 
