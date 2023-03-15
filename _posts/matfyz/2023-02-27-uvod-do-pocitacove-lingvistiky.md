@@ -109,13 +109,12 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - Morfologie založená na **slovech**
     - centrální roli mají vzory
     - známe-li základní tvar slova a jeho vzor, dokážeme vygenerovat všechny jeho tvary
-    - vhodné i pokud jeden morfém reprezentuje více gramatických kategorií (např. 3.os,
-    - sg., r.ž.) - tam předchozí přístupy selhávají
+    - vhodné i pokud jeden morfém reprezentuje více gramatických kategorií (např. `3.os, sg., r.ž.`) - tam předchozí přístupy selhávají
     - čeština - ve skutečnosti asi 250 vzorů (pokud má být jednoznačné)
 
 ### Two-Level Morphology 
 - Systém zpracování morfologie
-- Lauri Karttunenem a Kimmo Koskeniemmin, zač. 80. let
+- [Lauri Karttunenem](https://en.wikipedia.org/wiki/Lauri_Karttunen) a [Kimmo Koskeniemmin](https://en.wikipedia.org/wiki/Kimmo_Koskenniemi), zač. 80. let
 - První obecný model zpracování morfologie přirozeného jazyka
 - Morfologie jednodušší než gramatika, ale zpracování systému trvalo déle
 - Založen na konečných stavových automatech a na nich definovaných oboustranných přechodech.
@@ -135,7 +134,7 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - využívá poziční značky, každá pozice má svůj jednoznačně určený význam
     - značky jsou patnáctimístné, ovšem rozeznává se pouze 13 kategorií (2 jsou rezervní)
     - každá kategorie má své pořadí ve výsledné značce
-    - některé kategorie se vzájemně vylučují (např. příslovce nemá osobu) - pak se píše "_"
+    - některé kategorie se vzájemně vylučují (např. příslovce nemá osobu) - pak se píše `_`
     - kromě značky se každému slovu ještě přiřadí jednoznačné lemma, což je základní tvar slova
         - lemma: jednoznačný identifikátor
     - značka a lemma dohromady jednoznačně určují slovo a jeho tvar se vším všudy
@@ -421,20 +420,20 @@ $$
 - Proces končí, když už nelze žádný neterminál nahradit
 - Generativní síla odpovídá bezkontextovým gramatikám, po modifikacích mohou být i silnější (kontextové)
 - Typy základních stromů:
-- zaákladní (initial) strom: Udává valenční vztahy a strukturu věty
+- základní (initial) strom: Udává valenční vztahy a strukturu věty
 - pomocný (auxiliary) strom: Pomocí těchto se tvoří rekurze ve stromu
 - Typy změn:
-- Substituce - list stromu je nahrazen pomocným stromem, jehož kořen je značený stejně, jako list původního stromu.
-- Adjungace - vnitřní uzel je nahrazen pomocným strom, kořen opět značen stejně jako list původního stromu.
+    - Substituce - list stromu je nahrazen pomocným stromem, jehož kořen je značený stejně, jako list původního stromu.
+    - Adjungace - vnitřní uzel je nahrazen pomocným strom, kořen opět značen stejně jako list původního stromu.
 - Lexical-Functional Grammar (LFG)
-- sada dvojic atribut-hodnota
-- Rozlišuje 2 základní typy struktur:
-- c-strukture (constituent structure)
-- Spojuje slova do frází
-- Datový typ je složkový strom.
-- f-strukture (functional structure)
-- Reprezentuje funkční vztahy ve větě (např. vazby sloves)
-- Používá datový typ matice atribut-hodnota
+    - sada dvojic atribut-hodnota
+    - Rozlišuje 2 základní typy struktur:
+        - c-strukture (constituent structure)
+            - Spojuje slova do frází
+            - Datový typ je složkový strom.
+        - f-strukture (functional structure)
+            - Reprezentuje funkční vztahy ve větě (např. vazby sloves)
+            - Používá datový typ matice atribut-hodnota
 
 $$
 \begin{bmatrix}
@@ -927,7 +926,8 @@ $$
 
 ### Základní vzorce
 
-$$\begin{align}
+$$
+\begin{align}
     P(A, B)=P(A) P(B) &\quad\; \text{(A, B nezávislé)} \\
     P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)} &\quad\;\text{(Bayesova věta)} \\
     P(A, B)=P(A \mid B) P(B)=P(B, A) & \\
@@ -1301,6 +1301,7 @@ $$\Lambda \omega \ldots$$ - možný svět
     - výrazy vyjadřující mezivětné souvislosti v textu
     - souřadicí a podřadící spojky, výrazy jako například, na jedné straně - na druhé straně, jednak - jednak, nejdříve - potom apod.
     - je třeba závorkovat, odkud kam to patří k výrazu
+
 #### důležitost pro aplikace:
 - získávání informací z textu
 > Škoda představila nový model Octavie. Jde o pětidvéřové kombi, které má ...
@@ -1374,7 +1375,7 @@ $$\Lambda \omega \ldots$$ - možný svět
 
 - dekódování
     - graf - hledání nejpravd. posloupnosti je vlastně hledání nejkratší cesty v grafu (pravd. jsou ohodnocení hran)
-    - matice - \# stavů * \# pozorování
+    - matice - \# stavů \* \# pozorování
         - se všemi možnými přechody a jejich pravd. (někde může být i pravd. 0)
 - angličtina vhodnější než čeština - méně morfologických značek
     - u př. značky z PennTreebank - stavy jsou značky, pozorování jsou slova
