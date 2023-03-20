@@ -794,7 +794,7 @@ $$
 - pravidla jsou vzájemně nezávislá, neuspořádaná a jsou uplatňována v cyklech
 - každé pravidlo má 4 části: kontext, desambiguační část, report a akce
 - pravidla tvořena speciálně pro češtinu (pro jiný jazyk by byla téměř úplně jiná)
-- používá desambiguaci na to, že když se odstraní všechny tagy, tak víme, že je něco špatně, $$v$$ tu chvíli se ale musí určit, co je špatně a jak to opravit (a toto samozřejmě neopraví všechny chyby) - Neřeší to ten problém, že věta může být správně, ale až v dalekém kontextu přes jiné věty. (Tatínek šly do práce.)
+- používá desambiguaci na to, že když se odstraní všechny tagy, tak víme, že je něco špatně, $$v$$ tu chvíli se ale musí určit, co je špatně a jak to opravit (a toto samozřejmě neopraví všechny chyby) - Neřeší to ten problém, že věta může být správně, ale až v dalekém kontextu přes jiné věty. (`Tatínek šly do práce.`)
 - Obecně používá tuto přípravu (klasický postup při zpracování psaného textu): segmentace (rozseká na věty) $$\rightarrow$$ tokenizace (rozseká na slova) $$\rightarrow$$ morfologická analýza (každému tokenu dá seznam dvojic lemma - tag) $$\rightarrow$$ morfologická desambiguace (každému tokenu vybere ideálně jeden token) $$\rightarrow$$ syntaktická analýza (větný rozbor) $$\rightarrow$$ sémantická analýza (rozbor významu věty).
 - používá MS Word
 
@@ -846,7 +846,7 @@ $$
     - vyžadovalo to lidi, kteří by uměli dobře česky i anglicky a vyznali se v prostředí burzovních textů z 90's. (Nejen překladatel, ale i ten, kdo to reviduje.)
     - motivace pro překlad včetně podobného značkování byla taková, aby se nějaký statistický program mohl učit rozdíly.
 
-### Další anglické kopusy
+### Další anglické korpusy
 - British National Corpus
 - American National Corpus
 - Corpus of Contemporary American English
@@ -890,7 +890,7 @@ $$
         - Pouze surový text bez anotace, ovšem včetně členění.
     - **Morfologická rovina** (m-rovina)
         - Každému slovu ve větě přiřadí několik atributů (lemma, tag (15-ti poziční značka), jednoznačné id využité při propojování rovin, odkaz do slovní roviny, atd.).
-    - Anotace probíhala dvoufázově: nejdříve anotoval automatický morfologický analyzátor $$\rightarrow$$ a pak dva lidští anotátoři na sobě nezávisle vybírali správná lemmata a tagy z výsledkủ automatického $$\rightarrow$$ nakonec třetí lidský anotátor vybral nejlepší možnost z předchozích dvou.
+        - Anotace probíhala dvoufázově: nejdříve anotoval automatický morfologický analyzátor $$\rightarrow$$ a pak dva lidští anotátoři na sobě nezávisle vybírali správná lemmata a tagy z výsledkủ automatického $$\rightarrow$$ nakonec třetí lidský anotátor vybral nejlepší možnost z předchozích dvou.
     - **Analytická rovina** (a-rovina)
         - Každá věta je reprezentována stromem orientovaným do kořene s ohodnocenými hranami mezi uzly. Uzly jsou právě prvky morfologické roviny, hrany jsou ohodnoceny podle závislostních vztahů uzlů, či určují další jevy (koordinace - s předchozí větou, apozice, interpunkce). Každý uzel si i pamatuje své pořadí ve větě kvưli grafickému znázornění.
         - Byl použit automatický parser na předzpracování textu a dále automatický nástroj, který na základě pravidel určoval ohodnocení hran, ale výstup byl často chybný či neúplný, tedy museli nastoupit ruční anotátoři. Následně byly provedeny automatické kontrolní testy (např. slovesnký jmenný predikát závisí na být) a porušení byla ručně opravena.
