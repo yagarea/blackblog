@@ -126,7 +126,7 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
     - Pravidla se aplikují paralelně, nikoli sekvenčně
     - Podmínky se mohou vztahovat k oběma úrovním zároveň či jen k jedné z nich
     - Lexikální vyhledávání (prohledávání slovníku, trie) a morfologická analýza probíhají současně
-- Nehodí se pro jazyky se vzory (čeština) - vzory nejsou pravidla $$\rightarrow$$ pro češtinu niky nebylo
+- Nehodí se pro jazyky se vzory (čeština) - vzory nejsou pravidla $$\rightarrow$$ pro češtinu nikdy nebylo
 
 
 ### Česká morfologie
@@ -251,10 +251,10 @@ Morfologie studuje vztahy mezi jednotlivými částmi slov, vnitřní struktury 
 - pro slovesa už nefunguje tak spolehlivě (příliš velká víceznačnost koncových segmentů základních slovesných tvarů)
 
 ### Další pojmy
-- Negativní slovník
-- Obsahuje ta slova, která nejsou při dotazování (vyhledávání v textu) důležitá (spojky, citoslovce), tato slova jsou odstraněna při předzpracování textu.
-- Konkordance
-- Všem slovům mimo negativní slovník byla přiřazena adresa a frekvence výskytu v textu, používaná pro účely urychlení hledání. Slova z negativního slovníku dostala jen adresu (kvůli počítání vzdáleností mezi jednotlivými významovými slovy v textu). Samotné vyhledávání pak neprobíhalo na původním textu, ale na této konkordanci.
+- **Negativní slovník**
+    - Obsahuje ta slova, která nejsou při dotazování (vyhledávání v textu) důležitá (spojky, citoslovce), tato slova jsou odstraněna při předzpracování textu.
+- **Konkordance**
+    - Všem slovům mimo negativní slovník byla přiřazena adresa a frekvence výskytu v textu, používaná pro účely urychlení hledání. Slova z negativního slovníku dostala jen adresu (kvůli počítání vzdáleností mezi jednotlivými významovými slovy v textu). Samotné vyhledávání pak neprobíhalo na původním textu, ale na této konkordanci.
 
 ### Systém MOZAIC
 - Morphemic Oriented System of Automatic Indexing and Condensation
@@ -355,29 +355,28 @@ Syntax (skladba) se zabývá vztahy mezi slovy ve větě, tvořením větných k
 ### Transformační gramatika
 - navazuje na předválečnou americkou lingvistiku, na snahu o explicitní popis jazykových pravidel
 - předchůdci:
-- Deskriptivismus (1993 Bloomfield)
-- Jazyková fakta klasifikuje a registruje, ale nevysvětluje
-- Zpracovává zejména povrchovou větnou strukturu
-- Analytická syntax (1937 Jespersen).
-- Logický přístup (1935 Ajdukiewicz) - kategoriální gramatika.
-- využívá (už tehdy existující) koncept povrchové (surface) a hloubkové (deep structure) syntaktické struktury
+    - Deskriptivismus (1993 Bloomfield)
+        - Jazyková fakta klasifikuje a registruje, ale nevysvětluje
+        - Zpracovává zejména povrchovou větnou strukturu
+    - Analytická syntax (1937 Jespersen).
+        - Logický přístup (1935 Ajdukiewicz) - kategoriální gramatika.
+        - využívá (už tehdy existující) koncept povrchové (surface) a hloubkové (deep structure) syntaktické struktury
 - povrchová struktura řeší spíše zápis, hloubková význam
 - jedné povrchové reprezentaci může odpovídat více hloubkových (jedna věta je významově víceznačná) nebo naopak (více možností, jak vyjádřit stejný význam)
 - už zhruba ve 30. letech se začalo pracovat s těmito 2 koncepty
 - Jazyk však nebyl dosud popsán formální matematickou strukturou. Spíše se popisovalo, než že by se vysvětlovalo. Míchala se syntax a sémantika. Syntaktické jevy se popisovaly pomocí sémantiky apod.
-- Noam Chomsky 1957 Syntactic Structures (revoluce v popisu přirozeného jazyka)
+- [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky) 1957 Syntactic Structures (revoluce v popisu přirozeného jazyka)
 - popsal 3 základní komponenty:
-- Báze
-- Soubor bezkontextových pravidel. Tato pravidla generují složkové stromy, tzv. frázové ukazatele (phrase makers). S $$\rightarrow$$ NP VP, kde NP je noun phrase, VP je verb phrase.
-- Transformační komponenta
-- Soubor transformačních pravidel operujících na celých frázových ukazatelích.
-- Z původních podkladových frázových ukazatelů vytváří povrchovou strukturu věty.
-- 2 typy transformačních pravidel:
-- Obligatorní - transformace musí být provedena (pokud je to možné). 
-
-### Fonologická komponenta
-- Fakultativní - transformace je volitelná.
-- Soubor regulárních přepisovacích pravidel. Řetězcům morfémů přidělují fonetickou interpretaci a význam. (Fonetika i fonologie zkoumají zvukovou stránku jazyka. Fonetika zkoumá, jak se hlásky v těle tvoří a vnímají, zatímco fonologie zkoumá funkci hlásek a zvukové rozdíly, které mají v jazyce nějakou funkci.)
+    - **Báze**
+        - Soubor bezkontextových pravidel. Tato pravidla generují složkové stromy, tzv. frázové ukazatele (phrase makers). S $$\rightarrow$$ NP VP, kde NP je noun phrase, VP je verb phrase.
+    - **Transformační komponenta**
+        - Soubor transformačních pravidel operujících na celých frázových ukazatelích.
+        - Z původních podkladových frázových ukazatelů vytváří povrchovou strukturu věty.
+        - 2 typy transformačních pravidel:
+            - _Obligatorní_ - transformace musí být provedena (pokud je to možné). 
+            - _Fakultativní_ - transformace je volitelná.
+    - **Fonologická komponenta**
+        - Soubor regulárních přepisovacích pravidel. Řetězcům morfémů přidělují fonetickou interpretaci a význam. (Fonetika i fonologie zkoumají zvukovou stránku jazyka. Fonetika zkoumá, jak se hlásky v těle tvoří a vnímají, zatímco fonologie zkoumá funkci hlásek a zvukové rozdíly, které mají v jazyce nějakou funkci.)
 - Množina přijatelných vět daného jazyka je vytvářena generativní procedurou, souborem konečného počtu přepisovacích pravidel
 - Jde v podstatě o bezkontextovou nebo kontextovou gramatiku:
 
@@ -400,14 +399,14 @@ $$
 - 1968 Extended Standard Theory
 - 1980's Government-binding Theory (GB) - založená na obecných principech univerzální gramatiky a parametrech platných pro daný jazyk 1990's Teorie minimalismu
 - obsahuje jen dvě roviny - opět Chomsky:
-- Rovina logické formy (LF) - reprezentace jazyka a významu
-- Fonetická rovina (PF) - zvuková stránka jazyka, rozhraní mezi zvukem
+    - _Rovina logické formy_ (LF) - reprezentace jazyka a významu
+    - _Fonetická rovina (PF)_ - zvuková stránka jazyka, rozhraní mezi zvukem
 - Tree Adjoining Grammars (TAG)
 - pol. 70. let - Joshi, Levy, Takahashi
 - Substituce stromů
 - Elementární struktury jsou stromy
 - Pracuje se složkovými stromy
-- Šipka $$\downarrow$$ označuje, který uzel je možné substituovat 
+- Šipka $$\downarrow$$ označuje, který uzel je možné substituovat
 
 ![Fonologická komponenta](/assets/img/matfyz/pc-ling/fonologicka-komponenta.jpg)
 
@@ -542,7 +541,7 @@ $$
 $$
 
 - Problém:
-- Lze unifikovat i vlastnosti, které spolu nijak nesouvisejí (třeba pád podmětu a způsob přísudku)
+    - Lze unifikovat i vlastnosti, které spolu nijak nesouvisejí (třeba pád podmětu a způsob přísudku)
 
 $$
 [\text { case : acc }] \cup[\text { mode }: \text { ind }]=\left[\begin{array}{l}
@@ -553,7 +552,7 @@ $$
 
 #### Typované sestavy rysů
 - Nakonec převládly, to jediné, co dávalo smysl
-- Typ sestavy určuje její vlastnosti
+    - Typ sestavy určuje její vlastnosti
 
 $$
 \left[\begin{array}{l}
@@ -578,8 +577,8 @@ $$
 - Základním typem je znak (sign).
 - Slova a fráze jsou dva různé podtypy znaku.
 - Slovo má dva základní rysy:
-- [PHON] (zvuk, fonetickou formu)
-- [SYNSEM] (syntaktické a sémantické informace)
+    - _[PHON]_ - (zvuk, fonetickou formu)
+    - _[SYNSEM]_ - (syntaktické a sémantické informace)
 - tyto rysy jsou dále děleny.
 
 $$
@@ -713,7 +712,7 @@ $$
     - morfématická
     - povrchová
     - tektogramatická - sémantika slov
-    - předpoklad, že roviny jsou nějak spojené
+- předpoklad, že roviny jsou nějak spojené
 - Formy a funkce - jednotka na vyšší rovině reprezentuje funkci jednotky na rovině nižší (TG je nejvyšší)
 - Na vyšších úrovních (povrchová a tektogramatická) se jazyk popisuje závislostní reprezentací, typicky závislostními stromy
 
@@ -729,21 +728,21 @@ $$
     - **adjektiva** - Pitha (1982), Panevová (1998).
 - **Vallex** - Lopatková, Žabokrtský 2007
 - 2 základní druhy závislých členů na TG rovině:
-    - aktanty
+    - _aktanty_
         - Konatel (aktor, agens)
         - Patient
         - Adresát
         - Origo
         - Efekt
-        - každý z nich může být ve větě zastoupen pouze jednou (i když je samozřejmě Ize koordinovat)
-- **volná doplnění**
-    - mohou se vyskytovat vícekrát
+        - každý z nich může být ve větě zastoupen pouze jednou (i když je samozřejmě lze koordinovat)
+    - _volná doplnění_
+        - mohou se vyskytovat vícekrát
 
 #### další dělení
-- obligatorní 
+- obligatorní
     - obligatorní aktant nesmí ve větě chybět (může ovšem chybět na povrchové rovině, pokud ho známe např. z kontextu)
 - fakultativní
-- (na TG rovině)
+    - (na TG rovině)
 - dialogový test pro rozlišení obligatorních a fakultativních
 
 
@@ -754,7 +753,6 @@ $$
 
 - **valenční rámec**
     - seznam aktantů (i fakultativních) a obligatorních volných doplnění
-
 
 ## Kontrola gramatické správnosti
 - problémy specifické pro češtinu:
@@ -791,7 +789,7 @@ $$
 - primárně vyvíjen pro desambiguaci české morfologie
 - pracuje s pozitivními a negativními desambiguačními pravidly
 - pravidla mohou mít neomezený kontext
-- redukční metoda - snaha udržet 100 přesnost
+- redukční metoda - snaha udržet 100% přesnost
 - pravidla jsou psána ručně, avšak na základě dat z korpusu
 - pravidla jsou vzájemně nezávislá, neuspořádaná a jsou uplatňována v cyklech
 - každé pravidlo má 4 části: kontext, desambiguační část, report a akce
