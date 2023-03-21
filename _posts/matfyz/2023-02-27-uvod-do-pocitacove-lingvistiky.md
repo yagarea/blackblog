@@ -3,7 +3,7 @@ title: "Úvod do počítačové lingvistiky"
 category: "Matfyz"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2023-02-27-uvod-do-pocitacove-lingvistiky.md?plain=1"
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-10-03-uvod-do-pocitacove-lingvistiky.md?plain=1"
 layout: post
 ---
 
@@ -1359,27 +1359,27 @@ $$\Lambda \omega \ldots$$ - možný svět
     - pravděpodobnostní konečné automaty
 - pravděpodobnosti přechodu mezi stavy
     - součet čísel vycházející z jednoho vrcholu $$= 1$$
-- 3 úkoly:
-    - určení s jakou pravděpodobností mohla být pozorována nějaká značka
-    - dekódování - hádání nejpravd. posloupnosti skrytých stavů
-        - př. hádání nejpravděpodobnější posloupnosti morfologických značek nad slovy ve větě
-            - nejprve učení (máme daný model, který ho naučíme)
-    - naučení se statistického modelu
-- učení - \# skrytých stavů - všechny možné stavy
-    - trénovací množina
-        - např. slova + konkrétní morfologické značky
-            - počet možných stavů dán počtem všech možných značek
-    - najde pravděpodobnosti přechodů a jednotlivých stavů
 
-- dekódování
-    - graf - hledání nejpravd. posloupnosti je vlastně hledání nejkratší cesty v grafu (pravd. jsou ohodnocení hran)
-    - matice - \# stavů \* \# pozorování
-        - se všemi možnými přechody a jejich pravd. (někde může být i pravd. 0)
+### 3 úkoly
+- určení s jakou pravděpodobností mohla být pozorována nějaká značka
+- **dekódování** - hádání nejpravd. posloupnosti skrytých stavů
+    - př. hádání nejpravděpodobnější posloupnosti morfologických značek nad slovy ve větě
+        - nejprve učení (máme daný model, který ho naučíme)
+- **naučení se statistického modelu**
+    - učení - \# skrytých stavů - všechny možné stavy
+        - trénovací množina
+            - např. slova + konkrétní morfologické značky
+                - počet možných stavů dán počtem všech možných značek
+        - najde pravděpodobnosti přechodů a jednotlivých stavů
+
+### Dekódování
+- graf - hledání nejpravd. posloupnosti je vlastně hledání nejkratší cesty v grafu (pravd. jsou ohodnocení hran)
+- matice - \# stavů \* \# pozorování
+    - se všemi možnými přechody a jejich pravd. (někde může být i pravd. 0)
 - angličtina vhodnější než čeština - méně morfologických značek
     - u př. značky z PennTreebank - stavy jsou značky, pozorování jsou slova
     - (pro češtinu se u korpusu využívá něco přes 1000 různých značek)
 - Viterbiho alg. - pro bigramy - $$v$$ kvadr. čase $$v$$ závislosti na velikosti vstupu
     - poměrně efektivní
     - pomocí něj se hledá nejpravděpodobnější posloupnost
-
 
