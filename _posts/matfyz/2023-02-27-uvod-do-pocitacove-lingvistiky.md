@@ -568,7 +568,7 @@ $$
 - Typy jsou obvykle organizovány hierarchicky
 - Slova se dělí na ohebné a neohebné druhy. Ohebné zase na časované a skloňované. Atd.
 
-![tsr](/assets/img/matfyz/pc-ling/tsr.png)
+![tsr](/assets/img/matfyz/pc-ling/tsr.svg)
 
 - Head Driven Phrase Structure Grammar (HPSG)
 - Pollard a Sag (1985)
