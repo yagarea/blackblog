@@ -512,7 +512,7 @@ $$
 
 - When the angle is known, we can calculate $v_{w}$ directly.
 
-o E.g. for $45^{\circ}$ inclination:
+o E.g. for $$45^{\circ}$$ inclination:
 
 $$
 \begin{aligned}
@@ -558,7 +558,7 @@ $$
 - Používá landmarks, popř. GPS a ostatní služby
 
 ### Relativní lokalizace
-- Sledování pozice a aktualizování(odometrie)
+- Sledování pozice a aktualizování (odometrie)
 - známe počáteční pozici
 - měříme / odhadujeme změnu oproti předchozímu stavu(změna rotace a orientace)
 - Problém představuje akumulace chyby - po delší době může být chyba příliš velká
@@ -604,7 +604,7 @@ $$
 - Složitost záleží na jemnosti mřížky a velikosti mapy
 - Snížit ji lze pomocí
     - selektivních aktualizací(jen zajímavá část mřížky)
-    - Hierarchických modelů(quadtree)
+    - Hierarchických modelů (quadtree)
     - neortogonální grafy
 
 ##### Topologické grafy
@@ -634,7 +634,7 @@ $$
 - intervalová algebra
 
 #### Řešení 3 žádná lokalizace
-- hardcoded automat
+- hardcoded automata
 - reaktivní systémy
 - evoluční algoritmy
 
