@@ -268,7 +268,7 @@ Relation between $$L C S_{i-1}$$ and $$L C S_{i}$$ is a composed transformation:
 DH parameters: $$\vartheta_{i}, d_{i}, a_{i}, \alpha_{i}$$
 {% enddef %}
 
-![](https://cdn.mathpix.com/cropped/2023_02_02_d8395da69e109b142d5cg-05.jpg?height=602&width=615&top_left_y=1255&top_left_x=1880)
+![](https://cdn.mathpix.com/cropped/2023_02_02_d8395da69e109b142d5cg-05.jpg?height=602&width=615&top_left_y=1255&top_left_x=1880){:width="400px"}
 
 #### DH transformation
 
@@ -430,7 +430,7 @@ $$
     - Holds yaw (body rotation) independently to movement direction
     - Arbitrary movement as for omnidrive
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-13.jpg?height=925&width=1212&top_left_y=918&top_left_x=606)
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-13.jpg?height=925&width=1212&top_left_y=918&top_left_x=606){:width="600px"}
 
 - High manoeuvring ability
     - sideways run
@@ -484,7 +484,7 @@ v_{w} &= v_{\|}=\vec{v} \cdot \hat{u} \\
 \end{align}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-23.jpg?height=941&width=586&top_left_y=767&top_left_x=1837)
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-23.jpg?height=941&width=586&top_left_y=767&top_left_x=1837){:.image-small}
 
 #### Mecanum drive
 - Similar to omniwheel drive
@@ -493,7 +493,7 @@ $$
 - Resolve to roller
 - Resolve to wheel
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-24.jpg?height=1167&width=727&top_left_y=698&top_left_x=1623)
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-24.jpg?height=1167&width=727&top_left_y=698&top_left_x=1623){:.image-small}
 
 - Resolve velocity into components parallel and perpendicular to roller axis
 - $$\hat{u}$$ is not the same for each wheel; pick direction parallel to roller axis, in forwards direction
@@ -505,12 +505,12 @@ $$
 =\left(v_{x} \hat{\imath}+v_{y} \hat{\jmath}\right) \cdot\left(-\frac{1}{\sqrt{2}} \hat{\imath}+\frac{1}{\sqrt{2}} \hat{\jmath}\right)
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-25.jpg?height=1148&width=600&top_left_y=711&top_left_x=1623)
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-25.jpg?height=1148&width=600&top_left_y=711&top_left_x=1623){:.image-small}
 
 - Use component parallel to roller axis and resolve it into components parallel to wheel and parallel to roller
 - $$v_{w}$$ is the component parallel to the wheel
 
-- When the angle is known, we can calculate $v_{w}$ directly.
+- When the angle is known, we can calculate $$v_{w}$$ directly.
 
 o E.g. for $$45^{\circ}$$ inclination:
 
@@ -522,325 +522,369 @@ v_{w} & =\frac{v_{\|}}{\cos 45^{\circ}} \\
 \end{aligned}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-26.jpg?height=1167&width=628&top_left_y=708&top_left_x=1625)
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-26.jpg?height=1167&width=628&top_left_y=708&top_left_x=1625){:.image-small}
 
 
 
+## Localization
+- The goal is to find the position and orientation of the robot (pose)
+     1. relative to the map
+     2. relative to the environment
+- Sometimes we also want to determine the position and orientation of individual parts
 
+### Coordinate transformation
+- The map is independent of the robot's movement
+- The sensors move with the robot - it has local coordinates
+- Localization tries to map the local and global position onto each other
+- The pose cannot be perceived directly
+- We divide localization into
+     - absolute (global) / relative (local)
+     - passive / active
+     - static / dynamic (lighting, obstacles,... do (not) change )
 
+### Absolute localization
+- Measurement / Approximation regardless of previous state, typically more demanding on performance / technology
+- Localization after reset / relocation is problematic (wake up / kidnap problem)
+- Uses landmarks, or GPS and other services
 
-
-
-
-
-
-
-
-## Lokalizace
-- Cílem je najít pozici a orientaci robota(póza)
-    1. vzhledem k mapě
-    2. vzhledem k prostředí
-- Někdy navíc chceme určit pozici a orientaci jednotlivých částí
-
-### Transformace souřadnic
-- Mapa je nezávislá na pohybu robota
-- Senzory se pohybují s robotem - má lokální souřadnice
-- Lokalizace se snaží namapovat lokální a globální pozici na sebe
-- Pózu nelze vnímat přímo
-- Lokalizaci dělíme na
-    - absolutní(global) / relativní (local)
-    - pasivní / aktivní
-    - statickou / dynamickou ((ne)mění se osvětlení, překážky,...)
-
-### Absolutní lokalizace
-- Měření / Aproximace bez ohledu na předchozí stav, typicky náročnější na výkon / technologii
-- Problematická je lokalizace po resetu / přemístění (wake up / kidnap problem)
-- Používá landmarks, popř. GPS a ostatní služby
-
-### Relativní lokalizace
-- Sledování pozice a aktualizování (odometrie)
-- známe počáteční pozici
-- měříme / odhadujeme změnu oproti předchozímu stavu(změna rotace a orientace)
-- Problém představuje akumulace chyby - po delší době může být chyba příliš velká
+### Relative localization
+- Track position and update ([odometry](#odometry))
+- we know the initial position
+- we measure / estimate the change compared to the previous state (change in rotation and orientation)
+- The problem is the accumulation of the error - after a long time the error can be too large
 
 #### Dead reckoning
-- nejjednodušší lokalizace
-- směr + rychlost + doba pohybu
-- akumuluje chybu
+- the easiest localization
+- direction + speed + time of movement
+- accumulates an error
 
-#### Odometrie
-- Měření rotace kol(na různých místech naměříme trochu jiné hodnoty) (TODO vysvětlit)
-- Systematické chyby:  ztráty, rozdílné poloměry kol, jiné udávané a skutečné parametry, asymetrie, rozlišení měření, sampling freq ... 
-- Nesystematické chyby: nerovnosti terénu, překážky, špatný kontakt s povrchem
+#### Odometry
+- Measurement of wheel rotation (in different places we measure slightly different values) (TODO to explain)
+- Systematic errors:
+    - losses
+    - different wheel radii
+    - other specified and actual parameters
+    - asymmetry
+    - measurement resolution
+    - sampling frequency
+    - etc.
+- Unsystematic errors:
+    - terrain irregularities
+    - obstacles
+    - poor contact with the surface
 
-##### Pasivní lokalizace
-- nemá vliv na řízení robota
+#### Robot centric sensors
+Most sensors move with the robot, so we have to do further data processing (e.g. recalculate coordinates relative to the global system,$$\ldots$$).
 
-##### Aktivní lokalizace
-- Pokud je potřeba měření ovlivní chování robota
-- aktivní měření a navigace
+#### Types of localization
+- **Passive**
+    - does not affect the control of the robot
+- **Active localization**
+    - If the measurement is needed, it will affect the behavior of the robot
+    - active measurement and navigation
+- **Realistic localization**
+    - Inputs are not trustworthy, actuators are not reliable, external influences must be taken into account
 
-### Realistická lokalizace
-- Vstupy nejsou důvěryhodné, akutátory nejsou spolehlivé, nutno počítat s vnějšími vlivy
+#### A possible solutions
+1. More accurate measurement - better sensors and actuators, data filtering, the most accurate model of the robot and the environment
+2. Do not rely on the fact that localization is accurate - probabilistic methods, fuzzy logic, interval algebra
+    - We can consider the data as random variables (inputs, pose)
+    - The position estimate is then a distribution
+    - Localization is then the search for a distribution that best matches the real position of the robot
+    - In 1D Belief $$Bel(x)$$ where $$\int_{-\infty}^{\infty}Bel(x)dx=1$$ Ideally, $$Bel(x) = 1$$ for exact but we can't reach the position
+    - We want to model $$Bel(x) = P(x\mid l_{1},\dots,l_{k})$$
+    - Random modeling can be used with particle filters, Bayesian methods,...
+    - We estimate the posterior by measuring the prior
 
-#### Možné řešení
-1. Přesnější měření - lepší senzory a akutátory, filtrování dat, co nejpřesnější model robota a prostředí
-2. Nespoléhat na to že lokalizace je přesná - pravděpodobnostní metody, fuzzy logika, intervalová algebra
-- Data můžeme považovat za náhodné proměnné(vstupy, póza)
-- Odhad pozice je pak distribuce
-- Lokalizace je pak hledání distribuce která co nejlépe odpovídá reálné pozici robota
-- V 1D Belief $$Bel(x)$$ kde $$\int_{-\infty}^{\infty}Bel(x)dx=1$$ Ideálně je $$Bel(x) = 1$$ pro přesnou polohu to ale nedosáhneme
-- Chceme modelovat $$Bel(x) = P(x\mid l_{1},\dots,l_{k})$$
-- Modelování pomocí náhody lze využít u particle filters, Bayesovských metod,...
-- Pomocí měření aprioru odhadujeme posterior
+##### Representation
+- Continuous representation is more accurate but harder to obtain and maintain (Kalman filter)
+- That's why we use a rather discrete representation
+- This way we get probability grids, topological graphs,...
 
-##### Reprezentace
-- Spojitá reprezentace je přesnější ale hůře se získává a udržuje(Kalman filter)
-- Proto používáme spíše diskrétní reprezentaci
-- Dostaneme tak pravděpodobnostní mřížky, topologické grafy,...
+##### Probability Grid
+- $$Bel(l)$$ indicates the probability of the appearance of a robot in the $$L_{ij}$$ field
+- Difficulty depends on grid fineness and map size
+- It can be reduced using
+     - selective updates (only interesting part of the grid)
+     - Hierarchical models (quadtree)
+     - non-orthogonal graphs
 
-##### Pravděpodobnostní mřížka
-- $$Bel(l)$$ udává pravděpodobnost výskytu robota na poli $$L_{ij}$$
-- Složitost záleží na jemnosti mřížky a velikosti mapy
-- Snížit ji lze pomocí
-    - selektivních aktualizací(jen zajímavá část mřížky)
-    - Hierarchických modelů (quadtree)
-    - neortogonální grafy
+##### Topological graphs
+- Nodes - positions, edges - possible transitions
+- $$Bel(l)$$ indicates the probability of occurrence in a given node
+- More nodes can be made in the place where the robot is more likely to be found
+- The chart does not need to contain geometric data
 
-##### Topologické grafy
-- Uzly - pozice, hrany - možné přechody
-- $$Bel(l)$$ udává pravděpodobnost výskytu v daném uzlu
-- Na místě kde se pravděpodobněji vyskytuje robot lze udělat více uzlů
-- Graf nemusí obsahovat geometrická data
+##### Monte Carlo localization
+- A set of weighted points in space
+- $$Bel(l)$$ is the sum of the weights of points at a given distance from l
+- More points can be created for a more likely location
+- Algorithm:
+     > 1. Sample movement, weights do not change
+     > 2. Correction, the positions of the points do not change, recalculate the weights
+     > 3. Oversampling, cleaning - discard unnecessary points, add new ones,...
+- Doesn't work well for too accurate sensors, but not too imprecise either
+- There is a lot of noise when navigating outside - MC can combine multiple measurements well
 
-##### Monte Carlo lokalizace
-- Množina vážených bodů v prostoru
-- $$Bel(l)$$ je suma vah bodů v dané vzdálenosti od l
-- Pro pravděpodobnější lokaci jde vytvořit více bodů
-- Algoritmus
-    1. Sample pohybu, nemění se váhy
-    2. Korekce, nemění se polohy bodů, přepočítej váhy
-    3. Oversampling, úklid - zahoď nepotřebné body, přidej nové,...
-- Nefunguje dobře pro příliš přesné senzory, ale ani pro přílíš nepřesné
-- Při navigaci venku je hodně šumu - MC dokáže dobře zkombinovat více měření
+##### Continuous representation (Kalman filter)
+- based on a normal distribution
+- cannot record multiple hypotheses
+- strict assumption: measurements must have a normal distribution
 
-##### Spojitá reprezentace(Kalman filter)
-- založený na normálním rozdělení
-- neumí zaznamenat vícero hypotéz
-- striktní předpoklad: měření musí mít normální rozdělení
+##### Other methods
+- fuzzy logic
+- interval algebra
 
-##### Další metody
-- fuzzy logika
-- intervalová algebra
-
-#### Řešení 3 žádná lokalizace
+#### Solution 3 no localization
 - hardcoded automata
-- reaktivní systémy
-- evoluční algoritmy
+- reactive systems
+- evolutionary algorithms
 
 ##### SLAM
-- simultaneous loc and mapping
-- Prohledávání statického prostředí
-- chceme vytvořit mapu a zjišťovat z ní pozici
-- Špatně rozpoznaný landmark může způsobit obrovskou chybu
-- Při použití více landmarků roste náročnost(n^2, s vylepšeními n log n)
-- Chyby mapy a chyby pohybu mohou korelovat
-- znalost úhlu vůči dvěma landmarkům nám určí část kružnice
-- Při pohybu lze navíc dopočítat vzdálenost
+- **s**imultaneous **l**ocation **a**nd **m**apping
+- browsing a static environment
+- we want to create a map and find the position from it
+- a poorly recognized landmark can cause a huge error
+- when using more landmarks, the difficulty increases ($$n^2$$, with $$n \log n$$ improvements)
+- map errors and movement errors can be correlated
+- knowledge of the angle with respect to two landmarks determines the part of the circle
+- in addition, the distance can be calculated while moving
 
 
-## Reprezentace prostředí
+## Satellite localization
+If we know the distance of the aiming point from the satellite, it will determine the sphere.
+Two specifies a circle and three a point. In practice, at least four satellites are typically used.
 
-### Mapa
-dělíme podle několika hledisek
-- **podle výroby**
-    - manuální(drahé)
-    - (semi)automatická
-- **Podle doby výroby**
-    - online
-    - offline
-- **Podle doby používání**
-    - Pevná
-    - adaptivní
+> **Simple idea:** measuring the signal time-of-flight $$\rightarrow$$ distance
 
-### Typy map
-- **základní dělení**
-    - Metrické
-    - Topologické
-- **Podle úrovně abstrakce**
-    - Sensorické
-    - Geometrické
-    - Topologické
-    - Symbolické
+### History
+- Werner von Braun (V1, V2,...)
+- Sputnik(1957) The Doppler effect on the signal was another idea for a method of measurement.
+- **Transit**
+     - US Navy
+     - proof of concept, but didn't cover the whole country, slow, 2D only
+     - TODO technology
+- **Timeation**
+     - uses precise (later atomic) clocks
+     - 2D only
+- **621B**
+     - US air force
+     - Can also target planes (3D)
+     - Pseudo-random noise increases resilience
+     - Needs constant satellite-ground connection
+- **NAVSEG**
+     - a group formed by the cooperation of several sectors
+     - Uses ideas from Transit (orbit + prediction) and Timetion (accurate clock) and 621B (resilient signal)
+     - In 1973, **Navstar GPS** was created, the basis of today's GPS launched in 1978
+     - Accuracy about 10 m
+     - Initially intended only for the military, later a less accurate version of the signal was broadcast for civilian purposes.
+     - Since 2000, even the more accurate army version is available to everyone
+- Navigation failure caused several air accidents (typically wrong trajectory -> shot down USSR)
 
-#### Metrické mapy
-- Založeny na daném systému souřadnic
-- Objekty jsou reprezentovány souřadnicemi
-- turistická mapa, (plán města)...
+### GPS satellites
+- 6 Orbit $$60{\degree}$$ gap declination $$55\degree$$ after four slots
+- There are at least four satellites in each orbit
+- At least 4 satellites are visible from every location on earth
+- Due to atmospheric phenomena and calculation errors, the GPS error is about 15m with post processing, better accuracy around 10m can be achieved
 
-### Topologické mapy
-- Nemají informace o pozici pouze o vztazích mezi objekty.
-- Např. spojení, sousední objekty...
-- Další informace: názvy, atributy a další data důležité pro robota.
-- Typicky graf + popisky + metadata.
-- Mapy v robotice bývají kombinací obou přístupů.
+### Competitive global systems
+Compass(China), Galileo(EU), GLONASS(Russia)
 
-#### Senzorické mapy
-- Používá vstup senzorů anebo předzpracované data(filtrované,...).
-- Např. mřížka obsazenosti - pravidelné(čtverce, hex,...) nebo nepravidelné(různé velikosti a tvary).
-- Většinou bývají pouze lokální
+### Regional systems
+Beidou(China), DORIS(France), IRNSS(India)
 
-#### Geometrické mapy
-- Popis založený na geom objektech: křivky, krychle, válce,...
-- Automatická výroba je náročná
+### Local systems
+- EGNOS, GAGAN, MSAS, WAAS
+- Typically a stationary satellite
 
-### Topologické mapy
-- typicky geom mapa zobecněná do grafu
-- používá většinou:
-    - uzly = objekty a hrany = sousedící obj
-    - uzly = objekty a spojení, hrany = affiliations(TODO význam)
+### Galileo
+European project, more accurate (about 1 m)
 
-### Symbolické mapy
-- pro přímou komunikaci robota s lidmi, např prolog(?)
+### Ublox
+- centimeter accuracy
+- uses RTK technology, which combines several techniques and thus achieves higher accuracy (verify)
 
-#### Mřížka obsazenosti
-- přímo je těžké ji udržovat
-    - pravděpodobnostní metody
-    - fuzzy přístup
-    - Neuronky, genetické alg. - problém s učením a předvídáním nepředpokládanými událostmi
-
-#### Robot centric senzory
-- většina senzorů se pohybuje s robotem, proto musíme dělat další zpracování dat(např přepočítat souřadnice vzhledem ke globální soustavě,...)
+### Indoor GPS
+- Local location determination can be done using Wifi or bluetooth
+- More accurate technology can achieve about 1m accuracy
 
 
+## Environment representation
+
+### Maps
+we divide according to several aspects
+- **according to production**
+     - manual (expensive)
+     - (semi)automatic
+- **According to production time**
+     - online
+     - offline
+- **According to time of use**
+     - Firm
+     - adaptive
+- **basic division**
+     - Metric
+     - Topological
+- **By level of abstraction**
+     - Sensory
+     - Geometric
+     - Topological
+     - Symbolic
+
+### Types of maps
+- **Metric maps**
+    - Based on the given coordinate system
+    - Objects are represented by coordinates
+    - tourist map, (city plan)...
+- **Topological maps**
+    - They don't have positional information only about relationships between objects.
+    - For example connections, neighboring objects...
+    - Additional information: names, attributes and other data important to the robot.
+    - Typically chart + labels + metadata.
+    - Maps in robotics tend to be a combination of both approaches.
+- **Sensory maps**
+    - Uses sensor input or pre-processed data (filtered,...).
+    - For example occupancy grid - regular (square, hex,...) or irregular (various sizes and shapes).
+    - Mostly they are only local
+- **Geometric maps**
+    - Description based on geom objects: curves, cubes, cylinders,...
+    - Automatic production is demanding
+- **Topological maps**
+    - typically a geom map generalized to a graph
+    - mostly used by:
+         - nodes = objects and edges = adjacent obj
+         - nodes = objects and connections, edges = affiliations (TODO meaning)
+-  **Symbolic maps**
+    - for direct robot communication with people, e.g. prolog(?)
+- **Occupancy grid**
+    - directly it is difficult to maintain
+         - probabilistic methods
+         - fuzzy approach
+         - Neurons, genetic alg. - a problem with learning and anticipating unexpected events
 
 
-## Plánování
 
-### Prerekvizity
-- Mapování
-- Znalost lokace a cíle
-- Model pohybu
-- Metrika
 
-#### Popis problému
-- přejeď ze startu do cíle
-- najdi cestu nebo oznam že neexistuje
-- reaguje na okolí - vyhýbání se překážkám,...
-- Někdy chceme navigaci: plánování a vyhýbání se překážkám
-- Plánování je opak vyhýbání se překážkám nicméně obojí se navzájem doplňuje
+## Planning
 
-### Algoritmy plánování
-- Grafové metody
-- Použití mřížky, potenciálového pole
-- nezávislé na typu mapy
+### Prerequisites
+- Mapping
+- Knowledge of location and destination
+- Movement model
+- Metric
 
-- Přesné, Aproximační, Pravděpodobnostní
+#### Description of the problem
+- go from start to finish
+- find a path or notice that it does not exist
+- reacts to the surroundings - avoiding obstacles,...
+- Sometimes we want navigation: planning and avoiding obstacles
+- Planning is the opposite of avoiding obstacles, however both complement each other
+
+### Scheduling algorithms
+- Graph methods
+- Use of grid, potential field
+- independent of map type
+- Exact, Approximate, Probabilistic, $$\ldots$$
 
 ### Bug algorithm
-- nemá globální model - žádná mapa, nezná umístění překážek ani jestli existuje řešení
-- zná cílovou lokaci vzhledem ke startovní
-- pouze lokální detekce okolí(kontakt), popřípadě na malou vzdálenost
-- Reaktivní
+- has no global model - no map, does not know the location of obstacles or if there is a solution
+- knows the destination location relative to the starting location
+- only local detection of the surroundings (contact), possibly at a short distance
+- Reactive
 
-#### Předpoklady bug alg
-- 2D statické prostředí
-- Konečné parametry: počet překážek jejich obvody,
-- nenulová tloušťka překážek
+#### Prerequisites bug alg
+- 2D static environment
+- Final parameters: the number of obstacles and their perimeters,
+- non-zero thickness of obstacles
 - Straight line crosses with obstacles
-- Překážky se nedotýkají, při překryvu je jde sjednotit
+- Obstacles do not touch, they can be united when overlapping
 
 #### Bug 0
-- Jdi přímo k cíli
-- Když narazíš na překážku obcházej překážku dokud nejde jít přímo k cíli
-- Nemusí fungovat - například pro kruh s malým otvorem(kde cíl je na opačné straně vůči středu), robot vejde dovnitř a než nevyjde dostane se do stavu, že může jít opět k cíli
+- Go straight to the target
+- When you hit an obstacle, go around the obstacle until you can't go straight to the goal
+- It may not work - for example, for a circle with a small hole (where the target is on the opposite side to the center), the robot will go inside and before it comes out, it will get to the state where it can go to the target again
 
 #### Bug 1
-- Jdi přímo k cíli
-- Když narazíš na překážku obejdi překážku dokola
-- Po tom co obejdeš překážku dojdi na místo které bylo nejblíž cíli a opět jdi přímo
-- Robot se nikdy nevrátí k překážce ze které odešel(vyjde z místa které je nejblíž cíli směrem k němu)
-- Protože robotovu pozice je vždy v dostatečně velkém okruhu okolo cíle potká pouze konečně mnoho překážek takže algoritmus je konečný.
-- Robot neignoruje překážky takže nalezené cesty jsou validní
-- Kdyby cesta existovala ale robot ji nenašel, pak musí cesta z minima k cíli vést přímo do překážky
-- Ale každá přímka prochází překážkou $2k$-krát. Proto existuje další průsečík, tento průsečík musí být blíže k cíli, protože leží na cestě k cíli. Pokud k tomuto místu existuje cesta robot by si vybral toto - spor blíž k cíli se nejde dostat.(TODO check)
+- Go straight to the target
+- When you hit an obstacle, go around the obstacle
+- After you go around the obstacle, go to the place that was closest to the goal and go straight again
+- The robot will never return to the obstacle from which it left (it will exit from the place that is closest to the target towards it)
+- Because the robot's position is always in a sufficiently large circle around the target, it will encounter only finitely many obstacles, so the algorithm is finite.
+- The robot does not ignore obstacles, so the paths found are valid
+- If the path existed but the robot did not find it, then the path from the minimum to the goal must lead directly to the obstacle
+- But each straight line passes through the obstacle $2k$ times. Therefore there is another intersection, this intersection must be closer to the goal because it lies on the way to the goal. If there is a path to this place, the robot would choose this - the dispute cannot get closer to the goal. (TODO check)
 
-- **Odhad ušlé vzdálenosti**
-    - Best case $$\lvert \text{target} - \text{start} \rvert$$
-    - Worst case
-    - Za každou překážku v okruhu $$\lvert target-start\rvert$$ od cíle započítáme 1.5 násobek obvodu(obejde ji a zvolí kratší cestu k minimu) + $$\lvert target-start\rvert$$
+- **Distance Estimate**
+     - Best case $$\lvert \text{target} - \text{start} \rvert$$
+     - Worst case
+     - For each obstacle in the circle $$\lvert target-start\rvert$$ from the target, we count 1.5 times the perimeter (he goes around it and chooses a shorter path to the minimum) + $$\lvert target-start\rvert$$
 
 #### Bug 2
-Jdi k cíli, pokud narazíš na překážku obcházej ji dokud nejde opět jít přímo k cíli
+Go to the goal, if you come across an obstacle, go around it until you can't go straight to the goal again
 
 {% lemma %}
-Bug 2 potká konečně mnoho překážek a všechny prochází spojnicí startu a cíle
+Bug 2 finally encounters many obstacles and passes them all through the start-finish junction
 
-Bug 2 projde každý bod na překážce nejvýše $$\frac{n_i}{2}$$-krát, kde $$n_i$$ je počet křížení překážky $$i$$ se spojnicí startu a cíle.
+Bug 2 passes each point on the obstacle at most $$\frac{n_i}{2}$$ times, where $$n_i$$ is the number of crossings of the obstacle $$i$$ with the start-finish line.
 {% endlemma %}
 
-- **Odhad vzdálenosti**
-    - Best case $$\lvert \text{target} - \text{start} \rvert$$
-    - Worst case - Za každou překážku na spojnici startu a cíle započítáme polovinu obvodu
+- **Distance Estimate**
+     - Best case $$\lvert \text{target} - \text{start} \rvert$$
+     - Worst case - For each obstacle on the connecting line between the start and the finish line, we count half the circumference
 
 $$\lvert \text{target} - \text{start} \rvert + \sum_{i=1}^{N}\frac{n_i\cdot p_i}{2}$$
 
-#### Porovnání Bug 1 a Bug 2(TODO)
-Existují případy pro které je lepší 1 než dva i naopak
+#### Comparison of Bug 1 and Bug 2 (TODO)
+There are cases for which 1 is better than two and vice versa
 
-Odhady pro délku jde zlepšit pokud robot vidí nějaké své okolí(oblast uvnitř kruhu okolo sebe)
+Estimates for length can be improved if the robot can see some of its surroundings (area inside the circle around itself)
 
 #### Tangent bug
-vybírá podle úhlu směru ke směru k cíli(TODO)
-Je korektní
+selects by angle of direction to direction to target (TODO)
+It is correct
 
 ### Dijkstra
-alternativní path search
-A* je Dijkstra + heuristika, pokud heuristika něco splňuje dá se dokázat, že nezpracovává vrcholy dvakrát. Např cena + vzdálenost od cíle
-D* řeší také přeplánování když se objeví překážka, začíná od cíle
+alternative path search
+A* is a Dijkstra + heuristic, if the heuristic satisfies something it can be proven that it does not process vertices twice. E.g. price + distance from destination
+D* also handles replanning when an obstacle appears, starting from the destination
 
 ### Rapidly exploring random trees
-Randomizovaný algoritmus
-Rychlé najde nějaké řešení a iterativně upravuje
+Randomized algorithm
+It quickly finds some solution and iteratively adjusts
 
-### Potenciálové pole
-Robot je v pot. poli, překážky jsou píky - odpuzují
-cíl je minimum
+### Potential field
+The robot is in sweat. fields, obstacles are peaks - repel
+the goal is the minimum
 
 
 
 ## Multirobot systems
 
-### Proč používat multirobot systems
-- Příliš náročné pro jednoho robota
-- Úkol je přirozeně distribuovaný
-- Jeden univerzální robot by byl příliš složitý, více specializovaných je snazší vyrobit
-- Paralelismus zrychluje řešení úkolu
-- Větší robustnost
-- **Aplikace**
-    - Sklady
-    - Modelování reálného světa
-    - Hejna robotů
-- roboti mohou kooperovat nebo jednat nezávisle
+### Why use multirobot systems
+- Too challenging for one robot
+- The task is naturally distributed
+- One universal robot would be too complex, more specialized ones are easier to make
+- Parallelism accelerates the solution of the task
+- Greater robustness
+- **Application**
+     - Warehouses
+     - Modeling the real world
+     - A swarm of robots
+- robots can cooperate or act independently
 
-### Typy systémů
-- **Centralizovaná architektura**
-    - Jedno řídící centrum
-    - Možné ale problematické: selhání centra může znamenat selhání všech robotů, příliš velká komunikační zátěž na centrum. 
-- **Hierachická architektura**
-    - Rozděl a panuj
-    - Roboti mají malé skupiny robotů kterým dává příkazy
-    - Lépe škáluje, problematické při selhání vyšší úrovně řízení
-- **Decentralizovaná architektura**
-    - roboti jednají podle (semi) lokálních vjemů
-    - Každý robot musí znát high level cíl, problematické změny cílů
-- **Hybridní řízení**
-    - kombinace lokální kontroly s ovládáním více robotů(TODO check)
-
-
-
-
-
+### Types of systems
+- **Centralized Architecture**
+     - One control center
+     - Possible but problematic: the failure of the center may mean the failure of all robots, too much communication load on the center.
+- **Hierarchical Architecture**
+     - Divide and rule
+     - Robots have small groups of robots that he gives orders to
+     - Scales better, problematic when higher level control fails
+- **Decentralized Architecture**
+     - robots act according to (semi) local perceptions
+     - Every robot must know high level target, problematic target changes
+- **Hybrid driving**
+     - combination of local control with control of multiple robots (TODO check)
 
 
 
@@ -1003,59 +1047,61 @@ Can get realy hot and still work properly
 
 -->
 
-## Satelitní lokalizace
-Pokud známe vzdálenost zaměřovaného bodu od satelitu určí to sféru.
-Dva určí kružnici a tři bod. V praxi se typicky využívají alespoň čtyři satelity.
 
-Jednoduchá myšlenka: měření doby letu signálu $$\rightarrow$$ vzdálenost
 
-### Historie
-- Werner von Braun(V1, V2,...)
-- Sputnik(1957) Dopplerův jev na signálu byla další myšlenka na způsob měření.
+## Satellite localization
+If we know the distance of the aiming point from the satellite, it will determine the sphere.
+Two specifies a circle and three a point. In practice, at least four satellites are typically used.
+
+Simple idea: measuring the signal time-of-flight $$\rightarrow$$ distance
+
+### History
+- Werner von Braun (V1, V2,...)
+- Sputnik(1957) The Doppler effect on the signal was another idea for a method of measurement.
 - **Transit**
-    - US navy
-    - proof of concept, ale nepokrývalo celou zemi, pomalé, 2D only
-    - TODO technologie
+     - US Navy
+     - proof of concept, but didn't cover the whole country, slow, 2D only
+     - TODO technology
 - **Timeation**
-    - využívá přesné (později atomové) hodiny
-    - 2D only
+     - uses precise (later atomic) clocks
+     - 2D only
 - **621B**
-    - US air force
-    - Umí zaměřovat i letadla(3D)
-    - Pseudonáhodný šum zvyšuje odolnost
-    - Potřebuje stálé spojení satelit-země
+     - US air force
+     - Can also target planes (3D)
+     - Pseudo-random noise increases resilience
+     - Needs constant satellite-ground connection
 - **NAVSEG**
-    - skupina vzniklá kooperací několika sektorů
-    - Používá myšlenky z Transitu(orbita + predikce) a Timetion(přesné hodiny) a 621B (odolný signál)
-    - V roce 1973 vzniká **Navstar GPS** základ dnešní GPS spuštěno v roce 1978
-    - Přesnost asi 10 m
-    - Z počátku zamýšlen pouze pro armádu později byla méně přesná verze signálu vysílána pro civilní účely.
-    - Od roku 2000 je i přesnější armádní verze k dispozici všem
-- Selhání navigace způsobilo několik leteckých neštěstí(typicky chybná trajektorie -> sestřeleni SSSR)
+     - a group formed by the cooperation of several sectors
+     - Uses ideas from Transit (orbit + prediction) and Timetion (accurate clock) and 621B (resilient signal)
+     - In 1973, **Navstar GPS** was created, the basis of today's GPS launched in 1978
+     - Accuracy about 10 m
+     - Initially intended only for the military, later a less accurate version of the signal was broadcast for civilian purposes.
+     - Since 2000, even the more accurate army version is available to everyone
+- Navigation failure caused several air accidents (typically wrong trajectory -> shot down USSR)
 
-### Satelity GPS
-- 6 Orbit $$60{\degree}$$ gap declination $$55\degree$$ po čtyřech slotech
-- Na každé orbitě jsou alespoň čtyři satelity
-- Z každého místa na zemi jsou vidět alespoň 4 satelity
-- Vzhledem k jevům v atmosféře a výpočetním chybám je chyba GPS asi 15 m s post processingem lze dosáhnout lepší přesnosti kolem 10 m
+### GPS satellites
+- 6 Orbit $$60{\degree}$$ gap declination $$55\degree$$ after four slots
+- There are at least four satellites in each orbit
+- At least 4 satellites are visible from every location on earth
+- Due to atmospheric phenomena and calculation errors, the GPS error is about 15m with post processing, better accuracy around 10m can be achieved
 
-### Konkurenční globální systémy
-Compass(Čína), Galileo(EU), GLONASS(Rusko)
+### Competitive global systems
+Compass(China), Galileo(EU), GLONASS(Russia)
 
-### Regionální systémy
-Beidou(Čína), DORIS(Francie), IRNSS(Indie)
+### Regional systems
+Beidou(China), DORIS(France), IRNSS(India)
 
-### Lokální systémy
+### Local systems
 - EGNOS, GAGAN, MSAS, WAAS
-- Typicky stacionární družice
+- Typically a stationary satellite
 
 ### Galileo
-Evropský projekt, přesnější(asi 1 m)
+European project, more accurate (about 1 m)
 
 ### Ublox
-- centimetrová přesnost
-- používá RTK technologii, která kombinuje vícero technik a dosahuje tak vyšší přesnosti(verify)
+- centimeter accuracy
+- uses RTK technology, which combines several techniques and thus achieves higher accuracy (verify)
 
 ### Indoor GPS
-- Lokální určení polohy lze dělat pomocí Wifi či bluetooth
-- Přesnější technologie umí dosáhnout asi 1 m přesnosti
+- Local location determination can be done using Wifi or bluetooth
+- More accurate technology can achieve about 1m accuracy
