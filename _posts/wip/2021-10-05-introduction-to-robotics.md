@@ -812,7 +812,7 @@ we divide according to several aspects
 - Because the robot's position is always in a sufficiently large circle around the target, it will encounter only finitely many obstacles, so the algorithm is finite.
 - The robot does not ignore obstacles, so the paths found are valid
 - If the path existed but the robot did not find it, then the path from the minimum to the goal must lead directly to the obstacle
-- But each straight line passes through the obstacle $2k$ times. Therefore there is another intersection, this intersection must be closer to the goal because it lies on the way to the goal. If there is a path to this place, the robot would choose this - the dispute cannot get closer to the goal. (TODO check)
+- But each straight line passes through the obstacle $$2k$$ times. Therefore there is another intersection, this intersection must be closer to the goal because it lies on the way to the goal. If there is a path to this place, the robot would choose this - the dispute cannot get closer to the goal. (TODO check)
 
 - **Distance Estimate**
      - Best case $$\lvert \text{target} - \text{start} \rvert$$
@@ -1105,3 +1105,5 @@ European project, more accurate (about 1 m)
 ### Indoor GPS
 - Local location determination can be done using Wifi or bluetooth
 - More accurate technology can achieve about 1m accuracy
+
+
