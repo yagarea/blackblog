@@ -3,7 +3,7 @@ title: "Introduction to Robotics (WIP)"
 category: "Matfyz"
 language: "EN"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/wip/2021-10-05-robotika.md?plain=1"
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2023-03-26-introduction-to-robotics.md?plain=1"
 layout: post
 ---
 
