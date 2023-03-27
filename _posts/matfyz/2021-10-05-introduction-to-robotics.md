@@ -1,9 +1,8 @@
 ---
-title:  "Introduction to Robotics (WIP)"
+title: "Introduction to Robotics (WIP)"
 category: "Matfyz"
 language: "EN"
 latex: true
-wip: true
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/wip/2021-10-05-robotika.md?plain=1"
 layout: post
 ---
