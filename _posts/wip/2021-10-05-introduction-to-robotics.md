@@ -460,7 +460,7 @@ $$
 - Need $$\vec{v}$$ - specific point speed
 - vector approach
 
-| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-20.jpg?height=434&width=341&top_left_y=813&top_left_x=1826) | ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-21.jpg?height=1279&width=1234&top_left_y=413&top_left_x=550) |
+| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-20.jpg?height=434&width=341&top_left_y=813&top_left_x=1826) | ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-21.jpg?height=1279&width=1234&top_left_y=413&top_left_x=550){:.image-w500px} |
 
 #### Swerve drive
 - Resolve $$\overrightarrow{v_{t}}$$ ($$x$$, $$y$$ components = axes velocities ) into wheel speed $$v_{w}$$ and steering angle $$\theta$$
@@ -484,7 +484,7 @@ v_{w} &= v_{\|}=\vec{v} \cdot \hat{u} \\
 \end{align}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-23.jpg?height=941&width=586&top_left_y=767&top_left_x=1837){:.image-small}
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-23.jpg?height=941&width=586&top_left_y=767&top_left_x=1837){:.image-w300px}
 
 #### Mecanum drive
 - Similar to omniwheel drive
@@ -493,7 +493,7 @@ $$
 - Resolve to roller
 - Resolve to wheel
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-24.jpg?height=1167&width=727&top_left_y=698&top_left_x=1623){:.image-small}
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-24.jpg?height=1167&width=727&top_left_y=698&top_left_x=1623){:.image-w300px}
 
 - Resolve velocity into components parallel and perpendicular to roller axis
 - $$\hat{u}$$ is not the same for each wheel; pick direction parallel to roller axis, in forwards direction
@@ -505,7 +505,7 @@ $$
 =\left(v_{x} \hat{\imath}+v_{y} \hat{\jmath}\right) \cdot\left(-\frac{1}{\sqrt{2}} \hat{\imath}+\frac{1}{\sqrt{2}} \hat{\jmath}\right)
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-25.jpg?height=1148&width=600&top_left_y=711&top_left_x=1623){:.image-small}
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-25.jpg?height=1148&width=600&top_left_y=711&top_left_x=1623){:.image-w300px}
 
 - Use component parallel to roller axis and resolve it into components parallel to wheel and parallel to roller
 - $$v_{w}$$ is the component parallel to the wheel
@@ -522,7 +522,7 @@ v_{w} & =\frac{v_{\|}}{\cos 45^{\circ}} \\
 \end{aligned}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-26.jpg?height=1167&width=628&top_left_y=708&top_left_x=1625){:.image-small}
+![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-26.jpg?height=1167&width=628&top_left_y=708&top_left_x=1625){:.image-w300px}
 
 
 
@@ -817,7 +817,7 @@ we divide according to several aspects
 - **Distance Estimate**
      - Best case $$\lvert \text{target} - \text{start} \rvert$$
      - Worst case
-     - For each obstacle in the circle $$\lvert target-start\rvert$$ from the target, we count 1.5 times the perimeter (he goes around it and chooses a shorter path to the minimum) + $$\lvert target-start\rvert$$
+     - For each obstacle in the circle $$\lvert \text{target}-\text{start}\rvert$$ from the target, we count 1.5 times the perimeter (he goes around it and chooses a shorter path to the minimum) + $$\lvert \text{target}-\text{start}\rvert$$
 
 #### Bug 2
 Go to the goal, if you come across an obstacle, go around it until you can't go straight to the goal again
@@ -1077,7 +1077,7 @@ Simple idea: measuring the signal time-of-flight $$\rightarrow$$ distance
      - Accuracy about 10 m
      - Initially intended only for the military, later a less accurate version of the signal was broadcast for civilian purposes.
      - Since 2000, even the more accurate army version is available to everyone
-- Navigation failure caused several air accidents (typically wrong trajectory -> shot down USSR)
+- Navigation failure caused several air accidents (typically wrong trajectory $$\rightarrow$$ shot down USSR)
 
 ### GPS satellites
 - 6 Orbit $$60{\degree}$$ gap declination $$55\degree$$ after four slots
