@@ -16,8 +16,14 @@ Formát je:
 ## Návrhy
 
 - 29\. 03\. 2023 - **[Cult of Luna, Russian Circles](https://obscure.cz/cs/tickets/detail/id/502)** - Roxy
+- 09\. 04\. 2023 - **[Tesa, Mayon](https://obscure.cz/cs/tickets/detail/id/548)** - Strahov 007 (Jana)
+- 16\. 04\. 2023 - **[Aephanemer, DeathOnArrival](https://rockcafe.cz/en/program/aephanemer-fr-support-deathonarrival/)** - Rock Café
 - 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
+- 09\. 05\. 2023 - **[Mono, Gggolddd](https://obscure.cz/cs/tickets/detail/id/546)** - Underdogs
+- 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
+- 18\. 05\. 2023 - **[MØL, Countless Skies](https://rockcafe.cz/en/program/rock-for-people-presents-mol-dk-countless-skies-uk/)** - Rock Café (Jana?)
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
+- 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
 
 ## Povinné
 
