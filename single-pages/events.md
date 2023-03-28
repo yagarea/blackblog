@@ -22,6 +22,7 @@ Formát je:
 
 ## Povinné
 
+- 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica 
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov
 
 ---
