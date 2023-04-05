@@ -45,7 +45,6 @@ collections:
 
 plugins:
   - jektex
-  #  - jekyll-tidy
 
 # Render options
 disable_disk_cache: false
@@ -70,7 +69,7 @@ jektex:
 # Compression settings
 gzip:
   replace_files: true
-  extensions: [".html", ".css", ".js", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
+  extensions: [".html", ".css", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
 
 # Clean rendered html
 jekyll_tidy:
