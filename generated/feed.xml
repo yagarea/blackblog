@@ -2,6 +2,7 @@
 layout: null
 permalink: /feed.xml
 ---
+{%- assign all_posts = site.posts | concat: site.music | sort: "date" | reverse -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
@@ -12,7 +13,7 @@ permalink: /feed.xml
 		<pubDate>{{- site.time | date_to_rfc822 -}}</pubDate>
 		<lastBuildDate>{{- site.time | date_to_rfc822 -}}</lastBuildDate>
 		<generator>Jekyll v{{- jekyll.version -}}</generator>
-		{%  for post in site.posts limit:1000 -%}
+		{%  for post in all_posts limit:1000 -%}
 			{%- if post.wip != true -%}
 				<item>
 					<title>{{- post.title | xml_escape -}}</title>
