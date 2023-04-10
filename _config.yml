@@ -4,6 +4,7 @@ description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
 date_format: "%B %d %Y"
+url: "https://blackblog.cz"
 
 # Layout
 sidebar: true                # show a sidebar instead of the usual header
