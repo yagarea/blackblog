@@ -14,8 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 09\. 04\. 2023 - **[Tesa, Mayon](https://obscure.cz/cs/tickets/detail/id/548)** - Strahov 007 (Jana)
-- 16\. 04\. 2023 - **[Aephanemer, DeathOnArrival](https://rockcafe.cz/en/program/aephanemer-fr-support-deathonarrival/)** - Rock Café
 - 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
 - 09\. 05\. 2023 - **[Mono, Gggolddd](https://obscure.cz/cs/tickets/detail/id/546)** - Underdogs (Dano?)
 - 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
@@ -30,6 +28,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 16\. 04\. 2023 - **[Aephanemer, DeathOnArrival](https://rockcafe.cz/en/program/aephanemer-fr-support-deathonarrival/)** - Rock Café
+- 09\. 04\. 2023 - **[Tesa, Mayon](https://obscure.cz/cs/tickets/detail/id/548)** - Strahov 007 (Jana)
 - 03\. 04\. 2023- **[Sarasota, Volá Londýn](https://klubovna.povalec.cz/6088/program/sarasota-vola-londyn-03-04-2023-19-00)** - Klubovna Dejvice (Honza)
 - 29\. 03\. 2023 - **[Cult of Luna, Russian Circles](https://obscure.cz/cs/tickets/detail/id/502)** - Roxy
 - 29\. 03\. 2023 - **[Influs](https://www.klubovna.povalec.cz/6071/program/influs-29-03-2023-20-00)** - Klubovna Dejvice (Dano)
