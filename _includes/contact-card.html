@@ -1,13 +1,14 @@
-<table>
+
+<table markdwn="0">
 	{%- for ref in include.contacts -%}
 		<tr>
-			<td>
+			<td style="padding: 3px;">
 				<a href="{{- ref.url -}}">
-					<img src="/assets/icons/{{- ref.icon -}}" alt="{{- ref.title -}}" style="max-height: 100px; max-width: auto;" />
+					<img src="/assets/icons/{{- ref.icon -}}" alt="{{- ref.title -}}" style="max-height: 60px; max-width: auto;" />
 				</a>
 			</td>
-			<td>
-				<h2>{{- ref.title -}}: <a href="{{- ref.url -}}">{{- ref.nickname -}}</a></h2>
+			<td style="padding: 3px;">
+				<h3 style="margin: 0 0;">{{- ref.title -}}: <a href="{{- ref.url -}}">{{- ref.nickname -}}</a></h3>
 				{%- if ref.note != null and ref.note != "" -%}
 					{{- ref.note -}}
 				{%- endif -%}
