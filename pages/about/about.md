@@ -34,6 +34,10 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 > ## „Best idea is the one, which lets always small slit for possibility, that everything can be totally different.“
 > \- Václav Havel
 
+## Contacts and links
+
+{%- include contact-card.html contacts=site.references -%}
+
 # About [BlackBlog.cz](http://blackblog.cz/)
 
 This is my personal blog where I will publish mainly: 
