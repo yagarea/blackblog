@@ -18,14 +18,12 @@ permalink: /feed.xml
 				<item>
 					<title>{{- post.title | xml_escape -}}</title>
 					<description>
-						{{- post.excerpt | xml_escape }}
-						<br/>
-						<a href="{{- post.url | prepend: site.baseurl | prepend: site.url -}}">Read more at Lyricall.cz</a>
+						<a href="{{- post.url | prepend: site.baseurl | prepend: site.url -}}">Read more at Blackblog.cz</a>
 					</description>
 					<pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
 					<link>{{- post.url | prepend: site.baseurl | prepend: site.url -}}</link>
 					<guid isPermaLink="true">{{- post.url | prepend: site.baseurl | prepend: site.url -}}</guid>
-					<category>{{- tag | xml_escape -}}</category>
+					<category>{{- post.category | xml_escape -}}</category>
 				</item>
 			{%  endif -%}
 		{%-  endfor %}
