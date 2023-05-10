@@ -12,7 +12,6 @@ Great Geeks United - My own webring.
 - [slama.dev](https://slama.dev/) - Tomáš Sláma
 - [jc.ggu.cz](https://jc.ggu.cz) - Me
 
-
 **[UCW](https://ucw.cz)**  
 United Compter Wizards. The god tier programmers and friends.
 - [mj.ucw.cz](https://mj.ucw.cz/) - Medvěd
@@ -26,7 +25,7 @@ SUS department.
 - [rdck.dev](https://rdck.dev/) - Prokop Randáček
 - [chamik.eu](https://chamik.eu/) - Jakub Hampl
 - [mrms.cz](https://mrms.cz/) - Marek Maškarinec
-- [mvolfik.github.io](https://mvolfik.github.io/) - Matěj Volf
+- [matej.0d9e.tech](https://matej.0d9e.tech/) - Matěj Volf
 
 ## My other friends
 - [andreamikulova.github.io](https://andreamikulova.github.io/) - Andy Mikulová
