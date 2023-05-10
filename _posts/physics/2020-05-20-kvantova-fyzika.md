@@ -77,7 +77,7 @@ $$E = h.f$$
 - Zákonitosti tohoto jevu vysvětlil **Albert Einstein**, který za to dostal **Nobelovu cenu**
 - Část energie se spotřebuje na uvolnění tohoto elektronu z obalu a část se přemění na kinetickou energii elektronu, který vylétne z látky.
 
-![Fotoelektrický jev](/assets/img/physics/kvantova-fyzika/fotoelektricky-jev.png)
+![Fotoelektrický jev](/assets/img/physics/kvantova-fyzika/fotoelektricky-jev.png){:.image-w500px}
 
 - Platí zde zákon zachování energie
 - Einsteinova rovnice fotoelektrického jevu:

@@ -76,7 +76,7 @@ $$
 \end{aligned}
 $$
 
-![Izotermní děj](/assets/img/physics/tepelne-deje-v-plynech/izotermni.png)
+![Izotermní děj](/assets/img/physics/tepelne-deje-v-plynech/izotermni.png){:.image-w500px}
 
 
 ## Izochorický děj
@@ -169,7 +169,7 @@ $$ W' = \int_{v_1}^{v_2} pdV = nRT \ln {\frac{V_2}{V_1}} $$
 ## Izobarický děj
 $$ W' = p\Delta V $$
 
-![Práce pro izobarický děj](/assets/img/physics/tepelne-deje-v-plynech/prace-izobar.png)
+![Práce pro izobarický děj](/assets/img/physics/tepelne-deje-v-plynech/prace-izobar.png){:.image-w500px}
 
 ## Kruhový děj
 - konečný stav soustavy je roven prvotnímu stavu

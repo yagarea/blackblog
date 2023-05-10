@@ -66,9 +66,9 @@ $$ v = \sqrt{2gh} $$
 ## Proudění reálné kapaliny
 - Proti pohybu částic kapaliny působí odporové síly, nebo-li síly vnitřního tření
 - Rychlost v reálné kapalině není konstantní
-- Nejpomalejší jsou částice, které se dotýkají povrchu trubice. Od trubice se částice postupně zrychlují, vprostřed trubice mají částice kapaliny nejvyšší rychlost.
+- Nejpomalejší jsou částice, které se dotýkají povrchu trubice. Od trubice se částice postupně zrychlují, veprostřed trubice mají částice kapaliny nejvyšší rychlost.
 
-vektory rychloti částic při prooudění reálné kapaliny
+vektory rychlosti částic při proudění reálné kapaliny
 
 ![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/proudeni-realne-kapaliny.png)
 
@@ -76,7 +76,8 @@ vektory rychloti částic při prooudění reálné kapaliny
 - Proudění reálné kapaliny okolo překážky způsobuje odporové síly
 - Při nižší rychlosti je odporová síla malá a přímo úměrná rychlosti, tento děj nazýváme **laminární proudění**.
 
-![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/laminalni-proudeni.png)
+![Proudění reálné kapaliny](/assets/img/physics/hydrodynamika/laminalni-proudeni.png){:.image-w500px}
+
 
 - Při vyšších rychlostech proudění reálné kapaliny vznikají tzv. víry. Takové proudění nazýváme **turbulentní**.
 

@@ -54,7 +54,7 @@ V dutině cívky jsou magnetické indukční čáry rovnoběžně (homogenní ma
 ### Přímý vodič
 Naznačíme uchopení vodiče do pravé ruky tak, aby palec ukazoval směr proudu. Zahnuté prsty pak ukazují směr (orientaci) magnetických indukčních čar.
 
-![Ampérovo pravidlo pravé ruky pro přímý vodič](/assets/img/physics/stacionarni-magneticke-pole/amperovo-pravidlo-prave-ruky-pro-primy-vodic.png)
+![Ampérovo pravidlo pravé ruky pro přímý vodič](/assets/img/physics/stacionarni-magneticke-pole/amperovo-pravidlo-prave-ruky-pro-primy-vodic.png){:.image-w500px}
 
 ### Cívka
 Položíme-li pravou ruku na cívku tak, že pokrčené prsty  ukazují dohodnutý směr proudu, pak palec ukazuje orientaci indukčních čar (polohu severního pólu).

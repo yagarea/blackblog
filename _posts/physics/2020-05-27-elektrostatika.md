@@ -25,7 +25,7 @@ Pokud je počet elektronů a protonů v látce stejný a tyto náboje jsou rozlo
 
 Pro určení nabitých těles se používá elektroskop. Je to jednoduchý přístroj s kovovou tyčkou, na kterou je připevněný hliníkový proužek, který se po elektrickém nabití vychýlí. Čím větší náboj na elektroskop přeneseme, tím větší bude výchylka proužku.
 
-![Elektroskop](/assets/img/physics/elektrostatika/electroskop.png)
+![Elektroskop](/assets/img/physics/elektrostatika/electroskop.png){:.image-w500px}
 
 ## Vodič
 Vodiče jsou látky, které obsahují volné elektricky nabité částice (nejčastěji elektrony, popř. kationty nebo anionty) a jsou schopny vést elektrický proud. Například kovy.
@@ -51,7 +51,7 @@ $$ k = \frac{1}{4\pi\epsilon_0\epsilon_r} $$
 - $$F_e$$ - elektrická síla
 - $$Q$$ - náboj
 - $$k$$ - ?
-- $$\epsilon_r$$ - r​elativní permitivita je podíl permitivity daného materiálu
+- $$\epsilon_r$$ - relativní permitivita je podíl permitivity daného materiálu
 a permitivity vakua = $$\epsilon_r = \frac{\epsilon}{\epsilon_0}$$
 - $$\epsilon_0$$ = 8,854.10$$^{-12}$$ C$$^2$$.m$$^2$$.N$$^{-1}$$
 
@@ -93,9 +93,9 @@ $$ \Phi = \frac{W_{AB}}{q} = Ed\cos\alpha = k \frac{Q}{r}$$
 
 $$\Delta\Phi = U$$
 
-| Ekvipolentní plochy radiálního elektrického pole | Ekvipolentní plochy homogeního elektrického pole |
+| Ekvipolentní plochy radiálního elektrického pole | Ekvipolentní plochy homogenního elektrického pole |
 |:------------------------------------------------:|:------------------------------------------------:|
-| ![Potenciál radialni](/assets/img/physics/elektrostatika/potencial-radialni.png) | ![Potenciál homogeni](/assets/img/physics/elektrostatika/potencial-homogeni.png) |
+| ![Potenciál radialni](/assets/img/physics/elektrostatika/potencial-radialni.png) | ![Potenciál homogenní](/assets/img/physics/elektrostatika/potencial-homogeni.png) |
 
 ## Vodič v elektrickém poli
 Pokud vložíme do el. pole (mezi dvě nabité desky) ​vodič,​ volné elektrony se přesunou ke kladně nabité desce, na druhé straně vodiče se vytvoří kladný náboj $$\rightarrow$$ **Elektrostatická indukce**

@@ -134,7 +134,7 @@ Plyn, ve kterém probíhá samostatný výboj se nazývá ​**plazma**,​ nebo
 - Probíhá při napětí až miliony voltů
 - Blesk​- vyrovnání napětí mezi mrakem a zemi, nebo dvěma mraky
 
-![Jiskrový výboj](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/jiskrovy-vyboj.jpg)
+![Jiskrový výboj](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/jiskrovy-vyboj.jpg){:.image-w500px}
 
 ### Koróna
 - Trsovitý výboj
@@ -151,7 +151,7 @@ Plyn, ve kterém probíhá samostatný výboj se nazývá ​**plazma**,​ nebo
 - Doutnavky (výbojky plněné neonem) - Zdroj světla s malou spotřebou. Používají se, jako kontrolní světla (např. u rychlovarné konvice) 
 - Reklamní trubice (dnes už se používají led osvětlení)
 
-| ![Doutnavka](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/doutnavka.jpg) | ![Reklamní trubice](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/reklamni-trubice.jpg) |
+| ![Doutnavka](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/doutnavka.jpg){:.image-w300px} | ![Reklamní trubice](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/reklamni-trubice.jpg) |
 
 ### Katodové záření
 - Probíhá ve výbojové trubici za sníženého tlaku a vysokého napětí

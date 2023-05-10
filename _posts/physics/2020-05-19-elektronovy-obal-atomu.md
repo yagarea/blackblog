@@ -81,7 +81,7 @@ tato rovnice nám určí energii pro n-tou energetickou hladinu
 - 1906 představil punikový model
 - elektrony jsou v atomu rozmístěny náhodně
 
-![Pudinkový model](/assets/img/physics/elektronovy-obal/pudink.png)
+![Pudinkový model](/assets/img/physics/elektronovy-obal/pudink.png){:.image-w500px}
 
 ## Ruthenfordův model
 - novozélandský fyzik Ernest Ruthenford

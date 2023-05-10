@@ -31,7 +31,7 @@ layout: post
 - Povrchová síla leží v povrchu kapaliny
 - Na obrázku lze vidět že když uvolníme příčku tak se blána smrskne v důsledku této síly
 
-![Povrchová síla](/assets/img/physics/vlastnosti-kapalin/povrchova-sila.png)
+![Povrchová síla](/assets/img/physics/vlastnosti-kapalin/povrchova-sila.png){:.image-w500px}
 
 ## Povrchové napětí
 Skalární veličina, kterou vyjadřujeme pružnou vlastnost povrchové vrstvy.
@@ -53,7 +53,7 @@ $$ \sigma = \frac{\vec F}{l} $$
 ## Stykový úhel
 Úhel $$\Theta$$ se nazývá stykový úhel (pokud $$\Theta$$ = 0; kapalina dokonale smáčí stěnu)
 
-![Stykový úhel](/assets/img/physics/vlastnosti-kapalin/stykovy-uhel.png)
+![Stykový úhel](/assets/img/physics/vlastnosti-kapalin/stykovy-uhel.png){:.image-w500px}
 
 ---
 
@@ -78,7 +78,7 @@ $$ h = \frac{2\sigma}{r\rho g} $$
 - $$\rho$$ - hustota kapaliny [kg.m$$^{-1}$$]
 - $$g$$ - tíhové zrychlení [m.s$$^{-2}$$]
 
-![kapilára](/assets/img/physics/vlastnosti-kapalin/kapilara.png)
+![kapilára](/assets/img/physics/vlastnosti-kapalin/kapilara.png){:.image-w500px}
 
 - **Kapilarita v praxi**
 	- Vzlínavost vody umožňuje výživu stromů až do několika metrů
