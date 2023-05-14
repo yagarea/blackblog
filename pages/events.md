@@ -5,7 +5,7 @@ layout: page
 ---
 
 Zde najdete seznam budoucích akcí, na které se můžeme domluvit. Tuto stránku
-můžete editovat [zde](https://github.com/yagarea/blackblog/blob/master/single-pages/events.md?plain=1).
+můžete editovat [zde](https://github.com/yagarea/blackblog/blob/master/pages/events.md).
 
 Formát je:
 
@@ -29,6 +29,7 @@ Formát je:
 - 05\. 03\. 2023 - **[Sarasota, Od zítra už nehrajem, KaKam](https://bandzone.cz/koncert/535620-praha-beats-from-basement-koncert-v-beats-from-basement)** - Beats From Basement
 - 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
 - 09\. 05\. 2023 - **[Mono, Gggolddd](https://obscure.cz/cs/tickets/detail/id/546)** - Underdogs (Dano?)
+- 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
 - 16\. 04\. 2023 - **[Aephanemer, DeathOnArrival](https://rockcafe.cz/en/program/aephanemer-fr-support-deathonarrival/)** - Rock Café
 - 09\. 04\. 2023 - **[Tesa, Mayon](https://obscure.cz/cs/tickets/detail/id/548)** - Strahov 007 (Jana)
 - 03\. 04\. 2023 - **[Sarasota, Volá Londýn](https://klubovna.povalec.cz/6088/program/sarasota-vola-londyn-03-04-2023-19-00)** - Klubovna Dejvice (Honza)
@@ -38,6 +39,7 @@ Formát je:
 - 10\. 03\. 2023 - **[Plini](https://obscure.cz/cs/tickets/detail/id/529)** - Rock Café (Jana?)
 - 08\. 03\. 2023 - **[Leprous, Monuments](https://obscure.cz/cs/tickets/detail/id/508)** - Acropolis
 - 08\. 03\. 2023 - **[Russkaja](https://www.oeticket.com/event/russkaja-turbopolkaparty-posthof-16091347)** - Linz
+- 05\. 03\. 2023 - **[Sarasota, Od zítra už nehrajem, KaKam](https://bandzone.cz/koncert/535620-praha-beats-from-basement-koncert-v-beats-from-basement)** - Beats From Basement
 - 11\. 02\. 2023 - **[Neptunian Maximalism](https://goout.net/cs/neptunian-maximalism/szbjawu/)** - Underdogs (Jana)
 - 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
 - 28\. 01\. 2023 - **[Katatonia, Solstafir](https://obscure.cz/cs/tickets/detail/id/415)** - Roxy
