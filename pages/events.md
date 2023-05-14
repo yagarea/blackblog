@@ -14,7 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
 - 18\. 05\. 2023 - **[MØL, Countless Skies](https://rockcafe.cz/en/program/rock-for-people-presents-mol-dk-countless-skies-uk/)** - Rock Café (Jana?)
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
@@ -26,6 +25,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
 - 05\. 03\. 2023 - **[Sarasota, Od zítra už nehrajem, KaKam](https://bandzone.cz/koncert/535620-praha-beats-from-basement-koncert-v-beats-from-basement)** - Beats From Basement
 - 05\. 05\. 2023 - **[The Moth Gatherer, The Corona Lantern](http://modravopice.eu/akce/obsazeno-696/)** - Modrá Vopice
 - 09\. 05\. 2023 - **[Mono, Gggolddd](https://obscure.cz/cs/tickets/detail/id/546)** - Underdogs (Dano?)
@@ -42,7 +42,7 @@ Formát je:
 - 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
 - 28\. 01\. 2023 - **[Katatonia, Solstafir](https://obscure.cz/cs/tickets/detail/id/415)** - Roxy
 - 19\. 01\. 2023 - **[Ahmed ma hlad, Klec](https://na-slamniku.cz/koncerty/)** - Na slamníku
-- 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.) [matfyzácká kapela]
+- 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.)
 - 01\. 12\. 2022 - **[Hand grenade, Stellaris, Define me, Bound to break](https://www.facebook.com/events/1194478941130518/)** - Futurum Music Bar
 - 18\. 11\. 2022 - **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
 - 16\. 11\. 2022 - **[Rivers of Nihil, Fallujah et al.](https://obscure.cz/cs/tickets/detail/id/400)** - Futurum
