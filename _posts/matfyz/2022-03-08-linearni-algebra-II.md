@@ -229,7 +229,7 @@ $$\left\| x \right\|_{p} = \left(\sum_{i=1}^{n} \lvert x_{i} \rvert^p \right)^{\
 
 ## Ortogonální a ortonormální systémy
 {% def %}
-Systém vektorů $$z_{1}, \cdots, z_{n}$$ je
+Systém vektorů $$z_{1}, \ldots, z_{n}$$ je
 
 - **Ortogonální** pokud je $$\forall i,j: \langle z_{i},z_{j} \rangle = 0$$
 - **Ortonormální** pokud je ortogonální a $$\forall i: \left\| z_{i} \right\| = 1$$
@@ -241,7 +241,7 @@ Systém vektorů $$z_{1}, \cdots, z_{n}$$ je
 - Je-li systém ortogonální a neobsahuje nulový vektor, potom je také lineárně nezávislý.
 
 {% claim%}
-Je-li systém $$z_{1}, \cdots, z_{n}$$ ortonormální, pak je lineárně nezávislý.
+Je-li systém $$z_{1}, \ldots, z_{n}$$ ortonormální, pak je lineárně nezávislý.
 
 ---
 
