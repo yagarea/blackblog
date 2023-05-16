@@ -12,7 +12,7 @@ layout: post
 ---
 
 # Úvod
-Elekronovým obalem atomu se zabívá atomová fyzika. Tento obor řeší vlastnosti a pohyb elektronů, jádrem se nezabívá.
+Elekronovým obalem atomu se zabývá atomová fyzika. Tento obor řeší vlastnosti a pohyb elektronů, jádrem se nezabývá.
 
 ## Elektrony
 - Tvoří elektronový obal atomu
@@ -30,7 +30,7 @@ Elekronovým obalem atomu se zabívá atomová fyzika. Tento obor řeší vlastn
 ### Spektrum vodíku
 - Frekvence spektrálních čar vodíku
 
-$$ f = R(\frac{1}{m^2}-\frac{1}{n^2}) $$
+$$ f = R\left(\frac{1}{m^2}-\frac{1}{n^2}\right) $$
 
 $$ n,m \in \N \land n > m $$
 
@@ -68,7 +68,7 @@ tato rovnice nám určí energii pro n-tou energetickou hladinu
 - Pokud se $$n$$ blíží k nekonečnu, tak energie atomu a vazba je tak malá, že dochází k ionizaci, elektron se stává volným a jeho energie už není kvantová
 - **ionizace** = vytržení elektronu (poté může získat jakoukoliv kladnou energii)
 
-	$$ E = \frac{1}{2}mv^2 $$
+$$ E = \frac{1}{2}mv^2 $$
 
 ![Energetické hladiny vodíku](/assets/img/physics/elektronovy-obal/vodik.png)
 
@@ -185,3 +185,4 @@ pokud mezi aktivní prostředí umístíme dvě zrcadla, tak se fotony budou odr
 	- medicína (laserový skalpel)
 	- přenos informací (holograf)
 	- RTG záření (rentgen)
+
