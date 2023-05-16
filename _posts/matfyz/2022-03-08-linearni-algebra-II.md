@@ -137,10 +137,10 @@ $$D = 4t^2\langle x,y \rangle - 4t^2\langle x,x \rangle\langle y,y \rangle \leq
 $$\Downarrow$$
 
 $$
-\begin{align}
+\begin{align*}
     \langle x,y \rangle^{2} & \leq \langle x,x \rangle \langle y,y \rangle \\
     \lvert x,y \rvert &\leq \| x \| \cdot \| y \|
-\end{align}
+\end{align*}
 $$
 
 {% endtheorem %}
@@ -1193,12 +1193,12 @@ Vlastní čísla reálných symetrických matic jsou reálná.
 Buď $$A \in \C^{n \times n}$$ hermitovské, $$\lambda \in \C$$ její vlastní čísla a 
 $$x \in \C^{n}$$ přísluší vlastnosti vektor.
 
-$$\begin{align}
+$$\begin{align*}
     Ax &= \lambda x / x^{*} \\
     x^{*} &= \lambda x^{*}x = \lambda \\
     \lambda^{2} = x^{*}Ax &= x^{*}A^{*}x = \lambda^{*} \\
     \lambda &= \overline{\lambda}
-\end{align}
+\end{align*}
 $$
 
 A to platí jen pro $$\lambda \in \R$$
@@ -1242,11 +1242,11 @@ $$
 Porovnáme koeficient
 
 $$
-\begin{align}
+\begin{align*}
     -B_{n-1} &= (-1)^{n}I_{n} \\
     AB_{j}-B &= \alpha_{j}I_{n} \text{ pro } j=1,\ldots,n \\
     AB_{0}   &= \alpha_{0}I_{n}
-\end{align}
+\end{align*}
 $$
 
 Vynásobíme postupně rovnice prvním $$A^{n}$$ poslední $$A^{0}$$. Sečteme a vyjde nám

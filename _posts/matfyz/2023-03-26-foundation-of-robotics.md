@@ -402,7 +402,7 @@ $$
 \end{aligned}
 $$
 
-- more precisely, intgrating:
+- more precisely, integrating:
 
 $$
 \begin{aligned}
