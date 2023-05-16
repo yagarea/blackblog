@@ -60,7 +60,7 @@ a permitivity vakua = $$\epsilon_r = \frac{\epsilon}{\epsilon_0}$$
 # Elektrické pole
 Elektrické pole je znázorňováno siločárami - Elektrické siločáry jsou myšlené čáry, které graficky znázorňují situaci v okolí elektrického náboje. Navzájem se neprotínají, jsou kolmé k povrchu tělesa a jsou vždy orientovány od kladného náboje k zápornému (dáno dohodou).
 
-| Radiální pole | Homogení |
+| Radiální pole | Homogenní |
 |:-------------:|:--------:|
 | ![Radiální pole](/assets/img/physics/elektrostatika/radialni-pole.png) | ![Homogení pole](/assets/img/physics/elektrostatika/homogeni-pole.png) 
 
@@ -152,7 +152,7 @@ $$
 
 ![Paralelní](/assets/img/physics/elektrostatika/paralelni-kondezatory.png)
 
-### Seriové
+### Sériové
 
 $$
 \begin{aligned}
@@ -162,4 +162,4 @@ $$
 \end{aligned}
 $$
 
-![Seriové](/assets/img/physics/elektrostatika/paraelni-kondenzatory.png)
+![Sériové](/assets/img/physics/elektrostatika/paraelni-kondenzatory.png)

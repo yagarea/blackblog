@@ -20,7 +20,7 @@ layout: post
 - Těleso k němuž vztahujeme pohyb zkoumaného tělesa, je vztažné **těleso** (přesnější je vztažný bod)
 - Spojením vztažného tělesa se soustavou souřadnic a určením měření času dostáváme **vztažnou soustavu**
 - **Polohový vektor $$\vec{r}$$** - spojuje počátek souřadnic s hmotným bodem
-- Souhrn poloh, jimž hmotný bod prochází, tvoří geometricnou křivku nazývanou **trajektorie**. Podle jejího tvaru se pohyby dělí na přímočaré a křivočaré. Délka trajektorie, kterou hmotný bod opíše za určitou dobu je **dráha hmotného bodu** (Graf závislosti dráhy na čase)
+- Souhrn poloh, jimž hmotný bod prochází, tvoří geometrickou křivku nazývanou **trajektorie**. Podle jejího tvaru se pohyby dělí na přímočaré a křivočaré. Délka trajektorie, kterou hmotný bod opíše za určitou dobu je **dráha hmotného bodu** (Graf závislosti dráhy na čase)
 
 - Průměrná rychlost (skalár)
 
@@ -40,11 +40,14 @@ $$ V_p = \frac{\delta s}{\delta t} [m.s^{-1}] $$
 
 - Velikost okamžité rychlosti je u rovnoměrného pohybu rovna průměrné rychlosti.
 
-$$ s = v.t $$
 
-$$ s = s_0 + v.t $$
-
-$$ s = v.(t-t_0) $$
+$$
+\begin{align*}
+    s &= v.t\\
+    s &= s_0 + v.t\\
+    s &= v.(t-t_0)
+\end{align*}
+$$
 
 | Graf dráhy rovnoměrného pohybu při počáteční dráze $$ s_0 $$ | Graf rovnoměrného pohybu začínajícím v čase $$t_0$$ |
 |--------------------------------------------------------------|-----------------------------------------------------|
@@ -54,18 +57,19 @@ $$ s = v.(t-t_0) $$
 - **Zrychlení a $$[m.s^{-2}]$$**
 - Nerovnoměrný pohyb
 	- Rovnoměrně zrychlený (zrychlení stejný směr jako rychlost)
-
-		$$ v = a.t$$
-
-		$$ v = a.(t-t_0) $$
-
-		$$ v = v_0 + a.t $$
-
-		$$ v = v_0 + a.(t-t_0) $$
+      
+      $$
+      \begin{align*}
+        v &= a.t\\
+        v &= a.(t-t_{0})\\
+        v &= v_{0} + a.t\\
+        v &= v_{0} + a.(t-t_{0})
+       \end{align*}
+       $$
 
 	- Rovnoměrně zpomalený pohyb (zrychlení má opačný směr než rychlost)
 
-		$$ v = v_0 - a.t $$
+	  $$ v = v_0 - a.t $$
 
 
 | Graf rovnoměrně zrychleného pohybu | Graf rovnoměrně zpomaleného pohybu |

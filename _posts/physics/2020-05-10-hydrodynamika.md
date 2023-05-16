@@ -56,7 +56,7 @@ $$ \frac{1}{2}\rho v^2 + p = konst $$
 - Platí stejně u plynů, kde tento jev nazýváme _Aerodynamický paradox_
 
 # Rychlost vytékající kapaliny
-Lze určit ze zákona zachování mechanické energie. Při vytékaní se mění úroveň hladiny $$h$$, tedy i potenciální energie $$E = mgh$$. Na úkor poklesu potenciální energie se zvyšuje kinetická energie vytékající kapaliny, tedy i její rychlost. Po úpravě rovnice $$mgh = \frac{1}{2}mv^2$$ získáváme vzorec pro velikost výtokové rychlosti
+Lze určit ze zákona zachování mechanické energie. Při vytékání se mění úroveň hladiny $$h$$, tedy i potenciální energie $$E = mgh$$. Na úkor poklesu potenciální energie se zvyšuje kinetická energie vytékající kapaliny, tedy i její rychlost. Po úpravě rovnice $$mgh = \frac{1}{2}mv^2$$ získáváme vzorec pro velikost výtokové rychlosti
 
 $$ v = \sqrt{2gh} $$
 

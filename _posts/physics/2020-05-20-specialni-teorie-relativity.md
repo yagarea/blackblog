@@ -64,11 +64,11 @@ A po dosazení $$\Delta t'$$ = $$\frac{2l}{c}$$ dostáváme:
 $$ \Delta t = \frac{\Delta t'}{\sqrt{1 - \frac{v^2}{c^2}}} $$
 
 ## Kontrakce délky
-Pohybující tyč je vždy kratší než stejná tyč, vzhledem k níž jsme v klidu. U více rozměrných těles se vždy skracuje ta délka, která je ve směru pohybu.
+Pohybující tyč je vždy kratší než stejná tyč, vzhledem k níž jsme v klidu. U více rozměrných těles se vždy zkracuje ta délka, která je ve směru pohybu.
 
 Platí:
 
-$$ l = l_0 \sqrt{ 1 - \frac{v^2}{c^2} } $$
+$$ l = l_{0} \sqrt{ 1 - \frac{v^2}{c^2} } $$
 
 ## Skládání rychlostí
 - Rychlost nikdy nemůže být větší než $$c$$
@@ -95,5 +95,5 @@ $$ \Delta E = \Delta mc^2 $$
 ---
 
 # Využití
-- Satelity pohybují se na obježné dráze se pohybují rychleji, proto se zde musí počítat s dilatací času ("pomaleji jim běží čas")
+- Satelity pohybují se na oběžné dráze se pohybují rychleji, proto se zde musí počítat s dilatací času ("pomaleji jim běží čas")
 - Kdyby se s tím nepočítalo tak by byly např. GPS nepřesné (v řádech kilometrů)

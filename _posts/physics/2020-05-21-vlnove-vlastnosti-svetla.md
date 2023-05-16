@@ -61,7 +61,7 @@ $$\Delta y = \frac{l}{d}.\lambda$$
 
 ---
 
-# Difraktace
+# Difrakce
 Na hraně tělesa se světelný paprsek ohýbá. Difrakci lze pozorovat na stínu překážky, která je osvícena koherentním světlem
 
 | ![Difrakce](/assets/img/physics/vlnove-vlastnosti-svetla/difrakce1.png) | ![Difrakce](/assets/img/physics/vlnove-vlastnosti-svetla/difrakce2.png) |

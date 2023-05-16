@@ -98,7 +98,7 @@ $$ f_{mez} = \frac{W_{v}}{h} $$
 	- **Vnější fotoelektrický jev** – probíhá na povrchu látky, elektrony se uvolňují do okolí
 	- **Vnitřní fotoelektrický jev** – uvolněné elektrony zůstávají v látce jako vodivostní elektrony (polovodiče)
 
-## Závistlosti fotoelektrického jevu
+## Závislosti fotoelektrického jevu
 - Pro každý kov existuje určitá mezní frekvence (a jí odpovídající mezní vlnová délka) taková, že se elektrony uvolňují pouze při ní a vyšších frekvencích. Jestliže je frekvence záření menší než mezní frekvence, fotoelektrický jev nenastává.
 - Je-li frekvence záření vyšší než mezní, bude proud protékající obvodem úměrný intenzitě záření.
 - Energie elektronů, které se z kovu uvolňují, roste lineárně s frekvencí záření.

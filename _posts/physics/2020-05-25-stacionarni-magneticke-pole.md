@@ -77,7 +77,7 @@ $$ F_{m} = B.I.l.sin\alpha $$
 
 - $$B$$ - Magnetická indukce
 - $$I$$ - Proud procházející vodičem
-- $$l$$ - Délka vodiče zaahující do magnetického pole
+- $$l$$ - Délka vodiče zasahující do magnetického pole
 - $$\alpha$$ - Úhel, který svírá směr proudu vodiče s magnetickými indukčními čarami magnetu
 
 ## Magnetická síla působící na nabitou částici v magnetickém poli
@@ -140,7 +140,7 @@ Elektrony na orbitalech kolem atomů vytvářejí elementární magnetická pole
 
 **Podle těchto vlastností dělíme látky na:**
 
-- **Diamagnetické** - mají relativní permeabilitu menší než 1 a mirně oslabují vliv magnetického pole (zlato, měď, rtuť)
+- **Diamagnetické** - mají relativní permeabilitu menší než 1 a mírně oslabují vliv magnetického pole (zlato, měď, rtuť)
 - **Paramagnetické** - mírně zesilují magnetické pole - relativní permeabilita je o něco málo větší než 1 (hliník, sodík, draslík)
 - **Feromagnetické** - mají paramagnetické atomy, ale v uspořádání, že mnohonásobně zesilují magnetické pole (ocel, kobalt, nikl). U takové látky pak tyto atomy zůstávají v uspořádání zesilujícím magnetické pole a magnetické pole se zde uchovává (látka se zmagnetuje)
 

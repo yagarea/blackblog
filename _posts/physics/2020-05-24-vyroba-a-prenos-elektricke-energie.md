@@ -13,7 +13,7 @@ layout: post
 
 # Generátor
 - Přeměňuje různé druhy energie na elektrickou energii
-- Indukuje se v něm napětí - **zákon elektromagnetické indukce** (pokud se $$\Phi$$ mění v čase pak $$\Delta\Phi$$ je nenulové a napětí se indukuje, ale pokud $$\Phi$$ zůstává v čase konstantí pak $$\Delta\Phi$$ se rovná nule a napětí se neindukuje)
+- Indukuje se v něm napětí - **zákon elektromagnetické indukce** (pokud se $$\Phi$$ mění v čase pak $$\Delta\Phi$$ je nenulové a napětí se indukuje, ale pokud $$\Phi$$ zůstává v čase konstantní pak $$\Delta\Phi$$ se rovná nule a napětí se neindukuje)
 - Využívá se v tepelných, jaderných, větrných a vodních elektrárnách
 
 $$ U_{i} = -\frac{\Delta\Phi}{\Delta t} $$
@@ -55,9 +55,9 @@ Skládá se z:
 
 $$
 \begin{aligned}
-	u_{1} &= U_{m}\sin(\omega .t) \\
-	u_{2} &= U_{m}\sin(\omega .t - \frac{2}{3}\pi) \\
-	u_{3} &= U_{m}\sin(\omega .t - \frac{4}{3}\pi)
+	u_{1} &= U_{m}\sin\left(\omega .t\right) \\
+	u_{2} &= U_{m}\sin\left(\omega .t - \frac{2}{3}\pi\right) \\
+	u_{3} &= U_{m}\sin\left(\omega .t - \frac{4}{3}\pi\right)
 \end{aligned}
 $$
 

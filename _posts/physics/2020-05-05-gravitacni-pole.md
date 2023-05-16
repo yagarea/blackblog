@@ -19,23 +19,23 @@ Velikost gravitační síly $$F_g$$ pro dvě stejnorodá tělesa tvaru koule je 
 $$ F_g = G \frac{m_1 m_2}{r^2} $$
 
 - $$F_g$$ - Gravitační síla
-- $$G$$ - gravitačníkonstanta = $$6,67.10^{-11} N.m^2.kg^{-2}$$
+- $$G$$ - gravitační konstanta = $$6,67.10^{-11} N.m^2.kg^{-2}$$
 - $$m_1$$ a $$m_2$$ - hmotnosti těles
 - $$r$$ - vzdálenosti středů/těžišť těles
 
 Každá dvě tělesa se navzájem přitahují stejně velkými gravitačními silami opačného směru
 
 ## Gravitační zrychlení
-Velikost gravitačního zrychlení, které udělujetělesu gravitační síla Země, je nepřímoúměrná druhé mocnině jeho vzdálenosti odstředu země
+Velikost gravitačního zrychlení, které uděluje tělesu gravitační síla Země, je nepřímo úměrná druhé mocnině jeho vzdálenosti od středu země
 
 $$ a_{gZ} =\frac{GM_Z}{R_Z^2} $$
 
 $$ F_g = ma_g $$
 
 - $$M_Z$$ - hmotnost planety Země = $$5,9.10^{24}$$kg
-- $$R_Z$$ - poloměr planty Země = 6378 km
+- $$R_Z$$ - poloměr planety Země = 6378 km
 
-# Centrální/radiální gravirační pole
+# Centrální/radiální gravitační pole
 Ve všech místech gravitačního pole Země, směřuje gravitační síla $$F_g$$, a tím také gravitační zrychlení $$a_g$$ do středu Země
 
 [obrázek]
@@ -145,9 +145,9 @@ Gravitační pole, ve kterém uděluje gravitační síla ve všech místech ste
 ## Šikmý vrh vzhůru
 - Trajektorie je parabola
 - Úhel $$\alpha$$ se nazývá elevační úhel – tento úhel svírá trajektorie předmětu se Zemí
-- Vržené těleseo urazí horizontálně dráhu $$x$$, kdy $$x = v_0t\cos\alpha$$
-- Vržené těleseo urazí vertikálně dráhu $$y$$, kdy $$y = v_0t\sin\alpha - \frac{1}{2}gt^2$$
+- Vržené těleso urazí horizontálně dráhu $$x$$, kdy $$x = v_0t\cos\alpha$$
+- Vržené těleso urazí vertikálně dráhu $$y$$, kdy $$y = v_0t\sin\alpha - \frac{1}{2}gt^2$$
 - Pro dobu vrhu $$t_d$$ platí, $$t_d = \frac{2v_0\sin\alpha}{g}$$
 - Pro délku vrhu $$d$$ platí $$d = \frac{2v_0\sin\alpha}{g}$$
 
-[obrázek]
+[todo obrázek]

@@ -23,7 +23,7 @@ layout: post
 - **Může vznikat obraz:**
 	- skutečný x zdánlivý
 	- vzpřímený x převrácený
-	- zvětšený x zmenšený xstejně velký
+	- zvětšený x zmenšený x stejně velký
 - **Vytváření obrazu předmětu na základě zákonů fyziky**
 	- zákon přímočarého šíření světla
 	- zákon odrazu a lomu
@@ -33,7 +33,7 @@ layout: post
 
 # Zrcadla
 
-## Rovinné zrcadlo	
+## Rovinné zrcadlo
 - Zobrazení odrazem na lesklé ploše
 - **Vzniká obraz:** zdánlivý, vzpřímený, stejně velký, stranově převrácený
 - Využití: zrcadlo v domácnosti, součást zobrazovací soustavy
@@ -59,7 +59,7 @@ layout: post
 - $$F$$ - ohnisko (střed úsečky $$\lvert CV \rvert$$ )
 - $$r$$ - poloměr křivosti 
 - $$f$$ - ohnisková vzdálenost ($$f = \frac{r}{2}$$)
-- $$o$$ - opétická osa určená body $$C$$ a $$V$$
+- $$o$$ - optická osa určená body $$C$$ a $$V$$
 
 ### Znaménková konvence poloměru křivosti a ohniskové vzdálenosti
 $$r$$ a $$f$$ mají před zrcadlem (u dutého zrcadla) hodnotu kladnou, za zrcadlem (u vypuklého zrcadla) zápornou.
@@ -100,7 +100,7 @@ $$ \frac{1}{a} + \frac{1}{a’} = \frac{1}{f} $$
 	- středy křivosti
 	- optický střed čočky
 
-**Tentá čočka** = tloušťka čočky (vzdálenost bodů $$V_1$$ a $$V_2$$) je velmi malá, můžeme tedy říct, že tyto body splývají v optický střed čočky $$O$$	
+**Tenká čočka** = tloušťka čočky (vzdálenost bodů $$V_1$$ a $$V_2$$) je velmi malá, můžeme tedy říct, že tyto body splývají v optický střed čočky $$O$$	
 
 
 ![Čočky](/assets/img/physics/zobrazeni-optickymi-soustavami/cocky1.png)

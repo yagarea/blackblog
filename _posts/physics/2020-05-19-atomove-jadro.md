@@ -45,7 +45,7 @@ Pro energii potřebnou pro rozdělení jádra na nukleony platí:
 
 $$ ΔE = Δm.c^2 $$
 
-z čechož pro atom platí:
+z čehož pro atom platí:
 
 $$ E_{j} = (Z.m_{p} + N.m_{n} - m_{j}).c^2 $$
 
@@ -114,10 +114,10 @@ Prvky také dělíme na lehčí a těžší než $${^{56}_{26}Fe}_{1,8}$$
 - Dnes umělé radionukidy připravujeme ostřelováním neutrony nebo nabitými částicemi
 - **Neutronové záření**
 	- Získává se z neutronových zdrojů nebo v jaderných reaktorech, kde probíhají jaderné reakce za vzniku neutronů
-	- Záření se narozdíl od záření $$\alpha$$ a $$\beta$$ nevychyluje v magnetickém a v elektrické poli protože neutrony nemají náboj
+	- Záření se na rozdíl od záření $$\alpha$$ a $$\beta$$ nevychyluje v magnetickém a v elektrické poli protože neutrony nemají náboj
 	- Není propuštěno materiály tvořenými lehkými prvky a jádry vodíku
 - **Záření gama**
-	- Nejsilnější a nejpronikavější záření 
+	- Nejsilnější a nejpronikavější záření
 	- Zastaví ho tlustá vrstva materiálu např. olovo
 	- Má vysokou energii a krátkou vlnovou délku (podobné RTG záření)
 	- Je to elektromagnetické záření tvořené fotony (nemají náboj)
@@ -185,7 +185,7 @@ Dělíme na:
 ## Jaderné slučování
 - Slučujeme lehčí jádra v těžší (např. ve hvězdách)
 - Nejjednodušší jaderné slučování je sloučení dvou vodíků, vznikne deuterium
-- Reakce probíhá za vysokých teplot (nazívá se termojaderná)
+- Reakce probíhá za vysokých teplot (nazývá se termojaderná)
 
 ## Jaderné štěpení
 - Z těžších jader se získávají lehčí

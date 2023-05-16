@@ -35,23 +35,23 @@ Pevné látky jsou látky, které si zachovávají svůj tvar = odlišnost od ka
 
 ## Ideální krystalová mřížka
 - Je hmotný útvar, který vznikne, když je prostorová pravoúhlá geometrická mřížka obsazena pravidelně rozloženými částicemi
-- Obsahuje základní (elementární) buňku = základní krychle obsazená určitým způsobem částicemi, patří do krychlové soustavy → posouváním této základní krychle podél jejích prodloužených hran vznká ideální krystalická mřížka 
+- Obsahuje základní (elementární) buňku = základní krychle obsazená určitým způsobem částicemi, patří do krychlové soustavy → posouváním této základní krychle podél jejích prodloužených hran vzniká ideální krystalická mřížka 
  
 ![Ideální krystalová mřážka](/assets/img/physics/struktura-pevnych-latek/idealni-mrizka.png)
 
 - $$a$$ - mřížkový parametr (mřížková konstanta) = Délka hrany základní buňky
 
-### Druhy základních kubických buňek
+### Druhy základních kubických buněk
 - **Prostá**
 	- Na jednu základní buňku připadá $$8 × \frac{1}{8}$$ = 1 atom. 
 	- Každý vrchol buňky je společný osmi buňkám. 
 	- Například Polonium alfa
 - **Plošně centrovaná**
-	- Na jednu základní buňuku připadá $$8 × \frac{1}{8} + 6 × \frac{1}{2}$$ = 4 atomy
+	- Na jednu základní buňku připadá $$8 × \frac{1}{8} + 6 × \frac{1}{2}$$ = 4 atomy
 	- Každý vrchol buňky je společný osmi buňkám, každá stěna dvěma buňkám
 	- Například Al, Cu, Ni, Au
 - **Prostorově centrovaná**
-	- Na jednu základní buňuku připadá $$8 × \frac{1}{8} + 1$$ = 2 atomy
+	- Na jednu základní buňku připadá $$8 × \frac{1}{8} + 1$$ = 2 atomy
 	- Každý vrchol buňky je společný osmi buňkám, „prostřední“ atom náleží pouze k dané buňce
 	- Například Li, Na, K, Cr, Si, diamant
 
@@ -82,7 +82,7 @@ Vyskytují u všech krystalů – každý reálný krystal má poruchy (defekty)
 ---
 
 # Amorfní látky
-- Periodické uspořádání částic je omezeno na vzdálenost do zhruba 10$$^{-8}$$ m, na větších vzdálenostech je pravidelnost uspořádání porušena. Amorfní látky se vyznačují krátkodosahovým uspořádáním. 
+- Periodické uspořádání částic je omezeno na vzdálenost do zhruba 10$$^{-8}$$ m, na větších vzdálenostech je pravidelnost uspořádání porušena. Amorfní látky se vyznačují krátkodosahovým uspořádáním.
 - Patří sem sklo, pryskyřice, vosk, asfalt, plasty a další.
 - **Polymery** 
 	- Tvoří zvláštní skupinu amorfních látek organického původu
@@ -110,7 +110,7 @@ Vazebné síly působí vždy, váží k sobě částice, z nichž se látka (kr
 	- plavou na vodě
 - **Kovová vazba** 
 	- atomy kovových prvků (např. Cu, Fe, Al,...)
-	- mají maximálně tři valenční elektrony (slabě vázané k atomovému jádru 
+	- mají maximálně tři valenční elektrony (slabě vázané k atomovému jádru
 	– snadné uvolnění) $$\rightarrow$$ volné elektrony vytvářejí tzv. elektronový plyn
 	- kovové krystaly mají velmi dobrou tepelnou a elektrickou vodivost, povrchový lesk a v silnějších vrstvách jsou neprůhledné. 
 	- Nejsou štěpné a některé se vyznačují dobrou kujností a tažností.

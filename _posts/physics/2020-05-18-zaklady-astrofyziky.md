@@ -32,8 +32,8 @@ Zkoumá fyzikální a chemické vlastnosti kosmických těles a mezihvězdného 
 	- **Planety**
 	- **Měsíce** - tělesa, která obíhají kolem planet a ne kolem Slunce
 	- **Komety** - malá vesmírná tělesa, která obíhají po velmi protáhlých oběžných drahách
-	- **Planetky** - tělesa větší než 100 m, za planetku je těleso považováno pokud je možné určit jeho obježnou dráhu
-	- **Meteoroidy** - tělesa menší než 100 m, nedá se určit jejich obježná dráha, (_Meteorit_ - zbytek meteoroidu, který dopadly na Zem)
+	- **Planetky** - tělesa větší než 100 m, za planetku je těleso považováno pokud je možné určit jeho oběžnou dráhu
+	- **Meteoroidy** - tělesa menší než 100 m, nedá se určit jejich oběžná dráha, (_Meteorit_ - zbytek meteoroidu, který dopadly na Zem)
 
 ### Slunce
 - Střední vzdálenost Slunce od Země je přibližně $$149,6x10^6$$ km, což se zhruba rovná 1 $$AU$$ (jedné astronomické jednotce)
@@ -43,7 +43,7 @@ Zkoumá fyzikální a chemické vlastnosti kosmických těles a mezihvězdného 
 - Hmotnost: cca $$2.10^{30}$$ kg
 - Teplota na povrchu Slunce: 5780 K
 - Teplota jádra Slunce: 15,7 MK
-- Jedná se o hvězdu střední velikosti, je vní soustředěno přibližně 99,86% hmotnosti celé Sluneční soustavy
+- Jedná se o hvězdu střední velikosti, je v ní soustředěno přibližně 99,86% hmotnosti celé Sluneční soustavy
 - Slunce je tvořeno plazmou, která se skládá z jádra vodíku (cca 73%), helia (cca 25%) a volných elektronů
 - Slunce je staré přibližně 4,6 mld. let a bude vyzařovat světlo ještě 5-7 mld. let
 - Uvnitř Slunce probíhají termojaderné reakce (slučování jader vodíku za vysoké teploty a tlaku, zvniká hélium) při této reakci se uvolňuje veliké množství energie, které ze Slunce vyzařuje, jako teplo a světlo

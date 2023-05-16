@@ -16,7 +16,7 @@ Jestliže těleso urazí působením konstantních síly o velikosti $$F$$ dráh
 
 $$ W = Fs\cos\alpha $$
 
-- Jednotaka [J] = [N.m]
+- Jednotka [J] = [N.m]
 - $$W$$ - práce konaná silou
 - $$F$$ - síla konající práci
 - $$s$$ - dráha uražená tělesem
@@ -29,7 +29,7 @@ $$E_k = \frac{1}{2}mv^2$$
 
 - $$E_k$$ - kinetická energie tělesa
 - $$m$$ - hmotnost tělesa
-- $$v$$ - ryclost tělesa
+- $$v$$ - rychlost tělesa
 
 Vykonaná práce je mírou změny kinetické energie
 
@@ -110,6 +110,6 @@ Podíl výkonu $$P$$ a příkonu $$P_0$$ je účinnost $$\eta$$
 $$ \eta = \frac{P}{P_0} $$
 
 - jednotka - bezrozměrná
-- $$\eta$$ - účinost
+- $$\eta$$ - účinnost
 - $$P$$ - výkon
 - $$P_0$$ - příkon

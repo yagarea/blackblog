@@ -116,7 +116,7 @@ $$ \frac{U}{I} = R = konst $$
 
 $$ G = \frac{I}{U} = \frac{1}{R} $$
 
-Elektrický odpor v závyslosti na tvaru vodiče:
+Elektrický odpor v závislosti na tvaru vodiče:
 
 $$ R = \rho \frac{l}{s} $$
 
@@ -128,7 +128,7 @@ $$ R = R_1(1 + \alpha\Delta t) $$
 - $$G$$ - vodivost [S]
 - $$I$$ - Elektrický proud [A]
 - $$U$$ - Elektrické napětí [V]
-- $$\rho$$ - resistivita (měrný elektrický odpor) [$$\Omega$$m]
+- $$\rho$$ - rezistivita (měrný elektrický odpor) [$$\Omega$$m]
 - $$l$$ - délka vodiče
 - $$s$$ - průřez vodiče [m$$^2$$]
 - $$\alpha$$ - teplotní součinitel elektrického odporu [K$$^{-1}$$]
@@ -173,11 +173,11 @@ $$ I:I_1:I_2:I_3 = R^{-1}:R_1^{-1}:R_2^{-1}:R_3^{-1} $$
 
 # Kirchhoffovy zákony
 
-> ## 1. Kirchhoffůvzákon
+> ## 1. Kirchhoffův zákon
 >
 > Směr do uzlu je kladný a směr z uzlu je záporný. Algebraický součet proudů je v uzlu nulový.
 
-> ## 2. Kirchhoffůvzákon
+> ## 2. Kirchhoffův zákon
 >
 > Součet úbytků napětí na rezistorech je v uzavřené smyčce stejný jako součet elektromotorických napětí zdrojů.
 
@@ -232,7 +232,7 @@ V polovodiči při stálé teplotě se udržuje dynamická rovnováha mezi tvorb
 		- usměrňovací dioda
 		- světelná dioda = LED dioda
 		- fotodioda
-		- zenerova/stabilizační dioda - používá se na stabilizaci napětí
+		- Zenerova/stabilizační dioda - používá se na stabilizaci napětí
 
 
 
@@ -249,3 +249,4 @@ V polovodiči při stálé teplotě se udržuje dynamická rovnováha mezi tvorb
 ## Usměrnění střídavého proudu
 
 ![Usměrnění střídavého proudu](/assets/img/physics/elektricky-proud-v-kovech-a-polovodicich/graetzovo-zapojeni.png)
+

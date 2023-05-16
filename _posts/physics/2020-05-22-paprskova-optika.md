@@ -77,3 +77,4 @@ Optický hranol rozloží bílé světlo na spektrum všech barev monofrekvenčn
 $$f = \frac{c}{\lambda_{0}} = \frac{v}{\lambda}$$
 
 $$\lambda = \frac{\lambda_{0}}{n}$$
+

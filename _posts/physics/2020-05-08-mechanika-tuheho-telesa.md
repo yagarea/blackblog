@@ -53,7 +53,7 @@ Zaměníme působiště obou sil a u jedné z nich změníme orientaci. Působi�
 
 ![Skládání sil](/assets/img/mechanika-tuheho-telesa/teziste.jpg)
 
-## Urční polohy tělesa
+## Určení polohy tělesa
 - U stejnorodého geometrického pravidelného tělesa leží těžiště v jeho geometrickém středu (geometrickém těžišti)
 - Těžiště leží v jeho v průsečíku těžnic při postupném zavěšení tělesa v nejméně dvou různých bodech
 
@@ -109,7 +109,7 @@ $$ E_k = \frac{1}{2}\omega^2 \left( \sum_{i = 1}^{n} m_ir_i^2 \right) $$
 
 $$ J = \sum_{i = 1}^{n} m_ir_i^2 $$
 
-Kinetiká energie při otáčivém pohybu
+Kinetická energie při otáčivém pohybu
 
 $$ E_k = \frac{1}{2}J\omega^2 $$
 

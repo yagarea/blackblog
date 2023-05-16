@@ -110,7 +110,7 @@ Nachází-li se ionizovaný plyn mezi nabitými deskami (elektrodami), dochází
 
 ![Voltampérová charakteristika výboje](/assets/img/physics/elektricky-proud-kapalinach-a-plynech/voltamperova-charakteristika-vyboje.png)
 
-Při napětí (0 - $$U_{n}$$) převládá r​ekombinace, t​zn. slučování elektronů s neutrálními molekulami, platí tedy Ohmův zákon (počet iontů, které předají náboj elektrodám, je přímo úměrný napětí).
+Při napětí (0 - $$U_{n}$$) převládá rekombinace, tzn. slučování elektronů s neutrálními molekulami, platí tedy Ohmův zákon (počet iontů, které předají náboj elektrodám, je přímo úměrný napětí).
 
 Při napětí ($$U_{n}$$ - $$U_{z}$$) se velká část elektronů nestihne rekombinovat (kvůli vysoké rychlosti) a doletí k anodě samostatně. V tento okamžik je mezi elektrodami nasycený plyn (Ionizátor už nemá dostatek energie na štěpení nových částic).
 

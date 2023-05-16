@@ -56,7 +56,7 @@ proto můžeme považovat $$\frac{pV}{T}$$ za konstantní. Skutečný plyn lze s
 
 ## Izotermický děj
 - **Teplota je konstantní**
-- V praxi se dá konstatní $$T$$ udržet těžko. Šlo by to ale pomocí termostatu, který by při nepatrné výchylce teploty sepnul ohřívací těleso a to by dodával do plynu teplo.
+- V praxi se dá konstantní $$T$$ udržet těžko. Šlo by to ale pomocí termostatu, který by při nepatrné výchylce teploty sepnul ohřívací těleso a to by dodával do plynu teplo.
 - Boyleův-Mariotteův zákon:
 
 $$

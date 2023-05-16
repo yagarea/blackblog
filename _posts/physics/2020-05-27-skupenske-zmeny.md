@@ -124,4 +124,3 @@ Udává, jak moc se stav vodní páry ve vzduchu liší od stavu syté vodní p�
 
 $$ \phi = \frac{\Phi}{\Phi_m}100 $$
 
-

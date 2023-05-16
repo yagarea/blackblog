@@ -40,7 +40,7 @@ $$ \sigma = \frac{\vec F}{l} $$
 
 - $$\sigma$$ - povrchové napětí [Nm$$^{-1}$$]
 - $$\vec F$$ - povrchová síla [N]
-- $$l$$ - délka obdvodu povrchu kapaliny [m]
+- $$l$$ - délka obvodu povrchu kapaliny [m]
 
 ## Styk kapaliny se stěnou nádoby
 
@@ -57,7 +57,7 @@ $$ \sigma = \frac{\vec F}{l} $$
 
 ---
 
-# Kapillární tlak
+# Kapilární tlak
 Vzniká v důsledku zakřivení povrchu kapaliny. Pokud má-li kapaliny jeden volný povrch, pak platí vztah:
 
 $$ p_k =\frac{2\sigma}{R} $$

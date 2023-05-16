@@ -45,7 +45,7 @@ $$ n,m \in \N \land n > m $$
 	- $$m=4$$ - Brackettova
 	- $$m=5$$ - Pfundova
 
-Atom vodíku se může nacházet na určitých energetických hladinách $$E_n$$ a při přechodu na nižší hladinu vyzáří elektromagnetické záření podle zákona:
+Atom vodíku se může nacházet na určitých energetických hladinách $$E_{n}$$ a při přechodu na nižší hladinu vyzáří elektromagnetické záření podle zákona:
 
 $$ hf_{nm} = E_{n} - E_{m} $$
 
@@ -56,7 +56,7 @@ $$ hf_{nm} = E_{n} - E_{m} $$
 
 Při přechodu z vyšší energetické hladiny $$E_{n}$$ na nižší energetickou hladinu $$E_{m}$$ vyzáří kvantum energie o frekvenci $$f_{nm}$$. Poté dosazením rovnice vyjadřující frekvenci spektrálních čar do rovnice pro energii dostaneme:
 
-$$ h.f_{nm} = h.R(\frac{1}{m^2}-\frac{1}{n^2}) = E_{n} - E_{m} $$
+$$ h.f_{nm} = h.R\left(\frac{1}{m^2}-\frac{1}{n^2}\right) = E_{n} - E_{m} $$
 
 a pro atom vodíku:
 
@@ -78,7 +78,7 @@ $$ E = \frac{1}{2}mv^2 $$
 
 ## Pudinkový model
 - 1897 objevil anglický fyzik Josef John Thompson elektron
-- 1906 představil punikový model
+- 1906 představil pudinkový model
 - elektrony jsou v atomu rozmístěny náhodně
 
 ![Pudinkový model](/assets/img/physics/elektronovy-obal/pudink.png){:.image-w500px}
@@ -106,7 +106,7 @@ definován pomocí tří postulátů:
 > Při přechodu do stavu s nižší energií může atom vyzářit kvantum elektromagnetického záření (foton). Naopak při pohlcení fotonu přejde do vyššího energetického stavu.
 
 - Na každé slupce je maximální možný počet elektronů
-- Elektrony blíž k jádru mají nižší energii (proto se zaplňují od slupek nejbíže jádru)
+- Elektrony blíž k jádru mají nižší energii (proto se zaplňují od slupek nejblíže jádru)
 - **Slupky:**
 	1. slupka K - max. 2 elektrony
 	2. slupka L - max. 8 elektronů
@@ -140,7 +140,7 @@ stav elektronu je popsán čtyřmi kvantovými čísly:
 	- rozhoduje o orientaci orbitalu v prostoru
 
 - **Spinové magnetické kvantové číslo** - $$m_{s}$$
-	- nabívá pouze dvou hodnot $$\{-\frac{1}{2}; +\frac{1}{2}\}$$
+	- nabývá pouze dvou hodnot $$\{-\frac{1}{2}; +\frac{1}{2}\}$$
 	- elektron představuje magnet, který se může orientovat dvěma způsoby
 
 ---
@@ -157,7 +157,6 @@ stav elektronu je popsán čtyřmi kvantovými čísly:
 
 ## Orbitaly
 ![Orbitaly atomu](/assets/img/physics/elektronovy-obal/orbitaly.png)
-
 
 
 ## Záření elektronového obalu

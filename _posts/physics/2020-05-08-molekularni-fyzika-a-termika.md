@@ -70,7 +70,7 @@ $$ p = \frac{1}{3}N_vm_0v_k^2 $$
 	- Děj, při němž neuspořádaně se pohybující částice teplejšího tělesa narážejí na částice dotýkají se studenějšího tělesa a předávají jim část své energie, nazýváme **tepelná výměna**
 	- Teplo $$Q$$ je určeno energií, kterou při tepelné výměně odevzdává teplejší těleso studenějšímu. Jednotkou tepla je Joule [J]
 
-### První termodinamický zákon
+### První termodynamický zákon
 
 > Přírůstek vnitřní energie $$\Delta U$$ soustavy se rovná součtu práce $$W$$ vykonané okolními tělesy působící na soustavu silami a tepla $$Q$$ odevzdaného okolními tělesy soustavě:
 >
@@ -178,9 +178,9 @@ Přenos vnitřní energie z míst s vyšší teplotou do míst s nižší teplot
 - Plyny mají nejmenší tepelnou vodivost (duté cihly, textil, pěna)
 
 ## Tepelná výměna zářením
-- Spočívá v vyzařování a přijimání elektromagnetického záření
+- Spočívá v vyzařování a přijímání elektromagnetického záření
 - Vzniká pohybem uvnitř atomů a molekul 
-- Při vyzáření energie, látka ztratí energii rovanající se energii záření
+- Při vyzáření energie, látka ztratí energii rovnající se energii záření
 - Při dopadu na těleso se záření z části:
 	- Odrazí
 	- Projde
@@ -191,7 +191,7 @@ Přenos vnitřní energie z míst s vyšší teplotou do míst s nižší teplot
 ## Tepelná výměna prouděním
 - Vzniká zahříváním kapaliny nebo plynu v tíhovém poli
 - Chladnější kapalina má větší hustotu než teplejší
-- Při zahřívání kapaliny ze spodu, ohřátá kapalina proudí nahoru a chladná dolů (Vaření vody v hrnci, rychlovarná konvice, gejzíry)
+- Při zahřívání kapaliny zespodu, ohřátá kapalina proudí nahoru a chladná dolů (Vaření vody v hrnci, rychlovarná konvice, gejzíry)
 - Pro zrychlení procesu se používá tzv. nucené proudění (chladič v autě, ventilátory, klimatizace)
 
 # Měrná tepelná kapacita
