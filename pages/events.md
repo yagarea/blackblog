@@ -16,6 +16,7 @@ Formát je:
 ## Návrhy
 - 18\. 05\. 2023 - **[MØL, Countless Skies](https://rockcafe.cz/en/program/rock-for-people-presents-mol-dk-countless-skies-uk/)** - Rock Café (Jana?)
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
+- 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové Park 360 (Petr S.)
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
 
 ## Povinné
