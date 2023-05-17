@@ -18,10 +18,10 @@ Formát je:
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové Park 360 (Petr S.)
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
-- 26\. 06\. 2023 - **[CLUTCH, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
+- 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
-- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545) - Meetfactory
+- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
 - 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
 
 ## Povinné
