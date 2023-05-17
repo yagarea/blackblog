@@ -137,7 +137,7 @@ Pozorování - 13.3. 11:3O
     - Nostradamus (1503 - 1566) - dílo Centuria - zásadní vliv na hnutí nového věku
     - Edward Kelly (1555 - 1597) - alchymista na dvoře Rudolfa II.
 - **17. století**
-    - Rosikruciánská bratrstva 
+    - Rosikruciánská bratrstva
         - Filantropické a pansofické bratrstvo
         - 1614 - 1616
         - Spisy:

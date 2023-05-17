@@ -53,7 +53,7 @@ V semináři se zabýváme duchovními společenstvími, tedy skupinami, které 
 
 ### "Vymývání mozků"
 - Nevhodná metafora
-    - silne expresivní
+    - silně expresivní
     - pejorativní
     - naprosto nevhodný pojem pro vědu a právo
 - Vytváří dojem technologie a konstruktivnosti
@@ -74,7 +74,7 @@ V semináři se zabýváme duchovními společenstvími, tedy skupinami, které 
     - zhoršení rodinných situací
     - radikalizace společnosti proti hnutí
     - odklad řešení - "zmrazení situace"
-- **Simpsnovi** - pátá serie, 18. díl - _Burnsův dědic_
+- **Simpsnovi** - pátá série, 18. díl - _Burnsův dědic_
 
 ### Tendence konverze
 - Inteligence - schopnost klást si otázky
@@ -116,7 +116,7 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
 
 #### Standfortský experiment
 - Je tak slavný, že je zbytečné ho popisovat
-- Náhodní studenti -> neměli mít žádnou predispozici k jakému koli vzorci chování
+- Náhodní studenti -> neměli mít žádnou predispozici k jakémukoli vzorci chování
 - **Poučení:** Všichni jsme schopni všeho.
 - Případ: Kuřimská kauza
 - Stejný princip manipulace používají scientologové
@@ -132,7 +132,7 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
     - Útočník:
         - střela do horní třetiny branky \~90% úspěšnost
         - přesto 43% útočníků střílí po zemi
-- **Závěr:** I přes to, že je se hráč snaží o co nevětší úspěšnost, jeho podvědomí prioritizuje eliminaci chyb za které by hráč nebyl pozitivně přijat.
+- **Závěr:** I přes to, že je se hráč snaží o co největší úspěšnost, jeho podvědomí prioritizuje eliminaci chyb za které by hráč nebyl pozitivně přijat.
 
 ---
 
@@ -170,7 +170,7 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
 ### Vznik charismatického vztahu
 
 > 1. Budoucí vůdce formuluje plausibilní teorii, která poskytuje řešení toho, co část populace chápe jako problém
-> 2. Buducí stoupenci přisoudí svému budoucímu vůdci charisma.
+> 2. Budoucí stoupenci přisoudí svému budoucímu vůdci charisma.
 > 3. Budoucí vůdce přijme charismatizaci (především díky narcisismu)
 
 
@@ -407,7 +407,7 @@ Nyní si uvedeme pár psychologických experimentů, které zásadně pomohli po
     - Společnost
         - přijmula hnutí jako kulturní obohacení
         - autenticita
-        - pozitivně přijmáno za vegetariánstí a alternativnost
+        - pozitivně přijímáno za vegetariánství a alternativnost
 - V České republice
     - _1990_ - legalizováno
     - snížení napětí mezi společností a hnutím
