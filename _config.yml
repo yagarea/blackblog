@@ -44,6 +44,19 @@ collections:
     output: true
     permalink: /music/:title-:year-:month-:day/
 
+
+defaults:
+  -
+    scope:
+       type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+       type: "music"
+    values:
+      layout: "post"
+
 plugins:
   - jektex
 
@@ -77,3 +90,4 @@ jekyll_tidy:
   exclude: ["_includes/*"]
   ignore_env: "testing"
   compress_html: false
+
