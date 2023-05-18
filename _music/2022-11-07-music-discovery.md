@@ -2,7 +2,6 @@
 title:    "My tips for music discovery"
 category: "Tips"
 language: "EN"
-layout:   post
 ---
 
 ## Internet sources

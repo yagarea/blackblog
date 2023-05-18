@@ -3,7 +3,6 @@ title: "Sarasota, Cake talk"
 category: "Concert report"
 language: "CZ"
 venue: "Na Slamníku"
-layout: post
 ---
 
 ## Cake Talk

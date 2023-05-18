@@ -3,7 +3,6 @@ title: "Antigama, Redemptor, Shodan"
 category: "Concert report"
 language: "CZ"
 venue: "Music Club Lucie"
-layout: post
 ---
 
 ## Shodan

@@ -3,7 +3,6 @@ title: "Emotionally spoonfed"
 category: "Concert report"
 language: "CZ"
 venue: "GRID"
-layout: post
 ---
 
 {% include video.html src="/assets/music-reports/2022-11-15-emotionally-spoonfed/emotionally-spoonfed1.mp4" %}

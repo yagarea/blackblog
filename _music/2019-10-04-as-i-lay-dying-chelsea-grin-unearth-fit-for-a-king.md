@@ -3,7 +3,6 @@ title: "As I lay dying, Chelsea grin, Unearth, Fit for a king"
 category: "Concert report"
 language: "CZ"
 venue: "Forum Karlín"
-layout: post
 ---
 
 ![venue](/assets/music-reports/2019-10-04-as-i-lay-dying-chelsea-grin-unearth-fit-for-a-king/venue.jpg)

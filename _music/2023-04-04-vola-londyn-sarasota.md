@@ -3,7 +3,6 @@ title: "Volá Londýn, Sarasota"
 category: "Concert report"
 language: "CZ"
 venue: "Klubovna Dejvice"
-layout: post
 ---
 
 ## Volá Londýn

@@ -3,7 +3,6 @@ title: "Bound to break, Define me, Hand grenade"
 category: "Concert report"
 language: "CZ"
 venue: "Futurm"
-layout: post
 ---
 
 ## Bound to break
