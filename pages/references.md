@@ -7,6 +7,7 @@ layout: page
 ## Webrings
 This is list of webrings of my friends.
 
+<div class="webring-display">
 {% spliter %}
 ### [GGU](https://ggu.cz/)
 Great Geeks United - My own webring.
@@ -35,6 +36,7 @@ SUS department.
 - [rdck.dev](https://rdck.dev/) - Prokop Randáček
 
 {% endspliter %}
+</div>
 
 ---
 
