@@ -39,6 +39,7 @@ references:
   - {title: StackOverflow,nickname: "Jan Černý",         icon: "stackoverflow-icon.png", url: "https://stackoverflow.com/users/7274239/"}
   - {title: Bandcamp,     nickname: "yagarea",           icon: "bandcamp-icon.png",      url: "https://bandcamp.com/yagarea"}
 
+
 collections:
   music:
     output: true
@@ -56,9 +57,12 @@ defaults:
        type: "music"
     values:
       layout: "post"
+      category: "music"
+
 
 plugins:
   - jektex
+
 
 # Render options
 disable_disk_cache: false
