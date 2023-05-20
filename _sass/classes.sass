@@ -1,15 +1,7 @@
----
----
-
-@import main, highlight
-
-{% unless site.minimal %}
 
 .categories
   color: #68f
   margin-bottom: .15em
-
-{% endunless %}
 
 .logo
   img
@@ -42,22 +34,10 @@
 .archive-date
   display: inline-block
 
-{% unless site.navigation and site.external %}
-
-.title
-  font-size: 1.3em
-  margin: .2em 0
-
-{% endunless %}
-
-{% if site.sidebar %}
 
 .hidden
   display: none
 
-{% endif %}
-
-{% if site.sidebar or site.external %}
 
 .icons
   background-color: #000
@@ -73,32 +53,25 @@
     vertical-align: middle
     margin-bottom: .15em
 
-{% endif %}
 
-{% if site.show_excerpts %}
-
-.more
-  margin: 2em 0 1em
-
-.more a
-  border-radius: 2px
-  border: 1.5px solid $link-color
-  padding: .4em .8em
-  transition: .2s
-
-.table-img
-  width: 150
-  height: auto
-  align: center
-
-.more a:hover
-  color: #fff
-  background: $link-color
-  text-decoration: inherit
-
-{% endif %}
-
-{% unless site.show_excerpts %}
+//.more
+//  margin: 2em 0 1em
+//
+//.more a
+//  border-radius: 2px
+//  border: 1.5px solid $link-color
+//  padding: .4em .8em
+//  transition: .2s
+//
+//.table-img
+//  width: 150
+//  height: auto
+//  align: center
+//
+//.more a:hover
+//  color: #fff
+//  background: $link-color
+//  text-decoration: inherit
 
 .archive
   font-size: 1.1em
@@ -107,10 +80,6 @@
   display: inline-block
   min-width: 8ch
   margin: 0 .2em
-
-{% endunless %}
-
-{% if site.show_related %}
 
 .related span
   display: block
@@ -123,27 +92,10 @@
 .next
   text-align: right
 
-{% endif %}
-
-{% if site.show_title and site.navigation and site.external %}
-
 .title
   font-size: 1.5em
   width: 100%
   margin: .1em 0 .6em
-
-{% endif %}
-
-{% unless site.sidebar %}
-
-@media (min-width: 70em)
-  .large
-    margin: 1em -20%
-
-  .large img
-    width: 100%
-
-{% endunless %}
 
 .small img
   max-height: 200px
@@ -342,3 +294,7 @@
   padding: 0
   width: 50%
 
+.webring-display
+  .spliter
+    .spliter-item
+      min-width: 300px
