@@ -41,3 +41,6 @@ makefile
 assets/music-reports
 single-pages/secret
 pages/secret
+.bundle
+Gemfile.lock
+vendor
