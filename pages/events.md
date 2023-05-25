@@ -16,12 +16,18 @@ Formát je:
 ## Návrhy
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
+- 11\. 06\. 2023 - **[Otto von Schirach](https://obscure.cz/cs/tickets/detail/id/568)** - Café v Lese
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
 - 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
+- 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
+- 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
 - 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
 - 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
+- 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
+- 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
+- 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
 
 ## Povinné
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel, Tomáš V. Martin K.)
