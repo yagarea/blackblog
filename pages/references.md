@@ -41,7 +41,7 @@ SUS department.
 ---
 
 ## My other friends
-- [andreamikulova.github.io](https://andreamikulova.github.io/) - Andy Mikulová
+- [andy.ggu.cz](https://andy.ggu.cz/) - Andy Mikulová
 - [grego.site](https://grego.site/) - Maroš Grego
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
 - [grsc.cz](https://grsc.cz/) - Honza Černohorský
