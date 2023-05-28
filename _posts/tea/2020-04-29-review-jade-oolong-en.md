@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- url: "/tea/jade-oolong/all.jpg"
-- url: "/tea/jade-oolong/dry-leaf.jpg"
-- url: "/tea/jade-oolong/liquor.jpg"
-- url: "/tea/jade-oolong/wet-leaf.jpg"
+- "/tea/jade-oolong/all.jpg"
+- "/tea/jade-oolong/dry-leaf.jpg"
+- "/tea/jade-oolong/liquor.jpg"
+- "/tea/jade-oolong/wet-leaf.jpg"
 
 info:
 - { title: "Name", text: "" }

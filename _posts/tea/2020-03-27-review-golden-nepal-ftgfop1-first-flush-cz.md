@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- url: "/tea/golden-nepal-ftgtop1-firtst-flush/all.jpg"
-- url: "/tea/golden-nepal-ftgtop1-firtst-flush/dry-leaf.jpg"
-- url: "/tea/golden-nepal-ftgtop1-firtst-flush/liquor.jpg"
-- url: "/tea/golden-nepal-ftgtop1-firtst-flush/wet-leaf.jpg"
+- "/tea/golden-nepal-ftgtop1-firtst-flush/all.jpg"
+- "/tea/golden-nepal-ftgtop1-firtst-flush/dry-leaf.jpg"
+- "/tea/golden-nepal-ftgtop1-firtst-flush/liquor.jpg"
+- "/tea/golden-nepal-ftgtop1-firtst-flush/wet-leaf.jpg"
 
 info:
 - { title: "Název", text: "Golden Nepal" }

@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- url: "/tea/lapsang-souchong/all.jpg"
-- url: "/tea/lapsang-souchong/dry-leaf.jpg"
-- url: "/tea/lapsang-souchong/liquor.jpg"
-- url: "/tea/lapsang-souchong/wet-leaf.jpg"
+- "/tea/lapsang-souchong/all.jpg"
+- "/tea/lapsang-souchong/dry-leaf.jpg"
+- "/tea/lapsang-souchong/liquor.jpg"
+- "/tea/lapsang-souchong/wet-leaf.jpg"
 
 info:
 - { title: "Název", text: "Lapsang Souchong" }

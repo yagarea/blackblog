@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- url: "/tea/wuyi-hong-shui-oolong/cake.jpg"
-- url: "/tea/wuyi-hong-shui-oolong/dry-leaf.jpg"
-- url: "/tea/wuyi-hong-shui-oolong/liquor.jpg"
-- url: "/tea/wuyi-hong-shui-oolong/wet-leaf.jpg"
+- "/tea/wuyi-hong-shui-oolong/cake.jpg"
+- "/tea/wuyi-hong-shui-oolong/dry-leaf.jpg"
+- "/tea/wuyi-hong-shui-oolong/liquor.jpg"
+- "/tea/wuyi-hong-shui-oolong/wet-leaf.jpg"
 
 info:
 - { title: "Název", text: "武夷紅水烏龍茶餅" }

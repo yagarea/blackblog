@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- url: "/tea/gaba-oolong-cake/cake.jpg"
-- url: "/tea/gaba-oolong-cake/dry-leaf.jpg"
-- url: "/tea/gaba-oolong-cake/liquor.jpg"
-- url: "/tea/gaba-oolong-cake/wet-leaf.jpg"
+- "/tea/gaba-oolong-cake/cake.jpg"
+- "/tea/gaba-oolong-cake/dry-leaf.jpg"
+- "/tea/gaba-oolong-cake/liquor.jpg"
+- "/tea/gaba-oolong-cake/wet-leaf.jpg"
 
 info:
 - { title: "Name", text: "加碼茶茶餅" }
