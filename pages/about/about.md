@@ -17,7 +17,7 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 
 **- Jan Černý**
 
-![Me](/assets/meta/me.jpg)
+{% picture /assets/meta/me.jpg --alt Me %}
 
 ## I am active member in these organisations
 - [KSP](https://ksp.mff.cuni.cz/) - Correspondence seminar of programming

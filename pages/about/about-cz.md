@@ -18,7 +18,7 @@ Mezi mé oblíbené sporty patří lezení na umělé stěně a běžkové lyžo
 
 **- Jan Černý**
 
-![Me](/assets/meta/me.jpg)
+{% picture /assets/meta/me.jpg --alt Já %}
 
 ## Aktivně se podílím nebo organizuji
 - [KSP](https://ksp.mff.cuni.cz/) - Korespondenční seminář z programování
