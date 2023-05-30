@@ -1,5 +1,9 @@
+media_queries:
+  mobile: 'max-width: 600px'
+
 presets:
   default:
     formats: [webp, png, original]
-    widths: [200, 400, 800, 1200] # Image widths, in pixels. 1600
-
+    widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
+  sizes:
+    mobile: 80vw
