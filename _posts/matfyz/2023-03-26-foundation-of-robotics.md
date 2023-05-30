@@ -269,7 +269,7 @@ Relation between $$L C S_{i-1}$$ and $$L C S_{i}$$ is a composed transformation:
 DH parameters: $$\vartheta_{i}, d_{i}, a_{i}, \alpha_{i}$$
 {% enddef %}
 
-![lcs example](/assets/img/matfyz/foundation-of-robotics/lcs-example.jpg){:width="400px"}
+![lcs example](/assets/img/matfyz/foundation-of-robotics/lcs-example.png){:width="400px"}
 
 #### DH transformation
 
@@ -461,6 +461,7 @@ $$
 
 | ![robot movement scheme 1](/assets/img/matfyz/foundation-of-robotics/robot-movement-scheme1.jpg) | ![robot movement scheme 2](/assets/img/matfyz/foundation-of-robotics/robot-movement-scheme2.jpg){:.image-w500px} |
 
+{% spliter %}
 #### Swerve drive
 - Resolve $$\overrightarrow{v_{t}}$$ ($$x$$, $$y$$ components = axes velocities ) into wheel speed $$v_{w}$$ and steering angle $$\theta$$
 
@@ -476,24 +477,31 @@ $$
 - $$\hat{u}$$ is a unit vector in the direction of the wheel (whichever direction is assumed to be "forwards")
 
 $$
-\begin{align}
+\begin{aligned}
 v_{w} &= v_{\|}=\vec{v} \cdot \hat{u} \\
 &=\left(v_{x} \hat{\imath}+v_{y} \hat{\jmath}\right) \cdot\left(-\frac{1}{\sqrt{2}} \hat{\imath}+\frac{1}{\sqrt{2}} \hat{\jmath}\right) \\
 &=-\frac{1}{\sqrt{2}} v_{x}+\frac{1}{\sqrt{2}} v_{y}
-\end{align}
+\end{aligned}
 $$
+
+---
 
 ![swerve drive](/assets/img/matfyz/foundation-of-robotics/swerve-drive.jpg){:.image-w300px}
 
+{% endspliter %}
+
+{% spliter %}
 #### Mecanum drive
 - Similar to omniwheel drive
 - Conceptually: Resolve velocity into components parallel to wheel and parallel to roller
 - Not easy to calculate directly (directions are not perpendicular), so do it in two steps:
 - Resolve to roller
 - Resolve to wheel
-
+---
 ![Mecanum drive wheel 1](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel1.jpg){:.image-w300px}
 
+{% endspliter %}
+{% spliter %}
 - Resolve velocity into components parallel and perpendicular to roller axis
 - $$\hat{u}$$ is not the same for each wheel; pick direction parallel to roller axis, in forwards direction
 - Perpendicular component can be discarded
@@ -504,14 +512,14 @@ $$
 =\left(v_{x} \hat{\imath}+v_{y} \hat{\jmath}\right) \cdot\left(-\frac{1}{\sqrt{2}} \hat{\imath}+\frac{1}{\sqrt{2}} \hat{\jmath}\right)
 $$
 
-!mecanum drive wheel 2[](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel2.jpg){:.image-w300px}
-
+---
+![mecanum drive wheel 2](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel2.jpg){:.image-w300px}
+{% endspliter %}
+{% spliter %}
 - Use component parallel to roller axis and resolve it into components parallel to wheel and parallel to roller
 - $$v_{w}$$ is the component parallel to the wheel
-
 - When the angle is known, we can calculate $$v_{w}$$ directly.
-
-o E.g. for $$45^{\circ}$$ inclination:
+    - E.g. for $$45^{\circ}$$ inclination:
 
 $$
 \begin{aligned}
@@ -521,9 +529,9 @@ v_{w} & =\frac{v_{\|}}{\cos 45^{\circ}} \\
 \end{aligned}
 $$
 
-
+---
 ![mecanum drive wheel 3](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel2.jpg){:.image-w300px}
-
+{% endspliter %}
 
 ## Localization
 - The goal is to find the position and orientation of the robot (pose)
