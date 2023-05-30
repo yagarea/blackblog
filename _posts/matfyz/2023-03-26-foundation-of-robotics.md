@@ -93,7 +93,7 @@ by Isaac Asimov, 1942, Runaround
     5. spherical (DOF = 3)
     6. planar (DOF = 3)
 
-![kinematics join types](/assets/img/matfyz/robotics/kinematic-joint-types.png)
+![kinematics join types](/assets/img/matfyz/foundation-of-robotics/kinematic-joint-types.png)
 
 - Primitive joint types:
     - prismatic
@@ -239,7 +239,7 @@ $$
     b. translation between $$LCS$$s
 - May be hard to construct the full combined transformation matrix
 
-![DH example](/assets/img/matfyz/robotics/dh-example.png)
+![DH example](/assets/img/matfyz/foundation-of-robotics/dh-example.png)
 
 
 ### Denavit-Hartengerg
@@ -254,7 +254,7 @@ That can be generalized to any sequence.
         - joint $$k$$ connects links $$k_{i-1}$$ and $$k_i$$
         - link $$k$$ connects joints $$k_i$$ and $$k_{i+1}$$
 
-![tsc](/assets/img/matfyz/robotics/tsc1.png)
+![tsc](/assets/img/matfyz/foundation-of-robotics/tsc1.png)
 
 ##### Denavit-Hartenberg overview
 
@@ -269,7 +269,7 @@ Relation between $$L C S_{i-1}$$ and $$L C S_{i}$$ is a composed transformation:
 DH parameters: $$\vartheta_{i}, d_{i}, a_{i}, \alpha_{i}$$
 {% enddef %}
 
-![](https://cdn.mathpix.com/cropped/2023_02_02_d8395da69e109b142d5cg-05.jpg?height=602&width=615&top_left_y=1255&top_left_x=1880){:width="400px"}
+![lcs example](/assets/img/matfyz/foundation-of-robotics/lcs-example.jpg){:width="400px"}
 
 #### DH transformation
 
@@ -375,7 +375,7 @@ A vehicle is holonomic if the number of local degrees of freedom of movement equ
 
 ### Ackermann steering
 
-| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-03.jpg?height=836&width=1714&top_left_y=609&top_left_x=383) | ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-04.jpg?height=992&width=1231&top_left_y=607&top_left_x=628) |
+| ![Ackeermann steering example](/assets/img/matfyz/foundation-of-robotics/ackermann-steering1.jpg) | ![Ackermann steering diagram](/assets/img/matfyz/foundation-of-robotics/ackermann-steering2.jpg) |
 | Basic principle | Simplified model|
 
 - Non-holonomic
@@ -423,15 +423,14 @@ $$
 - Omniwheel
 - Mecanum wheel
 
-| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-11.jpg?height=710&width=2494&top_left_y=1118&top_left_x=0) |
-| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-12.jpg?height=1314&width=2382&top_left_y=402&top_left_x=26) |
-
+| ![Omniwheel examples 1](/assets/img/matfyz/foundation-of-robotics/omniwheel1.jpg) |
+| ![Omniwheel examples 2](/assets/img/matfyz/foundation-of-robotics/omniwheel2.jpg) |
 
 - Syncro drive
     - Holds yaw (body rotation) independently to movement direction
     - Arbitrary movement as for omnidrive
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-13.jpg?height=925&width=1212&top_left_y=918&top_left_x=606){:width="600px"}
+![syncro drive](/assets/img/matfyz/foundation-of-robotics/syncro-drive.jpg){:width="600px"}
 
 - High manoeuvring ability
     - sideways run
@@ -443,25 +442,24 @@ $$
 #### 1. Holonomic
 - Movement easily calculated by vector combination
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-15.jpg?height=992&width=2130&top_left_y=864&top_left_x=225)
+![Holonomic movement](/assets/img/matfyz/foundation-of-robotics/holonomic-movement.jpg)
 
 #### 2. Killough / Ilon wheels
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-16.jpg?height=1044&width=2120&top_left_y=496&top_left_x=150)
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-17.jpg?height=1774&width=2424&top_left_y=55&top_left_x=72)
+![Killough movement scheme](/assets/img/matfyz/foundation-of-robotics/killough-movement1.jpg)
+![Killough movement example](/assets/img/matfyz/foundation-of-robotics/killough-movement2.jpg)
 
 #### 3. Omniwheel drive
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-18.jpg?height=1432&width=1349&top_left_y=394&top_left_x=614)
+![Omniwheel direction visualised](/assets/img/matfyz/foundation-of-robotics/omniwheel-directions.jpg)
 
 #### Mecanum \& swerve drive
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-19.jpg?height=1442&width=1508&top_left_y=392&top_left_x=534)
-
+![Mecanum drive](/assets/img/matfyz/foundation-of-robotics/mecanum-drive.jpg)
 
 ### Robot movement
 - Got $$\overrightarrow{v_{t}}$$ (translation speed) and $$\vec{\omega}$$ (rotation speeds)
 - Need $$\vec{v}$$ - specific point speed
 - vector approach
 
-| ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-20.jpg?height=434&width=341&top_left_y=813&top_left_x=1826) | ![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-21.jpg?height=1279&width=1234&top_left_y=413&top_left_x=550){:.image-w500px} |
+| ![robot movement scheme 1](/assets/img/matfyz/foundation-of-robotics/robot-movement-scheme1.jpg) | ![robot movement scheme 2](/assets/img/matfyz/foundation-of-robotics/robot-movement-scheme2.jpg){:.image-w500px} |
 
 #### Swerve drive
 - Resolve $$\overrightarrow{v_{t}}$$ ($$x$$, $$y$$ components = axes velocities ) into wheel speed $$v_{w}$$ and steering angle $$\theta$$
@@ -485,7 +483,7 @@ v_{w} &= v_{\|}=\vec{v} \cdot \hat{u} \\
 \end{align}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-23.jpg?height=941&width=586&top_left_y=767&top_left_x=1837){:.image-w300px}
+![swerve drive](/assets/img/matfyz/foundation-of-robotics/swerve-drive.jpg){:.image-w300px}
 
 #### Mecanum drive
 - Similar to omniwheel drive
@@ -494,7 +492,7 @@ $$
 - Resolve to roller
 - Resolve to wheel
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-24.jpg?height=1167&width=727&top_left_y=698&top_left_x=1623){:.image-w300px}
+![Mecanum drive wheel 1](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel1.jpg){:.image-w300px}
 
 - Resolve velocity into components parallel and perpendicular to roller axis
 - $$\hat{u}$$ is not the same for each wheel; pick direction parallel to roller axis, in forwards direction
@@ -506,7 +504,7 @@ $$
 =\left(v_{x} \hat{\imath}+v_{y} \hat{\jmath}\right) \cdot\left(-\frac{1}{\sqrt{2}} \hat{\imath}+\frac{1}{\sqrt{2}} \hat{\jmath}\right)
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-25.jpg?height=1148&width=600&top_left_y=711&top_left_x=1623){:.image-w300px}
+!mecanum drive wheel 2[](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel2.jpg){:.image-w300px}
 
 - Use component parallel to roller axis and resolve it into components parallel to wheel and parallel to roller
 - $$v_{w}$$ is the component parallel to the wheel
@@ -523,8 +521,8 @@ v_{w} & =\frac{v_{\|}}{\cos 45^{\circ}} \\
 \end{aligned}
 $$
 
-![](https://cdn.mathpix.com/cropped/2023_02_03_36463e4cf3cc6ac9e1c1g-26.jpg?height=1167&width=628&top_left_y=708&top_left_x=1625){:.image-w300px}
 
+![mecanum drive wheel 3](/assets/img/matfyz/foundation-of-robotics/mecanum-drive-wheel2.jpg){:.image-w300px}
 
 
 ## Localization
