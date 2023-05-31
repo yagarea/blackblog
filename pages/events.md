@@ -18,6 +18,8 @@ Formát je:
 - 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 - 11\. 06\. 2023 - **[Otto von Schirach](https://obscure.cz/cs/tickets/detail/id/568)** - Café v Lese
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
+- 17\. 06\. 2023 - **[Navocane, Hillside, Bound to Break](https://www.facebook.com/events/1201104257439038)** - Prague, Prostor země
+- 17\. 06\. 2023 - **[Sarasota, 4 lišky, Volá Londýn, Od zítra nehrajem](http://www.uvoka.cz/okokulturnik/)** - U vystřelenýho oka
 - 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
 - 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
