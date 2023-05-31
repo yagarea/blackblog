@@ -375,7 +375,7 @@ A vehicle is holonomic if the number of local degrees of freedom of movement equ
 
 ### Ackermann steering
 
-| ![Ackeermann steering example](/assets/img/matfyz/foundation-of-robotics/ackermann-steering1.jpg) | ![Ackermann steering diagram](/assets/img/matfyz/foundation-of-robotics/ackermann-steering2.jpg) |
+| ![Ackeermann steering example](/assets/img/matfyz/foundation-of-robotics/ackermann-steering1.png) | ![Ackermann steering diagram](/assets/img/matfyz/foundation-of-robotics/ackermann-steering2.png) |
 | Basic principle | Simplified model|
 
 - Non-holonomic
