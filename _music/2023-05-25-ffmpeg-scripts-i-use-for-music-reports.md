@@ -1,9 +1,7 @@
 ---
 title: "FFMPEG scritps I use for music reports"
-category: "Software"
+category: "Tips"
 language: "EN"
-latex: false
-layout: post
 ---
 
 ## Rotate video
