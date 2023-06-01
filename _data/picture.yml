@@ -4,6 +4,6 @@ media_queries:
 presets:
   default:
     formats: [webp, png, original]
-    widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
+    widths: [200, 400, 800, 1280] # Image widths, in pixels. 1600
   sizes:
     mobile: 80vw
