@@ -32,4 +32,4 @@ venue: "O2 arena"
 {% include video.html src="/assets/music-reports/2019-02-09-slash-phil-campbell-and-the-bastard-sons/slash5.mp4" %}
 {% endspliter %}
 {% include video.html src="/assets/music-reports/2019-02-09-slash-phil-campbell-and-the-bastard-sons/slash6.mp4" %}
-![Slash](/assets/music-reports/2019-02-09-slash-phil-campbell-and-the-bastard-sons/slash.jpg)
+![Slash](/assets/music-reports/2019-02-09-slash-phil-campbell-and-the-bastard-sons/slash.jpg){:.image-w500px}
