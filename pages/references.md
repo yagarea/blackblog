@@ -45,6 +45,7 @@ SUS department.
 - [grego.site](https://grego.site/) - Maroš Grego
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
 - [grsc.cz](https://grsc.cz/) - Honza Černohorský
+- [olgacinkova.github.io](https://olgacinkova.github.io/) - Olga Cinková
 - [karlin.mff.cuni.cz/~stanovsk](https://www2.karlin.mff.cuni.cz/~stanovsk/) - David Stanovský
 
 ## Not friends but worth visiting
