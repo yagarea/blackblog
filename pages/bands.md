@@ -62,6 +62,7 @@ Phlebotomized               | Progressive death metal   | Netherlands   | Brutal
 Aborted                     | Death metal               | Belgium       | Brutal Assault 11.8. 2022 | ★
 Lost society                | Thrash metal              | Finland       | Brutal Assault 11.8. 2022 | ★
 Cattle decapitation         | Technical death metal     | USA           | Brutal Assault 11.8. 2022 |
+1914                        | Blackned death metal      | Ukraine       | Brutal Assault 11.8. 2022 | ★
 Katatonia                   | Dark rock                 | Sweden        | Brutal Assault 11.8. 2022 |
 Conjurer                    | Progressive sludge metal  | UK            | Brutal Assault 11.8. 2022 |
 Paradise lost               | Gothic doom metal         | UK            | Brutal Assault 11.8. 2022 | ⛬
