@@ -43,10 +43,10 @@ SUS department.
 ## My other friends
 - [andy.ggu.cz](https://andy.ggu.cz/) - Andy Mikulová
 - [grego.site](https://grego.site/) - Maroš Grego
-- [vkane.cz](https://vkane.cz/) - Vojta Káně
 - [grsc.cz](https://grsc.cz/) - Honza Černohorský
-- [olgacinkova.github.io](https://olgacinkova.github.io/) - Olga Cinková
 - [karlin.mff.cuni.cz/~stanovsk](https://www2.karlin.mff.cuni.cz/~stanovsk/) - David Stanovský
+- [olgacinkova.github.io](https://olgacinkova.github.io/) - Olga Cinková
+- [vkane.cz](https://vkane.cz/) - Vojta Káně
 
 ## Not friends but worth visiting
 - [lukesmith.xyz](https://lukesmith.xyz/) - Luke Smith
