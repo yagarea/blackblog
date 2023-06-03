@@ -7,6 +7,7 @@ language: "CZ"
 Snažil jsem se vyhecovat Polaris, aby udělali wall of death pomocí improvizované cedule
 z google translate.
 
+Zde je screenshot instagramu kytaristy:
 {% spliter %}
 ![Polaris instagram](/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/polaris-instagram1.jpg)
 ---
