@@ -14,7 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 - 11\. 06\. 2023 - **[Otto von Schirach](https://obscure.cz/cs/tickets/detail/id/568)** - Café v Lese
 - 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
@@ -37,6 +36,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 18\. 05\. 2023 - **[MØL, Countless Skies](https://rockcafe.cz/en/program/rock-for-people-presents-mol-dk-countless-skies-uk/)** - Rock Café (Jana?)
 - 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
 - 05\. 03\. 2023 - **[Sarasota, Od zítra už nehrajem, KaKam](https://bandzone.cz/koncert/535620-praha-beats-from-basement-koncert-v-beats-from-basement)** - Beats From Basement
