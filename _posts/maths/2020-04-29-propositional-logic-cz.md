@@ -4,7 +4,6 @@ category: "Mathematics"
 bilingual: "/propositional-logic-en/"
 language: "CZ"
 latex: true
-layout: post
 ---
 
 ## Legenda

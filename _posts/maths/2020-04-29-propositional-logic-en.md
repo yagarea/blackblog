@@ -4,7 +4,6 @@ category: "Mathematics"
 bilingual: "/propositional-logic-cz/"
 language: "EN"
 latex: true
-layout: post
 ---
 
 ## Annotation

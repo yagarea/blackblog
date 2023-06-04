@@ -2,7 +2,6 @@
 title:  "Protokol ochutnávání čaje"
 category: "Tea"
 language: "CZ"
-layout: post
 ---
 
 Rozhodl jsem se napsat tento protokol, abych popsal postup jak se (podle mého skromného názoru) seznámit s konkrétním čajem, jak ho prožít na maximum a zároveň udržet co nejobjektivnější podmínky pro jeho recenzi. Tento protokol je silně inspirován ochutnávacím procesem _Mei leaf_ .

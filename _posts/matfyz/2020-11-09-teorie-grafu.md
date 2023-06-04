@@ -4,7 +4,6 @@ category: "Matfyz"
 language: "CZ"
 latex: true
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2020-11-09-teorie-grafu.md?plain=1"
-layout: post
 ---
 
 - .

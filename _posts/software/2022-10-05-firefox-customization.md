@@ -3,7 +3,6 @@ title:  "Firefox customization"
 category: "Software"
 language: "EN"
 latex: false
-layout: post
 ---
 
 This article is about my journey to customize my firefox browser for maximal workflow and efficiency.

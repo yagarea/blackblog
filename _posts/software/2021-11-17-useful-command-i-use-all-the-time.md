@@ -3,7 +3,6 @@ title:	  "Useful commands and utilities I use all the time"
 category: "Software"
 language: "EN"
 latex:    true
-layout:   post
 ---
 
 This is small list of commands I find very useful. This list will never be final 

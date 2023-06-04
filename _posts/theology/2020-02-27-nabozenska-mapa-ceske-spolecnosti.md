@@ -2,7 +2,6 @@
 title:  "Náboženská mapa české společnosti"
 category: "Theology"
 language: "CZ"
-layout: post
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/theology/2020-02-27-nabozenska-mapa-ceske-spolecnosti.md?plain=1"
 ---
 

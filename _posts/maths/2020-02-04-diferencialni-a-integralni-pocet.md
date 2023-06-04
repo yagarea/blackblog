@@ -3,7 +3,6 @@ title:  "Diferenciální a integrální počet"
 category: "Mathematics"
 language: "CZ"
 latex: true
-layout: post
 ---
 
 Malý tahák k diferenciálním a integrálním počtům

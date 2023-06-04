@@ -4,7 +4,6 @@ category: "Mathematics"
 bilingual: "/exponential-and-logarithmic-formulas-cz/"
 language: "EN"
 latex: true
-layout: post
 ---
 
 ## Exponential formulas

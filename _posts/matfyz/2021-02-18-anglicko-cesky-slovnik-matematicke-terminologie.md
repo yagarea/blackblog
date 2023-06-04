@@ -4,7 +4,6 @@ category: "Matfyz"
 language: "CZ"
 latex: true
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2021-02-18-anglicko-cesky-slovnik-matematicke-terminologie.md?plain=1"
-layout: post
 ---
 
 - .

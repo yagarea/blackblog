@@ -4,7 +4,6 @@ category: "Matfyz"
 language: "CZ"
 latex: true
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-10-03-uvod-do-pocitacove-lingvistiky.md?plain=1"
-layout: post
 ---
 
 Pokud naleznete nějakou chybu, můžete jí opravit pomocí tlačítka *edit*.

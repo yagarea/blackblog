@@ -3,7 +3,6 @@ title: "Vim cheatsheet"
 category: "Software"
 language: "CZ"
 latex: true
-layout: post
 ---
 
 Můj osobní cheatsheet věcí, které považuji na vimu za užitečné. Velkou inspirací a zdrojem

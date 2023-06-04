@@ -2,7 +2,6 @@
 title:  "Gong Fu styl"
 category: "Tea"
 bilingual: "/gong-fu-brewing-table-en/"
-language: "CZ"
 layout: post
 ---
 

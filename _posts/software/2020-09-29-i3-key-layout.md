@@ -3,7 +3,6 @@ title:  "My i3wm keyboard layout"
 category: "Software"
 language: "EN"
 latex: false
-layout: post
 ---
 
 > <kbd>⌘</kbd> = mod button

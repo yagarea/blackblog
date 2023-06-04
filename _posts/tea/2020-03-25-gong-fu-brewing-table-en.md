@@ -3,7 +3,6 @@ title:  "Gong Fu brewing"
 category: "Tea"
 bilingual: "/gong-fu-brewing-table-cz/"
 language: "EN"
-layout: post
 ---
 
 **PLEASE NOTE:** Every tea is different and everybody’s taste is different so please use this guide as a starting point and experiment with different parameters according to the tea and your preferences.

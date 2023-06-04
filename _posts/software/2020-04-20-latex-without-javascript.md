@@ -3,7 +3,6 @@ title:  "LaTeX na jekyll blogu bez javascriptu"
 category: "Software"
 language: "CZ"
 latex: true
-layout: post
 ---
 
 

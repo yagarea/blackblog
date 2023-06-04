@@ -4,7 +4,6 @@ category: "Physics"
 language: "CZ"
 latex: true
 edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-08-molekularni-fyzika-a-termika.md?plain=1"
-layout: post
 ---
 
 - .

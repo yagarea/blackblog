@@ -4,7 +4,6 @@ category: "Mathematics"
 bilingual: "/exponential-and-logarithmic-formulas-en/"
 language: "CZ"
 latex: true
-layout: post
 ---
 
 ## Exponenciální vzorce
