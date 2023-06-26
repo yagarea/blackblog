@@ -83,6 +83,7 @@ jektex:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
     - ["\\P", "\\mathbb{P}"]
+    - ["\\O", "\\mathcal{O}"]
 
 # Compression settings
 gzip:
