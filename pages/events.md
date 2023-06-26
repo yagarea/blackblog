@@ -14,12 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
-- 11\. 06\. 2023 - **[Otto von Schirach](https://obscure.cz/cs/tickets/detail/id/568)** - Café v Lese
-- 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
-- 17\. 06\. 2023 - **[Navocane, Hillside, Bound to Break](https://www.facebook.com/events/1201104257439038)** - Prague, Prostor země
-- 17\. 06\. 2023 - **[Sarasota, 4 lišky, Volá Londýn, Od zítra nehrajem](http://www.uvoka.cz/okokulturnik/)** - U vystřelenýho oka
-- 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
 - 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
 - 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
@@ -36,6 +30,13 @@ Formát je:
 ---
 
 ## Proběhlé
+- 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
+- 23\. 06\. 2023 - **[Kompas](https://m.facebook.com/events/647428783460796/)** - Carpe Diem na Flóře
+- 08\.-11\. 06\. 2023 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
+- 11\. 06\. 2023 - **[Otto von Schirach](https://obscure.cz/cs/tickets/detail/id/568)** - Café v Lese
+- 13\. 06\. 2023 - **[Gojira, Municipal Waste, Urne](https://obscure.cz/cs/tickets/detail/id/549)** - Malá sportovní hala
+- 17\. 06\. 2023 - **[Navocane, Hillside, Bound to Break](https://www.facebook.com/events/1201104257439038)** - Prague, Prostor země
+- 17\. 06\. 2023 - **[Sarasota, 4 lišky, Volá Londýn, Od zítra nehrajem](http://www.uvoka.cz/okokulturnik/)** - U vystřelenýho oka
 - 01\. 06\. 2023 - **[Ne Obliviscaris](https://obscure.cz/cs/tickets/detail/id/533)** - Futurum
 - 18\. 05\. 2023 - **[MØL, Countless Skies](https://rockcafe.cz/en/program/rock-for-people-presents-mol-dk-countless-skies-uk/)** - Rock Café (Jana?)
 - 13\. 05\. 2023 - **[Dordeduh, Heiden, Besna](https://goout.net/cs/echoes-of-carpathians-dordeduh%2Bheiden%2Bbesna/szptcyu/)** - Underdogs
