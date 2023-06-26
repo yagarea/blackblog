@@ -4,6 +4,7 @@ permalink: "/albums/"
 layout: default
 ---
 
+<!-- Band | title | cover | year | link | tags -->
 {% album_wall %}
 
 Rammstein | Zeit | 2009 | aaaa | bbb | ccc
