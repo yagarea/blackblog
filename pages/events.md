@@ -23,6 +23,8 @@ Formát je:
 - 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
+- 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
+- 13\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 
 ## Povinné
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel, Tomáš V. Martin K., Tibor M.)
