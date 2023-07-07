@@ -59,7 +59,7 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/literature/2020-0
 - jednalo se o obrácení zájmu od Boha k člověku samému
 - **Základní rysy humanismu** (a vzájemný vztah s renesancí):
 	- Humanismus je soustava názorů či životní program, který představoval základní proud v období renesance
-	- z lat.slova humanus = lidský
+	- z lat. slova humanus = lidský
 	- Humanisté zdůrazňovali přirozenou rovnost všech lidí před Bohem
 	- Zdůrazňoval moc a sílu lidského rozumu v poznávání okolního světa – racionalismus
 	- Literární a vědecké hnutí 14.-16.stol., které programově navazovalo na odkaz antiky
@@ -254,7 +254,7 @@ edit: "https://github.com/yagarea/blackblog/blob/master/_posts/literature/2020-0
 - Záliba v historickém prostředí a prvcích
 
 ## Dadaismus
-- `“dada“` = hračka 
+- `„dada“` = hračka 
 - hnutí, r.1916, dadaisté nalezli azyl ve švýcarském Zurichu
 - reakce na válku, protest proti válečnému mrzačení
 - protest proti umění, morálce, rozumu, kultuře
