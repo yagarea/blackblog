@@ -274,7 +274,7 @@ $$M$$ - ohodnocení proměnných
     - $$\mathrm{effects}$$ - literály, které budou `true` po aplikování operator
 - **Akce** je plně instancovaný operator
 - **Notace**
-    - $$S\ldots$$ - množina literálů
+    - $$S_{\ldots}$$ - množina literálů
     - $$S^{+}$$ - pozitivní atomy v $$S$$
     - $$S^{-}$$ - atomy jejichž negace je v $$S$$
 - akce $$a$$ je _aplikovatelná_ na stavu $$s \Leftrightarrow \mathrm{precond}^{+}(a) \subseteq S \land \mathrm{precond}^{-}(a) \cap S = \emptyset$$
