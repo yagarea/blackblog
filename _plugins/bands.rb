@@ -22,7 +22,7 @@ module Jekyll
         logo = band[0].downcase.parameterize + ".png"
         tags = band[4] == nil ? "" : band[4]
 
-        output += %Q[
+        output = %Q[
 <thead>
   <tr>
     <td class="band-logo-td" rowspan="3">
@@ -40,7 +40,7 @@ module Jekyll
     <td>#{event}</td>
     <td>#{tags}</td>
   </tr>
-</thead>]
+</thead>] + output
       end
       return %Q[<table class="bands-table">] + output + "</table>"
     end
