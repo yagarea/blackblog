@@ -19,3 +19,4 @@ Chtěl bych poděkovat Adamovi a [Andy](https://andy.ggu.cz/) za pořízení zá
 
 ## Ashnikko
 {% include video.html src="/assets/music-reports/2023-06-09-hentai-corporation-hollywood-undead-tchert-ashnikko/ashnikko.mp4" %}
+
