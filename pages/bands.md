@@ -119,15 +119,15 @@ Bleed from within  | Metalcore                | UK      | Brutal Assault 9.8. 20
 Agnostic front     | Hardcore                 | USA     | Brutal Assault 9.8. 2023 |
 Heaving earth      | Death metal              | Czechia | Brutal Assault 9.8. 2023 |
 Chci pnutí         | Noise rock               | Czechia | Brutal Assault 9.8. 2023 |
-Sodom              | Thrash metal             | Germany | Brutal Assault 9.8. 2023 |
+Sodom              | Thrash metal             | Germany | Brutal Assault 9.8. 2023 | ⛬
 Heaven shall burn  | Melodic death metal      | Germany | Brutal Assault 9.8. 2023 |
 Verset Zero        | Indutrial breakcore      | France  | Brutal Assault 9.8. 2023 |
-Meshuggah          | Djent                    | Sweden  | Brutal Assault 9.8. 2023 | ♥ ★
+Meshuggah          | Djent                    | Sweden  | Brutal Assault 9.8. 2023 | ⛬ ♥ ★
 Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 2023 |
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
 
-Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ⛬ ♥ ★
 Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
 Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
 Yeyhategod         | Sludge metal        | USA | Brutal Assault 10.8. 2023 |
@@ -135,26 +135,43 @@ Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 | ★
 Brand of sacrifice | Deathcore           | Canada  | Brutal Assault 10.8. 2023 | ★
 Dying fetus        | Deathgrind          | USA     | Brutal Assault 10.8. 2023 |
 Sepultura          | Groove metal        | Brazil  | Brutal Assault 10.8. 2023 |
-In flames          | Melodic death metal | Sweden  | Brutal Assault 10.8. 2023 | ★
+In flames          | Melodic death metal | Sweden  | Brutal Assault 10.8. 2023 | ⛬ ★
 Watain             | Black metal         | Sweden  | Brutal Assault 10.8. 2023 |
 Carpenter brut     | Synthwave           | France  | Brutal Assault 10.8. 2023 | ★
 Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 | ★
 
 The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |
 Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
-Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 |
-Knocked loose       | Beatdown metalcore           | USA         | Brutal Assault 11.8. 2023 |
-Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 |
+Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 | ★
+Knocked loose       | Beatdown metalcore           | USA         | Brutal Assault 11.8. 2023 | ★
+Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 | ⛬
 Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
 Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
 Skinless            | Brutal death metal           | USA         | Brutal Assault 11.8. 2023 |
-Obituary            | Death metal                  | USA         | Brutal Assault 11.8. 2023 |
-Perturbator         | Synthwave                    | France      | Brutal Assault 11.8. 2023 |
+Obituary            | Death metal                  | USA         | Brutal Assault 11.8. 2023 | ⛬
+Perturbator         | Synthwave                    | France      | Brutal Assault 11.8. 2023 | ⛬
 Cult of fire        | Atmospheric black metal      | Czechia     | Brutal Assault 11.8. 2023 |
 Phragments          | Dark ambient                 | Slovakia    | Brutal Assault 11.8. 2023 |
-Bellwitch           | Funeral doom metal           | USA         | Brutal Assault 11.8. 2023 |
+Bellwitch           | Funeral doom metal           | USA         | Brutal Assault 11.8. 2023 | ⛬ ★
 Shutcoo             | Hardcore techno              | Slovakia    | Brutal Assault 11.8. 2023 |
 Misþyrming          | Black metal                  | Iceland     | Brutal Assault 11.8. 2023 |
+
+I built the sky | Progressive instrumental metal | Australia | Brutal Assault 12.8. 2023 |
+Ithaca          | Hardcore                       | UK        | Brutal Assault 12.8. 2023 |
+Hypno5e         | Progressive metal              | France    | Brutal Assault 12.8. 2023 |
+Maybeshewill    | Post-rock                      | UK        | Brutal Assault 12.8. 2023 | ★
+Anaal nathrakh  | Blackned grindcore             | UK        | Brutal Assault 12.8. 2023 |
+Terror          | Hardcore                       | USA       | Brutal Assault 12.8. 2023 |
+Birds in row    | Posthardcore                   | France    | Brutal Assault 12.8. 2023 |
+Deicide         | Death metal                    | USA       | Brutal Assault 12.8. 2023 | ⛬
+Napalm death    | Grindcore                      | USA       | Brutal Assault 12.8. 2023 |
+Trivium         | Proto-metalcore                | USA       | Brutal Assault 12.8. 2023 | ⛬ ★
+Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12.8. 2023 |
+Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12.8. 2023 |
+Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
+Health           | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
+
+
 
 {% endbands %}
 
