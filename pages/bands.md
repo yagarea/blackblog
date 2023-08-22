@@ -16,7 +16,7 @@ not every band is worthy of being listed.
 {% bands %}
 
 Metallica   | Thrash metal                  | USA       | Eden arena 7.5. 2012  | ⛬
-Gojira      | Progressive groove post-metal | France    | Eden arena 7.5. 2012  | ⛬
+Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012  | ⛬
 Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
 Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
@@ -47,31 +47,31 @@ Avatar          | Alternative metal             | Sweden    | Brutal Assault 9.8
 At the gates    | Melodic death metal           | Sweden    | Brutal Assault 9.8. 2022 |
 Evoken          | Funeral doom metal            | USA       | Brutal Assault 9.8. 2022 | ★
 
-Darkest hour    | Metalcore                             | USA       | Brutal Assault 10.8. 2022 |
-Lorna shore     | Blackned symphonic deathcore          | USA       | Brutal Assault 10.8. 2022 : Forum Karlín 10.9. 2022 | ♥ ★
-Tesseract       | Djent                                 | UK        | Brutal Assault 10.8. 2022 | ★
-Alcest          | Blackgaze                             | France    | Brutal Assault 10.8. 2022 | ★
-Jinjer          | Progressive groove metal / Deathcore  | Ukraine   | Brutal Assault 10.8. 2022 | ♥ ★
-Igorrr          | Experimental electronic metal         | France    | Brutal Assault 10.8. 2022 | ★
-Cannibal corpse | Death metal                           | USA       | Brutal Assault 10.8. 2022 | ⛬
-Dark funeral    | Black metal                           | Sweden    | Brutal Assault 10.8. 2022 | ⛬
-Amenra          | Doom post-metal                       | Belgium   | Brutal Assault 10.8. 2022 |
+Darkest hour    | Metalcore                            | USA     | Brutal Assault 10.8. 2022 |
+Lorna shore     | Blackned symphonic deathcore         | USA     | Brutal Assault 10.8. 2022 : Forum Karlín 10.9. 2022 | ♥ ★
+Tesseract       | Djent                                | UK      | Brutal Assault 10.8. 2022 | ★
+Alcest          | Blackgaze                            | France  | Brutal Assault 10.8. 2022 | ★
+Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 | ♥ ★
+Igorrr          | Experimental electronic metal        | France  | Brutal Assault 10.8. 2022 | ★
+Cannibal corpse | Death metal                          | USA     | Brutal Assault 10.8. 2022 | ⛬
+Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 | ⛬
+Amenra          | Doom post-metal                      | Belgium | Brutal Assault 10.8. 2022 |
 
-Excrementory grindfuckers   | Grindcore                 | Germany       | Brutal Assault 11.8. 2022 |
-Phlebotomized               | Progressive death metal   | Netherlands   | Brutal Assault 11.8. 2022 |
-Aborted                     | Death metal               | Belgium       | Brutal Assault 11.8. 2022 | ★
-Lost society                | Thrash metal              | Finland       | Brutal Assault 11.8. 2022 | ★
-Cattle decapitation         | Technical death metal     | USA           | Brutal Assault 11.8. 2022 |
-1914                        | Blackned death metal      | Ukraine       | Brutal Assault 11.8. 2022 | ★
-Katatonia                   | Dark rock                 | Sweden        | Brutal Assault 11.8. 2022 |
-Conjurer                    | Progressive sludge metal  | UK            | Brutal Assault 11.8. 2022 |
-Paradise lost               | Gothic doom metal         | UK            | Brutal Assault 11.8. 2022 | ⛬
-Jungendwerkhof              | Harsh noise               | Germany       | Brutal Assault 11.8. 2022 | ★
-As I lay dying              | Metalcore                 | USA           | Forum Karlín 4.10. 2019 : Brutal Assault 11.8. 2022 | ♥ ★
-Mercyful fate               | First wave black metal    | Denmark       | Brutal Assault 11.8. 2022 | ⛬
-Cradle of filth             | Extreme gothic metal      | England       | Brutal Assault 11.8. 2022 | ⛬
-Fleshgod apocalypse         | Orchestral death metal    | Italy         | Brutal Assault 11.8. 2022 | ★
-Skepticism                  | Funeral doom metal        | Finland       | Brutal Assault 11.8. 2022 | ★
+Excrementory grindfuckers | Grindcore                | Germany     | Brutal Assault 11.8. 2022 |
+Phlebotomized             | Progressive death metal  | Netherlands | Brutal Assault 11.8. 2022 |
+Aborted                   | Death metal              | Belgium     | Brutal Assault 11.8. 2022 | ★
+Lost society              | Thrash metal             | Finland     | Brutal Assault 11.8. 2022 | ★
+Cattle decapitation       | Technical death metal    | USA         | Brutal Assault 11.8. 2022 |
+1914                      | Blackned death metal     | Ukraine     | Brutal Assault 11.8. 2022 | ★
+Katatonia                 | Dark rock                | Sweden      | Brutal Assault 11.8. 2022 |
+Conjurer                  | Progressive sludge metal | UK          | Brutal Assault 11.8. 2022 |
+Paradise lost             | Gothic doom metal        | UK          | Brutal Assault 11.8. 2022 | ⛬
+Jungendwerkhof            | Harsh noise              | Germany     | Brutal Assault 11.8. 2022 | ★
+As I lay dying            | Metalcore                | USA         | Forum Karlín 4.10. 2019 : Brutal Assault 11.8. 2022 | ♥ ★
+Mercyful fate             | First wave black metal   | Denmark     | Brutal Assault 11.8. 2022 | ⛬
+Cradle of filth           | Extreme gothic metal     | England     | Brutal Assault 11.8. 2022 | ⛬
+Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assault 11.8. 2022 | ★
+Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
 Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 | ★
 Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 |
@@ -111,7 +111,6 @@ Crippled fingers | Hardcore            | Czechia  | Brutal Assault 8.8. 2023 |
 Adacta           | Hardcore punk       | Slovakia | Brutal Assault 8.8. 2023 |
 RedZed           | Trap/Rap metal      | Czechia  | Brutal Assault 8.8. 2023 | ★
 
-
 Feastem            | Grindcore                | Finland | Brutal Assault 9.8. 2023 |
 Devoid of thought  | Death metal              | Italy   | Brutal Assault 9.8. 2023 |
 Angelus apatrida   | Thrash metal             | Spain   | Brutal Assault 9.8. 2023 |
@@ -128,7 +127,6 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
 
-
 Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ♥ ★
 Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
 Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
@@ -142,6 +140,21 @@ Watain             | Black metal         | Sweden  | Brutal Assault 10.8. 2023 |
 Carpenter brut     | Synthwave           | France  | Brutal Assault 10.8. 2023 | ★
 Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 | ★
 
+The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |
+Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
+Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 |
+Knocked loose       | Beatdown metalcore           | USA         | Brutal Assault 11.8. 2023 |
+Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 |
+Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
+Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
+Skinless            | Brutal death metal           | USA         | Brutal Assault 11.8. 2023 |
+Obituary            | Death metal                  | USA         | Brutal Assault 11.8. 2023 |
+Perturbator         | Synthwave                    | France      | Brutal Assault 11.8. 2023 |
+Cult of fire        | Atmospheric black metal      | Czechia     | Brutal Assault 11.8. 2023 |
+Phragments          | Dark ambient                 | Slovakia    | Brutal Assault 11.8. 2023 |
+Bellwitch           | Funeral doom metal           | USA         | Brutal Assault 11.8. 2023 |
+Shutcoo             | Hardcore techno              | Slovakia    | Brutal Assault 11.8. 2023 |
+Misþyrming          | Black metal                  | Iceland     | Brutal Assault 11.8. 2023 |
 
 {% endbands %}
 
