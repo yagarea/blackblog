@@ -1,5 +1,5 @@
 ---
-title:    "I met cabal"
+title:    "I met Cabal"
 category: "Highlights"
 language: "EN"
 ---
@@ -13,7 +13,7 @@ Exchanged enthusiastic words about their mind-bending performance and the energy
 ![My highschool metal crew](/assets/music-reports/2023-08-11-i-met-cabal/cabal-band.jpg)
 ![My highschool metal crew](/assets/music-reports/2023-08-11-i-met-cabal/cabal-vocalist.jpg)
 
-I spoke with them a bit. Vocalist said that the dusty wind made it hard for him so had
+I spoke with them a bit. Vocalist said that the dusty wind made it hard for him so he had
 to drink a lot of water to be able to perform.
 
 It was an unforgettable encounter that solidified my admiration for their music and their down-to-earth personalities.
