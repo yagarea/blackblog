@@ -14,8 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
-- 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
 - 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
 - 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
@@ -26,12 +24,13 @@ Formát je:
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 13\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 
-## Povinné
-- 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel, Tomáš V. Martin K., Tibor M.)
 
 ---
 
 ## Proběhlé
+- 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel, Tomáš V. Martin K., Tibor M.)
+- 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
+- 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
 - 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
 - 23\. 06\. 2023 - **[Kompas](https://m.facebook.com/events/647428783460796/)** - Carpe Diem na Flóře
 - 17\. 06\. 2023 - **[Navocane, Hillside, Bound to Break](https://www.facebook.com/events/1201104257439038)** - Prague, Prostor země
