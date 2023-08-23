@@ -15,13 +15,22 @@ Formát je:
 
 ## Návrhy
 - 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
+- 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
+- 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
+- 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
 - 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
+- 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
 - 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
+- 18\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://obscure.cz/cs/tickets/detail/id/620)** - Futurum
+- 24\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://www.rockhouse.at/Veranstaltungen//in-the-woods-nor-saturnus-den-the-foreshadowing-ita::4597)** - Rockhouse, Salzburg (Jana?)
 - 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
+- 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
+- 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
+- 04\. 02\. 2024 - **[Architects, Spiritbox, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín
 - 13\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 
 
