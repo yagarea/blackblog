@@ -37,7 +37,7 @@ Formát je:
 ---
 
 ## Proběhlé
-- 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel, Tomáš V. Martin K., Tibor M.)
+- 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel S., Tomáš V. Martin K., Tibor M.)
 - 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
 - 26\. 06\. 2023 - **[Clutch, Nate Bergman](https://obscure.cz/cs/tickets/detail/id/557)** - Praha
