@@ -23,6 +23,7 @@ SUS department.
 - [matej.0d9e.tech](https://matej.0d9e.tech/) - Matěj Volf
 - [mrms.cz](https://mrms.cz/) - Marek Maškarinec
 - [rdck.dev](https://rdck.dev/) - Prokop Randáček
+- [honzuvkod.dev](https://honzuvkod.dev/) - Honza Ráček
 
 ---
 
