@@ -2,7 +2,7 @@
 title:  "Firefox customization"
 category: "Software"
 language: "EN"
-latex: false
+latex: true
 ---
 
 This article is about my journey to customize my firefox browser for maximal workflow and efficiency.
@@ -51,52 +51,72 @@ There is config file (with added white spaces to make it easier to read):
 
 ```json
 {
-	"ToolbarShow":true,
-	"ColorsSet":{
-		"scrollbar_height":"5px",
-		"scrollbar_width":"6px",
-		"children_padding_left":"17px",
-		"tab_header_border_radius":"0px",
-		"pin_list_background":"#424242",
-		"attention_background":"#797979",
-		"group_list_background":"#424242",
-		"tab_list_background":"#5e5e5e",
-		"group_list_default_font_color":"#d5d5d5",
-		"group_list_borders":"#a9a9a9",
-		"pin_list_border_bottom":"#212121",
-		"attention_border":"#929292",
-		"toolbar_background":"#424242",
-		"toolbar_shelf_background":"#424242",
-		"toolbar_border_bottom":"#929292",
-		"button_background":"#797979",
-		"button_hover_background":"#919191",
-		"button_on_background":"#919191",
-		"button_icons":"#d5d5d5",
-		"button_icons_hover":"#d5d5d5",
-		"button_on_icons":"#d5d5d5",
-		"button_border":"#5e5e5e",
-		"button_hover_border":"#5e5e5e",
-		"filter_box_background":"#929292",
-		"filter_box_font":"#feffff",
-		"button_shelf_background":"#797979",
-		"button_shelf_hover_background":"#919191",
-		"button_shelf_icons":"#d5d5d5",
-		"button_shelf_border":"#5e5e5e",
-		"button_shelf_hover_border":"#5e5e5e",
-		"button_shelf_icons_hover":"#000000",
-		"group_list_button_hover_background":"#797979"
-		},
-	"TabsSizeSetNumber":0,
-	"TabsMargins":"0",
-	"theme_name":"Personal tree tabs theme",
-	"theme_version":4
+    "ToolbarShow":true,
+    "ColorsSet":{
+        "scrollbar_height":"5px",
+        "scrollbar_width":"6px",
+        "children_padding_left":"17px",
+        "tab_header_border_radius":"0px",
+        "pin_list_background":"#424242",
+        "attention_background":"#797979",
+        "group_list_background":"#424242",
+        "tab_list_background":"#5e5e5e",
+        "group_list_default_font_color":"#d5d5d5",
+        "group_list_borders":"#a9a9a9",
+        "pin_list_border_bottom":"#212121",
+        "attention_border":"#929292",
+        "toolbar_background":"#424242",
+        "toolbar_shelf_background":"#424242",
+        "toolbar_border_bottom":"#929292",
+        "button_background":"#797979",
+        "button_hover_background":"#919191",
+        "button_on_background":"#919191",
+        "button_icons":"#d5d5d5",
+        "button_icons_hover":"#d5d5d5",
+        "button_on_icons":"#d5d5d5",
+        "button_border":"#5e5e5e",
+        "button_hover_border":"#5e5e5e",
+        "filter_box_background":"#929292",
+        "filter_box_font":"#feffff",
+        "button_shelf_background":"#797979",
+        "button_shelf_hover_background":"#919191",
+        "button_shelf_icons":"#d5d5d5",
+        "button_shelf_border":"#5e5e5e",
+        "button_shelf_hover_border":"#5e5e5e",
+        "button_shelf_icons_hover":"#000000",
+        "group_list_button_hover_background":"#797979"
+    },
+    "TabsSizeSetNumber":0,
+    "TabsMargins":"0",
+    "theme_name":"BlackBlog tree tabs theme",
+    "theme_version":4
 }
 ```
 
-<!--
-### uBlock origin
+You can [download this theme here](/assets/download/blackblog-treetabs-theme.tt_theme) and import it tree tabs settings.
+This is the easiest way.
 
-### uMatrix
 
-### KeepassXC
--->
+## Security plugins
+- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[$$^{\text{GPLv3}}$$](https://github.com/gorhill/uBlock) - Best blocker of ads and trackers.
+- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)[$$^{\text{GPLv3}}$$](https://github.com/gorhill/uMatrix) - Awesome tool for fine tuning page scripts and privileges.
+- **KeepassXC**
+- **Decentraleyes**
+- **Privacy possum**
+- **LocalCND**
+- **ClearURLs**
+- **IStillDontCareAboutCookies**
+
+## Productivity
+- **SponsorBlock**
+- **Remove youtube shorts**
+- **HideFeed**
+
+## Quality of life
+- **Libredirect**
+- **DarkReader**
+- **Cookie quick manager**
+- **Return youtube dislike**
+- **Violent monkey**
+
+
