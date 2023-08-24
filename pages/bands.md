@@ -80,7 +80,7 @@ Z                       | Black noise / Drone           | Czechia    | Brutal As
 Somniate                | Black metal                   | Czechia    | Brutal Assault 12.8. 2022 |
 Abbath                  | Black metal                   | Norway     | Brutal Assault 12.8. 2022 | ⛬
 Suffocation             | Technical brutal death metal  | USA        | Brutal Assault 12.8. 2022 | ★ ⛬
-Venom                   | First wave black metal        | UK         | Brutal Assault 12.8. 2022 |
+Venom                   | First wave black metal        | UK         | Brutal Assault 12.8. 2022 | ⛬
 Mysticum                | Industrial black metal        | Norway     | Brutal Assault 12.8. 2022 | ★ ⛬
 Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 | ★
 
@@ -127,7 +127,7 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
 
-Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ⛬ ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ♥ ★
 Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
 Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
 Yeyhategod         | Sludge metal        | USA | Brutal Assault 10.8. 2023 |
