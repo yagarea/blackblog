@@ -98,8 +98,8 @@ This is the easiest way.
 
 
 ## Security plugins
-- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[$$^{\text{GPLv3}}$$](https://github.com/gorhill/uBlock) - Best blocker of ads and trackers.
-- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)[$$^{\text{GPLv3}}$$](https://github.com/gorhill/uMatrix) - Awesome tool for fine tuning page scripts and privileges.
+- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[[GPLv3](https://github.com/gorhill/uBlock)] - Best blocker of ads and trackers.
+- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)[[GPLv3](https://github.com/gorhill/uMatrix)] - Awesome tool for fine tuning page scripts and privileges.
 - **KeepassXC**
 - **Decentraleyes**
 - **Privacy possum**
