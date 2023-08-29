@@ -165,11 +165,12 @@
 .project-card
   display: inline-block
   position: relative
-  margin: 1%
+  margin: 0.25em 0.5em
   flex: 1 1 100%
   float: left
   padding: 15px
-  background-color: #131317
+  background-color: #000000
+  height: 90%
 
   img
     border-radius: 5px
@@ -275,16 +276,25 @@
   height: auto
   margin: auto
 
+  img
+    width: 300px
+    height: auto
+
 .image-w500px
   width: 500px
   max-width: 100%
   height: auto
   margin: auto
 
+  img
+    width: 500px
+    height: auto
+
 .spliter
   display: flex
   flex-wrap: wrap
   justify-content: space-between
+  align-items: stretch
   margin-top: 1em
   width: 100%
 
@@ -294,7 +304,12 @@
   padding: 0
   width: 50%
 
+//.spliter-item:has(> .video-display)
+//  min-width: 300px
+//  width: 100%
+
 .webring-display
   .spliter
     .spliter-item
       min-width: 300px
+
