@@ -1,6 +1,6 @@
 ---
 title: "Vyhecoval jsem Polaris, aby vyvolali wall of death"
-category: "Highlights"
+category: "Meetings"
 language: "CZ"
 ---
 

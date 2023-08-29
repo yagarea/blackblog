@@ -1,6 +1,6 @@
 ---
 title:    "I met Cabal"
-category: "Highlights"
+category: "Meetings"
 language: "EN"
 ---
 
