@@ -6,7 +6,11 @@ layout: page
 
 This is list of my personal projects.
 
+## Software projects
+
 <div class="project-wrapper" markdown="1">
+
+{% spliter %}
 
 {% include project-card.html
 	name="StoPro"
@@ -16,13 +20,7 @@ This is list of my personal projects.
 	repo="https://github.com/yagarea/Stopro"
 %}
 
-{% include project-card.html
-	name="GGU Homepage"
-	image="/assets/img/projects/ggu-website.png"
-	description="Homepage for student group I belong to. Visit [ggu.cz](https://ggu.cz/) for more information about group."
-	used_tech="Jekyll, Ruby, Shell, CSS, HTML"
-	repo="https://github.com/yagarea/ggu.cz/"
-%}
+---
 
 {% include project-card.html
 	name="Slimulator"
@@ -32,6 +30,8 @@ This is list of my personal projects.
 	repo="https://github.com/yagarea/Slimulator/"
 %}
 
+---
+
 {% include project-card.html
 	name="Confgit"
 	image="/assets/img/projects/confgit.jpg"
@@ -39,6 +39,8 @@ This is list of my personal projects.
 	used_tech="Python, Git"
 	repo="https://github.com/yagarea/confgit"
 %}
+
+---
 
 {% include project-card.html
 	name="Javachat" 
@@ -54,6 +56,42 @@ Security features:
 	repo="https://github.com/yagarea/java-chat"
 %}
 
+---
+
+{% include project-card.html
+	name="Laser harp" 
+	image="/assets/img/projects/Harp.jpg"
+	description="This was one of my first big projects. It is musical instrument controlled by interacting with it's laser beams. It can be connected to any PC as MIDI device."
+	used_tech="C++, Python"
+%}
+
+---
+
+{% include project-card.html
+	name="Wakhan thanka"
+	image="/assets/img/projects/wakhan-thanka1.jpg"
+	description="Project made in cooperation with <a href='https://nianticlabs.com/'>Niantic labs</a>. It was robotic Ingress portal. It reacted real time to the players in game and real life. At the top of portal is holographic display projecting eye. Eye was programed to look at players standing near by and changing color based on bage state of portal it self."
+	used_tech="Java, Python"
+%}
+
+{% endspliter %}
+
+</div>
+
+## Web projects
+
+{% spliter %}
+
+{% include project-card.html
+	name="GGU Homepage"
+	image="/assets/img/projects/ggu-website.png"
+	description="Homepage for student group I belong to. Visit [ggu.cz](https://ggu.cz/) for more information about group."
+	used_tech="Jekyll, Ruby, Shell, CSS, HTML"
+	repo="https://github.com/yagarea/ggu.cz/"
+%}
+
+---
+
 {% include project-card.html
 	name="Meziklasí"
 	image="/assets/img/projects/meziklasi.jpg"
@@ -61,6 +99,8 @@ Security features:
 	used_tech="Jekyll, Ruby, Python, CSS, HTML"
 	repo="https://github.com/xiaoxiae/meziklasi"
 %}
+
+---
 
 {% include project-card.html
 	name="Lyricall"
@@ -70,18 +110,4 @@ Security features:
 	repo="https://github.com/yagarea/lyricall"
 %}
 
-{% include project-card.html
-	name="Laser harp" 
-	image="/assets/img/projects/Harp.jpg"
-	description="This was one of my first big projects. It is musical instrument controlled by interacting with it's laser beams. It can be connected to any PC as MIDI device."
-	used_tech="C++, Python"
-%}
-
-{% include project-card.html
-	name="Wakhan thanka"
-	image="/assets/img/projects/wakhan-thanka1.jpg"
-	description="Project made in cooperation with <a href='https://nianticlabs.com/'>Niantic labs</a>. It was robotic Ingress portal. It reacted real time to the players in game and real life. At the top of portal is holographic display projecting eye. Eye was programed to look at players standing near by and changing color based on bage state of portal it self."
-	used_tech="Java, Python"
-%}
-
-</div>
+{% endspliter %}
