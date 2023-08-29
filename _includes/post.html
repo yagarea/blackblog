@@ -1,7 +1,7 @@
 <header class="meta">
   {% if site.minimal != true and include.post.categories.size > 0 and include.preview != true %}
     <div class="categories">
-      <a href="/#{{ include.post.category | downcase }}">{{ include.post.categories | join: ", "  | upcase }}</a>
+			<a href="{%- if include.post.collection == "music" -%}/music{%- endif -%}/#{{- include.post.category | downcase -}}">{{ include.post.categories | join: ", "  | upcase }}</a>
     </div>
   {% endif %}
   <h1><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
