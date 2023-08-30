@@ -1,5 +1,5 @@
 ---
-title:    "Photo of myself peacefully enjoying moshpit"
+title:    "Photo of me peacefully enjoying moshpit"
 category: "Highlights"
 language: "EN"
 ---
