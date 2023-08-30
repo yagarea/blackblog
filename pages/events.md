@@ -27,6 +27,7 @@ Formát je:
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
 - 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
+- 25\. 11\. 2023 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 04\. 02\. 2024 - **[Architects, Spiritbox, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín
