@@ -44,3 +44,4 @@ pages/secret
 .bundle
 Gemfile.lock
 vendor
+.vendor
