@@ -14,7 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
 - 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
 - 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
@@ -37,6 +36,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel S., Tomáš V. Martin K., Tibor M.)
 - 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
 - 13\.-14\. 7\. 2023 - **[Hradby samoty](https://www.hradbysamoty.org)** - Jablonica (Maroš)
