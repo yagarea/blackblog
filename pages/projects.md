@@ -13,22 +13,37 @@ This is list of my personal projects.
 	image="/assets/img/projects/mffcraft.png"
 	description="Plugin for CAS authentication on school minecraft server. This can be used to manage access of players automatically. This is simple web application running independently on minecraft server it self."
 	used_tech="Java, CAS, JTE"
+    license="GPLv3"
 	repo="https://github.com/yagarea/minecraft-matfyz"
 %}
+
+
+{% include project-card.html
+	name="JekTeX"
+	image="/assets/img/projects/jektex.svg"
+	description="A Jekyll plugin for blazing-fast server-side cached LaTeX rendering, with support for macros. Enjoy the comfort of LaTeX and Markdown without cluttering your site with bloated JavaScript."
+	used_tech="Ruby, Jekyll"
+    license="GPLv3"
+	repo="https://github.com/yagarea/jektex"
+%}
+
+
 
 {% include project-card.html
 	name="StoPro"
 	image="/assets/img/projects/stopro.svg"
 	description="Stopro is simple utility which will help you with self control and build work ethic. When you activate self control session all distracting pages will be blocked. List of distracting pages is fully configurable. This can help you focus and stop wasting time."
 	used_tech="Python, Shell"
+    license="GPLv3"
 	repo="https://github.com/yagarea/Stopro"
 %}
 
 {% include project-card.html
 	name="Slimulator"
 	image="/assets/img/projects/slimulator.gif"
-	description="Slimulator is a program you can use to simulate slime mold pathfinding and enviroment exploration. The input is an image of the environment and the output is a video of the simulated slime mold behavior."
+	description="Slimulator is a program you can use to simulate slime mold path finding and environment exploration. The input is an image of the environment and the output is a video of the simulated slime mold behavior."
 	used_tech="C#, FFMPEG"
+    license="GPLv3"
 	repo="https://github.com/yagarea/Slimulator/"
 %}
 
@@ -37,13 +52,14 @@ This is list of my personal projects.
 	image="/assets/img/projects/confgit.jpg"
 	description="Confgit is a Git overhead for version control of your config files. The main difference between confgit and any other config file version system is it's simplicity. It makes version control and migration of config files safe and easy."
 	used_tech="Python, Git"
+    license="GPLv3"
 	repo="https://github.com/yagarea/confgit"
 %}
 
 {% include project-card.html
 	name="Javachat" 
 	image=""
-description="RSA encrypted chatting service writen in java. Project provides sever with administration and client softare.
+description="RSA encrypted chatting service writen in java. Project provides sever with administration and client software.
 
 Security features:	
 
@@ -51,11 +67,12 @@ Security features:
 - Passwords are saved as SHA hashes.
 - Passwords are hashed with randomized salt"
 	used_tech="Java"
+    license="GPLv3"
 	repo="https://github.com/yagarea/java-chat"
 %}
 
 {% include project-card.html
-	name="Laser harp" 
+	name="Laser harp"
 	image="/assets/img/projects/Harp.jpg"
 	description="This was one of my first big projects. It is musical instrument controlled by interacting with it's laser beams. It can be connected to any PC as MIDI device."
 	used_tech="C++, Python"
