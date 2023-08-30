@@ -1,23 +1,18 @@
 <div class="project-card">
-	<h2>{{include.name}}</h2>
+	<h2>{{- include.name -}}</h2>
 	<hr/>
 	<p>
-		{{include.description | markdownify | liquify | remove: "<p>" | remove: "</p>" }}
+		{{- include.description | markdownify | liquify -}}
 	</p>
-	<b>Used technology:  </b> {{include.used_tech}}
-	{% if include.repo %}
-		<br/>
-		<div style="display:inline-block;">
-			<a href="{{include.repo}}">
-				<!--
-				<svg style="width: 10vw">
-					<use xlink:href="/assets/fontawesome/icons.svg#github"></use>
-				</svg>
-				-->
-				<span>Repository</span>
-			</a>
-		</div>
-	{% endif %}
+	<ul>
+		<li><b>Used technology:  </b>{{- include.used_tech -}}</li>
+		{%- if include.license -%}<li><b>License:  </b>{{- include.license -}}</li>{%- endif -%}
+		{%- if include.link -%}<li><b>Link:  </b><a href="{{- include.link -}}">{{- include.link -}}</a></li>{%- endif -%}
+		{%- if include.repo -%}
+		<li><b>Repository:  </b><a href="{{- include.repo -}}">{{- include.repo | replace: "https://", "" -}}</a></li>
+		{%- endif -%}
+	</ul>
+	<br/>
 	<img src="{{include.image}}" alt="{{include.name}}">
 	<br/>
 </div>
