@@ -12,7 +12,8 @@
 		<li><b>Repository:  </b><a href="{{- include.repo -}}">{{- include.repo | replace: "https://", "" -}}</a></li>
 		{%- endif -%}
 	</ul>
+	{%- if include.image -%}
 	<br/>
 	<img src="{{include.image}}" alt="{{include.name}}">
-	<br/>
+	{%- endif -%}
 </div>
