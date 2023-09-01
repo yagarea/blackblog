@@ -2,9 +2,14 @@
 layout: null
 permalink: /feed.xml
 title: Blackblog Atom feed
+email: cerny@matfyz.cz
 ---
-{%- assign all_posts = site.posts | concat: site.music | sort: "date" | reverse -%}
 
+{%- assign all_posts = "" | split: "" -%}
+{%- for collection in site.collections -%}
+	{%- assign all_posts = all_posts | concat: collection.docs -%}
+{%- endfor -%}
+{%- assign all_posts = all_posts | uniq | sort: "date" | reverse -%}
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -15,14 +20,14 @@ title: Blackblog Atom feed
 	<id>{{- site.url -}}/</id>
 	<author>
 		<name>{{- site.author -}}</name>
-		<email>cerny@matfyz.cz</email>
+		<email>{{- page.email -}}</email>
 		<uri>{{- site.url -}}/</uri>
 	</author>
 	<generator>Jekyll v{{- jekyll.version -}}</generator>
 	<logo>/assets/meta/logo.png</logo>
 	<icon>/favicon.ico</icon>
 	<rights type="text">Content is intelectual property of {{ site.author }} unless stated otherwise</rights>
-	{% for post in all_posts %}
+	{% for post in all_posts -%}
 		<entry>
 			<title>{{- post.title | xml_escape -}}</title>
 			<link href="{{- site.url -}}{{- post.url -}}"/>
