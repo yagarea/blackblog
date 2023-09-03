@@ -1,5 +1,5 @@
 ---
-title: "Vyhecoval jsem Polaris, aby vyvolali wall of death"
+title:    "Vyhecoval jsem Polaris, aby vyvolali wall of death"
 category: "Meetings"
 language: "CZ"
 ---
