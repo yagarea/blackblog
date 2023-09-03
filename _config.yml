@@ -45,24 +45,23 @@ collections:
     output: true
     permalink: /music/:title-:year-:month-:day/
 
-
 defaults:
   -
     scope:
        type: "posts"
     values:
       layout: "post"
+      sitemap: true
   -
     scope:
        type: "music"
     values:
       layout: "post"
       category: "music"
-
+      sitemap: true
 
 plugins:
   - jektex
-
 
 # Render options
 disable_disk_cache: false
@@ -85,14 +84,4 @@ jektex:
     - ["\\P", "\\mathbb{P}"]
     - ["\\O", "\\mathcal{O}"]
 
-# Compression settings
-gzip:
-  replace_files: true
-  extensions: [".html", ".css", ".txt", ".ttf", ".atom", ".stl", ".xml", ".svg", ".eot"]
-
-# Clean rendered html
-jekyll_tidy:
-  exclude: ["_includes/*"]
-  ignore_env: "testing"
-  compress_html: false
 
