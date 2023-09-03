@@ -9,8 +9,9 @@ attempting live concerts since then. My music taste is very wide. I find joy in 
 music but experimental music as well. This page is dedicated to my journey as music enthusiast.
 
 <ul class="hfill">
-    <li><h2><a href="/events/">Planned events</a></h2></li>
-    <li><h2><a href="/bands/">Bands I have seen play live</a></h2></li>
+    <li><h3><a href="/events/">Planned events</a></h3></li>
+    <li><h3><a href="/bands/">Bands I have seen play live</a></h3></li>
+    <li><h3><a href="/albums/">Personal favorite albums (WIP)</a></h3></li>
 </ul>
 
 ---
