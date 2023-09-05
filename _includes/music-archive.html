@@ -10,7 +10,9 @@
 				<li>
 					{%- if music_post.venue -%}
 						[<a href="{{ music_post.url }}">{{ music_post.venue | replace: " ","&nbsp;"}}</a>]
-						{%- endif -%}[<a href="{{- music_post.url -}}">{{- music_post.language -}}</a>] <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
+					{%- else -%}
+						[<a href="{{- music_post.url -}}">{{- music_post.language -}}</a>]
+					{%- endif %} <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
 				</li>
 			</ul>
 		{% endfor %}
