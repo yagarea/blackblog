@@ -42,6 +42,9 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 
 ---
 
+
+{% spliter %}
+
 ## My other friends
 - [andy.ggu.cz](https://andy.ggu.cz/) - Andy Mikulová
 - [grego.site](https://grego.site/) - Maroš Grego
@@ -50,7 +53,10 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [olgacinkova.github.io](https://olgacinkova.github.io/) - Olga Cinková
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
 
+---
+
 ## Not friends but worth visiting
 - [lukesmith.xyz](https://lukesmith.xyz/) - Luke Smith
 - [cahlen.org](https://cahlen.org/index.html) - Cahlen Lee
 
+{% endspliter %}
