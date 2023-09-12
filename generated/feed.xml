@@ -24,8 +24,8 @@ email: cerny@matfyz.cz
 		<uri>{{- site.url -}}/</uri>
 	</author>
 	<generator>Jekyll v{{- jekyll.version -}}</generator>
-	<logo>/assets/meta/logo.png</logo>
-	<icon>/favicon.ico</icon>
+	<logo>{{- site.url -}}/assets/meta/logo.png</logo>
+	<icon>{{- site.url -}}/favicon.ico</icon>
 	<rights type="text">Content is intelectual property of {{ site.author }} unless stated otherwise</rights>
 	{% for post in all_posts -%}
 		<entry>
