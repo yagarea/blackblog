@@ -15,6 +15,7 @@ Formát je:
 
 ## Návrhy
 
+- 16\. 09\. 2023 - **[Anna Kolingerová Quartet](https://www.jazzdock.cz/cs/koncert/anna-kolingerova-quartet)** - Jazzdock
 - 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
 - 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
