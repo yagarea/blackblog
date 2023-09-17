@@ -19,7 +19,8 @@ Formát je:
 - 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
 - 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
-- 27\. 09\. 2023 - **[STRAHOV OPENAIR 2023 - John Wolfhooker](https://www.strahovopenair.cz/) - Strahov
+- 27\. 09\. 2023 - **[STRAHOV OPENAIR 2023 - John Wolfhooker](https://www.strahovopenair.cz/)** - Strahov
+- 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
 - 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
 - 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
 - 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
