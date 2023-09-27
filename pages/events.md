@@ -14,15 +14,9 @@ Formát je:
 ```
 
 ## Návrhy
-
-- 16\. 09\. 2023 - **[Anna Kolingerová Quartet](https://www.jazzdock.cz/cs/koncert/anna-kolingerova-quartet)** - Jazzdock
-- 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
-- 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
-- 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
-- 27\. 09\. 2023 - **[STRAHOV OPENAIR 2023 - John Wolfhooker](https://www.strahovopenair.cz/)** - Strahov
 - 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
 - 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
-- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - Meetfactory
+- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - MeetFactory
 - 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
 - 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
 - 18\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://obscure.cz/cs/tickets/detail/id/620)** - Futurum
@@ -31,16 +25,21 @@ Formát je:
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
 - 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
-- 25\. 11\. 2023 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
+- 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 04\. 02\. 2024 - **[Architects, Spiritbox, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín
-- 13\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
-
-
+- 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
+- 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
+- 07\.-10\. 8\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?)
 ---
 
 ## Proběhlé
+- 27\. 09\. 2023 - **[STRAHOV OPENAIR 2023 - John Wolfhooker](https://www.strahovopenair.cz/)** - Strahov
+- 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
+- 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
+- 19\. 09\. 2023 - **[The Omnific, Walkways, Future Static](https://goout.net/cs/the-omnific%2Bwalkways%2Bfuture-static/szqmsgw/?fbclid=IwAR3GlB5lxQdA_Xk-zaOJ50t_H8Cy7dN_fUaTaGhIxh0v6G4BXcxLYdDh8K0)** - Klubovna
+- 16\. 09\. 2023 - **[Anna Kolingerová Quartet](https://www.jazzdock.cz/cs/koncert/anna-kolingerova-quartet)** - Jazzdock
 - 24\. 08\. 2023 - **[Humanity's Last Breath](https://obscure.cz/cs/tickets/detail/id/592)** - Modrá Vopice
 - 09\.-12\. 8\. 2023 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (David S. Honza Č. Jana V., Pavel S., Tomáš V. Martin K., Tibor M.)
 - 30\. 07\. 2023 - **[Sleep Token](https://goout.net/cs/sleep-token/szavbuv/)** - Divadlo Archa
