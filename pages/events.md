@@ -14,12 +14,12 @@ Formát je:
 ```
 
 ## Návrhy
-- 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
-- 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
 - 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - MeetFactory
 - 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
 - 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
 - 18\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://obscure.cz/cs/tickets/detail/id/620)** - Futurum
+- 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
+- 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
 - 24\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://www.rockhouse.at/Veranstaltungen//in-the-woods-nor-saturnus-den-the-foreshadowing-ita::4597)** - Rockhouse, Salzburg (Jana?)
 - 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
@@ -32,6 +32,7 @@ Formát je:
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
 - 07\.-10\. 8\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?)
+
 ---
 
 ## Proběhlé
