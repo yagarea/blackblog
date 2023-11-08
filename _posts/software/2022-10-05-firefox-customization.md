@@ -43,10 +43,10 @@ Full effect will take after restart.
 
 ## Extensions
 
-### TreeTab
+### TreeTab [[dowwnload](https://addons.mozilla.org/en-US/firefox/addon/tree-tabs/)]
 
-I have been using this extension as main tab manager for one year. 
-During that time I developed visual configuration which is best for my needs. 
+I have been using this extension as main tab manager for one year.
+During that time I developed visual configuration which is best for my needs.
 There is config file (with added white spaces to make it easier to read):
 
 ```json
@@ -96,27 +96,28 @@ There is config file (with added white spaces to make it easier to read):
 You can [download this theme here](/assets/download/blackblog-treetabs-theme.tt_theme) and import it tree tabs settings.
 This is the easiest way.
 
+## Extensions
 
-## Security plugins
-- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)[[GPLv3](https://github.com/gorhill/uBlock)] - Best blocker of ads and trackers.
-- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)[[GPLv3](https://github.com/gorhill/uMatrix)] - Awesome tool for fine tuning page scripts and privileges.
-- **KeepassXC**
-- **Decentraleyes**
-- **Privacy possum**
-- **LocalCND**
-- **ClearURLs**
-- **IStillDontCareAboutCookies**
+### Security
+- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Best blocker of ads and trackers. [[GPLv3](https://github.com/gorhill/uBlock)]
+- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) - Awesome tool for fine tuning page scripts and privileges. [[GPLv3](https://github.com/gorhill/uMatrix)]
+- [**KeepassXC**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) - KeepassXC password manager integration [[GPLv3](https://github.com/keepassxreboot/keepassxc-browser)]
+- [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) [[MPL-2.0](https://git.synz.io/Synzvato/decentraleyes)] / [**LocalCND**](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/) [[MPL-2.0](https://codeberg.org/nobody/LocalCDN)] - Local CNDs
+- [**Privacy badger**](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Hidden tracker remover [[GPLv3](https://github.com/EFForg/privacybadger)]
+- [**ClearURLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) - Clears tracking parts of URLs [[GPLv3](https://gitlab.com/ClearURLs/ClearUrls/)]
+- [**IStillDontCareAboutCookies**](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) - Auto management of cookie consent [[GPLv3](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)]
 
-## Productivity
-- **SponsorBlock**
-- **Remove youtube shorts**
-- **HideFeed**
 
-## Quality of life
-- **Libredirect**
-- **DarkReader**
-- **Cookie quick manager**
-- **Return youtube dislike**
-- **Violent monkey**
+### Youtube
+- [**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) - Skip youtube sponsor segments [[LGPL](https://github.com/ajayyy/SponsorBlock)]
+- [**Remove youtube shorts**](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-shorts/) - Removes youtube shorts [[MIT](https://github.com/raven0230/Remove-Youtube-Shorts)]
+- [**HideFeed**](https://addons.mozilla.org/en-US/firefox/addon/hide-feed/) - Hides automated feeds [proprietary]
+- [**Return youtube dislike**](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) - Returns youtube dislike statistics [[GPLv3](https://github.com/Anarios/return-youtube-dislike)]
 
+
+### Quality of life
+- [**Libredirect**](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) - Automatic redirect to libre front end for popular sites [[GPLv3](https://codeberg.org/LibRedirect/)]
+- [**DarkReader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) - Generates dark mode styles for websites without them [[MIT](https://github.com/darkreader/darkreader)]
+- [**Cookie quick manager**](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) - Manual cookie manager [[GPLv3](https://github.com/ysard/cookie-quick-manager)]
+- [**Violent monkey**](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) - user script manager [[MIT](https://github.com/violentmonkey/violentmonkey)]
 
