@@ -28,8 +28,8 @@ Parkway Drive | IRE | 2015 | https://parkwaydriverock.bandcamp.com/album/ire
 Parkway Drive | Atlas | 2012 | https://parkwaydriverock.bandcamp.com/album/atlas
 Parkway Drive | Deep blue | 2010 | https://parkwaydriverock.bandcamp.com/album/deep-blue
 
-Lorna Shore | Pain remains | 2022
-Lorna Shore | Immortal | 2019
+Lorna Shore | Pain remains | 2022 | https://centurymedia.bandcamp.com/album/pain-remains
+Lorna Shore | Immortal | 2019 | https://centurymedia.bandcamp.com/album/immortal
 
 Architects | Holy hell | 2018
 Architects | All our gods have abandoned us | 2016
