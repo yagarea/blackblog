@@ -26,7 +26,6 @@ Jazyk výrokové logiky je určený neprázdnou množinou výrokových prvovýro
 Množina prvovýroků může být konečná nebo i nekonečná, obvykle ale bude spočetná (pokud neřekneme jinak), a bude mít dané uspořádání.
 {% enddef %}
 
-
 {% def %}
 ### Výrok (výroková formule)
 v jazyce P je prvek množiny $$\mathrm{VF}_{\P}$$ definované následovně:
@@ -37,6 +36,24 @@ $$\mathrm{VF}_{P}$$ je nejmenší množina splňující:
 - pro každý výrok $$\varphi \in \mathrm{VF}_{\P}$$ je ($$\neg \varphi$$) také prvek $$\mathrm{VF}_{\P}$$
 - pro každé $$\varphi, \psi \in \mathrm{VF}_{\P}$$ jsou ($$\varphi \land \psi$$), ($$\varphi \lor \psi$$), ($$\varphi \rightarrow \psi$$), a ($$\varphi \leftrightarrow \psi$$) také prvky $$\mathrm{VF}_{\P}$$.
 
+{% enddef %}
+
+{% def %}
+### Vytvořůjící strom
+je konečný uspořádanýstrom, jehož vrcholy jsou označeny výroky podle následujících pravidel:
+
+- listy a pouze listy jsou prvovýroky
+- je-li vrchol označen $$\left( \neg \varphi \right)$$ má jediného syna označeného $$\varphi$$
+- je-li vrchol označen binárním $$\left( \varphi \land \psi \right)$$, $$\left( \varphi \lor \psi \right)$$, $$\left( \varphi \rightarrow \psi \right)$$ nebo $$\left( \varphi \leftrightarrow \psi \right)$$ má dva syny, přičemž _levý_ syn je označen $$\varphi$$ a _pravý_ je označen $$\psi$$.
+
+{% claim %}
+Každý výrok má jednoznačně určený vytvořující strom.
+
+---
+
+Indukcí dle počtu vnoření závorek (odpovídající hloubce vytvořujícího stromu).
+Takovéto důkazy nazýváme důkazy indukcí dle struktury formule.
+{% endclaim %}
 {% enddef %}
 
 {% def %}
@@ -103,6 +120,25 @@ Klauzule je disjunkce literálů. Prázdnou klauzulí rozumíme $$\perp$$.
 Výrok je v konjunktivně normálním tvaru (**C**onjunctive **N**oarmal **F**orm), je-li konjunkcí klauzulí. Prázdným výrokem v **CNF** rozumíme $$\top$$.
 {% enddef %}
 
+### Převody do normálových forem
+
+- **implikace**  
+  do CNF: $$\varphi \rightarrow \psi \sim \neg \varphi \lor \psi $$
+- **ekvivalence**  
+  do CNF: $$\varphi \leftrightarrow \psi \sim \left( \neg \varphi \lor \psi \right) \land \left( \varphi \lor \neq \psi \right)$$  
+  do DNF: $$\varphi \leftrightarrow \psi \sim \left( \varphi \land \psi \right) \lor \left( \neg \varphi \land \neg \psi \right)$$
+- **negace**  
+  do DNF: $$\neg \left( \varphi \land \psi \right) \sim \neg \varphi \lor \neg \psi$$  
+  do CNF: $$\neg \left( \varphi \lor \psi \right) \sim \neg \varphi \land \neg \psi$$  
+  $$\neg\neg\varphi \sim \psi$$
+- **konjunkce**  
+  do DNF: $$\varphi \land \left( \psi \lor \xi \right) \sim \left( \varphi \land \psi \right) \lor \left( \varphi \land \xi \right)$$  
+  do DNF: $$\left( \varphi \lor \psi \right) \land \xi \sim \left( \varphi \land \xi \right) \lor \left( \varphi \land \xi \right)$$
+- **disjunkce**  
+  do CNF: $$\varphi \lor \left( \psi \land \xi \right) \sim \left( \varphi \lor \psi \right) \land \left( \varphi \lor \xi \right)$$  
+  do CNF: $$\left( \varphi \land \psi \right) \lor \xi \sim \left( \varphi \lor \xi \right) \land \left( \varphi \lor \xi \right)$$
+
+
 {% def %}
 ### Elementární konjunkce
 Elementární konjunkce je konjunkce literálů, prázdnou konjunkcí je $$\top$$.
@@ -117,6 +153,12 @@ Výrok je v disjunktivně normálním tvaru (**D**isjuctive **N**ormal **F**orm)
 ### k-CNF
 Výrok je v k-CNF, je-li v CNF a každá jeho klauzule má nejvýše $$k$$ literálů.
 {% enddef %}
+
+{% claim %}
+Mějme konečný jazyk $$\P$$ a libovolnou množinu modelů $$M \subset M_{\P}$$.
+Potom existuje výrok $$\varphi_{DNF}$$ v DNF a výrok $$\varphi_{CNF}$$ v CNF takový,
+že $$M = M_{\P}(\varphi_{DNF}) = M_{\P} (\varphi_{CNF})$$.
+{% endclaim %}
 
 {% def %}
 ### k-SAT
@@ -365,6 +407,29 @@ Pro Hornovy formule můžeme lineární rezoluci dál omezit.
 
 LI-rezoluce (linear input) z formule $$S$$ je lineární rezoluce z $$S$$, ve které je každá boční klauzule $$B_{i}$$ ze (vstupní) formule $$S$$. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 ## Predikátová logika
 
 {% def %}
@@ -372,12 +437,33 @@ LI-rezoluce (linear input) z formule $$S$$ je lineární rezoluce z $$S$$, ve kt
 Jazyk prvního řádu obsahuje proměnné, množinu všech proměnných značíme Var, funkční symboly (včetně konstantních symbolů, což jsou nulární funkční symboly), relační symboly, případně symbol = jako speciální relační symbol, kvantifikátory, logické spojky, závorky. Každá funkční i relační symbol $$S$$ má danou aritu - $$\operatorname{ar}(S) \in \N$$.
 {% enddef %}
 
+
+{% def %}
+## Arita
+Počet parametrů funkce.
+
+Příklady:
+- nulární  - $$0$$
+- unární   - unární mínus ($$-1$$)
+- binární  - mínus ($$2-1$$)
+- ternární - koncionální operator (`x ? y : z`)
+{% enddef %}
+
+{% def %}
 ### Signatura jazyka
 Proměnné, kvantifikátory, logické spojky a závorky jsou logické symboly, funkční a relační symboly jsou _mimologické_ symboly. Rovnost případně uvažujeme zvlášť.
 
 Signatura je dvojice $$\langle\mathcal{R}, \mathcal{F}\rangle$$ disjunktních relačních a funkčních symbolů s danými aritami, žádný z nich není rovnost. Signatura tedy určuje všechny mimologické symboly.
 
 Jazyk je dám signaturou $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$ a uvedením, zda jde o jazyk s rovností či bez. Jazyk musí obsahovat alespoň jeden relační symbol (mimologický či rovnost).
+{% enddef %}
+
+- Ekvivalnce se používá pro formule
+- rovná se používá pro prvky univerza
+
+
+
+
 
 ### Term
 Term je výraz reprezentující hodnoty (složených) funkcí. Konstantní (ground) term je term bez proměnných. Množinu všech termů jazyka $$L$$ značíme $$\operatorname{Term}_{L}$$.
