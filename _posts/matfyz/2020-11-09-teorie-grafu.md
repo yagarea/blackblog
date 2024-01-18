@@ -281,10 +281,14 @@ Cesta je sled, kde se neopakují hrany ani vrcholy
 >> $$\Rightarrow$$ triviální  
 >> $$\Leftarrow$$ uvažujme sled $$S$$
 >> - kdyby se v $$S$$ neopakovaly vrcholy, je to cesta
->> - pokud $$v_k = v_l$$ a $$k < l$$ tak:  
->> $$v_0, e_1, v_1, ..., e_k, v_k, e_{k+1}, ...,e_l, v_l, e_{l+1}, ..., e_n,v_n$$  
->> \$$\downarrow$$
->> $$v_0, e_1, v_1, ..., e_k, v_k = v_l, e_{l+1}, ..., e_n,v_n$$  
+>> - pokud $$v_{k} = v_{l}$$ a $$k < l$$ tak:  
+>>
+>> $$v_{0}, e_{1}, v_{1}, \dots, e_{k}, v_{k}, e_{k+1}, \dots,e_{l}, v_{l}, e_{l+1}, \dots, e_{n},v_{n}$$  
+>>
+>> $$\downarrow$$
+>>
+>> $$v_{0}, e_{1}, v_{1}, \dots, e_{k}, v_{k} = v_{l}, e_{l+1}, \dots, e_{n},v_{n}$$  
+>>
 >> Postupným vystříháváním cyklů vznikne cesta
 
 ---
@@ -350,17 +354,17 @@ v_i \text{ do } v_i = {\sum_i A^3_{ii} \over 6}$$
 >> 1. \$$d_G(u,v) \geq 0$$
 >> 2. \$$d_G(u,v) = \iff u = v$$
 >> 3. \$$d_G(u,v) = d_G(v,u)$$
->> 4. \$$ \bigtriangleup$$nerovnost: $$d_G(u,v) \leq d_G(u,w) + d_G(w,v)$$
+>> 4. \$$\bigtriangleup\text{nerovnost: }d_G(u,v) \leq d_G(u,w) + d_G(w,v)$$
 
 ---
 
 ## Grafové operace
 Nechť $$G=(V,E)$$
 - Přidání vrcholu či hrany: $$G-v$$, $$G-e$$
-- Smazání vrcholu či hrany: $$G-v=G[V(G) \setminus \{v\}]$$, $$G-e$$A
+- Smazání vrcholu či hrany: $$G-v=G[V(G) \setminus \{v\}]$$, $$G-e$$
 - Dělení hrany: $$G \% e = G + x - e + \{u,x\} + \{v,x\}$$
-	- \$$V' := V \cup\{x\}$$ pro $$x \notin V$$
-	- $$E' := E \setminus \{\{u,v\}\} \cup \{\{u,x\},\{v,x\}\}$$
+	- $$V' := V \cup\{x\}$$ pro $$x \notin V$$
+	- \$$E' := E \setminus \{\{u,v\}\} \cup \{\{u,x\},\{v,x\}\}$$
 - Kontrakce hrany: $$G.e = G - u - v + x + (e \setminus \{u,v\} \cup \{x\})$$
 
 Pozorování:  
@@ -513,13 +517,13 @@ Graf je $$G$$ je *strom* $$\equiv G$$ je souvislý $$\land$$ acyklický. Ve $$V(
 >> - \$$ u,v = l$$
 >>    * existuje jen jedna cesta
 >>
->> - 1. $$\implies$$ 3. (indukce)
->> - 1. $$\implies$$ 4. (indukce)
->> - 1. $$\implies$$ 5. (indukce pro $$n=1: \lvert v \lvert = 1, \lvert E \lvert = 0)
->> - 2. $$\implies$$ 1. ($$\neg$$1. $$\implies \neg$$2.)
->> - 3. $$\implies$$ 1. ($$\neg$$1. $$\implies \neg$$3.)
->> - 4. $$\implies$$ 1.
->> - 5. $$\implies$$ 1.
+>> - 1\. $$\implies$$ 3. (indukce)
+>> - 1\. $$\implies$$ 4. (indukce)
+>> - 1\. $$\implies$$ 5. (indukce pro $$n=1: \lvert v \lvert = 1, \lvert E \lvert = 0$$)
+>> - 2\. $$\implies$$ 1. ($$\neg$$1. $$\implies \neg$$2.)
+>> - 3\. $$\implies$$ 1. ($$\neg$$1. $$\implies \neg$$3.)
+>> - 4\. $$\implies$$ 1.
+>> - 5\. $$\implies$$ 1.
 >>
 
 
