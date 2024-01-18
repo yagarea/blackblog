@@ -51,7 +51,7 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [grego.site](https://grego.site/) - Maroš Grego
 - [grsc.cz](https://grsc.cz/) - Honza Černohorský
 - [karlin.mff.cuni.cz/~stanovsk](https://www2.karlin.mff.cuni.cz/~stanovsk/) - David Stanovský
-- [olgacinkova.github.io](https://olgacinkova.github.io/) - Olga Cinková
+- [olga.ggu.cz](https://olga.ggu.cz/) - Olga Cinková
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
 
 ---
