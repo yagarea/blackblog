@@ -36,6 +36,7 @@ United Computer Wizards. The god tier programmers and friends.
 ### [Whizzmot](https://whizzmot.dev)
 Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_coloring).
 - [dominik.whizzmot.dev](https://dominik.whizzmot.dev/) - Dominik Farhan
+- [iuuk.mff.cuni.cz/~sladky/](https://iuuk.mff.cuni.cz/~sladky/) - Ondra Sladký
 
 {% endspliter %}
 </div>
