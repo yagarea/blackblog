@@ -14,19 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - MeetFactory
-- 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
-- 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
-- 18\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://obscure.cz/cs/tickets/detail/id/620)** - Futurum
-- 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
-- 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
-- 24\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://www.rockhouse.at/Veranstaltungen//in-the-woods-nor-saturnus-den-the-foreshadowing-ita::4597)** - Rockhouse, Salzburg (Jana?)
-- 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
-- 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
-- 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
-- 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
-- 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
-- 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 04\. 02\. 2024 - **[Architects, Spiritbox, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
@@ -36,6 +23,19 @@ Formát je:
 ---
 
 ## Proběhlé
+- 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
+- 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
+- 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
+- 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
+- 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
+- 11\. 11\. 2023 - **[Amorphis, Solstafir](https://www.posthof.at/programm/programm/article/amorphis-halo-tour-2023/)** - Posthof Linz (Jana)
+- 28\. 10\. 2023 - **[Post-Rock Fest](https://fb.me/e/1bQ7x4Pdr)** - Cross Club
+- 24\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://www.rockhouse.at/Veranstaltungen//in-the-woods-nor-saturnus-den-the-foreshadowing-ita::4597)** - Rockhouse, Salzburg (Jana?)
+- 19\. 10\. 2023 - **[Babyland, Batáty, MALONE](https://allevents.in/prague/babyland-bat%C3%A1ty-malone-rock-caf%C3%A9-prague/200025391363636#)** - Rock café
+- 18\. 10\. 2023 - **[In the woods..., Saturnus, The Foreshadowing](https://obscure.cz/cs/tickets/detail/id/620)** - Futurum
+- 10\. 10\. 2023 - **[Thy art is murder, Whitechapel, Fit for an autopsy, Spite](https://obscure.cz/cs/tickets/detail/id/586)** - Roxy
+- 08\. 10\. 2023 - **[Dreamcrusher](https://www.heartnoize.cz/dreamcrusher-kill-alters-prague-concert-2023/)** - Underdogs
+- 06\. 10\. 2023 - **[Paradise lost, Primordial, Omnium gatherum, Harakiri for the sky](https://obscure.cz/cs/tickets/detail/id/545)** - MeetFactory
 - 27\. 09\. 2023 - **[STRAHOV OPENAIR 2023 - John Wolfhooker](https://www.strahovopenair.cz/)** - Strahov
 - 25\. 09\. 2023 - **[This will destroy you, The Ocean](https://obscure.cz/cs/tickets/detail/id/607)** - Rock Café
 - 24\. 09\. 2023 - **[Combichrist, Megaherz](https://obscure.cz/cs/tickets/detail/id/583)** - Futurum
