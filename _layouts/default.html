@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 {% if page.language == "CZ" -%}
-<html lang="cs">
+	<html lang="cs">
 {%- else -%}
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+	<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {%- endif %}
-	{% include head.html %}
+	{%- include head.html %}
 	<body>
 		<header class="icons">
-			{% unless site.show_logo != true and site.sidebar or site.navigation and site.external %}
+			{% unless site.show_logo != true and site.sidebar or site.navigation and site.external -%}
 				<a class="logo" href="/">
 					<img src="/assets/meta/logo.png" alt="Black block logo">
 				</a>
 				<br>
-			{% endunless %}
-			{% unless site.show_title != true and site.sidebar or site.navigation and site.external %}
-				<a href="{{ '/' | relative_url }}" class="title">{{ site.title | escape }}</a>
-			{% endunless %}
-			{% if site.navigation or site.external %}
-				{% include menu.html menu=site.navigation icons=false %}
-				{% include menu.html menu=site.external icons=true %}
-			{% else %}
-				{% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" %}
-				{% include menu.html menu=pages %}
-			{% endif %}
-			{% if site.sidebar and site.show_description %}
-				<div class="hidden description">{{ site.description }}</div>
+			{%- endunless -%}
+			{% unless site.show_title != true and site.sidebar or site.navigation and site.external -%}
+				<a href="{{ '/' | relative_url }}" class="title">{{- site.title | escape -}}</a>
+			{%- endunless -%}
+			{%- if site.navigation or site.external -%}
+				{%- include menu.html menu=site.navigation icons=false -%}
+				{%- include menu.html menu=site.external icons=true -%}
+			{%- else -%}
+				{%- assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" -%}
+				{%- include menu.html menu=pages -%}
+			{%- endif -%}
+			{%- if site.sidebar and site.show_description -%}
+				<div class="hidden description">{{- site.description -}}</div>
 			{% endif %}
 		</header>
 		{{ content  | replace: "<br />", "<br>" }}
