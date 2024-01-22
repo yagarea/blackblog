@@ -28,10 +28,13 @@ Formát je:
 - 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
-- 04\. 02\. 2024 - **[Architects, Spiritbox, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín
+- 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
-- 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S.)
-- 07\.-10\. 8\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?)
+- 09\. 02\. 2024 - **[Bad Omens, Poppy](https://rockforpeople.cz/en/concert/bad-omens-3/)** - Forum Karlín (Adam B.)
+- 19\. 02\. 2024 - **[Knocked Loose, Deafheaven, Headbussa](https://obscure.cz/cs/tickets/detail/id/670)** - Lucerna (Adam B.)
+- 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
+- 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava (Adam B.?)
+- 07\.-10\. 8\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B.)
 
 ---
 
