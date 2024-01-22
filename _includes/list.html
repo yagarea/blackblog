@@ -1,12 +1,12 @@
 <lu>
-	{% for item in include.list %}
+	{% for item in include.list -%}
 		<li>
-			{% if item.title != null and item.title != "" %}<b>{{ item.title }}: </b>{% endif %}
-			{% if item.link != null and item.link != "" %}
-				<a href="{{ item.link }}">{{ item.text }}</a>
-			{% else %} 
-				{{ item.text }}
-			{% endif %} 
+			{%- if item.title != null and item.title != "" -%}<b>{{- item.title -}}: </b>{%- endif -%}
+			{%- if item.link != null and item.link != "" -%}
+				<a href="{{- item.link -}}">{{- item.text -}}</a>
+			{%- else -%}
+				{{- item.text -}}
+			{%- endif -%}
 		</li>
-	{% endfor %}
+	{%- endfor %}
 </lu>

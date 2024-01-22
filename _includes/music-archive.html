@@ -1,20 +1,20 @@
-{% assign music_groups = site.music | group_by: "category" | sort: "name" %}
+{%- assign music_groups = site.music | group_by: "category" | sort: "name" -%}
 
 <div class="archive-list">
-	{% for music_group in music_groups %}
-	<h2>{{ music_group.name }}</h2>
-		{%assign music_group_items = music_group.items | sort: "date" | reverse %}
-		{% for music_post in music_group_items %}
+	{% for music_group in music_groups -%}
+	<h2>{{- music_group.name -}}</h2>
+		{%- assign music_group_items = music_group.items | sort: "date" | reverse -%}
+		{% for music_post in music_group_items -%}
 			<ul class="hfill">
-				<li><a href="{{ music_post.url }}">{{ music_post.title }}</a></li>
+				<li><a href="{{ music_post.url }}">{{- music_post.title -}}</a></li>
 				<li>
 					{%- if music_post.venue -%}
-						[<a href="{{ music_post.url }}">{{ music_post.venue | replace: " ","&nbsp;"}}</a>]
+						[<a href="{{ music_post.url }}">{{- music_post.venue | replace: " ","&nbsp;" -}}</a>]
 					{%- else -%}
 						[<a href="{{- music_post.url -}}">{{- music_post.language -}}</a>]
-					{%- endif %} <div class="archive-date">{{ music_post.date | date: "%d. %m. %Y" }}</div>
+					{%- endif %} <div class="archive-date">{{- music_post.date | date: "%d. %m. %Y" -}}</div>
 				</li>
 			</ul>
-		{% endfor %}
-	{% endfor %}
+		{%- endfor -%}
+	{%- endfor %}
 </div>
