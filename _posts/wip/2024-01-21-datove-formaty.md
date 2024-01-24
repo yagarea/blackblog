@@ -5,6 +5,7 @@ language: "CZ"
 latex: true
 layout: post
 wip: true
+edit: "https://github.com/yagarea/blackblog/blob/master/_posts/wip/2024-01-21-datove-formaty.md?plain=1"
 ---
 
 - .
@@ -331,8 +332,71 @@ Příklad:
 
 ## SPARQL a SPARQL endpoity
 - SPARQL - query jazyk na RDF data
-- SPARKQL endpoint
+- SPARQL endpoint
     - HTTP-based web service
     - input: SPARQL query
     - output: data (RDF, CSV, JSON, XML, ...)
+- TODO
+
+## LOV
+
+### Dublin Core
+- Dublin Core Metadata Initiative (DCMI)
+- slovník
+- příklad:
+  > **dcterms:publisher**
+  > Term Name: publisher
+  >
+  > *URI* http://purl.org/dc/terms/publisher  
+  > *Label* Publisher  
+  > *Definition* An entity responsible for making the resource available.
+  > *Type of Term* Property
+  > *Range Includes* http://purl.org/dc/terms/Agent
+  > *Subproperty of* Publisher (http://purl.org/dc/elements/1.1/publisher)
+
+### SKOS
+- Simple Knowledge Organization System
+- slovník pro hierarchie a kolekce konceptů
+- `skos:Concept`
+    - Idea, notion, unit of thought
+- `skos:ConceptScheme`
+    - Agregace jednoho nebo více konceptů
+    - Sémantické vztahy mezi pojmy
+    - Zhruba odpovídá
+        - Individuální tezaurus
+        - Klasifikační schéma
+        - Předmětový systém
+- `SKOS: Lexical Label`
+    - řetězec v přirozeném jazyce
+
+### GoodRelations
+- webový slovník pro E-komerci
+- používá ho google, yahoo, bestbuy, ...
+- Syntax-neutral (Microdata, RDFa, RDF/XML, Turtle, JSON, OData, GData, …)
+- Industry-neutral (použitelný na všechny druhy zboží)
+
+### Schema.org
+- > “Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.”
+
+## Wikidata
+- Wikidata je ve spolupráci upravovaný vícejazyčný graf znalostí hostovaný nadací Wikimedia Foundation.
+- dají se na tom dělat dotazy pomocí SPARQL endpointu
+
+## Grafy
+- Usacase:
+    - Spojení mezi entitami jsou stejně důležitá nebo důležitější než entity samotné.
+    - self-referencing
+        - menežování hierarchií
+    - neomezené hierarchie (distribuční sítě)
+    - reprezentace více cest
+
+### Labeled Property Graph (LPG)
+- Labeled Property Graph data model
+    - orientovaný multigraf
+    - vrcholy mají množinu labelů
+    - hrany mají labely
+    - vrcholy i hrany mají množiny key-value vlastností
+
+### Cypher
+- Query jazyk pro LPG data model
 
