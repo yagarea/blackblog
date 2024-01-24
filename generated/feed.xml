@@ -28,6 +28,7 @@ email: cerny@matfyz.cz
 	<icon>{{- site.url -}}/favicon.ico</icon>
 	<rights type="text">Content is intelectual property of {{ site.author }} unless stated otherwise</rights>
 	{% for post in all_posts -%}
+		{% if post.wip != true -%}
 		<entry>
 			<title>{{- post.title | xml_escape -}}</title>
 			<link href="{{- site.url -}}{{- post.url -}}"/>
@@ -40,5 +41,6 @@ email: cerny@matfyz.cz
 			</author>
 			<content type="html">{{- post.content | xml_escape -}}</content>
 		</entry>
+		{%- endif -%}
 	{%- endfor %}
 </feed>
