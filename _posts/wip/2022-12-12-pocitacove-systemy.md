@@ -1,5 +1,5 @@
 ---
-title: "Počítačové systémy"
+title: "Počítačové systémy (WIP)"
 category: "Matfyz"
 language: "CZ"
 latex: true

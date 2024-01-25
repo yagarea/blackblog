@@ -1,5 +1,5 @@
 ---
-title:  "Úvod do umělé inteligence"
+title:  "Úvod do umělé inteligence (WIP)"
 category: "Matfyz"
 language: "CZ"
 latex: true

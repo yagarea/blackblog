@@ -1,5 +1,5 @@
 ---
-title: "Datové formáty"
+title: "Datové formáty (WIP)"
 category: "Matfyz"
 language: "CZ"
 latex: true
@@ -386,7 +386,7 @@ Příklad:
 - Usacase:
     - Spojení mezi entitami jsou stejně důležitá nebo důležitější než entity samotné.
     - self-referencing
-        - menežování hierarchií
+        - managment hierarchií
     - neomezené hierarchie (distribuční sítě)
     - reprezentace více cest
 
