@@ -101,7 +101,7 @@ Nekrogoblikon       | Melodic death metal               | USA       | Brutal Ass
 
 While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 |
 
-Bound to break  | Metalcore         | Czechia | Futurum 1.12. 2022 | ♥
+Bound to break  | Metalcore         | Czechia | Futurum 1.12. 2022 : Café v lese 2.2 2024 | ♥
 Define me       | Alternative rock  | Czechia | Futurum 1.12. 2022 |
 Hand grenade    | Modern metal      | Czechia | Futurum 1.12. 2022 |
 
@@ -169,7 +169,9 @@ Trivium         | Proto-metalcore                | USA       | Brutal Assault 12
 Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12.8. 2023 |
 Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12.8. 2023 |
 Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
-Health           | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
+Health          | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
+Lorelai         | Post hardcore                  | Czechia   | Café v lese 2.2 2024      |
+Marked as an enemy | Metalcore                   | Czechia   | Café v lese 2.2 2014      |
 
 
 
