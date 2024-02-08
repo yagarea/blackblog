@@ -1,15 +1,11 @@
 ---
 layout: null
-permalink: /feed.xml
-title: Blackblog Atom feed
+permalink: /feed-articles.xml
+title: Blackblog Articles
 email: cerny@matfyz.cz
 ---
 
-{%- assign all_posts = "" | split: "" -%}
-{%- for collection in site.collections -%}
-	{%- assign all_posts = all_posts | concat: collection.docs -%}
-{%- endfor -%}
-{%- assign all_posts = all_posts | uniq | sort: "date" | reverse -%}
+{%- assign all_posts = site.posts | uniq | sort: "date" | reverse -%}
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">

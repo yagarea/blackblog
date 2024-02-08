@@ -1,15 +1,11 @@
 ---
 layout: null
-permalink: /feed.xml
-title: Blackblog Atom feed
+permalink: /feed-music.xml
+title: Blackblog Music News
 email: cerny@matfyz.cz
 ---
 
-{%- assign all_posts = "" | split: "" -%}
-{%- for collection in site.collections -%}
-	{%- assign all_posts = all_posts | concat: collection.docs -%}
-{%- endfor -%}
-{%- assign all_posts = all_posts | uniq | sort: "date" | reverse -%}
+{%- assign all_posts = site.music | uniq | sort: "date" | reverse -%}
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -28,7 +24,7 @@ email: cerny@matfyz.cz
 	<icon>{{- site.url -}}/favicon.ico</icon>
 	<rights type="text">Content is intelectual property of {{ site.author }} unless stated otherwise</rights>
 	{% for post in all_posts -%}
-		{% unless post.wip -%}
+		{% unless post.wip == true -%}
 		<entry>
 			<title>{{- post.title | xml_escape -}}</title>
 			<link href="{{- site.url -}}{{- post.url -}}"/>
