@@ -14,8 +14,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
-- 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
 - 09\. 02\. 2024 - **[Bad Omens, Poppy](https://rockforpeople.cz/en/concert/bad-omens-3/)** - Forum Karlín (Adam B.)
 - 19\. 02\. 2024 - **[Knocked Loose, Deafheaven, Headbussa](https://obscure.cz/cs/tickets/detail/id/670)** - Lucerna (Adam B., Andy)
@@ -26,6 +24,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
+- 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
