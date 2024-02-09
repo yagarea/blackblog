@@ -1,0 +1,43 @@
+---
+layout: null
+permalink: /feed-school.xml
+title: Blackblog School Notes
+email: cerny@matfyz.cz
+---
+
+{%- assign all_posts = site.posts | uniq | sort: "date" | reverse -%}
+{%- assign all_posts = all_posts  | where: "category", "Matfyz" -%}
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title type="html">{{- page.title | xml_escape -}}</title>
+	<link href="{{- site.url -}}{{- page.permalink -}}" rel="self"/>
+	<link href="{{- site.url -}}"/>
+	<updated>{{- site.time | date_to_xmlschema -}}</updated>
+	<id>{{- site.url -}}/</id>
+	<author>
+		<name>{{- site.author -}}</name>
+		<email>{{- page.email -}}</email>
+		<uri>{{- site.url -}}/</uri>
+	</author>
+	<generator>Jekyll v{{- jekyll.version -}}</generator>
+	<logo>{{- site.url -}}/assets/meta/logo.png</logo>
+	<icon>{{- site.url -}}/favicon.ico</icon>
+	<rights type="text">Content is intelectual property of {{ site.author }} unless stated otherwise</rights>
+	{% for post in all_posts -%}
+		{% unless post.wip -%}
+		<entry>
+			<title>{{- post.title | xml_escape -}}</title>
+			<link href="{{- site.url -}}{{- post.url -}}"/>
+			<id>{{ site.url }}{{ post.url }}</id>
+			<category term="{{- post.category | default: 'other' -}}"/>
+			<published>{{- post.date | date_to_xmlschema -}}</published>
+			<updated>{{- post.date | date_to_xmlschema -}}</updated>
+			<author>
+				<name>{{- post.author | default: site.author -}}</name>
+			</author>
+			<content type="html">{{- post.content | xml_escape -}}</content>
+		</entry>
+		{%- endunless -%}
+	{%- endfor %}
+</feed>

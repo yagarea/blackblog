@@ -27,8 +27,8 @@ navigation:
 external:                    # see http://fontawesome.com/icons
   - {title: Meziklasí,  icon: seedling,  url: "https://meziklasi.cz/"}
   - {title: Lyricall,   icon: pen-fancy, url: "https://lyricall.cz/"}
-  - {title: Repository, icon: github,    url: "https://github.com/yagarea/blackblog"}
-  - {title: Subscribe,  icon: rss,       url: "/feed.xml"}
+  - {title: Source,     icon: git-alt,   url: "https://github.com/yagarea/blackblog"}
+  - {title: Subscribe,  icon: rss,       url: "/feeds/"}
 
 # References items
 references:
