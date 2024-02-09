@@ -1,27 +1,27 @@
 <header class="meta">
-  {% if site.minimal != true and include.post.categories.size > 0 and include.preview != true %}
-    <div class="categories">
-			<a href="{%- if include.post.collection == "music" -%}/music{%- endif -%}/#{{- include.post.category | downcase -}}">{{ include.post.categories | join: ", "  | upcase }}</a>
-    </div>
-  {% endif %}
-  <h1><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
-  {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-  <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
-  {% if include.post.edit %}
-		<a class="edit-button" href="{{ include.post.edit }}">[Edit]</a>
-  {% endif%}
-  {% if include.post.bilingual != null and include.post.bilingual != "" %}
-    <br/>
-    {% if include.post.language == "EN" %}
-      [<b>EN</b>/<a href="{{ include.post.bilingual }}" class="categories">CZ</a>]
-    {% else %}
-      [<a href="{{ include.post.bilingual }}" class="categories">EN</a>/<b>CZ</b>]
-    {% endif %}
-  {% endif %}
+	{% if site.minimal != true and include.post.categories.size > 0 and include.preview != true -%}
+		<div class="categories">
+			<a href="{%- if include.post.collection == "music" -%}/music{%- endif -%}/#{{- include.post.category | downcase -}}">{{ include.post.categories | join: ", "	| upcase }}</a>
+		</div>
+	{%- endif %}
+	<h1><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
+	{%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
+	<time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
+	{% unless include.post.no-edit -%}
+		<a class="edit-button" href="https://github.com/yagarea/blackblog/blob/master/{{- page.path -}}?plain=1">[Edit]</a>
+	{%- endunless %}
+	{% if include.post.bilingual != null and include.post.bilingual != "" %}
+		<br/>
+		{% if include.post.language == "EN" %}
+			[<b>EN</b>/<a href="{{ include.post.bilingual }}" class="categories">CZ</a>]
+		{% else %}
+			[<a href="{{ include.post.bilingual }}" class="categories">EN</a>/<b>CZ</b>]
+		{% endif %}
+	{% endif %}
 </header>
 {% if include.preview %}
-  {{ include.post.excerpt }}
-  <div class="more"><a href="{{ include.post.url | relative_url }}">read more</a></div>
-{% else %}
-  {{ include.post.content }}
-{% endif %}
+	{{- include.post.excerpt -}}
+	<div class="more"><a href="{{ include.post.url | relative_url }}">read more</a></div>
+{% else -%}
+	{{- include.post.content -}}
+{%- endif %}

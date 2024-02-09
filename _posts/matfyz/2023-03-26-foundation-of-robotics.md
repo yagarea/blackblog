@@ -3,7 +3,6 @@ title: "Foundations of Robotics (WIP)"
 category: "Matfyz"
 language: "EN"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2023-03-26-introduction-to-robotics.md?plain=1"
 ---
 
 If you find any error you can edit article using **edit link** $$\uparrow$$.

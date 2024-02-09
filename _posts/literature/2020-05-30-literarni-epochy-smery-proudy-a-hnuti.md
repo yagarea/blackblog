@@ -3,7 +3,6 @@ title:  "Literární epochy, směry, proudy a hnutí"
 category: "Literature"
 language: "CZ"
 latex: false
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/literature/2020-05-30-literarni-epochy-smery-proudy-a-hnuti.md?plain=1"
 ---
 
 - .

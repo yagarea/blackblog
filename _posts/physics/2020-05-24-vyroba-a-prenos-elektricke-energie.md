@@ -3,7 +3,6 @@ title: "Výroba a přenos elektrické energie"
 category: "Physics"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-24-vyroba-a-prenos-elektricke-energie.md?plain=1"
 ---
 
 - .

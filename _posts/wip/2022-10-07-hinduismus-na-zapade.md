@@ -4,7 +4,6 @@ category: "Theology"
 language: "CZ"
 latex: true
 wip: true
-edit: ""
 ---
 
 {:toc}

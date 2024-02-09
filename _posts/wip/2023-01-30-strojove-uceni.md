@@ -3,7 +3,6 @@ title: "Strojové učení"
 category: "Matfyz"
 language: "CZ"
 latex: true
-edit: ""
 wip: true
 layout: post
 ---

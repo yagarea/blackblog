@@ -2,7 +2,6 @@
 title:  "Hnutí nového věku"
 category: "Theology"
 language: "CZ"
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/theology/2020-02-21-hnuti-noveho-veku.md?plain=1"
 ---
 
 Osobní poznámky k semináři na Evangelické teologické fakultě Karlovy univerzity.

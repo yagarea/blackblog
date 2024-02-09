@@ -3,7 +3,6 @@ title:  "Tepelné děje v plynech"
 category: "Physics"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-18-tepelne-deje-v-plynech.md?plain=1"
 ---
 
 - .

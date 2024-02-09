@@ -3,7 +3,6 @@ title:  "Lineární algebra II"
 category: "Matfyz"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-03-08-linearni-algebra-2.md?plain=1"
 ---
 
 Pokud naleznete nějakou chybu, můžete jí opravit pomocí tlačítka *edit*.

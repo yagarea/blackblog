@@ -2,7 +2,6 @@
 title:  "Nová náboženská hnutí"
 category: "Theology"
 language: "CZ"
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/theology/2020-02-03-nova-nabozenska-hnuti.md?plain=1"
 
 mormon:
 - { url: "/assets/img/nnh/joseph-smith.png", text: "Portrét Josepha Smithe"}

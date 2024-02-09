@@ -3,7 +3,6 @@ title:  "Hydrodynamika"
 category: "Physics"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/physics/2020-05-10-hydrodynamika.md?plain=1"
 ---
 
 - .

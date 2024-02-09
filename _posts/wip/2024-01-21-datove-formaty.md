@@ -5,7 +5,6 @@ language: "CZ"
 latex: true
 layout: post
 wip: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/wip/2024-01-21-datove-formaty.md?plain=1"
 ---
 
 - .
@@ -399,4 +398,10 @@ Příklad:
 
 ### Cypher
 - Query jazyk pro LPG data model
+- TODO
+
+
+### Hierarchické datové formáty
+- někdy se nazývají stromové
+- Každý soubor má kořen
 

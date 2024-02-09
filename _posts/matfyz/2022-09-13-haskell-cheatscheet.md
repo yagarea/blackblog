@@ -3,7 +3,6 @@ title:  "Haskell cheatsheet"
 category: "Matfyz"
 language: "CZ"
 latex: true
-edit: "https://github.com/yagarea/blackblog/blob/master/_posts/matfyz/2022-09-13-haskell-cheatscheet.md?plain=1"
 ---
 
 <div markdown="1" class="code-no-err">
