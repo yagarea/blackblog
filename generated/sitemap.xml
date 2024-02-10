@@ -1,0 +1,41 @@
+---
+layout: null
+sitemap: true
+permalink: /sitemap.xml
+---
+
+{%- assign every_page = "" | split: "" -%}
+{%- for collection in site.collections -%}
+	{%- assign every_page = every_page | concat: collection.docs -%}
+{%- endfor -%}
+
+{%- assign every_page = every_page | concat: site.pages -%}
+{%- assign every_page = every_page | uniq -%}
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for page in every_page -%}
+	{%- unless page.sitemap == false or
+	page.path contains "404" or
+	page.path contains "secret" or
+	page.path contains "WIP" or
+	page.path contains "assets" or
+	page.path contains "tea" or
+	page.url  contains ".xml" or
+	page.url  contains "robots.txt" or
+	page.url  contains "google"
+	-%}
+		{%- if page.url contains 'index.html' -%}
+				{%- assign page_url = page.url | replace: 'index.html', '' -%}
+			{%- else -%}
+				{%- assign page_url = page.url -%}
+			{%- endif -%}
+			<url>
+				<loc>{{- page.url | absolute_url -}}</loc>
+				<lastmod>{{- page.last_modified | date_to_xmlschema -}}</lastmod>
+				<changefreq>{{- page.changefreq | default: "weekly" -}}</changefreq>
+				<priority>{{- page.priority | default: "0.8" -}}</priority>
+			</url>
+		{% endunless %}
+{% endfor %}
+</urlset>
