@@ -8,7 +8,6 @@ permalink: /sitemap.xml
 {%- for collection in site.collections -%}
 	{%- assign every_page = every_page | concat: collection.docs -%}
 {%- endfor -%}
-
 {%- assign every_page = every_page | concat: site.pages -%}
 {%- assign every_page = every_page | uniq -%}
 
@@ -36,6 +35,6 @@ permalink: /sitemap.xml
 				<changefreq>{{- page.changefreq | default: "weekly" -}}</changefreq>
 				<priority>{{- page.priority | default: "0.8" -}}</priority>
 			</url>
-		{% endunless %}
-{% endfor %}
+		{%- endunless %}
+{% endfor -%}
 </urlset>
