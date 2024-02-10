@@ -4,11 +4,13 @@ permalink: "/feeds/"
 layout: page
 ---
 
+[**EN**/[CZ](/feeds/cz/){:.categories}]
+
 - [**/feed.xml**](/feed.xml) - Feed of all post on this website.
-- [**/feed-articles.xml**](/feed-articles.xml) - Just articles.
+- [**/feed-articles.xml**](/feed-articles.xml) - All my articles.
 - [**/feed-music.xml**](/feed-music.xml) - Music news.
-- [**/feed-school.xml**](/feed-school.xml) - My school notes.
-- [**/feed-school-wip.xml**](/feed-school.xml) - My school notes + work in progress notes.
+- [**/feed-school.xml**](/feed-school.xml) - My notes from collage classes.
+- [**/feed-school-wip.xml**](/feed-school.xml) - My notes from collage classes + work in progress notes.
 
 ## Recommended clients
 These are RSS/Atom feed clients I personally use:
