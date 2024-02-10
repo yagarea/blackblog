@@ -6,7 +6,9 @@ email: cerny@matfyz.cz
 ---
 
 {%- assign all_posts = site.posts | uniq | sort: "date" | reverse -%}
-{%- assign all_posts = all_posts  | where: "category", "Matfyz" -%}
+{%- assign matfyz_posts = all_posts  | where: "category", "Matfyz" -%}
+{%- assign theology_posts = all_posts  | where: "category", "Theology" -%}
+{%- assign all_posts = matfyz_posts | concat: theology_posts | uniq -%}
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
