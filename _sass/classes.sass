@@ -15,8 +15,8 @@
   display: flex
   justify-content: space-between
   list-style-type: none
-  padding-bottom: 0px
-  padding-left: 0px
+  padding-bottom: 0
+  padding-left: 0
   margin: auto
   width: 90%
 
@@ -24,6 +24,10 @@
   margin: auto
 
   ul
+    list-style-type: none
+    width: 90%
+    margin: auto
+    padding: 0
     &:hover
       background-color: darken($dark, 4%)
       transition: 0.2s ease-in-out
@@ -250,18 +254,6 @@
   font-weight: $heading-weight
   line-height: 115%
 
-.album-wall
-  display: flex
-  flex-wrap: wrap
-  justify-content: center
-  margin-top: 1em
-
-.album-display
-  display: inline-block
-  margin: 0
-  padding: 0
-  max-width: 200px
-  max-height: 200px
 
 .image-w300px
   width: 300px
