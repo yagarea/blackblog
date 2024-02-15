@@ -90,3 +90,4 @@ jektex:
 jekyll_tidy:
   exclude:
     - "**/*.scss"
+    - "**/*.xml"
