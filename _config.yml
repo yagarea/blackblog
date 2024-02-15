@@ -66,6 +66,8 @@ plugins:
 
 # Render options
 disable_disk_cache: false
+strict_front_matter: true
+encoding: utf-8
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "scripts/", "LICENSE.txt", "Rakefile", "_meta", "makefile", "README.md"]
 include: [".htaccess"]
 timezone: "Europe/Prague"
