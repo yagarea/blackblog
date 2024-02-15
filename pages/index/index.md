@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Home"
-main_lang: "EN"
+language: "EN"
 permalink: /
 ---
 

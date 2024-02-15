@@ -1,6 +1,7 @@
 ---
 title: "RSS/Atom novinky"
 permalink: "/feeds/cz/"
+language: CZ
 layout: page
 ---
 

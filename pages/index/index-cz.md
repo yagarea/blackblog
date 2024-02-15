@@ -2,7 +2,7 @@
 layout: home
 title: "Úvodní stránka"
 permalink: "/cz/"
-main_lang: "CZ"
+language: "CZ"
 ---
 
 <article style="text-align: center; padding-bottom: 0;">

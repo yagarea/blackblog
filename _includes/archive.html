@@ -9,7 +9,7 @@
 			{%- for post in sorted_posts -%}
 				{%- if post.wip != true -%}
 					{%- if post.bilingual and post.bilingual != "" -%}
-						{%- if post.language == page.main_lang %}
+						{%- if post.language == page.language %}
 						<ul class="hfill">
 							<li><a href="{{- post.url -}}">{{- post.title -}}</a></li>
 							<li>
