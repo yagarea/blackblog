@@ -7,7 +7,7 @@ layout: default
 <article markdown="1">
 # About me
 
-[<b>EN</b>/<a href="/about/cz" class="categories">CZ</a>]
+[**EN**/[CZ](/about/cz/){:.categories}]
 
 I am student studying of [Charles University](https://cuni.cz/), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/).
 I am specializing in Artificial Intelligence and theoretical computer science. My

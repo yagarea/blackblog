@@ -7,8 +7,7 @@ layout: default
 
 <article markdown="1">
 # O mně
-[<a href="/about/" class="categories">EN</a>/<b>CZ</b>]
-
+[[EN](/about/){:.categories}/**CZ**]
 
 Jsem student [Matematicko-fyzikální fakulty](https://www.mff.cuni.cz/) [Karlovy univerzity](https://cuni.cz/).
 Mojí specializací je umělá inteligence a teoretická informatika.
