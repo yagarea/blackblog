@@ -44,6 +44,7 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 ---
 
 
+<div class="webring-display">
 {% spliter %}
 
 ## My other friends
@@ -59,5 +60,8 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 ## Not friends but worth visiting
 - [lukesmith.xyz](https://lukesmith.xyz/) - Luke Smith
 - [cahlen.org](https://cahlen.org/index.html) - Cahlen Lee
+- [vaxry.net](https://vaxry.net/) - Vaxry
 
 {% endspliter %}
+
+</div>
