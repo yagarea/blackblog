@@ -60,6 +60,6 @@ This Blog (and every other web project I've done) is made with this principles i
 - __Self hosted__ - So no third party can affect this site.
 - __100% Static__ - Page does not have any logic on backend.
 - __No Analytics__ - I do not collect any analytics at all.
-- __Public Repository__ - Source code is public under [GPLv3 license](https://www.gnu.org/licenses/agpl-3.0.en.html).
+- __Public Repository__ - Source code is public under [AGPLv3 license](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 </article>
