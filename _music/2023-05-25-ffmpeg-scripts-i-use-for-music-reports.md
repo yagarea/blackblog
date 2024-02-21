@@ -30,3 +30,10 @@ ffmpeg -i video1.mp4 -i video2.mp4 \
     -map "[v]" -map "[a]" -codec copy output.mp4
 ```
 
+## Add blurred sides to vertical video:
+```bash
+ffmpeg -i in.mp4 \
+    -vf 'split[original][copy];[copy]scale=ih*16/9:-1,crop=h=iw*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2' \
+    out.mp4
+```
+
