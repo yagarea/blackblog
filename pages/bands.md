@@ -143,7 +143,7 @@ Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 |
 The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |
 Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
 Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 | ★
-Knocked loose       | Beatdown metalcore           | USA         | Brutal Assault 11.8. 2023 | ★
+Knocked loose       | Beatdown hardcore            | USA         | Brutal Assault 11.8. 2023 : Music bar Lucerna 19.2. 2024 | ★
 Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 | ⛬
 Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
 Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
@@ -170,9 +170,12 @@ Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12
 Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12.8. 2023 |
 Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
 Health          | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
-Lorelai         | Post hardcore                  | Czechia   | Café v lese 2.2 2024      |
-Marked as an enemy | Metalcore                   | Czechia   | Café v lese 2.2 2014      |
 
+Lorelai            | Post hardcore  | Czechia | Café v lese 2.2 2024 |
+Marked as an enemy | Metalcore      | Czechia | Café v lese 2.2 2014 |
+
+Headbussa  | Hardcore punk | France | Music bar Lucerna 21.2. 2024 |
+Deafheaven | Blackgaze     | USA    | Music bar Lucerna 21.2. 2024 |
 
 
 {% endbands %}
