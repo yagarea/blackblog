@@ -16,6 +16,7 @@
   background-size: cover
   background-position: center
   background-repeat: no-repeat
+  position: relative
 
   a
     display: none
@@ -24,11 +25,14 @@
     color: white
     font-size: 1em
     text-align: center
-    text-shadow: 2px 2px 4px black
+    text-shadow: 3px 3px 4px black
+    position: absolute
+    top: 20%
 
 .album-display:hover
-  filter: blur(5px)
-  transition: filter 0.5s
+  img
+    filter: blur(5px) brightness(0.75)
+    transition: filter 0.5s
 
   a
     display: block

@@ -7,19 +7,19 @@ layout: default
 <!-- Band | title | cover | year | link | tags -->
 {% album_wall %}
 
-Rammstein | Zeit | 2009
-Rammstein | Rammstein | 2009
+Rammstein | Zeit | 2022
+Rammstein | Rammstein | 2019
 Rammstein | Liebe Ist Für Alle Da | 2009
-Rammstein | Rosenrot | 2009
-Rammstein | Reise Reise | 2009
-Rammstein | Mutter | 2009
-Rammstein | Sehnsucht | 2009
-Rammstein | Herzeleid | 2009
+Rammstein | Rosenrot | 2005
+Rammstein | Reise Reise | 2004
+Rammstein | Mutter | 2001
+Rammstein | Sehnsucht | 1997
+Rammstein | Herzeleid | 1995
 
 Lindemann | F & M | 2019
 Lindemann | Skills in pills | 2019
 
-Pain | Comming home | 2016 | https://painband.bandcamp.com/album/coming-home-2
+Pain | Coming home | 2016 | https://painband.bandcamp.com/album/coming-home-2
 
 Signs of the Swarm | The disfigurement of existence | 2017 | https://signsoftheswarmmusic.bandcamp.com/album/the-disfigurement-of-existence
 
@@ -36,7 +36,7 @@ Architects | All our gods have abandoned us | 2016
 
 Jinjer | King of everything | 2016 | https://jinjer-jinjer.bandcamp.com/album/king-of-everything
 
-Myrkur | mareridt | 2017 | https://myrkur.bandcamp.com/album/mareridt-deluxe-version
+Myrkur | Mareridt | 2017 | https://myrkur.bandcamp.com/album/mareridt-deluxe-version
 
 Deafheaven | Ordinary Corrupt Human Love | 2018 | https://deafheavens.bandcamp.com/album/ordinary-corrupt-human-love
 Deafheaven | Sunbather | 2013 | https://deafheavens.bandcamp.com/album/sunbather-2

@@ -22,11 +22,14 @@ module Jekyll
         link = album[3] || "#"
         tags = album[4] || ""
 
-        output += %Q[<div class="album-display" style="background-image: url('/assets/img/albums/#{cover}');">
+        output += %Q[
+        <div class="album-display">
+          <img src="/assets/img/albums/#{cover}" alt="#{band} - #{title}" />
           <a href="#{link}">
               <b>#{band}</b> - #{title} (#{year})
           </a>
-        </div>] + "\n"
+        </div>
+        ] + "\n"
       end
       return %Q[<div class="album-wall">] + output + "</div>"
     end
