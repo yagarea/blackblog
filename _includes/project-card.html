@@ -1,9 +1,7 @@
 <div class="project-card">
 	<h2>{{- include.name -}}</h2>
 	<hr/>
-	<p>
 		{{- include.description | markdownify | liquify -}}
-	</p>
 	<ul>
 		{%- if include.used_tech -%}<li><b>Used technology:  </b>{{- include.used_tech -}}</li>{%- endif -%}
 		{%- if include.author -%}<li><b>Author:  </b>{{- include.author -}}</li>{%- endif -%}
