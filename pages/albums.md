@@ -17,10 +17,11 @@ Rammstein | Sehnsucht | 1997
 Rammstein | Herzeleid | 1995
 
 Lindemann | F & M | 2019
-Lindemann | Skills in pills | 2019
+Lindemann | Skills in pills | 2015
 
 Pain | Coming home | 2016 | https://painband.bandcamp.com/album/coming-home-2
 
+Signs of the Swarm | Amongst the low and empty | 2023 | https://centurymedia.bandcamp.com/album/amongst-the-low-empty
 Signs of the Swarm | The disfigurement of existence | 2017 | https://signsoftheswarmmusic.bandcamp.com/album/the-disfigurement-of-existence
 
 Parkway Drive | Revenence | 2018 | https://parkwaydriverock.bandcamp.com/album/reverence
@@ -49,6 +50,11 @@ Suicide Silence | The cleansing | 2007 | https://yewtu.be/watch?v=msM_4uznjAg
 
 Mental cruelty | A hill to die upon | 2023 | https://uniqueleaderrecords.bandcamp.com/album/a-hill-to-die-upon
 Mental cruelty | Purgatorium | 2018 | https://mentalcruelty.bandcamp.com/album/purgatorium
+
+Chelsea Wolfe | Hiss Spun | 2017 | https://chelseawolfe.bandcamp.com/album/hiss-spun
+
+Devourment | Obscene majesty | 2019 | https://devourment.bandcamp.com/album/obscene-majesty
+
 
 {% endalbum_wall %}
 
