@@ -102,7 +102,7 @@ This is the easiest way.
 - [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Best blocker of ads and trackers. [[GPLv3](https://github.com/gorhill/uBlock)]
 - [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) - Awesome tool for fine tuning page scripts and privileges. [[GPLv3](https://github.com/gorhill/uMatrix)]
 - [**KeepassXC**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) - KeepassXC password manager integration [[GPLv3](https://github.com/keepassxreboot/keepassxc-browser)]
-- [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) [[MPL-2.0](https://git.synz.io/Synzvato/decentraleyes)] / [**LocalCND**](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/) [[MPL-2.0](https://codeberg.org/nobody/LocalCDN)] - Local CNDs
+- [**LocalCND**](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/) [[MPL-2.0](https://codeberg.org/nobody/LocalCDN)] / [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) [[MPL-2.0](https://git.synz.io/Synzvato/decentraleyes)] - Local CNDs (I prefer LocalCND)
 - [**Privacy badger**](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Hidden tracker remover [[GPLv3](https://github.com/EFForg/privacybadger)]
 - [**ClearURLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) - Clears tracking parts of URLs [[GPLv3](https://gitlab.com/ClearURLs/ClearUrls/)]
 - [**IStillDontCareAboutCookies**](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) - Auto management of cookie consent [[GPLv3](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)]
