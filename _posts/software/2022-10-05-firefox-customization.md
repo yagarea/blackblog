@@ -7,7 +7,6 @@ latex: true
 
 This article is about my journey to customize my firefox browser for maximal workflow and efficiency.
 
-
 - .
 {:toc}
 
@@ -97,27 +96,47 @@ You can [download this theme here](/assets/download/blackblog-treetabs-theme.tt_
 This is the easiest way.
 
 ## Extensions
+Remember that more extensions you have slower the firefox will run.
+I recommend read descriptions or README files of these extensions and decide if you need them.
+
 
 ### Security
-- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Best blocker of ads and trackers. [[GPLv3](https://github.com/gorhill/uBlock)]
-- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) - Awesome tool for fine tuning page scripts and privileges. [[GPLv3](https://github.com/gorhill/uMatrix)]
-- [**KeepassXC**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) - KeepassXC password manager integration [[GPLv3](https://github.com/keepassxreboot/keepassxc-browser)]
-- [**LocalCND**](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/) [[MPL-2.0](https://codeberg.org/nobody/LocalCDN)] / [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) [[MPL-2.0](https://git.synz.io/Synzvato/decentraleyes)] - Local CNDs (I prefer LocalCND)
-- [**Privacy badger**](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) - Hidden tracker remover [[GPLv3](https://github.com/EFForg/privacybadger)]
-- [**ClearURLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) - Clears tracking parts of URLs [[GPLv3](https://gitlab.com/ClearURLs/ClearUrls/)]
-- [**IStillDontCareAboutCookies**](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) - Auto management of cookie consent [[GPLv3](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)]
+- [**uBlock origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) -
+  Best blocker of ads and trackers. [[GPLv3](https://github.com/gorhill/uBlock)]
+- [**uMatrix**](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) -
+  Awesome tool for fine tuning page scripts and privileges. [[GPLv3](https://github.com/gorhill/uMatrix)]
+- [**KeepassXC**](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) -
+  KeepassXC password manager integration [[GPLv3](https://github.com/keepassxreboot/keepassxc-browser)]
+- [**LocalCND**](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/) [[MPL-2.0](https://codeberg.org/nobody/LocalCDN)] /
+  [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) [[MPL-2.0](https://git.synz.io/Synzvato/decentraleyes)] -
+  Local CNDs (I prefer LocalCND)
+- [**Privacy badger**](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) -
+  Hidden tracker remover [[GPLv3](https://github.com/EFForg/privacybadger)]
+- [**ClearURLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) -
+  Clears tracking parts of URLs [[GPLv3](https://gitlab.com/ClearURLs/ClearUrls/)]
+- [**IStillDontCareAboutCookies**](https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/) -
+  Auto management of cookie consent [[GPLv3](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)]
 
 
 ### Youtube
-- [**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) - Skip youtube sponsor segments [[LGPL](https://github.com/ajayyy/SponsorBlock)]
-- [**Remove youtube shorts**](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-shorts/) - Removes youtube shorts [[MIT](https://github.com/raven0230/Remove-Youtube-Shorts)]
-- [**HideFeed**](https://addons.mozilla.org/en-US/firefox/addon/hide-feed/) - Hides automated feeds [proprietary]
-- [**Return youtube dislike**](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) - Returns youtube dislike statistics [[GPLv3](https://github.com/Anarios/return-youtube-dislike)]
+- [**SponsorBlock**](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) -
+  Skip youtube sponsor segments [[LGPL](https://github.com/ajayyy/SponsorBlock)]
+- [**Remove youtube shorts**](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-shorts/) -
+  Removes youtube shorts [[MIT](https://github.com/raven0230/Remove-Youtube-Shorts)]
+- [**Return youtube dislike**](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) -
+  Returns youtube dislike statistics [[GPLv3](https://github.com/Anarios/return-youtube-dislike)]
+- [**HideFeed**](https://addons.mozilla.org/en-US/firefox/addon/hide-feed/) -
+  Hides automated feeds [proprietary]
 
 
 ### Quality of life
-- [**Libredirect**](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) - Automatic redirect to libre front end for popular sites [[GPLv3](https://codeberg.org/LibRedirect/)]
-- [**DarkReader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) - Generates dark mode styles for websites without them [[MIT](https://github.com/darkreader/darkreader)]
-- [**Cookie quick manager**](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) - Manual cookie manager [[GPLv3](https://github.com/ysard/cookie-quick-manager)]
-- [**Violent monkey**](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) - user script manager [[MIT](https://github.com/violentmonkey/violentmonkey)]
+- [**Libredirect**](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) -
+  Automatic redirect to libre front end for popular sites [[GPLv3](https://codeberg.org/LibRedirect/)]
+- [**DarkReader**](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) -
+  Generates dark mode styles for websites without them [[MIT](https://github.com/darkreader/darkreader)]
+  (WARNING: This can really slow down your browser)
+- [**Cookie quick manager**](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) -
+  Manual cookie manager [[GPLv3](https://github.com/ysard/cookie-quick-manager)]
+- [**Violent monkey**](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) -
+  user script manager [[MIT](https://github.com/violentmonkey/violentmonkey)]
 
