@@ -14,6 +14,8 @@ Formát je:
 ```
 
 ## Návrhy
+- 19\. 3\. - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č.)
+- 23\. 3\. - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K. Honza Č.)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava (Adam B.?, Andy?)
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B.)
@@ -27,7 +29,7 @@ Formát je:
 - 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
 - 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
-- 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum 
+- 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
 - 18\. 11\. 2023 - **[Insomnium, In Mourning](https://obscure.cz/cs/tickets/detail/id/611)** - Akropolis (Jana v to hodně doufá)
 - 12\. 11\. 2023 - **[Carpenter Brut, Perturbator](https://obscure.cz/cs/tickets/detail/id/580)** - Forum Karlín
