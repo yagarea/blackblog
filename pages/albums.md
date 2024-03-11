@@ -19,6 +19,9 @@ Rammstein | Herzeleid | 1995
 Lindemann | F & M | 2019
 Lindemann | Skills in pills | 2015
 
+Emigrate | The persistence of memory | 2021
+Emigrate | Silent so long | 2014
+
 Pain | Coming home | 2016 | https://painband.bandcamp.com/album/coming-home-2
 
 Signs of the Swarm | Amongst the low and empty | 2023 | https://centurymedia.bandcamp.com/album/amongst-the-low-empty
