@@ -10,7 +10,8 @@ music but experimental music as well. This page is dedicated to my journey as mu
 
 - **[Planed Events](/events/)**
 - **[Bands I have seen play live](/bands/)**
-- **[Personal favorite albums](/albums/)**
+- **[Personal favorite albums](/albums/)** (Order is random)
+- **[Band Renegát](https://kapelarenegat.cz/)** (My brother's band)
 
 ---
 
