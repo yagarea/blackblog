@@ -16,8 +16,9 @@ Formát je:
 ## Návrhy
 - 19\. 3\. - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č.)
 - 23\. 3\. - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K. Honza Č.)
+- 27\. 3\. - **[Thrown, No face No Case, Tchert](https://goout.net/cs/thrown%2Bno-face-no-case%2Btchert/sznwuxw/)** - Bike Jesus (Adam B.)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
-- 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava (Adam B.?, Andy?)
+- 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B.)
 
 ---
