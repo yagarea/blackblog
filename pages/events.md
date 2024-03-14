@@ -14,20 +14,25 @@ Formát je:
 ```
 
 ## Návrhy
-- 19\. 3\. - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č.)
-- 23\. 3\. - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K. Honza Č.)
+- 19\. 3\. 2024 - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č., Andy M., Adam B.)
+- 19\. 3\. 2024 - **[Ahmed má hlad, Sarasota, Kamarád krteček](https://fb.me/e/6URbswu8s)** - Kasárny Karlín
+- 19\. 3\. 2024 - **[Festival 3.LF](https://rockcafe.cz/cs/program/freezone-hudebni-charitativni-festival-3-lekarske-fakulty-uk/)** - Rock Café
+- 23\. 3\. 2024 - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K., Honza Č.)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
+- 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava (Adam B.?, Andy?)
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B.)
 
 ---
 
 ## Proběhlé
-- 19\. 02\. 2024 - **[Knocked Loose, Deafheaven, Headbussa](https://obscure.cz/cs/tickets/detail/id/670)** - Lucerna (Adam B., Andy)
+- 19\. 02\. 2024 - **[Knocked Loose, Deafheaven, Headbussa](https://obscure.cz/cs/tickets/detail/id/670)** - Lucerna (Adam B., Andy M.)
 - 09\. 02\. 2024 - **[Bad Omens, Poppy](https://rockforpeople.cz/en/concert/bad-omens-3/)** - Forum Karlín (Adam B.)
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
 - 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
 - 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
+
+{% details **Events of 2023** %}
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
 - 30\. 11\. 2023 - **[Misthyrming et al.](https://obscure.cz/cs/tickets/detail/id/590)** - Futurum
 - 20\. 11\. 2023 - **[Laibach](https://obscure.cz/cs/tickets/detail/id/593)** - Divadlo Hybernia
@@ -78,6 +83,9 @@ Formát je:
 - 08\. 02\. 2023 - **[Dubioza](https://dubioza.org/tour-dates/)** - Olomouc
 - 28\. 01\. 2023 - **[Katatonia, Solstafir](https://obscure.cz/cs/tickets/detail/id/415)** - Roxy
 - 19\. 01\. 2023 - **[Ahmed ma hlad, Klec](https://na-slamniku.cz/koncerty/)** - Na slamníku
+{% enddetails %}
+
+{% details **Events of 2022** %}
 - 15\. 12\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - U Rafa na Hanspaulce  (Honza Č.)
 - 01\. 12\. 2022 - **[Hand grenade, Stellaris, Define me, Bound to break](https://www.facebook.com/events/1194478941130518/)** - Futurum Music Bar
 - 18\. 11\. 2022 - **[We lost the sea](https://www.ticketmaster.cz/event/we-lost-the-sea-solkyri-vstupenky/)** - Modra vopice
@@ -96,4 +104,4 @@ Formát je:
 - 10\. 10\. 2022 - **[Soulkeeper](http://vagon.cz/dnes.php)** - Vagon - [matfyzácká kapela]
 - 04\. 10\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - Cross (Honza Č.) [matfyzácká kapela]
 - 02\. 10\. 2022 - **[The Ocean](https://guides.ticketmaster.cz/event/the-ocean/the-ocean-2021-underdogs/)** - Underdogs (Pavel S.)
-
+{% enddetails %}
