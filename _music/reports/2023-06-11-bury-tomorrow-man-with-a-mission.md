@@ -5,6 +5,8 @@ language: "CZ"
 venue: "Rock for people"
 ---
 
+Chtěl bych poděkovat Adamovi a [Andy](https://andy.ggu.cz/) za pořízení záznamů.
+
 ## Man with a Mission
 {% include video.html src="/assets/music-reports/2023-06-11-bury-tomorrow-man-with-a-mission/man-with-a-mission1.mp4" %}
 {% include video.html src="/assets/music-reports/2023-06-11-bury-tomorrow-man-with-a-mission/man-with-a-mission2.mp4" %}
