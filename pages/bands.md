@@ -61,7 +61,7 @@ Excrementory grindfuckers | Grindcore                | Germany     | Brutal Assa
 Phlebotomized             | Progressive death metal  | Netherlands | Brutal Assault 11.8. 2022 |
 Aborted                   | Death metal              | Belgium     | Brutal Assault 11.8. 2022 | ★
 Lost society              | Thrash metal             | Finland     | Brutal Assault 11.8. 2022 | ★
-Cattle decapitation       | Technical death metal    | USA         | Brutal Assault 11.8. 2022 |
+Cattle decapitation       | Technical death metal    | USA         | Brutal Assault 11.8. 2022 : Meet factory 23.3. 2024 |
 1914                      | Blackned death metal     | Ukraine     | Brutal Assault 11.8. 2022 | ★
 Katatonia                 | Dark rock                | Sweden      | Brutal Assault 11.8. 2022 |
 Conjurer                  | Progressive sludge metal | UK          | Brutal Assault 11.8. 2022 |
@@ -127,7 +127,7 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
 
-Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 | ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 : Meet factory 23.3. 2024 | ♥ ★
 Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
 Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
 Yeyhategod         | Sludge metal        | USA | Brutal Assault 10.8. 2023 |
@@ -177,10 +177,16 @@ Marked as an enemy | Metalcore      | Czechia | Café v lese 2.2 2014 |
 Headbussa  | Hardcore punk | France | Music bar Lucerna 21.2. 2024 |
 Deafheaven | Blackgaze     | USA    | Music bar Lucerna 21.2. 2024 |
 
+Paledusk      | Japanese metalcore | Japan     | Meet factory 19.3. 2024 |
+Thornhill     | Metalcore          | Australia | Meet factory 19.3. 2024 |
+Silent planet | Metalcore          | USA       | Meet factory 19.3. 2024 |
+
+Vomit forth     | Death metal | USA | Meet factory 23.3. 2024 |
+200 stab wounds | Death metal | USA | Meet factory 23.3. 2024 |
 
 {% endbands %}
 
-## Ostatní
+## Other (random order)
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
