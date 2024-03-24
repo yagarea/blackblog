@@ -8,4 +8,4 @@ After [Paledusk concert](/music/silent-planet-thornhill-paledusk-2024-03-19/) I 
 
 ![Paledusk volcalist and us](/assets/music-reports/2024-03-19-silent-planet-thornhill-paledusk/i-met-paledusk-vocalist.jpg)
 
-From left to right: Me, Vocalist, Adam, [Andy](https://andy.ggu.cz/) and cloakroom lady.
+**From left to right:** Me, Vocalist, Adam, [Andy](https://andy.ggu.cz/) and cloakroom lady.
