@@ -14,19 +14,19 @@ Formát je:
 ```
 
 ## Návrhy
-- 19\. 3\. 2024 - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č., Andy M., Adam B.)
-- 19\. 3\. 2024 - **[Ahmed má hlad, Sarasota, Kamarád krteček](https://fb.me/e/6URbswu8s)** - Kasárny Karlín
-- 19\. 3\. 2024 - **[Festival 3.LF](https://rockcafe.cz/cs/program/freezone-hudebni-charitativni-festival-3-lekarske-fakulty-uk/)** - Rock Café
-- 23\. 3\. 2024 - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K., Honza Č.)
 - 27\. 3\. 2024 - **[Thrown, No face No Case, Tchert](https://goout.net/cs/thrown%2Bno-face-no-case%2Btchert/sznwuxw/)** - Bike Jesus (Adam B.)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
-- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B.)
+- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K.)
 
 ---
 
 ## Proběhlé
+- 23\. 3\. 2024 - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K., Honza Č.)
+- 19\. 3\. 2024 - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č., Andy M., Adam B.)
+- 19\. 3\. 2024 - **[Ahmed má hlad, Sarasota, Kamarád krteček](https://fb.me/e/6URbswu8s)** - Kasárny Karlín
+- 19\. 3\. 2024 - **[Festival 3.LF](https://rockcafe.cz/cs/program/freezone-hudebni-charitativni-festival-3-lekarske-fakulty-uk/)** - Rock Café
 - 19\. 02\. 2024 - **[Knocked Loose, Deafheaven, Headbussa](https://obscure.cz/cs/tickets/detail/id/670)** - Lucerna (Adam B., Andy M.)
 - 09\. 02\. 2024 - **[Bad Omens, Poppy](https://rockforpeople.cz/en/concert/bad-omens-3/)** - Forum Karlín (Adam B.)
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (Petr S.?)
