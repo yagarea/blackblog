@@ -5,6 +5,7 @@ module Jekyll
   class BandsBlock < Liquid::Block
     def render(context)
       text = super
+      md_converter = context.registers[:site].find_converter_instance(::Jekyll::Converters::Markdown)
       parsed_text = text.split("\n")
       output = ""
       for band_line in parsed_text
@@ -18,7 +19,7 @@ module Jekyll
         name = band[0]
         genre = band[1]
         country = band[2]
-        event = band[3].gsub(":","<br/>")
+        event =  md_converter.convert(band[3].gsub(":","<br/>")).gsub("<p>","").gsub("</p>","")
         logo = band[0].downcase.parameterize + ".png"
         tags = band[4] == nil ? "" : band[4]
 
