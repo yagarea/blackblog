@@ -61,7 +61,7 @@ Excrementory grindfuckers | Grindcore                | Germany     | Brutal Assa
 Phlebotomized             | Progressive death metal  | Netherlands | Brutal Assault 11.8. 2022 |
 Aborted                   | Death metal              | Belgium     | Brutal Assault 11.8. 2022 | ★
 Lost society              | Thrash metal             | Finland     | Brutal Assault 11.8. 2022 | ★
-Cattle decapitation       | Technical death metal    | USA         | Brutal Assault 11.8. 2022 : Meet factory 23.3. 2024 |
+Cattle decapitation       | Technical death metal    | USA         | Brutal Assault 11.8. 2022 : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#cattle-decapitation) |
 1914                      | Blackned death metal     | Ukraine     | Brutal Assault 11.8. 2022 | ★
 Katatonia                 | Dark rock                | Sweden      | Brutal Assault 11.8. 2022 |
 Conjurer                  | Progressive sludge metal | UK          | Brutal Assault 11.8. 2022 |
@@ -101,9 +101,9 @@ Nekrogoblikon       | Melodic death metal               | USA       | Brutal Ass
 
 While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 |
 
-Bound to break  | Metalcore         | Czechia | Futurum 1.12. 2022 : Café v lese 2.2 2024 | ♥
-Define me       | Alternative rock  | Czechia | Futurum 1.12. 2022 |
-Hand grenade    | Modern metal      | Czechia | Futurum 1.12. 2022 |
+Bound to break  | Metalcore         | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#bound-to-break) : [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#bound-to-break) | ♥
+Define me       | Alternative rock  | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#define-me) |
+Hand grenade    | Modern metal      | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#hand-grenade) |
 
 Okult            | Death metal         | Czechia  | Brutal Assault 8.8. 2023 |
 Innersphere      | Melodic death metal | Czechia  | Brutal Assault 8.8. 2023 |
@@ -127,7 +127,7 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
 
-Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 : Meet factory 23.3. 2024 | ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
 Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
 Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
 Yeyhategod         | Sludge metal        | USA | Brutal Assault 10.8. 2023 |
@@ -171,18 +171,18 @@ Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12
 Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
 Health          | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
 
-Lorelai            | Post hardcore  | Czechia | Café v lese 2.2 2024 |
-Marked as an enemy | Metalcore      | Czechia | Café v lese 2.2 2014 |
+Lorelai            | Post hardcore  | Czechia | [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#lorelai) |
+Marked as an enemy | Metalcore      | Czechia | [Café v lese 2.2 2014](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#marked-as-an-enemy) |
 
-Headbussa  | Hardcore punk | France | Music bar Lucerna 21.2. 2024 |
-Deafheaven | Blackgaze     | USA    | Music bar Lucerna 21.2. 2024 |
+Headbussa  | Hardcore punk | France | [Music bar Lucerna 21.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#headbusa) |
+Deafheaven | Blackgaze     | USA    | [Music bar Lucerna 21.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#deafheaven) |
 
-Paledusk      | Japanese metalcore | Japan     | Meet factory 19.3. 2024 |
-Thornhill     | Metalcore          | Australia | Meet factory 19.3. 2024 |
-Silent planet | Metalcore          | USA       | Meet factory 19.3. 2024 |
+Paledusk      | Japanese metalcore | Japan     | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#paledusk) |
+Thornhill     | Metalcore          | Australia | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#thornhill) |
+Silent planet | Metalcore          | USA       | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#silent-planet) |
 
-Vomit forth     | Death metal | USA | Meet factory 23.3. 2024 |
-200 stab wounds | Death metal | USA | Meet factory 23.3. 2024 |
+Vomit forth     | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#vomit-forth) |
+200 stab wounds | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#200-stab-wounds) |
 
 {% endbands %}
 
