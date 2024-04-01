@@ -58,6 +58,8 @@ Chelsea Wolfe | Hiss Spun | 2017 | https://chelseawolfe.bandcamp.com/album/hiss-
 
 Devourment | Obscene majesty | 2019 | https://devourment.bandcamp.com/album/obscene-majesty
 
+In this moment | Black widow     | 2014
+Halestorm      | Strange case of | 2012
 
 {% endalbum_wall %}
 
