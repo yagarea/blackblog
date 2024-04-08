@@ -11,6 +11,7 @@ This is list of webrings of my friends.
 {% spliter %}
 ### [GGU](https://ggu.cz/)
 Great Geeks United - My own webring.
+- [grego.site](https://grego.site/) - Maroš Grego
 - [slama.dev](https://slama.dev/) - Tomáš Sláma
 - [dvdkon.ggu.cz](https://dvdkon.ggu.cz/) - David Koňařík
 - [jc.ggu.cz](https://jc.ggu.cz/) - Me
@@ -49,7 +50,6 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 
 ## My other friends
 - [andy.ggu.cz](https://andy.ggu.cz/) - Andy Mikulová
-- [grego.site](https://grego.site/) - Maroš Grego
 - [grsc.cz](https://grsc.cz/) - Honza Černohorský
 - [karlin.mff.cuni.cz/~stanovsk](https://www2.karlin.mff.cuni.cz/~stanovsk/) - David Stanovský
 - [olga.ggu.cz](https://olga.ggu.cz/) - Olga Cinková
