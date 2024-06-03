@@ -199,7 +199,7 @@ Funkce $$f$$, která je spojitá na intervalu $$(A;B)$$:
 
 Tečna ke grafu funkce $$f$$ v bodě $$T = [x_0, y_0]$$; $$y_0 = f(x_0)$$:
 
-$$ y -y_0 = f'(x).(x - x_0) $$
+$$ y - y_0 = f'(x_0).(x - x_0) $$
 
 
 ### Inflexe
