@@ -114,9 +114,9 @@ RedZed           | Trap/Rap metal      | Czechia  | Brutal Assault 8.8. 2023 | �
 Feastem            | Grindcore                | Finland | Brutal Assault 9.8. 2023 |
 Devoid of thought  | Death metal              | Italy   | Brutal Assault 9.8. 2023 |
 Angelus apatrida   | Thrash metal             | Spain   | Brutal Assault 9.8. 2023 |
-Fit for an autopsy | Deathcore                | USA     | Brutal Assault 9.8. 2023 |
-Bleed from within  | Metalcore                | UK      | Brutal Assault 9.8. 2023 | ★
-Agnostic front     | Hardcore                 | USA     | Brutal Assault 9.8. 2023 |
+Fit for an autopsy | Deathcore                | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#fit-for-an-autopsy) |
+Bleed from within  | Metalcore                | UK      | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#bleed-from-within) | ★
+Agnostic front     | Hardcore                 | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#agnostic-front) |
 Heaving earth      | Death metal              | Czechia | Brutal Assault 9.8. 2023 |
 Chci pnutí         | Noise rock               | Czechia | Brutal Assault 9.8. 2023 |
 Sodom              | Thrash metal             | Germany | Brutal Assault 9.8. 2023 | ⛬
