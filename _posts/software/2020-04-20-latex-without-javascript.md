@@ -153,9 +153,9 @@ $$
 Suspendisse et molestie quam.
 {% endhighlight %}
 
->Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 >
-> $$ 
+> $$
 > i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) 
 > $$
 >
