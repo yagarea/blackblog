@@ -13,8 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
-- 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
@@ -23,6 +21,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
+- 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 27\. 03\. 2024 - **[Thrown, No face No Case, Tchert](https://goout.net/cs/thrown%2Bno-face-no-case%2Btchert/sznwuxw/)** - Bike Jesus (Adam B.)
 - 23\. 03\. 2024 - **[Cattle decapitation, Signs of the swarm, 200 stab wounds, Vomit forth](https://obscure.cz/cs/tickets/detail/id/629)** - Meetfactory (Martin K., Honza Č., Andy M.)
 - 19\. 03\. 2024 - **[Polaris, Silent Planet, Thornhill and Paledusk](https://goout.net/en/polaris%2Bpaledusk%2Bsilent-planet%2Bthornhill/szcoujw/)** - Meet Factory (Honza Č., Andy M., Adam B.)
