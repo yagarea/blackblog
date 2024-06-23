@@ -54,6 +54,7 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [karlin.mff.cuni.cz/~stanovsk](https://www2.karlin.mff.cuni.cz/~stanovsk/) - David Stanovský
 - [olga.ggu.cz](https://olga.ggu.cz/) - Olga Cinková
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
+- [kahann.cz](https://kahann.cz/) - Kačka Doubková
 
 ---
 
