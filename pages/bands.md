@@ -73,7 +73,7 @@ Cradle of filth           | Extreme gothic metal     | England     | Brutal Assa
 Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assault 11.8. 2022 | ★
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
-Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 | ★
+Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 |
 Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 |
 Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
 Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
