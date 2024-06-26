@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- "/tea/gaba-oolong-cake/cake.jpg"	
-- "/tea/gaba-oolong-cake/dry-leaf.jpg"
-- "/tea/gaba-oolong-cake/liquor.jpg"
-- "/tea/gaba-oolong-cake/wet-leaf.jpg"
+- "/assets/img/tea/gaba-oolong-cake/cake.jpg"	
+- "/assets/img/tea/gaba-oolong-cake/dry-leaf.jpg"
+- "/assets/img/tea/gaba-oolong-cake/liquor.jpg"
+- "/assets/img/tea/gaba-oolong-cake/wet-leaf.jpg"
 
 info:
 - { title: "Název", text: "加碼茶茶餅" }
@@ -60,4 +60,4 @@ rating: "8"
 RedditLink: ""
 ---
 
-Až do teď jsem na focení čaje k recenzím používal foťák zabudovaný v mém mobilním telefonu. Tento čaj mě ale donutil sáhnout už po zrcadlovce, protože kontrast tmavých lístků na bílém pozadí byl už pro můj ubohý iPhone příliš. Fotky měly rozbitou expozici tak moc, že byly pro recenzi nepoužitelné. <a href="/tea/gaba-oolong-cake/cake-unused.jpg">Přesvědčte se sami.</a> Zrcadlovka se mi osvědčila, tak jsem se rozhodl s ní fotit i budoucí recenze. Tato komplikace je i důvodem, proč na fotografii níže není disk celý.
+Až do teď jsem na focení čaje k recenzím používal foťák zabudovaný v mém mobilním telefonu. Tento čaj mě ale donutil sáhnout už po zrcadlovce, protože kontrast tmavých lístků na bílém pozadí byl už pro můj ubohý iPhone příliš. Fotky měly rozbitou expozici tak moc, že byly pro recenzi nepoužitelné. <a href="/assets/img/tea/gaba-oolong-cake/cake-unused.jpg">Přesvědčte se sami.</a> Zrcadlovka se mi osvědčila, tak jsem se rozhodl s ní fotit i budoucí recenze. Tato komplikace je i důvodem, proč na fotografii níže není disk celý.

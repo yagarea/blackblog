@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- "/tea/gaba-oolong-cake/cake.jpg"
-- "/tea/gaba-oolong-cake/dry-leaf.jpg"
-- "/tea/gaba-oolong-cake/liquor.jpg"
-- "/tea/gaba-oolong-cake/wet-leaf.jpg"
+- "/assets/img/tea/gaba-oolong-cake/cake.jpg"
+- "/assets/img/tea/gaba-oolong-cake/dry-leaf.jpg"
+- "/assets/img/tea/gaba-oolong-cake/liquor.jpg"
+- "/assets/img/tea/gaba-oolong-cake/wet-leaf.jpg"
 
 info:
 - { title: "Name", text: "加碼茶茶餅" }
@@ -59,4 +59,4 @@ rating: "8"
 RedditLink: ""
 ---
 
-Until now, I have been using a camera built into my phone to document tea for reviews. But this tea forced me to use the SLR, because the contrast of dark leaves on a white background was too much for my poor iPhone to handle. The photos had a broken exposure and were unusable. <a href="/tea/gaba-oolong-cake/cake-unused.jpg"> See for yourself. </a> The SLR has worked for me, so I decided to make future reviews with it. This complication is also the reason why the disc in the photo below is already broken.
+Until now, I have been using a camera built into my phone to document tea for reviews. But this tea forced me to use the SLR, because the contrast of dark leaves on a white background was too much for my poor iPhone to handle. The photos had a broken exposure and were unusable. <a href="/assets/img/tea/gaba-oolong-cake/cake-unused.jpg"> See for yourself. </a> The SLR has worked for me, so I decided to make future reviews with it. This complication is also the reason why the disc in the photo below is already broken.

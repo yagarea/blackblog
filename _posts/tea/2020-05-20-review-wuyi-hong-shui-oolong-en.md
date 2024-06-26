@@ -7,10 +7,10 @@ layout: tea-review
 
 
 photos:
-- "/tea/wuyi-hong-shui-oolong/cake.jpg"
-- "/tea/wuyi-hong-shui-oolong/dry-leaf.jpg"
-- "/tea/wuyi-hong-shui-oolong/liquor.jpg"
-- "/tea/wuyi-hong-shui-oolong/wet-leaf.jpg"
+- "/assets/img/tea/wuyi-hong-shui-oolong/cake.jpg"
+- "/assets/img/tea/wuyi-hong-shui-oolong/dry-leaf.jpg"
+- "/assets/img/tea/wuyi-hong-shui-oolong/liquor.jpg"
+- "/assets/img/tea/wuyi-hong-shui-oolong/wet-leaf.jpg"
 
 info:
 - { title: "Name", text: "武夷紅水烏龍茶餅" }

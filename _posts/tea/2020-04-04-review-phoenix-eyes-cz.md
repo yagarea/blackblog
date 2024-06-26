@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- "/tea/phoenix-eyes/all.jpg"
-- "/tea/phoenix-eyes/dry-leaf.jpg"
-- "/tea/phoenix-eyes/liquor.jpg"
-- "/tea/phoenix-eyes/wet-leaf.jpg"
+- "/assets/img/tea/phoenix-eyes/all.jpg"
+- "/assets/img/tea/phoenix-eyes/dry-leaf.jpg"
+- "/assets/img/tea/phoenix-eyes/liquor.jpg"
+- "/assets/img/tea/phoenix-eyes/wet-leaf.jpg"
 
 info:
 - { title: "Název", text: "Phoenix Eyes" }

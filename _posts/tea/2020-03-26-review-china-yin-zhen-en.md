@@ -8,10 +8,10 @@ layout: tea-review
 
 
 photos:
-- "/tea/china-yin-zhen/all.jpg"
-- "/tea/china-yin-zhen/dry-leaf.jpg"
-- "/tea/china-yin-zhen/liquor.jpg"
-- "/tea/china-yin-zhen/wet-leaf.jpg"
+- "/assets/img/tea/china-yin-zhen/all.jpg"
+- "/assets/img/tea/china-yin-zhen/dry-leaf.jpg"
+- "/assets/img/tea/china-yin-zhen/liquor.jpg"
+- "/assets/img/tea/china-yin-zhen/wet-leaf.jpg"
 
 info:
 - { title: "Name", text: "China Yin Zhen" }
