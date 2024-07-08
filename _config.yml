@@ -91,3 +91,12 @@ jekyll_tidy:
   exclude:
     - "**/*.scss"
     - "**/*.xml"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .vendor/bundle
+  - README.md
+  - LICENSE
+  - Makefile
+
