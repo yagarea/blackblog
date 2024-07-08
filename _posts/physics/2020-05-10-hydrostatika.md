@@ -129,12 +129,12 @@ $$ \frac{p_1}{p_2} = \frac{h_1}{h_2} $$
 2. Na dolní podstavu kvádru v hloubce $$h_2$$ působí hydrostatická tlaková síla $$F_2 = Sh_2\rho g$$
 3. Výslednice sil $$F_1$$ a $$F_2$$ je vztlaková síla
 4. Z toho vyplývá:
+   
+   $$ F_{vz} = F_2 - F_1 = Sh_2\rho g - Sh_1\rho g = S(h_1 - h_2)\rho g $$
 
-	$$ F_{vz} = F_2 - F_1 = Sh_2\rho g - Sh_1\rho g = S(h_1 - h_2)\rho g $$
-
-<div><lu><li>5\. A jelikož $$h_2 - h_1 = \Delta h = h$$, kdy $$h$$ je výška tělesa, platí:</li></lu></div>
-
-$$ F_vz = Sh\rho g = V\rho g $$
+5. A jelikož $$h_2 - h_1 = \Delta h = h$$, kdy $$h$$ je výška tělesa, platí:
+   
+   $$ F_vz = Sh\rho g = V\rho g $$
 
 ## Archimédův zákon 
 - Archimédés ze Syrakus byl řecký matematik, fyzik, filozof, vynálezce a astronom
