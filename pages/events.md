@@ -13,7 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K.)
@@ -21,6 +20,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 27\. 03\. 2024 - **[Thrown, No face No Case, Tchert](https://goout.net/cs/thrown%2Bno-face-no-case%2Btchert/sznwuxw/)** - Bike Jesus (Adam B.)
