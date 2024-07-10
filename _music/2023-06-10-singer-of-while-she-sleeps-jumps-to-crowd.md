@@ -1,5 +1,5 @@
 ---
-title:    "Singer of While she sleeps clibs tent pillar and jumps to crowd"
+title:    "Singer of While she sleeps climbs tent pillar and jumps to crowd"
 category: "Highlights"
 language: "EN"
 ---
