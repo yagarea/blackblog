@@ -15,7 +15,7 @@ Formát je:
 ## Návrhy
 - 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
-- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K.)
+- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K., Tom V.)
 
 ---
 
