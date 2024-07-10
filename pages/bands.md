@@ -125,19 +125,19 @@ Verset Zero        | Indutrial breakcore      | France  | Brutal Assault 9.8. 20
 Meshuggah          | Djent                    | Sweden  | Brutal Assault 9.8. 2023 | ⛬ ♥ ★
 Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 2023 |
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
-Artificial brain   | Experimental death metal | USA     | Brutal Assault 9.8. 2023 |
+Artificial brain   | Experimental death metal | USA     | [Brutal Assault 9.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#artificial-brain) |
 
-Signs of the swarm | Slamming deathcore  | USA | Brutal Assault 10.8. 2023 : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
-Ingested           | Slamming deathcore  | UK  | Brutal Assault 10.8. 2023 |
-Malevolence        | Hardcore            | UK  | Brutal Assault 10.8. 2023 |
-Yeyhategod         | Sludge metal        | USA | Brutal Assault 10.8. 2023 |
+Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
+Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
+Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) |
+Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
 Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 | ★
 Brand of sacrifice | Deathcore           | Canada  | Brutal Assault 10.8. 2023 | ★
-Dying fetus        | Deathgrind          | USA     | Brutal Assault 10.8. 2023 |
-Sepultura          | Groove metal        | Brazil  | Brutal Assault 10.8. 2023 |
-In flames          | Melodic death metal | Sweden  | Brutal Assault 10.8. 2023 | ⛬ ★
-Watain             | Black metal         | Sweden  | Brutal Assault 10.8. 2023 |
-Carpenter brut     | Synthwave           | France  | Brutal Assault 10.8. 2023 | ★
+Dying fetus        | Deathgrind          | USA     | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#dying-fetus) |
+Sepultura          | Groove metal        | Brazil  | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#sepultura) |
+In flames          | Melodic death metal | Sweden  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#in-flames) | ⛬ ★
+Watain             | Black metal         | Sweden  | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#watain) |
+Carpenter brut     | Synthwave           | France  | [Brutal Assault 10.8. 2023](/music/carpenter-brut-2023-08-10/) | ★
 Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 | ★
 
 The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |

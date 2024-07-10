@@ -4,7 +4,7 @@ category: "Meetings"
 language: "EN"
 ---
 
-After [Paledusk concert](/music/silent-planet-thornhill-paledusk-2024-03-19/) I and my friends have met Paledusk vocalist.
+After [Paledusk concert](/music/silent-planet-thornhill-paledusk-2024-03-19/#paledusk) I and my friends have met Paledusk vocalist.
 
 ![Paledusk volcalist and us](/assets/music-reports/2024-03-19-silent-planet-thornhill-paledusk/i-met-paledusk-vocalist.jpg)
 
