@@ -1,5 +1,5 @@
 ---
-title: "Nortlane, Polaris, Void of vision"
+title: "Northlane, Polaris, Void of vision"
 category: "Concert report"
 language: "CZ"
 venue: "Palác Akropolis"
@@ -19,8 +19,8 @@ venue: "Palác Akropolis"
 ## Polaris
 {% include video.html src="/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/polaris.mp4" %}
 
-## Nortlane
-![Nortlane](/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/northlane.jpg)
+## Northlane
+![Northlane](/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/northlane.jpg)
 
 {% include video.html src="/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/northlane1.mp4" %}
 {% include video.html src="/assets/music-reports/2019-12-14-northlane-polaris-void-of-vision/northlane2.mp4" %}
