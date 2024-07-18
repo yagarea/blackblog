@@ -34,6 +34,9 @@ Mezi mé oblíbené sporty patří lezení na umělé stěně a běžkové lyžo
 > ## „Nejlepší myšlenka je ta, která ponechává vždy určitou skulinu pro možnost, že všechno je současně úplně jinak.“
 > \- Václav Havel
 
+## Osobní kompilace
+- [Software co používám](/about/software/)
+
 ## Kontakty a odkazy
 
 {%- include contact-card.html contacts=site.references -%}

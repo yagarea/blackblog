@@ -34,6 +34,9 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 > ## „Best idea is the one, which lets always small slit for possibility, that everything can be totally different.“
 > \- Václav Havel
 
+## Personal lists
+- [Software I use](/about/software/)
+
 ## Contacts and links
 
 {%- include contact-card.html contacts=site.references -%}
