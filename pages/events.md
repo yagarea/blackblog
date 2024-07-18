@@ -13,7 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K., Tom V.)
 - 01\. 10\. 2024 - **[Northlane, Novelists, TEN56](https://obscure.cz/cs/tickets/detail/id/708)** - Meetfactory (Honza Č., Pavel Č.)
@@ -22,6 +21,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
 - 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
@@ -103,7 +103,7 @@ Formát je:
 - 26\. 10\. 2022 - **[Sarasota](https://matfyzak.cz/wp/beanie/)** - na Beanii (Honza Č.) [matfyzácká kapela]
 - 25\. 10\. 2022 - **[Author&Punisher a Perturbator](https://obscure.cz/cs/tickets/detail/id/398)** - Lucerna (Silně uvažuje Honza Č.)
 - 24\. 10\. 2022 - **[Sarasota, Cake Talk](https://bandzone.cz/koncert/530334-praha-na-slamniku-koncert-na-slamniku)** - Na Slamníku [matfyzácká kapela]
-- 23\. 10\. 2022 - **Sri Chinmoye** - [těžký bizár]
+- 23\. 10\. 2022 - **[Sri Chinmoye](https://www.informuji.cz/akce/praha/258788-songs-of-the-soul-hudba-sri-chinmoye/)** - [těžký bizár]
 - 16\. 10\. 2022 - **[Hexis, Drom, Tengri](https://www.crossclub.cz/cs/program/7043-mad-cross/)** - Cross
 - 10\. 10\. 2022 - **[Soulkeeper](http://vagon.cz/dnes.php)** - Vagon - [matfyzácká kapela]
 - 04\. 10\. 2022 - **[Sdružení rodičů a přátel ropy](http://srpr.cz/info.php#gigs)** - Cross (Honza Č.) [matfyzácká kapela]
