@@ -143,7 +143,7 @@ Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 |
 The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |
 Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
 Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 | ★
-Knocked loose       | Beatdown hardcore            | USA         | Brutal Assault 11.8. 2023 : Music bar Lucerna 19.2. 2024 | ★
+Knocked loose       | Beatdown hardcore            | USA         | Brutal Assault 11.8. 2023 : [Music bar Lucerna 19.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#knocked-loose) | ★
 Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 | ⛬
 Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
 Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
