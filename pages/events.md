@@ -17,12 +17,13 @@ Formát je:
 - 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K., Tom V.)
 - 01\. 10\. 2024 - **[Northlane, Novelists, TEN56](https://obscure.cz/cs/tickets/detail/id/708)** - Meetfactory (Honza Č., Pavel Č.)
 - 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
+- 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
 
 ---
 
 ## Proběhlé
 - 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
-- 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica
+- 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica (Maroš G.)
 - 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
 - 12\.-15\. 06\. 2024 - **[Rock for People](https://rockforpeople.cz/)** - Hradec Králové, Park 360 (Petr S., Adam B.)
 - 27\. 03\. 2024 - **[Thrown, No face No Case, Tchert](https://goout.net/cs/thrown%2Bno-face-no-case%2Btchert/sznwuxw/)** - Bike Jesus (Adam B.)
