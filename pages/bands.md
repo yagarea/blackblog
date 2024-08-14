@@ -5,7 +5,8 @@ layout: page
 ---
 
 This is a small list of bands I have seen play live. I did not list everything because
-not every band is worthy of being listed.
+not every band is worthy of being listed. The order of bands is by time I have seen them
+live for a first time.
 
 | **♥** | Band is my personal favorite and has special place in my heart    |
 | **★** | Band's performance was incredible                                 |
@@ -74,7 +75,7 @@ Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assa
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
 Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 |
-Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 |
+Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 |
 Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
 Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
 Somniate                | Black metal                   | Czechia    | Brutal Assault 12.8. 2022 |
@@ -163,7 +164,7 @@ Maybeshewill    | Post-rock                      | UK        | Brutal Assault 12
 Anaal nathrakh  | Blackned grindcore             | UK        | Brutal Assault 12.8. 2023 |
 Terror          | Hardcore                       | USA       | Brutal Assault 12.8. 2023 |
 Birds in row    | Posthardcore                   | France    | Brutal Assault 12.8. 2023 |
-Deicide         | Death metal                    | USA       | Brutal Assault 12.8. 2023 | ⛬
+Deicide         | Death metal                    | USA       | Brutal Assault 12.8. 2023 : Brutal Assault 7.8. 2024 | ⛬
 Napalm death    | Grindcore                      | USA       | Brutal Assault 12.8. 2023 |
 Trivium         | Proto-metalcore                | USA       | Brutal Assault 12.8. 2023 | ⛬ ★
 Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12.8. 2023 |
@@ -174,7 +175,6 @@ Health          | Electronic noise rock          | USA       | Brutal Assault 12
 Lorelai            | Post hardcore  | Czechia | [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#lorelai) |
 Marked as an enemy | Metalcore      | Czechia | [Café v lese 2.2 2014](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#marked-as-an-enemy) |
 
-Headbussa  | Hardcore punk | France | [Music bar Lucerna 21.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#headbusa) |
 Deafheaven | Blackgaze     | USA    | [Music bar Lucerna 21.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#deafheaven) |
 
 Paledusk      | Japanese metalcore | Japan     | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#paledusk) |
@@ -183,6 +183,29 @@ Silent planet | Metalcore          | USA       | [Meet factory 19.3. 2024](/musi
 
 Vomit forth     | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#vomit-forth) |
 200 stab wounds | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#200-stab-wounds) |
+
+
+Acid row      | Stoner metal          | Czechia | Brutal Assault 6.8. 2024 |
+Ions          | Progressive metalcore | Czechia | Brutal Assault 6.8. 2024 |
+Satisfucktion | Grunge                | Czechia | Brutal Assault 6.8. 2024 |
+Stellvris     | Metalcore             | Czechia | Brutal Assault 6.8. 2024 | ★
+Laid to waste | Thrash metal          | Czechia | Brutal Assault 6.8. 2024 |
+Hellripper    | Black metal           | UK      | Brutal Assault 6.8. 2024 |
+
+Skeletal remains             | Death metal         | USA         | Brutal Assault 7.8. 2024 |
+Severe torture               | Death metal         | Netherlands | Brutal Assault 7.8. 2024 |
+Sylosis                      | Melodic death metal | UK          | Brutal Assault 7.8. 2024 |
+Terrorizer                   | Grindcore           | USA         | Brutal Assault 7.8. 2024 |
+The black dahlia murder      | Melodic death metal | USA         | Brutal Assault 7.8. 2024 |
+Red Fang                     | Stoner rock         | USA         | Brutal Assault 7.8. 2024 |
+Spiritbox                    | Metalcore           | Canada      | Brutal Assault 7.8. 2024 | ★
+Hatebreed                    | Hardcore            | USA         | Brutal Assault 7.8. 2024 | ★
+Exodus                       | Thrash metal        | USA         | Brutal Assault 7.8. 2024 | ⛬
+Immortal performed by Abbath | Black metal         | Norway      | Brutal Assault 7.8. 2024 | ⛬
+Dark tranquillity            | Melodic death metal | Sweden      | Brutal Assault 7.8. 2024 |
+Mortuary drape               | Black metal         | Italy       | Brutal Assault 7.8. 2024 |
+
+
 
 {% endbands %}
 
