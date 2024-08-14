@@ -13,8 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
-- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K., Tom V.)
 - 01\. 10\. 2024 - **[Northlane, Novelists, TEN56](https://obscure.cz/cs/tickets/detail/id/708)** - Meetfactory (Honza Č., Pavel Č.)
 - 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
 - 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
@@ -22,6 +20,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
+- 07\.-10\. 08\. 2024 - **[Brutal assault](https://brutalassault.cz/cs)** - Josefov (Petr S.?, Adam B., Andy M., Martin K., Tom V.)
 - 11\.-14\. 07\. 2024 - **[Masters of Rock](https://www.mastersofrock.cz/)** - Vizovice (Petr S.)
 - 04\.-06\. 07\. 2024 - **[Hradby samoty](https://www.hradbysamoty.org/)** - Jablonica (Maroš G.)
 - 10\. 06\. 2024 - **[Machine Head](https://www.ticketportal.cz/event/MACHINE-HEAD)** - Praha, Forum Karlín (Petr S.?)
