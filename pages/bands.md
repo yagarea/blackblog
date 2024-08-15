@@ -29,7 +29,7 @@ Fit for a king      | Metalcore         | USA       | Forum Karlín 4.10. 2019  
 Polaris             | Metalcore         | Australia | Forum Karlín 31.1. 2019 : Palác Akropolis 14.12. 2019 |
 Northlane           | Post-metalcore    | Australia | Palác Akropolis 14.12. 2019                           | ★
 Void of vision      | Metalcore         | Australia | Palác Akropolis 14.12. 2019                           |
-Architects          | Post-metalcore    | UK        | Forum Karlín 31.1. 2019                               | ♥ ★
+Architects          | Post-metalcore    | UK        | Forum Karlín 31.1. 2019 : Brutal Assault 9.8. 2024    | ♥ ★
 Beartooth           | Metalcore         | USA       | Forum Karlín 31.1. 2019                               |
 
 Rammstein | NDH                           | Germany          | Eden Arena 28.05. 2017 : Fortuna aréna 16.7.2019 : Letiště Letňany 15.5.2022 | ♥ ★ ⛬
@@ -52,7 +52,7 @@ Darkest hour    | Metalcore                            | USA     | Brutal Assaul
 Lorna shore     | Blackned symphonic deathcore         | USA     | Brutal Assault 10.8. 2022 : Forum Karlín 10.9. 2022 | ♥ ★
 Tesseract       | Djent                                | UK      | Brutal Assault 10.8. 2022 | ★
 Alcest          | Blackgaze                            | France  | Brutal Assault 10.8. 2022 | ★
-Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 | ♥ ★
+Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024| ♥ ★
 Igorrr          | Experimental electronic metal        | France  | Brutal Assault 10.8. 2022 | ★
 Cannibal corpse | Death metal                          | USA     | Brutal Assault 10.8. 2022 | ⛬
 Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 | ⛬
@@ -204,6 +204,48 @@ Exodus                       | Thrash metal        | USA         | Brutal Assaul
 Immortal performed by Abbath | Black metal         | Norway      | Brutal Assault 7.8. 2024 | ⛬
 Dark tranquillity            | Melodic death metal | Sweden      | Brutal Assault 7.8. 2024 |
 Mortuary drape               | Black metal         | Italy       | Brutal Assault 7.8. 2024 |
+
+Necrot             | Death metal           | USA    | Brutal Assault 8.8. 2024 |
+Guilt trip         | Hardcore              | UK     | Brutal Assault 8.8. 2024 |
+Pupil slicer       | Mathcore              | UK     | Brutal Assault 8.8. 2024 |
+Bodysnatcher       | Beatdown deathcore    | USA    | Brutal Assault 8.8. 2024 | ★
+Oceans ate Alaska  | Metalcore             | UK     | Brutal Assault 8.8. 2024 |
+Whitechapel        | Deathcore             | USA    | Brutal Assault 8.8. 2024 | ⛬
+Born of Osiris     | Progressive metalcore | USA    | Brutal Assault 8.8. 2024 |
+Carcass            | Death metal           | UK     | Brutal Assault 8.8. 2024 | ⛬
+Testament          | Thrash metal          | USA    | Brutal Assault 8.8. 2024 | ⛬
+Satyricon          | Black metal           | Norway | Brutal Assault 8.8. 2024 | ⛬
+UADA               | Melodic black metal   | USA    | Brutal Assault 8.8. 2024 |
+Master boot record | 8-bit metal           | Italy  | Brutal Assault 8.8. 2024 | ★
+
+Party cannon        | Brutal slamming death metal | UK                       | Brutal Assault 9.8. 2024 |
+Distant             | Downtempo deathcore         | Netherlands + Slovakia   | Brutal Assault 9.8. 2024 |
+Svalbard            | Post metal                  | UK                       | Brutal Assault 9.8. 2024 |
+Kalmah              | Melodic death metal         | Finland                  | Brutal Assault 9.8. 2024 |
+Imperial triumphant | Avant-garde black metal     | USA                      | Brutal Assault 9.8. 2024 |
+Toxic holocaust     | Crossover thrash metal      | USA                      | Brutal Assault 9.8. 2024 |
+Candlemass          | Doom metal                  | Sweden                   | Brutal Assault 9.8. 2024 | ⛬
+Bohemian symphony orchestra Prague with cult of fire | Symphonic black metal | Czechia | Brutal Assault 9.8. 2024 |
+Laibach             | Industrial                  | Slovenia                 | Brutal Assault 9.8. 2024 |
+
+Cloak                     | Gothic black metal           | USA         | Brutal Assault 10.8. 2024 |
+Mental cruelty            | Symphonic blackned deathcore | Germany     | Brutal Assault 10.8. 2024 | ★
+Cytotoxin                 | Brutal technical death metal | Germany     | Brutal Assault 10.8. 2024 |
+Cancer bats               | Hardcore                     | Canada      | Brutal Assault 10.8. 2024 |
+Plini                     | Progressive metal            | Australia   | Brutal Assault 10.8. 2024 |
+Pestilence                | Death metal                  | Netherlands | Brutal Assault 10.8. 2024 |
+Night verses              | Progressive post metal       | USA         | Brutal Assault 10.8. 2024 |
+Impaled nazarene          | Black metal                  | Finland     | Brutal Assault 10.8. 2024 |
+Chthe'ilist               | Progressive death metal      | Canada      | Brutal Assault 10.8. 2024 |
+Primordial                | Celtic folk black metal      | Ireland     | Brutal Assault 10.8. 2024 |
+Textures                  | Djenty metalcore             | Netherlands | Brutal Assault 10.8. 2024 |
+Emperor                   | Symphonic black metal        | Norway      | Brutal Assault 10.8. 2024 | ⛬
+The Dillinger escape plan | Mathcore                     | USA         | Brutal Assault 10.8. 2024 |
+Behemoth                  | Blackned death metal         | Poland      | Brutal Assault 10.8. 2024 |
+Heathen                   | Thrash metal                 | USA         | Brutal Assault 10.8. 2024 |
+Worm                      | Blackned doom metal          | USA         | Brutal Assault 10.8. 2024 |
+Darvaza                   | Black metal                  | Norway      | Brutal Assault 10.8. 2024 |
+
 
 
 
