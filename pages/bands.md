@@ -225,11 +225,11 @@ Kalmah              | Melodic death metal         | Finland                  | B
 Imperial triumphant | Avant-garde black metal     | USA                      | Brutal Assault 9.8. 2024 |
 Toxic holocaust     | Crossover thrash metal      | USA                      | Brutal Assault 9.8. 2024 |
 Candlemass          | Doom metal                  | Sweden                   | Brutal Assault 9.8. 2024 | ⛬
-Bohemian symphony orchestra Prague with cult of fire | Symphonic black metal | Czechia | Brutal Assault 9.8. 2024 |
+Bohemian symphony orchestra Prague with Cult of fire | Symphonic black metal | Czechia | Brutal Assault 9.8. 2024 |
 Laibach             | Industrial                  | Slovenia                 | Brutal Assault 9.8. 2024 |
 
 Cloak                     | Gothic black metal           | USA         | Brutal Assault 10.8. 2024 |
-Mental cruelty            | Symphonic blackned deathcore | Germany     | Brutal Assault 10.8. 2024 | ★
+Mental cruelty            | Symphonic blackned deathcore | Germany     | Brutal Assault 10.8. 2024 | ♥ ★
 Cytotoxin                 | Brutal technical death metal | Germany     | Brutal Assault 10.8. 2024 |
 Cancer bats               | Hardcore                     | Canada      | Brutal Assault 10.8. 2024 |
 Plini                     | Progressive metal            | Australia   | Brutal Assault 10.8. 2024 |
