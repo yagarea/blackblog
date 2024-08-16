@@ -22,9 +22,16 @@ module Jekyll
         event =  md_converter.convert(band[3].gsub(":","<br/>")).gsub("<p>","").gsub("</p>","")
         logo = band[0].downcase.parameterize + ".png"
         tags = band[4] == nil ? "" : band[4]
-        tags = tags.gsub("♥",%Q[<abbr title="Band is my personal favorite and has special place in my heart">♥</abbr>]
-                        ).gsub("★", %Q[<abbr title="Band’s performance was incredible">★</abbr>]
-                              ).gsub("⛬", %Q[<abbr title="This band has huge impact on music and deserve status of a legend">⛬</abbr>])
+
+        replacements = {
+          "♥" => "Band is my personal favorite and has special place in my heart",
+          "★" => "Band’s performance was incredible",
+          "⛬" => "This band has huge impact on music and deserve status of a legend"
+        }
+
+        replacements.each do |symbol, replacement|
+          tags.gsub!(symbol, %Q[<abbr title="#{replacement}">#{symbol}</abbr>])
+        end
 
         output = %Q[
 <thead>
