@@ -15,6 +15,7 @@ Formát je:
 ## Návrhy
 - 01\. 10\. 2024 - **[Northlane, Novelists, TEN56](https://obscure.cz/cs/tickets/detail/id/708)** - Meetfactory (Honza Č., Pavel Č.)
 - 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
+- 14\. 11\. 2024 - **[Veil of Maya, Signs of the swarm, Varials, To the grave](https://obscure.cz/cs/tickets/detail/id/725)** - Fututrum
 - 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
 
 ---
