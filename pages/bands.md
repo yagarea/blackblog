@@ -201,6 +201,7 @@ Red Fang                     | Stoner rock         | USA         | Brutal Assaul
 Spiritbox                    | Metalcore           | Canada      | Brutal Assault 7.8. 2024 | ★
 Hatebreed                    | Hardcore            | USA         | Brutal Assault 7.8. 2024 | ★
 Exodus                       | Thrash metal        | USA         | Brutal Assault 7.8. 2024 | ⛬
+Motionless in white          | Emocore             | USA         | Brutal Assault 7.8. 2024 |
 Immortal performed by Abbath | Black metal         | Norway      | Brutal Assault 7.8. 2024 | ⛬
 Dark tranquillity            | Melodic death metal | Sweden      | Brutal Assault 7.8. 2024 |
 Mortuary drape               | Black metal         | Italy       | Brutal Assault 7.8. 2024 |
