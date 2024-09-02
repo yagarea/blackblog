@@ -8,4 +8,4 @@ language: "EN"
 
 On the left is my dear friend Francisca (my most favorite trombonist `<3`).
 I am standing on the right and in the middle is Svencho himself.
-What beast of a vocalist. `\m/`
+What a beast of a vocalist. `\m/`
