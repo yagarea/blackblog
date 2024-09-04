@@ -18,7 +18,11 @@ happening in my machines.
   i3-compatible Wayland compositor based on [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/).
   I have perfected my configuration years on [i3wm](https://i3wm.org/) and have been using it since.
 
-**Terminal**
+**Display manager**
+: **[Ly](https://github.com/fairyglade/ly)** [[WTFPL](https://github.com/fairyglade/ly?tab=WTFPL-1-ov-file#readme)] -
+   Simple and highly configurable DM with console UI.
+
+**Terminal emulator**
 : **[Alacritty](https://alacritty.org/)** [[Appache 2.0](https://github.com/alacritty/alacritty/blob/master/LICENSE-APACHE)] -
   Highly configurable GPU accelerated terminal emulator. I use [branch with sixel support](https://github.com/alacritty/alacritty/pull/4763).
 
@@ -36,6 +40,10 @@ happening in my machines.
   I use highly customized version of firefox with custom user CSS, user scripts and add-ons.
   [I have documented my setup](/firefox-customization/).
 
+**Email client**
+: **[Thunderbird](https://www.thunderbird.net/)** [[MPL 2.0](https://www.mozilla.org/en-US/about/legal/eula/thunderbird-2/)] -
+  Feature rich email clients that is not painful to use.
+
 **File manager**
 : **[Ranger](https://github.com/ranger/ranger)** [[GPLv3](https://github.com/ranger/ranger?tab=GPL-3.0-1-ov-file#readme)] -
   Great TUI file manager written in python. It is highly configurable and has a lot of plugins.
@@ -43,3 +51,8 @@ happening in my machines.
 **Password manager**
 : **[KeepassXC](https://keepassxc.org/)** [[GPLv3](https://github.com/keepassxreboot/keepassxc?tab=readme-ov-file#license)] -
   Intuitive, comfortable and secure way to store your passwords and keys. I use it with [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) for seamless integration.
+
+**Image Viewer**
+: **[Nomacs](https://nomacs.org/)** [[GPLv3](https://github.com/nomacs/nomacs?tab=GPL-3.0-1-ov-file#readme)] -
+  Fast image viewer with all essential features without any visual clutter.
+
