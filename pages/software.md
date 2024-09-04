@@ -39,3 +39,7 @@ happening in my machines.
 **File manager**
 : **[Ranger](https://github.com/ranger/ranger)** [[GPLv3](https://github.com/ranger/ranger?tab=GPL-3.0-1-ov-file#readme)] -
   Great TUI file manager written in python. It is highly configurable and has a lot of plugins.
+
+**Password manager**
+: **[KeepassXC](https://keepassxc.org/)** [[GPLv3](https://github.com/keepassxreboot/keepassxc?tab=readme-ov-file#license)] -
+  Intuitive, comfortable and secure way to store your passwords and keys. I use it with [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) for seamless integration.
