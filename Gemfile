@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "4.3.3"
+gem "jekyll", "4.3.4"
 
 # This is the gem used to test the output html
 #gem "html-proofer"
