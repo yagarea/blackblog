@@ -56,3 +56,7 @@ happening in my machines.
 : **[Nomacs](https://nomacs.org/)** [[GPLv3](https://github.com/nomacs/nomacs?tab=GPL-3.0-1-ov-file#readme)] -
   Fast image viewer with all essential features without any visual clutter.
 
+**Video player**
+: **[MPV](https://mpv.io/)** [[GPLv2](https://github.com/mpv-player/mpv)] -
+  A video player with great CLI and all the features you could ever wish for.
+
