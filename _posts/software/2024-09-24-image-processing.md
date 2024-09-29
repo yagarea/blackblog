@@ -18,3 +18,13 @@ find . -name \*.png | parallel --bar optipng -o7 -zm1-9 {}
 mogrify -resize x1080\> *.jpg
 ```
 
+## Turn white transparent
+```bash
+convert test.png -transparent white transparent.png
+```
+
+## Turn white transparent + soft edges
+```bash
+convert input.png -fuzz 2% -transparent white output.png
+```
+
