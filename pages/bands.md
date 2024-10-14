@@ -248,6 +248,8 @@ Worm                      | Blackned doom metal          | USA         | Brutal 
 Darvaza                   | Black metal                  | Norway      | Brutal Assault 10.8. 2024 |
 
 
+Ten56    | Hardcore  | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#ten56) |
+Novelist | Metalcore | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#novelist) |
 
 
 {% endbands %}
@@ -256,4 +258,4 @@ Darvaza                   | Black metal                  | Norway      | Brutal 
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec
+Klec, Janota1935
