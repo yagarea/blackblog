@@ -10,7 +10,7 @@ I hope you will find it useful.
 
 ## Lossless PNG compression
 ```bash
-find . -name \*.png | parallel --bar optipng -o7 -zm1-9 {}
+find . -name \*.png | parallel --bar optipng -o9 -zm1-9 {}
 ```
 
 ## Cap image size to 1080
