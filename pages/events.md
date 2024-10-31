@@ -14,8 +14,8 @@ Formát je:
 
 ## Návrhy
 - 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
-- 18\. 11\. 2024 - **[Cradle of filth, Butcher babies, Mental cruelty ](https://obscure.cz/cs/tickets/detail/id/752)** - Music club Lucerna
 - 14\. 11\. 2024 - **[Veil of Maya, Signs of the swarm, Varials, To the grave](https://obscure.cz/cs/tickets/detail/id/725)** - Fututrum
+- 18\. 11\. 2024 - **[Cradle of filth, Butcher babies, Mental cruelty ](https://obscure.cz/cs/tickets/detail/id/752)** - Music club Lucerna
 - 21\. 11\. 2024 - **[Alcest, Svalbard, Doodseskader](https://obscure.cz/cs/tickets/detail/id/691)** - Roxy (Adam B., Jana B., Andy M.)
 - 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
 - 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
