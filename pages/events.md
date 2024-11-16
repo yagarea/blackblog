@@ -13,8 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
-- 14\. 11\. 2024 - **[Veil of Maya, Signs of the swarm, Varials, To the grave](https://obscure.cz/cs/tickets/detail/id/725)** - Fututrum
 - 18\. 11\. 2024 - **[Cradle of filth, Butcher babies, Mental cruelty ](https://obscure.cz/cs/tickets/detail/id/752)** - Music club Lucerna
 - 21\. 11\. 2024 - **[Alcest, Svalbard, Doodseskader](https://obscure.cz/cs/tickets/detail/id/691)** - Roxy (Adam B., Jana B., Andy M.)
 - 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
@@ -23,6 +21,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
+- 14\. 11\. 2024 - **[Veil of Maya, Signs of the swarm, Varials, To the grave](https://obscure.cz/cs/tickets/detail/id/725)** - Fututrum
 - 02\. 10\. 2024 - **[Sdružení rodičů a přátel ropy](kastan.cz/akce/s-r-p-r-janota-1935/)** - Klub kaštan (Honza Č., David S., Martin K., Tom V.)
 - 01\. 10\. 2024 - **[Northlane, Novelists, TEN56](https://obscure.cz/cs/tickets/detail/id/708)** - Meetfactory (Honza Č., Pavel Č.)
 - 02\.-04\. 08\. 2024 - **[Bordel na Dunaji vol. 2](https://fb.me/e/3IOGL2DYu)** - Pink Whale, Bratislava
