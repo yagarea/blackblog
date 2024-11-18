@@ -100,7 +100,7 @@ Mayhem              | Black metal                       | Norway    | Brutal Ass
 Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Assault 13.8. 2022 |
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
 
-While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 |
+While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 : Archa+ 12.11. 2024 |
 
 Bound to break  | Metalcore         | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#bound-to-break) : [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#bound-to-break) | ♥
 Define me       | Alternative rock  | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#define-me) |
@@ -130,7 +130,7 @@ Artificial brain   | Experimental death metal | USA     | [Brutal Assault 9.8. 2
 
 Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
 Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
-Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) |
+Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : Archa+ 12.11. 2024 |
 Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
 Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 | ★
 Brand of sacrifice | Deathcore           | Canada  | Brutal Assault 10.8. 2023 | ★
@@ -250,6 +250,9 @@ Darvaza                   | Black metal                  | Norway      | Brutal 
 
 Ten56    | Hardcore  | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#ten56) |
 Novelist | Metalcore | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#novelist) |
+
+Resolve  | Metalcore         | France | Archa+ 12.11. 2024 |
+Thrown   | Beatdown hardcore | Sweden | Archa+ 12.11. 2024 |
 
 
 {% endbands %}
