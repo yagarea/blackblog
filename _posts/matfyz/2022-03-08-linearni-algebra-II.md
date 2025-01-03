@@ -7,6 +7,9 @@ latex: true
 
 Pokud naleznete nějakou chybu, můžete jí opravit pomocí tlačítka *edit*.
 
+> Shout out Míše Loudové za použití těchto poznámek jako zdroj
+> do své [bakalářské práce](https://theses.cz/id/6y0uzo/Loudova_Michaela_2023_BP.pdf).
+
 {:toc}
 - .
 
