@@ -44,6 +44,8 @@ collections:
   music:
     output: true
     permalink: /music/:title-:year-:month-:day/
+  projects:
+    output: false
 
 defaults:
   -
