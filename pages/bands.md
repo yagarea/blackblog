@@ -100,7 +100,7 @@ Mayhem              | Black metal                       | Norway    | Brutal Ass
 Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Assault 13.8. 2022 |
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
 
-While She Sleeps    | Metalcore | UK | Forum Karlín 10.9. 2022 : Archa+ 12.11. 2024 |
+While She Sleeps    | Metalcore | UK | [Forum Karlín 10.9. 2022](/music/parkway-drive-while-she-sleeps-lorna-shore-2022-09-10/#while-she-sleeps) : [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#while-she-sleeps) |
 
 Bound to break  | Metalcore         | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#bound-to-break) : [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#bound-to-break) | ♥
 Define me       | Alternative rock  | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#define-me) |
@@ -110,7 +110,7 @@ Okult            | Death metal         | Czechia  | Brutal Assault 8.8. 2023 |
 Innersphere      | Melodic death metal | Czechia  | Brutal Assault 8.8. 2023 |
 Crippled fingers | Hardcore            | Czechia  | Brutal Assault 8.8. 2023 |
 Adacta           | Hardcore punk       | Slovakia | Brutal Assault 8.8. 2023 |
-RedZed           | Trap/Rap metal      | Czechia  | Brutal Assault 8.8. 2023 | ★
+RedZed           | Trap/Rap metal      | Czechia  | Brutal Assault 8.8. 2023 : [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/) | ★
 
 Feastem            | Grindcore                | Finland | Brutal Assault 9.8. 2023 |
 Devoid of thought  | Death metal              | Italy   | Brutal Assault 9.8. 2023 |
@@ -130,7 +130,7 @@ Artificial brain   | Experimental death metal | USA     | [Brutal Assault 9.8. 2
 
 Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
 Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
-Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : Archa+ 12.11. 2024 |
+Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/) |
 Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
 Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 | ★
 Brand of sacrifice | Deathcore           | Canada  | Brutal Assault 10.8. 2023 | ★
@@ -178,7 +178,7 @@ Marked as an enemy | Metalcore      | Czechia | [Café v lese 2.2 2014](/music/b
 Deafheaven | Blackgaze     | USA    | [Music bar Lucerna 21.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#deafheaven) |
 
 Paledusk      | Japanese metalcore | Japan     | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#paledusk) |
-Thornhill     | Metalcore          | Australia | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#thornhill) |
+Thornhill     | Metalcore          | Australia | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#thornhill) : [Bike Jesus 06.12. 2024](/music/thornhill-love-is-noise-2024-12-06/#love-is-noise) |
 Silent planet | Metalcore          | USA       | [Meet factory 19.3. 2024](/music/silent-planet-thornhill-paledusk-2024-03-19/#silent-planet) |
 
 Vomit forth     | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#vomit-forth) |
@@ -251,9 +251,12 @@ Darvaza                   | Black metal                  | Norway      | Brutal 
 Ten56    | Hardcore  | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#ten56) |
 Novelist | Metalcore | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#novelist) |
 
-Resolve  | Metalcore         | France | Archa+ 12.11. 2024 |
-Thrown   | Beatdown hardcore | Sweden | Archa+ 12.11. 2024 |
+Resolve  | Metalcore         | France | [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#resolve) |
+Thrown   | Beatdown hardcore | Sweden | [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#thrown) |
 
+Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-is-noise-2024-12-06/#love-is-noise) |
+
+Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
 {% endbands %}
 
