@@ -52,11 +52,19 @@ happening in my machines.
 : **[KeepassXC](https://keepassxc.org/)** [[GPLv3](https://github.com/keepassxreboot/keepassxc?tab=readme-ov-file#license)] -
   Intuitive, comfortable and secure way to store your passwords and keys. I use it with [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) for seamless integration.
 
-**Image Viewer**
+**Image viewer**
 : **[Nomacs](https://nomacs.org/)** [[GPLv3](https://github.com/nomacs/nomacs?tab=GPL-3.0-1-ov-file#readme)] -
   Fast image viewer with all essential features without any visual clutter.
+
+**Image editor**
+: **[Gimp](https://www.gimp.org/)** [[GPL](https://gitlab.gnome.org/GNOME/gimp/-/blob/master/LICENSE?ref_type=heads)] -
+  Infamous editor for raster graphics. It covers all my needs.
 
 **Video player**
 : **[MPV](https://mpv.io/)** [[GPLv2](https://github.com/mpv-player/mpv)] -
   A video player with great CLI and all the features you could ever wish for.
+
+**Slicer**
+: **[PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/)** [[AGPL-3.0](https://github.com/prusa3d/PrusaSlicer?tab=AGPL-3.0-1-ov-file#readme)] -
+  Universal and intuitive slicer with a lot of advanced features.
 
