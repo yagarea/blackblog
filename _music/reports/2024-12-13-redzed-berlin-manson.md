@@ -1,5 +1,5 @@
 ---
-title: "Red Zed, Berlin Manson"
+title: "Redzed, Berlin Manson"
 category: "Concert report"
 language: "CZ"
 venue: "Sasazu club"
@@ -15,7 +15,7 @@ venue: "Sasazu club"
 
 {% include video.html src="/assets/music-reports/2024-12-13-redzed-berlin-manson/berlin-manson3.mp4" %}
 
-## RedZed
+## Redzed
 
 {% spliter %}
 {% include video.html src="/assets/music-reports/2024-12-13-redzed-berlin-manson/redzed1.mp4" %}
