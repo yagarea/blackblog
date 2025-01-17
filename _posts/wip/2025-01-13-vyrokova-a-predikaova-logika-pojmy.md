@@ -13,41 +13,44 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 - .
 
 
-### 1) Model ve výrokové logice, pravdivostní funkce výroku:
+### 1) Model ve výrokové logice, pravdivostní funkce výroku
 
-- Model ve výrokové logice je libovolné ohodnocení $$v: \mathbb{P} \rightarrow\{0,1\}$$, které výrokovým proměnným přiřadí hodnotu _TRUE_ nebo _FALSE_.
-- Pravdivostní funkce výroku $$\varphi$$ je funkce $$f_{\varphi, \mathbb{P}}:\{0,1\}^{\lvert \mathbb{P} \rvert} \rightarrow\{0,1\}$$ definovaná takto:
-    - je-li $$\varphi$$ prvovýrok $$x_{i}$$ z $$\mathbb{P}$$, pak $$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=x_{i}$$,
-    - je-li $$\varphi=\left(\neg \varphi^{\prime}\right)$$, potom $$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\neg}\left(f_{\varphi^{\prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$,
+- $$\P$$ je množina všech prvovýroků
+- Model ve výrokové logice je libovolné ohodnocení $$v: \P \rightarrow\{0,1\}$$, které výrokovým proměnným přiřadí hodnotu $$1$$ (`TRUE`) nebo $$0$$ (`FALSE`).
+- Pravdivostní funkce výroku $$\varphi$$ je funkce $$f_{\varphi, \P}:\{0,1\}^{\lvert \P \rvert} \rightarrow\{0,1\}$$ definovaná takto:
+    - je-li $$\varphi$$ prvovýrok $$x_{i}$$ z $$\P$$, pak $$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=x_{i}$$,
+    - je-li $$\varphi=\left(\neg \varphi^{\prime}\right)$$, potom $$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\neg}\left(f_{\varphi^{\prime}, \P}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$,
     - je-li $$\varphi=\left(\varphi^{\prime} \square \varphi^{\prime \prime}\right)$$ kde $$\square \in\{\wedge, \vee, \rightarrow, \leftrightarrow\}$$, potom
-$$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_{\varphi^{\prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right), f_{\varphi^{\prime \prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$
+$$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_{\varphi^{\prime}, \P}\left(x_{0}, \ldots, x_{n-1}\right), f_{\varphi^{\prime \prime}, \P}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$
 
 
-### 2) Sémantické pojmy pravdivost, lživost, nezávislost, splnitelnost v logice a v teorii:
-- Výrok $$\varphi$$ je v jazyce $$\mathbb{P}($$ v teorii $$T)$$ :
-    - pravdivý (tautologie, platí), pokud platí v každém modelu jazyka $$\mathbb{P}$$ (teorie $$T$$ ), píšeme $$\models \varphi$$
-    - lživý (sporný), pokud nemá žádný model
-    - nezávislý, pokud platí v nějakém modelu a neplatí v nějakém jiném modelu
-    - splnitelný, pokud platí v nějakém modelu (tedy pokud není lživý)
+### 2) Sémantické pojmy (pravdivost, lživost, nezávislost, splnitelnost) v logice, vzhledem k teorii
+- Výrok $$\varphi$$ je v jazyce $$\P$$ (v teorii $$T$$):
+    - **pravdivý** (tautologie, platí), pokud platí v každém modelu jazyka $$\P$$ (teorie $$T$$ ), píšeme $$\models \varphi$$
+    - **lživý** (sporný), pokud nemá žádný model, ve kterém by platil
+    - **nezávislý**, pokud platí v nějakém modelu a neplatí v nějakém jiném modelu
+    - **splnitelný**, pokud existuje alespoň jeden model, ve kterém platí (tedy pokud není lživý)
 
 
 ### 3) Ekvivalence výroků (teorií), T-ekvivalence
-- Výroky $$\varphi, \psi$$ jsou ekvivalentní (píšeme $$\varphi \sim \psi$$ ), pokud mají stejné modely. Totéž pro teorie
-- Výroky $$\varphi, \psi$$ jsou $$T$$-ekvivalentní (píšeme $$\varphi \sim_{T} \psi$$ ), pokud mají stejné modely v teorii $$T$$.
+- Výroky $$\varphi, \psi$$ jsou ekvivalentní (píšeme $$\varphi \sim \psi$$ ), pokud mají stejné modely. Totéž pro teorie.
+- Výroky $$\varphi, \psi$$ jsou $$T$$-ekvivalentní (píšeme $$\varphi \sim_{_{T}} \psi$$ ), pokud mají stejné modely v teorii $$T$$.
 
 
-### 4) sporná, bezesporná, kompletní teorie:
+### 4) Sémantické pojmy o teorii (sporná, bezesporná, kompletní, splnitelná)
 - Teorie $$T$$ je
-    - sporná, jestliže v ní platí spor ($$\perp$$), tedy pokud nemá žádný model
-    - bezesporná (splnitelná), pokud není sporná, tedy pokud má model
-    - kompletní, pokud není sporná a každý výrok je v ní bud’ pravdivý, nebo lživý, tedy pokud má právě jeden model
+    - **sporná**, jestliže v ní platí spor ($$\perp$$), tedy pokud nemá žádný model
+    - **bezesporná** (splnitelná), pokud není sporná, tedy pokud má model
+    - **kompletní**, pokud není sporná a každý výrok je v ní buď pravdivý, nebo lživý, tedy pokud má právě jeden model
+    - **splnitelná**, pokud existuje alespoň jeden model, platný v teorii $$T$$
 
 
-### 5) Extenze teorií (jednoduchá, konzervativní)
-- Mějme teorii $$T$$ v jazyce $$\mathbb{P}$$.
-    - Extenze $$T$$ je teorie $$T^{\prime}$$ v jazyce $$\mathbb{P}^{\prime} \supseteq \mathbb{P}$$ splňující $$\operatorname{Csq}_{\mathbb{P}}(T) \subseteq \operatorname{Csq}_{\mathbb{P}^{\prime}}\left(T^{\prime}\right)$$, $$\operatorname{kde} \operatorname{Csq}(T)$$ je množina důsledků $$T$$, tedy těch výroků, které v $$T$$ platí.
-    - Je to jednoduchá extenze, pokud $$\mathbb{P}=\mathbb{P}^{\prime}$$.
-    - Je to konzervativní extenze, pokud $$\operatorname{Csq}_{\mathbb{P}}(T)=\operatorname{Csq}_{\mathbb{P}}\left(T^{\prime}\right)$$, tedy nad $$\mathbb{P}$$ nemá nové důsledky.
+### 5) Extenze teorie (jednoduchá, konzervativní), odpovídající sémantická kritéria
+- Mějme teorii $$T$$ v jazyce $$\P$$.
+    - Extenze teorie je $$T$$ v jazyce $$L$$ je rozšíření teorie $$T^{\prime}$$ buď o další axiomy nebo rozšířením jazyka $$L$$ na jazyk $$L^{\prime}$$
+    - Extenze $$T$$ je teorie $$T^{\prime}$$ v jazyce $$\P^{\prime} \supseteq \P$$ splňující $$\operatorname{Csq}_{\P}(T) \subseteq \operatorname{Csq}_{\P^{\prime}}\left(T^{\prime}\right)$$, $$\operatorname{kde} \operatorname{Csq}(T)$$ je množina důsledků $$T$$, tedy těch výroků, které v $$T$$ platí.
+    - Je to jednoduchá extenze, pokud $$\P=\P^{\prime}$$.
+    - Je to konzervativní extenze, pokud $$\operatorname{Csq}_{\P}(T)=\operatorname{Csq}_{\P}\left(T^{\prime}\right)$$, tedy nad $$\P$$ nemá nové důsledky.
 
 
 ### 6) Tablo z teorie, tablo důkaz
@@ -60,7 +63,7 @@ $$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_
     - Větev je sporná, pokud obsahuje položky $$T \psi$$ a $$F \psi$$ pro nějaký výrok $$\psi$$, jinak je bezesporná.
     - Tablo je dokončené, pokud je každá větev dokončená.
     - Větev je dokončená, pokud je sporná, nebo pokud je každá její položka redukovaná a obsahuje položku $$T \alpha$$ pro každý axiom $$\alpha \in T$$.
-    - Položka je redukovaná (na větvi $$V$$ procházející touto položkou), pokud je tvaru $$T p$$ nabo $$F p$$ pro proměnnou $$p \in \mathbb{P}$$, nebo pokud při konstrukci tabla již došlo k jejímu rozvoji na $$V$$ dle atomického tabla.
+    - Položka je redukovaná (na větvi $$V$$ procházející touto položkou), pokud je tvaru $$T p$$ nabo $$F p$$ pro proměnnou $$p \in \P$$, nebo pokud při konstrukci tabla již došlo k jejímu rozvoji na $$V$$ dle atomického tabla.
     - Položka typu všichni je redukovaná, pokud je každý její výskyt redukovaný.
     - $$i$$-tý výskyt položky $$P$$ typu všichni je redukovaný, pokud je na větvy $$i+1$$-ní výskyt a zároveň je zde $$T \varphi\left(x / t_{i}\right)$$, resp. $$F \varphi\left(x / t_{i}\right)$$, kde $$t_{i}$$ je $$i$$-tý konstantní $$L_{C}$$-term.
 
@@ -111,7 +114,7 @@ Kongruence struktury $$\mathcal{A}$$ je ekvivalence $$\sim$$ na množině $$A$$,
 
 ### 12) Lineární rezoluce, lineární důkaz, LI-rezoluce, LI-důkaz
 - Lineární rezoluce
-    - Lineární rezoluce je posloupnost $$\binom{C_{0}}{B_{0}},\binom{C_{1}}{B_{1}}, \ldots\binom{C_{n}}{B_{n}}, C_{n+1}$$ kde $$C$$ jsou centrální, $$B$$ jsou boční * $$C_{i}$$ je rezolventa $$C_{i-1}$$ a $$B_{i-1}\left(C_{0}\right.$$ je z $$\left.S\right), B_{i}$$ je bud’ z $$S$$ nebo některá z předchozích $$C_{i}$$.
+    - Lineární rezoluce je posloupnost $$\binom{C_{0}}{B_{0}},\binom{C_{1}}{B_{1}}, \ldots\binom{C_{n}}{B_{n}}, C_{n+1}$$ kde $$C$$ jsou centrální, $$B$$ jsou boční * $$C_{i}$$ je rezolventa $$C_{i-1}$$ a $$B_{i-1}\left(C_{0}\right.$$ je z $$\left.S\right), B_{i}$$ je buď z $$S$$ nebo některá z předchozích $$C_{i}$$.
 - LI-rezoluce je lineární rezoluce, kde všechna $$B$$ jsou z $$S$$.
 
 
