@@ -15,12 +15,12 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 
 ### 1) Model ve výrokové logice, pravdivostní funkce výroku:
 
-- Model ve výrokové logice je libovolné ohodnocení $$v: \mathbb{P} \rightarrow\{0,1\}$$, které výrokovým proměnným přiřadí hodnotu     -TRUE* nebo *FALSE*.
+- Model ve výrokové logice je libovolné ohodnocení $$v: \mathbb{P} \rightarrow\{0,1\}$$, které výrokovým proměnným přiřadí hodnotu _TRUE_ nebo _FALSE_.
 - Pravdivostní funkce výroku $$\varphi$$ je funkce $$f_{\varphi, \mathbb{P}}:\{0,1\}^{\lvert \mathbb{P} \rvert} \rightarrow\{0,1\}$$ definovaná takto:
     - je-li $$\varphi$$ prvovýrok $$x_{i}$$ z $$\mathbb{P}$$, pak $$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=x_{i}$$,
     - je-li $$\varphi=\left(\neg \varphi^{\prime}\right)$$, potom $$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\neg}\left(f_{\varphi^{\prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$,
     - je-li $$\varphi=\left(\varphi^{\prime} \square \varphi^{\prime \prime}\right)$$ kde $$\square \in\{\wedge, \vee, \rightarrow, \leftrightarrow\}$$, potom
-$$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_{\varphi^{\prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right), f_{\varphi^{\prime \prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$,
+$$f_{\varphi, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_{\varphi^{\prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right), f_{\varphi^{\prime \prime}, \mathbb{P}}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$
 
 
 ### 2) Sémantické pojmy pravdivost, lživost, nezávislost, splnitelnost v logice a v teorii:
@@ -82,13 +82,12 @@ Kongruence struktury $$\mathcal{A}$$ je ekvivalence $$\sim$$ na množině $$A$$,
     - $$f^{\mathcal{A} / \sim}\left(\left[x_{1}\right]_{\sim}, \ldots,\left[x_{n}\right]_{\sim}\right)=\left[f^{\mathcal{A}}\left(x_{1}, \ldots, x_{n}\right)\right]_{\sim}$$ pro funkce a podobně pro relace.
 - Axiomy rovnosti:
     - \$$x = x$$
-    - $$\mp@subsup{x}{i}{}=\mp@subsup{y}{i}{}->f(\mp@subsup{x}{1}{},\ldots,\mp@subsup{x}{n}{})=f(\mp@subsup{y}{1}{},\ldots,\mp@subsup{y}{n}{})\mathrm{ pro každý funkční symbol }f\mathrm{ z jazyka L}$$
-    - $$\mp@subsup{x}{i}{}=\mp@subsup{y}{i}{}->(R(\mp@subsup{x}{1}{},\ldots,\mp@subsup{x}{n}{})->R(\mp@subsup{y}{1}{},\ldots,\mp@subsup{y}{n}{}))\mathrm{ pro každý relační symbol R z jazyka L}\mathrm{ včetně}$$ rovnosti
+    - $$x_{i}=y_{i} \implies f(x_{1},\ldots,x_{n})=f(y_{1},\ldots,y_{n})$$ pro každý funkční symbol $$f$$ z jazyka $$L$$
+    - $$x_{i}=y_{i} \implies (R(x_{1},\ldots,x_{n}) \implies R(y_{1},\ldots,y_{n}))$$ pro každý relační symbol $$R$$ z jazyka $$L$$ včetně rovnosti
 
 
 
 ### 9) CNF, DNF, Hornův tvar, množinová reprezentace, splňující ohodnocení.
-
 - Literál je prvovýrok $$p$$ nebo negace prvovýroku $$\neg p$$. Klauzule je disjunkce literálů. Elementární konjunkce je konjunkce literálů.
 - Výrok je v CNF, pokud je konjunkcí klauzulí. Výrok je v DNF, pokud je disjunkcí elementárních konjunkcí.
 - Klauzule je Hornovská, pokud je v ní nejvýše jeden pozitivní literál. Výrok je v Hornově tvaru, pokud je konjunkcí hornovských klauzulí.
@@ -187,18 +186,17 @@ pak nahrazením podformule $$(Q x) \psi$$ formulí $$(Q y) \psi(x / y)$$ vznikne
 ### 19) definovatelnost ve struktuře
 - Mějme formuli $$\varphi\left(x_{1}, \ldots x_{n}\right)$$ a strukturu $$\mathcal{A}$$ v témže jazyce. Množina definovaná formulí $$\varphi$$ ve struktuře $$\mathcal{A}$$ je množina $$\varphi^{\mathcal{A}}\left(x_{1}, \ldots, x_{n}\right)=\left\{\left(a_{1}, \ldots, a_{n}\right) \in A^{n} \mid \mathcal{A}=\varphi\left[e\left(x_{1} / a_{1}, \ldots, x_{n} / a_{n}\right)\right]\right\}$$.
 - Zkráceně píšeme $$\varphi^{\mathcal{A}}(\bar{x})=\left\{\bar{a} \in A^{n} \mid \mathcal{A}=\varphi[e(\bar{x} / \bar{a})]\right\}$$.
-- Mějme formuli $$\varphi(\bar{x}, \bar{y})$$, kde $$|\bar{x}|=n$$ a $$|\bar{y}|=k$$, strukturu $$\mathcal{A}$$ v témže jazyce a $$k$$-tici prvků $$\bar{b} \in A^{k}$$. Množina definovaná formulí $$\varphi(\bar{x}, \bar{y})$$ s parametry $$\bar{b}$$ ve struktuře $$\mathcal{A}$$ je
+- Mějme formuli $$\varphi(\bar{x}, \bar{y})$$, kde $$\lvert\bar{x}\rvert=n$$ a $$\lvert\bar{y}\rvert=k$$, strukturu $$\mathcal{A}$$ v témže jazyce a $$k$$-tici prvků $$\bar{b} \in A^{k}$$. Množina definovaná formulí $$\varphi(\bar{x}, \bar{y})$$ s parametry $$\bar{b}$$ ve struktuře $$\mathcal{A}$$ je
 
 $$
 \varphi^{\mathcal{A}, \bar{b}}(\bar{x}, \bar{y})=\left\{\bar{a} \in A^{n} \mid \mathcal{A} \models \varphi[e(\bar{x} / \bar{a}, \bar{y} / \bar{b})]\right\}
 $$
 
 
-
 ### 20) Extenze o definice
 
-- Mějme teorii $$T$$ a formuli $$\psi\left(x_{1}, \ldots x_{n}\right)$$ v jazyce $$L$$. Označme $$L^{\prime}$$ rozšǐření $$L$$ o nový $$n$$-ární relační symbol $$R$$. Extenze $$T$$ o definici $$R$$ formulí $$\psi$$ je $$L^{\prime}$$-teorie $$T^{\prime}=T \cup\left\{R\left(x_{1}, \ldots, x_{n}\right) \leftrightarrow \psi\left(x_{1}, \ldots x_{n}\right)\right\}$$.
-- Mějme teorii $$T$$ a formuli $$\psi\left(x_{1}, \ldots, x_{n}, y\right)$$ v jazyce $$L$$. Označme $$L$$ rozšíření jazyka $$L$$ o nový $$n$$-ární funkční symbol $$f$$. Necht' v teorii $$T$$ platí:
+- Mějme teorii $$T$$ a formuli $$\psi\left(x_{1}, \ldots x_{n}\right)$$ v jazyce $$L$$. Označme $$L^{\prime}$$ rozšíření $$L$$ o nový $$n$$-ární relační symbol $$R$$. Extenze $$T$$ o definici $$R$$ formulí $$\psi$$ je $$L^{\prime}$$-teorie $$T^{\prime}=T \cup\left\{R\left(x_{1}, \ldots, x_{n}\right) \leftrightarrow \psi\left(x_{1}, \ldots x_{n}\right)\right\}$$.
+- Mějme teorii $$T$$ a formuli $$\psi\left(x_{1}, \ldots, x_{n}, y\right)$$ v jazyce $$L$$. Označme $$L$$ rozšíření jazyka $$L$$ o nový $$n$$-ární funkční symbol $$f$$. Nechť v teorii $$T$$ platí:
     - axiom existence $$(\exists y) \psi\left(x_{1}, \ldots, x_{n}, y\right)$$
     - axiom jednoznačnosti $$\psi\left(x_{1}, \ldots, x_{n}, y\right) \wedge \psi\left(x_{1}, \ldots, x_{n}, z\right) \rightarrow y=z$$
 pak extenze teorie $$T$$ o definici $$f$$ formulí $$\psi$$ je $$L^{\prime}$$-teorie $$T^{\prime}=T \cup\left\{f\left(x_{1}, \ldots, x_{n}, z\right)=y \leftrightarrow\right.$$ $$\left.\psi\left(x_{1}, \ldots, x_{n}, z\right)\right\}$$.
@@ -206,10 +204,8 @@ pak extenze teorie $$T$$ o definici $$f$$ formulí $$\psi$$ je $$L^{\prime}$$-te
 
 
 ### 21) Prenexní normální forma, Skolemova varianta
-- Mějme teorii $$T$$ v jazyce $$L$$ a teorii $$T^{\prime}$$ v ne nutně stejném jazyce $$L^{\prime}$$. Pak $$T$$ a $$T^{\prime}$$ jsou ekvisplnitelné, pokud $$T$$ má model právě když $$T^{\prime}$$ má model.
-- Formule $$\varphi$$ je v prenexní normální formě 
-
-### NF), pokud je tavru $$\left(Q_{1} x_{1}\right) \ldots\left(Q_{n} x_{n}\right) \varphi^{\prime}$$, kde $$\varphi^{\prime}$$ je otevřená. Pokud jsou všechny kvantifikátory univerzální, pak je $$\varphi$$ univerzální formule.
+- Mějme teorii $$T$$ v jazyce $$L$$ a teorii $$T^{\prime}$$ v ne nutně stejném jazyce $$L^{\prime}$$. Pak $$T$$ a $$T^{\prime}$$ jsou **ekvisplnitelné**, pokud $$T$$ má model právě když $$T^{\prime}$$ má model.
+- Formule $$\varphi$$ je v prenexní normální formě PNF, pokud je tavru $$\left(Q_{1} x_{1}\right) \ldots\left(Q_{n} x_{n}\right) \varphi^{\prime}$$, kde $$\varphi^{\prime}$$ je otevřená. Pokud jsou všechny kvantifikátory univerzální, pak je $$\varphi$$ univerzální formule.
 - Ke každé formuli $$\varphi$$ existuje ekvivalentní formule v PNF.
     - Indukcí. Postupně vytýkáme kvantifikátory podle známých vzorců. Na závěr uděláme uzávěr a tím získáme sentenci.
 - Mějme $$L$$-sentenci $$\varphi$$ v PNF, necht́ všechny její vázané proměnné jsou různé. Necht̉ existenční kvantifikátory v prefixu $$\varphi$$ jsou postupně $$\left(\exists y_{1}\right)$$ ař $$\left(\exists y_{n}\right)$$ a necht pro každé $$i$$ jsou $$\left(\forall x_{1}\right)$$ až $$\left(\forall x_{n_{i}}\right)$$ právě ty obecné kvantifikátory před $$\left(\exists y_{i}\right)$$.
@@ -219,23 +215,23 @@ Označme $$L^{\prime}$$ rozšíření $$L$$ o nové $$n_{i}$$-nární funkční 
 
 Tento proces se nazývá skolemizace.
 
-- Sentence $$\varphi$$ a její skolemova varianta $$\varphi_{S}$$ jsou semiekvivalentní.
+- Sentence $$\varphi$$ a její skolemova varianta $$\varphi_{S}$$ jsou **semiekvivalentní**.
     - Dokážeme pro jeden krok. Ukážeme, že redukt/expanze modelu jedné strany je model druhé strany
 
 
 ### 22) Izomorfismus struktur, izomorfní spektrum, $$\omega$$-kategorická teorie
 - Mějme struktury $$\mathcal{A}, \mathcal{B}$$ jazyka $$L=\langle\mathcal{R}, \mathcal{F}\rangle$$. Izomorfismus $$\mathcal{A}$$ a $$\mathcal{B}$$ je bijekce $$h: A \rightarrow B$$ splňující:
-    - Pro každý $$n$$-ární funkční symbol $$f$$ a všechna $$a_{i} \in A$$ platí
+  - Pro každý $$n$$-ární funkční symbol $$f$$ a všechna $$a_{i} \in A$$ platí
 
-$$
-h\left(f^{\mathcal{A}}\left(a_{1}, \ldots, a_{n}\right)\right)=f^{\mathcal{B}}\left(h\left(a_{1}\right), \ldots, h\left(a_{n}\right)\right)
-$$
+  $$
+  h\left(f^{\mathcal{A}}\left(a_{1}, \ldots, a_{n}\right)\right)=f^{\mathcal{B}}\left(h\left(a_{1}\right), \ldots, h\left(a_{n}\right)\right)
+  $$
+  
+  - Pro každý $$n$$-ární relační symbol $$R \in \mathcal{R}$$ platí
 
-    - Pro každý $$n$$-ární relační symbol $$R \in \mathcal{R}$$ platí
-
-$$
-h\left(R^{\mathcal{A}}\left(a_{1}, \ldots, a_{n}\right)\right) \text { právě když } R^{\mathcal{B}}\left(h\left(a_{1}\right), \ldots, h\left(a_{n}\right)\right),
-$$
+  $$
+  h\left(R^{\mathcal{A}}\left(a_{1}, \ldots, a_{n}\right)\right) \text { právě když } R^{\mathcal{B}}\left(h\left(a_{1}\right), \ldots, h\left(a_{n}\right)\right),
+  $$
 
 Pokud existuje, jsou $$\mathcal{A}$$ a $$\mathcal{B}$$ izomorfní, píšeme $$\mathcal{A} \simeq_{h} \mathcal{B}$$. Automorfizmus je izomorfizmus $$\mathcal{A}$$ na $$\mathcal{A}$$.
 
