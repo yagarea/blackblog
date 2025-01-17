@@ -1286,8 +1286,8 @@ $$x^{T}A > 0$$ pro všechna $$x \neq 0$$
 
 Definice se dá zobecnit i pro nesymetrické matice.
 
-$$ x^{T}\frac{1}{2}(A + A^{T})x= \frac{1}{2}x^{t}(A+A^{T})x = 
-\frac{1}{2}x^{T}Ax + (\frac{1}{2}x^{T}Ax)^{T} = x^{T}Ax$$
+$$ x^{T}\frac{1}{2}\left(A + A^{T}\right)x= \frac{1}{2}x^{t}\left(A+A^{T}\right)x = 
+\frac{1}{2}x^{T}Ax + \left(\frac{1}{2}x^{T}Ax\right)^{T} = x^{T}Ax$$
 {% enddef %}
 
 {:.no_toc}
