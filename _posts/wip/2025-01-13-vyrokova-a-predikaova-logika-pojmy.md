@@ -17,6 +17,8 @@ nějakou chybu, můžete jí opravit pomocí tlačítka edit.
 
 - $$\P$$ je množina všech prvovýroků
 - Model ve výrokové logice je libovolné ohodnocení $$v: \P \rightarrow\{0,1\}$$, které výrokovým proměnným přiřadí hodnotu $$1$$ (`TRUE`) nebo $$0$$ (`FALSE`).
+- Mějme výrok $$\varphi$$ v jazyce $$\P$$ a model $$v$$ z množiny modelů jazyka $$\P$$. Pokud platí $$f_{\varphi, \P}(v) = 1$$, potom říkáme že výrok $$varphi$$ platí v modelu $$v$$, $$v$$ je modelem $$varphi$$ a píšeme ...
+- Je-li T teorie v jazyce $$\P$$, potom T platí v modelu $$v$$, pokud v modelu $$v$$ platí každý axiom z teorie T.
 - Pravdivostní funkce výroku $$\varphi$$ je funkce $$f_{\varphi, \P}:\{0,1\}^{\lvert \P \rvert} \rightarrow\{0,1\}$$ definovaná takto:
     - je-li $$\varphi$$ prvovýrok $$x_{i}$$ z $$\P$$, pak $$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=x_{i}$$,
     - je-li $$\varphi=\left(\neg \varphi^{\prime}\right)$$, potom $$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\neg}\left(f_{\varphi^{\prime}, \P}\left(x_{0}, \ldots, x_{n-1}\right)\right)$$,
@@ -54,7 +56,7 @@ $$f_{\varphi, \P}\left(x_{0}, \ldots, x_{n-1}\right)=f_{\square}\left(f_{\varphi
 
 
 ### 6) Tablo z teorie, tablo důkaz
-- Konečné tablo z teorie $$T$$ je uspořádaný, označkovaný strom zkonstruovaný aplikací konečně mnoha pravidel:
+- Konečné tablo z teorie $$T$$ je uspořádaný, položkami označkovaný strom zkonstruovaný aplikací konečně mnoha pravidel:
     - Jednoprvkový strom označkovaný libovolnou položkou je tablo z Teorie $$T$$.
     - Pro libovolnou položku $$P$$ na větvi $$V$$ můžeme na konec větve $$V$$ připojit atomické tablo pro položku $$P$$. Atomické tablo je tabulková hodnota pro logické spojky.
     - Na konec libovolné větve můžeme připojit položku $$T \alpha$$ pro libovolný axiom $$\alpha \in T$$.
