@@ -1,5 +1,7 @@
+@use "sass:color"
+
 .highlight pre
-  background: rgba(lighten($dark, 5%), 0.9)
+  background: rgba(color.adjust($dark, $lightness: 5%), 0.9)
   color: white
 .c
   color: #a29f90

@@ -1,6 +1,7 @@
 ---
 ---
 
+@use "sass:color"
 @import main
 
 body
@@ -21,7 +22,7 @@ body > article
 body > header
   display: block
   position: fixed
-  background: darken($dark, 50%)
+  background: color.adjust($dark, $lightness: -50%)
   color: #fff
   border: none
   box-shadow: none
@@ -42,11 +43,11 @@ nav a
   padding: .5em 2em
 
 nav a.selected
-  background: lighten($dark, 4%)
+  background: color.adjust($dark, $lightness: 4%)
   text-decoration: inherit
 
 nav a:hover
-  background: lighten($dark, 8%)
+  background: color.adjust($dark, $lightness: 8%)
   text-decoration: inherit
   transition: 0.3s ease-in-out
 
