@@ -202,9 +202,9 @@ $$ \| x - y \|^{2} + \| x + y \|^{2} = 2\| x \|^{2} + 2\| y \|^{2} $$
 ### Metrika
 Metriku na množině $$M$$ definujeme jako zobrazení $$d: M^{2} \rightarrow \R$$ splňující:
 
-1. $$d(x,y) \leq 0$$, rovnost pouze pro $$x=y$$
+1. $$d(x,y) \geq 0$$, rovnost pouze pro $$x=y$$
 2. \(d(x,y) = d(y,x)\)
-3. \(d(x,y) \leq d(x,y) + d(y,x)\)
+3. \(d(x,z) \leq d(x,y) + d(y,z)\)
 {% enddef %}
 
 {:.no_toc}
