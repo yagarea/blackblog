@@ -68,3 +68,6 @@ happening in my machines.
 : **[PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/)** [[AGPL-3.0](https://github.com/prusa3d/PrusaSlicer?tab=AGPL-3.0-1-ov-file#readme)] -
   Universal and intuitive slicer with a lot of advanced features.
 
+**Torrent client**
+: **[qBittorrnt](https://www.qbittorrent.org/)** [[GPLv2/3](https://github.com/qbittorrent/qBittorrent/?tab=License-1-ov-file)] - Great client with polished µTorrent-like UI (native and web) and IPv6 support.
+
