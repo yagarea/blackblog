@@ -274,9 +274,12 @@ Představuje projekci na bazické vektory
 Vstup: lineárně nezávislé vektory $$x_{1}, \ldots, x_{n} \in V$$
 
 > 1. for $$k:=1$$ to $$n$$
-> 2. &nbsp;&nbsp;&nbsp;&nbsp;$$y_{k} := x_{k} - \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
-> 3. &nbsp;&nbsp;&nbsp;&nbsp;$$z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$$$$$
+> 2. $$\quad y_{k} := x_{k} - \sum^{k-1}_{j=1} \langle x_{k},z_{j} \rangle z_{j}$$ // nakolmíme odečtením projekce do podprostoru
+> 3. \$$\quad z_{k} := \frac{y_{k}}{\left\| y_{k} \right\|}$$
 > 4. end for
+
+
+
 
 Výstup: $$z_{1},\ldots, z_{n}$$ ortonormální báze prostoru $$span\{x_{1},\ldots,x_{n}\}$$
 
