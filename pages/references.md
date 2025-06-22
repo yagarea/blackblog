@@ -58,6 +58,7 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [olga.ggu.cz](https://olga.ggu.cz/) - Olga Cinková
 - [samoro.st](https://samoro.st/) - Honza Doskočil
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
+- [knowledgeboard.github.io](https://knowledgeboard.github.io/index.html) - Marek Bečvář
 
 ---
 
