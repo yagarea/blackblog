@@ -19,7 +19,7 @@ happening in my machines.
   I have perfected my configuration years on [i3wm](https://i3wm.org/) and have been using it since.
 
 **Display manager**
-: **[Ly](https://github.com/fairyglade/ly)** [[WTFPL](https://github.com/fairyglade/ly?tab=WTFPL-1-ov-file#readme)] -
+: **[Ly](https://codeberg.org/AnErrupTion/ly)** [[WTFPL](https://github.com/fairyglade/ly?tab=WTFPL-1-ov-file#readme)] -
    Simple and highly configurable DM with console UI.
 
 **Terminal emulator**
