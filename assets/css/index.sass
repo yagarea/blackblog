@@ -1,7 +1,15 @@
 ---
 ---
 
-@import main, font, basic, layout, highlight, classes, album-wall
+@use "sass:meta"
+
+@include meta.load-css("main")
+@include meta.load-css("font")
+@include meta.load-css("basic")
+@include meta.load-css("layout")
+@include meta.load-css("highlight")
+@include meta.load-css("classes")
+@include meta.load-css("album-wall")
 
 @media (max-width: 1100px)
   .archive-list

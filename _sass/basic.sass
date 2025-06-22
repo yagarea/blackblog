@@ -1,20 +1,23 @@
 
+
+@use "main"
+
 html
-  font-size: $font-size
-  background: $dark
+  font-size: main.$font-size
+  background: main.$dark
   color: #FAFAFA
 
 body
   font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif
-  font-weight: $font-weight
-  line-height: $line-height
+  font-weight: main.$font-weight
+  line-height: main.$line-height
   margin: 0
   -webkit-text-size-adjust: 100%
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
 h1, h2, h3, h4, h5, h6
-  font-weight: $heading-weight
+  font-weight: main.$heading-weight
   line-height: 115%
 
 h1
@@ -30,10 +33,10 @@ h4
   font-size: 1.0em
 
 b, strong, th
-  font-weight: $font-weight + 200
+  font-weight: main.$font-weight + 200
 
 a
-  color: $link-color
+  color: main.$link-color
   text-decoration: inherit
   &:hover
     text-decoration: underline
@@ -48,19 +51,19 @@ header time
   color: #b2b2b3
 
 body > header
-  border-bottom: 3px solid rgba($light, 0.05)
+  border-bottom: 3px solid rgba(main.$light, 0.05)
 
 hr
-  border: 1px solid reduce(50)
+  border: 1px solid main.reduce(50)
   margin: 2em 0
 
 
 article:not(:last-child)
-  border-bottom: 2px solid reduce(20)
+  border-bottom: 2px solid main.reduce(20)
 
 blockquote
-  background: reduce(15)
-  border-left: 3px solid reduce(90)
+  background: main.reduce(15)
+  border-left: 3px solid main.reduce(90)
   padding: 1px 1.5em
   opacity: .9
 
@@ -95,13 +98,13 @@ th
   font-size: 125%
 
 tr
-  border: 1px solid reduce(20)
+  border: 1px solid main.reduce(20)
 
 tr:nth-child(odd) td //tr:hover
-  background: reduce(8)
+  background: main.reduce(8)
 
 pre
-  background: reduce(15)
+  background: main.reduce(15)
   border-radius: 2px
   line-height: 100%
   font-size: .8em
