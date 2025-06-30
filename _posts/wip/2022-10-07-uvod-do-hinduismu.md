@@ -1,5 +1,5 @@
 ---
-title: "Základy hindismu (WIP)"
+title: "Základy hinduismu (WIP)"
 category: "Theology"
 language: "CZ"
 latex: true
@@ -175,7 +175,7 @@ Indická literatura se dělí:
     - klasické období
     - eposy jsou klasickým vyjádřením indické zbožnosti
     - Višnu
-        - Avatára = sesoupení
+        - Avatára = sestoupení
         - 1. želva (kúrma)
             - Ztratili užitečné nástroje (krávu hojnosti, atd). Bylo jim to líto, tak see rozhodli stlouct oceán mléka. Ztlučením získají zpět své věci. Také vzniká _amrita_ = požehnaný nápoj. O amritu se pak poprali bohové s démony a démoni ji získali. Višua se proto proměnil v ženu a démoni z něj nemohli spustit oči a bohové ji ukradli. Při přenášení jim ukápli 4 kapky amrity na indii.
             - Kumbaméla - svátek
