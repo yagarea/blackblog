@@ -13,14 +13,17 @@ Formát je:
 ```
 
 ## Návrhy
-- 18\. 11\. 2024 - **[Cradle of filth, Butcher babies, Mental cruelty ](https://obscure.cz/cs/tickets/detail/id/752)** - Music club Lucerna
-- 21\. 11\. 2024 - **[Alcest, Svalbard, Doodseskader](https://obscure.cz/cs/tickets/detail/id/691)** - Roxy (Adam B., Jana B., Andy M.)
-- 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
-- 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
 
 ---
 
 ## Proběhlé
+- 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
+
+
+{% details **Events of 2024** %}
+- 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
+- 21\. 11\. 2024 - **[Alcest, Svalbard, Doodseskader](https://obscure.cz/cs/tickets/detail/id/691)** - Roxy (Adam B., Jana B., Andy M.)
+- 18\. 11\. 2024 - **[Cradle of filth, Butcher babies, Mental cruelty ](https://obscure.cz/cs/tickets/detail/id/752)** - Music club Lucerna
 - 12\. 11\. 2024 - **[While She Sleeps, Malevolence, Thrown, Resolve](https://goout.net/en/while-she-sleeps/szgsfhx/)** - ARCHA+ (Adam B.)
 - 14\. 11\. 2024 - **[Veil of Maya, Signs of the swarm, Varials, To the grave](https://obscure.cz/cs/tickets/detail/id/725)** - Fututrum
 - 02\. 10\. 2024 - **[Sdružení rodičů a přátel ropy](kastan.cz/akce/s-r-p-r-janota-1935/)** - Klub kaštan (Honza Č., David S., Martin K., Tom V.)
@@ -41,6 +44,7 @@ Formát je:
 - 06\. 02\. 2024 - **[Nothing More, SiM, Siamese](https://goout.net/cs/nothing-more%2Bspecial-guests/szlmwnw/)** - MeetFactory (~~Petr S.~~)
 - 04\. 02\. 2024 - **[Architects, ~~Spiritbox~~, While She Sleeps, Loathe](https://fb.me/e/3Rg2C91Rr)** - Forum Karlín (Adam B.)
 - 26\. 01\. 2024 - **[Self Deception](https://goout.net/en/self-deception/szvdxgw/)** - Cross Club (Petr S.)
+{% enddetails %}
 
 {% details **Events of 2023** %}
 - 07\. 12\. 2023 - **[The Prodigy](https://www.ticketmaster.cz/event/the-prodigy-vstupenky/47687)** - Sportovní hala FORTUNA, Praha 7 (Petr S.)
