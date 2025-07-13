@@ -258,6 +258,19 @@ Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-
 
 Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
+InVeins | Deathcore | Czechia | [Fajtfest 4.7. 2025]() |
+Hot Sunday blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025]() |
+Exorciphobia | Thrash metal | Czechia | [Fajtfest 4.7. 2025]() |
+Stercore | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025]() |
+The Narrator | Metalcore | Gernamy | [Fajtfest 4.7. 2025]() |
+Ruins of perception | Blackned deathcore | Germany | [Fajtfest 4.7. 2025]() |
+Kaonashi | Experimental post hardcore | USA | [Fajtfest 4.7. 2025]() |
+Terminal sleep | Power violence | Australia | [Fajtfest 4.7. 2025]() |
+Heavy//Hitter | Beatdown deathcore | USA | [Fajtfest 4.7. 2025]() |
+Filth | Slamming hardcore | USA | [Fajtfest 4.7. 2025]() |
+Defamed | Deathcore | Italy | [Fajtfest 4.7. 2025]() |
+
+
 {% endbands %}
 
 ## Other (random order)
