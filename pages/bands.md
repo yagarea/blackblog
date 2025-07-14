@@ -271,6 +271,15 @@ Filth | Slamming hardcore | USA | [Fajtfest 4.7. 2025]() |
 Defamed | Deathcore | Italy | [Fajtfest 4.7. 2025]() |
 
 
+
+Zodiac | Death metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#zodiac) |
+Sixth Dimension | Thrash metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#sixth-dimension) |
+Initium | Metalcore | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#initium) |
+Nahum | Death thrash metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#nahum) |
+Henych666 | Heavy metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#henych666) |
+Ewenay | Folk metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#ewenay) |
+Day Before | Metalcore | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#day-before) |
+
 {% endbands %}
 
 ## Other (random order)
