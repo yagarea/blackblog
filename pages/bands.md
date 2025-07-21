@@ -259,7 +259,7 @@ Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-
 Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
 InVeins | Deathcore | Czechia | [Fajtfest 4.7. 2025]() |
-Hot Sunday blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025]() |
+Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025]() |
 Exorciphobia | Thrash metal | Czechia | [Fajtfest 4.7. 2025]() |
 Stercore | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025]() |
 The Narrator | Metalcore | Gernamy | [Fajtfest 4.7. 2025]() |
