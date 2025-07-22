@@ -128,7 +128,7 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | [Brutal Assault 9.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#artificial-brain) |
 
-Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) | ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) : [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#signs-of-the-swarm) | ♥ ★
 Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
 Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/) |
 Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
@@ -258,17 +258,17 @@ Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-
 
 Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
-InVeins | Deathcore | Czechia | [Fajtfest 4.7. 2025]() |
-Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025]() |
-Exorciphobia | Thrash metal | Czechia | [Fajtfest 4.7. 2025]() |
-Stercore | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025]() |
-The Narrator | Metalcore | Gernamy | [Fajtfest 4.7. 2025]() |
-Ruins of perception | Blackned deathcore | Germany | [Fajtfest 4.7. 2025]() |
-Kaonashi | Experimental post hardcore | USA | [Fajtfest 4.7. 2025]() |
-Terminal sleep | Power violence | Australia | [Fajtfest 4.7. 2025]() |
-Heavy//Hitter | Beatdown deathcore | USA | [Fajtfest 4.7. 2025]() |
-Filth | Slamming hardcore | USA | [Fajtfest 4.7. 2025]() |
-Defamed | Deathcore | Italy | [Fajtfest 4.7. 2025]() |
+InVeins | Deathcore | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#inveins) |
+Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#hot-sunday-blood) |
+Exorciphobia | Thrash metal | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#exorciphobia) |
+Stercore | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#stercore) |
+The Narrator | Metalcore | Gernamy | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#the-narrator) |
+Ruins of perception | Blackned deathcore | Germany | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#ruins-of-perception) |
+Kaonashi | Experimental post hardcore | USA | [Fajtfest 4.7. 2025](/music/3-kaonashi-2025-07-04/) |
+Terminal sleep | Power violence | Australia | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#terminal-sleep) |
+Heavy//Hitter | Beatdown deathcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#heavy-hitter) |
+Filth | Slamming hardcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#filth) |
+Defamed | Deathcore | Italy | [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#defamed) |
 
 
 
