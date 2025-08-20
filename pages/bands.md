@@ -17,7 +17,7 @@ live for a first time.
 {% bands %}
 
 Metallica   | Thrash metal                  | USA       | Eden arena 7.5. 2012  | ⛬
-Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012  | ⛬
+Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012 : Brutal Assault 7.8. 2025 | ⛬ ★
 Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
 Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
@@ -71,7 +71,7 @@ Jungendwerkhof            | Harsh noise              | Germany     | Brutal Assa
 As I lay dying            | Metalcore                | USA         | Forum Karlín 4.10. 2019 : Brutal Assault 11.8. 2022 | ♥ ★
 Mercyful fate             | First wave black metal   | Denmark     | Brutal Assault 11.8. 2022 | ⛬
 Cradle of filth           | Extreme gothic metal     | England     | Brutal Assault 11.8. 2022 | ⛬
-Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assault 11.8. 2022 | ★
+Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assault 11.8. 2022 : [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#fleshgod-apocalypse) | ★
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
 Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 |
@@ -145,7 +145,7 @@ The callous daoboys | Hardcore with violin         | USA         | Brutal Assaul
 Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
 Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 | ★
 Knocked loose       | Beatdown hardcore            | USA         | Brutal Assault 11.8. 2023 : [Music bar Lucerna 19.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#knocked-loose) | ★
-Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 | ⛬
+Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 : Brutal Assault 7.8. 2025 | ⛬
 Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
 Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
 Skinless            | Brutal death metal           | USA         | Brutal Assault 11.8. 2023 |
@@ -279,6 +279,47 @@ Nahum | Death thrash metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-mo
 Henych666 | Heavy metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#henych666) |
 Ewenay | Folk metal | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#ewenay) |
 Day Before | Metalcore | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlikov-2025-07-05/#day-before) |
+
+
+Blood Red Throne | Death metal         | Norway    | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#blood-red-throne) |
+Warbringer       | Thrash metal        | USA       | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#warbringer) |
+Crystal lake     | Metalcore           | Japan     | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#crystal-lake) |
+Ne Obliviscaris  | Thrash metal        | Australia | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#ne-obliviscaris) |
+Dope             | Industrial nu metal | USA       | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#dope) |
+Skálmöld         | Viking folk metal   | Iceland   | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#skálmöld) |
+Thrown           | Hardcore            | Sweden    | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#thrown) |
+Dark Angel       | Thrash metal        | USA       | [Brutal Assault 6.8. 2025](/music/4-dark-angel-static-x-frayle-sleepytime-gorilla-museum-2025-08-06/#dark-angel) |
+Static-X         | Industrial metal    | USA       | [Brutal Assault 6.8. 2025](/music/3-static-x-2025-08-06/) |
+Frayle           | Doom metal          | USA       | [Brutal Assault 6.8. 2025](/music/4-dark-angel-static-x-frayle-sleepytime-gorilla-museum-2025-08-06/#frayle) |
+Sleepytime Gorilla Museum | Avantgarde metal | USA | [Brutal Assault 6.8. 2025](/music/4-dark-angel-static-x-frayle-sleepytime-gorilla-museum-2025-08-06/#sleepytime-gorilla-museum) |
+Mastodon         | Progressive sludge metal  | USA | [Brutal Assault 6.8. 2025](/music/6-mastodon-rotting-christ-orange-goblin-heriot-2025-08-06/#mastodon) |
+Ministry         | Industrial metal    | USA       | [Brutal Assault 6.8. 2025](/music/5-ministry-2025-08-06/) | ⛬
+Rotting Christ   | Melodic black metal | Greece    | [Brutal Assault 6.8. 2025](/music/6-mastodon-rotting-christ-orange-goblin-heriot-2025-08-06/#rotting-christ) |
+Orange Goblin    | Stoner metal        | UK        | [Brutal Assault 6.8. 2025](/music/6-mastodon-rotting-christ-orange-goblin-heriot-2025-08-06/#orange-goblin) |
+Heriot           | Hardcore            | UK        | [Brutal Assault 6.8. 2025](/music/6-mastodon-rotting-christ-orange-goblin-heriot-2025-08-06/#heriot) |
+
+
+Mammoth grinder  | Death metal        | USA     | Brutal Assault 7.8. 2025 |
+Fulci            | Brutal death metal | Italy   | Brutal Assault 7.8. 2025 |
+Gutslit          | Brutal death metal | India   | Brutal Assault 7.8. 2025 |
+Psycroptic       | Technical death metal | Australia | Brutal Assault 7.8. 2025 |
+Car Bomb         | Mathcore           | USA     | Brutal Assault 7.8. 2025 | ★
+High Parasite    | Doom metal         | UK      | Brutal Assault 7.8. 2025 |
+Gutalax          | Pornogrind         | Czechia | Brutal Assault 7.8. 2025 |
+Kublai Khan TX   | Beatdown hardcore  | USA     | Brutal Assault 7.8. 2025 |
+August Burns Red | Metalcore          | USA     | Brutal Assault 7.8. 2025 |
+Landmvrks        | Metalcore          | France  | Brutal Assault 7.8. 2025 |
+Drowning pool    | Post-grunge        | USA     | Brutal Assault 7.8. 2025 |
+Blood Fire Death | Black metal        | Sweden  | Brutal Assault 7.8. 2025 |
+Between the buried and me | Metalcore | USA     | Brutal Assault 7.8. 2025 |
+Fear factory     | Industrial metal   | USA     | Brutal Assault 7.8. 2025 |
+Furia            | Black metal        | Poland  | Brutal Assault 7.8. 2025 |
+
+
+
+
+
+
 
 {% endbands %}
 
