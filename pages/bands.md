@@ -24,6 +24,15 @@ Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   
 Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017 : Forum Karlín 10.9. 2022     | ♥ ★
 Asking Alexandria   | Metalcore         | UK        | Forum Karlín 29.3. 2017                               |
 Stick to your guns  | Metalcore         | USA       | Forum Karlín 29.3. 2017                               |
+
+
+Lords of Black     | Heavy metal       | Spain | Letňany 13.6. 2018 |
+Johnathan Davis    | Progressive metal | USA   | Letňany 13.6. 2018 |
+Hollywood Vampires | Rock              | USA   | Letňany 13.6. 2018 |
+Ozzy Osbourne      | Metal             | UK    | Letňany 13.6. 2018 | ♥ ★ ⛬
+
+
+
 Chelsea grin        | Deathcore         | USA       | Forum Karlín 4.10. 2019                               | ♥ ★
 Fit for a king      | Metalcore         | USA       | Forum Karlín 4.10. 2019                               |
 Polaris             | Metalcore         | Australia | Forum Karlín 31.1. 2019 : Palác Akropolis 14.12. 2019 |
