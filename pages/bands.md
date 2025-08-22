@@ -64,7 +64,7 @@ Alcest          | Blackgaze                            | France  | Brutal Assaul
 Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024| ♥ ★
 Igorrr          | Experimental electronic metal        | France  | Brutal Assault 10.8. 2022 | ★
 Cannibal corpse | Death metal                          | USA     | Brutal Assault 10.8. 2022 | ⛬
-Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 | ⛬
+Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2025 | ⛬
 Amenra          | Doom post-metal                      | Belgium | Brutal Assault 10.8. 2022 |
 
 Excrementory grindfuckers | Grindcore                | Germany     | Brutal Assault 11.8. 2022 |
@@ -92,7 +92,7 @@ Abbath                  | Black metal                   | Norway     | Brutal As
 Suffocation             | Technical brutal death metal  | USA        | Brutal Assault 12.8. 2022 | ★ ⛬
 Venom                   | First wave black metal        | UK         | Brutal Assault 12.8. 2022 | ⛬
 Mysticum                | Industrial black metal        | Norway     | Brutal Assault 12.8. 2022 | ★ ⛬
-Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 | ★
+Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2025 | ★
 
 Gorod               | Progressive technical death metal | France    | Brutal Assault 13.8. 2022 | ★
 Haemorrhage         | Goregrind                         | Spain     | Brutal Assault 13.8. 2022 |
@@ -105,7 +105,7 @@ Leprous             | Progressive metal                 | Norway    | Brutal Ass
 Front line assembly | EBM industrial                    | Canada    | Brutal Assault 13.8. 2022 | ⛬
 Sólstafir           | Psychedelic post rock             | Iceland   | Brutal Assault 13.8. 2022 |
 Ahab                | Doom metal                        | Germany   | Brutal Assault 13.8. 2022 |
-Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 | ⛬
+Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 : Brutal Assault 8.8. 2025 | ⛬
 Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Assault 13.8. 2022 |
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
 
@@ -325,9 +325,35 @@ Fear factory     | Industrial metal   | USA     | Brutal Assault 7.8. 2025 |
 Furia            | Black metal        | Poland  | Brutal Assault 7.8. 2025 |
 
 
+Graphic nature     | Metalcore    | UK       | Brutal Assault 8.8. 2025 |
+Angelmaker         | Deathcore    | Canada   | Brutal Assault 8.8. 2025 |
+Pyrexia            | Death metal  | USA      | Brutal Assault 8.8. 2025 |
+Within destruction | Deathcore    | Slovenia | Brutal Assault 8.8. 2025 |
+Monolord           | Stoner metal | Sweden   | Brutal Assault 8.8. 2025 |
+Mnemic             | Post industrial metal   | Denmark | Brutal Assault 8.8. 2025 |
+Sylvaine           | Shoegaze     | Norway   | Brutal Assault 8.8. 2025 |
+Pig destroyer      | Grindcore    | USA      | Brutal Assault 8.8. 2025 |
+Malignancy         | Technical death metal   | USA | Brutal Assault 8.8. 2025 |
+Vyšehrad           | Black noise  | Czechia  | Brutal Assault 8.8. 2025 |
+Dimmu Borgir | Symphonic black metal | Norway | Brutal Assault 8.8. 2025 |
+Tsjuder      | Black metal           | Norway | Brutal Assault 8.8. 2025 |
+Hellripper   | Black speed metal     | UK     | Brutal Assault 8.8. 2025 |
 
 
-
+Besna           | Post black metal      |  Slovakia  | Brutal Assault 9.8. 2025 |
+Crypta          | Death metal           | Brazil     | Brutal Assault 9.8. 2025 |
+Khan            | Stoner metal          | Australia  | Brutal Assault 9.8. 2025 |
+To the Grave    | Deathcore             | Australia  | Brutal Assault 9.8. 2025 |
+Hanabie         | Harajuku-core         | Japan      | Brutal Assault 9.8. 2025 |
+Half me         | Metalcore             | Germany    | Brutal Assault 9.8. 2025 |
+King Woman      | Doom metal            | USA        | Brutal Assault 9.8. 2025 |
+Harakiri for the sky | Post black metal | Austria    | Brutal Assault 9.8. 2025 |
+Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025 |
+Karnivool       | Progressive metal     | Australia  | Brutal Assault 9.8. 2025 |
+Defeated sanity | Technical brutal death metal | Germany | Brutal Assault 9.8. 2025 |
+Opeth           | Progressive metal     | Sweden     | Brutal Assault 9.8. 2025 |
+The Halo Effect | Melodic death metal   | Sweden     | Brutal Assault 9.8. 2025 |
+Hellbutcher     | Black metal           | Sweden     | Brutal Assault 9.8. 2025 |
 
 
 {% endbands %}
