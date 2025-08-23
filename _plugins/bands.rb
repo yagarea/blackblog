@@ -20,7 +20,8 @@ module Jekyll
         genre = band[1]
         country = band[2]
         event =  md_converter.convert(band[3].gsub(":","<br/>")).gsub("<p>","").gsub("</p>","")
-        logo = band[0].downcase.parameterize + ".png"
+        normalized_name = band[0].downcase.parameterize
+        logo = normalized_name + ".png"
         tags = band[4] == nil ? "" : band[4]
 
         replacements = {
@@ -40,7 +41,7 @@ module Jekyll
       <img class="band-logo" src="/assets/img/bands/#{logo}" alt="#{name}"/>
     </td>
     <td colspan="2">
-      <h2>#{name}</h2>
+      <h2 id="#{normalized_name}">#{name}</h2>
     </td>
   </tr>
   <tr>
