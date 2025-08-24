@@ -2,7 +2,7 @@
 title: "In flames, Signs of the Swarm, Ingested, Malevolence"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal assault"
+venue: "Brutal Assault"
 ---
 
 ## Malevolence

@@ -2,7 +2,7 @@
 title: "Agnostic front, Bleed from within, Belakor, Fit for an autopsy"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal assault"
+venue: "Brutal Assault"
 ---
 
 

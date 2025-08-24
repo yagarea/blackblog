@@ -2,7 +2,7 @@
 title: "Watain, Sepultura, Dying fetus, Eyehategod, Artificial brain"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal assault"
+venue: "Brutal Assault"
 ---
 
 ## Artificial brain
