@@ -25,7 +25,7 @@ Formát je:
 - 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
 - 14\. 12\. 2025 - **[Chelsea grin, Signs of the swarm, Mugshot, Crown magnetar](https://obscure.cz/cs/tickets/detail/id/940)** - Meetfactory
 - 22\. 01\. 2026 - **[Counterparts](https://meetfactory.cz/en/program/detail/rock-for-people-counterparts)** - Meetfactory
-- 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum
+- 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy)
 - 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
 - 19\. 02\. 2026 - **[Jinjer](https://obscure.cz/cs/tickets/detail/id/918)** - Sasazu
 - 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
@@ -36,7 +36,7 @@ Formát je:
 
 ## Proběhlé
 - 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
-- 19\. 08\. 2025 - **[I Prevail](https://www.sasazu-club.com/events/prevail25)** - SaSaZu
+- 19\. 08\. 2025 - **[I Prevail](https://www.sasazu-club.com/events/prevail25)** - SaSaZu (Adam B.)
 
 
 {% details **Events of 2024** %}
