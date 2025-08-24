@@ -69,5 +69,5 @@ happening in my machines.
   Universal and intuitive slicer with a lot of advanced features.
 
 **Torrent client**
-: **[qBittorrnt](https://www.qbittorrent.org/)** [[GPLv2/3](https://github.com/qbittorrent/qBittorrent/?tab=License-1-ov-file)] - Great client with polished µTorrent-like UI (native and web) and IPv6 support.
+: **[qBittorrent](https://www.qbittorrent.org/)** [[GPLv2/3](https://github.com/qbittorrent/qBittorrent/?tab=License-1-ov-file)] - Great client with polished µTorrent-like UI (native and web) and IPv6 support.
 
