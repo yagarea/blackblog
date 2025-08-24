@@ -293,7 +293,7 @@ Day Before | Metalcore | Czechia | [M.O.A Modlíkov 5.7. 2025](/music/moa-modlik
 Blood Red Throne | Death metal         | Norway    | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#blood-red-throne) |
 Warbringer       | Thrash metal        | USA       | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#warbringer) |
 Crystal lake     | Metalcore           | Japan     | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#crystal-lake) |
-Ne Obliviscaris  | Thrash metal        | Australia | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#ne-obliviscaris) |
+Ne Obliviscaris  | Progressive metal   | Australia | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#ne-obliviscaris) |
 Dope             | Industrial nu metal | USA       | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#dope) |
 Skálmöld         | Viking folk metal   | Iceland   | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#skálmöld) |
 Thrown           | Hardcore            | Sweden    | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#thrown) |
