@@ -65,10 +65,12 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 ## Not friends but worth visiting
 People I do not know personally and think their websites offer a great value.
 
+- [blog.orko.cz](https://blog.orko.cz/) - Marek Orko Vácha
 - [cahlen.org](https://cahlen.org/index.html) - Cahlen Lee
 - [halik.cz](http://halik.cz/cs/) - Tomáš Halík
 - [lukesmith.xyz](https://lukesmith.xyz/) - Luke Smith
 - [vaxry.net](https://vaxry.net/) - Vaxry
 - [zvojtisek.cz](http://www.zvojtisek.cz/) - Zdeněk Vojtíšek
+
 
 {% endspliter %}
