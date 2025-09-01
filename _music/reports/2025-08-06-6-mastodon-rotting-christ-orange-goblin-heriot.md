@@ -18,3 +18,9 @@ venue: "Brutal Assault"
 {% include video.html src="/assets/music-reports/2025-08-06-brutal-assault-2025/heriot.mp4" %}
 {% include video.html src="/assets/music-reports/2025-08-06-brutal-assault-2025/heriot2.mp4" %}
 
+{% spliter %}
+{% include video.html src="/assets/music-reports/2025-08-06-brutal-assault-2025/heriot-adam1.mp4" credits="C: [Adam](https://www.instagram.com/_.adam_.b.)"%}
+---
+{% include video.html src="/assets/music-reports/2025-08-06-brutal-assault-2025/heriot-adam2.mp4" credits="C: [Adam](https://www.instagram.com/_.adam_.b.)"%}
+{% endspliter %}
+
