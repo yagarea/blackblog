@@ -15,7 +15,7 @@ Pokud naleznete nějakou chybu, můžete jí opravit pomocí tlačítka *edit*.
 
 ## Skalární součin
 {% def %}
-Standardní skalární součin $$x,y \in \R$$ je definován jako
+Standardní skalární součin $$x,y \in \R^{n}$$ je definován jako
 
 $$ x^{T}y = \sum_{i=1}^{n} x_{i}y_{i}$$
 
