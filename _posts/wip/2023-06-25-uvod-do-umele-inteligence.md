@@ -152,7 +152,7 @@ příklad:\\
 - metoda v CSP, kde kontrolujeme splnění podmínek předem
 - příklad: umístíme dámu a vyškrtáme všechna ohrožená políčka/ Pak nemůžeme porušit podmínky, protože ohrožená políčka se nedají obsadit.
 
-### SCP problem
+### CSP problem
 - **Proměnné** (variables) - konečná množina
 - **Obory hodnot** (domains) - možné hodnoty
 - **Podmínky** (constrains) - konečná množina - relace nad podmnožinou proměných
