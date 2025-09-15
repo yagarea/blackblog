@@ -5,7 +5,7 @@ language: "CZ"
 venue: "Brutal Assault"
 ---
 
-## Mamoth grinder
+## Mammoth grinder
 {% include video.html src="/assets/music-reports/2025-08-07-brutal-assault-2025/mammoth-grinder.mp4" %}
 
 
