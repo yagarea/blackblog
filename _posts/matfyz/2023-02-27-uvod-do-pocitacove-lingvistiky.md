@@ -676,11 +676,11 @@ vstupní graf:
 ![vstupní graf](/assets/img/matfyz/pc-ling/q-system-input-graph.jpg)
 
 $$
-\begin{align}
+\begin{aligned}
     Adj+N &\Rightarrow NP(Adj,N) \\
     V+NP(U^{*}) &\Rightarrow VP(V, NP(U^{*})) \\
     NP(U^{*})+VP(V^{*}) &\Rightarrow S(NP(U^{*}),VP(V^{*}))
-\end{align}
+\end{aligned}
 $$
 
 #### Pravidla
@@ -923,14 +923,14 @@ $$
 ### Základní vzorce
 
 $$
-\begin{align}
+\begin{aligned}
     P(A, B)=P(A) P(B) &\quad\; \text{(A, B nezávislé)} \\
     P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)} &\quad\;\text{(Bayesova věta)} \\
     P(A, B)=P(A \mid B) P(B)=P(B, A) & \\
     P(A, B, C)=P(A \mid B, C) P(B \mid C) P(C) & \\
     P(A \mid B)=P(A) &\quad\; \text{(A, B nezávislé)} \\
     P(A, B)=P(A)P(B) &\quad\; \text{(A, B nezávislé)} \\
-\end{align}
+\end{aligned}
 $$
 
 ### Modelování jazyka
@@ -950,7 +950,7 @@ Což z Bayesovy věty spočítáme jako $$P(w \mid h)={P(h \mid w)^{*} P(w) / P(
 Díky větě o úplné pravděpodobnosti pak můžeme počítat pravděpodobnost celé věty $$W$$ jako:
 
 $$
-\begin{align}
+\begin{aligned}
     &P(W) = \\
     &P\left(\left\langle w_{i}\right\rangle_{i=1 \ldots n}\right). \\
     &P\left(w_{n}   \mid \left\langle w_{i} \right\rangle_{i=1 \ldots n-1}\right). \\
@@ -959,7 +959,7 @@ $$
     \ldots \\
     &P\left(w_{2} \mid w_{1}\right). \\
     &P\left(w_{1}\right)
-\end{align}
+\end{aligned}
 $$
 
 {% endtheorem %}
@@ -982,7 +982,7 @@ $$p(W)=p(w_{3} \mid w_{2} w_{1}) p(w_{2} \mid w_{1}) p(w_{1})$$
 - Bohužel ale setře rozdíl mezi nesmyslnými kombinacemi a těmi málo pravděpodobnými
 
 ### Statistický překlad
-- Použije se se paralelní překladový korpus jako trénovací množina příkladů dobrého překladu
+- Použije se paralelní překladový korpus jako trénovací množina příkladů dobrého překladu
 - **Paralelní korpusy**
     - existují jak pro dvojice jazyků, tak i pro větší množiny (korpus dokumentů EU)
     - musí být spárované - po větách, větných členech, atd. (oproti práci překladatelů)
@@ -997,7 +997,9 @@ $$p(W)=p(w_{3} \mid w_{2} w_{1}) p(w_{2} \mid w_{1}) p(w_{1})$$
 ![Fázový překlad](/assets/img/matfyz/pc-ling/fazovy-preklad.jpg)
 
 ### Metoda zašuměného kanálu
-- Chceme překládat z $$F$$ do $$A$$. Hledáme pravděpodobnostní model $$P(A \mid F)$$, který vyjádří pravděpodobnost libovolné anglické věty a, máme-li francouzskou větu $$F$$. Parametry se nastaví podle tréninkového korpusu.
+- Chceme překládat z francouštiny ($$F$$) do angličtiny ($$A$$).
+  Hledáme pravděpodobnostní model $$P(A \mid F)$$, který vyjádří pravděpodobnost libovolné anglické věty a,
+  máme-li francouzskou větu $$F$$. Parametry se nastaví podle tréninkového korpusu.
 - Bayesův vzorec: $$P(A \mid F)=\frac{P(F \mid A)P(A)}{P(F)}$$
     - tím se vlastně otočil směr překladu
     - hledáme 2 modely:
@@ -1014,6 +1016,7 @@ $$p(W)=p(w_{3} \mid w_{2} w_{1}) p(w_{2} \mid w_{1}) p(w_{1})$$
     - problém: často se jim po cestě ztratí negace, to jazykový model nespraví (původní i negace jsou stejně přijatelné)
 - Jazykový model vybírá pouze "hezké" věty, nemá vztah k originálu
 - Hledání překladových hypotéz (dekódování) je obtížným problémem samo o sobě
+
 
 ### Evaluace systémů automatického překladu
 - Potřebujeme zpětnou vazbu, jestli se po změně systém zlepšuje, nebo ne
