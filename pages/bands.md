@@ -83,7 +83,7 @@ Cradle of filth           | Extreme gothic metal     | England     | Brutal Assa
 Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assault 11.8. 2022 : [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#fleshgod-apocalypse) | ★
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
-Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2023 |
+Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : [Brutal Assault 8.8. 2023](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#abbie-falls) |
 Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 |
 Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
 Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
@@ -92,7 +92,7 @@ Abbath                  | Black metal                   | Norway     | Brutal As
 Suffocation             | Technical brutal death metal  | USA        | Brutal Assault 12.8. 2022 | ★ ⛬
 Venom                   | First wave black metal        | UK         | Brutal Assault 12.8. 2022 | ⛬
 Mysticum                | Industrial black metal        | Norway     | Brutal Assault 12.8. 2022 | ★ ⛬
-Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 : Brutal Assault 8.8. 2025 | ★
+Hentai corporation      | Eccentric crossover metal     | Czechia    | Brutal Assault 12.8. 2022 : [Brutal Assault 8.8. 2025](z/music/3-pig-destroyer-hentai-corporation-malignancy-2025-08-08/#hentai-corporation) | ★
 
 Gorod               | Progressive technical death metal | France    | Brutal Assault 13.8. 2022 | ★
 Haemorrhage         | Goregrind                         | Spain     | Brutal Assault 13.8. 2022 |
@@ -105,7 +105,7 @@ Leprous             | Progressive metal                 | Norway    | Brutal Ass
 Front line assembly | EBM industrial                    | Canada    | Brutal Assault 13.8. 2022 | ⛬
 Sólstafir           | Psychedelic post rock             | Iceland   | Brutal Assault 13.8. 2022 |
 Ahab                | Doom metal                        | Germany   | Brutal Assault 13.8. 2022 |
-Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 : Brutal Assault 8.8. 2025 | ⛬
+Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 : [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#mayhem) | ⛬
 Oranssi pazuzu      | Psychedelic black metal           | Finland   | Brutal Assault 13.8. 2022 |
 Nekrogoblikon       | Melodic death metal               | USA       | Brutal Assault 13.8. 2022 |
 
@@ -327,19 +327,19 @@ Fear factory     | Industrial metal   | USA     | [Brutal Assault 7.8. 2025](/mu
 Furia            | Black metal        | Poland  | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#furia) |
 
 
-Graphic nature     | Metalcore    | UK       | Brutal Assault 8.8. 2025 |
+Graphic nature     | Metalcore    | UK       | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#graphic-nature) |
 Angelmaker         | Deathcore    | Canada   | Brutal Assault 8.8. 2025 |
-Pyrexia            | Death metal  | USA      | Brutal Assault 8.8. 2025 |
-Within destruction | Deathcore    | Slovenia | Brutal Assault 8.8. 2025 |
-Monolord           | Stoner metal | Sweden   | Brutal Assault 8.8. 2025 |
-Mnemic             | Post industrial metal   | Denmark | Brutal Assault 8.8. 2025 |
-Sylvaine           | Shoegaze     | Norway   | Brutal Assault 8.8. 2025 |
-Pig destroyer      | Grindcore    | USA      | Brutal Assault 8.8. 2025 |
-Malignancy         | Technical death metal   | USA | Brutal Assault 8.8. 2025 |
-Vyšehrad           | Black noise  | Czechia  | Brutal Assault 8.8. 2025 |
-Dimmu Borgir | Symphonic black metal | Norway | Brutal Assault 8.8. 2025 |
+Pyrexia            | Death metal  | USA      | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#pyrexia) |
+Within destruction | Deathcore    | Slovenia | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#within-destruction) |
+Monolord           | Stoner metal | Sweden   | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#monolord) |
+Mnemic             | Post industrial metal   | Denmark | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#mnemic) |
+Sylvaine           | Shoegaze     | Norway   | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#sylvaine) |
+Pig destroyer      | Grindcore    | USA      | [Brutal Assault 8.8. 2025](/music/3-pig-destroyer-hentai-corporation-malignancy-2025-08-08/#pig-destroyer) |
+Malignancy         | Technical death metal   | USA | [Brutal Assault 8.8. 2025](/music/3-pig-destroyer-hentai-corporation-malignancy-2025-08-08/#malignancy) |
+Vyšehrad           | Black noise  | Czechia  | [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#vyšehrad) |
+Dimmu Borgir | Symphonic black metal | Norway | [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#dimmu-borgir) |
 Tsjuder      | Black metal           | Norway | Brutal Assault 8.8. 2025 |
-Hellripper   | Black speed metal     | UK     | Brutal Assault 8.8. 2025 |
+Hellripper   | Black speed metal     | UK     | [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#hellripper) |
 
 
 Besna           | Post black metal      |  Slovakia  | Brutal Assault 9.8. 2025 |
