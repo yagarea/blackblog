@@ -20,6 +20,6 @@ venue: "Brutal Assault"
 {% include video.html src="/assets/music-reports/2025-08-07-brutal-assault-2025/august-burns-red.mp4" %}
 
 
-## Drownling pool
+## Drowning pool
 {% include video.html src="/assets/music-reports/2025-08-07-brutal-assault-2025/drowning-pool.mp4" %}
 
