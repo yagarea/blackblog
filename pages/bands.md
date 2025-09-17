@@ -154,7 +154,7 @@ The callous daoboys | Hardcore with violin         | USA         | Brutal Assaul
 Cabal               | Deathcore                    | Denmark     | Brutal Assault 11.8. 2023 |
 Archspire           | Technical death metal        | Canada      | Brutal Assault 11.8. 2023 | ★
 Knocked loose       | Beatdown hardcore            | USA         | Brutal Assault 11.8. 2023 : [Music bar Lucerna 19.2. 2024](/music/knocked-loose-deafheaven-headbussa-2024-02-19/#knocked-loose) | ★
-Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 : Brutal Assault 7.8. 2025 | ⛬
+Nile                | Technical Death metal        | USA         | Brutal Assault 11.8. 2023 : [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#nile) | ⛬
 Nero Di Marte       | Experimental death metal     | Italy       | Brutal Assault 11.8. 2023 |
 Zeal &amp; Ardor    | Avant-garde soul black metal | Switzerland | Brutal Assault 11.8. 2023 |
 Skinless            | Brutal death metal           | USA         | Brutal Assault 11.8. 2023 |
@@ -308,21 +308,23 @@ Orange Goblin    | Stoner metal        | UK        | [Brutal Assault 6.8. 2025](
 Heriot           | Hardcore            | UK        | [Brutal Assault 6.8. 2025](/music/6-mastodon-rotting-christ-orange-goblin-heriot-2025-08-06/#heriot) |
 
 
-Mammoth grinder  | Death metal        | USA     | Brutal Assault 7.8. 2025 |
-Fulci            | Brutal death metal | Italy   | Brutal Assault 7.8. 2025 |
-Gutslit          | Brutal death metal | India   | Brutal Assault 7.8. 2025 |
-Psycroptic       | Technical death metal | Australia | Brutal Assault 7.8. 2025 |
-Car Bomb         | Mathcore           | USA     | Brutal Assault 7.8. 2025 | ★
+Mammoth grinder  | Death metal        | USA     | [Brutal Assault 7.8. 2025](/music/1-mammoth-grinder-fulci-gutslit-psycroptic-2025-08-07/#mammoth-grinder) |
+Fulci            | Brutal death metal | Italy   | [Brutal Assault 7.8. 2025](/music/1-mammoth-grinder-fulci-gutslit-psycroptic-2025-08-07/#fulci) |
+Gutslit          | Brutal death metal | India   | [Brutal Assault 7.8. 2025](/music/1-mammoth-grinder-fulci-gutslit-psycroptic-2025-08-07/#gutslit) |
+Psycroptic       | Technical death metal | Australia | [Brutal Assault 7.8. 2025](/music/1-mammoth-grinder-fulci-gutslit-psycroptic-2025-08-07/#psycroptic) |
+Car Bomb         | Mathcore           | USA     | [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#car-bomb) | ★
 High Parasite    | Doom metal         | UK      | Brutal Assault 7.8. 2025 |
-Gutalax          | Pornogrind         | Czechia | Brutal Assault 7.8. 2025 |
-Kublai Khan TX   | Beatdown hardcore  | USA     | Brutal Assault 7.8. 2025 |
-August Burns Red | Metalcore          | USA     | Brutal Assault 7.8. 2025 |
-Landmvrks        | Metalcore          | France  | Brutal Assault 7.8. 2025 |
-Drowning pool    | Post-grunge        | USA     | Brutal Assault 7.8. 2025 |
-Blood Fire Death | Black metal        | Sweden  | Brutal Assault 7.8. 2025 |
+Zeke             | Hardcore punk      | USA     | [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#zeke) |
+Gutalax          | Pornogrind         | Czechia | [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#gutalax) |
+Kublai Khan TX   | Beatdown hardcore  | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#kublai-khan-tx) |
+August Burns Red | Metalcore          | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#august-burns-red) |
+Landmvrks        | Metalcore          | France  | [Brutal Assault 7.8. 2025](/music/4-landmvrks-2025-08-07/) |
+XIII. Století    | Gothic rock        | Czechia | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#xiii-století)
+Drowning pool    | Post-grunge        | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#drowning-pool) |
+Blood Fire Death | Black metal        | Sweden  | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#blood-fire-death) |
 Between the buried and me | Metalcore | USA     | Brutal Assault 7.8. 2025 |
-Fear factory     | Industrial metal   | USA     | Brutal Assault 7.8. 2025 |
-Furia            | Black metal        | Poland  | Brutal Assault 7.8. 2025 |
+Fear factory     | Industrial metal   | USA     | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#fear-factory) |
+Furia            | Black metal        | Poland  | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#furia) |
 
 
 Graphic nature     | Metalcore    | UK       | Brutal Assault 8.8. 2025 |
