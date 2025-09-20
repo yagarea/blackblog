@@ -4,6 +4,11 @@ permalink: "/albums/"
 layout: default
 ---
 
+<article markdown="1">
+## Personal favorite albums
+</article>
+
+
 <!-- Band | title | cover | year | link | tags -->
 {% album_wall %}
 
