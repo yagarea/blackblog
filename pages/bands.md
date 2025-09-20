@@ -17,7 +17,7 @@ live for a first time.
 {% bands %}
 
 Metallica   | Thrash metal                  | USA       | Eden arena 7.5. 2012  | ⛬
-Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012 : Brutal Assault 7.8. 2025 | ⛬ ★
+Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012 : [Brutal Assault 7.8. 2025](/music/5-gojira-2025-08-07/) | ⛬ ★
 Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
 Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
