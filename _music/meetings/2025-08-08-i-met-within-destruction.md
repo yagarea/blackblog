@@ -10,7 +10,7 @@ language: "EN"
 ![I met Within destruction](/assets/music-reports/2025-08-08-i-met-within-destruction/i-met-within-destruction2.jpg)
 {% endspliter %}
 
-I remember when Deathwish dropped and I instantly fell in love with it.
+I remember when [Deathwish](https://withindestruction.bandcamp.com/album/d-e-a-t-h-w-i-s-h) dropped and I instantly fell in love with it.
 I really miss that slamming deathcore era...
 When Within Destruction switched to "weebcore," I kinda lost interest in their new stuff.
 But years later, they popped up on Slav Metal 2 by Nik Nocturnal,
