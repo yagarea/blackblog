@@ -19,7 +19,7 @@ module Jekyll
         name = band[0]
         genre = band[1]
         country = band[2]
-        event =  md_converter.convert(band[3].gsub(":","<br/>")).gsub("<p>","").gsub("</p>","")
+        event = md_converter.convert(band[3].gsub(":","<br/>")).gsub("<p>","").gsub("</p>","")
         normalized_name = band[0].downcase.parameterize
         logo = normalized_name + ".png"
         tags = band[4] == nil ? "" : band[4]
