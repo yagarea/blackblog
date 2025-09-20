@@ -17,9 +17,9 @@ sidebar_limit: "55em"     # css limit of showing side bar
 
 # Menu
 navigation:
-  - {file: "index.md", icon: home}
-  - {file: "about.md", icon: info-circle}
-  - {file: "projects.md", icon: project-diagram }
+  - {file: "index.md", icon: house}
+  - {file: "about.md", icon: circle-info}
+  - {file: "projects.md", icon: diagram-project }
   - {file: "music.md", icon: music }
   - {file: "references.md", icon: address-card}
 

@@ -1,4 +1,9 @@
 ---
+icons:
+  - calendar-day
+  - microphone-lines
+  - guitar
+  - compact-disc
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -9,6 +14,10 @@
 {% endfor %}
 {% for link in site.external %}
   {% assign icon = link.icon %}
+  {% assign svg = site.data.font-awesome.icons[icon].svg | first %}
+  <symbol id="{{ icon }}" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}"><path d="{{ svg[1].path }}" /></symbol>
+{% endfor %}
+{% for icon in page.icons %}
   {% assign svg = site.data.font-awesome.icons[icon].svg | first %}
   <symbol id="{{ icon }}" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}"><path d="{{ svg[1].path }}" /></symbol>
 {% endfor %}
