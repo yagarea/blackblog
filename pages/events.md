@@ -17,7 +17,7 @@ Formát je:
 - 07\. 10\. 2025 - **[We Came as Romans, Brand of Sacrifice](https://obscure.cz/cs/tickets/detail/id/899)** - Palác Akropolis
 - 24\. 10\. 2025 - **[Thornhill, Ocean Grove](https://goout.net/cs/thornhill%2Bspecial-guests-ocean-grove%2Bbloom/szvketx/)** - Futurum
 - 31\. 10\. 2025 - **[Stray from the Path, Alphawolf, Graphic Nature](https://goout.net/cs/stray-from-the-path%2Bspecial-guest-alpha-wolf%2Bgraphic-nature%2Bcalva-louise/szjjbvx/)** - Distrikt
-- 07\. 11\. 2025 - **[Parkway Drive](https://www.ticketportal.cz/event/Parkway-Drive-20-Year-Anniversary-European-Tour?idp=1462244)** - Sporotvní hala Fortuna (golden circle)
+- 07\. 11\. 2025 - **[Parkway Drive](https://www.ticketportal.cz/event/Parkway-Drive-20-Year-Anniversary-European-Tour?idp=1462244)** - Sportovní hala Fortuna (Adam B. Honza. Č, Lucka V, (golden circle))
 - 14\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.ticketportal.cz/event/ELECTRIC-CALLBOY-World-Tour-2025)** - Forum Karlín (Adam B. - stání u podia)
 - 18\. 11\. 2025 - **[The Plot in You, Currents, Cane Hill](https://goout.net/cs/the-plot-in-you%2Bcurrents%2Bsaosin%2Bcane-hill/szebkrx/)** - SaSaZu
 - 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
