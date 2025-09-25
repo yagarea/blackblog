@@ -2,7 +2,7 @@
 title: "Silent planet, Thornhill, Paledusk"
 category: "Concert report"
 language: "CZ"
-venue: "Meet factory"
+venue: "MeetFactory"
 ---
 
 ## Paledusk

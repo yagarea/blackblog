@@ -2,7 +2,7 @@
 title: "Cattle decapitation, Signs of the Swarm, 200 Stab wounds, Vomit forth"
 category: "Concert report"
 language: "CZ"
-venue: "Meat factory"
+venue: "MeetFactory"
 ---
 
 ## Vomit forth

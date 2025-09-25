@@ -2,7 +2,7 @@
 title: "Great American Ghost, After the Burial, Bleed From Within"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assault"
+venue: "MeetFactory"
 ---
 
 ## Great American Ghost
