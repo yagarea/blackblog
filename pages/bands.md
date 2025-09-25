@@ -64,7 +64,7 @@ Alcest          | Blackgaze                            | France  | Brutal Assaul
 Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024| ♥ ★
 Igorrr          | Experimental electronic metal        | France  | Brutal Assault 10.8. 2022 | ★
 Cannibal corpse | Death metal                          | USA     | Brutal Assault 10.8. 2022 | ⛬
-Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2025 | ⛬
+Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 : [Brutal Assault 9.8. 2025](/music/4-opeth-the-halo-effect-dark-funeral-2025-08-09/#dark-funeral) | ⛬
 Amenra          | Doom post-metal                      | Belgium | Brutal Assault 10.8. 2022 |
 
 Excrementory grindfuckers | Grindcore                | Germany     | Brutal Assault 11.8. 2022 |
@@ -125,7 +125,7 @@ Feastem            | Grindcore                | Finland | Brutal Assault 9.8. 20
 Devoid of thought  | Death metal              | Italy   | Brutal Assault 9.8. 2023 |
 Angelus apatrida   | Thrash metal             | Spain   | Brutal Assault 9.8. 2023 |
 Fit for an autopsy | Deathcore                | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#fit-for-an-autopsy) |
-Bleed from within  | Metalcore                | UK      | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#bleed-from-within) | ★
+Bleed from within  | Metalcore                | UK      | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#bleed-from-within) : [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#bleed-from-within) | ★
 Agnostic front     | Hardcore                 | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#agnostic-front) |
 Heaving earth      | Death metal              | Czechia | Brutal Assault 9.8. 2023 |
 Chci pnutí         | Noise rock               | Czechia | Brutal Assault 9.8. 2023 |
@@ -342,21 +342,23 @@ Tsjuder      | Black metal           | Norway | Brutal Assault 8.8. 2025 |
 Hellripper   | Black speed metal     | UK     | [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#hellripper) |
 
 
-Besna           | Post black metal      |  Slovakia  | Brutal Assault 9.8. 2025 |
-Crypta          | Death metal           | Brazil     | Brutal Assault 9.8. 2025 |
-Khan            | Stoner metal          | Australia  | Brutal Assault 9.8. 2025 |
-To the Grave    | Deathcore             | Australia  | Brutal Assault 9.8. 2025 |
-Hanabie         | Harajuku-core         | Japan      | Brutal Assault 9.8. 2025 |
-Half me         | Metalcore             | Germany    | Brutal Assault 9.8. 2025 |
-King Woman      | Doom metal            | USA        | Brutal Assault 9.8. 2025 |
-Harakiri for the sky | Post black metal | Austria    | Brutal Assault 9.8. 2025 |
-Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025 |
-Karnivool       | Progressive metal     | Australia  | Brutal Assault 9.8. 2025 |
-Defeated sanity | Technical brutal death metal | Germany | Brutal Assault 9.8. 2025 |
-Opeth           | Progressive metal     | Sweden     | Brutal Assault 9.8. 2025 |
-The Halo Effect | Melodic death metal   | Sweden     | Brutal Assault 9.8. 2025 |
+Besna           | Post black metal      |  Slovakia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#besna) |
+Crypta          | Death metal           | Brazil     | [Brutal Assault 9.8. 2025](/music/crypta-circle-pit-was-invaded-by-cyclists-2025-08-09/) |
+Khan            | Stoner metal          | Australia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#khan) |
+To the Grave    | Deathcore             | Australia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#to-the-grave) |
+Hanabie         | Harajuku-core         | Japan      | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#hanabie) |
+Half me         | Metalcore             | Germany    | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#half-me) |
+King Woman      | Doom metal            | USA        | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#king-woman) |
+Harakiri for the sky | Post black metal | Austria    | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#harakiri-for-the-sky) |
+Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025] |
+Karnivool       | Progressive metal     | Australia  | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#karnivool) |
+Defeated sanity | Technical brutal death metal | Germany | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#defeated-sanity) |
+Opeth           | Progressive metal     | Sweden     | [Brutal Assault 9.8. 2025](/music/4-opeth-the-halo-effect-dark-funeral-2025-08-09/#opeth) |
+The Halo Effect | Melodic death metal   | Sweden     | [Brutal Assault 9.8. 2025](/music/4-opeth-the-halo-effect-dark-funeral-2025-08-09/#the-halo-effect) |
 Hellbutcher     | Black metal           | Sweden     | Brutal Assault 9.8. 2025 |
 
+Great American Ghost | Metalcore | USA | [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#great-american-ghost) |
+After the Burial     | Metalcore | USA | [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#after-the-burial) |
 
 {% endbands %}
 
