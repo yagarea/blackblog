@@ -2,7 +2,7 @@
 
 <div class="archive-list">
 	{% for music_group in music_groups -%}
-	<h2>{{- music_group.name -}}</h2>
+	<h2 id="{{- music_group.name | slugify -}}">{{- music_group.name -}}</h2>
 		{%- assign music_group_items = music_group.items | sort: "date" | reverse -%}
 		{% for music_post in music_group_items -%}
 			{% if music_post.wip == true -%}
