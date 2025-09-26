@@ -65,6 +65,7 @@ defaults:
 plugins:
   - jektex
   - jekyll-tidy
+  - jekyll-hardlinks
 
 # Render options
 disable_disk_cache: false

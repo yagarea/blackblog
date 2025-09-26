@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem "jektex", "~> 0.1.1"
   gem "jekyll_picture_tag", "~> 2.0"
   gem "jekyll-tidy"
+  gem "jekyll-hardlinks", "~> 0.2.0"
 end
 
 # Plugin dependencies
