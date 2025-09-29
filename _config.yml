@@ -48,14 +48,12 @@ collections:
     output: false
 
 defaults:
-  -
-    scope:
+  - scope:
        type: "posts"
     values:
       layout: "post"
       sitemap: true
-  -
-    scope:
+  - scope:
        type: "music"
     values:
       layout: "post"
