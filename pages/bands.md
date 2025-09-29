@@ -350,7 +350,7 @@ Hanabie         | Harajuku-core         | Japan      | [Brutal Assault 9.8. 2025
 Half me         | Metalcore             | Germany    | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#half-me) |
 King Woman      | Doom metal            | USA        | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#king-woman) |
 Harakiri for the sky | Post black metal | Austria    | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#harakiri-for-the-sky) |
-Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025] |
+Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025 |
 Karnivool       | Progressive metal     | Australia  | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#karnivool) |
 Defeated sanity | Technical brutal death metal | Germany | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#defeated-sanity) |
 Opeth           | Progressive metal     | Sweden     | [Brutal Assault 9.8. 2025](/music/4-opeth-the-halo-effect-dark-funeral-2025-08-09/#opeth) |
