@@ -360,10 +360,14 @@ Hellbutcher     | Black metal           | Sweden     | Brutal Assault 9.8. 2025 
 Great American Ghost | Metalcore | USA | [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#great-american-ghost) |
 After the Burial     | Metalcore | USA | [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#after-the-burial) |
 
+
+Fides Inversa | Black metal | Italy | [Futurum 14.10. 2025](/music/fides-inversa-akhlys-2025-10-14/#fides-inversa) |
+Akhlys        | Black metal | USA   | [Futurum 14.10. 2025](/music/fides-inversa-akhlys-2025-10-14/#akhlys) | ★
+
 {% endbands %}
 
 ## Other (random order)
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935
+Klec, Janota1935, BBP
