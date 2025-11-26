@@ -13,12 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 24\. 10\. 2025 - **[Thornhill, Ocean Grove](https://goout.net/cs/thornhill%2Bspecial-guests-ocean-grove%2Bbloom/szvketx/)** - Futurum
-- 31\. 10\. 2025 - **[Stray from the Path, Alphawolf, Graphic Nature](https://goout.net/cs/stray-from-the-path%2Bspecial-guest-alpha-wolf%2Bgraphic-nature%2Bcalva-louise/szjjbvx/)** - Distrikt
-- 03\. 11\. 2025 - **[Afsky, Myrdal](https://obscure.cz/cs/tickets/detail/id/930)** - Subzero (Pavel S., David S.)
-- 07\. 11\. 2025 - **[Parkway Drive](https://www.ticketportal.cz/event/Parkway-Drive-20-Year-Anniversary-European-Tour?idp=1462244)** - Sportovní hala Fortuna (Adam B., Honza Č., Lucka V., (golden circle))
-- 14\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.ticketportal.cz/event/ELECTRIC-CALLBOY-World-Tour-2025)** - Forum Karlín (Adam B. - stání u podia)
-- 18\. 11\. 2025 - **[The Plot in You, Currents, Cane Hill](https://goout.net/cs/the-plot-in-you%2Bcurrents%2Bsaosin%2Bcane-hill/szebkrx/)** - SaSaZu
 - 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
 - 03\. 12\. 2025 - **[Rise of the Northstar, Half Me](https://obscure.cz/cs/tickets/detail/id/912)** - Palác akropolis
 - 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
@@ -28,12 +22,21 @@ Formát je:
 - 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
 - 19\. 02\. 2026 - **[Jinjer](https://obscure.cz/cs/tickets/detail/id/918)** - Sasazu
 - 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
+- 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis
+- 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
 
 
 ---
 
 ## Proběhlé
+- 22\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.stadthalle.com/en/events/all-events/51027/Electric-Callboy)** - Wiener Stadhalle (Petr S. - stání u podia)
+- 18\. 11\. 2025 - **[The Plot in You, Currents, Cane Hill](https://goout.net/cs/the-plot-in-you%2Bcurrents%2Bsaosin%2Bcane-hill/szebkrx/)** - SaSaZu
+- 14\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.ticketportal.cz/event/ELECTRIC-CALLBOY-World-Tour-2025)** - Forum Karlín (Adam B. - stání u podia)
+- 07\. 11\. 2025 - **[Parkway Drive](https://www.ticketportal.cz/event/Parkway-Drive-20-Year-Anniversary-European-Tour?idp=1462244)** - Sportovní hala Fortuna (Adam B., Honza Č., Lucka V., (golden circle))
+- 03\. 11\. 2025 - **[Afsky, Myrdal](https://obscure.cz/cs/tickets/detail/id/930)** - Subzero (Pavel S., David S.)
+- 31\. 10\. 2025 - **[Stray from the Path, Alphawolf, Graphic Nature](https://goout.net/cs/stray-from-the-path%2Bspecial-guest-alpha-wolf%2Bgraphic-nature%2Bcalva-louise/szjjbvx/)** - Distrikt
+- 24\. 10\. 2025 - **[Thornhill, Ocean Grove](https://goout.net/cs/thornhill%2Bspecial-guests-ocean-grove%2Bbloom/szvketx/)** - Futurum
 - 07\. 10\. 2025 - **[We Came as Romans, Brand of Sacrifice](https://obscure.cz/cs/tickets/detail/id/899)** - Palác Akropolis (Adam B.)
 - 24\. 09\. 2025 - **[Bleed from Within, After the Burial](https://goout.net/cs/bleed-from-within%2Bafter-the-burial%2Bgreat-american-ghost/szxjunx/)** - Meetfactory (Adam B., Honza Č., Lucka V.)
 - 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
