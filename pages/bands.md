@@ -342,14 +342,14 @@ Tsjuder      | Black metal           | Norway | Brutal Assault 8.8. 2025 |
 Hellripper   | Black speed metal     | UK     | [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#hellripper) |
 
 
-Besna           | Post black metal      |  Slovakia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#besna) |
-Crypta          | Death metal           | Brazil     | [Brutal Assault 9.8. 2025](/music/crypta-circle-pit-was-invaded-by-cyclists-2025-08-09/) |
-Khan            | Stoner metal          | Australia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#khan) |
-To the Grave    | Deathcore             | Australia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#to-the-grave) |
-Hanabie         | Harajuku-core         | Japan      | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#hanabie) |
-Half me         | Metalcore             | Germany    | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#half-me) |
-King Woman      | Doom metal            | USA        | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#king-woman) |
-Harakiri for the sky | Post black metal | Austria    | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#harakiri-for-the-sky) |
+Besna           | Post black metal      | Slovakia  | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#besna) |
+Crypta          | Death metal           | Brazil    | [Brutal Assault 9.8. 2025](/music/crypta-circle-pit-was-invaded-by-cyclists-2025-08-09/) |
+Khan            | Stoner metal          | Australia | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#khan) |
+To the Grave    | Deathcore             | Australia | [Brutal Assault 9.8. 2025](/music/1-besna-khan-to-the-grave-2025-08-09/#to-the-grave) |
+Hanabie         | Harajuku-core         | Japan     | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#hanabie) |
+Half me         | Metalcore             | Germany   | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#half-me) |
+King Woman      | Doom metal            | USA       | [Brutal Assault 9.8. 2025](/music/2-hanabie-half-me-king-woman-2025-08-09/#king-woman) |
+Harakiri for the sky | Post black metal | Austria   | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#harakiri-for-the-sky) |
 Atomic Rooster  | Progressive rock      | UK         | Brutal Assault 9.8. 2025 |
 Karnivool       | Progressive metal     | Australia  | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#karnivool) |
 Defeated sanity | Technical brutal death metal | Germany | [Brutal Assault 9.8. 2025](/music/3-harakiri-for-the-sky-karnivool-defeated-sanity-2025-08-09/#defeated-sanity) |
@@ -364,6 +364,9 @@ After the Burial     | Metalcore | USA | [Meetfactory 24.9. 2025](/music/great-a
 Fides Inversa | Black metal | Italy | [Futurum 14.10. 2025](/music/fides-inversa-akhlys-2025-10-14/#fides-inversa) |
 Akhlys        | Black metal | USA   | [Futurum 14.10. 2025](/music/fides-inversa-akhlys-2025-10-14/#akhlys) | ★
 
+
+The Legendary Orchestra | Cinematic symphony | International | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#the-legendary-orchestra)
+Sabaton | Power metal | Sweden | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#sabaton)
 {% endbands %}
 
 ## Other (random order)
