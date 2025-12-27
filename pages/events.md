@@ -21,7 +21,7 @@ Formát je:
 - 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis
 - 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
-- 02\.-06\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
+- 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
 - 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
 - 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č.)
 
