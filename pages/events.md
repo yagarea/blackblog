@@ -13,10 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
-- 03\. 12\. 2025 - **[Rise of the Northstar, Half Me](https://obscure.cz/cs/tickets/detail/id/912)** - Palác akropolis
-- 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
-- 14\. 12\. 2025 - **[Chelsea grin, Signs of the swarm, Mugshot, Crown magnetar](https://obscure.cz/cs/tickets/detail/id/940)** - Meetfactory
 - 22\. 01\. 2026 - **[Counterparts](https://meetfactory.cz/en/program/detail/rock-for-people-counterparts)** - Meetfactory
 - 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy, Adam B.)
 - 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
@@ -25,11 +21,18 @@ Formát je:
 - 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis
 - 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
+- 02\.-06\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
+- 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
+- 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č.)
 
 
 ---
 
 ## Proběhlé
+- 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
+- 03\. 12\. 2025 - **[Rise of the Northstar, Half Me](https://obscure.cz/cs/tickets/detail/id/912)** - Palác akropolis
+- 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
+- 14\. 12\. 2025 - **[Chelsea grin, Signs of the swarm, Mugshot, Crown magnetar](https://obscure.cz/cs/tickets/detail/id/940)** - Meetfactory
 - 22\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.stadthalle.com/en/events/all-events/51027/Electric-Callboy)** - Wiener Stadhalle (Petr S. - stání u podia)
 - 18\. 11\. 2025 - **[The Plot in You, Currents, Cane Hill](https://goout.net/cs/the-plot-in-you%2Bcurrents%2Bsaosin%2Bcane-hill/szebkrx/)** - SaSaZu
 - 14\. 11\. 2025 - **[Electric Callboy, Bury Tomorrow](https://www.ticketportal.cz/event/ELECTRIC-CALLBOY-World-Tour-2025)** - Forum Karlín (Adam B. - stání u podia)
