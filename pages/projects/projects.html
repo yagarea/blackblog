@@ -1,0 +1,50 @@
+---
+title: "Projects"
+permalink: "/projects/"
+layout: page
+switch_pages: ["projects-new", "projects-web"]
+---
+
+{% assign projects = site.projects | sort: 'date' | reverse %}
+
+{% assign project_types = "" | split: "" %}
+{% for p in projects %}
+	{% unless project_types contains p.type %}
+		{% assign project_types = project_types | push: p.type %}
+	{% endunless %}
+{% endfor %}
+
+
+{% for type in project_types %}
+	{% assign type_slug = type | slugify %}
+	<h2 id="{{ type_slug }}">{{ type }}</h2>
+	{% for p in projects %}
+		{% if p.type != type %}
+			{% continue %}
+		{% endif %}
+		<div class="project-card">
+			<ul class="hfill" style="width: 100%;">
+				<li><h3>{{- p.name -}}</h3></li>
+				{% if p.license %}
+					<li><h3>[<a href="{%- if p.repo -%}{{- p.repo -}}{%- elsif p.webpage -%}{{- p.webpage -}}{%- endif -%}">{{- p.license -}}</a>]</h3></li>
+				{%- endif -%}
+			</ul>
+			<hr/>
+				{{- p.content | markdownify | liquify -}}
+			<ul>
+				{%- if p.used_tech -%}<li><b>Used technology:  </b>{{- p.used_tech -}}</li>{%- endif -%}
+				{%- if p.author -%}<li><b>Author:  </b>{{- p.author -}}</li>{%- endif -%}
+				{%- if p.version -%}<li><b>Version:  </b>{{- p.version -}}</li>{%- endif -%}
+				{%- if p.license -%}<li><b>License:  </b>{{- p.license -}}</li>{%- endif -%}
+				{%- if p.link -%}<li><b>Link:  </b><a href="{{- p.link -}}">{{- p.link -}}</a></li>{%- endif -%}
+				{%- if p.repo -%}
+				<li><b>Repository:  </b><a href="{{- p.repo -}}">{{- p.repo | replace: "https://", "" -}}</a></li>
+				{%- endif -%}
+			</ul>
+			{%- if p.image -%}
+			<br/>
+			<img src="{{p.image}}" alt="{{p.name}}">
+			{%- endif -%}
+		</div>
+	{% endfor %}
+{% endfor %}
