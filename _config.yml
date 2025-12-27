@@ -19,13 +19,13 @@ sidebar_limit: "55em"     # css limit of showing side bar
 navigation:
   - {file: "index.md", icon: house}
   - {file: "about.md", icon: circle-info}
-  - {file: "projects.md", icon: diagram-project }
-  - {file: "music.md", icon: music }
+  - {file: "projects.html", icon: diagram-project}
+  - {file: "papers.md", icon: magnifying-glass}
+  - {file: "music.md", icon: music}
   - {file: "references.md", icon: address-card}
 
 # Menu external
 external:                    # see http://fontawesome.com/icons
-  - {title: Meziklasí,  icon: seedling,  url: "https://meziklasi.cz/"}
   - {title: Lyricall,   icon: pen-fancy, url: "https://lyricall.cz/"}
   - {title: Source,     icon: git-alt,   url: "https://github.com/yagarea/blackblog"}
   - {title: Subscribe,  icon: rss,       url: "/feeds/"}
