@@ -4,7 +4,7 @@ date: "2025-06-01"
 image: "/assets/img/projects/glitter.svg"
 used_tech: "Python, Pytorch"
 license: "GPLv3"
-type: "Software projects"
+category: "Software projects"
 repo: "https://github.com/ufal/Glitter"
 ---
 

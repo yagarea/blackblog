@@ -3,7 +3,7 @@ name: "Wakhan thanka"
 date: "2019-08-10"
 image: "/assets/img/projects/wakhan-thanka1.jpg"
 used_tech: "Java, Python"
-type: "Highschool projects"
+category: "Highschool projects"
 ---
 
 Project made in cooperation with [Niantic labs](https://nianticlabs.com/).

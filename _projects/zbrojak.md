@@ -4,7 +4,7 @@ date: "2025-02-01"
 #image: "/assets/img/projects/zbrojak-anki.png"
 license: "CC BY-NC-ND 4.0"
 webpage: "https://zbrojak.ggu.cz/"
-type: "Miscellaneous"
+category: "Miscellaneous"
 ---
 
 Preparation for the theoretical part of the firearms licence examination in the Czech Republic.

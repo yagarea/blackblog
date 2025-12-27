@@ -4,7 +4,7 @@ date: "2022-02-09"
 image: "/assets/img/projects/jektex.svg"
 used_tech: "Ruby, Jekyll"
 license: "GPLv3"
-type: "Software projects"
+category: "Software projects"
 repo: "https://github.com/yagarea/jektex"
 ---
 

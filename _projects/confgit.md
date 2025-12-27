@@ -5,7 +5,7 @@ image: "/assets/img/projects/confgit.jpg"
 used_tech: "Python, Git"
 license: "GPLv3"
 repo: "https://github.com/yagarea/confgit"
-type: "Software projects"
+category: "Software projects"
 ---
 
 Confgit is a Git overhead for version control of your config files.

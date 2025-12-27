@@ -4,7 +4,7 @@ date: "2021-05-05"
 image: "/assets/img/projects/slimulator.gif"
 used_tech: "C#, FFMPEG"
 license: "GPLv3"
-type: "Software projects"
+category: "Software projects"
 repo: "https://github.com/yagarea/Slimulator/"
 ---
 

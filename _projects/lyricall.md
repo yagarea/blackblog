@@ -5,7 +5,7 @@ image: "/assets/img/projects/lyricall.jpg"
 used_tech: "Jekyll, Ruby, Python, CSS, HTML"
 license: "AGPLv3"
 repo: "https://github.com/yagarea/lyricall"
-type: "Web projects"
+category: "Web projects"
 ---
 
 Lyricall is minimalistic, multilingual and open source platform for free minded poetry publishing.

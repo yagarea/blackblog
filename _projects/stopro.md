@@ -5,7 +5,7 @@ image: "/assets/img/projects/stopro.svg"
 used_tech: "Python, Shell"
 license: "GPLv3"
 repo: "https://github.com/yagarea/Stopro"
-type: "Software projects"
+category: "Software projects"
 ---
 
 Stopro is simple utility which will help you with self control and build work ethic.

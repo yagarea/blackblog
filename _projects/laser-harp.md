@@ -3,7 +3,7 @@ name: "Laser harp"
 date: "2017-10-10"
 image: "/assets/img/projects/Harp.jpg"
 used_tech: "C++, Python"
-type: "Highschool projects"
+category: "Highschool projects"
 ---
 
 This was one of my first big projects.

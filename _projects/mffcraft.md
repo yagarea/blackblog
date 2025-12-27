@@ -4,8 +4,8 @@ date: "2023-01-11"
 image: "/assets/img/projects/mffcraft.png"
 used_tech: "Java, CAS, JTE"
 license: "GPLv3"
-type: "Software projects"
 repo: "https://github.com/yagarea/minecraft-matfyz"
+category: "Software projects"
 ---
 
 Plugin for authentication on school minecraft server.

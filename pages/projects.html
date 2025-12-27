@@ -7,19 +7,18 @@ switch_pages: ["projects-new", "projects-web"]
 
 {% assign projects = site.projects | sort: 'date' | reverse %}
 
-{% assign project_types = "" | split: "" %}
+{% assign project_categories = "" | split: "" %}
 {% for p in projects %}
-	{% unless project_types contains p.type %}
-		{% assign project_types = project_types | push: p.type %}
+	{% unless project_categories contains p.category %}
+		{% assign project_categories = project_categories | push: p.category %}
 	{% endunless %}
 {% endfor %}
 
-
-{% for type in project_types %}
-	{% assign type_slug = type | slugify %}
-	<h2 id="{{ type_slug }}">{{ type }}</h2>
+{% for cat in project_categories %}
+	{% assign cat_slug = cat | slugify %}
+	<h2 id="{{ cat_slug }}">{{ cat }}</h2>
 	{% for p in projects %}
-		{% if p.type != type %}
+		{% if p.category != cat %}
 			{% continue %}
 		{% endif %}
 		<div class="project-card">

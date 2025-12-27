@@ -4,8 +4,8 @@ date: "2017-07-10"
 #image: ""
 used_tech: "Java"
 license: "GPLv3"
-type: "Highschool projects"
 repo: "https://github.com/yagarea/java-chat"
+category: "Highschool projects"
 ---
 
 RSA encrypted chatting service writen in java. Project provides sever with administration and client software.
