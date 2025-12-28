@@ -1,0 +1,20 @@
+<div class="project-card">
+	<h2>{{- include.name -}}</h2>
+	<hr/>
+		{{- include.description | markdownify | liquify -}}
+	<ul>
+		{%- if include.used_tech -%}<li><b>Used technology:  </b>{{- include.used_tech -}}</li>{%- endif -%}
+		{%- if include.author -%}<li><b>Author:  </b>{{- include.author -}}</li>{%- endif -%}
+		{%- if include.version -%}<li><b>Version:  </b>{{- include.version -}}</li>{%- endif -%}
+		{%- if include.license -%}<li><b>License:  </b>{{- include.license -}}</li>{%- endif -%}
+		{%- if include.link -%}<li><b>Link:  </b><a href="{{- include.link -}}">{{- include.link -}}</a></li>{%- endif -%}
+		{%- if include.repo -%}
+		<li><b>Repository:  </b><a href="{{- include.repo -}}">{{- include.repo | replace: "https://", "" -}}</a></li>
+		{%- endif -%}
+	</ul>
+	{%- if include.image -%}
+	<br/>
+	<img src="{{include.image}}" alt="{{include.name}}">
+	{%- endif -%}
+</div>
+
