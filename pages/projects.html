@@ -23,7 +23,7 @@ switch_pages: ["projects-new", "projects-web"]
 		{% endif %}
 		<div class="project-card">
 			<ul class="hfill" style="width: 100%;">
-				<li><h3>{{- p.name -}}</h3></li>
+				<li id="{{- p.name | slugify -}}"><h3>{{- p.name -}}</h3></li>
 				{% if p.license %}
 					<li><h3>[<a href="{%- if p.repo -%}{{- p.repo -}}{%- elsif p.webpage -%}{{- p.webpage -}}{%- endif -%}">{{- p.license -}}</a>]</h3></li>
 				{%- endif -%}
