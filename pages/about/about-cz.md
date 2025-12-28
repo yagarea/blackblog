@@ -36,6 +36,8 @@ Mezi mé oblíbené sporty patří lezení na umělé stěně a běžkové lyžo
 
 ## Osobní kompilace
 - [Software co používám](/about/software/)
+- [Mé projekty](/projects/)
+- [Mé papery](/papers/)
 
 ## Kontakty a odkazy
 

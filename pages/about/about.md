@@ -36,6 +36,8 @@ huge tea enthusiastic. My favorite sports are climbing and skiing. I am member o
 
 ## Personal lists
 - [Software I use](/about/software/)
+- [My projects](/projects/)
+- [My papers](/papers/)
 
 ## Contacts and links
 
