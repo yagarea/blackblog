@@ -59,6 +59,10 @@ defaults:
       layout: "post"
       category: "music"
       sitemap: true
+  - scope:
+      type: "projects"
+    values:
+      language: "EN"
 
 plugins:
   - jektex
