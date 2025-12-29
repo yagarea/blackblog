@@ -2,7 +2,7 @@
 title:  "Gong Fu styl"
 category: "Tea"
 bilingual: "/gong-fu-brewing-table-en/"
-layout: post
+language: "CZ"
 ---
 
 **Pamatujte:** Každý čaj je jiný a každý má jiné preference. Proto prosím používejte tento návod jako začátek experimentování. Nebojte se upravit si parametry podle sebe.
