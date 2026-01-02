@@ -23,8 +23,8 @@
 				{% else -%}
 				<ul class="hfill">
 					<li>
-						<a href="{{- post.url -}}">{{- post.title -}}</a>
 						{% if post.layout == "redirect" %}
+							<a href="{{- post.redirect_to -}}" target="_blank" rel="noopener">{{- post.title -}}</a>
 								<svg aria-hidden="true">
 									<use xlink:href="{{- '/assets/fontawesome/icons.svg' | relative_url -}}#up-right-from-square"></use>
 								</svg>
@@ -34,7 +34,9 @@
 									| split: "/"
 									| first
 								-}}
-							{% endif %}
+						{%- else -%}
+							<a href="{{- post.url -}}">{{- post.title -}}</a>
+						{% endif %}
 					</li>
 					<li>
 						[<a href="{{- post.url -}}">{{- post.language -}}</a>]
