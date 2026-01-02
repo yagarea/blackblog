@@ -1,0 +1,91 @@
+{%- assign all_posts = "" | split: "" -%}
+{%- for collection in site.collections -%}
+	{%- assign all_posts = all_posts | concat: collection.docs -%}
+{%- endfor -%}
+{%- assign all_posts = all_posts | uniq | sort: "date" | reverse -%}
+
+{%- assign last_year = all_posts | map: "date" | map: "year" | sort | last -%}
+{%- assign shown = 0 -%}
+{%- assign max_posts = include.limit | default: 0 | plus: 0 -%}
+
+{%- for post in all_posts -%}
+	{%- if post.wip or post.draft -%}
+		{%- continue -%}
+	{%- endif -%}
+
+	{%- if max_posts > 0 and shown >= max_posts -%}
+		{%- break -%}
+	{%- endif -%}
+	{%- assign shown = shown | plus: 1 -%}
+
+	{%- assign post_year = post.date | date: "%Y" -%}
+	{%- if include.year_split and post_year != last_year -%}
+		{%- assign last_year = post_year -%}
+		<h2 id="{{- last_year -}}" style="font-size:200%;">{{- last_year -}}</h2>
+	{% endif -%}
+
+	{% if post.bilingual and post.bilingual != "" %}
+		{% if post.language != page.language %}
+			{% continue %}
+		{% endif %}
+	{% endif %}
+
+	<div class="archive-list">
+	<ul class="hfill">
+		<li>
+			<strong>
+				{% if post.collection == "projects" %}
+					<a href="/projects/#{{- post.name | slugify -}}">{{ post.name }}</a>
+				{% else %}
+					{% if post.layout == "redirect" %}
+						<a href="{{- post.redirect_to -}}" target="_blank" rel="noopener">{{ post.title }}</a>
+					{% else %}
+						<a href="{{- post.url | relative_url -}}">{{ post.title }}</a>
+					{% endif %}
+				{% endif %}
+			</strong>
+			<span class="post-meta">
+				{% if post.layout == "redirect" %}
+					<svg aria-hidden="true">
+						<use xlink:href="{{- '/assets/fontawesome/icons.svg' | relative_url -}}#up-right-from-square"></use>
+					</svg>
+					{{ post.redirect_to
+						| remove: "https://"
+						| remove: "http://"
+						| split: "/"
+						| first
+					-}}
+				{% endif %}
+				[
+				{%- if post.collection == "posts" -%}
+					Posts: <a href="/#{{- post.category | slugify -}}">{{- post.category -}}</a>
+				{%- elsif post.collection == "projects" -%}
+					Projects: <a href="/projects/#{{- post.category | slugify -}}">{{- post.category -}}</a>
+				{%- elsif post.collection == "music" -%}
+					Music: <a href="/music/#{{- post.category | slugify -}}">{{- post.category -}}</a>
+				{%- else -%}
+					{{- post.collection -}}
+				{%- endif -%}
+				]
+				{%- if post.collection == "music" and post.venue -%}
+				[<a href="{{- post.url -}}">{{- post.venue | replace: " ","&nbsp;" -}}</a>]
+				{%- endif -%}
+				{%- if post.bilingual and post.bilingual != "" -%}
+					{%- if post.language == page.language %}
+						[<a href="{{- post.url -}}">EN</a>/<a href="{{- post.bilingual -}}">CZ</a>]
+					{%- endif -%}
+					{% else -%}
+						[<a href="{{ post.url }}">{{- post.language -}}</a>]
+				{%- endif -%}
+			</span>
+			</li>
+			<li>
+				{% if include.year_split %}
+					<span class="archive-date">&nbsp;{{- post.date | date: "%d. %m." -}}</span>
+				{% else %}
+					<span class="archive-date">&nbsp;{{- post.date | date: "%d. %m. %Y" -}}</span>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+{% endfor %}
