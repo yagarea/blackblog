@@ -1,0 +1,20 @@
+---
+layout: null
+listed: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{- site.title}} | Redirect</title>
+	<meta http-equiv="refresh" content="0; url={{- page.redirect_to -}}" />
+	<link rel="stylesheet" href="{{- '/assets/css/index.css' | relative_url -}}">
+	<meta content="{{- site.description -}}" name="description"></meta>
+	<meta content="{{- page.author -}}" name="author"></meta>
+	<meta content="Copyright 2017 {{- site.owner -}}. All rights reserved." name="copyright"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>0</script>
+</head>
+<body>
+	<span>Redirecting to <a href="{{- page.redirect_to -}}">{{ page.redirect_to }}</a>...</span>
+</body>
+</html>
