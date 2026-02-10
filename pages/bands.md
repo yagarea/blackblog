@@ -21,7 +21,7 @@ Gojira      | Progressive groove metal      | France    | Eden arena 7.5. 2012 :
 Iron Maiden | Heavy metal                   | UK        | Velodrom 29.6. 2013   | ⛬
 Ghost       | Rock                          | Sweden    | Velodrom 29.6. 2013   |
 
-Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017 : Forum Karlín 10.9. 2022     | ♥ ★
+Parkway drive       | Metalcore         | Australia | Forum Karlín 29.3. 2017 : [Forum Karlín 10.9. 2022](/music/parkway-drive-while-she-sleeps-lorna-shore-2022-09-10/#parkway-drive) : [Fortuna aréna 7.11. 2025](/music/1-parkway-drive-2025-11-07/)    | ♥ ★
 Asking Alexandria   | Metalcore         | UK        | Forum Karlín 29.3. 2017                               |
 Stick to your guns  | Metalcore         | USA       | Forum Karlín 29.3. 2017                               |
 
@@ -58,7 +58,7 @@ At the gates    | Melodic death metal           | Sweden    | Brutal Assault 9.8
 Evoken          | Funeral doom metal            | USA       | Brutal Assault 9.8. 2022 | ★
 
 Darkest hour    | Metalcore                            | USA     | Brutal Assault 10.8. 2022 |
-Lorna shore     | Blackned symphonic deathcore         | USA     | Brutal Assault 10.8. 2022 : Forum Karlín 10.9. 2022 | ♥ ★
+Lorna shore     | Blackned symphonic deathcore         | USA     | Brutal Assault 10.8. 2022 : [Forum Karlín 10.9. 2022](/music/parkway-drive-while-she-sleeps-lorna-shore-2022-09-10/#lorna-shore) : [O2 universum 25.1. 2026]() | ♥ ★
 Tesseract       | Djent                                | UK      | Brutal Assault 10.8. 2022 | ★
 Alcest          | Blackgaze                            | France  | Brutal Assault 10.8. 2022 | ★
 Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024| ♥ ★
@@ -84,7 +84,7 @@ Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assa
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
 Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : [Brutal Assault 8.8. 2023](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#abbie-falls) |
-Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 |
+Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 : [O2 universum 21.1. 2026](/music/1-shadow-of-intent-humanitys-last-breath-2026-01-25/#humanitys-last-breath) |
 Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
 Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
 Somniate                | Black metal                   | Czechia    | Brutal Assault 12.8. 2022 |
@@ -141,7 +141,7 @@ Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/mu
 Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
 Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/) |
 Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
-Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 | ★
+Shadow of intent   | Symphonic deathcore | USA | Brutal Assault 10.8. 2023 : [O2 universum 25.1. 2026](/music/1-shadow-of-intent-humanitys-last-breath-2026-01-25/#shadow-of-intent) | ★
 Brand of sacrifice | Deathcore           | Canada  | Brutal Assault 10.8. 2023 | ★
 Dying fetus        | Deathgrind          | USA     | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#dying-fetus) |
 Sepultura          | Groove metal        | Brazil  | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#sepultura) |
@@ -365,12 +365,20 @@ Fides Inversa | Black metal | Italy | [Futurum 14.10. 2025](/music/fides-inversa
 Akhlys        | Black metal | USA   | [Futurum 14.10. 2025](/music/fides-inversa-akhlys-2025-10-14/#akhlys) | ★
 
 
+The Amity Affliction | Post-hardcore | Australia | [Fortuna aréna 7.11. 2025](/music/0-thy-art-is-murder-the-amity-affliction-2025-11-07/#the-amity-affliction) |
+Thy Art Is Murder    | Deathcore     | Australia | [Fortuna aréna 7.11. 2025](/music/0-thy-art-is-murder-the-amity-affliction-2025-11-07/#thy-art-is-murder) |
+
+
 The Legendary Orchestra | Cinematic symphony | International | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#the-legendary-orchestra)
 Sabaton | Power metal | Sweden | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#sabaton)
+
+
+
+
 {% endbands %}
 
 ## Other (random order)
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP
+Klec, Janota1935, BBP, Humbuk
