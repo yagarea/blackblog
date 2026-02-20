@@ -21,7 +21,7 @@
 	{%- assign post_year = post.date | date: "%Y" -%}
 	{%- if include.year_split and post_year != last_year -%}
 		{%- assign last_year = post_year -%}
-		<h2 id="{{- last_year -}}" style="font-size:200%;">{{- last_year -}}</h2>
+		<h2 id="{{- last_year -}}" class="archive-year">{{- last_year -}}</h2>
 	{% endif -%}
 
 	{% if post.bilingual and post.bilingual != "" %}
