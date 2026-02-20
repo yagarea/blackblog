@@ -13,10 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 22\. 01\. 2026 - **[Counterparts](https://meetfactory.cz/en/program/detail/rock-for-people-counterparts)** - Meetfactory
-- 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy, Adam B., Honza Č.)
-- 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
-- 19\. 02\. 2026 - **[Jinjer](https://obscure.cz/cs/tickets/detail/id/918)** - Sasazu
 - 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
 - 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis
@@ -29,6 +25,10 @@ Formát je:
 ---
 
 ## Proběhlé
+- 22\. 01\. 2026 - **[Counterparts](https://meetfactory.cz/en/program/detail/rock-for-people-counterparts)** - Meetfactory
+- 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy, Adam B., Honza Č.)
+- 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
+- 19\. 02\. 2026 - **[Jinjer](https://obscure.cz/cs/tickets/detail/id/918)** - Sasazu
 - 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
 - 03\. 12\. 2025 - **[Rise of the Northstar, Half Me](https://obscure.cz/cs/tickets/detail/id/912)** - Palác akropolis
 - 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
