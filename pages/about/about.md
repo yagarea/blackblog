@@ -36,6 +36,7 @@ My favorite sports are climbing and skiing. I am a member of [GGU](https://ggu.c
 
 ## Personal lists
 - [Software I use](/about/software/)
+- [My phone setup](/about/phone/)
 - [My projects](/projects/)
 - [My papers](/papers/)
 
