@@ -13,8 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
-- 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis
 - 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
@@ -25,6 +23,8 @@ Formát je:
 ---
 
 ## Proběhlé
+- 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
+- 25\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.stadthalle.com/en/events/all-events/51032/Motionless-in-White)** - Wiener Stadhalle, Hall D (Petr S.)
 - 22\. 01\. 2026 - **[Counterparts](https://meetfactory.cz/en/program/detail/rock-for-people-counterparts)** - Meetfactory
 - 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy, Adam B., Honza Č.)
 - 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
