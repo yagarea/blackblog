@@ -36,7 +36,7 @@ video.html src="/assets/music-reports/2026-01-25-lorna-shore-whitechapel-shadow-
 credits="C: [Adam B.](https://www.instagram.com/_.adam_.b.)" %}
 
 
-## Glemwood
+## In Darkness
 {% include
 video.html src="/assets/music-reports/2026-01-25-lorna-shore-whitechapel-shadow-of-intent-humanitys-last-breath/lorna-shore1.mp4" %}
 
