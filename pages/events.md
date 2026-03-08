@@ -13,8 +13,8 @@ Formát je:
 ```
 
 ## Návrhy
-- 20\. 03\. 2026 - **[Defamed, Castiel, Swept Into Decay](https://www.darkzin.cz/seznam-novych-akci/defamed-castiel-swept-into-decay-harbingers-of-the-abyss-tour-2026-praha/)** - Subzero
-- 06. 04. 2026 - **[Fit For A King, Memphis May Fire, Acres + 156/Silence]()**
+- 20\. 03\. 2026 - **[Defamed, Castiel, Swept Into Decay](https://www.darkzin.cz/seznam-novych-akci/defamed-castiel-swept-into-decay-harbingers-of-the-abyss-tour-2026-praha/)** - Subzero (Honza Č., Olga.)
+- 06\. 04\. 2026 - **[Fit For A King, Memphis May Fire, Acres + 156/Silence](https://rfpconcerts.cz/concert/fit-for-a-king-memphis-may-fire-acres-156-silence/)**
 - 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
 - 21\. 05\. 2026 - **[Paledusk, Knosis, Greyhaven, Headwreck]()** - Cargo gallery
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
