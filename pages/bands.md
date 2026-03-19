@@ -372,7 +372,7 @@ Thy Art Is Murder    | Deathcore     | Australia | [Fortuna aréna 7.11. 2025](/
 The Legendary Orchestra | Cinematic symphony | International | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#the-legendary-orchestra)
 Sabaton | Power metal | Sweden | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#sabaton)
 
-
+Krew | Thrash hardcore | Czechia | [Kamina boat 12.2. 2026](/music/broken-legs-krew-2026-02-12/#krew)
 
 
 {% endbands %}
