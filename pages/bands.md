@@ -267,17 +267,17 @@ Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-
 
 Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
-InVeins | Deathcore | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#inveins) |
+InVeins          | Deathcore | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#inveins) |
 Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#hot-sunday-blood) |
-Exorciphobia | Thrash metal | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#exorciphobia) |
-Stercore | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#stercore) |
-The Narrator | Metalcore | Gernamy | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#the-narrator) |
+Exorciphobia     | Thrash metal | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#exorciphobia) |
+Stercore         | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#stercore) |
+The Narrator     | Metalcore | Gernamy | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#the-narrator) |
 Ruins of perception | Blackned deathcore | Germany | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#ruins-of-perception) |
-Kaonashi | Experimental post hardcore | USA | [Fajtfest 4.7. 2025](/music/3-kaonashi-2025-07-04/) |
-Terminal sleep | Power violence | Australia | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#terminal-sleep) |
-Heavy//Hitter | Beatdown deathcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#heavy-hitter) |
-Filth | Slamming hardcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#filth) |
-Defamed | Deathcore | Italy | [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#defamed) |
+Kaonashi         | Experimental post hardcore | USA | [Fajtfest 4.7. 2025](/music/3-kaonashi-2025-07-04/) |
+Terminal sleep   | Power violence | Australia | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#terminal-sleep) |
+Heavy//Hitter    | Beatdown deathcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#heavy-hitter) |
+Filth            | Slamming hardcore | USA | [Fajtfest 4.7. 2025](/music/4-terminal-sleep-heavy-hitter-filth-2025-07-04/#filth) |
+Defamed          | Deathcore | Italy | [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#defamed) : [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#defamed) |
 
 
 
@@ -372,7 +372,14 @@ Thy Art Is Murder    | Deathcore     | Australia | [Fortuna aréna 7.11. 2025](/
 The Legendary Orchestra | Cinematic symphony | International | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#the-legendary-orchestra)
 Sabaton | Power metal | Sweden | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#sabaton)
 
+
 Krew | Thrash hardcore | Czechia | [Kamina boat 12.2. 2026](/music/broken-legs-krew-2026-02-12/#krew)
+
+
+Shards beneath my skin | Metalcore | Czechia | [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#shards-beneath-my-skin)
+Castiel                | Deathcore | Austria | [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#castiel)
+Swept into decay       | Deathcore | Czechia | [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#swept-into-decay)
+
 
 
 {% endbands %}
