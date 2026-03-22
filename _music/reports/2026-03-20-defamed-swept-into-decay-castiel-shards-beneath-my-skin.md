@@ -10,7 +10,7 @@ venue: "Sub zero"
 video.html src="/assets/music-reports/2026-03-20-defamed-swept-into-decay-castiel-shards-beneath-my-skin/intro.mp4"
 %}
 
-## Shard beneath my skin
+## Shards beneath my skin
 {% include
 video.html src="/assets/music-reports/2026-03-20-defamed-swept-into-decay-castiel-shards-beneath-my-skin/shards-beneath-my-skin.mp4"
 %}
