@@ -197,7 +197,7 @@ Vomit forth     | Death metal | USA | [Meet factory 23.3. 2024](/music/cattle-de
 Acid row      | Stoner metal          | Czechia | Brutal Assault 6.8. 2024 |
 Ions          | Progressive metalcore | Czechia | Brutal Assault 6.8. 2024 |
 Satisfucktion | Grunge                | Czechia | Brutal Assault 6.8. 2024 |
-Stellvris     | Metalcore             | Czechia | Brutal Assault 6.8. 2024 | ★
+Stellvris     | Metalcore             | Czechia | Brutal Assault 6.8. 2024 : [Rockovej Žďár](/music/rockovej-zdar-2026-04-03/#stellvris) | ★
 Laid to waste | Thrash metal          | Czechia | Brutal Assault 6.8. 2024 |
 Hellripper    | Black metal           | UK      | Brutal Assault 6.8. 2024 |
 
@@ -380,7 +380,13 @@ Shards beneath my skin | Metalcore | Czechia | [Sub zero 20.3. 2026](/music/defa
 Castiel                | Deathcore | Austria | [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#castiel)
 Swept into decay       | Deathcore | Czechia | [Sub zero 20.3. 2026](/music/defamed-swept-into-decay-castiel-shards-beneath-my-skin-2026-03-20/#swept-into-decay)
 
+Mossback    | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#mossback)
+Grim salvo  | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#grim-salvo)
+Savage gasp | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#savage-gasp)
+Kamaara     | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#kamaara)
 
+Zputnik        | Pop punk | Czechia | [Rockovej Žďár](/music/rockovej-zdar-2026-04-03/#zputnik)
+Cocotte minute | Nu metal | Czechia | [Rockovej Žďár](/music/rockovej-zdar-2026-04-03/#cocotte-minute)
 
 {% endbands %}
 
@@ -388,4 +394,4 @@ Swept into decay       | Deathcore | Czechia | [Sub zero 20.3. 2026](/music/defa
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP, Humbuk
+Klec, Janota1935, BBP, Humbuk, Twentythree
