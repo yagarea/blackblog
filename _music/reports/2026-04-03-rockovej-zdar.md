@@ -2,7 +2,7 @@
 title: "Stellvris, Cocotte minute, Zputnik"
 category: "Concert report"
 language: "CZ"
-venue: "Sokolovna Žďár n. S."
+venue: "Rockovej Žďár"
 ---
 
 ## Stellvris
