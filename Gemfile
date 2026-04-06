@@ -15,7 +15,7 @@ group :jekyll_plugins do
 end
 
 # Plugin dependencies
-gem "webrick", "~> 1.8.1"
+gem "webrick", ">= 1.9.2"
 gem "activesupport"
 gem "nokogiri"
 gem "json"
