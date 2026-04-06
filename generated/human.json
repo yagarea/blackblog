@@ -1,0 +1,91 @@
+---
+layout: none
+permalink: /human.json
+---
+{
+	"version": "0.1.1",
+	"url": "https://blackblog.cz",
+	"vouches": [
+		{
+			"url": "https://rdck.dev",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://andy.ggu.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://chamik.eu",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://grsc.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://kahann.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://maria.jmq.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://mariansam.eu",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://mat.uush.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://mj.ucw.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://mmq.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://mvolfik.github.io",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://olga.ggu.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://slama.dev",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://vkane.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://wipocket.eu",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://dvdkon.ggu.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://kaculik.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://doslovaja.cz",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://samoro.st",
+			"vouched_at": "2026-03-22"
+		},
+		{
+			"url": "https://grego.site",
+			"vouched_at": "2026-03-22"
+		}
+	]
+}
+
