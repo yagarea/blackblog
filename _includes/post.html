@@ -1,7 +1,13 @@
 <header class="meta">
 	{% if include.post.categories.size > 0 and include.preview != true -%}
 		<div class="categories">
-			<a href="{%- if include.post.collection == "music" -%}/music{%- endif -%}/#{{- include.post.category | slugify -}}">{{ include.post.categories | join: ", "	| upcase }}</a>
+			<a href="{%- if include.post.collection == "music" -%}/music{%- endif -%}/#{{- include.post.category | slugify -}}">
+				{{ include.post.categories | join: ", "	| upcase }}
+				{%- if include.post.collection == "music" and include.post.venue -%}
+					:</a>&nbsp;{{- include.post.venue -}}
+				{%- else -%}
+					</a>
+				{% endif -%}
 		</div>
 	{%- endif %}
 	<h1><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
