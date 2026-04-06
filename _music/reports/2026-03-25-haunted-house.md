@@ -17,7 +17,7 @@ venue: "Sub zero"
 {% endspliter %}
 {% include video.html src="/assets/music-reports/2026-03-25-haunted-house/haunted-house23.mp4" %}
 
-## Gim salvo
+## Grim salvo
 {% include video.html src="/assets/music-reports/2026-03-25-haunted-house/haunted-house4.mp4" credits="C: Adam Petržela" %}
 {% spliter %}
 {% include video.html src="/assets/music-reports/2026-03-25-haunted-house/haunted-house5.mp4" credits="C: Adam Petržela" %}
