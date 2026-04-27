@@ -65,13 +65,14 @@ latex: true
 	![Příklad bipartitního grafu](/assets/img/matfyz/teorie-grafu/priklad-bipartitni-graf.png)
 
 ### Bipartitní graf
-**Definice:**  
+{% def %}
 Graf $$G$$ je bipartitní, právě tehdy když $$\exists$$ rozklad $$V(G) 
 X,Y$$, tak že $$E(G) \leq \{\{x,y\} x \in X, y \in Y \}$$
 
 nebo
 
 $$\forall e \in E(G): \lvert e \cap X \lvert = 1 \land \lvert e \cap Y \lvert = 1 $$
+{% enddef %}
 
 **Příklady:**  
 - Cesty (rozdělíme na sudé a liché vrcholy)
@@ -83,7 +84,7 @@ lichá kružnice)
 ---
 
 ## Izomorfismus
-**Definice:**  
+{% def %}
 Grafy $$G$$ a $$H$$ jsou **izomorfní** (značíme $$G \cong H$$) $$ \equiv \exists f: 
 V(G) \rightarrow V(H)$$ bijekce tak, že $$\forall u,v \in V(G): (\{u,v\} \in E(G) 
 \iff \{ f(n), f(v) \} \in E(H))$$
@@ -93,6 +94,7 @@ $$\Downarrow$$
 $$\text{Až na jména vrcholů se jedná o stejný graf}$$
 
 |![izo1](/assets/img/matfyz/teorie-grafu/izomorfismus1.png)|![izo2](/assets/img/matfyz/teorie-grafu/izomorfismus2.png)|
+{% enddef %}
 
 **Pozorování:**  
 Na libovolné množině grafů je izomorfismus ( $$\cong$$) ekvivalence. 
@@ -574,7 +576,7 @@ $$\Leftarrow$$ Mažeme hrany na cyklech, dokud nevznikne strom.
 >
 >> **Důkaz:**  
 >> 1. $$\lvert E \lvert = \lvert V \lvert -1$$, graf je strom - Platí
->> 2. indukční krok: Graf není strom. Nechť $$e$$ je hrana na kružnici $$\implies e$$ 
+>> 2. indukční krok: Graf není strom. Nechť $$e$$ je hrana na kružnici $$\implies e$$
 >> odděluje 2 stěny.
 >>
 >> ![indukce stěny](/assets/img/matfyz/teorie-grafu/indukce-steny.png)
@@ -585,16 +587,16 @@ $$\Leftarrow$$ Mažeme hrany na cyklech, dokud nevznikne strom.
 >> ![indukce steny](/assets/img/matfyz/teorie-grafu/indukce-steny2.png)
 >> ![indukce steny](/assets/img/matfyz/teorie-grafu/indukce-steny3.png)
 
-Graf $$G$$ má rovinné nakreslení $$\iff$$ má nakreslení lomenými čarami. 
+Graf $$G$$ má rovinné nakreslení $$\iff$$ má nakreslení lomenými čarami.
 
-Dělení hran zachochová rovinnost, kontrakce také: jeli $$G$$ roviný, pak $$G \setminus
-e$$ také. Graf je rovinný, když jeho libovolné dělení je rovinný. Rovinný bude i po 
-kontrakci hran také roviný.
+Dělení hran zachová rovinnost, kontrakce také: jeli $$G$$ rovinný, pak $$G \setminus
+e$$ také. Graf je rovinný, když jeho libovolné dělení je rovinné. Rovinný bude i po 
+kontrakci hran také rovinný.
 
 | ![dělení hran](/assets/img/matfyz/teorie-grafu/deleni-hran.png) | ![kontrakce hran](/assets/img/matfyz/teorie-grafu/kontrakce-hran.png) |
 
-$$K_5$$ a $$K_{3,3}$$ nejsou rovinné a jejich dělaní také ne. Pokud graf obsahuje 
-$$K_5$$ nebo $$K_{3,3}$$ jako podgraf, také není roviný.
+$$K_5$$ a $$K_{3,3}$$ nejsou rovinné a jejich dělení také ne. Pokud graf obsahuje 
+$$K_5$$ nebo $$K_{3,3}$$ jako podgraf, také není rovinný.
 
 ### Kuratovského věta
 > Graf není rovinný $$\iff$$ obsahuje podgraf izomorfní nějakéku dělení $$K_5$$ nebo
@@ -617,7 +619,7 @@ $$K_{3,3}$$ je také nerovinný
 > Graf má nakreslení na sféru $$\iff$$ má nakreslení do roviny.
 >
 >> **Důkaz stereografickou projekcí**  
->> spojitá bijekce mezi sférou bez severního pólua $$\R^2$$
+>> spojitá bijekce mezi sférou bez severního pólu a $$\R^2$$
 >>
 >> ![stereografie](/assets/img/matfyz/teorie-grafu/stereografie.png)
 
@@ -626,7 +628,7 @@ $$K_{3,3}$$ je také nerovinný
 Totéž jako rovina
 
 ### Nakreslení na torus
-"Povrh pneumatiky". Můžeme na něj nakreslit vše co do roviny ale opačně to neplatí.
+"Povrch pneumatiky". Můžeme na něj nakreslit vše co do roviny, ale opačně to neplatí.
 
 ### Eulerova formule
 > Jeli graf $$G$$ nakreslený do roviny:
@@ -726,7 +728,7 @@ $$
 > e = \lvert E(G) \lvert$$.
 >
 >> **Důkaz:**  
->> Nechť $$G'$$ (triangula grafu $$G$$) je maximálně rovinny vzniklý z $$G$$ přidáváním 
+>> Nechť $$G'$$ (triangula grafu $$G$$) je maximálně rovinný vzniklý z $$G$$ přidáváním 
 >> hran.
 >> $$\downarrow$$  
 >> $$ e' = 3v' - 6 $$  
@@ -746,7 +748,7 @@ $$
 Sousední státy (Sousední stěny topologického rovinného grafu) mají mít různé barvy
 $$\rightarrow$$ _Problém čtyř barev_
 
-Chceme barvit vrcholy: $$f: V \rightarrow \{1,...,k\} tak, aby \{u,v\} \in E \implies
+Chceme barvit vrcholy: $$f: V \rightarrow \{1,...,k\}$$ tak, aby $$\{u,v\} \in E \implies
 f(u) \neq f(v)$$
 
 ### Duální graf
