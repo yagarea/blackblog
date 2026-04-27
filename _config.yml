@@ -20,7 +20,7 @@ navigation:
   - {file: "index.md", icon: house}
   - {file: "about.md", icon: circle-info}
   - {file: "projects.html", icon: diagram-project}
-  - {file: "papers.md", icon: magnifying-glass}
+  - {file: "papers.md", icon: book-open}
   - {file: "music.md", icon: music}
   - {file: "references.md", icon: address-card}
 
