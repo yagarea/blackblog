@@ -47,7 +47,7 @@ Jadu      | Psychedelic progressive rock  | Germany          | O2 arena 10.2. 20
 
 Slope           | Hardcore punk                 | Germany   | Brutal Assault 9.8. 2022 |
 Devournment     | Slamming brutal death metal   | USA       | Brutal Assault 9.8. 2022 | ⛬
-Bloodywood      | Etno nu metal / Metalcore     | India     | Brutal Assault 9.8. 2022 |
+Bloodywood      | Etno nu metal / Metalcore     | India     | Brutal Assault 9.8. 2022 : [Rock for people 10.6. 2026](/music/2-we-came-as-romans-kublai-lhan-tx-bloodywood-2026-06-10/#bloodywood) |
 Thy Catafalque  | Avant-garde metal             | Hungary   | Brutal Assault 9.8. 2022 |
 Rivers of nihil | Progressive death metal       | USA       | Brutal Assault 9.8. 2022 | ★
 Clutch          | Southern rock                 | USA       | Brutal Assault 9.8. 2022 | ♥
@@ -175,7 +175,7 @@ Terror          | Hardcore                       | USA       | Brutal Assault 12
 Birds in row    | Posthardcore                   | France    | Brutal Assault 12.8. 2023 |
 Deicide         | Death metal                    | USA       | Brutal Assault 12.8. 2023 : Brutal Assault 7.8. 2024 | ⛬
 Napalm death    | Grindcore                      | USA       | Brutal Assault 12.8. 2023 |
-Trivium         | Proto-metalcore                | USA       | Brutal Assault 12.8. 2023 | ⛬ ★
+Trivium         | Proto-metalcore                | USA       | Brutal Assault 12.8. 2023 : [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#trivium) | ⛬ ★
 Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12.8. 2023 |
 Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12.8. 2023 |
 Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
@@ -261,7 +261,7 @@ Ten56    | Hardcore  | France | [Meet factory 1.10. 2024](/music/northlane-novel
 Novelist | Metalcore | France | [Meet factory 1.10. 2024](/music/northlane-novelist-ten56-2024-10-01/#novelist) |
 
 Resolve  | Metalcore         | France | [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#resolve) |
-Thrown   | Beatdown hardcore | Sweden | [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#thrown) |
+Thrown   | Beatdown hardcore | Sweden | [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/#thrown) :  |
 
 Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-is-noise-2024-12-06/#love-is-noise) |
 
@@ -296,7 +296,7 @@ Crystal lake     | Metalcore           | Japan     | [Brutal Assault 6.8. 2025](
 Ne Obliviscaris  | Progressive metal   | Australia | [Brutal Assault 6.8. 2025](/music/1-blood-red-throne-warbringer-crystal-lake-ne-obliviscaris-2025-08-06/#ne-obliviscaris) |
 Dope             | Industrial nu metal | USA       | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#dope) |
 Skálmöld         | Viking folk metal   | Iceland   | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#skálmöld) |
-Thrown           | Hardcore            | Sweden    | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#thrown) |
+Thrown           | Hardcore            | Sweden    | [Brutal Assault 6.8. 2025](/music/2-dope-skalmold-thrown-fleshgod-apocalypse-2025-08-06/#thrown) : [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#thrown) |
 Dark Angel       | Thrash metal        | USA       | [Brutal Assault 6.8. 2025](/music/4-dark-angel-static-x-frayle-sleepytime-gorilla-museum-2025-08-06/#dark-angel) |
 Static-X         | Industrial metal    | USA       | [Brutal Assault 6.8. 2025](/music/3-static-x-2025-08-06/) |
 Frayle           | Doom metal          | USA       | [Brutal Assault 6.8. 2025](/music/4-dark-angel-static-x-frayle-sleepytime-gorilla-museum-2025-08-06/#frayle) |
@@ -316,7 +316,7 @@ Car Bomb         | Mathcore           | USA     | [Brutal Assault 7.8. 2025](/mu
 High Parasite    | Doom metal         | UK      | Brutal Assault 7.8. 2025 |
 Zeke             | Hardcore punk      | USA     | [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#zeke) |
 Gutalax          | Pornogrind         | Czechia | [Brutal Assault 7.8. 2025](/music/2-car-bomb-zeke-nile-gutalax-2025-08-07/#gutalax) |
-Kublai Khan TX   | Beatdown hardcore  | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#kublai-khan-tx) |
+Kublai Khan TX   | Beatdown hardcore  | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#kublai-khan-tx) : [Rock for people 10.6. 2026](/music/2-we-came-as-romans-kublai-lhan-tx-bloodywood-2026-06-10/#kublai-khan-tx) |
 August Burns Red | Metalcore          | USA     | [Brutal Assault 7.8. 2025](/music/3-kublai-khan-tx-august-burns-red-drowning-pool-2025-08-07/#august-burns-red) |
 Landmvrks        | Metalcore          | France  | [Brutal Assault 7.8. 2025](/music/4-landmvrks-2025-08-07/) |
 XIII. Století    | Gothic rock        | Czechia | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#xiii-století)
@@ -385,8 +385,35 @@ Grim salvo  | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026
 Savage gasp | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#savage-gasp)
 Kamaara     | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026-03-25/#kamaara)
 
-Zputnik        | Pop punk | Czechia | [Rockovej Žďár](/music/rockovej-zdar-2026-04-03/#zputnik)
-Cocotte minute | Nu metal | Czechia | [Rockovej Žďár](/music/rockovej-zdar-2026-04-03/#cocotte-minute)
+Zputnik        | Pop punk | Czechia | [Rockovej Žďár 4.3. 2026](/music/rockovej-zdar-2026-04-03/#zputnik)
+Cocotte minute | Nu metal | Czechia | [Rockovej Žďár 4.3. 2026](/music/rockovej-zdar-2026-04-03/#cocotte-minute)
+
+Joyless as fvck | Shoegaze | Czechia | [Kaštan 22.5. 2026](/music/a-letter-for-tommorow-joyless-as-fvck-avant-alpa-2026-05-22/#joyless-as-fvck)
+
+Vypsaná fixa        | Pop rock      | Czechia | [Rock for people 10.6. 2026](/music/1-vypsana-fixa-but-cislo-4-circus-brothers-2026-06-10/#vypsaná-fixa)
+Byt číslo 4         | Emo           | Czechia | [Rock for people 10.6. 2026](/music/1-vypsana-fixa-but-cislo-4-circus-brothers-2026-06-10/#byt-číslo-4)
+Circus brothers     | Brass funk    | Czechia | [Rock for people 10.6. 2026](/music/1-vypsana-fixa-but-cislo-4-circus-brothers-2026-06-10/#circus-brothers)
+We came as Romans   | Metalcore     | Czechia | [Rock for people 10.6. 2026](/music/2-we-came-as-romans-kublai-lhan-tx-bloodywood-2026-06-10/#we-came-as-romans)
+Nevertel            | Nu-metal      | USA     | [Rock for people 10.6. 2026](/music/3-nevertel-megadeth-as-it-is-2026-06-10/#nevertel)
+Megadeth            | Thrash metal  | USA     | [Rock for people 10.6. 2026](/music/3-nevertel-megadeth-as-it-is-2026-06-10/#megadeth)
+Gurriers            | Progressive punk | USA  | [Rock for people 10.6. 2026](/music/4-gurriers-the-pretty-reckless-gorillaz-2026-06-10/#gurriers)
+As it is            | Rock          | UK      | [Rock for people 10.6. 2026](/music/3-nevertel-megadeth-as-it-is-2026-06-10/#as-it-is)
+The pretty reckless | Hard rock     | USA     | [Rock for people 10.6. 2026](/music/4-gurriers-the-pretty-reckless-gorillaz-2026-06-10/#the-pretty-reckless)
+Electric callboy    | Electronicore | Germany | [Rock for people 10.6. 2026](/music/5-electric-callboy-2026-06-10/)
+Gorillaz            | Cringe        | UK      | [Rock for people 10.6. 2026](/music/4-gurriers-the-pretty-reckless-gorillaz-2026-06-10/#gorillaz)
+Boundaries          | Metalcore     | USA     | [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#boundaries)
+Tchert              | Beatdown hardcore | Czechoa | [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#tchert)
+
+
+
+
+
+
+
+
+
+
+
 
 {% endbands %}
 
@@ -394,4 +421,4 @@ Cocotte minute | Nu metal | Czechia | [Rockovej Žďár](/music/rockovej-zdar-20
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP, Humbuk, Twentythree
+Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow
