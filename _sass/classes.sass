@@ -400,3 +400,47 @@
       font-size: 1rem
       font-weight: 500
       line-height: 1.2
+
+.blog-stats
+  margin: 1.5em 0
+
+  .blog-stats-group
+    margin-top: 1.25em
+
+  .blog-stats-group:first-child
+    margin-top: 0
+
+  .blog-stats-heading
+    margin: 0 0 0.5em 0
+    font-size: 1em
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    opacity: 0.7
+
+  .blog-stats-grid
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(7em, 1fr))
+    gap: 0.75em
+    margin: 0
+    padding: 0
+
+  .blog-stat
+    display: flex
+    flex-direction: column-reverse
+    align-items: flex-start
+    padding: 0.6em 0.8em
+    border-left: 3px solid #708bff
+    background-color: rgba(127, 127, 127, 0.06)
+
+  .blog-stat-value
+    margin: 0
+    font-size: 1.6em
+    font-weight: 700
+    line-height: 1.1
+    font-variant-numeric: tabular-nums
+
+  .blog-stat-label
+    margin: 0 0 0.15em 0
+    font-size: 0.8em
+    text-transform: lowercase
+    opacity: 0.7

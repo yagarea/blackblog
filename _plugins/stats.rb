@@ -55,29 +55,46 @@ module Jekyll
   class BlogStatsTag < Liquid::Tag
     def render(context)
       s = BlogStats.for_site(context.registers[:site])
+      content = [
+        ["Articles",      s["article_count"]],
+        ["Music reports", s["music_report_count"]],
+        ["Pages",         s["page_count"]],
+        ["Total",         s["total_count"]],
+        ["Categories",    s["category_count"]],
+      ]
+      media = [
+        ["Images", s["total_image_count"]],
+        ["Videos", s["total_video_count"]],
+        ["Words",  s["total_word_count"]],
+      ]
+
       <<~HTML
-        <div>
-          <h3>Site Statistics</h3>
-          <div class="spliter">
-            <div class="spliter-item">
-              <ul>
-                <li>#{s["article_count"]} articles</li>
-                <li>#{s["music_report_count"]} music reports</li>
-                <li>#{s["page_count"]} pages</li>
-                <li>#{s["total_count"]} total</li>
-                <li>#{s["category_count"]} categories</li>
-              </ul>
-            </div>
-            <div class="spliter-item">
-              <ul>
-                <li>#{s["total_image_count"]} images</li>
-                <li>#{s["total_video_count"]} videos</li>
-                <li>#{s["total_word_count"]} words</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <section class="blog-stats">
+          #{render_group("Content", content)}
+          #{render_group("Media", media)}
+        </section>
       HTML
+    end
+
+    private
+
+    def render_group(heading, rows)
+      items = rows.map { |label, value| render_stat(label, value) }.join
+      %(<div class="blog-stats-group">) \
+        + %(<h4 class="blog-stats-heading">#{heading}</h4>) \
+        + %(<dl class="blog-stats-grid">#{items}</dl>) \
+        + %(</div>)
+    end
+
+    def render_stat(label, value)
+      %(<div class="blog-stat">) \
+        + %(<dt class="blog-stat-label">#{label}</dt>) \
+        + %(<dd class="blog-stat-value">#{format_number(value)}</dd>) \
+        + %(</div>)
+    end
+
+    def format_number(n)
+      n.to_s.gsub(/(\d)(?=(\d{3})+(?!\d))/, "\\1 ")
     end
   end
 end
