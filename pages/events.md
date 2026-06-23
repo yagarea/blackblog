@@ -13,18 +13,18 @@ Formát je:
 ```
 
 ## Návrhy
-- 06\. 04\. 2026 - **[Fit For A King, Memphis May Fire, Acres + 156/Silence](https://rfpconcerts.cz/concert/fit-for-a-king-memphis-may-fire-acres-156-silence/)**
-- 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
-- 21\. 05\. 2026 - **[Paledusk, Knosis, Greyhaven, Headwreck]()** - Cargo gallery
-- 27\. 05\. 2026 - **[PANOPTIKUM, Midnight Swimmers](https://goout.net/cs/panoptikum-krest-alba-pizza-extrapolis%2Bmidnight-swimmers%2Bspecialni-host/szmieiy/)** - Cargo gallery (Kačka D.) [Křest nového alba kapely PANOPTIKUM]
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
 - 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
-- 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č.)
+- 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č., Martin K., Dakid S.)
 - 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
 
 ---
 
 ## Proběhlé
+- 27\. 05\. 2026 - **[PANOPTIKUM, Midnight Swimmers](https://goout.net/cs/panoptikum-krest-alba-pizza-extrapolis%2Bmidnight-swimmers%2Bspecialni-host/szmieiy/)** - Cargo gallery (Kačka D.) [Křest nového alba kapely PANOPTIKUM]
+- 21\. 05\. 2026 - **[Paledusk, Knosis, Greyhaven, Headwreck]()** - Cargo gallery
+- 06\. 04\. 2026 - **[Fit For A King, Memphis May Fire, Acres + 156/Silence](https://rfpconcerts.cz/concert/fit-for-a-king-memphis-may-fire-acres-156-silence/)**
+- 19\. 04\. 2026 - **[Machine Head](https://www.oeticket.com/event/machine-head-raiffeisen-halle-im-gasometer-20982644/)** - Wien, Raiffeisen Halle im Gasometer
 - 20\. 03\. 2026 - **[Defamed, Castiel, Swept Into Decay](https://www.darkzin.cz/seznam-novych-akci/defamed-castiel-swept-into-decay-harbingers-of-the-abyss-tour-2026-praha/)** - Subzero (Honza Č.)
 - 04\. 03\. 2026 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Palác Akropolis - zrušeno
 - 22\. 02\. 2026 - **[Motionless in White, Make Them Suffer](https://www.ticketmaster.cz/artist/motionless-in-white-vstupenky/445003)** - Forum Karlín
