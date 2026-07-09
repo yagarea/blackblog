@@ -116,7 +116,7 @@ Define me       | Alternative rock  | Czechia | [Futurum 1.12. 2022](/music/boun
 Hand grenade    | Modern metal      | Czechia | [Futurum 1.12. 2022](/music/bound-to-break-define-me-hand-grenade-2022-12-01/#hand-grenade) |
 
 Okult            | Death metal         | Czechia  | Brutal Assault 8.8. 2023 |
-Innersphere      | Melodic death metal | Czechia  | Brutal Assault 8.8. 2023 |
+Innersphere      | Melodic death metal | Czechia  | Brutal Assault 8.8. 2023 : [Fajtfest 4.7. 2026](/music/1-innersphere-made-by-zero-head2down-2026-07-04/#innersphere) |
 Crippled fingers | Hardcore            | Czechia  | Brutal Assault 8.8. 2023 |
 Adacta           | Hardcore punk       | Slovakia | Brutal Assault 8.8. 2023 |
 RedZed           | Trap/Rap metal      | Czechia  | Brutal Assault 8.8. 2023 : [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/) | ★
@@ -268,7 +268,7 @@ Love is noise | Metalcore | UK | [Bike Jesus 06.12. 2024](/music/thornhill-love-
 Berlin Manson | Post punk | Slovakia | [Sasazu club 13.12. 2024](/music/redzed-berlin-manson-2024-12-13/#berlin-manson) |
 
 InVeins          | Deathcore | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#inveins) |
-Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#hot-sunday-blood) |
+Hot Sunday Blood | Grunge post hardcore | Italy | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#hot-sunday-blood) : [Fajtfest 4.7. 2026](/music/2-hot-suday-blood-unsainted-hopes-2026-07-04/#hot-sunday-blood) |
 Exorciphobia     | Thrash metal | Czechia | [Fajtfest 4.7. 2025](/music/1-inveins-hot-sunday-blood-exorciphobia-2025-07-04/#exorciphobia) |
 Stercore         | Blackned deathcore | Slovakia | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#stercore) |
 The Narrator     | Metalcore | Gernamy | [Fajtfest 4.7. 2025](/music/2-stercore-the-narrator-ruins-of-perception-2025-07-04/#the-narrator) |
@@ -327,12 +327,12 @@ Fear factory     | Industrial metal   | USA     | [Brutal Assault 7.8. 2025](/mu
 Furia            | Black metal        | Poland  | [Brutal Assault 7.8. 2025](/music/6-xiii-stoleti-fear-factory-furia-2025-08-07/#furia) |
 
 
-Graphic nature     | Metalcore    | UK       | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#graphic-nature) |
+Graphic nature     | Metalcore    | UK       | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#graphic-nature) : [Fajtfest 4.7. 2026](/music/3-indenial-immortal-disfigurement-graphic-nature-2026-07-04/#graphic-nature) |
 Angelmaker         | Deathcore    | Canada   | Brutal Assault 8.8. 2025 |
 Pyrexia            | Death metal  | USA      | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#pyrexia) |
 Within destruction | Deathcore    | Slovenia | [Brutal Assault 8.8. 2025](/music/1-graphic-nature-pyrexia-within-destruction-2025-08-08/#within-destruction) |
 Monolord           | Stoner metal | Sweden   | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#monolord) |
-Mnemic             | Post industrial metal   | Denmark | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#mnemic) |
+Mnemic             | Post industrial metal   | Denmark | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#mnemic) : [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#mnemic) |
 Sylvaine           | Shoegaze     | Norway   | [Brutal Assault 8.8. 2025](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#sylvaine) |
 Pig destroyer      | Grindcore    | USA      | [Brutal Assault 8.8. 2025](/music/3-pig-destroyer-hentai-corporation-malignancy-2025-08-08/#pig-destroyer) |
 Malignancy         | Technical death metal   | USA | [Brutal Assault 8.8. 2025](/music/3-pig-destroyer-hentai-corporation-malignancy-2025-08-08/#malignancy) |
@@ -405,12 +405,14 @@ Boundaries          | Metalcore     | USA     | [Rock for people 10.6. 2026](/mu
 Tchert              | Beatdown hardcore | Czechoa | [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#tchert)
 
 
-
-
-
-
-
-
+Made by Zero           | Metalcore | Czechia   | [Fajtfest 4.7. 2026](/music/1-innersphere-made-by-zero-head2down-2026-07-04/#innersphere)
+Head2Down              | Nu metal  | Slovakia  | [Fajtfest 4.7. 2026](/music/1-innersphere-made-by-zero-head2down-2026-07-04/#head2down)
+Unsainted              | Deathcore | Lithuania | [Fajtfest 4.7. 2026](/music/2-hot-suday-blood-unsainted-hopes-2026-07-04/#unsainted)
+Hopes                  | Punk      | Czechia   | [Fajtfest 4.7. 2026](/music/2-hot-suday-blood-unsainted-hopes-2026-07-04/#hopes)
+Indenial               | Metalcore | Japan     | [Fajtfest 4.7. 2026](/music/3-indenial-immortal-disfigurement-graphic-nature-2026-07-04/#indenial)
+Immortal Disfigurement | Symphonic Deathcore | USA | [Fajtfest 4.7. 2026](/music/3-indenial-immortal-disfigurement-graphic-nature-2026-07-04/#immortal-disfigurement)
+King 810               | Nu metalcore | USA    | [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#king-810)
+Soul Splitter          | Hardcore  | France    | [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#soul-splitter)
 
 
 
