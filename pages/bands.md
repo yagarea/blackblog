@@ -414,7 +414,8 @@ Immortal Disfigurement | Symphonic Deathcore | USA | [Fajtfest 4.7. 2026](/music
 King 810               | Nu metalcore | USA    | [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#king-810)
 Soul Splitter          | Hardcore  | France    | [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#soul-splitter)
 
-
+King Yosef          | Industrialcore  | USA | [Bike Jesus 5.7. 2026](/music/author-and-unisher-king-yosef-2026-07-05/#king-yosef)
+Author and Punisher | Doom industrial | UAS | [Bike Jesus 5.7. 2026](/music/author-and-unisher-king-yosef-2026-07-05/#author-and-punisher)
 
 
 {% endbands %}
