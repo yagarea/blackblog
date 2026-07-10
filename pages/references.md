@@ -60,6 +60,7 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [vkane.cz](https://vkane.cz/) - Vojta Káně
 - [knowledgeboard.github.io](https://knowledgeboard.github.io/index.html) - Marek Bečvář
 - [rihl.uralyx.cz](https://rihl.uralyx.cz/) - Richard Hladík
+- [veskrna.matfyz.cz](https://veskrna.matfyz.cz) - Lukáš Veškrna
 
 ---
 
