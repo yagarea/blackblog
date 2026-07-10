@@ -8,7 +8,7 @@ gem "jekyll", "4.4.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jektex", "~> 0.1.1"
+  gem "jektex", "~> 0.2.0"
   gem "jekyll_picture_tag", "~> 2.0"
   gem "jekyll-tidy"
   gem "jekyll-hardlinks", "~> 0.2.0"
