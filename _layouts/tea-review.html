@@ -36,7 +36,10 @@ comments: true
 	<br/>
 	<br/>
 	<b>{% if page.language == "CZ" %}Hodnocení{% else %}Rating{% endif %}:</b>
-	<p class="rating"><b>{{ page.rating }}/10</b></p>
+	<p class="rating">
+		<meter min="0" max="10" low="4" high="7" optimum="10" value="{{ page.rating }}"></meter>
+		<b>{{ page.rating }}/10</b>
+	</p>
 	{% if page.RedditLink != "" %}
 		<a href="{{ page.RedditLink }}" class="big-button">
 			<div style="text-align: right;">
