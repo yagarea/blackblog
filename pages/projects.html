@@ -21,7 +21,7 @@ switch_pages: ["projects-new", "projects-web"]
 		{% if p.category != cat %}
 			{% continue %}
 		{% endif %}
-		<div class="project-card">
+		<article class="project-card">
 			<ul class="hfill" style="width: 100%;">
 				<li id="{{- p.name | slugify -}}"><h3>{{- p.name -}}</h3></li>
 				{% if p.license %}
@@ -30,20 +30,20 @@ switch_pages: ["projects-new", "projects-web"]
 			</ul>
 			<hr/>
 				{{- p.content | markdownify | liquify -}}
-			<ul>
-				{%- if p.used_tech -%}<li><b>Used technology:  </b>{{- p.used_tech -}}</li>{%- endif -%}
-				{%- if p.author -%}<li><b>Author:  </b>{{- p.author -}}</li>{%- endif -%}
-				{%- if p.version -%}<li><b>Version:  </b>{{- p.version -}}</li>{%- endif -%}
-				{%- if p.license -%}<li><b>License:  </b>{{- p.license -}}</li>{%- endif -%}
-				{%- if p.link -%}<li><b>Link:  </b><a href="{{- p.link -}}">{{- p.link -}}</a></li>{%- endif -%}
+			<dl>
+				{%- if p.used_tech -%}<div><dt>Used technology:</dt> <dd>{{- p.used_tech -}}</dd></div>{%- endif -%}
+				{%- if p.author -%}<div><dt>Author:</dt> <dd>{{- p.author -}}</dd></div>{%- endif -%}
+				{%- if p.version -%}<div><dt>Version:</dt> <dd>{{- p.version -}}</dd></div>{%- endif -%}
+				{%- if p.license -%}<div><dt>License:</dt> <dd>{{- p.license -}}</dd></div>{%- endif -%}
+				{%- if p.link -%}<div><dt>Link:</dt> <dd><a href="{{- p.link -}}">{{- p.link -}}</a></dd></div>{%- endif -%}
 				{%- if p.repo -%}
-				<li><b>Repository:  </b><a href="{{- p.repo -}}">{{- p.repo | replace: "https://", "" -}}</a></li>
+				<div><dt>Repository:</dt> <dd><a href="{{- p.repo -}}">{{- p.repo | replace: "https://", "" -}}</a></dd></div>
 				{%- endif -%}
-			</ul>
+			</dl>
 			{%- if p.image -%}
 			<br/>
 			<img src="{{p.image}}" alt="{{p.name}}">
 			{%- endif -%}
-		</div>
+		</article>
 	{% endfor %}
 {% endfor %}
