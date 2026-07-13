@@ -47,7 +47,7 @@
 			<span class="post-meta">
 				{% if post.layout == "redirect" %}
 					<svg aria-hidden="true">
-						<use xlink:href="{{- '/assets/fontawesome/icons.svg' | relative_url -}}#up-right-from-square"></use>
+						<use href="{{- '/assets/fontawesome/icons.svg' | relative_url -}}#up-right-from-square"></use>
 					</svg>
 					{{ post.redirect_to
 						| remove: "https://"
@@ -81,9 +81,9 @@
 			</li>
 			<li>
 				{% if include.year_split %}
-					<span class="archive-date">&nbsp;{{- post.date | date: "%d. %m." -}}</span>
+					<span class="archive-date">&nbsp;{{- post.date | date: "%-d %b" -}}</span>
 				{% else %}
-					<span class="archive-date">&nbsp;{{- post.date | date: "%d. %m. %Y" -}}</span>
+					<span class="archive-date">&nbsp;{{- post.date | date: "%-d %b %Y" -}}</span>
 				{% endif %}
 			</li>
 		</ul>
