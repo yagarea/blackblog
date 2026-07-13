@@ -10,7 +10,7 @@ body
   padding: 0
   overscroll-behavior: none
 
-body > article, body > footer
+body > article, body > footer, body > nav, body > section
   margin: 0 5em
   padding: 2em 0
   //max-width: 55em
@@ -34,19 +34,19 @@ body > header
   bottom: 0
   left: 0
 
-nav
+header nav
   margin: 0 -2em
 
-nav a
+header nav a
   display: block
   margin: 0
   padding: .5em 2em
 
-nav a.selected
+header nav a.selected
   background: color.adjust(main.$dark, $lightness: 4%)
   text-decoration: inherit
 
-nav a:hover
+header nav a:hover
   background: color.adjust(main.$dark, $lightness: 8%)
   text-decoration: inherit
   transition: 0.3s ease-in-out

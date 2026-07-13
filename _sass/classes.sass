@@ -143,7 +143,7 @@
 
 .related span
   display: block
-  color: main.reduce(100)
+  color: main.$light
 
 .related a
   font-size: 1.2em
@@ -226,7 +226,15 @@
   *
     margin: 5px
 
-  ul
+  ul, dl
+    margin: 0
+
+  dt
+    display: inline
+    font-weight: bold
+
+  dd
+    display: inline
     margin: 0
 
 .definition-block, .proof-block, .theorem-block, .lemma-block
