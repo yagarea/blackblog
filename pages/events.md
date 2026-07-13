@@ -13,14 +13,15 @@ Formát je:
 ```
 
 ## Návrhy
-- 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí
-- 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
 - 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č., Martin K., Dakid S.)
 - 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
 
 ---
 
 ## Proběhlé
+- 05\. 07\. 2026 - **[Author and Punisher, King Yosef](https://goout.net/en/author-and-punisher/pzywmrf/)** - Bike Jesus
+- 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí (Honza Č.)
+- 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
 - 27\. 05\. 2026 - **[PANOPTIKUM, Midnight Swimmers](https://goout.net/cs/panoptikum-krest-alba-pizza-extrapolis%2Bmidnight-swimmers%2Bspecialni-host/szmieiy/)** - Cargo gallery (Kačka D.) [Křest nového alba kapely PANOPTIKUM]
 - 21\. 05\. 2026 - **[Paledusk, Knosis, Greyhaven, Headwreck]()** - Cargo gallery
 - 06\. 04\. 2026 - **[Fit For A King, Memphis May Fire, Acres + 156/Silence](https://rfpconcerts.cz/concert/fit-for-a-king-memphis-may-fire-acres-156-silence/)**
