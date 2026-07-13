@@ -19,7 +19,7 @@ Formát je:
 ---
 
 ## Proběhlé
-- 05\. 07\. 2026 - **[Author and Punisher, King Yosef](https://goout.net/en/author-and-punisher/pzywmrf/)** - Bike Jesus
+- 05\. 07\. 2026 - **[Author and Punisher, King Yosef](https://goout.net/en/author-and-punisher/pzywmrf/)** - Bike Jesus (Honza Č., Martin K. Pavel S. Olga C.)
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí (Honza Č.)
 - 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
 - 27\. 05\. 2026 - **[PANOPTIKUM, Midnight Swimmers](https://goout.net/cs/panoptikum-krest-alba-pizza-extrapolis%2Bmidnight-swimmers%2Bspecialni-host/szmieiy/)** - Cargo gallery (Kačka D.) [Křest nového alba kapely PANOPTIKUM]
