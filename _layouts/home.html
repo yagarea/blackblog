@@ -14,11 +14,11 @@ layout: default
 {%- endif -%}
 
 {%- if paginator.total_pages > 1 -%}
-	<footer>
+	<nav class="pagination" aria-label="Pagination">
 		{%- if paginator.previous_page -%}<a href="{{- paginator.previous_page_path | relative_url -}}">« newer posts</a>{%- else -%}<span></span>{%- endif -%}
 		<span>page {{- paginator.page -}} of {{- paginator.total_pages -}}</span>
 		{%- if paginator.next_page -%}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{%- else -%}<span></span>{%- endif -%}
-	</footer>
+	</nav>
 {%- else -%}
 	<footer></footer>
 {%- endif -%}
