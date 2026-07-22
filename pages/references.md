@@ -39,11 +39,17 @@ Guys who love fantasy and [graph coloring](https://en.wikipedia.org/wiki/Graph_c
 - [dominik.whizzmot.dev](https://dominik.whizzmot.dev/) - Dominik Farhan
 - [iuuk.mff.cuni.cz/~sladky/](https://iuuk.mff.cuni.cz/~sladky/) - Ondra Sladký
 
+---
+
+### [GLY](https://gly.cz)
+Geeks like you.
+- [blog.hangerthem.com](https://blog.hangerthem.com/) - František Borisjuk
+- [trnck.dev](https://blog.trnck.dev/) - Filip Troníček
+
 {% endspliter %}
 </div>
 
 ---
-
 
 <div class="webring-display">
 {% spliter %}
@@ -73,6 +79,5 @@ People I do not know personally and think their websites offer a great value.
 - [lukesmith.xyz](https://lukesmith.xyz/) - Luke Smith
 - [vaxry.net](https://vaxry.net/) - Vaxry
 - [zvojtisek.cz](http://www.zvojtisek.cz/) - Zdeněk Vojtíšek
-
 
 {% endspliter %}
