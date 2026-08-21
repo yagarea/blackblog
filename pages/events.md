@@ -13,12 +13,22 @@ Formát je:
 ```
 
 ## Návrhy
-- 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č., Martin K., Dakid S.)
+- 09\. 09\. 2026 - **A letter for tomorrow** - ? (Adam B.)
 - 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
+- 25\. 09\. 2026 - **A letter for tomorrow** - ? (Adam B.)
+- 27\. 09\. 2026 - **[King dude](https://obscure.cz/en/tickets/detail/id/1048)** - Subzero
+- 28\. 09\. 2026 - **[Humanity’s last breath, Vildhjarta, Enterprise earth, Karmanjakah](https://obscure.cz/cs/tickets/detail/id/1030)** - Meetfactory
+- 13\. 11\. 2026 - **[Holy fawn, Outlander](https://obscure.cz/cs/tickets/detail/id/1074)** - Strahov
+- 23\. 11\. 2026 - **[Current 93**](https://www.dox.cz/en/whats-on/current-93)** - Dox
+- 05\. 12\. 2026 - **[Master boot record, Fulci, Arottenbit](https://obscure.cz/cs/tickets/detail/id/1039)** - Futurum
+- 15\. 12\. 2026 - **[Mental cruelty, Ov sulfur, Extermination dismemberment, Acranius](https://obscure.cz/cs/tickets/detail/id/1072)** - Rock cafe
+- 23\. 03\. 2027 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Lucerna music bar
+- 21\. 04\. 2027 - **[Ministry, Die Krupps](https://obscure.cz/cs/tickets/detail/id/1094)** - Forum Karlín
 
 ---
 
 ## Proběhlé
+- 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č., Martin K., Dakid S.)
 - 05\. 07\. 2026 - **[Author and Punisher, King Yosef](https://goout.net/en/author-and-punisher/pzywmrf/)** - Bike Jesus (Honza Č., Martin K. Pavel S. Olga C.)
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí (Honza Č.)
 - 04\. 07\. 2026 - **[M.O.A. Modlíkov](https://moa.zodiac-band.com/predprodej)** - Modlíkov
