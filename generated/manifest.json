@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /app.webmanifest
+---
+{
+	"id": "/",
+	"name": {{ site.title | strip_html | jsonify }},
+	"short_name": "BlackBlog",
+	"description": {{ site.description | strip_html | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '&amp;', '&' | normalize_whitespace | jsonify }},
+	"lang": "{{ site.lang }}",
+	"dir": "ltr",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"orientation": "any",
+	"background_color": "#17181c",
+	"theme_color": "#222222",
+	"prefer_related_applications": false,
+	"categories": ["education", "music", "personalization"],
+	"icons": [
+		{
+			"src": "/assets/img/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/assets/img/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/assets/img/icon-maskable-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}
