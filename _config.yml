@@ -96,6 +96,8 @@ jekyll_tidy:
   exclude:
     - "**/*.scss"
     - "**/*.xml"
+    - "**/*.json"
+    - "**/*.webmanifest"
 
 exclude:
   - Gemfile
