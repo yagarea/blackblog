@@ -1,5 +1,5 @@
 ---
-title: "Septicflesh, Waytte, Boddy count"
+title: "Septicflesh, Wyatt E., Boddy count"
 category: "Concert report"
 language: "CZ"
 venue: "Brutal Assalut"
@@ -8,7 +8,7 @@ venue: "Brutal Assalut"
 ## Septicflesh
 {% include video.html src="/assets/music-reports/2026-08-06-brutal-assault/septicflesh.mp4" %}
 
-## Waytte
+## Wyatt E.
 {% include video.html src="/assets/music-reports/2026-08-06-brutal-assault/wyatte1.mp4" %}
 {% include video.html src="/assets/music-reports/2026-08-06-brutal-assault/wyatte2.mp4" %}
 
