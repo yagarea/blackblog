@@ -19,6 +19,7 @@ Formát je:
 - 27\. 09\. 2026 - **[King dude](https://obscure.cz/en/tickets/detail/id/1048)** - Subzero
 - 28\. 09\. 2026 - **[Humanity’s last breath, Vildhjarta, Enterprise earth, Karmanjakah](https://obscure.cz/cs/tickets/detail/id/1030)** - Meetfactory
 - 13\. 11\. 2026 - **[Holy fawn, Outlander](https://obscure.cz/cs/tickets/detail/id/1074)** - Strahov
+- 16\. 11\. 2026 - **[KoRn, Architects, Pixel Grip](https://www.ticketmaster.cz/event/korn-vstupenky/1472650657)** - O2 Arena (Petr S.)
 - 23\. 11\. 2026 - **[Current 93](https://www.dox.cz/en/whats-on/current-93)** - Dox
 - 05\. 12\. 2026 - **[Master boot record, Fulci, Arottenbit](https://obscure.cz/cs/tickets/detail/id/1039)** - Futurum
 - 15\. 12\. 2026 - **[Mental cruelty, Ov sulfur, Extermination dismemberment, Acranius](https://obscure.cz/cs/tickets/detail/id/1072)** - Rock cafe
