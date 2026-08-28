@@ -60,8 +60,8 @@ Evoken          | Funeral doom metal            | USA       | Brutal Assault 9.8
 Darkest hour    | Metalcore                            | USA     | Brutal Assault 10.8. 2022 |
 Lorna shore     | Blackned symphonic deathcore         | USA     | Brutal Assault 10.8. 2022 : [Forum Karlín 10.9. 2022](/music/parkway-drive-while-she-sleeps-lorna-shore-2022-09-10/#lorna-shore) : [O2 universum 25.1. 2026]() | ♥ ★
 Tesseract       | Djent                                | UK      | Brutal Assault 10.8. 2022 | ★
-Alcest          | Blackgaze                            | France  | Brutal Assault 10.8. 2022 | ★
-Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024| ♥ ★
+Alcest          | Blackgaze                            | France  | Brutal Assault 10.8. 2022 : [Brutal Assault 6.8. 2026](/music/5-amorphis-carpenter-brut-alcest-2026-08-06/#alcest) | ★
+Jinjer          | Progressive groove metal / Deathcore | Ukraine | Brutal Assault 10.8. 2022 : Brutal Assault 9.8. 2024 | ♥ ★
 Igorrr          | Experimental electronic metal        | France  | Brutal Assault 10.8. 2022 | ★
 Cannibal corpse | Death metal                          | USA     | Brutal Assault 10.8. 2022 | ⛬
 Dark funeral    | Black metal                          | Sweden  | Brutal Assault 10.8. 2022 : [Brutal Assault 9.8. 2025](/music/4-opeth-the-halo-effect-dark-funeral-2025-08-09/#dark-funeral) | ⛬
@@ -102,7 +102,7 @@ Voivod              | Proggy trash / Postpunk           | Canada    | Brutal Ass
 Insomnium           | Melodic death metal               | Finland   | Brutal Assault 13.8. 2022 | ★
 Melt-banana         | Noise hardcore                    | Japan     | Brutal Assault 13.8. 2022 |
 Leprous             | Progressive metal                 | Norway    | Brutal Assault 13.8. 2022 |
-Front line assembly | EBM industrial                    | Canada    | Brutal Assault 13.8. 2022 | ⛬
+Front line assembly | EBM industrial                    | Canada    | Brutal Assault 13.8. 2022 : [Brutal Assault 6.8. 2026](/music/6-immolation-front-line-assembly-2026-08-06/#front-line-assembly) | ⛬
 Sólstafir           | Psychedelic post rock             | Iceland   | Brutal Assault 13.8. 2022 |
 Ahab                | Doom metal                        | Germany   | Brutal Assault 13.8. 2022 |
 Mayhem              | Black metal                       | Norway    | Brutal Assault 13.8. 2022 : [Brutal Assault 8.8. 2025](/music/4-mayhem-vysehrad-dimmu-borgir-2025-08-08/#mayhem) | ⛬
@@ -125,7 +125,7 @@ Feastem            | Grindcore                | Finland | Brutal Assault 9.8. 20
 Devoid of thought  | Death metal              | Italy   | Brutal Assault 9.8. 2023 |
 Angelus apatrida   | Thrash metal             | Spain   | Brutal Assault 9.8. 2023 |
 Fit for an autopsy | Deathcore                | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#fit-for-an-autopsy) |
-Bleed from within  | Metalcore                | UK      | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#bleed-from-within) : [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#bleed-from-within) | ★
+Bleed from within  | Metalcore                | UK      | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#bleed-from-within) : [Meetfactory 24.9. 2025](/music/great-american-ghost-after-the-burial-bleed-from-within-2025-09-24/#bleed-from-within) : [Brutal assault 6.8. 2026](/music/2-hocico-kittie-bleed-from-within-2026-08-06/#bleed-from-within) | ★
 Agnostic front     | Hardcore                 | USA     | [Brutal Assault 9.8. 2023](/music/agnostic-front-bleed-from-within-belakor-fit-for-an-autopsy-2023-08-09/#agnostic-front) |
 Heaving earth      | Death metal              | Czechia | Brutal Assault 9.8. 2023 |
 Chci pnutí         | Noise rock               | Czechia | Brutal Assault 9.8. 2023 |
@@ -137,7 +137,7 @@ Heilung            | Neofolk ambient          | Denmark | Brutal Assault 9.8. 20
 Russian circles    | Postmetal                | USA     | Brutal Assault 9.8. 2023 |
 Artificial brain   | Experimental death metal | USA     | [Brutal Assault 9.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#artificial-brain) |
 
-Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) : [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#signs-of-the-swarm) | ♥ ★
+Signs of the swarm | Slamming deathcore  | USA | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#signs-of-the-swarm) : [Meet factory 23.3. 2024](/music/cattle-decapitation-sings-of-the-swarm-200-stab-wounds-vomit-forth-2024-03-23/#signs-of-the-swarm) : [Fajtfest 4.7. 2025](/music/5-signs-of-the-swarm-defamed-2025-07-04/#signs-of-the-swarm) : [Brutal Assault 7.8. 2026](/music/2-hate-ratos-de-porao-signs-of-the-swarm-2026-08-07/#signs-of-the-swarm) | ♥ ★
 Ingested           | Slamming deathcore  | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#ingested) |
 Malevolence        | Hardcore            | UK  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#malevolence) : [Archa+ 12.11. 2024](/music/while-she-sleeps-malevolence-thrown-resolve-2024-11-12/) |
 Yeyhategod         | Sludge metal        | USA | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#eyehategod) |
@@ -147,7 +147,7 @@ Dying fetus        | Deathgrind          | USA     | [Brutal Assault 10.8. 2023]
 Sepultura          | Groove metal        | Brazil  | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#sepultura) |
 In flames          | Melodic death metal | Sweden  | [Brutal Assault 10.8. 2023](/music/in-flames-signs-of-the-swarm-ingested-malevolence-2023-08-10/#in-flames) | ⛬ ★
 Watain             | Black metal         | Sweden  | [Brutal Assault 10.8. 2023](/music/watain-sepultura-dying-fetus-eyehategod-artificial-brain-2023-08-10/#watain) |
-Carpenter brut     | Synthwave           | France  | [Brutal Assault 10.8. 2023](/music/carpenter-brut-2023-08-10/) | ★
+Carpenter brut     | Synthwave           | France  | [Brutal Assault 10.8. 2023](/music/carpenter-brut-2023-08-10/) : [Brutal Assault 6.8. 2026](/music/5-amorphis-carpenter-brut-alcest-2026-08-06/#carpenter-brut) | ★
 Ellende            | Post black metal    | Austria | Brutal Assault 10.8. 2023 | ★
 
 The callous daoboys | Hardcore with violin         | USA         | Brutal Assault 11.8. 2023 |
@@ -171,14 +171,14 @@ Ithaca          | Hardcore                       | UK        | Brutal Assault 12
 Hypno5e         | Progressive metal              | France    | Brutal Assault 12.8. 2023 |
 Maybeshewill    | Post-rock                      | UK        | Brutal Assault 12.8. 2023 | ★
 Anaal nathrakh  | Blackned grindcore             | UK        | Brutal Assault 12.8. 2023 |
-Terror          | Hardcore                       | USA       | Brutal Assault 12.8. 2023 |
+Terror          | Hardcore                       | USA       | Brutal Assault 12.8. 2023 : [Brutal Assault 6.8. 2026](/music/3-thy-art-is-murder-waltari-terror-2026-08-06/#terror) |
 Birds in row    | Posthardcore                   | France    | Brutal Assault 12.8. 2023 |
 Deicide         | Death metal                    | USA       | Brutal Assault 12.8. 2023 : Brutal Assault 7.8. 2024 | ⛬
 Napalm death    | Grindcore                      | USA       | Brutal Assault 12.8. 2023 |
 Trivium         | Proto-metalcore                | USA       | Brutal Assault 12.8. 2023 : [Rock for people 10.6. 2026](/music/6-boundaries-tchert-trivium-thrown-2026-06-10/#trivium) | ⛬ ★
 Hypocrisy       | Death metal                    | Sweden    | Brutal Assault 12.8. 2023 |
 Cult of luna    | Post metal                     | Sweden    | Brutal Assault 12.8. 2023 |
-Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 |
+Marduk          | Black metal                    | Sweden    | Brutal Assault 12.8. 2023 : [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#marduk) |
 Health          | Electronic noise rock          | USA       | Brutal Assault 12.8. 2023 |
 
 Lorelai            | Post hardcore  | Czechia | [Café v lese 2.2 2024](/music/bound-to-break-marked-as-an-enemy-lorelai-2024-02-02/#lorelai) |
@@ -226,7 +226,7 @@ Carcass            | Death metal           | UK     | Brutal Assault 8.8. 2024 |
 Testament          | Thrash metal          | USA    | Brutal Assault 8.8. 2024 | ⛬
 Satyricon          | Black metal           | Norway | Brutal Assault 8.8. 2024 | ⛬
 UADA               | Melodic black metal   | USA    | Brutal Assault 8.8. 2024 |
-Master boot record | 8-bit metal           | Italy  | Brutal Assault 8.8. 2024 | ★
+Master boot record | 8-bit metal           | Italy  | Brutal Assault 8.8. 2024 : [Brutal Assault 7.8. 2026](/music/4-paleface-swiss-master-boot-record-2026-08-07/#master-boot-record) | ★
 
 Party cannon        | Brutal slamming death metal | UK                       | Brutal Assault 9.8. 2024 |
 Distant             | Downtempo deathcore         | Netherlands + Slovakia   | Brutal Assault 9.8. 2024 |
@@ -366,7 +366,7 @@ Akhlys        | Black metal | USA   | [Futurum 14.10. 2025](/music/fides-inversa
 
 
 The Amity Affliction | Post-hardcore | Australia | [Fortuna aréna 7.11. 2025](/music/0-thy-art-is-murder-the-amity-affliction-2025-11-07/#the-amity-affliction) |
-Thy Art Is Murder    | Deathcore     | Australia | [Fortuna aréna 7.11. 2025](/music/0-thy-art-is-murder-the-amity-affliction-2025-11-07/#thy-art-is-murder) |
+Thy Art Is Murder    | Deathcore     | Australia | [Fortuna aréna 7.11. 2025](/music/0-thy-art-is-murder-the-amity-affliction-2025-11-07/#thy-art-is-murder) : [Brutal Assault 6.8. 2026](/music/3-thy-art-is-murder-waltari-terror-2026-08-06/#thy-art-is-murder)] |
 
 
 The Legendary Orchestra | Cinematic symphony | International | [Ostravar 16.11. 2025](/music/sabaton-the-legendary-orchestra-2025-11-16/#the-legendary-orchestra)
@@ -415,7 +415,35 @@ King 810               | Nu metalcore | USA    | [Fajtfest 4.7. 2026](/music/4-m
 Soul Splitter          | Hardcore  | France    | [Fajtfest 4.7. 2026](/music/4-mnemic-king810-soul-splitter-2026-07-04/#soul-splitter)
 
 King Yosef          | Industrialcore  | USA | [Bike Jesus 5.7. 2026](/music/author-and-unisher-king-yosef-2026-07-05/#king-yosef)
-Author and Punisher | Doom industrial | UAS | [Bike Jesus 5.7. 2026](/music/author-and-unisher-king-yosef-2026-07-05/#author-and-punisher)
+Author and Punisher | Doom industrial | USA | [Bike Jesus 5.7. 2026](/music/author-and-unisher-king-yosef-2026-07-05/#author-and-punisher)
+
+
+Saunguisugabogg | Brutal death metal  | USA      | [Brutal Assault 6.8. 2026](/music/1-sanguisugabogg-illdisposed-castle-rat-2026-08-06/#sanguisugabogg)
+Illdisposed     | Melodic death metal | Denmark  | [Brutal Assault 6.8. 2026](/music/1-sanguisugabogg-illdisposed-castle-rat-2026-08-06/#illdisposed)
+Castle rat      | Doom metal          | USA      | [Brutal Assault 6.8. 2026](/music/1-sanguisugabogg-illdisposed-castle-rat-2026-08-06/#castle-rat)
+Hocico          | Agrotech            | Mexico   | [Brutal Assault 6.8. 2026](/music/2-hocico-kittie-bleed-from-within-2026-08-06/#hocico)
+Kittie          | Thrash metal        | Canada   | [Brutal Assault 6.8. 2026](/music/2-hocico-kittie-bleed-from-within-2026-08-06/#kittie)
+Waltari         | Symphonic avant-garde metal | Finland | [Brutal Assault 6.8. 2026](/music/3-thy-art-is-murder-waltari-terror-2026-08-06/#waltari)
+Septicflesh     | Symphonic death metal | Greece | [Brutal Assault 6.8. 2026](/music/4-septicflesh-wyatt-e-boddy-count-2026-08-06/#septicflesh)
+Wyatt E.        | Drone doom metal    | Belgium  | [Brutal Assault 6.8. 2026](/music/4-septicflesh-wyatt-e-boddy-count-2026-08-06/#wyatt-e)
+Body count      | Crossover hardcore  | USA      | [Brutal Assault 6.8. 2026](/music/4-septicflesh-wyatt-e-boddy-count-2026-08-06/#boddy-count--ice-t)
+Amorphis        | Melodic death metal | Finland  | [Brutal Assault 6.8. 2026](/music/5-amorphis-carpenter-brut-alcest-2026-08-06/#amorphis)
+Immolation      | Death metal         | USA      | [Brutal Assault 6.8. 2026](/music/6-immolation-front-line-assembly-2026-08-06/#immolation)
+
+Altars ablaze      | Blackned death metal   | Czechia | [Brutal Assault 7.8. 2026](/music/1-altars-ablaze-allt-internal-bleeding-2026-08-07/#altars-ablaze)
+Allt               | Post metalcore         | Sweden  | [Brutal Assault 7.8. 2026](/music/1-altars-ablaze-allt-internal-bleeding-2026-08-07/#allt)
+Internal bleeding  | Slam metal             | USA     | [Brutal Assault 7.8. 2026](/music/1-altars-ablaze-allt-internal-bleeding-2026-08-07/#internal-bleeding)
+Hate               | Blackned death metal   | Poland  | [Brutal Assault 7.8. 2026](/music/2-hate-ratos-de-porao-signs-of-the-swarm-2026-08-07/#hate)
+Ratos de porão     | Crossover metal        | Brazil  | [Brutal Assault 7.8. 2026](/music/2-hate-ratos-de-porao-signs-of-the-swarm-2026-08-07/#ratos-de-porão)
+Kraanium           | Slamming brutal death metal | International | [Brutal Assault 7.8. 2026](/music/3-kraanium-animals-as-leaders-arthur-brown-2026-08-07/#kraanium)
+Animals as leaders | Progressive metal      | USA     | [Brutal Assault 7.8. 2026](/music/3-kraanium-animals-as-leaders-arthur-brown-2026-08-07/#animals-as-leaders)
+Arthur Brown       | Psychodelic rock       | UK      | [Brutal Assault 7.8. 2026](/music/3-kraanium-animals-as-leaders-arthur-brown-2026-08-07/#arthur-brown)
+Paleface swiss     | Deathcore              | Switzerland | [Brutal Assault 7.8. 2026](/music/4-paleface-swiss-master-boot-record-2026-08-07/#paleface-swiss)
+Primus             | Progressive rock       | USA     | [Brutal Assault 7.8. 2026](/music/5-primus-misþirming-and-nergal-plays-behemoths-sventvith-2026-08-07/#primus)
+Eivør              | Electronic nordic folk | Faroe Islands | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#eivør)
+Old man's child    | Black metal            | Norway  | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#old-mans-child)
+Vio-lence          | Thrash metal           | USA     | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#vio-lence)
+Pig                | Industrial rock        | UK      | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#pig)
 
 
 {% endbands %}
@@ -424,4 +452,4 @@ Author and Punisher | Doom industrial | UAS | [Bike Jesus 5.7. 2026](/music/auth
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow
+Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow, Ice T
