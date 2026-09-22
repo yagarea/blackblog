@@ -2,7 +2,7 @@
 title: "Eivør, Marduk, Old man's child, Vio-lence, Pig"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Eivør

@@ -2,7 +2,7 @@
 title: "Insomnium, Vader, Deafheaven"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Insomnium

@@ -2,7 +2,7 @@
 title: "Thy art is murder, Waltari, Terror"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Thy art is murder

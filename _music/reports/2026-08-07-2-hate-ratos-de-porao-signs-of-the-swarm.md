@@ -2,7 +2,7 @@
 title: "Hate, Ratos de porão, Signs of the swarm"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Hate

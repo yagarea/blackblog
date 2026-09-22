@@ -2,7 +2,7 @@
 title: "Hocico, Kittie, Bleed from within"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Hocico

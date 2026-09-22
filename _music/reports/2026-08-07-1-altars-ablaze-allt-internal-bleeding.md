@@ -2,7 +2,7 @@
 title: "Altars ablaze, Allt, Internal bleeding"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 

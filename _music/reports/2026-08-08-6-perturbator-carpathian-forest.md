@@ -2,7 +2,7 @@
 title: "Perturbator, Carpathian forest"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Perturbator

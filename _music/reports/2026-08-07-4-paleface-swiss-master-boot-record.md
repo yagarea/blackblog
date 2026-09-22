@@ -2,7 +2,7 @@
 title: "Paleface Swiss, Master Boot Record"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Paleface Swiss

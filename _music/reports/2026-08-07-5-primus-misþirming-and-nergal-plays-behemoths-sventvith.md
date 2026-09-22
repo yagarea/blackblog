@@ -2,7 +2,7 @@
 title: "Primus, Misþirming and Nergal plays Behemoths sventvith"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Primus

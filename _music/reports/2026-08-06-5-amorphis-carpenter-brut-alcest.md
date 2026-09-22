@@ -2,7 +2,7 @@
 title: "Amorphis, Carpenter Brut, Alcest"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Amorphis

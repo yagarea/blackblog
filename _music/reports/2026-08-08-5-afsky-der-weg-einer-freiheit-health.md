@@ -2,7 +2,7 @@
 title: "Afsky, Der weg einer freiheit, Health"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Afsky

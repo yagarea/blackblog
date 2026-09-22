@@ -2,7 +2,7 @@
 title: "Septicflesh, Wyatt E., Boddy count"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Septicflesh

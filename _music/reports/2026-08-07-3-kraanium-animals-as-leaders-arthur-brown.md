@@ -2,7 +2,7 @@
 title: "Kraanium, Animals as leaders, Arthur Brown"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Kraanium

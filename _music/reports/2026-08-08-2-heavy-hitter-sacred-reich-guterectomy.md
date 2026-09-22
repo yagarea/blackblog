@@ -2,7 +2,7 @@
 title: "Heavy//hitter, Sacred reich, Gutrectomy"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Heavy//hitter

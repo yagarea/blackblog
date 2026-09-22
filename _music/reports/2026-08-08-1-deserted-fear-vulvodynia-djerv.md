@@ -2,7 +2,7 @@
 title: "Deserted fear, Vulvodynia, Djerv"
 category: "Concert report"
 language: "CZ"
-venue: "Brutal Assalut"
+venue: "Brutal Assault"
 ---
 
 ## Deserted fear
