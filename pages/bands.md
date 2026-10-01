@@ -84,7 +84,7 @@ Fleshgod apocalypse       | Orchestral death metal   | Italy       | Brutal Assa
 Skepticism                | Funeral doom metal       | Finland     | Brutal Assault 11.8. 2022 | ★
 
 Abbie falls             | Metalcore                     | Czechia    | Brutal Assault 12.8. 2022 : [Brutal Assault 8.8. 2023](/music/2-abbie-falls-monolord-mnemic-sylvaine-2025-08-08/#abbie-falls) |
-Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 : [O2 universum 21.1. 2026](/music/1-shadow-of-intent-humanitys-last-breath-2026-01-25/#humanitys-last-breath) |
+Humanity's last breath  | Experimental deathcore        | Sweden     | Brutal Assault 12.8. 2022 : Brutal Assault 7.8. 2024 : [O2 universum 21.1. 2026](/music/1-shadow-of-intent-humanitys-last-breath-2026-01-25/#humanitys-last-breath) : [MeetFactory 28.9. 2026](/music/humanitys-last-breath-vildhjarta-enterprise-earth-2026-09-28/#humanitys-last-breath) |
 Swallow the sun         | Doom metal                    | Finland    | Brutal Assault 12.8. 2022 | ★
 Z                       | Black noise / Drone           | Czechia    | Brutal Assault 12.8. 2022 |
 Somniate                | Black metal                   | Czechia    | Brutal Assault 12.8. 2022 |
@@ -445,6 +445,9 @@ Old man's child    | Black metal            | Norway  | [Brutal Assault 7.8. 202
 Vio-lence          | Thrash metal           | USA     | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#vio-lence)
 Pig                | Industrial rock        | UK      | [Brutal Assault 7.8. 2026](/music/6-eivor-marduk-old-mans-child-vio-lence-pig-2026-08-07/#pig)
 
+
+Enterprise earth | Deathcore | USA    | [Meet Factory 28.9. 2026](/music/humanitys-last-breath-vildhjarta-enterprise-earth-2026-09-28/#enterprise-earth)
+Vildhjarta       | Djent     | Sweden | [Meet Factory 28.9. 2026](/music/humanitys-last-breath-vildhjarta-enterprise-earth-2026-09-28/#vildhjarta)
 
 {% endbands %}
 
