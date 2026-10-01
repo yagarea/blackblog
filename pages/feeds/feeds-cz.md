@@ -15,6 +15,6 @@ layout: page
 
 ## Recommended clients
 Já osobně doporučuji (a sám používám) tyto RSS/Atom čtečky:
-- [**Feeder**](https://f-droid.org/packages/com.nononsenseapps.feeder/) - Příjemná čtečka pro Andoid publikovaná na [F-droidu](https://f-droid.org/) pod licencí  GPLv3.
-- [**Gfeeds**](https://gfeeds.gabmus.org/) - Čtečka pro desktop napsaná v GTK. [Zdrojový kód](https://gitlab.gnome.org/World/gfeeds) je publikovaný pod GPLv3 licencí.
+- [**Feeder**](https://f-droid.org/packages/com.nononsenseapps.feeder/) - Příjemná čtečka pro Andoid publikovaná na [F-droidu](https://f-droid.org/) pod licencí [GPLv3](https://github.com/spacecowboy/Feeder).
+- [**Gfeeds**](https://gfeeds.gabmus.org/) - Čtečka pro desktop napsaná v GTK. [Zdrojový kód](https://gitlab.gnome.org/World/gfeeds) je publikovaný pod licencí [GPLv3](https://gitlab.gnome.org/World/gfeeds).
 

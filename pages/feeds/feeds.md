@@ -14,6 +14,6 @@ layout: page
 
 ## Recommended clients
 These are RSS/Atom feed clients I personally use:
-- [**Feeder**](https://f-droid.org/packages/com.nononsenseapps.feeder/) - Nice Android app published on [F-droid](https://f-droid.org/) under GPLv3.
-- [**Gfeeds**](https://gfeeds.gabmus.org/) - GTK based desktop RSS/Atom reader. [Source code](https://gitlab.gnome.org/World/gfeeds) is published under GPLv3.
+- [**Feeder**](https://f-droid.org/packages/com.nononsenseapps.feeder/) - Nice Android app published on [F-droid](https://f-droid.org/) under [GPLv3](https://github.com/spacecowboy/Feeder).
+- [**Gfeeds**](https://gfeeds.gabmus.org/) - GTK based desktop RSS/Atom reader. [Source code](https://gitlab.gnome.org/World/gfeeds) is published under [GPLv3](https://gitlab.gnome.org/World/gfeeds).
 
