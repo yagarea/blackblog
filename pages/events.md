@@ -13,11 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 09\. 09\. 2026 - **[A letter for tomorrow, Umriss](https://www.facebook.com/events/s/umriss-us-a-letter-for-tomorro/1525213298924028/#)** - ? (Adam B.)
-- 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
-- 25\. 09\. 2026 - **[Deep ditch, Joyless as fvck, A letter for tomorrow](https://www.facebook.com/events/s/deep-ditch-joyless-as-fvck-a-l/1395884945840756/#)** - ? (Adam B.)
-- 27\. 09\. 2026 - **[King dude](https://obscure.cz/en/tickets/detail/id/1048)** - Subzero
-- 28\. 09\. 2026 - **[Humanity’s last breath, Vildhjarta, Enterprise earth, Karmanjakah](https://obscure.cz/cs/tickets/detail/id/1030)** - Meetfactory
 - 13\. 11\. 2026 - **[Holy fawn, Outlander](https://obscure.cz/cs/tickets/detail/id/1074)** - Strahov
 - 16\. 11\. 2026 - **[KoRn, Architects, Pixel Grip](https://www.ticketmaster.cz/event/korn-vstupenky/1472650657)** - O2 Arena (Petr S.)
 - 23\. 11\. 2026 - **[Current 93](https://www.dox.cz/en/whats-on/current-93)** - Dox
@@ -29,6 +24,11 @@ Formát je:
 ---
 
 ## Proběhlé
+- 09\. 09\. 2026 - **[A letter for tomorrow, Umriss](https://www.facebook.com/events/s/umriss-us-a-letter-for-tomorro/1525213298924028/#)** - ? (Adam B.)
+- 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
+- 25\. 09\. 2026 - **[Deep ditch, Joyless as fvck, A letter for tomorrow](https://www.facebook.com/events/s/deep-ditch-joyless-as-fvck-a-l/1395884945840756/#)** - ? (Adam B.)
+- 27\. 09\. 2026 - **[King dude](https://obscure.cz/en/tickets/detail/id/1048)** - Subzero
+- 28\. 09\. 2026 - **[Humanity’s last breath, Vildhjarta, Enterprise earth, Karmanjakah](https://obscure.cz/cs/tickets/detail/id/1030)** - Meetfactory (Honza Č.)
 - 05\.-08\. 08\. 2026 - **[Brutal Assault](https://brutalassault.cz/cs)** - Jaroměř (Honza Č., Martin K., Dakid S.)
 - 05\. 07\. 2026 - **[Author and Punisher, King Yosef](https://goout.net/en/author-and-punisher/pzywmrf/)** - Bike Jesus (Honza Č., Martin K. Pavel S. Olga C.)
 - 02\.-07\. 07\. 2026 - **[Fajtfest](https://www.fajtfest.com/)** - Velké Meziříčí (Honza Č.)
