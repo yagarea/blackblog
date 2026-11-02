@@ -19,7 +19,7 @@ Formát je:
 - 23\. 11\. 2026 - **[Current 93](https://www.dox.cz/en/whats-on/current-93)** - Dox
 - 05\. 12\. 2026 - **[Master boot record, Fulci, Arottenbit](https://obscure.cz/cs/tickets/detail/id/1039)** - Futurum
 - 15\. 12\. 2026 - **[Mental cruelty, Ov sulfur, Extermination dismemberment, Acranius](https://obscure.cz/cs/tickets/detail/id/1072)** - Rock cafe
-- 18\. 12\. 2026 - **[Hentai corpotation](https://goout.net/cs/hentai-corporation-shirimming-tour-krest-alba/szebfly/) - Palác Akropolis (Tibor)
+- 18\. 12\. 2026 - **[Hentai corpotation](https://goout.net/cs/hentai-corporation-shirimming-tour-krest-alba/szebfly/)** - Palác Akropolis (Tibor)
 - 23\. 03\. 2027 - **[KMFDM, I ya toyah](https://obscure.cz/cs/tickets/detail/id/945)** - Lucerna music bar
 - 21\. 04\. 2027 - **[Ministry, Die Krupps](https://obscure.cz/cs/tickets/detail/id/1094)** - Forum Karlín
 - 05\. 05\. 2027 - **[Sadness](https://www.ticketportal.cz/event/Sadness)** - Subzero
