@@ -455,4 +455,4 @@ Vildhjarta       | Djent     | Sweden | [Meet Factory 28.9. 2026](/music/humanit
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow, Ice T
+Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow, Ice T, LaVide
