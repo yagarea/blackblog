@@ -13,7 +13,6 @@ Formát je:
 ```
 
 ## Návrhy
-- 28\. 10\. 2026 - **[Sarasota, A letter for tomorrow, krw](https://matfyzak.cz/wp/beanie/)** - Bike Jesus
 - 13\. 11\. 2026 - **[Holy fawn, Outlander](https://obscure.cz/cs/tickets/detail/id/1074)** - Strahov
 - 16\. 11\. 2026 - **[KoRn, Architects, Pixel Grip](https://www.ticketmaster.cz/event/korn-vstupenky/1472650657)** - O2 Arena (Petr S.)
 - 23\. 11\. 2026 - **[Current 93](https://www.dox.cz/en/whats-on/current-93)** - Dox
@@ -27,6 +26,7 @@ Formát je:
 ---
 
 ## Proběhlé
+- 28\. 10\. 2026 - **[Sarasota, A letter for tomorrow, krew](https://matfyzak.cz/wp/beanie/)** - Bike Jesus
 - 09\. 09\. 2026 - **[A letter for tomorrow, Umriss](https://www.facebook.com/events/s/umriss-us-a-letter-for-tomorro/1525213298924028/#)** - ? (Adam B.)
 - 25\. 09\. 2026 - **[Spiritbox, Jinjer, Dying Wish](https://rfpconcerts.cz/concert/spiritbox/)** - Forum Karlín
 - 25\. 09\. 2026 - **[Deep ditch, Joyless as fvck, A letter for tomorrow](https://www.facebook.com/events/s/deep-ditch-joyless-as-fvck-a-l/1395884945840756/#)** - ? (Adam B.)
@@ -48,6 +48,8 @@ Formát je:
 - 25\. 01\. 2026 - **[Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath](https://www.ticketportal.cz/event/LORNA-SHORE-European-Tour)** - O2 Universum (Andy, Adam B., Honza Č.)
 - 26\. 01\. 2026 - **[Architects, Landmvrks, President](https://obscure.cz/cs/tickets/detail/id/932)** - O2 Universum
 - 19\. 02\. 2026 - **[Jinjer](https://obscure.cz/cs/tickets/detail/id/918)** - Sasazu
+
+{% details **Events of 2025** %}
 - 30\. 11\. 2025 - **[Of Mice & Men, Ghostkid](https://goout.net/cs/of-mice-and-men%2Bspecial-guest-ghostkid%2Bsupport-gore/szpnptx/)** - Meetfactory
 - 03\. 12\. 2025 - **[Rise of the Northstar, Half Me](https://obscure.cz/cs/tickets/detail/id/912)** - Palác akropolis
 - 07\. 12\. 2025 - **[All shall perish, Peeling flesh, Vulvodynia, Necrotted](https://obscure.cz/cs/tickets/detail/id/877)** - Rock Café
@@ -63,7 +65,7 @@ Formát je:
 - 24\. 09\. 2025 - **[Bleed from Within, After the Burial](https://goout.net/cs/bleed-from-within%2Bafter-the-burial%2Bgreat-american-ghost/szxjunx/)** - Meetfactory (Adam B., Honza Č., Lucka V.)
 - 14\. 02\. 2025 - **[Enterprise earth, Distant, The last ten seconds of life, Harbinger](https://obscure.cz/cs/tickets/detail/id/785)** - Rock Café
 - 19\. 08\. 2025 - **[I Prevail](https://www.sasazu-club.com/events/prevail25)** - SaSaZu (Adam B.)
-
+{% enddetails %}
 
 {% details **Events of 2024** %}
 - 15\. 12\. 2024 - **[Dying fetus, Chelsea grin, Despised icon, Vitriol](https://obscure.cz/cs/tickets/detail/id/756)** - Roxy
