@@ -26,7 +26,7 @@ latex: true
 	- Orientované – propojují vrcholy grafu jenom jedním směrem
 	- Smyčky – propojují vrchol se sebou samým
 	- Paralelní – více hran mezi dvojicí vrcholů (Multigraf)
-	- Nekonečné
+- Graf může být nekonečný – množina vrcholů nemusí být konečná
 
 ---
 
@@ -66,8 +66,8 @@ latex: true
 
 ### Bipartitní graf
 {% def %}
-Graf $$G$$ je bipartitní právě tehdy, když $$\exists$$ rozklad $$V(G) 
-X,Y$$ tak, že $$E(G) \leq \{\{x,y\} x \in X, y \in Y \}$$
+Graf $$G$$ je bipartitní právě tehdy, když $$\exists$$ rozklad $$V(G)$$ 
+na $$X,Y$$ tak, že $$E(G) \subseteq \{\{x,y\} \mid x \in X, y \in Y \}$$
 
 nebo
 
@@ -141,7 +141,7 @@ d'_1, \dots, d'_{n -1}$$ je skóre grafu:
 
 > **Důkaz:**  
 > $$\Leftarrow$$ nechť $$G'$$ je graf se skóre $$D'$$ a vrcholy $$v_1, \dots, v_{n-1}$$ tak, 
-> že $$\forall \deg_G(v_i) = d_i$$ vytvoříme $$G$$ se skórem $$D$$ doplněním vrcholu 
+> že $$\forall i: \deg_{G'}(v_i) = d'_i$$. Vytvoříme $$G$$ se skóre $$D$$ doplněním vrcholu 
 > $$v_n$$ a hran $$\{v_i,v_n\}$$ pro $$i \in \{n-d_n,\dots, n-1\}$$
 >
 >> **Lemma**: Nechť $$\mathbb{G}$$ je množina všech grafů se skóre $$D$$ vrcholech 
