@@ -388,6 +388,7 @@ Kamaara     | Horrorcore | USA | [Sub zero 25.3. 2026](/music/haunted-house-2026
 Zputnik        | Pop punk | Czechia | [Rockovej Žďár 4.3. 2026](/music/rockovej-zdar-2026-04-03/#zputnik)
 Cocotte minute | Nu metal | Czechia | [Rockovej Žďár 4.3. 2026](/music/rockovej-zdar-2026-04-03/#cocotte-minute)
 
+A letter for tomorrow | Emo | Czechia | [Kaštan 22.5. 2026](/music/a-letter-for-tomorrow-joyless-as-fvck-avant-alpa-2026-05-22/#a-letter-for-tomorrow) : [Café Na Půl Cesty 9.9. 2026](/music/a-letter-for-tomorrow-umriss-2026-09-09/#a-letter-for-tomorrow) : [Beanie 18.10. 2026](/music/beanie2026-2026-10-18/#a-letter-for-tomorrow)
 Joyless as fvck | Shoegaze | Czechia | [Kaštan 22.5. 2026](/music/a-letter-for-tommorow-joyless-as-fvck-avant-alpa-2026-05-22/#joyless-as-fvck)
 
 Vypsaná fixa        | Pop rock      | Czechia | [Rock for people 10.6. 2026](/music/1-vypsana-fixa-but-cislo-4-circus-brothers-2026-06-10/#vypsaná-fixa)
@@ -455,4 +456,4 @@ Vildhjarta       | Djent     | Sweden | [Meet Factory 28.9. 2026](/music/humanit
 Chinaski, Tomáš Klus, Jelen, Richard Müller, Kompas, Sarasota, Ahmed má hlad, Airbag, Renegát,
 Agressive tyrans, Kolosus, Magua, Schrödingerova kočka, Sdružení rodičů a přátel ropy, Čechomor,
 Cake talk, Sons of sawdust, The bottom, Wreckleberries, Infinite primate theory, Emotionally spoonfed,
-Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, A letter for tomorrow, Ice T, LaVide
+Klec, Janota1935, BBP, Michal Horák, Humbuk, Twentythree, Avant Alpa, Ice T, Umriss, LaVide
