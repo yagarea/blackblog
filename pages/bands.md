@@ -450,6 +450,9 @@ Pig                | Industrial rock        | UK      | [Brutal Assault 7.8. 202
 Enterprise earth | Deathcore | USA    | [Meet Factory 28.9. 2026](/music/humanitys-last-breath-vildhjarta-enterprise-earth-2026-09-28/#enterprise-earth)
 Vildhjarta       | Djent     | Sweden | [Meet Factory 28.9. 2026](/music/humanitys-last-breath-vildhjarta-enterprise-earth-2026-09-28/#vildhjarta)
 
+Outlander | Shoegaze  | UK  | [Strahov 007 13.11. 2026](/music/holy-fawn-outlander-2026-11-13/#outlander)
+Holy fawn | Blackgaze | USA | [Strahov 007 13.11. 2016](/music/holy-fawn-outlander-2026-11-13/#holy-fawn)
+
 {% endbands %}
 
 ## Other (random order)
